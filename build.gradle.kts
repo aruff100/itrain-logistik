@@ -13,7 +13,7 @@ plugins {
 }
 
 group = "com.example"
-version = "0.1"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -133,7 +133,8 @@ jlink {
         }
         imageName = "iTrain-Logistik"
         installerName = "iTrain-Logistik-$osLabel"
-        appVersion = "0.1"
+        // macOS verlangt eine erste Zahl ≥ 1 (Release-Lauf 09.11.2026)
+        appVersion = project.version.toString()
         vendor = "Andre Ruff"
 
         // Wird von jpackage als "--java-options" in das installierte
