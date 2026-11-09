@@ -1,0 +1,210 @@
+# iTrain-Logistik – textes des dialogues en français
+# Mêmes clés et même format que Dialogtexte.txt. Sections manquantes : allemand.
+
+=== grundzuege ===
+TITEL: Avant de commencer : comment fonctionne iTrain-Logistik
+TEXT:
+**iTrain-Logistik représente ce qui est transporté sur votre réseau : les voyageurs et les marchandises que vos trains amènent de gare en gare.**
+
+**Un fichier propre, basé sur iTrain**
+Logistique crée son propre fichier (.logz). Il contient toutes les données logistiques de votre réseau : localités, gares, entreprises et entrepôts, les stocks et les données de vos véhicules.
+Ce fichier ne fonctionne qu'avec le fichier iTrain (.tcdz) à partir duquel il a été créé. Plan des voies, cantons, gares et trains viennent d'iTrain et en forment la base. Logistique lit seulement le fichier iTrain, il ne le modifie jamais.
+Les deux doivent correspondre. Si un canton est renommé dans iTrain, un train composé autrement ou un wagon ajouté, Logistique le reprend avec le bouton **Synchroniser**. Si le fichier iTrain a été enregistré depuis la dernière synchronisation, Logistique la propose dès l'ouverture. Le .tcdz auquel le fichier logistique est lié est toujours indiqué sous le ruban.
+
+**Ce qu'iTrain ne sait pas**
+iTrain connaît la longueur, la vitesse et le décodeur d'un véhicule, mais pas combien de voyageurs une voiture accueille ni combien de tonnes de charbon y tiennent. Vous complétez ces données dans Logistique :
+- Wagons : type de wagon, plus places assises et debout ou classe de chargement et capacité
+- Automotrices et autorails : places ou capacité directement à la locomotive
+
+Logistique calcule volontairement avec chaque wagon et non avec des listes forfaitaires. Des listes forfaitaires donneraient un trafic bien trop simple ; ce n'est qu'avec les vrais wagons qu'on sait si un train a vraiment de la place pour les voyageurs en attente ou le chargement prêt. C'est pourquoi Logistique lit toutes les locomotives et tous les wagons d'iTrain à la création.
+
+**Les prochaines étapes**
+- Juste après la création, Logistique demande les capacités des wagons et automotrices. Complétez-les aussi entièrement que possible.
+- Configurez ensuite gares, localités et entreprises sous **Modifier le réseau**, le plus simplement avec l'assistant trafic.
+- En exploitation, iTrain signale quel train s'arrête où. Les voyageurs montent et descendent, et les marchandises sont chargées.
+
+
+=== einrichtung_wagen ===
+TITEL: Veuillez d'abord compléter tous les wagons
+TEXT:
+{offen} wagons sur {alle} n'ont pas encore de données complètes (type de wagon et places assises ou capacité). Sans elles, aucun train ne peut transporter de personnes ni de marchandises.
+
+Astuce : reprenez les données d'un wagon avec **Copier les données** et saisissez-les au suivant avec **Coller**.
+
+Si les wagons sont déjà saisis dans une autre configuration, **Importer des wagons...** reprend les données de son fichier de véhicules (*.fahrzeuge.xml), wagon par wagon d'après le nom.
+
+
+=== einrichtung_keine_wagen ===
+TITEL: Veuillez d'abord compléter tous les wagons
+TEXT:
+Aucun wagon n'est défini dans le .tcdz.
+
+
+=== einrichtung_triebzuege ===
+TITEL: Y a-t-il des automotrices ou des autorails ?
+TEXT:
+Dans iTrain, les automotrices sont des locomotives, mais transportent elles-mêmes des personnes ou des marchandises. Marquez-les dans la fenêtre Locomotives avec **Automotrice / autorail** et donnez-leur là des places ou une capacité.
+
+
+=== einrichtung_fertig ===
+TITEL:
+TEXT:
+Véhicules saisis. Configurez gares, localités et entreprises sous « Modifier le réseau ».
+
+
+=== assistent_bahnhoefe_vorhanden ===
+TITEL: {anzahl} gares dans le fichier iTrain
+TEXT:
+Votre fichier iTrain définit {anzahl} gares que Logistique ne connaît pas encore.
+
+L'assistant vous guide dans la configuration : pour chaque gare vous choisissez le type, et pour chaque voie si les voyageurs y montent et descendent, si des marchandises sont chargées ou s'il ne se passe rien pour l'instant.
+
+**Suivant** lance l'assistant.
+
+
+=== tcdz_geaendert ===
+TITEL: Le fichier iTrain a été modifié
+TEXT:
+« {datei} » a été modifié dans iTrain depuis la dernière synchronisation.
+
+Avec **Synchroniser maintenant**, Logistique reprend les locomotives, wagons, cantons et trains nouveaux, modifiés et supprimés. Vos propres données (places, capacités, gares, localités, entreprises) sont conservées.
+
+
+=== assistent_bahnhoefe ===
+TITEL: Configuration des gares
+TEXT:
+Pour chaque gare d'iTrain, vous définissez ici son nom, son type et ce qui se passe à ses voies.
+- **Nom** : ainsi apparaît la gare dans Logistique (le nom dans iTrain reste).
+- **Type** : gare, halte, gare de fret, gare cachée ou embranchement. Tant qu'une gare indique « Autre », on ne peut pas continuer.
+- **Voies** : **Quai** (les voyageurs montent et descendent), **Voie de chargement** (des marchandises sont chargées), **Quai et voie de chargement** (les deux sur la même voie, p. ex. dans la gare cachée) ou **Rien pour l'instant** (la voie reste libre et peut être configurée plus tard).
+- **Sur le réseau ou module** : si la gare appartient à un module, choisissez-le ou créez-en un avec **Nouveau module…**.
+
+Si vous choisissez des quais et des voies de chargement dans une gare, Logistique crée une gare voyageurs et une gare de fret accolée.
+Vous pouvez rappeler l'assistant à tout moment, par exemple pour configurer une autre voie comme quai.
+
+
+=== umgebung_personen ===
+TITEL: Trafic voyageurs activé à « {bahnhof} »
+TEXT:
+Veuillez ajouter l'environnement d'où viennent les voyageurs et où ils veulent aller.
+
+- **Ville** : beaucoup de voyageurs, grand besoin en marchandises
+- **Village** : environ moitié moins qu'une ville
+- **Rural** : peu de voyageurs, besoin surtout en denrées et fournitures agricoles
+
+Ensuite, la fenêtre d'édition s'ouvre avec toutes les données comme d'habitude. Si la localité existe déjà, choisissez **Choisir une localité existante**.
+
+
+=== umgebung_gueter ===
+TITEL: Trafic marchandises activé à « {bahnhof} »
+TEXT:
+Veuillez ajouter ce qui a besoin de marchandises ou en produit à ces voies de chargement.
+
+- **Ville, village, rural** : ont besoin de marchandises (denrées, biens, matériaux de construction …)
+- **Entreprise** : produit des marchandises et a souvent elle-même besoin de marchandises (une chaîne de fabrication)
+- **Entrepôt** : accueille des marchandises et les transmet peu à peu
+- **Échange** : les marchandises viennent de l'extérieur du réseau ou y vont
+
+Ensuite, la fenêtre d'édition s'ouvre avec toutes les données comme d'habitude.
+
+
+=== assistent_pruefung ===
+TITEL: Ce qui doit se passer sur le réseau
+TEXT:
+Le tableau montre qui fournit ou demande combien de voyageurs ou de marchandises par heure de modèle, qui est la contrepartie et si vos trains y arrivent.
+- **✓** tout est présent
+- **⚠** il manque quelque chose, par exemple un fournisseur, une destination pour les voyageurs ou un train avec des wagons adaptés
+
+Sélectionnez une ligne avec **⚠** et choisissez **Suivant** (ou double-cliquez sur la ligne) : l'assistant complète ce qui manque – une entreprise pour un besoin, plus de production pour une entreprise existante, une gare cachée s'il n'y a pas de contrepartie, un entrepôt en cas de surproduction. Ensuite le tableau réapparaît recalculé, avec tout ce qui vient d'être ajouté.
+
+
+=== lieferkette_betrieb ===
+TITEL: Chaîne pour « {ziel} »
+TEXT:
+Pour couvrir le besoin de {menge} par heure de modèle à « {ziel} », il faut intégrer une entreprise qui le produit : **{betrieb}**.
+
+**Créer une entreprise** la crée et demande à quelle gare elle se trouve. Si l'entreprise a elle-même besoin de marchandises (une chaîne de fabrication), l'assistant continue de demander.
+**De la gare cachée** fait venir la marchandise de la gare cachée à la place, donc de l'extérieur du réseau.
+
+
+=== lieferkette_vorhanden ===
+TITEL: Chaîne pour « {ziel} »
+TEXT:
+« {ziel} » a besoin de {menge} par heure de modèle. **{betrieb}** existe déjà et produit {herstellung} par heure de modèle – pour tous les clients ensemble, il manque encore {fehlt} par heure de modèle.
+
+**Augmenter « {betrieb} »** porte les exécutions par heure de modèle de {rate} à {neu}. Si l'entreprise a besoin pour cela de plus de marchandises, la vérification l'indique ensuite.
+**Créer une autre entreprise** crée un second producteur à une autre gare.
+**De la gare cachée** fait venir la part manquante de l'extérieur du réseau.
+
+
+=== lieferkette_ohne_vorlage ===
+TITEL: Chaîne pour « {ziel} »
+TEXT:
+Il n'existe pas de modèle d'entreprise pour le besoin de {menge} par heure de modèle à « {ziel} ». La marchandise peut venir de la gare cachée, donc de l'extérieur du réseau.
+
+
+=== lieferkette_ort ===
+TITEL: À quelle gare se trouve « {betrieb} » ?
+TEXT:
+L'entreprise a besoin de voies de chargement pour que les trains enlèvent ou livrent ses marchandises. Choisissez la gare – toute gare du réseau convient, sauf la gare cachée (les marchandises y viennent de l'extérieur, par voie). Si la gare n'a pas encore de voie de chargement, Logistique demande aussitôt quelle voie le devient. Si l'entreprise ne se trouve à aucune gare du réseau, choisissez **Pas sur le réseau** : elle livre alors toujours, sans train.
+
+
+=== schattenbahnhof_vorschlag ===
+TITEL: Pas de contrepartie sur le réseau
+TEXT:
+Pour {was}, il n'y a pas de contrepartie sur le réseau : ni autre gare ni gare cachée.
+
+Proposition : une **gare cachée** comme liaison avec le monde extérieur. Pour que l'échange puisse toujours avoir lieu, elle devrait
+- avoir au moins **deux voies**, une par sens de marche,
+- être aussi longue que votre plus long train,
+- être accessible par la ligne des deux côtés.
+
+Cantons libres d'iTrain utilisables pour cela : {bloecke}
+
+D'ici là, les voyageurs peuvent redescendre à leur gare de départ après un tour.
+
+
+=== ueberschuss ===
+TITEL: « {betrieb} » produit plus que nécessaire
+TEXT:
+Il reste {menge} par heure de modèle.
+
+- **Créer un entrepôt** : l'entrepôt accueille le surplus et le transmet peu à peu, la marchandise arrive ainsi pièce par pièce chez le client.
+- **Augmenter la consommation** : « {ort} » aura désormais besoin de tant de plus qu'il ne reste rien.
+
+
+=== assistent_start ===
+TITEL: Que voulez-vous faire ?
+TEXT:
+- **Gares et voies** : modifier noms, types et voies des gares, par exemple faire de la voie 3 un quai.
+- **Définir un transport** : indiquer ce qui est transporté d'où vers où.
+- **Vérifier le réseau** : voir le tableau des besoins, de la production et des voyageurs et combler les lacunes.
+
+
+=== transport ===
+TITEL: Que transporte-t-on d'où vers où ?
+TEXT:
+Choisissez des voyageurs ou une marchandise, l'origine, la destination et la quantité par heure de modèle. L'assistant inscrit besoin, production et autorisation des voies de chargement. Ce qu'il ne peut pas régler lui-même, par exemple une recette manquante, il l'indique ensuite.
+
+
+=== geraeusche_linux ===
+TITEL: Impossible de lire le son
+TEXT:
+Le son **{datei}** n'a pas pu être lu ({fehler}).
+
+Sous Linux, iTrain-Logistik a besoin des bibliothèques ffmpeg du système (libavcodec et libavformat) pour les fichiers mp3. Elles sont souvent déjà présentes ; sinon installez-les avec le gestionnaire de paquets, par exemple :
+- Debian, Ubuntu, Linux Mint : **sudo apt install ffmpeg**
+- Fedora : **sudo dnf install ffmpeg-free**
+- openSUSE : **sudo zypper install ffmpeg**
+
+Une sortie audio doit aussi être présente (ALSA, PulseAudio ou PipeWire). Redémarrez ensuite iTrain-Logistik.
+
+Les fichiers au format wav sont lus aussi sans ffmpeg. Les sons se désactivent sous Préférences → Sons.
+
+
+=== geraeusche_fehler ===
+TITEL: Impossible de lire le son
+TEXT:
+Le son **{datei}** n'a pas pu être lu ({fehler}).
+
+Veuillez vérifier qu'une sortie audio (haut-parleurs, casque) est activée et que le fichier est lisible (formats mp3, wav, m4a, aiff). Les sons se désactivent sous Préférences → Sons.

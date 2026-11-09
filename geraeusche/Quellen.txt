@@ -1,0 +1,50 @@
+Mitgelieferte Geräusche von iTrain-Logistik
+
+Alle Aufnahmen stehen unter Creative Commons 0 (CC0 1.0, gemeinfrei):
+https://creativecommons.org/publicdomain/zero/1.0/deed.de
+Eine Quellenangabe ist nicht vorgeschrieben; sie steht hier freiwillig.
+Bearbeitung: Ausschnitt von höchstens 30 s, Lautstärke angeglichen, ein-/ausgeblendet, mono 80 kbit/s.
+
+Datei            Freesound-Nr.  Urheber            Titel
+saege.mp3        566040         Pagey1969          Saw wood 3.wav
+                 https://freesound.org/people/Pagey1969/sounds/566040/
+saegewerk.mp3    528163         Breviceps          Vertical panel saw - Sawmill atmosphere - Industry saw
+                 https://freesound.org/people/Breviceps/sounds/528163/
+kettensaege.mp3  431742         Stefan021          Chainsaw - Pull to Start and Run.wav
+                 https://freesound.org/people/Stefan021/sounds/431742/
+fabrik.mp3       790753         JWS24              Factory Ambience
+                 https://freesound.org/people/JWS24/sounds/790753/
+fabrik2.mp3      439402         dersinnsspace      Industrial factory working 02.wav
+                 https://freesound.org/people/dersinnsspace/sounds/439402/
+stahlwerk.mp3    567148         sarana             Steel mill low frequency drone
+                 https://freesound.org/people/sarana/sounds/567148/
+bergwerk.mp3     572440         szegvari           Mine Machines.wav
+                 https://freesound.org/people/szegvari/sounds/572440/
+bagger.mp3       606943         eZZin              Excavator 4.wav
+                 https://freesound.org/people/eZZin/sounds/606943/
+bauernhof.mp3    488063         BenDrain           Ambience_Farm_02.wav
+                 https://freesound.org/people/BenDrain/sounds/488063/
+kuh.mp3          513565         spurioustransients Cow moo #8
+                 https://freesound.org/people/spurioustransients/sounds/513565/
+hafen.mp3        208074         Further_Roman      harbour, seagulls-48k.wav
+                 https://freesound.org/people/Further_Roman/sounds/208074/
+druckerei.mp3    94713          mr101986           Printing press room.wav
+                 https://freesound.org/people/mr101986/sounds/94713/
+webstuhl.mp3     510266         Naïma              navette de métier à tisser.wav
+                 https://freesound.org/people/Naïma/sounds/510266/
+flaschen.mp3     253338         jmayoff            Beer bottles clinking inside a box
+                 https://freesound.org/people/jmayoff/sounds/253338/
+oelpumpe.mp3     516008         Danjocross         Oil Pump AIFF.aiff
+                 https://freesound.org/people/Danjocross/sounds/516008/
+stadt.mp3        261473         ivolipa            street_ambience_day_2.wav
+                 https://freesound.org/people/ivolipa/sounds/261473/
+dorf.mp3         331442         The_Sound_Side     Village ambience rooster and light birds with wind .wav
+                 https://freesound.org/people/The_Sound_Side/sounds/331442/
+land.mp3         466073         SamuelGremaud      BIRDS IN COUNTRYSIDE – 2
+                 https://freesound.org/people/SamuelGremaud/sounds/466073/
+bahnhof.mp3      451721         florianreichelt    Underground Station in Germany
+                 https://freesound.org/people/florianreichelt/sounds/451721/
+gueterzug.mp3    381703         bengomori          8_Freight train.MP3
+                 https://freesound.org/people/bengomori/sounds/381703/
+gabelstapler.mp3 571002         soundman9826       forklift.wav
+                 https://freesound.org/people/soundman9826/sounds/571002/

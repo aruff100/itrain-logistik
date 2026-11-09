@@ -1,0 +1,4442 @@
+# iTrain-Logistik – Nederlands
+# Paare: „de:“ deutscher Text wie im Programm, „nl:“ Übersetzung. {0}, {1} … = Platzhalter, \n = Zeilenumbruch.
+# Eigene Korrekturen: Datei in <Logistik-Ordner>/sprachen/ ablegen, sie geht vor.
+
+de: \n(schon eingebaut)
+nl: \n(al ingebouwd)
+
+de: \nLinie: 
+nl: \nLijn: 
+
+de: \nNoch keine Zugverbindung über XTC
+nl: \nNog geen treinverbinding via XTC
+
+de: \nPassagiere 1. Klasse: 
+nl: \nReizigers 1e klas: 
+
+de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
+nl: \nTreingebeurtenissen komen online via XTC ({0} treinen verbonden)
+
+de:   (hält in 
+nl:   (stopt in 
+
+de:   (noch ohne Ladegleis)
+nl:   (nog geen laadspoor)
+
+de:   keine Ladegleise – im Stationsdialog ein Gleis als Ladegleis wählen
+nl:   geen laadsporen – kies in de stationsdialoog een spoor als laadspoor
+
+de:   {0}: kommt von {1}
+nl:   {0}: komt van {1}
+
+de:   {0}: noch kein Lieferant – nach dem Übernehmen in „Kreislauf prüfen“ ergänzen
+nl:   {0}: nog geen leverancier – na overnemen aanvullen in „Keten controleren“
+
+de:  (Art „Anderes“)
+nl:  (type „Overig“)
+
+de:  (Güterbahnhof)
+nl:  (goederenstation)
+
+de:  (Richtung {0})
+nl:  (richting {0})
+
+de:  (Schattenbahnhof, lagert um)
+nl:  (schaduwstation, slaat om)
+
+de:  (abgegeben alle {0} Stunden: {1} auf einmal)
+nl:  (afgegeven elke {0} uur: {1} in één keer)
+
+de:  (alle Güter)
+nl:  (alle goederen)
+
+de:  (an keinem Bahnhof)
+nl:  (aan geen station)
+
+de:  (hält)
+nl:  (stopt)
+
+de:  (kein Ladegleis zum Entladen)
+nl:  (geen laadspoor om te lossen)
+
+de:  (nicht auf der Anlage)
+nl:  (niet op de baan)
+
+de:  (nicht auf der Anlage, liefert an {0})
+nl:  (niet op de baan, levert aan {0})
+
+de:  (ohne Bahnsteig)
+nl:  (zonder perron)
+
+de:  Abnehmer.\n
+nl:  afnemers.\n
+
+de:  Lieferanten.\n
+nl:  leveranciers.\n
+
+de:  Reisende sind
+nl:  reizigers zijn
+
+de:  Reisender ist
+nl:  reiziger is
+
+de:  Richtung {0}
+nl:  richting {0}
+
+de:  Zeile mit ⚠. Bitte eine markieren, dann „Weiter“.
+nl:  regel met ⚠. Markeer er een en kies dan „Verder“.
+
+de:  Zeilen mit ⚠. Bitte eine markieren, dann „Weiter“.
+nl:  regels met ⚠. Markeer er een en kies dan „Verder“.
+
+de:  Zug
+nl:  trein
+
+de:  Züge
+nl:  treinen
+
+de:  benötigt
+nl:  nodig
+
+de:  mit „{0}“
+nl:  met „{0}“
+
+de:  · fährt ein
+nl:  · rijdt binnen
+
+de:  – Bahnhof oder Haltepunkt anlegen
+nl:  – station of halte aanleggen
+
+de:  – Benötigt: {0} · Liefert: {1}
+nl:  – Heeft nodig: {0} · Levert: {1}
+
+de:  – abholen in 
+nl:  – ophalen in 
+
+de:  – kann geliefert werden von: {0}
+nl:  – kan geleverd worden door: {0}
+
+de:  – keine Güterwagen erkannt
+nl:  – geen goederenwagons herkend
+
+de:  – mit „{0}“ verbinden
+nl:  – met „{0}“ verbinden
+
+de:  – noch nirgends zur Abholung bereit
+nl:  – nog nergens klaar om op te halen
+
+de: (Spalte {0}, Symbol)
+nl: (kolom {0}, symbool)
+
+de: (Vorgabe {0})
+nl: (standaard {0})
+
+de: (Vorgabe {0}, Browser Logistik {1})
+nl: (standaard {0}, Browser Logistiek {1})
+
+de: (alle Eingänge – unten „Liefert immer“ angehakt)
+nl: (alle ingangen – onder „Levert altijd“ aangevinkt)
+
+de: (erster Reiter, immer sichtbar)
+nl: (eerste tabblad, altijd zichtbaar)
+
+de: ,  2. Klasse: 
+nl: ,  2e klas: 
+
+de: , Joker
+nl: , joker
+
+de: 0 Hinweise
+nl: 0 meldingen
+
+de: 0 Sekunden bedeutet keine Bewertung. Sonst: Modellsekunden, die ein voller Wagen zum Beladen bzw. Entladen braucht (begrenzt das Umladen zusätzlich zum Gleis).
+nl: 0 seconden betekent geen beoordeling. Anders: modelseconden die een volle wagon nodig heeft om te laden of te lossen (beperkt het overladen naast het spoor).
+
+de: 1 Hinweis
+nl: 1 melding
+
+de: 1. Was wird transportiert?
+nl: 1. Wat wordt vervoerd?
+
+de: 2. Woher kommt es?
+nl: 2. Waar komt het vandaan?
+
+de: 3. Wer verbraucht es, wie viel?
+nl: 3. Wie verbruikt het, hoeveel?
+
+de: 4. Transport zwischen den Bahnhöfen
+nl: 4. Vervoer tussen de stations
+
+de: 5. Zusammenfassung
+nl: 5. Samenvatting
+
+de: Abbruch
+nl: Annuleren
+
+de: Abfahrt
+nl: Vertrek
+
+de: Abgeglichen: {0} Loks, {1} Wagen, {2} Blöcke, {3} Züge, Uhr-Faktor {4} (so wie zuletzt in iTrain gespeichert) aus {5}{6}{7}
+nl: Gesynchroniseerd: {0} locs, {1} wagons, {2} blokken, {3} treinen, klokfactor {4} (zoals laatst in iTrain opgeslagen) uit {5}{6}{7}
+
+de: Abgehende Güter
+nl: Uitgaande goederen
+
+de: Abgenommen
+nl: Afgenomen
+
+de: Abgeschaltete Dialoge
+nl: Uitgeschakelde dialogen
+
+de: Abgleichen
+nl: Synchroniseren
+
+de: Ablauf gespeichert: {0} Vorgänge.
+nl: Verloop opgeslagen: {0} handelingen.
+
+de: Ablauf konnte nicht gespeichert werden: {0}
+nl: Verloop kon niet worden opgeslagen: {0}
+
+de: Ablauf läuft: {0} Vorgänge über {1} s.
+nl: Verloop loopt: {0} handelingen over {1} s.
+
+de: Ablauf stoppen
+nl: Verloop stoppen
+
+de: Ablauf vollständig gestartet.
+nl: Verloop volledig gestart.
+
+de: Abläufe
+nl: Verlopen
+
+de: Abreisend
+nl: Vertrekkend
+
+de: Abreisende
+nl: Vertrekkenden
+
+de: Abreisende M/h
+nl: Vertrekkenden M/h
+
+de: Abreisende Personen
+nl: Vertrekkende personen
+
+de: Abwärts
+nl: Omlaag
+
+de: Adresse:
+nl: Adres:
+
+de: Adresse: http://{0}:{1}/modul/{2}
+nl: Adres: http://{0}:{1}/modul/{2}
+
+de: Aktion
+nl: Actie
+
+de: Aktiv
+nl: Actief
+
+de: Aktuelle schließen
+nl: Huidige sluiten
+
+de: Alle Angaben dieses Wagens (Wagenart, Plätze, Kapazität, Güter, Zeiten) in die Zwischenablage
+nl: Alle gegevens van deze wagon (soort, plaatsen, capaciteit, goederen, tijden) naar het klembord
+
+de: Alle Bahnhöfe sind bereits vollständig angeheftet.
+nl: Alle stations zijn al volledig gekoppeld.
+
+de: Alle Bestände, Wartenden, Ladungen und den offenen Bedarf auf 0 setzen (die Anlage selbst bleibt)
+nl: Alle voorraden, wachtenden, ladingen en open vraag op 0 zetten (de baan zelf blijft)
+
+de: Alle Bestände, wartenden Passagiere, offenen Bedarfe, Zugladungen und Statistiken werden auf 0 gesetzt. Objekte, Gleise und Einstellungen bleiben erhalten.
+nl: Alle voorraden, wachtende reizigers, open vraag, treinladingen en statistieken worden op 0 gezet. Objecten, sporen en instellingen blijven behouden.
+
+de: Alle Betriebe haben Lieferanten und Abnehmer.
+nl: Alle bedrijven hebben leveranciers en afnemers.
+
+de: Alle Blöcke der .tcdz
+nl: Alle blokken van de .tcdz
+
+de: Alle Blöcke sind Gleisen zugeordnet.
+nl: Alle blokken zijn aan sporen toegewezen.
+
+de: Alle Dateien
+nl: Alle bestanden
+
+de: Alle Fenster zentrieren
+nl: Alle vensters centreren
+
+de: Alle Spalten zeigen
+nl: Alle kolommen tonen
+
+de: Alle Züge
+nl: Alle treinen
+
+de: Alle anheften und fehlende Gleise ergänzen
+nl: Alle koppelen en ontbrekende sporen aanvullen
+
+de: Alle wieder anzeigen ({0})
+nl: Alle weer tonen ({0})
+
+de: Alle Änderungen seit dem Öffnen bzw. dem letzten Speichern verwerfen?
+nl: Alle wijzigingen sinds het openen of laatste opslaan verwerpen?
+
+de: Alles auf 0 gesetzt.
+nl: Alles op 0 gezet.
+
+de: Alles auf 0 setzen
+nl: Alles op 0 zetten
+
+de: Alles auf 0 setzen?
+nl: Alles op 0 zetten?
+
+de: Alles auswählen
+nl: Alles selecteren
+
+de: Alles vorhanden – nichts zu ergänzen.
+nl: Alles aanwezig – niets aan te vullen.
+
+de: Als Gleis zuordnen
+nl: Als spoor toewijzen
+
+de: Als Vorschlag speichern
+nl: Als voorstel opslaan
+
+de: Als Vorschlag speichern…
+nl: Als voorstel opslaan…
+
+de: Als eigenes Fenster lösen
+nl: Als eigen venster losmaken
+
+de: Am Bahnhof „{0}“ wird ein Lager gebraucht, damit {1} dort auf den Weitertransport warten kann.
+nl: Bij station „{0}“ is een magazijn nodig, zodat {1} daar op verder vervoer kan wachten.
+
+de: An Bahnsteigen dieser Station steigen alle ankommenden Passagiere aus
+nl: Op de perrons van dit station stappen alle aankomende reizigers uit
+
+de: An diesem Gleis angenommen und verladen: {0}
+nl: Op dit spoor aangenomen en geladen: {0}
+
+de: Anderes
+nl: Overig
+
+de: Anderes – bitte Art wählen
+nl: Overig – kies een soort
+
+de: Andocken {0}
+nl: Docken {0}
+
+de: Angaben aus der Zwischenablage übernehmen; erst „Speichern“ übernimmt sie in den Wagen
+nl: Gegevens van het klembord overnemen; pas „Opslaan“ zet ze in de wagon
+
+de: Angaben kopieren
+nl: Gegevens kopiëren
+
+de: Angebot
+nl: Aanbod
+
+de: Angebot M/h
+nl: Aanbod M/h
+
+de: Angebot wählen…
+nl: Aanbod kiezen…
+
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+nl: Aangevinkte stations hangen aan het tabblad in plaats van aan de baaninfrastructuur en staan met goederenstation, plaatsen, bedrijven en magazijnen in zijn tabblad. Ook via rechtsklik op een station „Met tabblad verbinden…“. De naam geldt voor symbool en tabblad.
+
+de: Angehalten (Rate 0)
+nl: Gestopt (tempo 0)
+
+de: Angehalten – {0} neue Zeile(n) warten
+nl: Gepauzeerd – {0} nieuwe regel(s) wachten
+
+de: Angeliefert
+nl: Aangeleverd
+
+de: Angenommene Post/Expressgut verlässt die Anlage. Erzeugt wird nur, wenn Zusteigen erlaubt ist.
+nl: Aangenomen post/expresgoed verlaat de baan. Er wordt alleen aangemaakt als instappen is toegestaan.
+
+de: Anhalten
+nl: Pauzeren
+
+de: Anhängen
+nl: Toevoegen
+
+de: Ank. {0}
+nl: Aank. {0}
+
+de: Ankommend
+nl: Aankomend
+
+de: Ankommend in dieser Modellstunde: {0}
+nl: Aankomend in dit modeluur: {0}
+
+de: Ankommende
+nl: Aankomenden
+
+de: Ankommende Güter
+nl: Inkomende goederen
+
+de: Ankommende Passagiere in dieser Modellstunde
+nl: Aankomende reizigers in dit modeluur
+
+de: Ankommende Personen
+nl: Aankomende personen
+
+de: Ankommende Reisende M/h
+nl: Aankomende reizigers M/h
+
+de: Ankommende bei {0} auf „Unbegrenzt“
+nl: Aankomenden bij {0} op „Onbeperkt“
+
+de: Anlage
+nl: Baan
+
+de: Anlage bearbeiten
+nl: Baan bewerken
+
+de: Anlage bearbeiten: Orte, Bahnhöfe, Betriebe, Lager anlegen und verbinden
+nl: Baan bewerken: plaatsen, stations, bedrijven, magazijnen aanleggen en verbinden
+
+de: Anlage prüfen
+nl: Baan controleren
+
+de: Anlage und Module im Browser zeigen (nur lesend, im Heimnetz)
+nl: Baan en modules in de browser tonen (alleen lezen, thuisnetwerk)
+
+de: Anlagen-Infrastruktur ({0})
+nl: Baaninfrastructuur ({0})
+
+de: Anlegen
+nl: Aanleggen
+
+de: Anlegen:
+nl: Aanleggen:
+
+de: Annahme
+nl: Aanname
+
+de: Annahme wählen…
+nl: Aanname kiezen…
+
+de: Anschließer
+nl: Aansluiter
+
+de: Anschluss
+nl: Aansluiting
+
+de: Ansichten
+nl: Weergaven
+
+de: Anteil 1. Klasse (%)
+nl: Aandeel 1e klas (%)
+
+de: Antriebsart
+nl: Aandrijving
+
+de: Anzahl Blöcke: {0}
+nl: Aantal blokken: {0}
+
+de: Anzeige im Browser auf einem anderen Rechner, Handy oder Tablet
+nl: Weergave in de browser op een andere computer, telefoon of tablet
+
+de: Arial
+nl: Arial
+
+de: Art
+nl: Soort
+
+de: Art einstellen!
+nl: Soort instellen!
+
+de: Art nur zwischen Stationsarten änderbar
+nl: Soort alleen tussen stationssoorten te wijzigen
+
+de: Auch in „Browser Logistik“ beim Antippen eines Kastens (einmal)
+nl: Ook in „Browser Logistiek“ bij het aantikken van een kader (eenmaal)
+
+de: Auf .tcdz zurücksetzen
+nl: Terugzetten naar .tcdz
+
+de: Auf 0 setzen
+nl: Op 0 zetten
+
+de: Auf dem anderen Rechner, Handy oder Tablet diese Adresse im Browser öffnen. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben; beim ersten Start fragt Windows meist selbst nach. Module legst du in „Anlage bearbeiten“ an (Palette „Modul“).
+nl: Open dit adres in de browser op de andere computer, telefoon of tablet. De Windows-firewall van deze computer moet de poort inkomend toestaan; bij de eerste start vraagt Windows er meestal zelf naar. Modules leg je aan in „Baan bewerken“ (palet „Module“).
+
+de: Auf der Anlage
+nl: Op de baan
+
+de: Auf der Anlage oder Name eines (neuen) Moduls
+nl: Op de baan of naam van een (nieuwe) module
+
+de: Aufgezeichneten Ablauf anzeigen, bearbeiten und abspielen
+nl: Opgenomen verloop tonen, bewerken en afspelen
+
+de: Aufwärts
+nl: Omhoog
+
+de: Aufzeichnen
+nl: Opnemen
+
+de: Aufzeichnen (0)
+nl: Opnemen (0)
+
+de: Aufzeichnen ({0})
+nl: Opnemen ({0})
+
+de: Aufzeichnung beendet – nichts aufgezeichnet.
+nl: Opname beëindigd – niets opgenomen.
+
+de: Aufzeichnung gespeichert: {0} Vorgänge ({1}).
+nl: Opname opgeslagen: {0} handelingen ({1}).
+
+de: Aufzeichnung konnte nicht gespeichert werden: {0}
+nl: Opname kon niet worden opgeslagen: {0}
+
+de: Aufzeichnung läuft – jeder Drag&Drop wird mit seinem Zeitpunkt gespeichert.
+nl: Opname loopt – elke drag & drop wordt met zijn tijdstip opgeslagen.
+
+de: Aus
+nl: Uit
+
+de: Aus Lager: {0} ({1} vorrätig)
+nl: Uit magazijn: {0} ({1} op voorraad)
+
+de: Aus der iTrain-Datei „{0}“: Maßstab 1:{1}{2}{3}{4}. Der Maßstab ist eingetragen. Eine Epoche steht nicht in der iTrain-Datei.
+nl: Uit het iTrain-bestand „{0}“: schaal 1:{1}{2}{3}{4}. De schaal is ingevuld. Een tijdperk staat niet in het iTrain-bestand.
+
+de: Ausführungen M/h
+nl: Uitvoeringen M/h
+
+de: Ausfüllen
+nl: Invullen
+
+de: Ausgang
+nl: Uitgang
+
+de: Ausgangsbestände
+nl: Uitgangsvoorraden
+
+de: Ausgangslager voll: {0}
+nl: Uitgangsmagazijn vol: {0}
+
+de: Ausgangslager {0}
+nl: Uitgangsmagazijn {0}
+
+de: Ausgeglichen
+nl: In evenwicht
+
+de: Ausgehend
+nl: Uitgaand
+
+de: Ausgestiegen
+nl: Uitgestapt
+
+de: Ausgewählte Blöcke an
+nl: Gekozen blokken naar
+
+de: Ausgewähltes Gut aus dem Zug entladen…
+nl: Gekozen goed uit de trein lossen…
+
+de: Ausgewähltes Gut in den haltenden Zug laden…
+nl: Gekozen goed in de stilstaande trein laden…
+
+de: Ausgleich über Übergabe
+nl: Vereffening via overdracht
+
+de: Auslastung
+nl: Bezetting
+
+de: Auslastung = Füllstand der Ausgangslager. Rate/h = Ausführungen des Rezepts je Modellstunde.
+nl: Bezetting = vulgraad van de uitgangsmagazijnen. Tempo/h = uitvoeringen van het recept per modeluur.
+
+de: Ausrichtung
+nl: Uitlijning
+
+de: Ausstattung
+nl: Uitrusting
+
+de: Aussteigeanteil ankommender\nPassagiere (%)
+nl: Aandeel uitstappende\nreizigers (%)
+
+de: Aussteigen erlaubt
+nl: Uitstappen toegestaan
+
+de: Aussteigende Passagiere
+nl: Uitstappende reizigers
+
+de: Aussteigende Passagiere ·
+nl: Uitstappende reizigers ·
+
+de: Auswahl
+nl: Keuze
+
+de: Auswahl öffnen
+nl: Keuze openen
+
+de: Auswahl:
+nl: Keuze:
+
+de: Automatisch (liefert immer, ohne auf der Anlage zu sein){0}
+nl: Automatisch (levert altijd, zonder op de baan te zijn){0}
+
+de: Automatisch (wird immer geliefert){0}
+nl: Automatisch (wordt altijd geleverd){0}
+
+de: Automatisch ({0}, nicht auf der Anlage)
+nl: Automatisch ({0}, niet op de baan)
+
+de: Automatisch geladen: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+nl: Automatisch geladen: {0}  ({1} locs, {2} wagons, {3} blokken, {4} treinen)
+
+de: Außenwelt: Güter, die hier bereitstehen
+nl: Buitenwereld: goederen die hier klaarstaan
+
+de: Außenwelt: Personen an diesem Bahnsteig
+nl: Buitenwereld: personen op dit perron
+
+de: Außenwelt: stellt Personen und Güter bereit und nimmt alles ab
+nl: Buitenwereld: levert personen en goederen en neemt alles af
+
+de: Backup geladen: {0}
+nl: Back-up geladen: {0}
+
+de: Backup konnte nicht geladen werden
+nl: Back-up kon niet worden geladen
+
+de: Backup laden
+nl: Back-up laden
+
+de: Backup laden...
+nl: Back-up laden...
+
+de: Bahnhof
+nl: Station
+
+de: Bahnhof in iTrain
+nl: Station in iTrain
+
+de: Bahnhof „{0}“ an die Anlagen-Infrastruktur angeheftet.
+nl: Station „{0}“ aan de baaninfrastructuur gekoppeld.
+
+de: Bahnhof:
+nl: Station:
+
+de: Bahnhöfe
+nl: Stations
+
+de: Bahnhöfe ({0})
+nl: Stations ({0})
+
+de: Bahnhöfe und Gleise
+nl: Stations en sporen
+
+de: Bahnhöfe, die an diesem Tab hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+nl: Stations die aan dit tabblad hangen (met hun goederenstations, plaatsen, bedrijven, magazijnen)
+
+de: Bahnhöfe: {0}
+nl: Stations: {0}
+
+de: Bahnsteig
+nl: Perron
+
+de: Bahnsteig und Ladegleis
+nl: Perron en laadspoor
+
+de: Bahnsteig und Ladegleis (beides an diesem Gleis)
+nl: Perron en laadspoor (beide aan dit spoor)
+
+de: Bahnsteige und Ladegleise: Es entstehen ein {0} und ein angedockter Güterbahnhof.
+nl: Perrons en laadsporen: er ontstaan een {0} en een aangekoppeld goederenstation.
+
+de: Batterie
+nl: Accu
+
+de: Bauernhof
+nl: Boerderij
+
+de: Baumwollplantage
+nl: Katoenplantage
+
+de: Bearbeiten
+nl: Bewerken
+
+de: Bearbeiten…
+nl: Bewerken…
+
+de: Bedarf
+nl: Vraag
+
+de: Bedarf = was je Modellstunde bewegt werden muss: das Größere aus Erzeugung und Verbrauch eines Guts, bei Passagieren das Aufkommen aller Orte. Kapazität = Summe der Wagen aller Züge (Felder Kapazität, Wagenladungen, aktive Güter bzw. Sitz- und Stehplätze). Ein Gut zählt nur bei Wagen, die es laden dürfen; Behälterwagen (Lade-Joker) zählen überall. Güter, die ohne Zug im selben Einzugsbereich verbraucht werden, sind hier noch mitgezählt.
+nl: Vraag = wat per modeluur verplaatst moet worden: het grootste van productie en verbruik van een goed, bij reizigers het aanbod van alle plaatsen. Capaciteit = som van de wagons van alle treinen (velden capaciteit, wagonladingen, actieve goederen resp. zit- en staanplaatsen). Een goed telt alleen bij wagons die het mogen laden; containerwagons (laadjoker) tellen overal. Goederen die zonder trein in hetzelfde verzorgingsgebied worden verbruikt, zijn hier nog meegeteld.
+
+de: Bedarf M/h
+nl: Vraag M/h
+
+de: Bedarf bei {0}
+nl: Vraag bij {0}
+
+de: Bedarf bei „{0}“: {1} je Modellstunde
+nl: Vraag bij „{0}“: {1} per modeluur
+
+de: Bedarf eintragen bei: {0}{1}
+nl: Vraag invullen bij: {0}{1}
+
+de: Bedarf je Modellstunde
+nl: Vraag per modeluur
+
+de: Bedarf muss eingestellt werden – das geht im Schritt 3.
+nl: Vraag moet worden ingesteld – dat gebeurt in stap 3.
+
+de: Bedienung des Ladegleises (Richtung kommt über XTC):
+nl: Bediening van het laadspoor (richting komt via XTC):
+
+de: Befördert Güter
+nl: Vervoert goederen
+
+de: Befördert Personen
+nl: Vervoert personen
+
+de: Behälter
+nl: Container
+
+de: Behälterwagen sind Lade-Joker: Sie laden jedes Gut, unabhängig von Ladeklasse und aktiven Gütern, bis zur Kapazität; die Mischregel gilt nicht (jedes Gut in eigenen Behältern).
+nl: Containerwagons zijn laadjokers: ze laden elk goed, ongeacht laadklasse en actieve goederen, tot de capaciteit; de mengregel geldt niet (elk goed in eigen containers).
+
+de: Beim Klick auf ein Symbol
+nl: Bij klik op een symbool
+
+de: Beispiel
+nl: Voorbeeld
+
+de: Bekohlung
+nl: Bekoling
+
+de: Belegung
+nl: Bezetting
+
+de: Benötigt / frei
+nl: Nodig / vrij
+
+de: Benötigt von: {0}
+nl: Nodig bij: {0}
+
+de: Benötigt: {0}
+nl: Heeft nodig: {0}
+
+de: Bereitgestellt
+nl: Klaargezet
+
+de: Beschreibung
+nl: Beschrijving
+
+de: Beschreibung: {0}
+nl: Beschrijving: {0}
+
+de: Bestand {0}
+nl: Voorraad {0}
+
+de: Bestände
+nl: Voorraden
+
+de: Bestände  {0}/{1}
+nl: Voorraden  {0}/{1}
+
+de: Bestände, Wartende, offenen Bedarf und Statistik dieses Objekts auf 0 setzen
+nl: Voorraden, wachtenden, open vraag en statistiek van dit object op 0 zetten
+
+de: Betrieb
+nl: Bedrijf
+
+de: Betrieb anlegen
+nl: Bedrijf aanleggen
+
+de: Betrieb bearbeiten
+nl: Bedrijf bewerken
+
+de: Betrieb mit Rezepten (Produktion, Wandlung)
+nl: Bedrijf met recepten (productie, omzetting)
+
+de: Betriebe, die Ware liefern – wo wird es gebraucht
+nl: Bedrijven die goederen leveren – waar zijn ze nodig
+
+de: Betriebswerk
+nl: Depot
+
+de: Bevölkerung
+nl: Bevolking
+
+de: Bilanz
+nl: Balans
+
+de: Bild nicht gefunden (Anfangsordner für Layout-Dateien prüfen).
+nl: Afbeelding niet gevonden (startmap voor baanbestanden controleren).
+
+de: Bitte Reisende oder ein Gut wählen.
+nl: Kies reizigers of een goed.
+
+de: Bitte die Adresse des iTrain-Computers eingeben.
+nl: Voer het adres van de iTrain-computer in.
+
+de: Bitte mindestens ein Streckengleis wählen.
+nl: Kies ten minste één trajectspoor.
+
+de: Bitte wählen, wer es verbraucht.
+nl: Kies wie het verbruikt.
+
+de: Bitte wählen, woher es kommt.
+nl: Kies waar het vandaan komt.
+
+de: Bitte zuerst eine Konfiguration öffnen.
+nl: Open eerst een configuratie.
+
+de: Bitte zuerst im Fenster „Anlage bearbeiten“ ein Symbol anklicken.
+nl: Klik eerst in het venster „Baan bewerken“ op een symbool.
+
+de: Bitte zuerst über "Datei > Öffnen..." eine .logz-Datei laden oder über "Datei > Neu aus .tcdz importieren..." neu anlegen.
+nl: Laad eerst via "Bestand > Openen..." een .logz-bestand of maak er een via "Bestand > Nieuwe configuratie...".
+
+de: Bitte „Transport von“ und „Transport nach“ wählen.
+nl: Kies „Vervoer van“ en „Vervoer naar“.
+
+de: Blau
+nl: Blauw
+
+de: Blech
+nl: Plaatstaal
+
+de: Block
+nl: Blok
+
+de: Block links auswählen.
+nl: Kies links een blok.
+
+de: Block: 
+nl: Blok: 
+
+de: Blöcke
+nl: Blokken
+
+de: Blöcke (linke Hälfte = Einfahrt von links, rechte Hälfte = von rechts)
+nl: Blokken (linkerhelft = binnenkomst van links, rechterhelft = van rechts)
+
+de: Blöcke, die einem Gleis einer Station zugeordnet sind
+nl: Blokken die aan een spoor van een station zijn toegewezen
+
+de: Blöcke, die keinem Gleis einer Station zugeordnet sind
+nl: Blokken die aan geen spoor van een station zijn toegewezen
+
+de: Blöcke: {0}
+nl: Blokken: {0}
+
+de: Brammen
+nl: Plakken
+
+de: Brauerei
+nl: Brouwerij
+
+de: Bretter
+nl: Planken
+
+de: Browser Logistik
+nl: Browser Logistiek
+
+de: Browser Logistik eingeschaltet
+nl: Browser Logistiek ingeschakeld
+
+de: Browser Logistik ist ausgeschaltet
+nl: Browser Logistiek is uitgeschakeld
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Logistik: anderen Port wählen.
+nl: Browser Logistiek kon poort {0} niet openen ({1}). Instellingen → Browser Logistiek: andere poort kiezen.
+
+de: Browser Logistik läuft: {0}
+nl: Browser Logistiek actief: {0}
+
+de: Browser Logistik...
+nl: Browser Logistiek...
+
+de: Browser Logistik: Anlage und Module im Browser (anderer Rechner, Handy, Tablet) öffnen; Einstellungen mit Port und QR-Code
+nl: Browser Logistiek: baan en modules in de browser openen (andere computer, telefoon, tablet); instellingen met poort en QR-code
+
+de: Browser Zuganzeiger
+nl: Browser Vertrekbord
+
+de: Browser Zuganzeiger eingeschaltet
+nl: Browser Vertrekbord ingeschakeld
+
+de: Browser Zuganzeiger ist ausgeschaltet
+nl: Browser Vertrekbord is uitgeschakeld
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Zuganzeiger: anderen Port wählen.
+nl: Browser Vertrekbord kon poort {0} niet openen ({1}). Instellingen → Browser Vertrekbord: andere poort kiezen.
+
+de: Browser Zuganzeiger läuft: {0}
+nl: Browser Vertrekbord actief: {0}
+
+de: Browser Zuganzeiger...
+nl: Browser Vertrekbord...
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser öffnen, auch je Bahnhof; Einstellungen mit Port und QR-Code
+nl: Browser Vertrekbord: vertrekborden in de browser openen, ook per station; instellingen met poort en QR-code
+
+de: Browser konnte nicht geöffnet werden: {0}
+nl: Browser kon niet worden geopend: {0}
+
+de: Browser: /modul/{0}
+nl: Browser: /modul/{0}
+
+de: Browser: aus
+nl: Browser: uit
+
+de: Bücher
+nl: Boeken
+
+de: Chemiefabrik
+nl: Chemische fabriek
+
+de: Chemikalien
+nl: Chemicaliën
+
+de: Coils
+nl: Coils
+
+de: Dampf
+nl: Stoom
+
+de: Das Ladegleis steht im angedockten Güterbahnhof, der Bahnsteig im Schattenbahnhof – derselbe iTrain-Block.
+nl: Het laadspoor staat in het aangekoppelde goederenstation, het perron in het schaduwstation – hetzelfde iTrain-blok.
+
+de: Datei
+nl: Bestand
+
+de: Datei geschlossen.
+nl: Bestand gesloten.
+
+de: Datei konnte nicht geöffnet werden
+nl: Bestand kon niet worden geopend
+
+de: Datei öffnen
+nl: Bestand openen
+
+de: Dateien
+nl: Bestanden
+
+de: Der Ablauf ist leer.
+nl: Het verloop is leeg.
+
+de: Der Betrieb sammelt, was er herstellt, und gibt es alle so viele Modellstunden auf einmal ab – z. B. 5 Gebinde Fisch alle 6 Stunden. Ein Lager gibt es danach Stück für Stück weiter.
+nl: Het bedrijf verzamelt wat het maakt en geeft het om de zoveel modeluren in één keer af – bijv. 5 kratten vis elke 6 uur. Een magazijn geeft het daarna stuk voor stuk door.
+
+de: Der Betrieb wird nicht gerechnet; seine Ausgangsgüter stehen allen Verbrauchern unbegrenzt zur Verfügung, ohne Zug.
+nl: Het bedrijf wordt niet doorgerekend; zijn uitgangsgoederen staan alle verbruikers onbeperkt ter beschikking, zonder trein.
+
+de: Der Block "{0}" ist schon einem anderen {1} zugeordnet. Ein Block kann höchstens ein Bahnsteig und ein Ladegleis sein.
+nl: Blok "{0}" is al aan een andere {1} toegewezen. Een blok kan hoogstens één perron en één laadspoor zijn.
+
+de: Der Dateiname beginnt mit dem Namen des Symbols, z. B. „Möbelfabrik - Holz sägen.mp3“ oder „Möbelfabrik 2.mp3“. Gesucht wird nach dem Namen des Objekts, dann nach dem Betriebstyp (Sägewerk …) und der Art (Stadt, Bahnhof …); bei mehreren Dateien zufällig. Formate mp3, wav, m4a, aiff. Mitgeliefert sind nur gemeinfreie Aufnahmen (CC0).
+nl: De bestandsnaam begint met de naam van het symbool, bijv. „Möbelfabrik - Holz sägen.mp3“ of „Möbelfabrik 2.mp3“. Gezocht wordt op de naam van het object, dan op het bedrijfstype (zagerij …) en de soort (stad, station …); bij meerdere bestanden willekeurig. Formaten mp3, wav, m4a, aiff. Meegeleverd zijn alleen rechtenvrije opnamen (CC0).
+
+de: Der Verbraucher hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden.
+nl: De verbruiker hangt aan geen station met {0} – verbind hem eerst met een station.
+
+de: Der erste Gütertransport {0}zu {1} wurde erfolgreich absolviert.
+nl: Het eerste goederenvervoer {0}naar {1} is geslaagd.
+
+de: Der erste Transfer {0}zu {1} wurde erfolgreich absolviert.
+nl: De eerste overstap {0}naar {1} is geslaagd.
+
+de: Deutsch
+nl: Deutsch
+
+de: Dialog nicht mehr anzeigen
+nl: Dialoog niet meer tonen
+
+de: Die Anlage wurde geändert.
+nl: De baan is gewijzigd.
+
+de: Die Erzeugung schwankt je Modellstunde zwischen 50 % und 150 % der Rate (im Mittel gleich). Überschuss wird am Gleis bzw. im Lager gehalten und nach Bedarf weitergegeben.
+nl: De productie schommelt per modeluur tussen 50 % en 150 % van het tempo (gemiddeld gelijk). Overschot wordt bij het spoor of in het magazijn gehouden en naar behoefte doorgegeven.
+
+de: Die Fahrzeugdatei dieser Konfiguration wurde nicht gefunden:\n{0}\n\nLokomotiven, Wagen und Züge kommen jetzt ohne eigene Angaben aus der iTrain-Datei. Mit Datei > „Fahrzeuge importieren...“ lassen sich die Angaben aus einer anderen Fahrzeugdatei holen.
+nl: Het voertuigbestand van deze configuratie is niet gevonden:\n{0}\n\nLocomotieven, wagons en treinen komen nu zonder eigen gegevens uit het iTrain-bestand. Met Bestand > „Voertuigen importeren...“ haal je de gegevens uit een ander voertuigbestand.
+
+de: Die Herkunft hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden („Mit Station verbinden…“).
+nl: De herkomst hangt aan geen station met {0} – verbind eerst met een station („Met station verbinden…“).
+
+de: Die Liste bleibt stehen, damit man in Ruhe lesen und markieren kann. Die Ereignisse werden trotzdem verarbeitet und bei „Weiter“ nachgetragen.
+nl: De lijst blijft staan, zodat je rustig kunt lezen en markeren. De gebeurtenissen worden toch verwerkt en bij „Verder“ aangevuld.
+
+de: Die eingetragenen Personen- und Gütermengen als eigenen Vorschlag speichern.
+nl: De ingevulde personen- en goederenhoeveelheden als eigen voorstel opslaan.
+
+de: Die gewählte Objektart zeigt auf der Anlage künftig das markierte Symbol.
+nl: Het gekozen objecttype toont op de baan voortaan het gemarkeerde symbool.
+
+de: Die gewählte Objektart zeigt wieder ihr eigenes Symbol.
+nl: Het gekozen objecttype toont weer zijn eigen symbool.
+
+de: Diese Zeile ist in Ordnung (✓). Bitte eine Zeile mit ⚠ markieren.
+nl: Deze regel is in orde (✓). Markeer een regel met ⚠.
+
+de: Diesel
+nl: Diesel
+
+de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
+nl: Dit object is gepauzeerd – klik om het weer te laten lopen
+
+de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+nl: Dit symbool hangt in het eerste tabblad aan de baaninfrastructuur
+
+de: Dorf
+nl: Dorp
+
+de: Drag&Drop-Vorgänge mit ihrem Zeitpunkt aufzeichnen; erneuter Klick beendet und speichert
+nl: Drag & drop-handelingen met tijdstip opnemen; opnieuw klikken stopt en slaat op
+
+de: Druckerei
+nl: Drukkerij
+
+de: Dynamisch: mal mehr, mal weniger herstellen
+nl: Dynamisch: soms meer, soms minder produceren
+
+de: Dünger
+nl: Kunstmest
+
+de: Eigene Datei {0}
+nl: Eigen bestand {0}
+
+de: Eigene Datenfelder
+nl: Eigen gegevensvelden
+
+de: Eigene Farbfläche
+nl: Eigen kleurvlak
+
+de: Eigenen Vorschlag löschen
+nl: Eigen voorstel verwijderen
+
+de: Eigener Betrieb (ohne Vorlage)
+nl: Eigen bedrijf (zonder sjabloon)
+
+de: Eigener Betrieb: Eingänge und Ausgänge stellst Du danach selbst ein.
+nl: Eigen bedrijf: ingangen en uitgangen stel je daarna zelf in.
+
+de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+nl: Eigen poort, los van Browser Logistiek. Tempo, zoom en „Geschikte treinen voorstellen“ stelt elk apparaat onderaan het bord zelf in (de browser onthoudt het), „Volledig scherm“ voor een tablet als bord. De Windows-firewall van deze computer moet de poort inkomend toestaan.
+
+de: Eigener Reiter mit den angehängten Bahnhöfen
+nl: Eigen tabblad met de gekoppelde stations
+
+de: Ein Modul
+nl: Een module
+
+de: Ein Tab
+nl: Een tabblad
+
+de: Eine Verbindung verbindet eine Station mit einem Ort, Betrieb, Lager oder einer Übergabe (Einzugsbereich). Zwei Stationen lassen sich nicht verbinden.
+nl: Een verbinding verbindt een station met een plaats, bedrijf, magazijn of overdracht (verzorgingsgebied). Twee stations kunnen niet worden verbonden.
+
+de: Einfahrt
+nl: Binnenkomst
+
+de: Einfahrt von
+nl: Binnenkomst van
+
+de: Einfügen
+nl: Plakken
+
+de: Einfügen geht im Fenster „Anlage bearbeiten“.
+nl: Plakken werkt in het venster „Baan bewerken“.
+
+de: Eingang
+nl: Ingang
+
+de: Eingangsbestände
+nl: Ingangsvoorraden
+
+de: Eingangsgüter, die immer geliefert werden
+nl: Ingangsgoederen die altijd geleverd worden
+
+de: Eingangslager {0}
+nl: Ingangsmagazijn {0}
+
+de: Eingebautes Symbol
+nl: Ingebouwd symbool
+
+de: Eingehend
+nl: Inkomend
+
+de: Eingelagert {0}/{1}
+nl: Opgeslagen {0}/{1}
+
+de: Eingestiegen
+nl: Ingestapt
+
+de: Eingestiegen Richtung 
+nl: Ingestapt richting 
+
+de: Eingänge der Betriebe – woher sie kommen
+nl: Ingangen van de bedrijven – waar komen ze vandaan
+
+de: Einheit
+nl: Eenheid
+
+de: Einheiten
+nl: Eenheden
+
+de: Einlagern in: {0}{1}
+nl: Opslaan in: {0}{1}
+
+de: Einmal beim Öffnen
+nl: Eenmaal bij openen
+
+de: Einpassen
+nl: Inpassen
+
+de: Einrichtung
+nl: Inrichting
+
+de: Einsteigende Passagiere
+nl: Instappende reizigers
+
+de: Einsteigende Passagiere ·
+nl: Instappende reizigers ·
+
+de: Einstellungen
+nl: Instellingen
+
+de: Einstellungen, Adressen und QR-Code…
+nl: Instellingen, adressen en QR-code…
+
+de: Einwohner
+nl: Inwoners
+
+de: Einwohner {0}  ·  Abreisende {1} M/h  ·  Ankommende {2}  ·  1. Klasse {3} %
+nl: Inwoners {0}  ·  vertrekkend {1} M/h  ·  aankomend {2}  ·  1e klas {3} %
+
+de: Einzelne Kapazitäten mit Einheit zeigen
+nl: Afzonderlijke capaciteiten met eenheid tonen
+
+de: Einzugsbereich
+nl: Verzorgingsgebied
+
+de: Einzugsbereich (Orte, Betriebe, Lager, Übergaben, die diese Station bedient)
+nl: Verzorgingsgebied (plaatsen, bedrijven, magazijnen, overdrachten die dit station bedient)
+
+de: Eisenerz
+nl: IJzererts
+
+de: Eisenerzbergwerk
+nl: IJzerertsmijn
+
+de: Elektrisch
+nl: Elektrisch
+
+de: Empfangen
+nl: Ontvangen
+
+de: Endprodukt
+nl: Eindproduct
+
+de: English
+nl: English
+
+de: Entfernen
+nl: Verwijderen
+
+de: Entladen
+nl: Lossen
+
+de: Entladen aller Güter erzwingen (auch ohne Abnehmer)
+nl: Lossen van alle goederen afdwingen (ook zonder afnemer)
+
+de: Entladen erlaubt
+nl: Lossen toegestaan
+
+de: Entladen in
+nl: Lossen in
+
+de: Entspricht der Zusammenstellung in der .tcdz.
+nl: Komt overeen met de samenstelling in de .tcdz.
+
+de: Epoche {0}
+nl: Tijdperk {0}
+
+de: Ereignis
+nl: Gebeurtenis
+
+de: Ereignisse
+nl: Gebeurtenissen
+
+de: Ergebnis der Prüfung
+nl: Resultaat van de controle
+
+de: Erzeugt Stück M/h
+nl: Maakt stuks M/h
+
+de: Erzeugt wird hier vom angeschlossenen Ort (Reisende aus Stadt/Dorf/Ländlich).
+nl: Hier wordt aangemaakt door de aangesloten plaats (reizigers uit stad/dorp/landelijk).
+
+de: Erzeugung und Bereitstellung: links langsamer (×0,75 … ×0,1), Mitte ×1, rechts schneller (×1,5 … ×4). Angehalten wird mit dem Knopf Pause.
+nl: Productie en aanbod: links langzamer (×0,75 … ×0,1), midden ×1, rechts sneller (×1,5 … ×4). Stoppen met de knop Pauze.
+
+de: Es fehlen 
+nl: Er ontbreken 
+
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+nl: Er is nog geen {0}. Leg er eerst een aan uit het palet „{1}“ in het eerste tabblad; het hangt aan de baaninfrastructuur.
+
+de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
+nl: Er is nog geen station, halte, goederenstation of aansluiting.
+
+de: Es gibt schon eine Aufzeichnung. Soll sie durch die neue ersetzt werden?
+nl: Er is al een opname. Moet die door de nieuwe worden vervangen?
+
+de: Es gibt ungespeicherte Änderungen. Vor dem Beenden speichern?
+nl: Er zijn niet-opgeslagen wijzigingen. Opslaan voor het afsluiten?
+
+de: Es ist keine Datei geöffnet. Der Simulator arbeitet immer mit der Datei, die in iTrain-Logistik geöffnet ist. Bitte zuerst eine Datei öffnen; danach öffnet sich der Simulator von selbst.
+nl: Er is geen bestand geopend. De simulator werkt altijd met het bestand dat in iTrain-Logistik geopend is. Open eerst een bestand; daarna opent de simulator vanzelf.
+
+de: Expressgut
+nl: Expresgoed
+
+de: Expressgut empfangen
+nl: Expresgoed ontvangen
+
+de: Fabrik
+nl: Fabriek
+
+de: Fahrtrichtungen
+nl: Rijrichtingen
+
+de: Fahrzeugdaten (*.fahrzeuge.xml)
+nl: Voertuiggegevens (*.fahrzeuge.xml)
+
+de: Fahrzeugdaten fehlen
+nl: Voertuiggegevens ontbreken
+
+de: Fahrzeuge
+nl: Voertuigen
+
+de: Fahrzeuge exportieren
+nl: Voertuigen exporteren
+
+de: Fahrzeuge exportieren...
+nl: Voertuigen exporteren...
+
+de: Fahrzeuge exportiert: {0}
+nl: Voertuigen geëxporteerd: {0}
+
+de: Fahrzeuge importieren
+nl: Voertuigen importeren
+
+de: Fahrzeuge importieren...
+nl: Voertuigen importeren...
+
+de: Fahrzeuge importiert aus {0}: {1} Lokomotiven/Wagen/Züge mit gleichem Namen übernommen, gespeichert in {2}.
+nl: Voertuigen geïmporteerd uit {0}: {1} locomotieven/wagons/treinen met dezelfde naam overgenomen, opgeslagen in {2}.
+
+de: Fahrzeuge konnten nicht exportiert werden
+nl: Voertuigen konden niet worden geëxporteerd
+
+de: Fahrzeuge konnten nicht importiert werden
+nl: Voertuigen konden niet worden geïmporteerd
+
+de: Fahrzeuge übernehmen?
+nl: Voertuigen overnemen?
+
+de: Fahrzeugfabrik
+nl: Voertuigfabriek
+
+de: Faktor der Modelluhr
+nl: Factor van de modelklok
+
+de: Faktor für die Lagergrößen
+nl: Factor voor de magazijngroottes
+
+de: Faktor für die Lagergrößen beim Anlegen eines Betriebs.\nBeispiel 0,1: Das Sägewerk-Eingangslager hat 40 statt 400 Einheiten.\nGilt für neu angelegte Betriebe.
+nl: Factor voor de magazijngroottes bij het aanleggen van een bedrijf.\nVoorbeeld 0,1: het ingangsmagazijn van de zagerij heeft 40 in plaats van 400 eenheden.\nGeldt voor nieuw aangelegde bedrijven.
+
+de: Farbe
+nl: Kleur
+
+de: Farbe des Symbols und der Verbindung
+nl: Kleur van symbool en verbinding
+
+de: Farbe für "{0}"
+nl: Kleur voor "{0}"
+
+de: Farbe:
+nl: Kleur:
+
+de: Farben: Rechtsklick auf ein Symbol, „Farbe…“
+nl: Kleuren: rechtsklik op een symbool, „Kleur…“
+
+de: Farbe…
+nl: Kleur…
+
+de: Farbstoffe
+nl: Kleurstoffen
+
+de: Fehler beim Laden von translations.properties: {0}
+nl: Fout bij laden van translations.properties: {0}
+
+de: Feld
+nl: Veld
+
+de: Fester Mittelpunkt, an dem alle Stationen hängen
+nl: Vast middelpunt waaraan alle stations hangen
+
+de: Fett
+nl: Vet
+
+de: Fisch
+nl: Vis
+
+de: Fischzucht
+nl: Viskwekerij
+
+de: Flachwagen, Drehgestell (Regelbauart)
+nl: Platte wagon, draaistel (standaard)
+
+de: Flachwagen, Drehgestell (Sonderbauart)
+nl: Platte wagon, draaistel (speciaal)
+
+de: Flachwagen, Einzelachsen (Regelbauart)
+nl: Platte wagon, losse assen (standaard)
+
+de: Flachwagen, Einzelachsen (Sonderbauart)
+nl: Platte wagon, losse assen (speciaal)
+
+de: Fleisch
+nl: Vlees
+
+de: Flüssig
+nl: Vloeibaar
+
+de: Flüssiggut
+nl: Vloeistof
+
+de: Flüssigkeiten
+nl: Vloeistoffen
+
+de: Flüssiglager
+nl: Vloeistofopslag
+
+de: Formatierung
+nl: Opmaak
+
+de: Formatierung…
+nl: Opmaak…
+
+de: Funktionen
+nl: Functies
+
+de: Führend
+nl: Leidend
+
+de: Füllung
+nl: Vulling
+
+de: Für diese Datei liegt noch keine Sicherung vor.
+nl: Voor dit bestand is nog geen back-up.
+
+de: Für {0} ist noch kein Bedarf eingestellt.
+nl: Voor {0} is nog geen vraag ingesteld.
+
+de: Für {0} wird zusätzlich gebraucht bzw. bleibt übrig.\n▼ Eingang ohne Lieferanten · ▲ Ausgang ohne Abnehmer. Unter einem neuen Betrieb stehen dessen eigene offene Enden.\n„Wird immer geliefert“: das Gut steht dem Betrieb unbegrenzt zur Verfügung, ohne Zug. Mengen werden nach dem Übernehmen automatisch abgeglichen.
+nl: Voor {0} extra nodig of over.\n▼ ingang zonder leverancier · ▲ uitgang zonder afnemer. Onder een nieuw bedrijf staan zijn eigen open einden.\n„Wordt altijd geleverd“: het goed staat het bedrijf onbeperkt ter beschikking, zonder trein. Hoeveelheden worden na het overnemen automatisch afgestemd.
+
+de: Ganze Anlage
+nl: Hele baan
+
+de: Ganze Anlage in den sichtbaren Bereich zoomen
+nl: Hele baan in het zichtbare gebied zoomen
+
+de: Gebinde
+nl: Kratten
+
+de: Gedeckter Wagen (Regelbauart)
+nl: Gesloten wagon (standaard)
+
+de: Gedeckter Wagen (Sonderbauart)
+nl: Gesloten wagon (speciaal)
+
+de: Geeignete Züge vorschlagen
+nl: Geschikte treinen voorstellen
+
+de: Gegenstück
+nl: Tegenhanger
+
+de: Gegenstück (bringt)
+nl: Tegenhanger (brengt)
+
+de: Gegenstück (nimmt auf)
+nl: Tegenhanger (neemt op)
+
+de: Gegenstück fehlt: Ein anderer Bahnhof oder der Schattenbahnhof muss ebenfalls einen Bahnsteig „Mit Koffer“ haben, sonst können Kofferreisende nirgends aussteigen.
+nl: Tegenhanger ontbreekt: een ander station of het schaduwstation moet ook een perron „Met koffer“ hebben, anders kunnen reizigers met koffer nergens uitstappen.
+
+de: Geht an
+nl: Gaat naar
+
+de: Gekoppelte Datei nicht gefunden: {0}
+nl: Gekoppeld bestand niet gevonden: {0}
+
+de: Geladen
+nl: Geladen
+
+de: Geladen Richtung 
+nl: Geladen richting 
+
+de: Gelb
+nl: Geel
+
+de: Geliefert
+nl: Geleverd
+
+de: Geliefert von
+nl: Geleverd door
+
+de: Gemischt
+nl: Gemengd
+
+de: Gemüse
+nl: Groenten
+
+de: Gepäckwagen
+nl: Bagagewagen
+
+de: Geräusch nicht abspielbar: {0} – {1}
+nl: Geluid niet af te spelen: {0} – {1}
+
+de: Geräusche
+nl: Geluiden
+
+de: Geräusche nicht ausgepackt: {0}
+nl: Geluiden niet uitgepakt: {0}
+
+de: Gesamt (Cargo-Manager)
+nl: Totaal (cargomanager)
+
+de: Gesamten Güter- und Personenaustausch anhalten
+nl: Volledige goederen- en reizigersuitwisseling pauzeren
+
+de: Gesamten Güter- und Personenaustausch starten
+nl: Volledige goederen- en reizigersuitwisseling starten
+
+de: Geschlossen
+nl: Gesloten
+
+de: Gespeichert: {0}
+nl: Opgeslagen: {0}
+
+de: Getreide
+nl: Graan
+
+de: Getränke
+nl: Dranken
+
+de: Gewerbe
+nl: Handel
+
+de: Gewicht und Volumen sind nur zur Information und werden beim Laden nicht bewertet.
+nl: Gewicht en volume zijn alleen ter informatie en worden bij het laden niet meegewogen.
+
+de: Geöffnet: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+nl: Geopend: {0}  ({1} locs, {2} wagons, {3} blokken, {4} treinen)
+
+de: Glas
+nl: Glas
+
+de: Glashütte
+nl: Glasfabriek
+
+de: Gleis
+nl: Spoor
+
+de: Gleis bearbeiten
+nl: Spoor bewerken
+
+de: Gleis hinzufügen…
+nl: Spoor toevoegen…
+
+de: Gleis:
+nl: Spoor:
+
+de: Gleis: {0} – {1} ({2})
+nl: Spoor: {0} – {1} ({2})
+
+de: Gleisanschluss eines Betriebs, Bahnsteige und Ladegleise
+nl: Spooraansluiting van een bedrijf, perrons en laadsporen
+
+de: Gleisart
+nl: Spoorsoort
+
+de: Gleise
+nl: Sporen
+
+de: Gleise (je Gleis genau ein iTrain-Block)
+nl: Sporen (per spoor precies één iTrain-blok)
+
+de: Gleise der Art Ladegleis (Güter) kommen beim Speichern in den Güterbahnhof {0}.
+nl: Sporen van de soort laadspoor (goederen) komen bij het opslaan in goederenstation {0}.
+
+de: Gleise ordnen Sie in der Station zu (Doppelklick). Einzugsbereich: Rechtsklick auf das Objekt, „Mit Station verbinden…“.
+nl: Sporen wijs je toe in het station (dubbelklik). Verzorgingsgebied: rechtsklik op het object, „Met station verbinden…“.
+
+de: Gleise wählen…
+nl: Sporen kiezen…
+
+de: Gleise/Blöcke
+nl: Sporen/blokken
+
+de: Gleise: {0}
+nl: Sporen: {0}
+
+de: Gleisname, Fahrtrichtungen und Kapazität danach in der Station einstellen.
+nl: Spoornaam, rijrichtingen en capaciteit daarna in het station instellen.
+
+de: Glückwunsch!
+nl: Gefeliciteerd!
+
+de: Grau
+nl: Grijs
+
+de: Grundbestand ergänzen
+nl: Basisvoorraad aanvullen
+
+de: Größe
+nl: Grootte
+
+de: Größe:
+nl: Grootte:
+
+de: Grün
+nl: Groen
+
+de: Gummi
+nl: Rubber
+
+de: Gummiplantage
+nl: Rubberplantage
+
+de: Gut
+nl: Goed
+
+de: Güter
+nl: Goederen
+
+de: Güter (Bedarf)
+nl: Goederen (vraag)
+
+de: Güter Bedarf
+nl: Goederen vraag
+
+de: Güter Herstellung
+nl: Goederen productie
+
+de: Güter an diesem Gleis (keins = alle)
+nl: Goederen op dit spoor (geen = alle)
+
+de: Güter fließen nur über Ladegleise. Deshalb mit dem Güterbahnhof verbunden:\n{0}
+nl: Goederen stromen alleen via laadsporen. Daarom verbonden met het goederenstation:\n{0}
+
+de: Güter können nicht verbraucht werden
+nl: Goederen kunnen niet worden verbruikt
+
+de: Güter wählen…
+nl: Goederen kiezen…
+
+de: Güter zum Transport
+nl: Goederen voor vervoer
+
+de: Güter zurück zum Empfänger, bitte abholen
+nl: Goederen terug naar de ontvanger, graag ophalen
+
+de: Güter, die die Übergabe unbegrenzt abnimmt
+nl: Goederen die de overdracht onbeperkt afneemt
+
+de: Güter, die die Übergabe unbegrenzt liefert
+nl: Goederen die de overdracht onbeperkt levert
+
+de: Güter, die dieser Wagen laden kann (Aktiv). Sind Güter aktiv, lädt der Wagen nur diese; sonst alle Güter seiner Ladeklasse. Die Kapazität verteilt sich gleichmäßig auf die Wagenladungen; nicht mischbare Güter (z.B. Flüssiggut) belegen eine Wagenladung allein.
+nl: Goederen die deze wagon kan laden (actief). Zijn goederen actief, dan laadt de wagon alleen deze; anders alle goederen van zijn laadklasse. De capaciteit verdeelt zich gelijk over de wagonladingen; niet-mengbare goederen (bijv. vloeistof) bezetten een wagonlading alleen.
+
+de: Güter-/Personenaustausch angehalten.
+nl: Goederen-/reizigersuitwisseling gepauzeerd.
+
+de: Güter-/Personenaustausch gestartet.
+nl: Goederen-/reizigersuitwisseling gestart.
+
+de: Güter...
+nl: Goederen...
+
+de: Güter: Güterbahnhof andocken (mit denselben Blöcken als Ladegleise)
+nl: Goederen: goederenstation aankoppelen (met dezelfde blokken als laadsporen)
+
+de: Güterauswahl
+nl: Goederenkeuze
+
+de: Güterbahnhof
+nl: Goederenstation
+
+de: Güterbahnhof „{0}“ angelegt
+nl: Goederenstation „{0}“ aangelegd
+
+de: Güterbedarf (offen / je Modellstunde)
+nl: Goederenvraag (open / per modeluur)
+
+de: Güterfluss je Modelltag
+nl: Goederenstroom per modeldag
+
+de: Güterverkehr
+nl: Goederenverkeer
+
+de: Güterverkehr · Next trips
+nl: Goederenverkeer · Next trips
+
+de: Halt noch {0} s von {1} s
+nl: Stop nog {0} s van {1} s
+
+de: Halte
+nl: Stops
+
+de: Haltepunkt
+nl: Halte
+
+de: Handbuch
+nl: Handleiding
+
+de: Handbuch folgt im Ordner "handbuch" - noch nicht verdrahtet.
+nl: Handleiding volgt in map "handbuch" - nog niet aangesloten.
+
+de: Hergestellt von: {0}
+nl: Gemaakt door: {0}
+
+de: Herkunft:
+nl: Herkomst:
+
+de: Herkunft: Schattenbahnhof stellt {0} je Modellstunde bereit
+nl: Herkomst: schaduwstation levert {0} per modeluur
+
+de: Herkunft: {0}
+nl: Herkomst: {0}
+
+de: Heute angekommen/ausgestiegen (+) und abgefahren/eingestiegen (−)
+nl: Vandaag aangekomen/uitgestapt (+) en vertrokken/ingestapt (−)
+
+de: Hilfe
+nl: Help
+
+de: Hilfetexte folgen im Ordner "hilfetexte" - noch nicht verdrahtet.
+nl: Helpteksten volgen in map "hilfetexte" - nog niet aangesloten.
+
+de: Hinweis
+nl: Melding
+
+de: Hinweis  ·  Ziel  ·  Abholung  ·  Zug
+nl: Melding  ·  Bestemming  ·  Ophalen  ·  Trein
+
+de: Hinzufügen
+nl: Toevoegen
+
+de: Hinzufügen/Ändern
+nl: Toevoegen/wijzigen
+
+de: Holz
+nl: Hout
+
+de: Holzfällerlager
+nl: Houthakkerskamp
+
+de: Horizontal
+nl: Horizontaal
+
+de: Horizontal:
+nl: Horizontaal:
+
+de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
+nl: Hangen aan de module in plaats van aan de baaninfrastructuur; goederenstation, plaatsen, bedrijven en magazijnen gaan mee.
+
+de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+nl: Hoogstens {0} tabbladen (tabbladen en modules). Het aantal is te wijzigen in Voorkeuren > Tabbladen.
+
+de: Höchstzahl der Reiter
+nl: Maximum aantal tabbladen
+
+de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
+nl: In de browser tonen (alleen lezen, op een andere computer, telefoon of tablet)
+
+de: Im Lager
+nl: In magazijn
+
+de: Im ZIP-Archiv "{0}" wurde keine .tcd-Datei gefunden.
+nl: In ZIP-archief "{0}" is geen .tcd-bestand gevonden.
+
+de: Im ZIP-Archiv "{0}" wurde keine XML-Datei gefunden.
+nl: In ZIP-archief "{0}" is geen XML-bestand gevonden.
+
+de: Im Zug
+nl: In de trein
+
+de: In Bahnhöfen: {0}
+nl: In stations: {0}
+
+de: In der .tcdz sind keine Bahnhöfe definiert
+nl: In de .tcdz zijn geen stations gedefinieerd
+
+de: In der Zwischenablage ist kein kopiertes Symbol.
+nl: Op het klembord staat geen gekopieerd symbool.
+
+de: In der Zwischenablage stehen keine Wagen-Angaben. Bitte zuerst bei einem Wagen „Angaben kopieren“ drücken.
+nl: Op het klembord staan geen wagongegevens. Druk eerst bij een wagon op „Gegevens kopiëren“.
+
+de: In der Übersicht zeigen
+nl: In het overzicht tonen
+
+de: In iTrain definierte Bahnhöfe anheften oder öffnen
+nl: In iTrain gedefinieerde stations koppelen of openen
+
+de: In iTrain ein sonstiger Bahnhof (z. B. Betriebswerk). Solange „Anderes“ gewählt ist, halten Züge hier ohne Ein-/Aussteigen und ohne Umladen.
+nl: In iTrain een overig station (bijv. depot). Zolang „Overig“ gekozen is, stoppen treinen hier zonder in-/uitstappen en zonder overladen.
+
+de: In iTrain sind keine Zugrouten angelegt – die Verbindung kann nicht geprüft werden.
+nl: In iTrain zijn geen treinroutes aangelegd – de verbinding kan niet worden gecontroleerd.
+
+de: Industrie
+nl: Industrie
+
+de: Industrien
+nl: Industrieën
+
+de: Inhalt
+nl: Inhoud
+
+de: Ist dieser Bahnhof auf der Anlage oder ein Modul?
+nl: Ligt dit station op de baan of is het een module?
+
+de: Ja, Lokomotiven zeigen
+nl: Ja, locomotieven tonen
+
+de: Je Bahnhof
+nl: Per station
+
+de: Je Fahrtrichtung
+nl: Per rijrichting
+
+de: Je Gut
+nl: Per goed
+
+de: Je Ladeklasse
+nl: Per laadklasse
+
+de: Jetzt abgleichen
+nl: Nu synchroniseren
+
+de: Jetzt prüfen
+nl: Nu controleren
+
+de: Kann Expressgut mitnehmen
+nl: Kan expresgoed meenemen
+
+de: Kann Expressgut mitnehmen ({0} Stück)
+nl: Kan expresgoed meenemen ({0} stuks)
+
+de: Kann Post mitnehmen
+nl: Kan post meenemen
+
+de: Kann Post mitnehmen ({0} Postsäcke)
+nl: Kan post meenemen ({0} postzakken)
+
+de: Kann nur in iTrain verändert werden.
+nl: Kan alleen in iTrain worden gewijzigd.
+
+de: Kapazität
+nl: Capaciteit
+
+de: Kapazität = Einheiten je Gut (Abholung bzw. Anlieferung), Umladen = Einheiten je Modellminute
+nl: Capaciteit = eenheden per goed (ophalen resp. aanleveren), overladen = eenheden per modelminuut
+
+de: Kapazität = Wartende je Richtung, Umladen = Personen je Modellminute
+nl: Capaciteit = wachtenden per richting, overladen = personen per modelminuut
+
+de: Kapazität Einheit
+nl: Capaciteit eenheid
+
+de: Kapazität aller Züge je Fahrt
+nl: Capaciteit van alle treinen per rit
+
+de: Kapazität gesamt (Einheiten)
+nl: Capaciteit totaal (eenheden)
+
+de: Kapazität je Einheit
+nl: Capaciteit per eenheid
+
+de: Kapazität passender Wagen je Fahrt
+nl: Capaciteit van geschikte wagons per rit
+
+de: Kapazitäten
+nl: Capaciteiten
+
+de: Kein Bild hinterlegt.
+nl: Geen afbeelding opgeslagen.
+
+de: Kein Ladegleis
+nl: Geen laadspoor
+
+de: Kein Modul
+nl: Geen module
+
+de: Kein Rezept
+nl: Geen recept
+
+de: Kein Tab
+nl: Geen tabblad
+
+de: Kein freier Bahnhof.
+nl: Geen vrij station.
+
+de: Keine Bahnhöfe
+nl: Geen stations
+
+de: Keine Betriebe mit Eingängen
+nl: Geen bedrijven met ingangen
+
+de: Keine Blöcke in der Datei
+nl: Geen blokken in het bestand
+
+de: Keine Datei geladen.
+nl: Geen bestand geladen.
+
+de: Keine Datei geöffnet
+nl: Geen bestand geopend
+
+de: Keine Dialoge abgeschaltet.
+nl: Geen dialogen uitgeschakeld.
+
+de: Keine Einträge
+nl: Geen items
+
+de: Keine Konfiguration geöffnet.
+nl: Geen configuratie geopend.
+
+de: Keine Quelle gewählt
+nl: Geen bron gekozen
+
+de: Keine Reisenden möglich, weiterer Bahnhof nötig:\n
+nl: Geen reizigers mogelijk, extra station nodig:\n
+
+de: Keine Station – im Editor per Rechtsklick „Mit Station verbinden…“ zuordnen.
+nl: Geen station – in de editor via rechtsklik „Met station verbinden…“ toewijzen.
+
+de: Keine Stationsart: {0}
+nl: Geen stationssoort: {0}
+
+de: Keine Zugroute fährt beide Bahnhöfe an. Umsteigen über einen Bahnhof dazwischen ist möglich (oben gewählt).
+nl: Geen treinroute rijdt beide stations aan. Overstappen via een station ertussen is mogelijk (hierboven gekozen).
+
+de: Keine Zugroute verbindet die beiden Bahnhöfe – bitte in iTrain eine Zugroute anlegen.
+nl: Geen treinroute verbindt de beide stations – leg in iTrain een treinroute aan.
+
+de: Keine Züge in der Datei
+nl: Geen treinen in het bestand
+
+de: Keine freie Station.
+nl: Geen vrij station.
+
+de: Keine freien Blöcke
+nl: Geen vrije blokken
+
+de: Keine freien Blöcke (alle gehören Gleisen oder anderen Modulen).
+nl: Geen vrije blokken (alle horen bij sporen of andere modules).
+
+de: Keine freien Blöcke – Gleise später in der Station zuordnen.
+nl: Geen vrije blokken – sporen later in het station toewijzen.
+
+de: Keine gekoppelte .tcdz-Datei hinterlegt.
+nl: Geen gekoppeld .tcdz-bestand opgeslagen.
+
+de: Keine iTrain-Datei geöffnet bzw. nicht lesbar – Werte bitte von Hand eintragen.
+nl: Geen iTrain-bestand geopend of niet leesbaar – waarden met de hand invullen.
+
+de: Keine offenen Enden.
+nl: Geen open einden.
+
+de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
+nl: Geen open einden: elke vraag heeft een tegenhanger.
+
+de: Keine weiteren Reiter
+nl: Geen verdere tabbladen
+
+de: Keinem Gleis zugeordnet (Strecke).
+nl: Aan geen spoor toegewezen (traject).
+
+de: Kesselwagen
+nl: Ketelwagen
+
+de: Kleidung
+nl: Kleding
+
+de: Kleine Station, Bahnsteige und Ladegleise
+nl: Klein station, perrons en laadsporen
+
+de: Klick auf ein Symbol öffnet die Details ·
+nl: Klik op een symbool opent de details ·
+
+de: Klicken: Gut zum Verladen bereitstellen
+nl: Klikken: goed klaarzetten om te laden
+
+de: Koffer
+nl: Koffers
+
+de: Kohle
+nl: Kolen
+
+de: Kohlebergwerk
+nl: Kolenmijn
+
+de: Kohleverbrauch kg/km
+nl: Kolenverbruik kg/km
+
+de: Kohlevorrat Tonnen
+nl: Kolenvoorraad ton
+
+de: Konnte nicht aus .tcdz angelegt werden
+nl: Kon niet uit .tcdz worden aangelegd
+
+de: Konnte nicht gespeichert werden
+nl: Kon niet worden opgeslagen
+
+de: Konnte nicht mit der .tcdz abgeglichen werden
+nl: Kon niet met de .tcdz worden gesynchroniseerd
+
+de: Konserven
+nl: Conserven
+
+de: Konservenfabrik
+nl: Conservenfabriek
+
+de: Kopie der Anlage fehlgeschlagen
+nl: Kopie van de baan mislukt
+
+de: Kopieren
+nl: Kopiëren
+
+de: Kopieren geht im Fenster „Anlage bearbeiten“: Symbol anklicken, dann Kopieren.
+nl: Kopiëren werkt in het venster „Baan bewerken“: symbool aanklikken, dan Kopiëren.
+
+de: Kreislauf
+nl: Keten
+
+de: Kreislauf prüfen
+nl: Keten controleren
+
+de: Kreislauf prüfen…
+nl: Keten controleren…
+
+de: Kunststoff
+nl: Kunststof
+
+de: Kursiv
+nl: Cursief
+
+de: Kühlwagen
+nl: Koelwagen
+
+de: Lade-Joker: lädt jedes Gut
+nl: Laadjoker: laadt elk goed
+
+de: Ladegleis
+nl: Laadspoor
+
+de: Ladegleis einrichten
+nl: Laadspoor inrichten
+
+de: Ladegleise eines Bahnhofs, Haltepunkts oder Schattenbahnhofs kommen in dessen Güterbahnhof (wird bei Bedarf angelegt)
+nl: Laadsporen van een station, halte of schaduwstation komen in zijn goederenstation (wordt zo nodig aangelegd)
+
+de: Ladegleise für {0}: {1}
+nl: Laadsporen voor {0}: {1}
+
+de: Ladegut
+nl: Lading
+
+de: Ladegüter
+nl: Ladingen
+
+de: Ladeklasse
+nl: Laadklasse
+
+de: Ladeklassen (keine = alle)
+nl: Laadklassen (geen = alle)
+
+de: Laden
+nl: Laden
+
+de: Laden erlaubt
+nl: Laden toegestaan
+
+de: Laden in
+nl: Laden in
+
+de: Laden/Entladen bzw. Ein-/Aussteigen auch ohne Halt (bei der Durchfahrt)
+nl: Laden/lossen resp. in-/uitstappen ook zonder stop (bij doorrijden)
+
+de: Ladungszustand
+nl: Laadtoestand
+
+de: Lager
+nl: Magazijn
+
+de: Lager anlegen
+nl: Magazijn aanleggen
+
+de: Lager bearbeiten
+nl: Magazijn bewerken
+
+de: Lager für Güter
+nl: Magazijn voor goederen
+
+de: Lager hinzufügen. Die Kapazitäten am Bahnhof sind erschöpft
+nl: Magazijn toevoegen. De capaciteit van het station is uitgeput
+
+de: Lagergrößen…
+nl: Magazijngroottes…
+
+de: Lagerhalle
+nl: Loods
+
+de: Lagerkapazitäten (Einheiten)
+nl: Magazijncapaciteiten (eenheden)
+
+de: Lagerplatz
+nl: Opslagplaats
+
+de: Langgut
+nl: Lang goed
+
+de: Langsamer
+nl: Langzamer
+
+de: Lauflicht auf den Verbindungen (Sekunden)
+nl: Looplicht op de verbindingen (seconden)
+
+de: Lautstärke
+nl: Volume
+
+de: Legt ein Symbol an, das nur aus einem farbigen Quadrat besteht (Platzhalter ohne eigene .svg-Datei).
+nl: Maakt een symbool dat alleen uit een gekleurd vierkant bestaat (plaatshouder zonder eigen .svg-bestand).
+
+de: Legt fehlende mitgelieferte Geräusche (CC0) wieder in den Ordner; eigene Dateien bleiben
+nl: Zet ontbrekende meegeleverde geluiden (CC0) terug in de map; eigen bestanden blijven
+
+de: Lehm
+nl: Leem
+
+de: Lehmgrube
+nl: Leemgroeve
+
+de: Lieferkette für „{0}“
+nl: Keten voor „{0}“
+
+de: Liefert Expressgut
+nl: Levert expresgoed
+
+de: Liefert Post
+nl: Levert post
+
+de: Liefert Post {0} M/h, Expressgut {1} M/h
+nl: Levert post {0} M/h, expresgoed {1} M/h
+
+de: Liefert alle
+nl: Levert elke
+
+de: Liefert immer (nicht auf der Anlage)
+nl: Levert altijd (niet op de baan)
+
+de: Liefert immer, ohne auf der Anlage zu sein
+nl: Levert altijd, zonder op de baan te zijn
+
+de: Liefert immer, ohne auf der Anlage zu sein.
+nl: Levert altijd, zonder op de baan te zijn.
+
+de: Liefert unbegrenzt
+nl: Levert onbeperkt
+
+de: Liefert: {0}
+nl: Levert: {0}
+
+de: Liegt am Bahnhof:
+nl: Ligt bij station:
+
+de: Liest den Symbolordner (Voreinstellungen > Pfade) erneut, z. B. nach dem Hinzufügen eigener .svg-Dateien.
+nl: Leest de symboolmap (Voorkeuren > Paden) opnieuw, bijv. na het toevoegen van eigen .svg-bestanden.
+
+de: Linksbündig
+nl: Links uitgelijnd
+
+de: Linux: Für mp3 braucht das Programm die ffmpeg-Bibliotheken des Systems (z. B. „sudo apt install ffmpeg“) und einen Tonausgang; wav geht auch ohne ffmpeg.
+nl: Linux: voor mp3 heeft het programma de ffmpeg-bibliotheken van het systeem nodig (bijv. „sudo apt install ffmpeg“) en een geluidsuitgang; wav werkt ook zonder ffmpeg.
+
+de: Liste leeren (nur die Anzeige; an der Logistik ändert sich nichts).
+nl: Lijst leegmaken (alleen de weergave; aan de logistiek verandert niets).
+
+de: Liste wieder mitlaufen lassen; was beim Anhalten ankam, wird oben eingefügt.
+nl: Lijst weer laten meelopen; wat tijdens het pauzeren binnenkwam, wordt bovenaan ingevoegd.
+
+de: Liter
+nl: Liter
+
+de: Logistik Daten
+nl: Logistiekgegevens
+
+de: Logistik-Datei (.logz) öffnen
+nl: Logistiekbestand (.logz) openen
+
+de: Logistik-Datei speichern
+nl: Logistiekbestand opslaan
+
+de: Logistik-Datei öffnen
+nl: Logistiekbestand openen
+
+de: Logistik-Datei: {0}\nVerknüpfte iTrain-Anlage: {1}\n„Abgleichen“ liest diese .tcdz. Ändern: Datei > iTrain Datei neu einlesen...{2}
+nl: Logistiekbestand: {0}\nGekoppelde iTrain-baan: {1}\n„Synchroniseren“ leest deze .tcdz. Wijzigen: Bestand > iTrain-bestand opnieuw inlezen...{2}
+
+de: Logistikdaten
+nl: Logistiekgegevens
+
+de: Lok
+nl: Loc
+
+de: Lok hinzufügen…
+nl: Loc toevoegen…
+
+de: Lokomotive hinzufügen
+nl: Locomotief toevoegen
+
+de: Lokomotive links auswählen.
+nl: Kies links een locomotief.
+
+de: Lokomotiven
+nl: Locomotieven
+
+de: Lokomotiven, Wagen, Blöcke, Züge, Belegung, Symbole und Güter
+nl: Locomotieven, wagons, blokken, treinen, bezetting, symbolen en goederen
+
+de: Ländlich
+nl: Landelijk
+
+de: Ländlicher Ort mit wenig Aufkommen
+nl: Landelijke plaats met weinig verkeer
+
+de: Läuft
+nl: Actief
+
+de: Löschen
+nl: Verwijderen
+
+de: Löscht eine selbst angelegte Farbfläche. .svg-Dateien bitte im Symbolordner entfernen.
+nl: Verwijdert een zelf aangelegd kleurvlak. .svg-bestanden graag in de symboolmap verwijderen.
+
+de: M/h = je Modellstunde
+nl: M/h = per modeluur
+
+de: M/h = je Modellstunde. 0 Abreisende = keine Personen, sie erscheinen dann auch nicht im Symbol. Ankommende: so viele steigen hier je Modellstunde höchstens aus; „Unbegrenzt“ = beliebig viele. „Kreislauf prüfen“ sucht für beide Werte ein Gegenstück.
+nl: M/h = per modeluur. 0 vertrekkenden = geen personen, ze verschijnen dan ook niet in het symbool. Aankomenden: zoveel stappen hier per modeluur hoogstens uit; „Onbeperkt“ = willekeurig veel. „Keten controleren“ zoekt voor beide waarden een tegenhanger.
+
+de: Mangel
+nl: Tekort
+
+de: Maschinen
+nl: Machines
+
+de: Maschinenfabrik
+nl: Machinefabriek
+
+de: Maßstab (1:x)
+nl: Schaal (1:x)
+
+de: Mehrere Rezepte (Nummer 1, 2, …) sind Alternativen: es läuft das erste, für das alle Eingänge vorrätig sind.
+nl: Meerdere recepten (nummer 1, 2, …) zijn alternatieven: het eerste waarvoor alle ingangen op voorraad zijn, loopt.
+
+de: Menge
+nl: Hoeveelheid
+
+de: Menge (Einheiten)
+nl: Hoeveelheid (eenheden)
+
+de: Menge je Ausführung
+nl: Hoeveelheid per uitvoering
+
+de: Menge je Modellstunde:
+nl: Hoeveelheid per modeluur:
+
+de: Mischbar in einer Wagenladung
+nl: Mengbaar in één wagonlading
+
+de: Mit Koffer ({0} % der Reisenden haben einen Koffer und brauchen einen Gepäckwagen im Zug)
+nl: Met koffer ({0} % van de reizigers heeft een koffer en heeft een bagagewagen in de trein nodig)
+
+de: Mit Koffer: davon warten so viele mit Koffer (brauchen einen Gepäckwagen im Zug)
+nl: Met koffer: zoveel daarvan wachten met koffer (hebben een bagagewagen in de trein nodig)
+
+de: Mit Modul verbinden
+nl: Met module verbinden
+
+de: Mit Modul verbinden…
+nl: Met module verbinden…
+
+de: Mit Station verbinden…
+nl: Met station verbinden…
+
+de: Mit Tab verbinden
+nl: Met tabblad verbinden
+
+de: Mit Tab verbinden…
+nl: Met tabblad verbinden…
+
+de: Mit der .tcdz abgleichen: Loks, Wagen, Blöcke, Züge und Zugrouten neu aus iTrain lesen
+nl: Met de .tcdz synchroniseren: locs, wagons, blokken, treinen en treinroutes opnieuw uit iTrain lezen
+
+de: Mit iTrain abgleichen
+nl: Met iTrain synchroniseren
+
+de: Mitgelieferte wiederherstellen
+nl: Meegeleverde herstellen
+
+de: Modelluhr in einem eigenen Fenster zeigen (Zeit und Faktor aus iTrain)
+nl: Modelklok in een eigen venster tonen (tijd en factor uit iTrain)
+
+de: Modellzeit
+nl: Modeltijd
+
+de: Modul
+nl: Module
+
+de: Modul bearbeiten
+nl: Module bewerken
+
+de: Modul „{0}“
+nl: Module „{0}“
+
+de: Möbel
+nl: Meubels
+
+de: Möbelfabrik
+nl: Meubelfabriek
+
+de: Nachfrage
+nl: Vraag
+
+de: Nachfrage heute
+nl: Vraag vandaag
+
+de: Name
+nl: Naam
+
+de: Name (optional)
+nl: Naam (optioneel)
+
+de: Name des Moduls, zu dem „{0}“ gehört
+nl: Naam van de module waartoe „{0}“ behoort
+
+de: Name des ersten Reiters
+nl: Naam van het eerste tabblad
+
+de: Name des neuen Guts
+nl: Naam van het nieuwe goed
+
+de: Name und Art
+nl: Naam en soort
+
+de: Name:
+nl: Naam:
+
+de: Name: {0}
+nl: Naam: {0}
+
+de: Nein
+nl: Nee
+
+de: Neu angelegt aus {0}: {1}  ({2} Loks, {3} Wagen, {4} Blöcke, {5} Züge)
+nl: Nieuw aangelegd uit {0}: {1}  ({2} locs, {3} wagons, {4} blokken, {5} treinen)
+
+de: Neu eingefügt – an die gewünschte Stelle ziehen
+nl: Nieuw ingevoegd – naar de gewenste plek slepen
+
+de: Neu einlesen
+nl: Opnieuw inlezen
+
+de: Neue Farbfläche...
+nl: Nieuw kleurvlak...
+
+de: Neue Konfiguration
+nl: Nieuwe configuratie
+
+de: Neue Konfiguration...
+nl: Nieuwe configuratie...
+
+de: Neue Logistik-Datei speichern unter...
+nl: Nieuw logistiekbestand opslaan als...
+
+de: Neuer Bahnhof für {0} (Gleise wählen)
+nl: Nieuw station voor {0} (sporen kiezen)
+
+de: Neuer Betrieb
+nl: Nieuw bedrijf
+
+de: Neuer Betrieb „{0}“ {1}
+nl: Nieuw bedrijf „{0}“ {1}
+
+de: Neuer Betrieb: {0}
+nl: Nieuw bedrijf: {0}
+
+de: Neuer Betrieb: {0}{1}
+nl: Nieuw bedrijf: {0}{1}
+
+de: Neuer Haltepunkt für {0} (Gleise wählen)
+nl: Nieuwe halte voor {0} (sporen kiezen)
+
+de: Neuer Name – gilt für den Reiter und das Symbol
+nl: Nieuwe naam – geldt voor tabblad en symbool
+
+de: Neuer Schattenbahnhof (Gleise wählen)
+nl: Nieuw schaduwstation (sporen kiezen)
+
+de: Neues Dorf mit Haltepunkt (Gleise wählen)
+nl: Nieuw dorp met halte (sporen kiezen)
+
+de: Neues Feld
+nl: Nieuw veld
+
+de: Neues Gut
+nl: Nieuw goed
+
+de: Neues Gut…
+nl: Nieuw goed…
+
+de: Neues Modul
+nl: Nieuwe module
+
+de: Neues Modul…
+nl: Nieuwe module…
+
+de: Neues Symbol
+nl: Nieuw symbool
+
+de: Nicht auf der Anlage (liefert bzw. nimmt automatisch)
+nl: Niet op de baan (levert resp. neemt automatisch)
+
+de: Nicht auf der Anlage (liefert immer)
+nl: Niet op de baan (levert altijd)
+
+de: Nicht übernehmen
+nl: Niet overnemen
+
+de: Nimmt ab
+nl: Neemt af
+
+de: Nimmt an
+nl: Neemt aan
+
+de: Nimmt jedes Gut ab
+nl: Neemt elk goed af
+
+de: Noch kein Ereignis von diesem Zug empfangen.
+nl: Nog geen gebeurtenis van deze trein ontvangen.
+
+de: Noch keine Gleise. Über "Bearbeiten…" Gleise mit iTrain-Blöcken anlegen.
+nl: Nog geen sporen. Via "Bewerken…" sporen met iTrain-blokken aanleggen.
+
+de: Noch keine Tabs oder Module – in „Anlage bearbeiten“ aus der Palette anlegen.
+nl: Nog geen tabbladen of modules – in „Baan bewerken“ uit het palet aanleggen.
+
+de: Noch nichts aufgezeichnet – „Anhängen“ fügt einen Vorgang hinzu.
+nl: Nog niets opgenomen – „Toevoegen“ voegt een handeling toe.
+
+de: Noch zu erledigen
+nl: Nog te doen
+
+de: Nur Einfahrt rückwärts (iTrain „prev“)
+nl: Alleen binnenkomst achteruit (iTrain „prev“)
+
+de: Nur Einfahrt vorwärts (iTrain „next“)
+nl: Alleen binnenkomst vooruit (iTrain „next“)
+
+de: Nur Güter der gewählten Ladeklasse zeigen
+nl: Alleen goederen van de gekozen laadklasse tonen
+
+de: Nur Ladegleise: Sie kommen in einen angedockten Güterbahnhof.
+nl: Alleen laadsporen: ze komen in een aangekoppeld goederenstation.
+
+de: Nur dieses Objekt anhalten; alles andere läuft weiter
+nl: Alleen dit object pauzeren; al het andere loopt door
+
+de: Nur dieses Objekt ist angehalten; alles andere läuft weiter. Fortsetzen im Detailfenster mit „▶ Start“.
+nl: Alleen dit object is gepauzeerd; al het andere loopt door. Verder in het detailvenster met „▶ Start“.
+
+de: Nächste Fahrten
+nl: Volgende ritten
+
+de: Nötige volle Fahrten je Modellstunde
+nl: Benodigde volle ritten per modeluur
+
+de: Oben
+nl: Boven
+
+de: Objektart wählen
+nl: Objectsoort kiezen
+
+de: Objektart:
+nl: Objectsoort:
+
+de: Offen
+nl: Open
+
+de: Offen lassen
+nl: Open laten
+
+de: Offene Enden: {0}
+nl: Open einden: {0}
+
+de: Offene Güter
+nl: Open goederen
+
+de: Offener Wagen (Regelbauart)
+nl: Open wagon (standaard)
+
+de: Offener Wagen (Sonderbauart)
+nl: Open wagon (speciaal)
+
+de: Offener Wagen für Mehrzweckverwendung
+nl: Open wagon voor meervoudig gebruik
+
+de: Orange
+nl: Oranje
+
+de: Ordner
+nl: Map
+
+de: Ordner der Geräusche
+nl: Map met geluiden
+
+de: Ordner fuer Logistik-Dateien konnte nicht angelegt werden: {0}
+nl: Map voor logistiekbestanden kon niet worden aangelegd: {0}
+
+de: Ordner für die Fahrzeugdatei konnte nicht angelegt werden: {0}
+nl: Map voor het voertuigbestand kon niet worden aangelegd: {0}
+
+de: Ordner lässt sich nicht öffnen: {0}
+nl: Map kan niet worden geopend: {0}
+
+de: Ordner neu einlesen
+nl: Map opnieuw inlezen
+
+de: Ordner öffnen
+nl: Map openen
+
+de: Ort
+nl: Plaats
+
+de: Ort mit Passagieren und Güterbedarf
+nl: Plaats met reizigers en goederenvraag
+
+de: Orte, die Ware benötigen – wer liefert an
+nl: Plaatsen die goederen nodig hebben – wie levert
+
+de: Pakete
+nl: Pakketten
+
+de: Panoramawagen
+nl: Panoramarijtuig
+
+de: Papier
+nl: Papier
+
+de: Papierfabrik
+nl: Papierfabriek
+
+de: Passagiere
+nl: Reizigers
+
+de: Passagiere im Zug
+nl: Reizigers in de trein
+
+de: Passagiere, die abfahren – wer nimmt sie auf
+nl: Vertrekkende reizigers – wie neemt ze op
+
+de: Passagiere, die ankommen – wer bringt sie
+nl: Aankomende reizigers – wie brengt ze
+
+de: Pause
+nl: Pauze
+
+de: Pers
+nl: Pers
+
+de: Personen
+nl: Personen
+
+de: Personen je Modellstunde von außerhalb
+nl: Personen per modeluur van buiten
+
+de: Personen-/Gepäckwagen
+nl: Reizigers-/bagagerijtuig
+
+de: Personenbahnhof
+nl: Reizigersstation
+
+de: Personenbahnhof, nur Bahnsteige
+nl: Reizigersstation, alleen perrons
+
+de: Personengleise
+nl: Reizigerssporen
+
+de: Personenverkehr
+nl: Reizigersverkeer
+
+de: Personenverkehr · Next trips
+nl: Reizigersverkeer · Next trips
+
+de: Pfeil Ein-/Aussteigen
+nl: Pijl in-/uitstappen
+
+de: Pflicht (Anwender 09.11.2026): das Gleis, das von diesem Modul zum nächsten führt. Ohne Gleis lässt sich das Modul nicht speichern.
+nl: Verplicht (gebruiker 09.11.2026): het spoor dat van deze module naar de volgende leidt. Zonder spoor kan de module niet worden opgeslagen.
+
+de: Plätze
+nl: Plaatsen
+
+de: Port {0} antwortet, aber nicht wie iTrain-XTC
+nl: Poort {0} antwoordt, maar niet zoals iTrain-XTC
+
+de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
+nl: Poort {0} hoort al bij Browser Logistiek – kies een andere.
+
+de: Port:
+nl: Poort:
+
+de: Position und Tempo ausblenden
+nl: Positie en snelheid verbergen
+
+de: Post
+nl: Post
+
+de: Post empfangen
+nl: Post ontvangen
+
+de: Post und Expressgut
+nl: Post en expresgoed
+
+de: Post und Expressgut an diesem Bahnsteig
+nl: Post en expresgoed op dit perron
+
+de: Postwagen
+nl: Postwagen
+
+de: Produkt
+nl: Product
+
+de: Produktion
+nl: Productie
+
+de: Produziert
+nl: Geproduceerd
+
+de: Programm beenden
+nl: Programma afsluiten
+
+de: Prüfe {0}:{1} …
+nl: Controleer {0}:{1} …
+
+de: Prüfe …
+nl: Controleer …
+
+de: Prüfung
+nl: Controle
+
+de: Quelle
+nl: Bron
+
+de: Quelle: Simulator{0}
+nl: Bron: simulator{0}
+
+de: Quelle: iTrain (XTC nicht verbunden)
+nl: Bron: iTrain (XTC niet verbonden)
+
+de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
+nl: Bron: iTrain (XTC {0}, {1}/{2} treinen verbonden)
+
+de: Quellen der mitgelieferten Geräusche.txt
+nl: Bronnen van de meegeleverde geluiden.txt
+
+de: Rahmen
+nl: Rand
+
+de: Rahmen anzeigen
+nl: Rand tonen
+
+de: Raster anzeigen, Symbole rasten darauf ein
+nl: Raster tonen, symbolen klikken erop vast
+
+de: Raummeter
+nl: Kubieke meter
+
+de: Rechner mit iTrain (Name oder IP-Adresse)
+nl: Computer met iTrain (naam of IP-adres)
+
+de: Rechnername
+nl: Computernaam
+
+de: Rechnername (mDNS)
+nl: Computernaam (mDNS)
+
+de: Rechtsbündig
+nl: Rechts uitgelijnd
+
+de: Reifen
+nl: Banden
+
+de: Reifenfabrik
+nl: Bandenfabriek
+
+de: Reisende
+nl: Reizigers
+
+de: Reisende 1/2
+nl: Reizigers 1/2
+
+de: Reisende an Bord: 1. Klasse / 2. Klasse
+nl: Reizigers aan boord: 1e klas / 2e klas
+
+de: Reisende aus bzw. nach „{0}“
+nl: Reizigers uit resp. naar „{0}“
+
+de: Reisende je Modellstunde:
+nl: Reizigers per modeluur:
+
+de: Reisende kommen aus Stadt, Dorf oder Ländlich (über deren Bahnhof) oder von außerhalb über den Schattenbahnhof und fahren zu einem anderen Bahnhof.
+nl: Reizigers komen uit stad, dorp of landelijk (via hun station) of van buiten via het schaduwstation en rijden naar een ander station.
+
+de: Reisende warten in {0}{1} (meiste an {2}) – {3}
+nl: Reizigers wachten in {0}{1} (meeste op {2}) – {3}
+
+de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
+nl: Reizigers: willen op reis en gaan elke {0} modelminuten samen naar het station (groen looplicht)
+
+de: Reiter
+nl: Tabbladen
+
+de: Reiter umbenennen
+nl: Tabblad hernoemen
+
+de: Reiter „{0}“
+nl: Tabblad „{0}“
+
+de: Rezept
+nl: Recept
+
+de: Rezept: {0}
+nl: Recept: {0}
+
+de: Rezepte
+nl: Recepten
+
+de: Rezepte, die es herstellen: {0}
+nl: Recepten die het maken: {0}
+
+de: Richtung
+nl: Richting
+
+de: Richtung {0}
+nl: Richting {0}
+
+de: Richtungen
+nl: Richtingen
+
+de: Rohstoff
+nl: Grondstof
+
+de: Rohstoffe
+nl: Grondstoffen
+
+de: Rohöl
+nl: Ruwe olie
+
+de: Rot
+nl: Rood
+
+de: Rot: Transport nötig · Gelb: über ein Lager lösbar · Grün: nichts offen (Farben wie im +Cargo-Cargo-Manager). Umladen von Hand ist zum Testen gedacht.
+nl: Rood: vervoer nodig · Geel: via een magazijn op te lossen · Groen: niets open (kleuren zoals in de +Cargo-cargomanager). Handmatig overladen is bedoeld om te testen.
+
+de: Route
+nl: Route
+
+de: Routen
+nl: Routes
+
+de: Routen sind die Zugrouten aus der .tcdz. Ein Zug gehört zu der Route, die den Block enthält, in dem er zuletzt gemeldet wurde.
+nl: Routes zijn de treinroutes uit de .tcdz. Een trein hoort bij de route die het blok bevat waarin hij het laatst gemeld is.
+
+de: Rx/Tx Simulator
+nl: Rx/Tx simulator
+
+de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
+nl: Rx/Tx is pas beschikbaar als onder Instellingen „iTrain“ of „Simulator“ gekozen is.
+
+de: Rx/Tx iTrain (XTC){0}
+nl: Rx/Tx iTrain (XTC){0}
+
+de: Salonwagen
+nl: Salonrijtuig
+
+de: Sand
+nl: Zand
+
+de: Sandbaggerschiff
+nl: Zandzuiger
+
+de: Sandgrube
+nl: Zandgroeve
+
+de: Schattenbahnhof
+nl: Schaduwstation
+
+de: Schattenbahnhof (verlässt die Anlage)
+nl: Schaduwstation (verlaat de baan)
+
+de: Schattenbahnhof anlegen
+nl: Schaduwstation aanleggen
+
+de: Schattenbahnhof nur noch über Gleise: Verbindung gelöst – {0}. Reisende und Güter je Gleis im Schattenbahnhof einstellen.
+nl: Schaduwstation alleen nog via sporen: verbinding verbroken – {0}. Reizigers en goederen per spoor in het schaduwstation instellen.
+
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Angeschlossen werden keine Orte, Betriebe oder Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+nl: Schaduwstation: reizigers en goederen komen van buiten in het schaduwstation – per spoor ingesteld (perron: reizigers per modeluur, laadspoor: aanbod per goed). Een spoor kan tegelijk perron en laadspoor zijn (twee keer met hetzelfde blok aanleggen). Laadsporen komen bij het opslaan in een aangekoppeld goederenstation. Er worden geen plaatsen, bedrijven of magazijnen aangesloten. Laden en lossen gebeurt al bij het doorrijden, zonder stop.
+
+de: Schlafwagen
+nl: Slaaprijtuig
+
+de: Schließen
+nl: Sluiten
+
+de: Schneller
+nl: Sneller
+
+de: Schrift
+nl: Lettertype
+
+de: Schuppen
+nl: Loods
+
+de: Schwarz
+nl: Zwart
+
+de: Schüttgut
+nl: Stortgoed
+
+de: Senkrecht (abwärts)
+nl: Verticaal (omlaag)
+
+de: Senkrecht (aufwärts)
+nl: Verticaal (omhoog)
+
+de: Sicherung:
+nl: Back-up:
+
+de: Simulator
+nl: Simulator
+
+de: Simulator Verbindung
+nl: Simulatorverbinding
+
+de: Simulator: {0} {1}{2}
+nl: Simulator: {0} {1}{2}
+
+de: Sitzplätze 1. Klasse
+nl: Zitplaatsen 1e klas
+
+de: Sitzplätze 2. Klasse
+nl: Zitplaatsen 2e klas
+
+de: Sitzplätze 3. Klasse
+nl: Zitplaatsen 3e klas
+
+de: Sitzplätze 4. Klasse
+nl: Zitplaatsen 4e klas
+
+de: Solange das Fenster offen ist
+nl: Zolang het venster open is
+
+de: Sonderwagen
+nl: Speciale wagon
+
+de: Sonstige
+nl: Overige
+
+de: Spalten zeigen
+nl: Kolommen tonen
+
+de: Speichern
+nl: Opslaan
+
+de: Speichern und Schließen
+nl: Opslaan en sluiten
+
+de: Speisewagen
+nl: Restauratierijtuig
+
+de: Sperrgut
+nl: Volumineus goed
+
+de: Später
+nl: Later
+
+de: Stadt
+nl: Stad
+
+de: Stadt/Dorf/Ländlich: {0}
+nl: Stad/dorp/landelijk: {0}
+
+de: Stahl
+nl: Staal
+
+de: Stahlwerk
+nl: Staalfabriek
+
+de: Standard
+nl: Standaard
+
+de: Standardeinheit der Ladeklasse {0}: {1}.
+nl: Standaardeenheid van laadklasse {0}: {1}.
+
+de: Start
+nl: Start
+
+de: Start (s)
+nl: Start (s)
+
+de: Start = Sekunden nach Beginn des Ablaufs. Entf löscht, Tab springt weiter, Return bearbeitet.
+nl: Start = seconden na het begin van het verloop. Del verwijdert, Tab springt verder, Return bewerkt.
+
+de: Station
+nl: Station
+
+de: Station / Gleis / Zug
+nl: Station / spoor / trein
+
+de: Station mit Ladegleisen, auch zu einem Bahnhof gehörend
+nl: Station met laadsporen, ook horend bij een station
+
+de: Stationen
+nl: Stations
+
+de: Stationen (mit Gbf, Orten, Betrieben, Lagern)
+nl: Stations (met goederenstation, plaatsen, bedrijven, magazijnen)
+
+de: Stationen, die an diesem Modul hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+nl: Stations die aan deze module hangen (met hun goederenstations, plaatsen, bedrijven, magazijnen)
+
+de: Stationen: {0}
+nl: Stations: {0}
+
+de: Statistik je Modelltag
+nl: Statistiek per modeldag
+
+de: Status
+nl: Status
+
+de: Stehplätze
+nl: Staanplaatsen
+
+de: Stehplätze (zählen zur 2. Klasse)
+nl: Staanplaatsen (tellen als 2e klas)
+
+de: Stein
+nl: Steen
+
+de: Steinbruch
+nl: Steengroeve
+
+de: Stoff
+nl: Stof
+
+de: Strecke: Gleis von Modul zu Modul (mindestens eins)
+nl: Traject: spoor van module naar module (minstens één)
+
+de: Strecke: {0}
+nl: Traject: {0}
+
+de: Strecke: {0} von {1} Blöcken ohne Gleis
+nl: Traject: {0} van {1} blokken zonder spoor
+
+de: Strecken-Blöcke des Moduls
+nl: Trajectblokken van de module
+
+de: Stufe
+nl: Niveau
+
+de: Stunden (0 = laufend)
+nl: Uren (0 = doorlopend)
+
+de: Städte
+nl: Steden
+
+de: Stück
+nl: Stuks
+
+de: Stück M/h
+nl: Stuks M/h
+
+de: Stückgut
+nl: Stukgoed
+
+de: Symbol
+nl: Symbool
+
+de: Symbol kopiert.
+nl: Symbool gekopieerd.
+
+de: Symbol oder Block wählen
+nl: Symbool of blok kiezen
+
+de: Symbol zuweisen
+nl: Symbool toewijzen
+
+de: Symbole auf der Anlage
+nl: Symbolen op de baan
+
+de: Symbole verwalten
+nl: Symbolen beheren
+
+de: System
+nl: Systeem
+
+de: Sägespäne
+nl: Zaagsel
+
+de: Sägewerk
+nl: Zagerij
+
+de: Tab
+nl: Tabblad
+
+de: Tab bearbeiten
+nl: Tabblad bewerken
+
+de: Tabellen öffnen oder im Hauptfenster andocken
+nl: Tabellen openen of in het hoofdvenster docken
+
+de: Tabs und Module zusammen, ohne den ersten Reiter
+nl: Tabbladen en modules samen, zonder het eerste tabblad
+
+de: Tag {0}
+nl: Dag {0}
+
+de: Tag {0}, {1}
+nl: Dag {0}, {1}
+
+de: Tankinhalt Liter
+nl: Tankinhoud liter
+
+de: Tankstelle
+nl: Tankstation
+
+de: Text
+nl: Tekst
+
+de: Text „{0}“ fehlt in {1}.
+nl: Tekst „{0}“ ontbreekt in {1}.
+
+de: Text:
+nl: Tekst:
+
+de: Textilfabrik
+nl: Textielfabriek
+
+de: Textrichtung:
+nl: Tekstrichting:
+
+de: Tiefe: 3D (Schatten)
+nl: 3D (schaduw)
+
+de: Tiertransport
+nl: Veevervoer
+
+de: Tonnen
+nl: Ton
+
+de: Transport festlegen
+nl: Vervoer vastleggen
+
+de: Transport nach:
+nl: Vervoer naar:
+
+de: Transport von „{0}“{1} nach „{2}“
+nl: Vervoer van „{0}“{1} naar „{2}“
+
+de: Transport von:
+nl: Vervoer van:
+
+de: Transport über:
+nl: Vervoer via:
+
+de: Treibstoff
+nl: Brandstof
+
+de: Triebzug
+nl: Treinstel
+
+de: Triebzug / Triebwagen: befördert selbst Personen oder Güter
+nl: Treinstel / motorwagen: vervoert zelf personen of goederen
+
+de: Triebzug Güter
+nl: Treinstel goederen
+
+de: Triebzug Personen
+nl: Treinstel personen
+
+de: Triebzug: befördert selbst – Personen, Güter oder beides. Die Angaben gelten für den ganzen Triebzug.
+nl: Treinstel: vervoert zelf – personen, goederen of beide. De gegevens gelden voor het hele treinstel.
+
+de: Trocken
+nl: Droog
+
+de: Typ (iTrain)
+nl: Type (iTrain)
+
+de: Typ: {0}
+nl: Type: {0}
+
+de: Uhr
+nl: Klok
+
+de: Uhr nach iTrain gestellt: {0}
+nl: Klok naar iTrain gezet: {0}
+
+de: Umbenennen…
+nl: Hernoemen…
+
+de: Umgelagert
+nl: Overgeslagen
+
+de: Umladen in
+nl: Overladen in
+
+de: Umladen je Modellminute
+nl: Overladen per modelminuut
+
+de: Unbegrenzt
+nl: Onbeperkt
+
+de: Unbekannt
+nl: Onbekend
+
+de: Unbekannt: Zug „{0}“ oder Block „{1}“ – übersprungen.
+nl: Onbekend: trein „{0}“ of blok „{1}“ – overgeslagen.
+
+de: Unten
+nl: Onder
+
+de: Update
+nl: Update
+
+de: Update-Prüfung ist in diesem ersten Gerüst noch nicht angebunden.
+nl: Updatecontrole is in dit eerste raamwerk nog niet aangesloten.
+
+de: Verbindung prüfen
+nl: Verbinding controleren
+
+de: Verbindung zu iTrain
+nl: Verbinding met iTrain
+
+de: Verbindung zu iTrain...
+nl: Verbinding met iTrain...
+
+de: Verbindung {0} – zugehöriger {1} · grün: zum Güterbahnhof · rot: von ihm weg
+nl: Verbinding {0} – bijbehorend {1} · groen: naar het goederenstation · rood: ervan weg
+
+de: Verbindung {0} – {1} · grün: zur Station · rot: von der Station weg · Rechtsklick: Linienstärke
+nl: Verbinding {0} – {1} · groen: naar het station · rood: van het station weg · rechtsklik: lijndikte
+
+de: Verbrauch auf 100km (Vorbild)
+nl: Verbruik per 100 km (voorbeeld)
+
+de: Verbrauch erhöhen
+nl: Verbruik verhogen
+
+de: Verbrauch: Schattenbahnhof nimmt es ab
+nl: Verbruik: schaduwstation neemt het af
+
+de: Verbrauch: {0}
+nl: Verbruik: {0}
+
+de: Verbraucher:
+nl: Verbruiker:
+
+de: Verbraucht
+nl: Verbruikt
+
+de: Verfügbar
+nl: Beschikbaar
+
+de: Verkehr Schritt für Schritt aufbauen: Bahnhöfe, Gleise, Umgebung, Lieferketten
+nl: Verkeer stap voor stap opbouwen: stations, sporen, omgeving, ketens
+
+de: Verkehrs-Assistent – Einrichtung Bahnhöfe
+nl: Verkeersassistent – inrichting stations
+
+de: Verkehrs-Assistent – Prüfung
+nl: Verkeersassistent – controle
+
+de: Verkehrs-Assistent – Transport festlegen
+nl: Verkeersassistent – vervoer vastleggen
+
+de: Verkehrs-Assistent…
+nl: Verkeersassistent…
+
+de: Verknüpft mit {0}.\n\nDaten aus dieser Datei jetzt übernehmen?
+nl: Gekoppeld met {0}.\n\nGegevens uit dit bestand nu overnemen?
+
+de: Verknüpfte .tcdz geändert
+nl: Gekoppelde .tcdz gewijzigd
+
+de: Vernichtet
+nl: Vernietigd
+
+de: Versand
+nl: Verzending
+
+de: Versand heute
+nl: Verzending vandaag
+
+de: Versorgung
+nl: Bevoorrading
+
+de: Versorgung heute
+nl: Bevoorrading vandaag
+
+de: Vertikal:
+nl: Verticaal:
+
+de: Verwendet für
+nl: Gebruikt voor
+
+de: Verwendet: {0}
+nl: Gebruikt: {0}
+
+de: Verwerfen
+nl: Verwerpen
+
+de: Viehzuchtbetrieb
+nl: Veehouderij
+
+de: Vom Schattenbahnhof
+nl: Van het schaduwstation
+
+de: Vom Schattenbahnhof (kommt von außerhalb der Anlage)
+nl: Van het schaduwstation (komt van buiten de baan)
+
+de: Von beiden Seiten
+nl: Van beide kanten
+
+de: Von und nach sind derselbe Bahnhof – kein Transport nötig.
+nl: Van en naar zijn hetzelfde station – geen vervoer nodig.
+
+de: Voreinstellung der Ladeklasse
+nl: Voorinstelling van de laadklasse
+
+de: Voreinstellungen
+nl: Voorkeuren
+
+de: Vorerst nichts
+nl: Voorlopig niets
+
+de: Vorgabe nach Größe (Stadt, Dorf, Ländlich) als Anteil der Abreisenden. Wird am Bahnsteig in Personenzüge mit Wagen „Kann Post/Expressgut mitnehmen“ geladen.
+nl: Standaard naar grootte (stad, dorp, landelijk) als aandeel van de vertrekkenden. Wordt op het perron geladen in reizigerstreinen met rijtuigen „Kan post/expresgoed meenemen“.
+
+de: Vorgang
+nl: Handeling
+
+de: Vorgang starten – aufgezeichneter Ablauf
+nl: Verloop starten – opgenomen verloop
+
+de: Vorgang starten…
+nl: Verloop starten…
+
+de: Vorgänge erscheinen hier, je Zug eine Tabelle.
+nl: Handelingen verschijnen hier, per trein een tabel.
+
+de: Vorhanden: {0}{1}
+nl: Aanwezig: {0}{1}
+
+de: Vorhandene Erzeuger anpassen (mehr herstellen)
+nl: Bestaande producenten aanpassen (meer maken)
+
+de: Vorhandenen Ort wählen
+nl: Bestaande plaats kiezen
+
+de: Vorhandenes wählen
+nl: Bestaand kiezen
+
+de: Vorlage
+nl: Sjabloon
+
+de: Vorlage wählen.\nRohstoffbetriebe brauchen Dünger, Werkzeuge oder Maschinen als Eingang.\nDanach zeigt „Zusätzlich erforderlich“, was der Betrieb noch braucht.
+nl: Sjabloon kiezen.\nGrondstofbedrijven hebben kunstmest, gereedschap of machines als ingang nodig.\nDaarna toont „Extra nodig“ wat het bedrijf nog nodig heeft.
+
+de: Vorlage:
+nl: Sjabloon:
+
+de: Vorschau:
+nl: Voorbeeld:
+
+de: Vorschlag
+nl: Voorstel
+
+de: Vorschlag Ländlich
+nl: Voorstel landelijk
+
+de: Vorschlag für ein Dorf
+nl: Voorstel voor een dorp
+
+de: Vorschlag für eine Stadt
+nl: Voorstel voor een stad
+
+de: Vorschlag „{0}“ gespeichert.
+nl: Voorstel „{0}“ opgeslagen.
+
+de: Vorschlag…
+nl: Voorstel…
+
+de: Wagen
+nl: Wagon
+
+de: Wagen ergänzen
+nl: Wagons aanvullen
+
+de: Wagen hinzufügen
+nl: Wagon toevoegen
+
+de: Wagen hinzufügen…
+nl: Wagon toevoegen…
+
+de: Wagen importieren...
+nl: Wagons importeren...
+
+de: Wagen links auswählen.
+nl: Kies links een wagon.
+
+de: Wagen mit öffnungsfähigem Dach
+nl: Wagon met opklapbaar dak
+
+de: Wagenart
+nl: Wagonsoort
+
+de: Wagenbauart
+nl: Wagonbouw
+
+de: Wagenladungen
+nl: Wagonladingen
+
+de: Wandlung
+nl: Omzetting
+
+de: Warten
+nl: Wachten
+
+de: Wartend
+nl: Wachtend
+
+de: Wartende Personen
+nl: Wachtende personen
+
+de: Wartende Personen (1. Klasse / 2. Klasse): {0}
+nl: Wachtende personen (1e klas / 2e klas): {0}
+
+de: Wartende Personen Richtung {0}
+nl: Wachtende personen richting {0}
+
+de: Wartende/Kapazität
+nl: Wachtenden/capaciteit
+
+de: Wartet
+nl: Wacht
+
+de: Wartet auf Eingang: {0}
+nl: Wacht op ingang: {0}
+
+de: Wartezeit-Zähler ausblenden
+nl: Wachttijdteller verbergen
+
+de: Was soll passieren
+nl: Wat moet er gebeuren
+
+de: Was:
+nl: Wat:
+
+de: Wasserstoff
+nl: Waterstof
+
+de: Wasserverbrauch Liter/km
+nl: Waterverbruik liter/km
+
+de: Wasservorrat Kubikmeter
+nl: Watervoorraad kubieke meter
+
+de: Weberei
+nl: Weverij
+
+de: Weicht von der Zusammenstellung in der .tcdz ab (eigene, erweiterte Daten).
+nl: Wijkt af van de samenstelling in de .tcdz (eigen, uitgebreide gegevens).
+
+de: Weiter
+nl: Verder
+
+de: Weiter >
+nl: Verder >
+
+de: Weiteren Betrieb anlegen
+nl: Nog een bedrijf aanleggen
+
+de: Weiß
+nl: Wit
+
+de: Welcher Betrieb liegt an den Ladegleisen von „{0}“?
+nl: Welk bedrijf ligt aan de laadsporen van „{0}“?
+
+de: Welcher Ort, Betrieb, welches Lager oder welche Übergabe?
+nl: Welke plaats, welk bedrijf, magazijn of welke overdracht?
+
+de: Welcher Ort?
+nl: Welke plaats?
+
+de: Welches Gleis soll Ladegleis werden? Ein Bahnsteig kann zugleich Ladegleis sein. {0}
+nl: Welk spoor moet laadspoor worden? Een perron kan tegelijk laadspoor zijn. {0}
+
+de: Werkzeuge
+nl: Gereedschap
+
+de: Werkzeugfabrik
+nl: Gereedschapsfabriek
+
+de: Wert
+nl: Waarde
+
+de: Wie viel Kapazität eines {0}-Wagens (in {1}) eine Einheit {2} belegt. Beispiel: 10 – ein Wagen mit Kapazität 20 lädt 2.
+nl: Hoeveel capaciteit van een {0}-wagon (in {1}) een eenheid {2} inneemt. Voorbeeld: 10 – een wagon met capaciteit 20 laadt 2.
+
+de: Wie viel der Wagen insgesamt aufnimmt, in der gewählten Einheit (Gebinde und Stück zählen gleich). Hat ein Gut eine eigene Einheit (z. B. Brammen zu je 10), belegt jede Einheit entsprechend mehr. Welche Kapazitäten gebraucht werden, zeigt Tabellen > Kapazitäten.
+nl: Hoeveel de wagon in totaal opneemt, in de gekozen eenheid (kratten en stuks tellen gelijk). Heeft een goed een eigen eenheid (bijv. plakken van 10), dan neemt elke eenheid navenant meer in. Welke capaciteiten nodig zijn, toont Tabellen > Capaciteiten.
+
+de: Wird immer geliefert
+nl: Wordt altijd geleverd
+
+de: Wo läuft iTrain?
+nl: Waar draait iTrain?
+
+de: Wolle
+nl: Wol
+
+de: Wollen verreisen: {0} (gehen alle {1} Modellminuten zum Bahnhof)
+nl: Willen op reis: {0} (gaan elke {1} modelminuten naar het station)
+
+de: Wurzel
+nl: Wortel
+
+de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
+nl: Kies de blokken die in iTrain bij het schaduwstation horen, en per blok of daar {0}. Het beste één spoor per rijrichting.
+
+de: XTC antwortet nicht
+nl: XTC antwoordt niet
+
+de: XTC-Port (Vorgabe {0})
+nl: XTC-poort (standaard {0})
+
+de: Zeit
+nl: Tijd
+
+de: Zeit (Trigger)
+nl: Tijd (trigger)
+
+de: Zeit für Beladen
+nl: Tijd voor laden
+
+de: Zeit für Beladen (Sekunden)
+nl: Tijd voor laden (seconden)
+
+de: Zeit für Entladen
+nl: Tijd voor lossen
+
+de: Zeit für Entladen (Sekunden)
+nl: Tijd voor lossen (seconden)
+
+de: Zement
+nl: Cement
+
+de: Zementwerk
+nl: Cementfabriek
+
+de: Zentriert
+nl: Gecentreerd
+
+de: Ziegel
+nl: Bakstenen
+
+de: Ziegelei
+nl: Steenfabriek
+
+de: Ziehen ordnet an (mit Umschalt rastet die Verbindung gerade im 90°-Winkel ein) · rechten Rand ziehen = Breite · Anschluss: Rechtsklick „Mit Station verbinden…“ · Doppelklick bearbeitet · Rechtsklick: Farbe/Löschen, auf einer Linie: Linienstärke · Palette: klicken oder auf die Fläche ziehen
+nl: Slepen ordent (met Shift klikt de verbinding recht in een hoek van 90° vast) · rechterrand slepen = breedte · aansluiting: rechtsklik „Met station verbinden…“ · dubbelklik bewerkt · rechtsklik: kleur/verwijderen, op een lijn: lijndikte · palet: klikken of op het vlak slepen
+
+de: Ziele nehmen nur {0} M/h auf
+nl: Bestemmingen nemen maar {0} M/h op
+
+de: Zirkus
+nl: Circus
+
+de: Zoom
+nl: Zoom
+
+de: Zoom:
+nl: Zoom:
+
+de: Zu wenig Platz an den Ladegleisen für: {0}.\nEin Lager an diesem Bahnhof nimmt auf, was die Gleise nicht halten können, und gibt es nach und nach weiter.
+nl: Te weinig ruimte op de laadsporen voor: {0}.\nEen magazijn bij dit station neemt op wat de sporen niet kunnen houden en geeft het geleidelijk door.
+
+de: Zu „{0}“ gibt es schon Fahrzeugdaten ({1}: Angaben zu Lokomotiven, Wagen und Zügen).\n\n„Übernehmen“: diese Konfiguration benutzt sie mit; Änderungen gelten auch für die anderen Konfigurationen dieser Anlage.\n„Nicht übernehmen“: eigene, leere Fahrzeugdaten.
+nl: Voor „{0}“ zijn al voertuiggegevens ({1}: gegevens over locomotieven, wagons en treinen).\n\n„Overnemen“: deze configuratie gebruikt ze mee; wijzigingen gelden ook voor de andere configuraties van deze baan.\n„Niet overnemen“: eigen, lege voertuiggegevens.
+
+de: Zug
+nl: Trein
+
+de: Zug links auswählen.
+nl: Kies links een trein.
+
+de: Zug mit passenden Wagen
+nl: Trein met geschikte wagons
+
+de: Zug von links auf die linke oder rechte Seite eines Blocks ziehen.
+nl: Trein van links op de linker- of rechterkant van een blok slepen.
+
+de: Zug {0}
+nl: Trein {0}
+
+de: Zug {0}{1}
+nl: Trein {0}{1}
+
+de: Zug:
+nl: Trein:
+
+de: Zuganzeiger
+nl: Vertrekbord
+
+de: Zuganzeiger Güterverkehr
+nl: Vertrekbord goederen
+
+de: Zuganzeiger Personen- und Güterverkehr auf Handy, Tablet oder anderem Rechner
+nl: Vertrekborden reizigers- en goederenverkeer op telefoon, tablet of andere computer
+
+de: Zuganzeiger Personenverkehr
+nl: Vertrekbord reizigers
+
+de: Zuganzeiger für Personen- oder Güterverkehr: die nächsten nötigen Fahrten als Abfahrtstafel, auf jeden Monitor ziehbar
+nl: Vertrekbord voor reizigers- of goederenverkeer: de volgende benodigde ritten als vertrekbord, naar elk scherm te slepen
+
+de: Zuganzeiger je Bahnhof
+nl: Vertrekbord per station
+
+de: Zuklappen
+nl: Inklappen
+
+de: Zuletzt verwendet...
+nl: Recent gebruikt...
+
+de: Zuordnen über "Bearbeiten…".
+nl: Toewijzen via "Bewerken…".
+
+de: Zur Lieferung auswählen (Ladegleise):
+nl: Voor levering kiezen (laadsporen):
+
+de: Zurzeit sind keine Fahrten nötig.
+nl: Momenteel zijn geen ritten nodig.
+
+de: Zurück
+nl: Terug
+
+de: Zustand
+nl: Toestand
+
+de: Zusteigen erlaubt
+nl: Instappen toegestaan
+
+de: Zusätzlich erforderlich
+nl: Extra nodig
+
+de: Zwischenprodukt
+nl: Tussenproduct
+
+de: Züge
+nl: Treinen
+
+de: Züge (auf einen Block ziehen)
+nl: Treinen (op een blok slepen)
+
+de: alle Güter
+nl: alle goederen
+
+de: alle Güter der Ladeklasse {0}
+nl: alle goederen van laadklasse {0}
+
+de: aus dem Nichts
+nl: uit het niets
+
+de: aussteigen in {0}
+nl: uitstappen in {0}
+
+de: der Abnehmer
+nl: de afnemer
+
+de: der volle Triebzug
+nl: het volle treinstel
+
+de: die Betriebe
+nl: de bedrijven
+
+de: eigener Betrieb
+nl: eigen bedrijf
+
+de: ein voller Wagen
+nl: een volle wagon
+
+de: erst eine Station anlegen
+nl: eerst een station aanleggen
+
+de: es fehlen
+nl: er ontbreekt
+
+de: es fehlen {0} M/h
+nl: er ontbreekt {0} M/h
+
+de: es kommen nur {0} M/h
+nl: er komt maar {0} M/h
+
+de: geeignet: Zug 
+nl: geschikt: trein 
+
+de: geeignet: Züge 
+nl: geschikt: treinen 
+
+de: gelb – Anlieferung aus Lager möglich
+nl: geel – levering uit magazijn mogelijk
+
+de: grün
+nl: groen
+
+de: hält
+nl: stopt
+
+de: iTrain Datei neu einlesen...
+nl: iTrain-bestand opnieuw inlezen...
+
+de: iTrain Verbindung
+nl: iTrain-verbinding
+
+de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+nl: iTrain gekozen: treingebeurtenissen online via XTC ({0}:{1}). Ctrl + klik op de bron toont Rx/Tx.
+
+de: iTrain läuft auf diesem Computer
+nl: iTrain draait op deze computer
+
+de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
+nl: iTrain draait op deze computer ({0}), XTC antwoordt niet op poort {1}
+
+de: iTrain läuft auf einem anderen Computer
+nl: iTrain draait op een andere computer
+
+de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
+nl: iTrain draait niet op deze computer (XTC-poort {0} antwoordt niet)
+
+de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+nl: iTrain draait, maar de XTC-interface antwoordt niet. Zonder XTC komen geen treingebeurtenissen online binnen.\n\nControleren: Instellingen → Verbinding met iTrain (adres en XTC-poort, standaard 7128); draait iTrain op een andere computer, dan moet de firewall daarvan de poort inkomend toestaan.
+
+de: iTrain nicht mehr gefunden.
+nl: iTrain niet meer gevonden.
+
+de: iTrain noch nicht gestartet
+nl: iTrain nog niet gestart
+
+de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+nl: iTrain op {0} niet bereikbaar (XTC-poort {1} antwoordt niet; draait iTrain? adres juist? de Windows-firewall op de iTrain-computer moet poort {2} inkomend toestaan)
+
+de: iTrain wird gesucht …
+nl: iTrain wordt gezocht …
+
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+nl: iTrain is niet gevonden, Logistiek staat op pauze.\n\nDraait iTrain al, controleer dan adres en XTC-poort onder Instellingen → Verbinding met iTrain (daar ook „Verbinding controleren“).
+
+de: iTrain → Voreinstellungen → Modus → Server
+nl: iTrain → Voorkeuren → Modus → Server
+
+de: iTrain-Anlagendatei verknüpfen
+nl: iTrain-baanbestand koppelen
+
+de: iTrain-Anlagendatei wählen
+nl: iTrain-baanbestand kiezen
+
+de: iTrain-Dateien (*.tcdz, *.tcd)
+nl: iTrain-bestanden (*.tcdz, *.tcd)
+
+de: iTrain-Logistik Wagen-Angaben
+nl: iTrain-Logistik wagongegevens
+
+de: iTrain-Logistik – {0}
+nl: iTrain-Logistik – {0}
+
+de: iTrain-Logistik-Dateien (*.logz)
+nl: iTrain-Logistik-bestanden (*.logz)
+
+de: iTrain-Logistik-Simulator – {0}
+nl: iTrain-Logistik-simulator – {0}
+
+de: iTrain-Prüfung fehlgeschlagen: {0}
+nl: iTrain-controle mislukt: {0}
+
+de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
+nl: iTrain-server bereikbaar op {0}:{1}, maar XTC antwoordt niet op poort {2}
+
+de: je Modellstunde
+nl: per modeluur
+
+de: kein Abnehmer
+nl: geen afnemer
+
+de: kein Bedarf eingetragen
+nl: geen vraag ingevuld
+
+de: kein Güterbahnhof – Güter kommen nicht an
+nl: geen goederenstation – goederen komen niet aan
+
+de: kein Lieferant
+nl: geen leverancier
+
+de: kein Personenzug mit Gepäckwagen (Koffer als Ladegut aktivieren)
+nl: geen reizigerstrein met bagagewagen (koffers als lading activeren)
+
+de: kein Ziel
+nl: geen bestemming
+
+de: kein Ziel – weiterer Bahnhof oder Schattenbahnhof nötig
+nl: geen bestemming – extra station of schaduwstation nodig
+
+de: kein Zug kann das laden
+nl: geen trein kan dat laden
+
+de: kein Zug kann „{0}“ laden (Wagen ergänzen oder Lade-Joker)
+nl: geen trein kan „{0}“ laden (wagons aanvullen of laadjoker)
+
+de: kein Zug mit Plätzen
+nl: geen trein met plaatsen
+
+de: kein anderer Bahnhof mit Bahnsteig „Mit Koffer“
+nl: geen ander station met perron „Met koffer“
+
+de: kein {0} vorhanden
+nl: geen {0} aanwezig
+
+de: keine (keine Trennung nach Richtung)
+nl: geen (geen scheiding naar richting)
+
+de: keine Gleise
+nl: geen sporen
+
+de: keine Güter aktiv
+nl: geen goederen actief
+
+de: keine Güter am Gleis
+nl: geen goederen op het spoor
+
+de: keine – bitte in iTrain anlegen, dann „Abgleichen“ und den Assistenten erneut starten
+nl: geen – leg ze aan in iTrain, dan „Synchroniseren“ en de assistent opnieuw starten
+
+de: localhost oder z. B. 192.168.0.171
+nl: localhost of bijv. 192.168.0.171
+
+de: mehr als {0} Fahrten je Modellstunde nötig – Menge senken oder größere Züge
+nl: meer dan {0} ritten per modeluur nodig – hoeveelheid verlagen of grotere treinen
+
+de: nach jeder Übergabe von Gütern oder Personen
+nl: na elke overdracht van goederen of personen
+
+de: niemand bringt Reisende – weiterer Bahnhof oder Schattenbahnhof nötig
+nl: niemand brengt reizigers – extra station of schaduwstation nodig
+
+de: nimmt alles ab
+nl: neemt alles af
+
+de: noch {0} cm
+nl: nog {0} cm
+
+de: nur mit {0} verbunden{1}
+nl: alleen met {0} verbonden{1}
+
+de: rot – Abholung nötig
+nl: rood – ophalen nodig
+
+de: rot – Anlieferung nötig
+nl: rood – levering nodig
+
+de: translations.properties wurde weder im Arbeitsverzeichnis noch als Ressource gefunden - es werden nur die Schluessel angezeigt.
+nl: translations.properties is noch in de werkmap noch als resource gevonden - alleen de sleutels worden getoond.
+
+de: von links
+nl: van links
+
+de: von links → {0}
+nl: van links → {0}
+
+de: von rechts
+nl: van rechts
+
+de: wird entladen
+nl: wordt gelost
+
+de: wird geladen
+nl: wordt geladen
+
+de: z. B. 192.168.0.171 oder Rechnername
+nl: bijv. 192.168.0.171 of computernaam
+
+de: zeigt zurzeit: {0}{1}
+nl: toont momenteel: {0}{1}
+
+de: zurzeit kein Umladen
+nl: momenteel geen overslag
+
+de: {0}\nAusgewähltes wird mit „Weiter“ übernommen; „Offen lassen“ ändert nichts.
+nl: {0}\nHet gekozene wordt met „Verder“ overgenomen; „Open laten“ verandert niets.
+
+de: {0}\nBahnhof: {1}
+nl: {0}\nStation: {1}
+
+de: {0}\nKein Bahnhof mit Bahnsteig angeschlossen
+nl: {0}\nGeen station met perron aangesloten
+
+de: {0}   ↔   verknüpft mit {1}{2}
+nl: {0}   ↔   gekoppeld met {1}{2}
+
+de: {0} % der Reisenden in „{1}“ haben einen Koffer.
+nl: {0} % van de reizigers in „{1}“ heeft een koffer.
+
+de: {0} (Build {1})
+nl: {0} (build {1})
+
+de: {0} ({1} Koffer)
+nl: {0} ({1} koffers)
+
+de: {0} Ausführungen/h
+nl: {0} uitvoeringen/h
+
+de: {0} Bahnhof/Bahnhöfe angeheftet oder ergänzt.
+nl: {0} station(s) gekoppeld of aangevuld.
+
+de: {0} Beim Personen-/Gepäckwagen gelten die Zeiten für Reisende und Gepäck.
+nl: {0} Bij het reizigers-/bagagerijtuig gelden de tijden voor reizigers en bagage.
+
+de: {0} Gbf
+nl: {0} Gst
+
+de: {0} Güter
+nl: {0} goederen
+
+de: {0} Güter ergänzt.
+nl: {0} goederen aangevuld.
+
+de: {0} Hinweise
+nl: {0} meldingen
+
+de: {0} Kapazitäten
+nl: {0} capaciteiten
+
+de: {0} Personen
+nl: {0} personen
+
+de: {0} Plätze
+nl: {0} plaatsen
+
+de: {0} Plätze 1. Klasse
+nl: {0} plaatsen 1e klas
+
+de: {0} Plätze 2. Klasse
+nl: {0} plaatsen 2e klas
+
+de: {0} Reisende wollen je Modellstunde aus „{1}“ abfahren.
+nl: {0} reizigers willen per modeluur uit „{1}“ vertrekken.
+
+de: {0} Station(en) aus den iTrain-Bahnhöfen eingefügt.
+nl: {0} station(s) uit de iTrain-stations ingevoegd.
+
+de: {0} Wagenladungen{1}, {2}/{3} Plätze
+nl: {0} wagonladingen{1}, {2}/{3} plaatsen
+
+de: {0} aus „{1}“
+nl: {0} uit „{1}“
+
+de: {0} ausgewählt
+nl: {0} gekozen
+
+de: {0} braucht Güter. Der Güterbahnhof gehört zu {1}. Welche Blöcke sind Ladegleise? (Er darf dieselben Blöcke wie der Bahnhof nutzen.)
+nl: {0} heeft goederen nodig. Het goederenstation hoort bij {1}. Welke blokken zijn laadsporen? (Het mag dezelfde blokken als het station gebruiken.)
+
+de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
+nl: {0} rijdt door {1}, {2} (laden/lossen bij doorrijden)
+
+de: {0} erreichbar über XTC unter {1}:{2}
+nl: {0} bereikbaar via XTC op {1}:{2}
+
+de: {0} fährt ab von {1}{2}
+nl: {0} vertrekt van {1}{2}
+
+de: {0} für „{1}“
+nl: {0} voor „{1}“
+
+de: {0} gehört zur Anlage · kein Austausch, Reisende und Güter fahren mit Zügen
+nl: {0} hoort bij de baan · geen uitwisseling, reizigers en goederen rijden met treinen
+
+de: {0} hat Passagiere. Welche Blöcke von {1} sind Personengleise (Bahnsteige)? Keine Auswahl = keine Personen.
+nl: {0} heeft reizigers. Welke blokken van {1} zijn reizigerssporen (perrons)? Geen keuze = geen personen.
+
+de: {0} hat keine {1}e.
+nl: {0} heeft geen {1}.
+
+de: {0} hält in {1}, {2}{3}
+nl: {0} stopt in {1}, {2}{3}
+
+de: {0} ist angeschlossen an
+nl: {0} is aangesloten op
+
+de: {0} ist mit keinem Bahnhof verbunden{1}
+nl: {0} is met geen station verbonden{1}
+
+de: {0} mit „{1}“ verbinden ({2}, {3} Bahnsteige)
+nl: {0} met „{1}“ verbinden ({2}, {3} perrons)
+
+de: {0} sollen je Modellstunde nach „{1}“ geliefert werden.
+nl: {0} moeten per modeluur naar „{1}“ geleverd worden.
+
+de: {0} von {1} Blöcken sind keinem Gleis zugeordnet (Strecke).
+nl: {0} van {1} blokken zijn aan geen spoor toegewezen (traject).
+
+de: {0} wird auf der Anlage nirgends benötigt.\nTrotzdem zum Verladen bereitstellen?
+nl: {0} is op de baan nergens nodig.\nToch klaarzetten om te laden?
+
+de: {0} wird in {1} benötigt.\nZum Verladen bereitstellen?
+nl: {0} is nodig in {1}.\nKlaarzetten om te laden?
+
+de: {0} wird noch verwendet: {1}
+nl: {0} wordt nog gebruikt: {1}
+
+de: {0} {1} je Modellstunde
+nl: {0} {1} per modeluur
+
+de: {0} – Logistik gestartet.
+nl: {0} – Logistiek gestart.
+
+de: {0} – Logistik ist auf Pause.
+nl: {0} – Logistiek staat op pauze.
+
+de: {0} – hier gilt „{1}“
+nl: {0} – hier geldt „{1}“
+
+de: {0} – liefert immer, ohne auf der Anlage zu sein
+nl: {0} – levert altijd, zonder op de baan te zijn
+
+de: {0} – nur über Gleise (Angebot/Reisende je Gleis)
+nl: {0} – alleen via sporen (aanbod/reizigers per spoor)
+
+de: {0} – schon mit „{1}“ verbunden
+nl: {0} – al met „{1}“ verbonden
+
+de: {0} ← von rechts
+nl: {0} ← van rechts
+
+de: {0}: bereit zum Transport / Lagerkapazität am Güterbahnhof
+nl: {0}: klaar voor vervoer / opslagcapaciteit op het goederenstation
+
+de: {0}Annehmen
+nl: {0}Aannemen
+
+de: {0}{1}Geräusche
+nl: {0}{1}Geluiden
+
+de: Änderungen speichern?
+nl: Wijzigingen opslaan?
+
+de: Öffnen...
+nl: Openen...
+
+de: Ölplattform
+nl: Olieplatform
+
+de: Ölquelle
+nl: Oliebron
+
+de: Ölraffinerie
+nl: Olieraffinaderij
+
+de: Über
+nl: Over
+
+de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
+nl: Via XTC meldt iTrain per trein de binnenkomst in een blok, wachten met wachttijd en vertrek, en de modeltijd. Draait iTrain op een andere computer, dan moet de firewall daarvan de XTC-poort inkomend toestaan.
+
+de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
+nl: Via de computernaam (werkt als router of apparaat de naam kent):
+
+de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+nl: Via de XTC-interface meldt iTrain per trein binnenkomst, wachten met wachttijd en vertrek, en de modeltijd. "localhost" = iTrain draait op deze computer. Draait iTrain op een andere computer, dan moet de Windows-firewall daarvan de XTC-poort inkomend toestaan. Wijzigingen gelden na het sluiten van de voorkeuren.
+
+de: Übergabe
+nl: Overdracht
+
+de: Übergabe (Außenwelt)
+nl: Overdracht (buitenwereld)
+
+de: Übergabe bearbeiten
+nl: Overdracht bewerken
+
+de: Übergabe/Schattenbahnhof
+nl: Overdracht/schaduwstation
+
+de: Übergabe: Güter kommen von außerhalb oder gehen hinaus
+nl: Overdracht: goederen komen van buiten of gaan naar buiten
+
+de: Übernehmen
+nl: Overnemen
+
+de: Übernimmt Personenwerte und Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+nl: Neemt reizigerswaarden en goederenhoeveelheden over (vervangt de tabel). ★ = eigen voorstel.
+
+de: Überschuss
+nl: Overschot
+
+de: Überschuss vernichtet (heute)
+nl: Overschot vernietigd (vandaag)
+
+de: Überschuss {0} M/h (wird gelagert)
+nl: Overschot {0} M/h (wordt opgeslagen)
+
+de: Übersicht
+nl: Overzicht
+
+de: Übersicht öffnen
+nl: Overzicht openen
+
+de: Überträgt den Wert der ersten markierten Zeile in der gewählten Spalte auf alle markierten Zeilen
+nl: Neemt de waarde van de eerste gemarkeerde regel in de gekozen kolom over op alle gemarkeerde regels
+
+de: – direkt –
+nl: – direct –
+
+de: – kein Abnehmer
+nl: – geen afnemer
+
+de: – kein Gegenstück
+nl: – geen tegenhanger
+
+de: – kein Lieferant
+nl: – geen leverancier
+
+de: – niemand
+nl: – niemand
+
+de: „Liefert immer, ohne auf der Anlage zu sein“ ist angehakt: alle Eingänge werden immer geliefert. Haken entfernen, um einzelne Güter zu wählen.
+nl: „Levert altijd, zonder op de baan te zijn“ is aangevinkt: alle ingangen worden altijd geleverd. Vinkje weghalen om afzonderlijke goederen te kiezen.
+
+de: „Weiter“ ergänzt: {0}{1}
+nl: „Verder“ vult aan: {0}{1}
+
+de: „{0}“ braucht je Modellstunde {1}.
+nl: „{0}“ heeft per modeluur {1} nodig.
+
+de: „{0}“ erhöhen
+nl: „{0}“ verhogen
+
+de: „{0}“ fährt ab aus „{1}“ – Route „{2}“{3}.
+nl: „{0}“ vertrekt uit „{1}“ – route „{2}“{3}.
+
+de: „{0}“ fährt in „{1}“ ({2}) von der falschen Seite ein – Zug muss Kopf machen.
+nl: „{0}“ rijdt „{1}“ ({2}) van de verkeerde kant binnen – trein moet kop maken.
+
+de: „{0}“ hat noch die Art „Anderes“ (aus iTrain „other“) – dort halten Züge ohne Ein- und Aussteigen; im Stationsdialog Art „Bahnhof“ oder „Haltepunkt“ wählen
+nl: „{0}“ heeft nog de soort „Overig“ (uit iTrain „other“) – daar stoppen treinen zonder in- en uitstappen; kies in de stationsdialoog soort „Station“ of „Halte“
+
+de: „{0}“ hat noch kein Ladegleis
+nl: „{0}“ heeft nog geen laadspoor
+
+de: „{0}“ hat noch kein Ladegleis, und es ist kein freier Block da. Bitte später im Stationsdialog ein Gleis als Ladegleis einrichten.
+nl: „{0}“ heeft nog geen laadspoor en er is geen vrij blok. Richt later in de stationsdialoog een spoor als laadspoor in.
+
+de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
+nl: „{0}“ stopt in „{1}“: soort „Overig“, dus geen in- en uitstappen. Kies in de stationsdialoog de soort (bijv. station).
+
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+nl: „{0}“ hangt dan aan de {1} in plaats van aan de baaninfrastructuur.\nGoederenstation, plaatsen, bedrijven en magazijnen gaan mee naar zijn tabblad.
+
+de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
+nl: „{0}“ in „{1}“: wachttijd te kort om alle reizigers te laten in-/uitstappen.
+
+de: „{0}“ in „{1}“: Wartezeit zu kurz, um alles zu laden.
+nl: „{0}“ in „{1}“: wachttijd te kort om alles te laden.
+
+de: „{0}“ liefert automatisch, ohne Zug.
+nl: „{0}“ levert automatisch, zonder trein.
+
+de: „{0}“ liefert {1} unbegrenzt.
+nl: „{0}“ levert {1} onbeperkt.
+
+de: „{0}“ liefert, ohne auf der Anlage zu sein.
+nl: „{0}“ levert zonder op de baan te zijn.
+
+de: „{0}“ nimmt beliebig viele ankommende Reisende auf.
+nl: „{0}“ neemt willekeurig veel aankomende reizigers op.
+
+de: „{0}“ nimmt je Modellstunde {1} ankommende Reisende auf.
+nl: „{0}“ neemt per modeluur {1} aankomende reizigers op.
+
+de: „{0}“ stellt je Modellstunde {1} her{2}.
+nl: „{0}“ maakt per modeluur {1}{2}.
+
+de: „{0}“ stellt {1} schon her; es fehlen {2} je Modellstunde.
+nl: „{0}“ maakt al {1}; er ontbreekt {2} per modeluur.
+
+de: „{0}“ zum Bahnhof machen (bisher „Anderes“{1}
+nl: „{0}“ tot station maken (tot nu toe „Overig“{1}
+
+de: „Übernehmen“ trägt das in die Anlage ein. Was danach noch fehlt, zeigt der Assistent an.
+nl: „Overnemen“ zet dit in de baan. Wat daarna nog ontbreekt, toont de assistent.
+
+de: ∞ immer geliefert
+nl: ∞ altijd geleverd
+
+de: ■ Stopp
+nl: ■ Stop
+
+de: ▭ Block 
+nl: ▭ Blok 
+
+de: ▲ Abreisende 
+nl: ▲ Vertrekkenden 
+
+de: ▲ Entladen · ▼ Beladen
+nl: ▲ Lossen · ▼ Laden
+
+de: ▲ {0} geht an:
+nl: ▲ {0} gaat naar:
+
+de: ▶ Austausch läuft
+nl: ▶ Uitwisseling loopt
+
+de: ▶ Probehören
+nl: ▶ Beluisteren
+
+de: ▶ Start
+nl: ▶ Start
+
+de: ▼ Ankommende 
+nl: ▼ Aankomenden 
+
+de: ▼ wartet auf Abholung · ▲ abgeladen, geht an die Abnehmer · Kapazität {0} je Gut{1}
+nl: ▼ wacht op ophalen · ▲ gelost, gaat naar de afnemers · capaciteit {0} per goed{1}
+
+de: ▼ {0} kommt von:
+nl: ▼ {0} komt van:
+
+de: ▼ {0} {1} M/h – {2}, kommt von:
+nl: ▼ {0} {1} M/h – {2}, komt van:
+
+de: ▼ {0} – {1}, kommt von:
+nl: ▼ {0} – {1}, komt van:
+
+de: ⚠ Kopf machen{0}
+nl: ⚠ Kop maken{0}
+
+de: ✔ Direkte Verbindung über die Zugroute „{0}“.
+nl: ✔ Directe verbinding via treinroute „{0}“.
+
+de: ✔ in Ordnung
+nl: ✔ in orde
+
+de: ✔ {0} auf {1}:{2}, {3} Züge
+nl: ✔ {0} op {1}:{2}, {3} treinen
+
+de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
+nl: ✔ {0} draait op {1} (XTC-poort {2}), {3} treinen: {4}
+
+de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
+nl: ✘ Geen antwoord van iTrain op {0}:{1} ({2}).\nDraait iTrain daar? Is de Windows-firewall op de iTrain-computer inkomend open voor poort {3}? Kloppen adres en poort?
+
+de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
+nl: ✘ Geen antwoord van iTrain-XTC op {0}:{1} ({2})
+
+de: ❚❚ Austausch angehalten
+nl: ❚❚ Uitwisseling gepauzeerd
+
+de: ❚❚ Pause
+nl: ❚❚ Pauze
+
+de: ❚❚ pausiert
+nl: ❚❚ gepauzeerd
+
+de: Verkehrs-Assistent...
+nl: Verkeersassistent...
+
+de: Symbole...
+nl: Symbolen...
+
+de: Anlagen-Infrastruktur
+nl: Baaninfrastructuur
+
+de: leer
+nl: leeg
+
+de: Modellbahn-Faktor
+nl: Modelbaanfactor
+
+de: Vorbild-Gewicht/Ladegewicht
+nl: Voorbeeldgewicht/laadgewicht
+
+de: Vorbild-Volumen
+nl: Voorbeeldvolume
+
+de: Offen/Geschlossen
+nl: Open/gesloten
+
+de: alle
+nl: alle
+
+de: nein
+nl: nee
+
+de: ja
+nl: ja
+
+de: 1. Kl.
+nl: 1e kl.
+
+de: 2. Kl.
+nl: 2e kl.
+
+de: Wartend: {0} (1. Kl.) + {1} (2. Kl.) / {2}
+nl: Wachtend: {0} (1e kl.) + {1} (2e kl.) / {2}
+
+de: Passagiere 1. Klasse: {0} / {1},  2. Klasse: {2} / {3}
+nl: Reizigers 1e klas: {0} / {1},  2e klas: {2} / {3}
+
+de: Block: -
+nl: Blok: -
+
+de: XTC-Port:
+nl: XTC-poort:
+
+de: Durchsuchen...
+nl: Bladeren...
+
+de: {0} Blöcke
+nl: {0} blokken
+
+de: Ansicht
+nl: Weergave
+
+de: Uhr
+nl: Klok
+
+de: Pfade
+nl: Paden
+
+de: Sprache
+nl: Taal
+
+de: Farbschema
+nl: Kleurenschema
+
+de: Bildschirm
+nl: Scherm
+
+de: Voreinstellungen
+nl: Voorkeuren
+
+de: (keine)
+nl: (geen)
+
+de: Aktualisierung
+nl: Bijwerken
+
+de: Alle 10 Sekunden
+nl: Elke 10 seconden
+
+de: Alle 15 Minuten
+nl: Elke 15 minuten
+
+de: Alle 30 Sekunden
+nl: Elke 30 seconden
+
+de: Alle 5 Minuten
+nl: Elke 5 minuten
+
+de: Anfangsordner für Layout-Dateien
+nl: Startmap voor baanbestanden
+
+de: Ansicht
+nl: Weergave
+
+de: Beim Start automatisch nach Updates suchen
+nl: Bij starten naar updates zoeken
+
+de: Bildschirm
+nl: Scherm
+
+de: Bildschirm {0} ({1}x{2})
+nl: Scherm {0} ({1}x{2})
+
+de: Blockpositionen
+nl: Blokposities
+
+de: Blöcke
+nl: Blokken
+
+de: Daten ändern
+nl: Gegevens wijzigen
+
+de: Die Uhr zeigt die aus der geöffneten .tcdz gelesene Modellbahnzeit und läuft mit dem dort hinterlegten Beschleunigungsfaktor weiter. Ohne geöffnete Datei bleibt sie leer.
+nl: De klok toont de modeltijd uit de geopende .tcdz en loopt door met de daar opgeslagen versnellingsfactor. Zonder geopend bestand blijft ze leeg.
+
+de: Dunkel
+nl: Donker
+
+de: Durchsuchen...
+nl: Bladeren...
+
+de: Entfernen
+nl: Verwijderen
+
+de: Epoche
+nl: Tijdperk
+
+de: Epoche der Anlage. Der Echtzeit-Kern kennt nur die 1. und 2. Klasse; den Anteil der 1. Klasse stellen Sie je Stadt oder Dorf ein.
+nl: Tijdperk van de baan. De realtimekern kent alleen 1e en 2e klas; het aandeel 1e klas stel je per stad of dorp in.
+
+de: Farbkombination
+nl: Kleurcombinatie
+
+de: Farbschema
+nl: Kleurenschema
+
+de: Gekoppelte iTrain-Datei
+nl: Gekoppeld iTrain-bestand
+
+de: Gilt als Vorbelegung für neue Lokomotiven, solange dort noch kein eigener Wert eingetragen wurde. Bereits individuell gesetzte Werte bleiben unverändert.
+nl: Geldt als standaardwaarde voor nieuwe locomotieven zolang daar nog geen eigen waarde is ingevuld. Al individueel ingestelde waarden blijven ongewijzigd.
+
+de: Hell
+nl: Licht
+
+de: Hintergrund
+nl: Achtergrond
+
+de: Jede Minute
+nl: Elke minuut
+
+de: Legt fest, wie oft die gekoppelte .tcdz erneut eingelesen wird, um neu hinzugekommene oder entfernte Einträge zu übernehmen. Bereits vorhandene eigene Zusatzdaten bleiben dabei erhalten.
+nl: Bepaalt hoe vaak de gekoppelde .tcdz opnieuw wordt ingelezen om nieuwe of verwijderde items over te nemen. Bestaande eigen extra gegevens blijven behouden.
+
+de: Lokomotiven
+nl: Locomotieven
+
+de: Maßstab-Vorlage
+nl: Schaalsjabloon
+
+de: Modellbahn-Faktor-Vorlage
+nl: Modelbaanfactor-sjabloon
+
+de: Nur beim Start
+nl: Alleen bij het starten
+
+de: Nur ein Bildschirm angeschlossen
+nl: Slechts één scherm aangesloten
+
+de: Ordner für Symbole (.svg)
+nl: Map voor symbolen (.svg)
+
+de: Pfad für Logistik-Dateien
+nl: Pad voor logistiekbestanden
+
+de: Pfade
+nl: Paden
+
+de: Sekunden anzeigen
+nl: Seconden tonen
+
+de: Speichern
+nl: Opslaan
+
+de: Sprache
+nl: Taal
+
+de: Textfarbe
+nl: Tekstkleur
+
+de: Uhr
+nl: Klok
+
+de: Uhr im Ribbon anzeigen
+nl: Klok in het lint tonen
+
+de: Voreinstellungen
+nl: Voorkeuren
+
+de: Vorlagen
+nl: Sjablonen
+
+de: Wagen
+nl: Wagons
+
+de: Wie zuletzt
+nl: Zoals laatst
+
+de: Zurück
+nl: Terug
+
+de: Züge
+nl: Treinen
+
+
+# Browser-Seiten (09.11.2026)
+de: Nicht gefunden
+nl: Niet gevonden
+
+de: Kein Modul „{0}“ (oder nicht für den Browser freigegeben).
+nl: Geen module „{0}” (of niet vrijgegeven voor de browser).
+
+de: Zur Übersicht
+nl: Naar het overzicht
+
+de: Kein Geräusch
+nl: Geen geluid
+
+de: Lade…
+nl: Laden…
+
+de: ausgestiegen
+nl: uitgestapt
+
+de: eingestiegen
+nl: ingestapt
+
+de: Ausladen
+nl: Lossen
+
+de: Einladen
+nl: Laden
+
+de: Antippen: Geräusch
+nl: Aantikken: geluid
+
+de: Bereit zum Transport
+nl: Klaar voor transport
+
+de: Herstellung
+nl: Productie
+
+de: ohne Eingang
+nl: zonder invoer
+
+de: Eingelagert
+nl: Opgeslagen
+
+de: Ladung
+nl: Lading
+
+de: Ton an
+nl: Geluid aan
+
+de: Ton aus
+nl: Geluid uit
+
+de: Rezept ausblenden
+nl: Recept verbergen
+
+de: Rezept anzeigen
+nl: Recept tonen
+
+de: keine Verbindung zum Logistik-Rechner
+nl: geen verbinding met de Logistiek-computer
+
+de: Vollbild an/aus
+nl: Volledig scherm aan/uit
+
+de: Vollbild
+nl: Volledig scherm
+
+de: Anzeiger
+nl: Borden
+
+de: Kein Bahnhof unter dieser Adresse
+nl: Geen station op dit adres
+
+de: Nur lesen
+nl: Alleen lezen
+
+de: Joker
+nl: joker
+
+de: {0} in {1} benötigt
+nl: {0} nodig in {1}
+
+de: anliefern: {0}, {1}
+nl: leveren: {0}, {1}
+
+de: kein Ladegleis zum Entladen
+nl: geen laadspoor om te lossen
+
+de: abholen in {0}
+nl: ophalen in {0}
+
+de: {0} bereit
+nl: {0} klaar
+
+de: noch nirgends zur Abholung bereit
+nl: nog nergens klaar om op te halen
+
+de: Personenzug
+nl: reizigerstrein
+
+de: geeignet: Zug {0}
+nl: geschikt: trein {0}
+
+de: geeignet: Züge {0}
+nl: geschikt: treinen {0}
+
+de: Tag
+nl: Dag
+
+de: Lizenz: GNU General Public License, Version 3 (GPL-3.0)
+nl: Licentie: GNU General Public License, versie 3 (GPL-3.0)
+
+de: Enthält:
+nl: Bevat:
+
+de: QR-Code-Generator von Project Nayuki (MIT-Lizenz)
+nl: QR-codegenerator van Project Nayuki (MIT-licentie)
+
+de: Geräusche von freesound.org (CC0, gemeinfrei)
+nl: Geluiden van freesound.org (CC0, publiek domein)
+
+de: OpenJFX und Java-Laufzeit (GPL v2 mit Classpath Exception)
+nl: OpenJFX en Java-runtime (GPL v2 met Classpath Exception)
+
+de: Über iTrain-Logistik
+nl: Over iTrain-Logistik

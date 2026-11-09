@@ -1,0 +1,41 @@
+### Build ###
+.gradle
+build/
+out/
+.kotlin
+!gradle/wrapper/gradle-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings
+bin/
+
+### Betriebssystem ###
+.DS_Store
+Thumbs.db
+
+### Nicht veröffentlichen: Arbeitsnotizen und persönliche Daten ###
+# Notizen für Claude
+CLAUDE.md
+.claude/
+# Mitschnitte mit IP-Adressen und Zugnamen der eigenen Anlage
+xtc-test/
+# Eigene Anlagendaten
+daten/
+# Alte Quellstände und Sicherungen
+sicherung/
+# Analysen und Spieldaten (Transport Fever)
+analyse/
+# leere Platzhalter
+hilfetexte/
+
+### Zwischenstände ###
+*.odt.bak
+*.tgz
+fehlt-*.txt

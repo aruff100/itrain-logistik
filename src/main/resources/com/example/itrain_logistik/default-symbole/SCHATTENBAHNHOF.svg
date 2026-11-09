@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#5b7fa6">
+  <!-- Schattenbahnhof: Tunnelportal (Bogen mit Öffnung, evenodd) und abgestellte Gleise darin -->
+  <path fill-rule="evenodd" d="M3 45 L3 22 A21 21 0 0 1 45 22 L45 45 Z M11 45 L11 24 A13 13 0 0 1 37 24 L37 45 Z"/>
+  <rect x="14" y="41" width="20" height="2"/>
+  <rect x="16" y="36" width="16" height="2"/>
+  <rect x="18" y="31" width="12" height="2"/>
+  <rect x="2" y="45" width="44" height="2"/>
+</svg>

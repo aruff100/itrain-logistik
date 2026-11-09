@@ -1,0 +1,46 @@
+# Mitgelieferte Geräusche (alle CC0, Quellen in Quellen.txt).
+# Zeile: Symbolname = Datei | Beschreibung
+# Beim ersten Start legt iTrain-Logistik im Geräusche-Ordner je Zeile eine Datei
+# "<Symbolname> - <Beschreibung>.mp3" an. Vom Anwender gelöschte Dateien kommen nicht wieder.
+Möbelfabrik = saege.mp3 | Holz sägen
+Sägewerk = saegewerk.mp3 | Sägewerk
+Holzfällerlager = kettensaege.mp3 | Kettensäge
+Maschinenfabrik = fabrik.mp3 | Fabrikhalle
+Fahrzeugfabrik = fabrik.mp3 | Fabrikhalle
+Reifenfabrik = fabrik.mp3 | Fabrikhalle
+Konservenfabrik = fabrik.mp3 | Fabrikhalle
+Werkzeugfabrik = fabrik2.mp3 | Maschinenhalle
+Chemiefabrik = fabrik2.mp3 | Maschinenhalle
+Papierfabrik = fabrik2.mp3 | Maschinenhalle
+Glashütte = fabrik2.mp3 | Maschinenhalle
+Zementwerk = fabrik2.mp3 | Maschinenhalle
+Stahlwerk = stahlwerk.mp3 | Stahlwerk
+Kohlebergwerk = bergwerk.mp3 | Grubenmaschinen
+Eisenerzbergwerk = bergwerk.mp3 | Grubenmaschinen
+Steinbruch = bagger.mp3 | Bagger
+Sandgrube = bagger.mp3 | Bagger
+Lehmgrube = bagger.mp3 | Bagger
+Ziegelei = bagger.mp3 | Bagger
+Bauernhof = bauernhof.mp3 | Hof
+Baumwollplantage = bauernhof.mp3 | Hof
+Gummiplantage = bauernhof.mp3 | Hof
+Viehzuchtbetrieb = kuh.mp3 | Kuh
+Viehzucht = kuh.mp3 | Kuh
+Fischzucht = hafen.mp3 | Hafen und Möwen
+Sandbaggerschiff = hafen.mp3 | Hafen und Möwen
+Ölplattform = hafen.mp3 | Hafen und Möwen
+Druckerei = druckerei.mp3 | Druckmaschine
+Weberei = webstuhl.mp3 | Webstuhl
+Textilfabrik = webstuhl.mp3 | Webstuhl
+Brauerei = flaschen.mp3 | Flaschen
+Ölquelle = oelpumpe.mp3 | Ölpumpe
+Ölraffinerie = oelpumpe.mp3 | Ölpumpe
+Stadt = stadt.mp3 | Straße
+Dorf = dorf.mp3 | Dorf mit Hahn
+Ländlich = land.mp3 | Vögel
+Bahnhof = bahnhof.mp3 | Bahnsteig
+Haltepunkt = bahnhof.mp3 | Bahnsteig
+Güterbahnhof = gueterzug.mp3 | Güterzug
+Anschluss = gueterzug.mp3 | Güterzug
+Lager = gabelstapler.mp3 | Gabelstapler
+Übergabe = gabelstapler.mp3 | Gabelstapler

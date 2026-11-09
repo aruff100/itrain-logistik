@@ -1,0 +1,210 @@
+# iTrain-Logistik – testi dei dialoghi in italiano
+# Stesse chiavi e stesso formato di Dialogtexte.txt. Sezioni mancanti: tedesco.
+
+=== grundzuege ===
+TITEL: Prima di iniziare: come funziona iTrain-Logistik
+TEXT:
+**iTrain-Logistik rappresenta ciò che viene trasportato sul tuo plastico: viaggiatori e merci che i tuoi treni portano da stazione a stazione.**
+
+**Un file proprio, basato su iTrain**
+Logistica crea un file proprio (.logz). Contiene tutti i dati logistici del plastico: località, stazioni, aziende e magazzini, le scorte e i dati dei veicoli.
+Questo file funziona solo insieme al file iTrain (.tcdz) da cui è stato creato. Piano dei binari, blocchi, stazioni e treni arrivano da iTrain e sono la base. Logistica legge soltanto il file iTrain, non lo modifica mai.
+I due devono corrispondere. Se in iTrain si rinomina un blocco, si compone diversamente un treno o si aggiunge un carro, Logistica lo riprende con il pulsante **Sincronizza**. Se il file iTrain è stato salvato dall'ultima sincronizzazione, Logistica la propone già all'apertura. A quale .tcdz è collegato il file logistico è sempre indicato sotto la barra.
+
+**Ciò che iTrain non sa**
+iTrain conosce lunghezza, velocità e decoder di un veicolo, ma non quanti viaggiatori contiene una carrozza né quante tonnellate di carbone entrano in un carro. Questi dati si completano in Logistica:
+- Carri: tipo di carro, più posti a sedere e in piedi oppure classe di carico e capacità
+- Automotrici ed elettromotrici: posti o capacità direttamente sulla locomotiva
+
+Logistica calcola volutamente con ogni singolo carro e non con elenchi forfettari. Elenchi forfettari darebbero un traffico troppo semplice; solo con i carri reali conta se un treno ha davvero posto per chi attende o per il carico pronto. Per questo Logistica legge da iTrain tutte le locomotive e tutti i carri alla creazione.
+
+**I prossimi passi**
+- Subito dopo la creazione Logistica chiede le capacità dei carri e delle automotrici. Completale il più possibile.
+- Poi configura stazioni, località e aziende in **Modifica plastico**, nel modo più semplice con l'assistente traffico.
+- Durante l'esercizio iTrain segnala quale treno ferma dove. Allora i viaggiatori salgono e scendono e le merci vengono caricate.
+
+
+=== einrichtung_wagen ===
+TITEL: Completa prima tutti i carri
+TEXT:
+{offen} carri su {alle} non hanno ancora dati completi (tipo di carro e posti oppure capacità). Senza di essi nessun treno può trasportare persone o merci.
+
+Suggerimento: prendi i dati di un carro con **Copia dati** e inseriscili nel successivo con **Incolla**.
+
+Se i carri sono già registrati in un'altra configurazione, **Importa carri...** riprende i dati dal suo file dei veicoli (*.fahrzeuge.xml), carro per carro in base al nome.
+
+
+=== einrichtung_keine_wagen ===
+TITEL: Completa prima tutti i carri
+TEXT:
+Nel .tcdz non sono definiti carri.
+
+
+=== einrichtung_triebzuege ===
+TITEL: Ci sono automotrici o elettromotrici?
+TEXT:
+In iTrain le automotrici sono locomotive, ma trasportano da sé persone o merci. Contrassegnale nella finestra Locomotive con **Automotrice / elettromotrice** e assegna lì posti o capacità.
+
+
+=== einrichtung_fertig ===
+TITEL:
+TEXT:
+Veicoli registrati. Stazioni, località e aziende si configurano in «Modifica plastico».
+
+
+=== assistent_bahnhoefe_vorhanden ===
+TITEL: {anzahl} stazioni nel file iTrain
+TEXT:
+Il tuo file iTrain definisce {anzahl} stazioni che Logistica non conosce ancora.
+
+L'assistente ti guida nella configurazione: per ogni stazione scegli il tipo e per ogni binario se lì salgono e scendono viaggiatori, si caricano merci o per ora non succede nulla.
+
+**Avanti** avvia l'assistente.
+
+
+=== tcdz_geaendert ===
+TITEL: Il file iTrain è stato modificato
+TEXT:
+«{datei}» è stato modificato in iTrain dall'ultima sincronizzazione.
+
+Con **Sincronizza ora** Logistica riprende locomotive, carri, blocchi e treni nuovi, modificati e rimossi. I tuoi dati (posti, capacità, stazioni, località, aziende) restano.
+
+
+=== assistent_bahnhoefe ===
+TITEL: Configurazione stazioni
+TEXT:
+Per ogni stazione di iTrain stabilisci qui come si chiama, di che tipo è e cosa succede ai suoi binari.
+- **Nome**: così compare la stazione in Logistica (il nome in iTrain resta).
+- **Tipo**: stazione, fermata, scalo merci, stazione nascosta o raccordo. Finché una stazione mostra «Altro», non si può proseguire.
+- **Binari**: **Marciapiede** (i viaggiatori salgono e scendono), **Binario di carico** (si caricano merci), **Marciapiede e binario di carico** (entrambi sullo stesso binario, ad es. nella stazione nascosta) o **Per ora niente** (il binario resta libero e si può configurare più tardi).
+- **Sul plastico o modulo**: se la stazione appartiene a un modulo, sceglilo o creane uno con **Nuovo modulo…**.
+
+Se in una stazione scegli marciapiedi e binari di carico, Logistica crea una stazione viaggiatori e uno scalo merci agganciato.
+Puoi richiamare l'assistente in qualsiasi momento, ad esempio per configurare un altro binario come marciapiede.
+
+
+=== umgebung_personen ===
+TITEL: Traffico viaggiatori attivato a «{bahnhof}»
+TEXT:
+Aggiungi l'ambiente da cui arrivano i viaggiatori e verso cui vogliono andare.
+
+- **Città**: molti viaggiatori, grande domanda di merci
+- **Paese**: circa la metà di una città
+- **Rurale**: pochi viaggiatori, domanda soprattutto di alimentari e forniture agricole
+
+Poi si apre la finestra di modifica con tutti i dati come al solito. Se la località esiste già, scegli **Scegli località esistente**.
+
+
+=== umgebung_gueter ===
+TITEL: Traffico merci attivato a «{bahnhof}»
+TEXT:
+Aggiungi ciò che a questi binari di carico ha bisogno di merci o ne produce.
+
+- **Città, paese, rurale**: hanno bisogno di merci (alimentari, beni, materiali da costruzione …)
+- **Azienda**: produce merci e spesso ha bisogno a sua volta di merci (una catena di produzione)
+- **Magazzino**: accoglie merci e le passa poco a poco
+- **Interscambio**: le merci arrivano dall'esterno del plastico o vi vanno
+
+Poi si apre la finestra di modifica con tutti i dati come al solito.
+
+
+=== assistent_pruefung ===
+TITEL: Cosa deve succedere sul plastico
+TEXT:
+La tabella mostra chi fornisce o richiede quanti viaggiatori o merci per ora di modello, chi è la controparte e se i tuoi treni ce la fanno.
+- **✓** tutto presente
+- **⚠** qui manca qualcosa, ad esempio un fornitore, una destinazione per i viaggiatori o un treno con carri adatti
+
+Seleziona una riga con **⚠** e scegli **Avanti** (o doppio clic sulla riga): l'assistente completa ciò che manca – un'azienda per una domanda, più produzione in un'azienda esistente, una stazione nascosta se non c'è controparte, un magazzino in caso di troppa produzione. Poi la tabella ricompare ricalcolata, con tutto ciò che è stato appena aggiunto.
+
+
+=== lieferkette_betrieb ===
+TITEL: Catena per «{ziel}»
+TEXT:
+Per coprire la domanda di {menge} per ora di modello a «{ziel}» bisogna includere un'azienda che lo produca: **{betrieb}**.
+
+**Crea azienda** la crea e chiede in quale stazione si trova. Se l'azienda ha bisogno a sua volta di merci (una catena di produzione), l'assistente continua a chiedere.
+**Dalla stazione nascosta** fa arrivare la merce invece dalla stazione nascosta, cioè dall'esterno del plastico.
+
+
+=== lieferkette_vorhanden ===
+TITEL: Catena per «{ziel}»
+TEXT:
+«{ziel}» richiede {menge} per ora di modello. **{betrieb}** esiste già e produce {herstellung} per ora di modello – per tutti i clienti insieme mancano ancora {fehlt} per ora di modello.
+
+**Aumenta «{betrieb}»** porta le esecuzioni per ora di modello da {rate} a {neu}. Se per questo l'azienda ha bisogno di più merci, la verifica lo mostra dopo.
+**Crea un'altra azienda** crea un secondo produttore in un'altra stazione.
+**Dalla stazione nascosta** fa arrivare la parte mancante dall'esterno del plastico.
+
+
+=== lieferkette_ohne_vorlage ===
+TITEL: Catena per «{ziel}»
+TEXT:
+Per la domanda di {menge} per ora di modello a «{ziel}» non esiste un modello di azienda. La merce può arrivare dalla stazione nascosta, cioè dall'esterno del plastico.
+
+
+=== lieferkette_ort ===
+TITEL: In quale stazione si trova «{betrieb}»?
+TEXT:
+L'azienda ha bisogno di binari di carico perché i treni ritirino o consegnino le sue merci. Scegli la stazione – va bene qualsiasi stazione del plastico, tranne la stazione nascosta (lì le merci arrivano dall'esterno, per binario). Se la stazione non ha ancora un binario di carico, Logistica chiede subito quale binario lo diventa. Se l'azienda non si trova in nessuna stazione del plastico, scegli **Non sul plastico**: allora fornisce sempre, senza treno.
+
+
+=== schattenbahnhof_vorschlag ===
+TITEL: Nessuna controparte sul plastico
+TEXT:
+Per {was} non c'è controparte sul plastico: nessun'altra stazione e nessuna stazione nascosta.
+
+Proposta: una **stazione nascosta** come collegamento con il mondo esterno. Perché lo scambio possa sempre avvenire, dovrebbe
+- avere almeno **due binari**, uno per direzione di marcia,
+- essere lunga quanto il tuo treno più lungo,
+- essere raggiungibile dalla linea da entrambi i lati.
+
+Blocchi liberi di iTrain utilizzabili: {bloecke}
+
+Fino ad allora i viaggiatori possono scendere di nuovo alla stazione di salita dopo un giro.
+
+
+=== ueberschuss ===
+TITEL: «{betrieb}» produce più del necessario
+TEXT:
+Avanzano {menge} per ora di modello.
+
+- **Crea magazzino**: il magazzino accoglie l'eccedenza e la passa poco a poco, così la merce arriva pezzo per pezzo al cliente.
+- **Aumenta consumo**: «{ort}» avrà d'ora in poi bisogno di tanto di più che non avanza nulla.
+
+
+=== assistent_start ===
+TITEL: Cosa vuoi fare?
+TEXT:
+- **Stazioni e binari**: cambiare nomi, tipo e binari delle stazioni, ad esempio fare del binario 3 un marciapiede.
+- **Definisci trasporto**: indicare cosa viene portato da dove a dove.
+- **Verifica plastico**: vedere la tabella con domanda, produzione e viaggiatori e colmare le lacune.
+
+
+=== transport ===
+TITEL: Che cosa si trasporta da dove a dove?
+TEXT:
+Scegli viaggiatori o una merce, l'origine, la destinazione e la quantità per ora di modello. L'assistente inserisce domanda, produzione e abilitazione dei binari di carico. Ciò che non può impostare da solo, ad esempio una ricetta mancante, lo mostra dopo.
+
+
+=== geraeusche_linux ===
+TITEL: Impossibile riprodurre il suono
+TEXT:
+Il suono **{datei}** non è stato riprodotto ({fehler}).
+
+Su Linux, iTrain-Logistik ha bisogno per i file mp3 delle librerie ffmpeg del sistema (libavcodec e libavformat). Spesso sono già presenti; altrimenti installale con il gestore dei pacchetti, ad esempio:
+- Debian, Ubuntu, Linux Mint: **sudo apt install ffmpeg**
+- Fedora: **sudo dnf install ffmpeg-free**
+- openSUSE: **sudo zypper install ffmpeg**
+
+Deve esserci anche un'uscita audio (ALSA, PulseAudio o PipeWire). Poi riavvia iTrain-Logistik.
+
+I file wav si riproducono anche senza ffmpeg. I suoni si disattivano in Preferenze → Suoni.
+
+
+=== geraeusche_fehler ===
+TITEL: Impossibile riprodurre il suono
+TEXT:
+Il suono **{datei}** non è stato riprodotto ({fehler}).
+
+Verifica che un'uscita audio (altoparlanti, cuffie) sia accesa e che il file sia riproducibile (formati mp3, wav, m4a, aiff). I suoni si disattivano in Preferenze → Suoni.
