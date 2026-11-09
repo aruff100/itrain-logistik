@@ -154,6 +154,14 @@ jlink {
             else -> "deb"
         }
 
+        if (os.isMacOsX) {
+            // Die Kennung aus dem Modulnamen (com.example.itrain_logistik) lehnt macOS wegen des
+            // Unterstrichs ab (Release-Lauf 09.11.2026); eigene Kennung in umgekehrter DNS-Schreibweise.
+            val macId = listOf("--mac-package-identifier", "io.github.aruff100.itrainlogistik",
+                    "--mac-package-name", "iTrain-Logistik")
+            imageOptions = macId
+            installerOptions = macId
+        }
         if (os.isWindows) {
             installerOptions = listOf("--win-menu", "--win-shortcut", "--win-dir-chooser")
         } else if (os.isLinux) {
