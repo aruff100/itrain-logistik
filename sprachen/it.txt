@@ -1,0 +1,5002 @@
+# iTrain-Logistik – Italiano
+# Paare: „de:“ deutscher Text wie im Programm, „it:“ Übersetzung. {0}, {1} … = Platzhalter, \n = Zeilenumbruch.
+# Eigene Korrekturen: Datei in <Logistik-Ordner>/sprachen/ ablegen, sie geht vor.
+
+de: \n(schon eingebaut)
+it: \n(già integrata)
+
+de: \nLinie: 
+it: \nLinea: 
+
+de: \nNoch keine Zugverbindung über XTC
+it: \nAncora nessun collegamento treno via XTC
+
+de: \nPassagiere 1. Klasse: 
+it: \nViaggiatori 1ª classe: 
+
+de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
+it: \nGli eventi dei treni arrivano online via XTC ({0} treni collegati)
+
+de:   (hält in 
+it:   (ferma a 
+
+de:   (noch ohne Ladegleis)
+it:   (ancora senza binario di carico)
+
+de:   keine Ladegleise – im Stationsdialog ein Gleis als Ladegleis wählen
+it:   nessun binario di carico – scegliere un binario come binario di carico nel dialogo della stazione
+
+de:   {0}: kommt von {1}
+it:   {0}: viene da {1}
+
+de:   {0}: noch kein Lieferant – nach dem Übernehmen in „Kreislauf prüfen“ ergänzen
+it:   {0}: ancora nessun fornitore – completare dopo l'applicazione in «Verifica catena»
+
+de:  (Art „Anderes“)
+it:  (tipo «Altro»)
+
+de:  (Güterbahnhof)
+it:  (scalo merci)
+
+de:  (Richtung {0})
+it:  (direzione {0})
+
+de:  (Schattenbahnhof, lagert um)
+it:  (stazione nascosta, trasborda)
+
+de:  (abgegeben alle {0} Stunden: {1} auf einmal)
+it:  (consegnato ogni {0} ore: {1} in una volta)
+
+de:  (alle Güter)
+it:  (tutte le merci)
+
+de:  (an keinem Bahnhof)
+it:  (a nessuna stazione)
+
+de:  (hält)
+it:  (ferma)
+
+de:  (kein Ladegleis zum Entladen)
+it:  (nessun binario di carico per scaricare)
+
+de:  (nicht auf der Anlage)
+it:  (non sul plastico)
+
+de:  (nicht auf der Anlage, liefert an {0})
+it:  (non sul plastico, consegna a {0})
+
+de:  (ohne Bahnsteig)
+it:  (senza marciapiede)
+
+de:  Abnehmer.\n
+it:  clienti.\n
+
+de:  Lieferanten.\n
+it:  fornitori.\n
+
+de:  Reisende sind
+it:  viaggiatori sono
+
+de:  Reisender ist
+it:  viaggiatore è
+
+de:  Richtung {0}
+it:  direzione {0}
+
+de:  Zeile mit ⚠. Bitte eine markieren, dann „Weiter“.
+it:  riga con ⚠. Selezionarne una, poi «Avanti».
+
+de:  Zeilen mit ⚠. Bitte eine markieren, dann „Weiter“.
+it:  righe con ⚠. Selezionarne una, poi «Avanti».
+
+de:  Zug
+it:  treno
+
+de:  Züge
+it:  treni
+
+de:  benötigt
+it:  necessario
+
+de:  mit „{0}“
+it:  con «{0}»
+
+de:  · fährt ein
+it:  · in arrivo
+
+de:  – Bahnhof oder Haltepunkt anlegen
+it:  – creare stazione o fermata
+
+de:  – Benötigt: {0} · Liefert: {1}
+it:  – Richiede: {0} · Fornisce: {1}
+
+de:  – abholen in 
+it:  – ritirare a 
+
+de:  – kann geliefert werden von: {0}
+it:  – può essere fornito da: {0}
+
+de:  – keine Güterwagen erkannt
+it:  – nessun carro merci riconosciuto
+
+de:  – mit „{0}“ verbinden
+it:  – collegare con «{0}»
+
+de:  – noch nirgends zur Abholung bereit
+it:  – ancora da nessuna parte pronto per il ritiro
+
+de: (Spalte {0}, Symbol)
+it: (colonna {0}, simbolo)
+
+de: (Vorgabe {0})
+it: (predefinito {0})
+
+de: (Vorgabe {0}, Browser Logistik {1})
+it: (predefinito {0}, Browser Logistica {1})
+
+de: (alle Eingänge – unten „Liefert immer“ angehakt)
+it: (tutti gli ingressi – «Fornisce sempre» spuntato sotto)
+
+de: (erster Reiter, immer sichtbar)
+it: (prima scheda, sempre visibile)
+
+de: ,  2. Klasse: 
+it: ,  2ª classe: 
+
+de: , Joker
+it: , jolly
+
+de: 0 Hinweise
+it: 0 avvisi
+
+de: 0 Sekunden bedeutet keine Bewertung. Sonst: Modellsekunden, die ein voller Wagen zum Beladen bzw. Entladen braucht (begrenzt das Umladen zusätzlich zum Gleis).
+it: 0 secondi significa nessuna valutazione. Altrimenti: secondi di modello di cui un carro pieno ha bisogno per caricare o scaricare (limita il trasbordo oltre al binario).
+
+de: 1 Hinweis
+it: 1 avviso
+
+de: 1. Was wird transportiert?
+it: 1. Che cosa si trasporta?
+
+de: 2. Woher kommt es?
+it: 2. Da dove viene?
+
+de: 3. Wer verbraucht es, wie viel?
+it: 3. Chi lo consuma, quanto?
+
+de: 4. Transport zwischen den Bahnhöfen
+it: 4. Trasporto tra le stazioni
+
+de: 5. Zusammenfassung
+it: 5. Riepilogo
+
+de: Abbruch
+it: Annulla
+
+de: Abfahrt
+it: Partenza
+
+de: Abgeglichen: {0} Loks, {1} Wagen, {2} Blöcke, {3} Züge, Uhr-Faktor {4} (so wie zuletzt in iTrain gespeichert) aus {5}{6}{7}
+it: Sincronizzato: {0} loco, {1} carri, {2} blocchi, {3} treni, fattore orologio {4} (come salvato l'ultima volta in iTrain) da {5}{6}{7}
+
+de: Abgehende Güter
+it: Merci in uscita
+
+de: Abgenommen
+it: Ritirato
+
+de: Abgeschaltete Dialoge
+it: Dialoghi disattivati
+
+de: Abgleichen
+it: Sincronizza
+
+de: Ablauf gespeichert: {0} Vorgänge.
+it: Sequenza salvata: {0} operazioni.
+
+de: Ablauf konnte nicht gespeichert werden: {0}
+it: Impossibile salvare la sequenza: {0}
+
+de: Ablauf läuft: {0} Vorgänge über {1} s.
+it: Sequenza in corso: {0} operazioni in {1} s.
+
+de: Ablauf stoppen
+it: Ferma sequenza
+
+de: Ablauf vollständig gestartet.
+it: Sequenza avviata completamente.
+
+de: Abläufe
+it: Sequenze
+
+de: Abreisend
+it: In partenza
+
+de: Abreisende
+it: Partenti
+
+de: Abreisende M/h
+it: Partenti M/h
+
+de: Abreisende Personen
+it: Persone in partenza
+
+de: Abwärts
+it: Giù
+
+de: Adresse:
+it: Indirizzo:
+
+de: Adresse: http://{0}:{1}/modul/{2}
+it: Indirizzo: http://{0}:{1}/modul/{2}
+
+de: Aktion
+it: Azione
+
+de: Aktiv
+it: Attivo
+
+de: Aktuelle schließen
+it: Chiudi corrente
+
+de: Alle Angaben dieses Wagens (Wagenart, Plätze, Kapazität, Güter, Zeiten) in die Zwischenablage
+it: Copia tutti i dati di questo carro (tipo, posti, capacità, merci, tempi) negli appunti
+
+de: Alle Bahnhöfe sind bereits vollständig angeheftet.
+it: Tutte le stazioni sono già completamente collegate.
+
+de: Alle Bestände, Wartenden, Ladungen und den offenen Bedarf auf 0 setzen (die Anlage selbst bleibt)
+it: Azzera tutte le scorte, persone in attesa, carichi e domanda aperta (il plastico resta)
+
+de: Alle Bestände, wartenden Passagiere, offenen Bedarfe, Zugladungen und Statistiken werden auf 0 gesetzt. Objekte, Gleise und Einstellungen bleiben erhalten.
+it: Tutte le scorte, i viaggiatori in attesa, le domande aperte, i carichi dei treni e le statistiche vengono azzerati. Oggetti, binari e impostazioni restano.
+
+de: Alle Betriebe haben Lieferanten und Abnehmer.
+it: Tutte le aziende hanno fornitori e clienti.
+
+de: Alle Blöcke der .tcdz
+it: Tutti i blocchi del .tcdz
+
+de: Alle Blöcke sind Gleisen zugeordnet.
+it: Tutti i blocchi sono assegnati a binari.
+
+de: Alle Dateien
+it: Tutti i file
+
+de: Alle Fenster zentrieren
+it: Centra tutte le finestre
+
+de: Alle Spalten zeigen
+it: Mostra tutte le colonne
+
+de: Alle Züge
+it: Tutti i treni
+
+de: Alle anheften und fehlende Gleise ergänzen
+it: Collega tutte e completa i binari mancanti
+
+de: Alle wieder anzeigen ({0})
+it: Mostra di nuovo tutti ({0})
+
+de: Alle Änderungen seit dem Öffnen bzw. dem letzten Speichern verwerfen?
+it: Scartare tutte le modifiche dall'apertura o dall'ultimo salvataggio?
+
+de: Alles auf 0 gesetzt.
+it: Tutto azzerato.
+
+de: Alles auf 0 setzen
+it: Azzera tutto
+
+de: Alles auf 0 setzen?
+it: Azzerare tutto?
+
+de: Alles auswählen
+it: Seleziona tutto
+
+de: Alles vorhanden – nichts zu ergänzen.
+it: Tutto presente – niente da completare.
+
+de: Als Gleis zuordnen
+it: Assegna come binario
+
+de: Als Vorschlag speichern
+it: Salva come proposta
+
+de: Als Vorschlag speichern…
+it: Salva come proposta…
+
+de: Als eigenes Fenster lösen
+it: Stacca come finestra propria
+
+de: Am Bahnhof „{0}“ wird ein Lager gebraucht, damit {1} dort auf den Weitertransport warten kann.
+it: Alla stazione «{0}» serve un magazzino perché {1} possa attendervi il trasporto successivo.
+
+de: An Bahnsteigen dieser Station steigen alle ankommenden Passagiere aus
+it: Ai marciapiedi di questa stazione scendono tutti i viaggiatori in arrivo
+
+de: An diesem Gleis angenommen und verladen: {0}
+it: Accettato e caricato su questo binario: {0}
+
+de: Anderes
+it: Altro
+
+de: Anderes – bitte Art wählen
+it: Altro – scegliere un tipo
+
+de: Andocken {0}
+it: Aggancia {0}
+
+de: Angaben aus der Zwischenablage übernehmen; erst „Speichern“ übernimmt sie in den Wagen
+it: Prendere i dati dagli appunti; solo «Salva» li applica al carro
+
+de: Angaben kopieren
+it: Copia dati
+
+de: Angebot
+it: Offerta
+
+de: Angebot M/h
+it: Offerta M/h
+
+de: Angebot wählen…
+it: Scegli offerta…
+
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+it: Le stazioni spuntate sono collegate alla scheda invece che all'infrastruttura del plastico e compaiono con scalo merci, località, aziende e magazzini nella sua scheda. Anche con clic destro su una stazione «Collega con scheda…». Il nome vale per simbolo e scheda.
+
+de: Angehalten (Rate 0)
+it: Fermo (ritmo 0)
+
+de: Angehalten – {0} neue Zeile(n) warten
+it: In pausa – {0} nuova/e riga/e in attesa
+
+de: Angeliefert
+it: Consegnato
+
+de: Angenommene Post/Expressgut verlässt die Anlage. Erzeugt wird nur, wenn Zusteigen erlaubt ist.
+it: Posta/collettame accettati lasciano il plastico. Generato solo se la salita è consentita.
+
+de: Anhalten
+it: Pausa
+
+de: Anhängen
+it: Accoda
+
+de: Ank. {0}
+it: Arr. {0}
+
+de: Ankommend
+it: In arrivo
+
+de: Ankommend in dieser Modellstunde: {0}
+it: In arrivo in quest'ora di modello: {0}
+
+de: Ankommende
+it: Arrivi
+
+de: Ankommende Güter
+it: Merci in entrata
+
+de: Ankommende Passagiere in dieser Modellstunde
+it: Viaggiatori in arrivo in quest'ora di modello
+
+de: Ankommende Personen
+it: Persone in arrivo
+
+de: Ankommende Reisende M/h
+it: Viaggiatori in arrivo M/h
+
+de: Ankommende bei {0} auf „Unbegrenzt“
+it: Arrivi a {0} su «Illimitato»
+
+de: Anlage
+it: Plastico
+
+de: Anlage bearbeiten
+it: Modifica plastico
+
+de: Anlage bearbeiten: Orte, Bahnhöfe, Betriebe, Lager anlegen und verbinden
+it: Modifica plastico: creare e collegare località, stazioni, aziende, magazzini
+
+de: Anlage prüfen
+it: Verifica plastico
+
+de: Anlage und Module im Browser zeigen (nur lesend, im Heimnetz)
+it: Mostra plastico e moduli nel browser (solo lettura, rete domestica)
+
+de: Anlagen-Infrastruktur ({0})
+it: Infrastruttura del plastico ({0})
+
+de: Anlegen
+it: Crea
+
+de: Anlegen:
+it: Crea:
+
+de: Annahme
+it: Accettazione
+
+de: Annahme wählen…
+it: Scegli accettazione…
+
+de: Anschließer
+it: Raccordato
+
+de: Anschluss
+it: Raccordo
+
+de: Ansichten
+it: Viste
+
+de: Anteil 1. Klasse (%)
+it: Quota 1ª classe (%)
+
+de: Antriebsart
+it: Trazione
+
+de: Anzahl Blöcke: {0}
+it: Numero di blocchi: {0}
+
+de: Anzeige im Browser auf einem anderen Rechner, Handy oder Tablet
+it: Visualizzazione nel browser su un altro computer, telefono o tablet
+
+de: Arial
+it: Arial
+
+de: Art
+it: Tipo
+
+de: Art einstellen!
+it: Imposta il tipo!
+
+de: Art nur zwischen Stationsarten änderbar
+it: Tipo modificabile solo tra tipi di stazione
+
+de: Auch in „Browser Logistik“ beim Antippen eines Kastens (einmal)
+it: Anche in «Browser Logistica» toccando un riquadro (una volta)
+
+de: Auf .tcdz zurücksetzen
+it: Ripristina dal .tcdz
+
+de: Auf 0 setzen
+it: Azzera
+
+de: Auf dem anderen Rechner, Handy oder Tablet diese Adresse im Browser öffnen. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben; beim ersten Start fragt Windows meist selbst nach. Module legst du in „Anlage bearbeiten“ an (Palette „Modul“).
+it: Aprire questo indirizzo nel browser dell'altro computer, telefono o tablet. Il firewall di Windows di questo computer deve consentire la porta in entrata; al primo avvio Windows di solito lo chiede. I moduli si creano in «Modifica plastico» (tavolozza «Modulo»).
+
+de: Auf der Anlage
+it: Sul plastico
+
+de: Auf der Anlage oder Name eines (neuen) Moduls
+it: Sul plastico o nome di un modulo (nuovo)
+
+de: Aufgezeichneten Ablauf anzeigen, bearbeiten und abspielen
+it: Mostra, modifica e riproduci la sequenza registrata
+
+de: Aufwärts
+it: Su
+
+de: Aufzeichnen
+it: Registra
+
+de: Aufzeichnen (0)
+it: Registra (0)
+
+de: Aufzeichnen ({0})
+it: Registra ({0})
+
+de: Aufzeichnung beendet – nichts aufgezeichnet.
+it: Registrazione terminata – niente registrato.
+
+de: Aufzeichnung gespeichert: {0} Vorgänge ({1}).
+it: Registrazione salvata: {0} operazioni ({1}).
+
+de: Aufzeichnung konnte nicht gespeichert werden: {0}
+it: Impossibile salvare la registrazione: {0}
+
+de: Aufzeichnung läuft – jeder Drag&Drop wird mit seinem Zeitpunkt gespeichert.
+it: Registrazione in corso – ogni trascinamento viene salvato con il suo momento.
+
+de: Aus
+it: Spento
+
+de: Aus Lager: {0} ({1} vorrätig)
+it: Dal magazzino: {0} ({1} disponibili)
+
+de: Aus der iTrain-Datei „{0}“: Maßstab 1:{1}{2}{3}{4}. Der Maßstab ist eingetragen. Eine Epoche steht nicht in der iTrain-Datei.
+it: Dal file iTrain «{0}»: scala 1:{1}{2}{3}{4}. La scala è stata inserita. L'epoca non è presente nel file iTrain.
+
+de: Ausführungen M/h
+it: Esecuzioni M/h
+
+de: Ausfüllen
+it: Compila
+
+de: Ausgang
+it: Uscita
+
+de: Ausgangsbestände
+it: Scorte in uscita
+
+de: Ausgangslager voll: {0}
+it: Magazzino in uscita pieno: {0}
+
+de: Ausgangslager {0}
+it: Magazzino in uscita {0}
+
+de: Ausgeglichen
+it: In equilibrio
+
+de: Ausgehend
+it: In uscita
+
+de: Ausgestiegen
+it: Scesi
+
+de: Ausgewählte Blöcke an
+it: Blocchi scelti a
+
+de: Ausgewähltes Gut aus dem Zug entladen…
+it: Scarica la merce scelta dal treno…
+
+de: Ausgewähltes Gut in den haltenden Zug laden…
+it: Carica la merce scelta nel treno fermo…
+
+de: Ausgleich über Übergabe
+it: Compensazione tramite interscambio
+
+de: Auslastung
+it: Utilizzo
+
+de: Auslastung = Füllstand der Ausgangslager. Rate/h = Ausführungen des Rezepts je Modellstunde.
+it: Utilizzo = livello dei magazzini in uscita. Ritmo/h = esecuzioni della ricetta per ora di modello.
+
+de: Ausrichtung
+it: Allineamento
+
+de: Ausstattung
+it: Dotazione
+
+de: Aussteigeanteil ankommender\nPassagiere (%)
+it: Quota di viaggiatori\nin arrivo che scendono (%)
+
+de: Aussteigen erlaubt
+it: Discesa consentita
+
+de: Aussteigende Passagiere
+it: Viaggiatori che scendono
+
+de: Aussteigende Passagiere ·
+it: Viaggiatori che scendono ·
+
+de: Auswahl
+it: Scelta
+
+de: Auswahl öffnen
+it: Apri scelta
+
+de: Auswahl:
+it: Scelta:
+
+de: Automatisch (liefert immer, ohne auf der Anlage zu sein){0}
+it: Automatico (fornisce sempre, senza essere sul plastico){0}
+
+de: Automatisch (wird von außerhalb geliefert){0}
+it: Automatico (fornito dall'esterno){0}
+
+de: Automatisch ({0}, nicht auf der Anlage)
+it: Automatico ({0}, non sul plastico)
+
+de: Automatisch geladen: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+it: Caricato automaticamente: {0}  ({1} loco, {2} carri, {3} blocchi, {4} treni)
+
+de: Außenwelt: Güter, die hier bereitstehen
+it: Mondo esterno: merci pronte qui
+
+de: Außenwelt: Personen an diesem Bahnsteig
+it: Mondo esterno: persone a questo marciapiede
+
+de: Außenwelt: stellt Personen und Güter bereit und nimmt alles ab
+it: Mondo esterno: fornisce persone e merci e prende tutto
+
+de: Backup geladen: {0}
+it: Backup caricato: {0}
+
+de: Backup konnte nicht geladen werden
+it: Impossibile caricare il backup
+
+de: Backup laden
+it: Carica backup
+
+de: Backup laden...
+it: Carica backup...
+
+de: Bahnhof
+it: Stazione
+
+de: Bahnhof in iTrain
+it: Stazione in iTrain
+
+de: Bahnhof „{0}“ an die Anlagen-Infrastruktur angeheftet.
+it: Stazione «{0}» collegata all'infrastruttura del plastico.
+
+de: Bahnhof:
+it: Stazione:
+
+de: Bahnhöfe
+it: Stazioni
+
+de: Bahnhöfe ({0})
+it: Stazioni ({0})
+
+de: Bahnhöfe und Gleise
+it: Stazioni e binari
+
+de: Bahnhöfe, die an diesem Tab hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+it: Stazioni collegate a questa scheda (con i loro scali merci, località, aziende, magazzini)
+
+de: Bahnhöfe: {0}
+it: Stazioni: {0}
+
+de: Bahnsteig
+it: Marciapiede
+
+de: Bahnsteig und Ladegleis
+it: Marciapiede e binario di carico
+
+de: Bahnsteig und Ladegleis (beides an diesem Gleis)
+it: Marciapiede e binario di carico (entrambi su questo binario)
+
+de: Bahnsteige und Ladegleise: Es entstehen ein {0} und ein angedockter Güterbahnhof.
+it: Marciapiedi e binari di carico: si crea una {0} e uno scalo merci agganciato.
+
+de: Batterie
+it: Batteria
+
+de: Bauernhof
+it: Fattoria
+
+de: Baumwollplantage
+it: Piantagione di cotone
+
+de: Bearbeiten
+it: Modifica
+
+de: Bearbeiten…
+it: Modifica…
+
+de: Bedarf
+it: Domanda
+
+de: Bedarf = was je Modellstunde bewegt werden muss: das Größere aus Erzeugung und Verbrauch eines Guts, bei Passagieren das Aufkommen aller Orte. Kapazität = Summe der Wagen aller Züge (Felder Kapazität, Wagenladungen, aktive Güter bzw. Sitz- und Stehplätze). Ein Gut zählt nur bei Wagen, die es laden dürfen; Behälterwagen (Lade-Joker) zählen überall. Güter, die ohne Zug im selben Einzugsbereich verbraucht werden, sind hier noch mitgezählt.
+it: Domanda = ciò che va spostato per ora di modello: il maggiore tra produzione e consumo di una merce, per i viaggiatori il volume di tutte le località. Capacità = somma dei carri di tutti i treni (campi capacità, carichi, merci attive o posti a sedere e in piedi). Una merce conta solo per i carri che possono caricarla; i carri portacontainer (jolly) contano ovunque. Le merci consumate senza treno nella stessa zona servita sono ancora contate qui.
+
+de: Bedarf M/h
+it: Domanda M/h
+
+de: Bedarf bei {0}
+it: Domanda a {0}
+
+de: Bedarf bei „{0}“: {1} je Modellstunde
+it: Domanda a «{0}»: {1} per ora di modello
+
+de: Bedarf eintragen bei: {0}{1}
+it: Inserire la domanda a: {0}{1}
+
+de: Bedarf je Modellstunde
+it: Domanda per ora di modello
+
+de: Bedarf muss eingestellt werden – das geht im Schritt 3.
+it: La domanda va impostata – lo si fa nel passo 3.
+
+de: Bedienung des Ladegleises (Richtung kommt über XTC):
+it: Servizio del binario di carico (la direzione arriva via XTC):
+
+de: Befördert Güter
+it: Trasporta merci
+
+de: Befördert Personen
+it: Trasporta persone
+
+de: Behälter
+it: Container
+
+de: Behälterwagen sind Lade-Joker: Sie laden jedes Gut, unabhängig von Ladeklasse und aktiven Gütern, bis zur Kapazität; die Mischregel gilt nicht (jedes Gut in eigenen Behältern).
+it: I carri portacontainer sono jolly di carico: caricano qualsiasi merce, indipendentemente da classe di carico e merci attive, fino alla capacità; la regola di miscelazione non vale (ogni merce nei propri container).
+
+de: Beim Klick auf ein Symbol
+it: Al clic su un simbolo
+
+de: Beispiel
+it: Esempio
+
+de: Bekohlung
+it: Rifornimento carbone
+
+de: Belegung
+it: Occupazione
+
+de: Benötigt / frei
+it: Necessario / libero
+
+de: Benötigt von: {0}
+it: Richiesto da: {0}
+
+de: Benötigt: {0}
+it: Richiede: {0}
+
+de: Bereitgestellt
+it: Messo a disposizione
+
+de: Beschreibung
+it: Descrizione
+
+de: Beschreibung: {0}
+it: Descrizione: {0}
+
+de: Bestand {0}
+it: Scorta {0}
+
+de: Bestände
+it: Scorte
+
+de: Bestände  {0}/{1}
+it: Scorte  {0}/{1}
+
+de: Bestände, Wartende, offenen Bedarf und Statistik dieses Objekts auf 0 setzen
+it: Azzerare scorte, persone in attesa, domanda aperta e statistica di questo oggetto
+
+de: Betrieb
+it: Azienda
+
+de: Betrieb anlegen
+it: Crea azienda
+
+de: Betrieb bearbeiten
+it: Modifica azienda
+
+de: Betrieb mit Rezepten (Produktion, Wandlung)
+it: Azienda con ricette (produzione, trasformazione)
+
+de: Betriebe, die Ware liefern – wo wird es gebraucht
+it: Aziende che forniscono merci – dove servono
+
+de: Betriebswerk
+it: Deposito
+
+de: Bevölkerung
+it: Popolazione
+
+de: Bilanz
+it: Bilancio
+
+de: Bild nicht gefunden (Anfangsordner für Layout-Dateien prüfen).
+it: Immagine non trovata (controllare la cartella iniziale dei file del plastico).
+
+de: Bitte Reisende oder ein Gut wählen.
+it: Scegliere viaggiatori o una merce.
+
+de: Bitte die Adresse des iTrain-Computers eingeben.
+it: Inserire l'indirizzo del computer iTrain.
+
+de: Bitte mindestens ein Streckengleis wählen.
+it: Scegliere almeno un binario di linea.
+
+de: Bitte wählen, wer es verbraucht.
+it: Scegliere chi lo consuma.
+
+de: Bitte wählen, woher es kommt.
+it: Scegliere da dove viene.
+
+de: Bitte zuerst eine Konfiguration öffnen.
+it: Aprire prima una configurazione.
+
+de: Bitte zuerst im Fenster „Anlage bearbeiten“ ein Symbol anklicken.
+it: Fare prima clic su un simbolo nella finestra «Modifica plastico».
+
+de: Bitte zuerst über "Datei > Öffnen..." eine .logz-Datei laden oder über "Datei > Neu aus .tcdz importieren..." neu anlegen.
+it: Caricare prima un file .logz con "File > Apri..." o crearne uno con "File > Nuova configurazione...".
+
+de: Bitte „Transport von“ und „Transport nach“ wählen.
+it: Scegliere «Trasporto da» e «Trasporto a».
+
+de: Blau
+it: Blu
+
+de: Blech
+it: Lamiera
+
+de: Block
+it: Blocco
+
+de: Block links auswählen.
+it: Scegliere un blocco a sinistra.
+
+de: Block: 
+it: Blocco: 
+
+de: Blöcke
+it: Blocchi
+
+de: Blöcke (linke Hälfte = Einfahrt von links, rechte Hälfte = von rechts)
+it: Blocchi (metà sinistra = ingresso da sinistra, metà destra = da destra)
+
+de: Blöcke, die einem Gleis einer Station zugeordnet sind
+it: Blocchi assegnati a un binario di una stazione
+
+de: Blöcke, die keinem Gleis einer Station zugeordnet sind
+it: Blocchi non assegnati ad alcun binario di una stazione
+
+de: Blöcke: {0}
+it: Blocchi: {0}
+
+de: Brammen
+it: Bramme
+
+de: Brauerei
+it: Birrificio
+
+de: Bretter
+it: Tavole
+
+de: Browser Logistik
+it: Browser Logistica
+
+de: Browser Logistik eingeschaltet
+it: Browser Logistica attivato
+
+de: Browser Logistik ist ausgeschaltet
+it: Browser Logistica è disattivato
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Logistik: anderen Port wählen.
+it: Browser Logistica non ha potuto aprire la porta {0} ({1}). Impostazioni → Browser Logistica: scegliere un'altra porta.
+
+de: Browser Logistik läuft: {0}
+it: Browser Logistica attivo: {0}
+
+de: Browser Logistik...
+it: Browser Logistica...
+
+de: Browser Logistik: Anlage und Module im Browser (anderer Rechner, Handy, Tablet) öffnen; Einstellungen mit Port und QR-Code
+it: Browser Logistica: aprire plastico e moduli nel browser (altro computer, telefono, tablet); impostazioni con porta e codice QR
+
+de: Browser Zuganzeiger
+it: Browser Partenze
+
+de: Browser Zuganzeiger eingeschaltet
+it: Browser Partenze attivato
+
+de: Browser Zuganzeiger ist ausgeschaltet
+it: Browser Partenze è disattivato
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Zuganzeiger: anderen Port wählen.
+it: Browser Partenze non ha potuto aprire la porta {0} ({1}). Impostazioni → Browser Partenze: scegliere un'altra porta.
+
+de: Browser Zuganzeiger läuft: {0}
+it: Browser Partenze attivo: {0}
+
+de: Browser Zuganzeiger...
+it: Browser Partenze...
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser öffnen, auch je Bahnhof; Einstellungen mit Port und QR-Code
+it: Browser Partenze: aprire i tabelloni partenze nel browser, anche per stazione; impostazioni con porta e codice QR
+
+de: Browser konnte nicht geöffnet werden: {0}
+it: Impossibile aprire il browser: {0}
+
+de: Browser: /modul/{0}
+it: Browser: /modul/{0}
+
+de: Browser: aus
+it: Browser: spento
+
+de: Bücher
+it: Libri
+
+de: Chemiefabrik
+it: Fabbrica chimica
+
+de: Chemikalien
+it: Prodotti chimici
+
+de: Coils
+it: Coil
+
+de: Dampf
+it: Vapore
+
+de: Das Ladegleis steht im angedockten Güterbahnhof, der Bahnsteig im Schattenbahnhof – derselbe iTrain-Block.
+it: Il binario di carico è nello scalo merci agganciato, il marciapiede nella stazione nascosta – lo stesso blocco iTrain.
+
+de: Datei
+it: File
+
+de: Datei geschlossen.
+it: File chiuso.
+
+de: Datei konnte nicht geöffnet werden
+it: Impossibile aprire il file
+
+de: Datei öffnen
+it: Apri file
+
+de: Dateien
+it: File
+
+de: Der Ablauf ist leer.
+it: La sequenza è vuota.
+
+de: Der Betrieb sammelt, was er herstellt, und gibt es alle so viele Modellstunden auf einmal ab – z. B. 5 Gebinde Fisch alle 6 Stunden. Ein Lager gibt es danach Stück für Stück weiter.
+it: L'azienda accumula ciò che produce e lo consegna in una volta ogni tante ore di modello – ad es. 5 casse di pesce ogni 6 ore. Un magazzino lo passa poi pezzo per pezzo.
+
+de: Der Betrieb wird nicht gerechnet; seine Ausgangsgüter stehen allen Verbrauchern unbegrenzt zur Verfügung, ohne Zug.
+it: L'azienda non viene calcolata; le sue merci in uscita sono a disposizione di tutti i consumatori senza limiti, senza treno.
+
+de: Der Block "{0}" ist schon einem anderen {1} zugeordnet. Ein Block kann höchstens ein Bahnsteig und ein Ladegleis sein.
+it: Il blocco "{0}" è già assegnato a un'altra {1}. Un blocco può essere al massimo un marciapiede e un binario di carico.
+
+de: Der Dateiname beginnt mit dem Namen des Symbols, z. B. „Möbelfabrik - Holz sägen.mp3“ oder „Möbelfabrik 2.mp3“. Gesucht wird nach dem Namen des Objekts, dann nach dem Betriebstyp (Sägewerk …) und der Art (Stadt, Bahnhof …); bei mehreren Dateien zufällig. Formate mp3, wav, m4a, aiff. Mitgeliefert sind nur gemeinfreie Aufnahmen (CC0).
+it: Il nome del file inizia con il nome del simbolo, ad es. «Möbelfabrik - Holz sägen.mp3» o «Möbelfabrik 2.mp3». Si cerca il nome dell'oggetto, poi il tipo di azienda (segheria …) e il tipo (città, stazione …); con più file a caso. Formati mp3, wav, m4a, aiff. Sono incluse solo registrazioni di pubblico dominio (CC0).
+
+de: Der Verbraucher hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden.
+it: Il consumatore non è collegato ad alcuna stazione con {0} – collegarlo prima a una stazione.
+
+de: Der erste Gütertransport {0}zu {1} wurde erfolgreich absolviert.
+it: Il primo trasporto merci {0}a {1} è stato completato con successo.
+
+de: Der erste Transfer {0}zu {1} wurde erfolgreich absolviert.
+it: Il primo trasbordo {0}a {1} è stato completato con successo.
+
+de: Deutsch
+it: Deutsch
+
+de: Dialog nicht mehr anzeigen
+it: Non mostrare più questo dialogo
+
+de: Die Anlage wurde geändert.
+it: Il plastico è stato modificato.
+
+de: Die Erzeugung schwankt je Modellstunde zwischen 50 % und 150 % der Rate (im Mittel gleich). Überschuss wird am Gleis bzw. im Lager gehalten und nach Bedarf weitergegeben.
+it: La produzione varia per ora di modello tra il 50 % e il 150 % del ritmo (uguale in media). L'eccedenza resta al binario o nel magazzino e viene passata secondo necessità.
+
+de: Die Fahrzeugdatei dieser Konfiguration wurde nicht gefunden:\n{0}\n\nLokomotiven, Wagen und Züge kommen jetzt ohne eigene Angaben aus der iTrain-Datei. Mit Datei > „Fahrzeuge importieren...“ lassen sich die Angaben aus einer anderen Fahrzeugdatei holen.
+it: Il file dei veicoli di questa configurazione non è stato trovato:\n{0}\n\nLocomotive, carri e treni arrivano ora dal file iTrain senza dati propri. Con File > «Importa veicoli...» si prendono i dati da un altro file dei veicoli.
+
+de: Die Herkunft hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden („Mit Station verbinden…“).
+it: L'origine non è collegata ad alcuna stazione con {0} – collegarla prima a una stazione («Collega con stazione…»).
+
+de: Die Liste bleibt stehen, damit man in Ruhe lesen und markieren kann. Die Ereignisse werden trotzdem verarbeitet und bei „Weiter“ nachgetragen.
+it: L'elenco resta fermo per leggere e selezionare con calma. Gli eventi vengono comunque elaborati e aggiunti con «Continua».
+
+de: Die eingetragenen Personen- und Gütermengen als eigenen Vorschlag speichern.
+it: Salvare le quantità di persone e merci inserite come proposta propria.
+
+de: Die gewählte Objektart zeigt auf der Anlage künftig das markierte Symbol.
+it: Il tipo di oggetto scelto mostrerà d'ora in poi il simbolo selezionato sul plastico.
+
+de: Die gewählte Objektart zeigt wieder ihr eigenes Symbol.
+it: Il tipo di oggetto scelto mostra di nuovo il proprio simbolo.
+
+de: Diese Zeile ist in Ordnung (✓). Bitte eine Zeile mit ⚠ markieren.
+it: Questa riga è a posto (✓). Selezionare una riga con ⚠.
+
+de: Diesel
+it: Diesel
+
+de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
+it: Questo oggetto è in pausa – un clic lo fa ripartire
+
+de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+it: Questo simbolo è collegato all'infrastruttura del plastico nella prima scheda
+
+de: Dorf
+it: Paese
+
+de: Drag&Drop-Vorgänge mit ihrem Zeitpunkt aufzeichnen; erneuter Klick beendet und speichert
+it: Registrare i trascinamenti con il loro momento; un nuovo clic termina e salva
+
+de: Druckerei
+it: Tipografia
+
+de: Dynamisch: mal mehr, mal weniger herstellen
+it: Dinamico: produrre a volte di più, a volte di meno
+
+de: Dünger
+it: Fertilizzante
+
+de: Eigene Datei {0}
+it: File proprio {0}
+
+de: Eigene Datenfelder
+it: Campi dati propri
+
+de: Eigene Farbfläche
+it: Superficie di colore propria
+
+de: Eigenen Vorschlag löschen
+it: Elimina proposta propria
+
+de: Eigener Betrieb (ohne Vorlage)
+it: Azienda propria (senza modello)
+
+de: Eigener Betrieb: Eingänge und Ausgänge stellst Du danach selbst ein.
+it: Azienda propria: ingressi e uscite li imposti poi tu.
+
+de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+it: Porta propria, separata da Browser Logistica. Velocità, zoom e «Proponi treni adatti» si impostano su ogni dispositivo in basso nel tabellone (il browser li ricorda), «Schermo intero» per un tablet come tabellone. Il firewall di Windows di questo computer deve consentire la porta in entrata.
+
+de: Eigener Reiter mit den angehängten Bahnhöfen
+it: Scheda propria con le stazioni collegate
+
+de: Ein Modul
+it: Un modulo
+
+de: Ein Tab
+it: Una scheda
+
+de: Eine Verbindung verbindet eine Station mit einem Ort, Betrieb, Lager oder einer Übergabe (Einzugsbereich). Zwei Stationen lassen sich nicht verbinden.
+it: Un collegamento unisce una stazione a una località, azienda, magazzino o interscambio (zona servita). Due stazioni non possono essere collegate.
+
+de: Einfahrt
+it: Ingresso
+
+de: Einfahrt von
+it: Ingresso da
+
+de: Einfügen
+it: Incolla
+
+de: Einfügen geht im Fenster „Anlage bearbeiten“.
+it: Incolla funziona nella finestra «Modifica plastico».
+
+de: Eingang
+it: Ingresso
+
+de: Eingangsbestände
+it: Scorte in ingresso
+
+de: Eingangsgüter, die von außerhalb geliefert werden
+it: Merci in ingresso fornite dall'esterno
+
+de: Eingangslager {0}
+it: Magazzino in ingresso {0}
+
+de: Eingebautes Symbol
+it: Simbolo integrato
+
+de: Eingehend
+it: In entrata
+
+de: Eingelagert {0}/{1}
+it: Immagazzinato {0}/{1}
+
+de: Eingestiegen
+it: Saliti
+
+de: Eingestiegen Richtung 
+it: Saliti direzione 
+
+de: Eingänge der Betriebe – woher sie kommen
+it: Ingressi delle aziende – da dove arrivano
+
+de: Einheit
+it: Unità
+
+de: Einheiten
+it: Unità
+
+de: Einlagern in: {0}{1}
+it: Immagazzinare in: {0}{1}
+
+de: Einmal beim Öffnen
+it: Una volta all'apertura
+
+de: Einpassen
+it: Adatta
+
+de: Einrichtung
+it: Configurazione
+
+de: Einsteigende Passagiere
+it: Viaggiatori che salgono
+
+de: Einsteigende Passagiere ·
+it: Viaggiatori che salgono ·
+
+de: Einstellungen
+it: Impostazioni
+
+de: Einstellungen, Adressen und QR-Code…
+it: Impostazioni, indirizzi e codice QR…
+
+de: Einwohner
+it: Abitanti
+
+de: Einwohner {0}  ·  Abreisende {1} M/h  ·  Ankommende {2}  ·  1. Klasse {3} %
+it: Abitanti {0}  ·  partenti {1} M/h  ·  arrivi {2}  ·  1ª classe {3} %
+
+de: Einzelne Kapazitäten mit Einheit zeigen
+it: Mostra capacità singole con unità
+
+de: Einzugsbereich
+it: Zona servita
+
+de: Einzugsbereich (Orte, Betriebe, Lager, Übergaben, die diese Station bedient)
+it: Zona servita (località, aziende, magazzini, interscambi serviti da questa stazione)
+
+de: Eisenerz
+it: Minerale di ferro
+
+de: Eisenerzbergwerk
+it: Miniera di ferro
+
+de: Elektrisch
+it: Elettrico
+
+de: Empfangen
+it: Ricevuto
+
+de: Endprodukt
+it: Prodotto finito
+
+de: English
+it: English
+
+de: Entfernen
+it: Rimuovi
+
+de: Entladen
+it: Scarica
+
+de: Entladen aller Güter erzwingen (auch ohne Abnehmer)
+it: Forza lo scarico di tutte le merci (anche senza cliente)
+
+de: Entladen erlaubt
+it: Scarico consentito
+
+de: Entladen in
+it: Scaricare a
+
+de: Entspricht der Zusammenstellung in der .tcdz.
+it: Corrisponde alla composizione nel .tcdz.
+
+de: Epoche {0}
+it: Epoca {0}
+
+de: Ereignis
+it: Evento
+
+de: Ereignisse
+it: Eventi
+
+de: Ergebnis der Prüfung
+it: Risultato della verifica
+
+de: Erzeugt Stück M/h
+it: Genera pezzi M/h
+
+de: Erzeugt wird hier vom angeschlossenen Ort (Reisende aus Stadt/Dorf/Ländlich).
+it: Qui genera la località collegata (viaggiatori da città/paese/rurale).
+
+de: Erzeugung und Bereitstellung: links langsamer (×0,75 … ×0,1), Mitte ×1, rechts schneller (×1,5 … ×4). Angehalten wird mit dem Knopf Pause.
+it: Produzione e disponibilità: a sinistra più lento (×0,75 … ×0,1), al centro ×1, a destra più veloce (×1,5 … ×4). Si ferma con il pulsante Pausa.
+
+de: Es fehlen 
+it: Mancano 
+
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+it: Non c'è ancora {0}. Crearlo prima dalla tavolozza «{1}» nella prima scheda; è collegato all'infrastruttura del plastico.
+
+de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
+it: Non c'è ancora stazione, fermata, scalo merci o raccordo.
+
+de: Es gibt schon eine Aufzeichnung. Soll sie durch die neue ersetzt werden?
+it: Esiste già una registrazione. Sostituirla con la nuova?
+
+de: Es gibt ungespeicherte Änderungen. Vor dem Beenden speichern?
+it: Ci sono modifiche non salvate. Salvare prima di uscire?
+
+de: Es ist keine Datei geöffnet. Der Simulator arbeitet immer mit der Datei, die in iTrain-Logistik geöffnet ist. Bitte zuerst eine Datei öffnen; danach öffnet sich der Simulator von selbst.
+it: Nessun file aperto. Il simulatore lavora sempre con il file aperto in iTrain-Logistik. Aprire prima un file; poi il simulatore si apre da solo.
+
+de: Expressgut
+it: Collettame
+
+de: Expressgut empfangen
+it: Collettame ricevuto
+
+de: Fabrik
+it: Fabbrica
+
+de: Fahrtrichtungen
+it: Direzioni di marcia
+
+de: Fahrzeugdaten (*.fahrzeuge.xml)
+it: Dati veicoli (*.fahrzeuge.xml)
+
+de: Fahrzeugdaten fehlen
+it: Dati veicoli mancanti
+
+de: Fahrzeuge
+it: Veicoli
+
+de: Fahrzeuge exportieren
+it: Esporta veicoli
+
+de: Fahrzeuge exportieren...
+it: Esporta veicoli...
+
+de: Fahrzeuge exportiert: {0}
+it: Veicoli esportati: {0}
+
+de: Fahrzeuge importieren
+it: Importa veicoli
+
+de: Fahrzeuge importieren...
+it: Importa veicoli...
+
+de: Fahrzeuge importiert aus {0}: {1} Lokomotiven/Wagen/Züge mit gleichem Namen übernommen, gespeichert in {2}.
+it: Veicoli importati da {0}: {1} locomotive/carri/treni con lo stesso nome ripresi, salvati in {2}.
+
+de: Fahrzeuge konnten nicht exportiert werden
+it: Impossibile esportare i veicoli
+
+de: Fahrzeuge konnten nicht importiert werden
+it: Impossibile importare i veicoli
+
+de: Fahrzeuge übernehmen?
+it: Riprendere i veicoli?
+
+de: Fahrzeugfabrik
+it: Fabbrica di veicoli
+
+de: Faktor der Modelluhr
+it: Fattore dell'orologio di modello
+
+de: Faktor für die Lagergrößen
+it: Fattore per le dimensioni dei magazzini
+
+de: Faktor für die Lagergrößen beim Anlegen eines Betriebs.\nBeispiel 0,1: Das Sägewerk-Eingangslager hat 40 statt 400 Einheiten.\nGilt für neu angelegte Betriebe.
+it: Fattore per le dimensioni dei magazzini alla creazione di un'azienda.\nEsempio 0,1: il magazzino in ingresso della segheria ha 40 invece di 400 unità.\nVale per le aziende create da ora.
+
+de: Farbe
+it: Colore
+
+de: Farbe des Symbols und der Verbindung
+it: Colore del simbolo e del collegamento
+
+de: Farbe für "{0}"
+it: Colore per "{0}"
+
+de: Farbe:
+it: Colore:
+
+de: Farben: Rechtsklick auf ein Symbol, „Farbe…“
+it: Colori: clic destro su un simbolo, «Colore…»
+
+de: Farbe…
+it: Colore…
+
+de: Farbstoffe
+it: Coloranti
+
+de: Fehler beim Laden von translations.properties: {0}
+it: Errore nel caricamento di translations.properties: {0}
+
+de: Feld
+it: Campo
+
+de: Fester Mittelpunkt, an dem alle Stationen hängen
+it: Centro fisso a cui sono collegate tutte le stazioni
+
+de: Fett
+it: Grassetto
+
+de: Fisch
+it: Pesce
+
+de: Fischzucht
+it: Allevamento ittico
+
+de: Flachwagen, Drehgestell (Regelbauart)
+it: Carro pianale, carrelli (normale)
+
+de: Flachwagen, Drehgestell (Sonderbauart)
+it: Carro pianale, carrelli (speciale)
+
+de: Flachwagen, Einzelachsen (Regelbauart)
+it: Carro pianale, assi singoli (normale)
+
+de: Flachwagen, Einzelachsen (Sonderbauart)
+it: Carro pianale, assi singoli (speciale)
+
+de: Fleisch
+it: Carne
+
+de: Flüssig
+it: Liquido
+
+de: Flüssiggut
+it: Liquidi sfusi
+
+de: Flüssigkeiten
+it: Liquidi
+
+de: Flüssiglager
+it: Deposito liquidi
+
+de: Formatierung
+it: Formattazione
+
+de: Formatierung…
+it: Formattazione…
+
+de: Funktionen
+it: Funzioni
+
+de: Führend
+it: In testa
+
+de: Füllung
+it: Riempimento
+
+de: Für diese Datei liegt noch keine Sicherung vor.
+it: Per questo file non c'è ancora un backup.
+
+de: Für {0} ist noch kein Bedarf eingestellt.
+it: Per {0} non è ancora impostata alcuna domanda.
+
+de: Für {0} wird zusätzlich gebraucht bzw. bleibt übrig.\n▼ Eingang ohne Lieferanten · ▲ Ausgang ohne Abnehmer. Unter einem neuen Betrieb stehen dessen eigene offene Enden.\n„Wird von außerhalb geliefert“: das Gut steht dem Betrieb unbegrenzt zur Verfügung, ohne Zug. Mengen werden nach dem Übernehmen automatisch abgeglichen.
+it: Per {0} serve in più o avanza.\n▼ ingresso senza fornitore · ▲ uscita senza cliente. Sotto una nuova azienda compaiono i suoi capi aperti.\n«Fornito dall'esterno»: la merce è a disposizione dell'azienda senza limiti, senza treno. Le quantità vengono bilanciate automaticamente dopo l'applicazione.
+
+de: Ganze Anlage
+it: Plastico intero
+
+de: Ganze Anlage in den sichtbaren Bereich zoomen
+it: Adatta tutto il plastico all'area visibile
+
+de: Gebinde
+it: Casse
+
+de: Gedeckter Wagen (Regelbauart)
+it: Carro coperto (normale)
+
+de: Gedeckter Wagen (Sonderbauart)
+it: Carro coperto (speciale)
+
+de: Geeignete Züge vorschlagen
+it: Proponi treni adatti
+
+de: Gegenstück
+it: Controparte
+
+de: Gegenstück (bringt)
+it: Controparte (porta)
+
+de: Gegenstück (nimmt auf)
+it: Controparte (accoglie)
+
+de: Gegenstück fehlt: Ein anderer Bahnhof oder der Schattenbahnhof muss ebenfalls einen Bahnsteig „Mit Koffer“ haben, sonst können Kofferreisende nirgends aussteigen.
+it: Manca la controparte: anche un'altra stazione o la stazione nascosta deve avere un marciapiede «Con valigia», altrimenti i viaggiatori con valigia non possono scendere da nessuna parte.
+
+de: Geht an
+it: Va a
+
+de: Gekoppelte Datei nicht gefunden: {0}
+it: File collegato non trovato: {0}
+
+de: Geladen
+it: Caricato
+
+de: Geladen Richtung 
+it: Caricato direzione 
+
+de: Gelb
+it: Giallo
+
+de: Geliefert
+it: Fornito
+
+de: Geliefert von
+it: Fornito da
+
+de: Gemischt
+it: Misto
+
+de: Gemüse
+it: Verdura
+
+de: Gepäckwagen
+it: Bagagliaio
+
+de: Geräusch nicht abspielbar: {0} – {1}
+it: Impossibile riprodurre il suono: {0} – {1}
+
+de: Geräusche
+it: Suoni
+
+de: Geräusche nicht ausgepackt: {0}
+it: Suoni non estratti: {0}
+
+de: Gesamt (Cargo-Manager)
+it: Totale (gestore merci)
+
+de: Gesamten Güter- und Personenaustausch anhalten
+it: Metti in pausa tutto lo scambio di merci e viaggiatori
+
+de: Gesamten Güter- und Personenaustausch starten
+it: Avvia tutto lo scambio di merci e viaggiatori
+
+de: Geschlossen
+it: Chiuso
+
+de: Gespeichert: {0}
+it: Salvato: {0}
+
+de: Getreide
+it: Cereali
+
+de: Getränke
+it: Bevande
+
+de: Gewerbe
+it: Commercio
+
+de: Gewicht und Volumen sind nur zur Information und werden beim Laden nicht bewertet.
+it: Peso e volume sono solo informativi e non vengono valutati al carico.
+
+de: Geöffnet: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+it: Aperto: {0}  ({1} loco, {2} carri, {3} blocchi, {4} treni)
+
+de: Glas
+it: Vetro
+
+de: Glashütte
+it: Vetreria
+
+de: Gleis
+it: Binario
+
+de: Gleis bearbeiten
+it: Modifica binario
+
+de: Gleis hinzufügen…
+it: Aggiungi binario…
+
+de: Gleis:
+it: Binario:
+
+de: Gleis: {0} – {1} ({2})
+it: Binario: {0} – {1} ({2})
+
+de: Gleisanschluss eines Betriebs, Bahnsteige und Ladegleise
+it: Raccordo di un'azienda, marciapiedi e binari di carico
+
+de: Gleisart
+it: Tipo di binario
+
+de: Gleise
+it: Binari
+
+de: Gleise (je Gleis genau ein iTrain-Block)
+it: Binari (ogni binario esattamente un blocco iTrain)
+
+de: Gleise der Art Ladegleis (Güter) kommen beim Speichern in den Güterbahnhof {0}.
+it: I binari di tipo binario di carico (merci) passano al salvataggio nello scalo merci {0}.
+
+de: Gleise ordnen Sie in der Station zu (Doppelklick). Einzugsbereich: Rechtsklick auf das Objekt, „Mit Station verbinden…“.
+it: I binari si assegnano nella stazione (doppio clic). Zona servita: clic destro sull'oggetto, «Collega con stazione…».
+
+de: Gleise wählen…
+it: Scegli binari…
+
+de: Gleise/Blöcke
+it: Binari/blocchi
+
+de: Gleise: {0}
+it: Binari: {0}
+
+de: Gleisname, Fahrtrichtungen und Kapazität danach in der Station einstellen.
+it: Impostare poi nella stazione nome del binario, direzioni di marcia e capacità.
+
+de: Glückwunsch!
+it: Congratulazioni!
+
+de: Grau
+it: Grigio
+
+de: Grundbestand ergänzen
+it: Completa la dotazione di base
+
+de: Größe
+it: Dimensione
+
+de: Größe:
+it: Dimensione:
+
+de: Grün
+it: Verde
+
+de: Gummi
+it: Gomma
+
+de: Gummiplantage
+it: Piantagione di gomma
+
+de: Gut
+it: Merce
+
+de: Güter
+it: Merci
+
+de: Güter (Bedarf)
+it: Merci (domanda)
+
+de: Güter Bedarf
+it: Domanda merci
+
+de: Güter Herstellung
+it: Produzione merci
+
+de: Güter an diesem Gleis (keins = alle)
+it: Merci su questo binario (nessuna = tutte)
+
+de: Güter fließen nur über Ladegleise. Deshalb mit dem Güterbahnhof verbunden:\n{0}
+it: Le merci fluiscono solo tramite binari di carico. Quindi collegato allo scalo merci:\n{0}
+
+de: Güter können nicht verbraucht werden
+it: Le merci non possono essere consumate
+
+de: Güter wählen…
+it: Scegli merci…
+
+de: Güter zum Transport
+it: Merci da trasportare
+
+de: Güter zurück zum Empfänger, bitte abholen
+it: Merci di ritorno al destinatario, ritirarle
+
+de: Güter, die die Übergabe unbegrenzt abnimmt
+it: Merci che l'interscambio prende senza limiti
+
+de: Güter, die die Übergabe unbegrenzt liefert
+it: Merci che l'interscambio fornisce senza limiti
+
+de: Güter, die dieser Wagen laden kann (Aktiv). Sind Güter aktiv, lädt der Wagen nur diese; sonst alle Güter seiner Ladeklasse. Die Kapazität verteilt sich gleichmäßig auf die Wagenladungen; nicht mischbare Güter (z.B. Flüssiggut) belegen eine Wagenladung allein.
+it: Merci che questo carro può caricare (attive). Se ci sono merci attive, il carro carica solo quelle; altrimenti tutte le merci della sua classe. La capacità si ripartisce in modo uguale sui carichi; le merci non miscelabili (ad es. liquidi) occupano da sole un carico.
+
+de: Güter-/Personenaustausch angehalten.
+it: Scambio merci/viaggiatori in pausa.
+
+de: Güter-/Personenaustausch gestartet.
+it: Scambio merci/viaggiatori avviato.
+
+de: Güter...
+it: Merci...
+
+de: Güter: Güterbahnhof andocken (mit denselben Blöcken als Ladegleise)
+it: Merci: agganciare uno scalo merci (con gli stessi blocchi come binari di carico)
+
+de: Güterauswahl
+it: Scelta merci
+
+de: Güterbahnhof
+it: Scalo merci
+
+de: Güterbahnhof „{0}“ angelegt
+it: Scalo merci «{0}» creato
+
+de: Güterbedarf (offen / je Modellstunde)
+it: Domanda merci (aperta / per ora di modello)
+
+de: Güterfluss je Modelltag
+it: Flusso merci per giorno di modello
+
+de: Güterverkehr
+it: Traffico merci
+
+de: Güterverkehr · Next trips
+it: Traffico merci · Next trips
+
+de: Halt noch {0} s von {1} s
+it: Sosta ancora {0} s di {1} s
+
+de: Halte
+it: Fermate
+
+de: Haltepunkt
+it: Fermata
+
+de: Handbuch
+it: Manuale
+
+de: Handbuch folgt im Ordner "handbuch" - noch nicht verdrahtet.
+it: Il manuale seguirà nella cartella "handbuch" - non ancora collegato.
+
+de: Hergestellt von: {0}
+it: Prodotto da: {0}
+
+de: Herkunft:
+it: Origine:
+
+de: Herkunft: Schattenbahnhof stellt {0} je Modellstunde bereit
+it: Origine: la stazione nascosta fornisce {0} per ora di modello
+
+de: Herkunft: {0}
+it: Origine: {0}
+
+de: Heute angekommen/ausgestiegen (+) und abgefahren/eingestiegen (−)
+it: Oggi arrivati/scesi (+) e partiti/saliti (−)
+
+de: Hilfe
+it: Aiuto
+
+de: Hilfetexte folgen im Ordner "hilfetexte" - noch nicht verdrahtet.
+it: I testi di aiuto seguiranno nella cartella "hilfetexte" - non ancora collegati.
+
+de: Hinweis
+it: Avviso
+
+de: Hinweis  ·  Ziel  ·  Abholung  ·  Zug
+it: Avviso  ·  Destinazione  ·  Ritiro  ·  Treno
+
+de: Hinzufügen
+it: Aggiungi
+
+de: Hinzufügen/Ändern
+it: Aggiungi/modifica
+
+de: Holz
+it: Legno
+
+de: Holzfällerlager
+it: Campo di taglialegna
+
+de: Horizontal
+it: Orizzontale
+
+de: Horizontal:
+it: Orizzontale:
+
+de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
+it: Collegate al modulo invece che all'infrastruttura del plastico; scalo merci, località, aziende e magazzini le seguono.
+
+de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+it: Al massimo {0} schede (schede e moduli). Il numero si cambia in Preferenze > Schede.
+
+de: Höchstzahl der Reiter
+it: Numero massimo di schede
+
+de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
+it: Mostra nel browser (solo lettura, su un altro computer, telefono o tablet)
+
+de: Im Lager
+it: In magazzino
+
+de: Im ZIP-Archiv "{0}" wurde keine .tcd-Datei gefunden.
+it: Nessun file .tcd trovato nell'archivio ZIP "{0}".
+
+de: Im ZIP-Archiv "{0}" wurde keine XML-Datei gefunden.
+it: Nessun file XML trovato nell'archivio ZIP "{0}".
+
+de: Im Zug
+it: Nel treno
+
+de: In Bahnhöfen: {0}
+it: Nelle stazioni: {0}
+
+de: In der .tcdz sind keine Bahnhöfe definiert
+it: Il .tcdz non definisce stazioni
+
+de: In der Zwischenablage ist kein kopiertes Symbol.
+it: Negli appunti non c'è alcun simbolo copiato.
+
+de: In der Zwischenablage stehen keine Wagen-Angaben. Bitte zuerst bei einem Wagen „Angaben kopieren“ drücken.
+it: Negli appunti non ci sono dati di carri. Premere prima «Copia dati» su un carro.
+
+de: In der Übersicht zeigen
+it: Mostra nella panoramica
+
+de: In iTrain definierte Bahnhöfe anheften oder öffnen
+it: Collegare o aprire le stazioni definite in iTrain
+
+de: In iTrain ein sonstiger Bahnhof (z. B. Betriebswerk). Solange „Anderes“ gewählt ist, halten Züge hier ohne Ein-/Aussteigen und ohne Umladen.
+it: In iTrain una stazione di altro tipo (ad es. deposito). Finché è scelto «Altro», i treni vi fermano senza salita/discesa e senza trasbordo.
+
+de: In iTrain sind keine Zugrouten angelegt – die Verbindung kann nicht geprüft werden.
+it: In iTrain non ci sono itinerari – il collegamento non può essere verificato.
+
+de: Industrie
+it: Industria
+
+de: Industrien
+it: Industrie
+
+de: Inhalt
+it: Contenuto
+
+de: Ist dieser Bahnhof auf der Anlage oder ein Modul?
+it: Questa stazione è sul plastico o è un modulo?
+
+de: Ja, Lokomotiven zeigen
+it: Sì, mostra locomotive
+
+de: Je Bahnhof
+it: Per stazione
+
+de: Je Fahrtrichtung
+it: Per direzione di marcia
+
+de: Je Gut
+it: Per merce
+
+de: Je Ladeklasse
+it: Per classe di carico
+
+de: Jetzt abgleichen
+it: Sincronizza ora
+
+de: Jetzt prüfen
+it: Verifica ora
+
+de: Kann Expressgut mitnehmen
+it: Può portare collettame
+
+de: Kann Expressgut mitnehmen ({0} Stück)
+it: Può portare collettame ({0} pezzi)
+
+de: Kann Post mitnehmen
+it: Può portare posta
+
+de: Kann Post mitnehmen ({0} Postsäcke)
+it: Può portare posta ({0} sacchi postali)
+
+de: Kann nur in iTrain verändert werden.
+it: Modificabile solo in iTrain.
+
+de: Kapazität
+it: Capacità
+
+de: Kapazität = Einheiten je Gut (Abholung bzw. Anlieferung), Umladen = Einheiten je Modellminute
+it: Capacità = unità per merce (ritiro o consegna), trasbordo = unità per minuto di modello
+
+de: Kapazität = Wartende je Richtung, Umladen = Personen je Modellminute
+it: Capacità = persone in attesa per direzione, trasbordo = persone per minuto di modello
+
+de: Kapazität Einheit
+it: Unità di capacità
+
+de: Kapazität aller Züge je Fahrt
+it: Capacità di tutti i treni per corsa
+
+de: Kapazität gesamt (Einheiten)
+it: Capacità totale (unità)
+
+de: Kapazität je Einheit
+it: Capacità per unità
+
+de: Kapazität passender Wagen je Fahrt
+it: Capacità dei carri adatti per corsa
+
+de: Kapazitäten
+it: Capacità
+
+de: Kein Bild hinterlegt.
+it: Nessuna immagine salvata.
+
+de: Kein Ladegleis
+it: Nessun binario di carico
+
+de: Kein Modul
+it: Nessun modulo
+
+de: Kein Rezept
+it: Nessuna ricetta
+
+de: Kein Tab
+it: Nessuna scheda
+
+de: Kein freier Bahnhof.
+it: Nessuna stazione libera.
+
+de: Keine Bahnhöfe
+it: Nessuna stazione
+
+de: Keine Betriebe mit Eingängen
+it: Nessuna azienda con ingressi
+
+de: Keine Blöcke in der Datei
+it: Nessun blocco nel file
+
+de: Keine Datei geladen.
+it: Nessun file caricato.
+
+de: Keine Datei geöffnet
+it: Nessun file aperto
+
+de: Keine Dialoge abgeschaltet.
+it: Nessun dialogo disattivato.
+
+de: Keine Einträge
+it: Nessuna voce
+
+de: Keine Konfiguration geöffnet.
+it: Nessuna configurazione aperta.
+
+de: Keine Quelle gewählt
+it: Nessuna fonte scelta
+
+de: Keine Reisenden möglich, weiterer Bahnhof nötig:\n
+it: Nessun viaggiatore possibile, serve un'altra stazione:\n
+
+de: Keine Station – im Editor per Rechtsklick „Mit Station verbinden…“ zuordnen.
+it: Nessuna stazione – assegnare nell'editor con clic destro «Collega con stazione…».
+
+de: Keine Stationsart: {0}
+it: Non è un tipo di stazione: {0}
+
+de: Keine Zugroute fährt beide Bahnhöfe an. Umsteigen über einen Bahnhof dazwischen ist möglich (oben gewählt).
+it: Nessun itinerario serve entrambe le stazioni. È possibile cambiare in una stazione intermedia (scelta sopra).
+
+de: Keine Zugroute verbindet die beiden Bahnhöfe – bitte in iTrain eine Zugroute anlegen.
+it: Nessun itinerario collega le due stazioni – creare un itinerario in iTrain.
+
+de: Keine Züge in der Datei
+it: Nessun treno nel file
+
+de: Keine freie Station.
+it: Nessuna stazione libera.
+
+de: Keine freien Blöcke
+it: Nessun blocco libero
+
+de: Keine freien Blöcke (alle gehören Gleisen oder anderen Modulen).
+it: Nessun blocco libero (tutti appartengono a binari o ad altri moduli).
+
+de: Keine freien Blöcke – Gleise später in der Station zuordnen.
+it: Nessun blocco libero – assegnare i binari più tardi nella stazione.
+
+de: Keine gekoppelte .tcdz-Datei hinterlegt.
+it: Nessun file .tcdz collegato memorizzato.
+
+de: Keine iTrain-Datei geöffnet bzw. nicht lesbar – Werte bitte von Hand eintragen.
+it: Nessun file iTrain aperto o non leggibile – inserire i valori a mano.
+
+de: Keine offenen Enden.
+it: Nessun capo aperto.
+
+de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
+it: Nessun capo aperto: ogni domanda ha una controparte.
+
+de: Keine weiteren Reiter
+it: Nessun'altra scheda
+
+de: Keinem Gleis zugeordnet (Strecke).
+it: Non assegnato ad alcun binario (linea).
+
+de: Kesselwagen
+it: Carro cisterna
+
+de: Kleidung
+it: Abbigliamento
+
+de: Kleine Station, Bahnsteige und Ladegleise
+it: Piccola stazione, marciapiedi e binari di carico
+
+de: Klick auf ein Symbol öffnet die Details ·
+it: Un clic su un simbolo apre i dettagli ·
+
+de: Klicken: Gut zum Verladen bereitstellen
+it: Clic: mettere la merce a disposizione per il carico
+
+de: Koffer
+it: Valigie
+
+de: Kohle
+it: Carbone
+
+de: Kohlebergwerk
+it: Miniera di carbone
+
+de: Kohleverbrauch kg/km
+it: Consumo di carbone kg/km
+
+de: Kohlevorrat Tonnen
+it: Scorta di carbone tonnellate
+
+de: Konnte nicht aus .tcdz angelegt werden
+it: Impossibile creare dal .tcdz
+
+de: Konnte nicht gespeichert werden
+it: Impossibile salvare
+
+de: Konnte nicht mit der .tcdz abgeglichen werden
+it: Impossibile sincronizzare con il .tcdz
+
+de: Konserven
+it: Conserve
+
+de: Konservenfabrik
+it: Conservificio
+
+de: Kopie der Anlage fehlgeschlagen
+it: Copia del plastico non riuscita
+
+de: Kopieren
+it: Copia
+
+de: Kopieren geht im Fenster „Anlage bearbeiten“: Symbol anklicken, dann Kopieren.
+it: Copia funziona nella finestra «Modifica plastico»: fare clic su un simbolo, poi Copia.
+
+de: Kreislauf
+it: Catena
+
+de: Kreislauf prüfen
+it: Verifica catena
+
+de: Kreislauf prüfen…
+it: Verifica catena…
+
+de: Kunststoff
+it: Plastica
+
+de: Kursiv
+it: Corsivo
+
+de: Kühlwagen
+it: Carro frigorifero
+
+de: Lade-Joker: lädt jedes Gut
+it: Jolly di carico: carica qualsiasi merce
+
+de: Ladegleis
+it: Binario di carico
+
+de: Ladegleis einrichten
+it: Prepara binario di carico
+
+de: Ladegleise eines Bahnhofs, Haltepunkts oder Schattenbahnhofs kommen in dessen Güterbahnhof (wird bei Bedarf angelegt)
+it: I binari di carico di una stazione, fermata o stazione nascosta vanno nel suo scalo merci (creato se necessario)
+
+de: Ladegleise für {0}: {1}
+it: Binari di carico per {0}: {1}
+
+de: Ladegut
+it: Carico
+
+de: Ladegüter
+it: Merci caricabili
+
+de: Ladeklasse
+it: Classe di carico
+
+de: Ladeklassen (keine = alle)
+it: Classi di carico (nessuna = tutte)
+
+de: Laden
+it: Carica
+
+de: Laden erlaubt
+it: Carico consentito
+
+de: Laden in
+it: Caricare a
+
+de: Laden/Entladen bzw. Ein-/Aussteigen auch ohne Halt (bei der Durchfahrt)
+it: Caricare/scaricare o salire/scendere anche senza fermata (al passaggio)
+
+de: Ladungszustand
+it: Stato di carico
+
+de: Lager
+it: Magazzino
+
+de: Lager anlegen
+it: Crea magazzino
+
+de: Lager bearbeiten
+it: Modifica magazzino
+
+de: Lager für Güter
+it: Magazzino merci
+
+de: Lager hinzufügen. Die Kapazitäten am Bahnhof sind erschöpft
+it: Aggiungere un magazzino. Le capacità della stazione sono esaurite
+
+de: Lagergrößen…
+it: Dimensioni magazzini…
+
+de: Lagerhalle
+it: Capannone
+
+de: Lagerkapazitäten (Einheiten)
+it: Capacità di magazzino (unità)
+
+de: Lagerplatz
+it: Area di deposito
+
+de: Langgut
+it: Merci lunghe
+
+de: Langsamer
+it: Più lento
+
+de: Lauflicht auf den Verbindungen (Sekunden)
+it: Luce scorrevole sui collegamenti (secondi)
+
+de: Lautstärke
+it: Volume
+
+de: Legt ein Symbol an, das nur aus einem farbigen Quadrat besteht (Platzhalter ohne eigene .svg-Datei).
+it: Crea un simbolo fatto solo di un quadrato colorato (segnaposto senza file .svg proprio).
+
+de: Legt fehlende mitgelieferte Geräusche (CC0) wieder in den Ordner; eigene Dateien bleiben
+it: Rimette nella cartella i suoni inclusi mancanti (CC0); i file propri restano
+
+de: Lehm
+it: Argilla
+
+de: Lehmgrube
+it: Cava di argilla
+
+de: Lieferkette für „{0}“
+it: Catena per «{0}»
+
+de: Liefert Expressgut
+it: Fornisce collettame
+
+de: Liefert Post
+it: Fornisce posta
+
+de: Liefert Post {0} M/h, Expressgut {1} M/h
+it: Fornisce posta {0} M/h, collettame {1} M/h
+
+de: Liefert alle
+it: Fornisce ogni
+
+de: Liefert immer (nicht auf der Anlage)
+it: Fornisce sempre (non sul plastico)
+
+de: Liefert immer, ohne auf der Anlage zu sein
+it: Fornisce sempre, senza essere sul plastico
+
+de: Liefert immer, ohne auf der Anlage zu sein.
+it: Fornisce sempre, senza essere sul plastico.
+
+de: Liefert unbegrenzt
+it: Fornisce senza limiti
+
+de: Liefert: {0}
+it: Fornisce: {0}
+
+de: Liegt am Bahnhof:
+it: Si trova alla stazione:
+
+de: Liest den Symbolordner (Voreinstellungen > Pfade) erneut, z. B. nach dem Hinzufügen eigener .svg-Dateien.
+it: Rilegge la cartella dei simboli (Preferenze > Percorsi), ad es. dopo aver aggiunto file .svg propri.
+
+de: Linksbündig
+it: Allineato a sinistra
+
+de: Linux: Für mp3 braucht das Programm die ffmpeg-Bibliotheken des Systems (z. B. „sudo apt install ffmpeg“) und einen Tonausgang; wav geht auch ohne ffmpeg.
+it: Linux: per gli mp3 il programma ha bisogno delle librerie ffmpeg di sistema (ad es. «sudo apt install ffmpeg») e di un'uscita audio; i wav funzionano anche senza ffmpeg.
+
+de: Liste leeren (nur die Anzeige; an der Logistik ändert sich nichts).
+it: Svuota l'elenco (solo la vista; nella logistica non cambia nulla).
+
+de: Liste wieder mitlaufen lassen; was beim Anhalten ankam, wird oben eingefügt.
+it: Lascia scorrere di nuovo l'elenco; ciò che è arrivato durante la pausa viene inserito in alto.
+
+de: Liter
+it: Litri
+
+de: Logistik Daten
+it: Dati logistici
+
+de: Logistik-Datei (.logz) öffnen
+it: Apri file logistico (.logz)
+
+de: Logistik-Datei speichern
+it: Salva file logistico
+
+de: Logistik-Datei öffnen
+it: Apri file logistico
+
+de: Logistik-Datei: {0}\nVerknüpfte iTrain-Anlage: {1}\n„Abgleichen“ liest diese .tcdz. Ändern: Datei > iTrain Datei neu einlesen...{2}
+it: File logistico: {0}\nPlastico iTrain collegato: {1}\n«Sincronizza» legge questo .tcdz. Cambiare: File > Rileggi file iTrain...{2}
+
+de: Logistikdaten
+it: Dati logistici
+
+de: Lok
+it: Loco
+
+de: Lok hinzufügen…
+it: Aggiungi loco…
+
+de: Lokomotive hinzufügen
+it: Aggiungi locomotiva
+
+de: Lokomotive links auswählen.
+it: Scegliere una locomotiva a sinistra.
+
+de: Lokomotiven
+it: Locomotive
+
+de: Lokomotiven, Wagen, Blöcke, Züge, Belegung, Symbole und Güter
+it: Locomotive, carri, blocchi, treni, occupazione, simboli e merci
+
+de: Ländlich
+it: Rurale
+
+de: Ländlicher Ort mit wenig Aufkommen
+it: Luogo rurale con poco traffico
+
+de: Läuft
+it: In funzione
+
+de: Löschen
+it: Elimina
+
+de: Löscht eine selbst angelegte Farbfläche. .svg-Dateien bitte im Symbolordner entfernen.
+it: Elimina una superficie di colore creata da te. I file .svg vanno eliminati nella cartella dei simboli.
+
+de: M/h = je Modellstunde
+it: M/h = per ora di modello
+
+de: M/h = je Modellstunde. 0 Abreisende = keine Personen, sie erscheinen dann auch nicht im Symbol. Ankommende: so viele steigen hier je Modellstunde höchstens aus; „Unbegrenzt“ = beliebig viele. „Kreislauf prüfen“ sucht für beide Werte ein Gegenstück.
+it: M/h = per ora di modello. 0 partenti = nessuna persona, allora non compaiono nemmeno nel simbolo. Arrivi: al massimo tanti ne scendono qui per ora di modello; «Illimitato» = quanti si vuole. «Verifica catena» cerca una controparte per entrambi i valori.
+
+de: Mangel
+it: Carenza
+
+de: Maschinen
+it: Macchine
+
+de: Maschinenfabrik
+it: Fabbrica di macchine
+
+de: Maßstab (1:x)
+it: Scala (1:x)
+
+de: Mehrere Rezepte (Nummer 1, 2, …) sind Alternativen: es läuft das erste, für das alle Eingänge vorrätig sind.
+it: Più ricette (numero 1, 2, …) sono alternative: viene eseguita la prima per cui tutti gli ingressi sono disponibili.
+
+de: Menge
+it: Quantità
+
+de: Menge (Einheiten)
+it: Quantità (unità)
+
+de: Menge je Ausführung
+it: Quantità per esecuzione
+
+de: Menge je Modellstunde:
+it: Quantità per ora di modello:
+
+de: Mischbar in einer Wagenladung
+it: Miscelabile in un carico
+
+de: Mit Koffer ({0} % der Reisenden haben einen Koffer und brauchen einen Gepäckwagen im Zug)
+it: Con valigia (il {0} % dei viaggiatori ha una valigia e serve un bagagliaio nel treno)
+
+de: Mit Koffer: davon warten so viele mit Koffer (brauchen einen Gepäckwagen im Zug)
+it: Con valigia: tanti di loro attendono con valigia (serve un bagagliaio nel treno)
+
+de: Mit Modul verbinden
+it: Collega con modulo
+
+de: Mit Modul verbinden…
+it: Collega con modulo…
+
+de: Mit Station verbinden…
+it: Collega con stazione…
+
+de: Mit Tab verbinden
+it: Collega con scheda
+
+de: Mit Tab verbinden…
+it: Collega con scheda…
+
+de: Mit der .tcdz abgleichen: Loks, Wagen, Blöcke, Züge und Zugrouten neu aus iTrain lesen
+it: Sincronizza con il .tcdz: rileggere da iTrain loco, carri, blocchi, treni e itinerari
+
+de: Mit iTrain abgleichen
+it: Sincronizza con iTrain
+
+de: Mitgelieferte wiederherstellen
+it: Ripristina quelli inclusi
+
+de: Modelluhr in einem eigenen Fenster zeigen (Zeit und Faktor aus iTrain)
+it: Mostra l'orologio di modello in una finestra propria (ora e fattore da iTrain)
+
+de: Modellzeit
+it: Ora di modello
+
+de: Modul
+it: Modulo
+
+de: Modul bearbeiten
+it: Modifica modulo
+
+de: Modul „{0}“
+it: Modulo «{0}»
+
+de: Möbel
+it: Mobili
+
+de: Möbelfabrik
+it: Mobilificio
+
+de: Nachfrage
+it: Domanda
+
+de: Nachfrage heute
+it: Domanda oggi
+
+de: Name
+it: Nome
+
+de: Name (optional)
+it: Nome (facoltativo)
+
+de: Name des Moduls, zu dem „{0}“ gehört
+it: Nome del modulo a cui appartiene «{0}»
+
+de: Name des ersten Reiters
+it: Nome della prima scheda
+
+de: Name des neuen Guts
+it: Nome della nuova merce
+
+de: Name und Art
+it: Nome e tipo
+
+de: Name:
+it: Nome:
+
+de: Name: {0}
+it: Nome: {0}
+
+de: Nein
+it: No
+
+de: Neu angelegt aus {0}: {1}  ({2} Loks, {3} Wagen, {4} Blöcke, {5} Züge)
+it: Creato da {0}: {1}  ({2} loco, {3} carri, {4} blocchi, {5} treni)
+
+de: Neu eingefügt – an die gewünschte Stelle ziehen
+it: Appena inserito – trascinare nel punto desiderato
+
+de: Neu einlesen
+it: Rileggi
+
+de: Neue Farbfläche...
+it: Nuova superficie di colore...
+
+de: Neue Konfiguration
+it: Nuova configurazione
+
+de: Neue Konfiguration...
+it: Nuova configurazione...
+
+de: Neue Logistik-Datei speichern unter...
+it: Salva il nuovo file logistico come...
+
+de: Neuer Bahnhof für {0} (Gleise wählen)
+it: Nuova stazione per {0} (scegliere binari)
+
+de: Neuer Betrieb
+it: Nuova azienda
+
+de: Neuer Betrieb „{0}“ {1}
+it: Nuova azienda «{0}» {1}
+
+de: Neuer Betrieb: {0}
+it: Nuova azienda: {0}
+
+de: Neuer Betrieb: {0}{1}
+it: Nuova azienda: {0}{1}
+
+de: Neuer Haltepunkt für {0} (Gleise wählen)
+it: Nuova fermata per {0} (scegliere binari)
+
+de: Neuer Name – gilt für den Reiter und das Symbol
+it: Nuovo nome – vale per la scheda e il simbolo
+
+de: Neuer Schattenbahnhof (Gleise wählen)
+it: Nuova stazione nascosta (scegliere binari)
+
+de: Neues Dorf mit Haltepunkt (Gleise wählen)
+it: Nuovo paese con fermata (scegliere binari)
+
+de: Neues Feld
+it: Nuovo campo
+
+de: Neues Gut
+it: Nuova merce
+
+de: Neues Gut…
+it: Nuova merce…
+
+de: Neues Modul
+it: Nuovo modulo
+
+de: Neues Modul…
+it: Nuovo modulo…
+
+de: Neues Symbol
+it: Nuovo simbolo
+
+de: Nicht auf der Anlage (liefert bzw. nimmt automatisch)
+it: Non sul plastico (fornisce o prende automaticamente)
+
+de: Nicht auf der Anlage (liefert immer)
+it: Non sul plastico (fornisce sempre)
+
+de: Nicht übernehmen
+it: Non riprendere
+
+de: Nimmt ab
+it: Prende
+
+de: Nimmt an
+it: Accetta
+
+de: Nimmt jedes Gut ab
+it: Prende qualsiasi merce
+
+de: Noch kein Ereignis von diesem Zug empfangen.
+it: Nessun evento ancora ricevuto da questo treno.
+
+de: Noch keine Gleise. Über "Bearbeiten…" Gleise mit iTrain-Blöcken anlegen.
+it: Ancora nessun binario. Creare binari con blocchi iTrain tramite "Modifica…".
+
+de: Noch keine Tabs oder Module – in „Anlage bearbeiten“ aus der Palette anlegen.
+it: Ancora nessuna scheda o modulo – crearli dalla tavolozza in «Modifica plastico».
+
+de: Noch nichts aufgezeichnet – „Anhängen“ fügt einen Vorgang hinzu.
+it: Ancora niente registrato – «Accoda» aggiunge un'operazione.
+
+de: Noch zu erledigen
+it: Ancora da fare
+
+de: Nur Einfahrt rückwärts (iTrain „prev“)
+it: Solo ingresso all'indietro (iTrain «prev»)
+
+de: Nur Einfahrt vorwärts (iTrain „next“)
+it: Solo ingresso in avanti (iTrain «next»)
+
+de: Nur Güter der gewählten Ladeklasse zeigen
+it: Mostra solo merci della classe scelta
+
+de: Nur Ladegleise: Sie kommen in einen angedockten Güterbahnhof.
+it: Solo binari di carico: vanno in uno scalo merci agganciato.
+
+de: Nur dieses Objekt anhalten; alles andere läuft weiter
+it: Metti in pausa solo questo oggetto; tutto il resto continua
+
+de: Nur dieses Objekt ist angehalten; alles andere läuft weiter. Fortsetzen im Detailfenster mit „▶ Start“.
+it: Solo questo oggetto è in pausa; tutto il resto continua. Riprendere nella finestra di dettaglio con «▶ Avvia».
+
+de: Nächste Fahrten
+it: Prossime corse
+
+de: Nötige volle Fahrten je Modellstunde
+it: Corse piene necessarie per ora di modello
+
+de: Oben
+it: In alto
+
+de: Objektart wählen
+it: Scegli tipo di oggetto
+
+de: Objektart:
+it: Tipo di oggetto:
+
+de: Offen
+it: Aperto
+
+de: Offen lassen
+it: Lascia aperto
+
+de: Offene Enden: {0}
+it: Capi aperti: {0}
+
+de: Offene Güter
+it: Merci aperte
+
+de: Offener Wagen (Regelbauart)
+it: Carro aperto (normale)
+
+de: Offener Wagen (Sonderbauart)
+it: Carro aperto (speciale)
+
+de: Offener Wagen für Mehrzweckverwendung
+it: Carro aperto multiuso
+
+de: Orange
+it: Arancione
+
+de: Ordner
+it: Cartella
+
+de: Ordner der Geräusche
+it: Cartella dei suoni
+
+de: Ordner fuer Logistik-Dateien konnte nicht angelegt werden: {0}
+it: Impossibile creare la cartella dei file logistici: {0}
+
+de: Ordner für die Fahrzeugdatei konnte nicht angelegt werden: {0}
+it: Impossibile creare la cartella del file dei veicoli: {0}
+
+de: Ordner lässt sich nicht öffnen: {0}
+it: Impossibile aprire la cartella: {0}
+
+de: Ordner neu einlesen
+it: Rileggi cartella
+
+de: Ordner öffnen
+it: Apri cartella
+
+de: Ort
+it: Località
+
+de: Ort mit Passagieren und Güterbedarf
+it: Località con viaggiatori e domanda di merci
+
+de: Orte, die Ware benötigen – wer liefert an
+it: Località che hanno bisogno di merci – chi fornisce
+
+de: Pakete
+it: Pacchi
+
+de: Panoramawagen
+it: Carrozza panoramica
+
+de: Papier
+it: Carta
+
+de: Papierfabrik
+it: Cartiera
+
+de: Passagiere
+it: Viaggiatori
+
+de: Passagiere im Zug
+it: Viaggiatori nel treno
+
+de: Passagiere, die abfahren – wer nimmt sie auf
+it: Viaggiatori in partenza – chi li accoglie
+
+de: Passagiere, die ankommen – wer bringt sie
+it: Viaggiatori in arrivo – chi li porta
+
+de: Pause
+it: Pausa
+
+de: Pers
+it: Pers
+
+de: Personen
+it: Persone
+
+de: Personen je Modellstunde von außerhalb
+it: Persone per ora di modello dall'esterno
+
+de: Personen-/Gepäckwagen
+it: Carrozza viaggiatori/bagagli
+
+de: Personenbahnhof
+it: Stazione viaggiatori
+
+de: Personenbahnhof, nur Bahnsteige
+it: Stazione viaggiatori, solo marciapiedi
+
+de: Personengleise
+it: Binari viaggiatori
+
+de: Personenverkehr
+it: Traffico viaggiatori
+
+de: Personenverkehr · Next trips
+it: Traffico viaggiatori · Next trips
+
+de: Pfeil Ein-/Aussteigen
+it: Freccia salita/discesa
+
+de: Pflicht (Anwender 09.11.2026): das Gleis, das von diesem Modul zum nächsten führt. Ohne Gleis lässt sich das Modul nicht speichern.
+it: Obbligatorio (utente 09.11.2026): il binario che porta da questo modulo al successivo. Senza binario il modulo non si può salvare.
+
+de: Plätze
+it: Posti
+
+de: Port {0} antwortet, aber nicht wie iTrain-XTC
+it: La porta {0} risponde, ma non come iTrain-XTC
+
+de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
+it: La porta {0} appartiene già a Browser Logistica – sceglierne un'altra.
+
+de: Port:
+it: Porta:
+
+de: Position und Tempo ausblenden
+it: Nascondi posizione e velocità
+
+de: Post
+it: Posta
+
+de: Post empfangen
+it: Posta ricevuta
+
+de: Post und Expressgut
+it: Posta e collettame
+
+de: Post und Expressgut an diesem Bahnsteig
+it: Posta e collettame a questo marciapiede
+
+de: Postwagen
+it: Carro postale
+
+de: Produkt
+it: Prodotto
+
+de: Produktion
+it: Produzione
+
+de: Produziert
+it: Prodotto
+
+de: Programm beenden
+it: Esci dal programma
+
+de: Prüfe {0}:{1} …
+it: Verifica {0}:{1} …
+
+de: Prüfe …
+it: Verifica …
+
+de: Prüfung
+it: Verifica
+
+de: Quelle
+it: Fonte
+
+de: Quelle: Simulator{0}
+it: Fonte: simulatore{0}
+
+de: Quelle: iTrain (XTC nicht verbunden)
+it: Fonte: iTrain (XTC non collegato)
+
+de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
+it: Fonte: iTrain (XTC {0}, {1}/{2} treni collegati)
+
+de: Quellen der mitgelieferten Geräusche.txt
+it: Fonti dei suoni inclusi.txt
+
+de: Rahmen
+it: Cornice
+
+de: Rahmen anzeigen
+it: Mostra cornice
+
+de: Raster anzeigen, Symbole rasten darauf ein
+it: Mostra griglia, i simboli vi si agganciano
+
+de: Raummeter
+it: Metri cubi
+
+de: Rechner mit iTrain (Name oder IP-Adresse)
+it: Computer con iTrain (nome o indirizzo IP)
+
+de: Rechnername
+it: Nome del computer
+
+de: Rechnername (mDNS)
+it: Nome del computer (mDNS)
+
+de: Rechtsbündig
+it: Allineato a destra
+
+de: Reifen
+it: Pneumatici
+
+de: Reifenfabrik
+it: Fabbrica di pneumatici
+
+de: Reisende
+it: Viaggiatori
+
+de: Reisende 1/2
+it: Viaggiatori 1/2
+
+de: Reisende an Bord: 1. Klasse / 2. Klasse
+it: Viaggiatori a bordo: 1ª classe / 2ª classe
+
+de: Reisende aus bzw. nach „{0}“
+it: Viaggiatori da o verso «{0}»
+
+de: Reisende je Modellstunde:
+it: Viaggiatori per ora di modello:
+
+de: Reisende kommen aus Stadt, Dorf oder Ländlich (über deren Bahnhof) oder von außerhalb über den Schattenbahnhof und fahren zu einem anderen Bahnhof.
+it: I viaggiatori arrivano da città, paese o rurale (tramite la loro stazione) o dall'esterno tramite la stazione nascosta e viaggiano verso un'altra stazione.
+
+de: Reisende warten in {0}{1} (meiste an {2}) – {3}
+it: Viaggiatori in attesa a {0}{1} (la maggior parte a {2}) – {3}
+
+de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
+it: Viaggiatori: vogliono partire e vanno insieme alla stazione ogni {0} minuti di modello (luce scorrevole verde)
+
+de: Reiter
+it: Schede
+
+de: Reiter umbenennen
+it: Rinomina scheda
+
+de: Reiter „{0}“
+it: Scheda «{0}»
+
+de: Rezept
+it: Ricetta
+
+de: Rezept: {0}
+it: Ricetta: {0}
+
+de: Rezepte
+it: Ricette
+
+de: Rezepte, die es herstellen: {0}
+it: Ricette che lo producono: {0}
+
+de: Richtung
+it: Direzione
+
+de: Richtung {0}
+it: Direzione {0}
+
+de: Richtungen
+it: Direzioni
+
+de: Rohstoff
+it: Materia prima
+
+de: Rohstoffe
+it: Materie prime
+
+de: Rohöl
+it: Petrolio greggio
+
+de: Rot
+it: Rosso
+
+de: Rot: Transport nötig · Gelb: über ein Lager lösbar · Grün: nichts offen (Farben wie im +Cargo-Cargo-Manager). Umladen von Hand ist zum Testen gedacht.
+it: Rosso: trasporto necessario · Giallo: risolvibile con un magazzino · Verde: niente in sospeso (colori come nel gestore merci +Cargo). Il trasbordo manuale serve per i test.
+
+de: Route
+it: Itinerario
+
+de: Routen
+it: Itinerari
+
+de: Routen sind die Zugrouten aus der .tcdz. Ein Zug gehört zu der Route, die den Block enthält, in dem er zuletzt gemeldet wurde.
+it: Gli itinerari sono quelli del .tcdz. Un treno appartiene all'itinerario che contiene il blocco in cui è stato segnalato per ultimo.
+
+de: Rx/Tx Simulator
+it: Rx/Tx simulatore
+
+de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
+it: Rx/Tx esiste solo se in Impostazioni è scelto «iTrain» o «Simulatore».
+
+de: Rx/Tx iTrain (XTC){0}
+it: Rx/Tx iTrain (XTC){0}
+
+de: Salonwagen
+it: Carrozza salone
+
+de: Sand
+it: Sabbia
+
+de: Sandbaggerschiff
+it: Draga di sabbia
+
+de: Sandgrube
+it: Cava di sabbia
+
+de: Schattenbahnhof
+it: Stazione nascosta
+
+de: Schattenbahnhof (verlässt die Anlage)
+it: Stazione nascosta (lascia il plastico)
+
+de: Schattenbahnhof anlegen
+it: Crea stazione nascosta
+
+de: Schattenbahnhof nur noch über Gleise: Verbindung gelöst – {0}. Reisende und Güter je Gleis im Schattenbahnhof einstellen.
+it: Stazione nascosta solo tramite binari: collegamento rimosso – {0}. Impostare viaggiatori e merci per binario nella stazione nascosta.
+
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Angeschlossen werden keine Orte, Betriebe oder Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+it: Stazione nascosta: viaggiatori e merci arrivano dall'esterno nella stazione nascosta – impostati per binario (marciapiede: viaggiatori per ora di modello, binario di carico: offerta per merce). Un binario può essere insieme marciapiede e binario di carico (crearlo due volte con lo stesso blocco). I binari di carico passano al salvataggio in uno scalo merci agganciato. Non si collegano località, aziende o magazzini. Carico e scarico avvengono già al passaggio, senza fermata.
+
+de: Schlafwagen
+it: Carrozza letti
+
+de: Schließen
+it: Chiudi
+
+de: Schneller
+it: Più veloce
+
+de: Schrift
+it: Carattere
+
+de: Schuppen
+it: Rimessa
+
+de: Schwarz
+it: Nero
+
+de: Schüttgut
+it: Merci sfuse
+
+de: Senkrecht (abwärts)
+it: Verticale (verso il basso)
+
+de: Senkrecht (aufwärts)
+it: Verticale (verso l'alto)
+
+de: Sicherung:
+it: Backup:
+
+de: Simulator
+it: Simulatore
+
+de: Simulator Verbindung
+it: Connessione simulatore
+
+de: Simulator: {0} {1}{2}
+it: Simulatore: {0} {1}{2}
+
+de: Sitzplätze 1. Klasse
+it: Posti a sedere 1ª classe
+
+de: Sitzplätze 2. Klasse
+it: Posti a sedere 2ª classe
+
+de: Sitzplätze 3. Klasse
+it: Posti a sedere 3ª classe
+
+de: Sitzplätze 4. Klasse
+it: Posti a sedere 4ª classe
+
+de: Solange das Fenster offen ist
+it: Finché la finestra è aperta
+
+de: Sonderwagen
+it: Carro speciale
+
+de: Sonstige
+it: Varie
+
+de: Spalten zeigen
+it: Mostra colonne
+
+de: Speichern
+it: Salva
+
+de: Speichern und Schließen
+it: Salva e chiudi
+
+de: Speisewagen
+it: Carrozza ristorante
+
+de: Sperrgut
+it: Merci ingombranti
+
+de: Später
+it: Più tardi
+
+de: Stadt
+it: Città
+
+de: Stadt/Dorf/Ländlich: {0}
+it: Città/paese/rurale: {0}
+
+de: Stahl
+it: Acciaio
+
+de: Stahlwerk
+it: Acciaieria
+
+de: Standard
+it: Standard
+
+de: Standardeinheit der Ladeklasse {0}: {1}.
+it: Unità standard della classe di carico {0}: {1}.
+
+de: Start
+it: Avvia
+
+de: Start (s)
+it: Inizio (s)
+
+de: Start = Sekunden nach Beginn des Ablaufs. Entf löscht, Tab springt weiter, Return bearbeitet.
+it: Inizio = secondi dopo l'avvio della sequenza. Canc elimina, Tab passa avanti, Invio modifica.
+
+de: Station
+it: Stazione
+
+de: Station / Gleis / Zug
+it: Stazione / binario / treno
+
+de: Station mit Ladegleisen, auch zu einem Bahnhof gehörend
+it: Stazione con binari di carico, anche appartenente a una stazione
+
+de: Stationen
+it: Stazioni
+
+de: Stationen (mit Gbf, Orten, Betrieben, Lagern)
+it: Stazioni (con scalo merci, località, aziende, magazzini)
+
+de: Stationen, die an diesem Modul hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+it: Stazioni collegate a questo modulo (con i loro scali merci, località, aziende, magazzini)
+
+de: Stationen: {0}
+it: Stazioni: {0}
+
+de: Statistik je Modelltag
+it: Statistica per giorno di modello
+
+de: Status
+it: Stato
+
+de: Stehplätze
+it: Posti in piedi
+
+de: Stehplätze (zählen zur 2. Klasse)
+it: Posti in piedi (contano come 2ª classe)
+
+de: Stein
+it: Pietra
+
+de: Steinbruch
+it: Cava di pietra
+
+de: Stoff
+it: Tessuto
+
+de: Strecke: Gleis von Modul zu Modul (mindestens eins)
+it: Linea: binario da modulo a modulo (almeno uno)
+
+de: Strecke: {0}
+it: Linea: {0}
+
+de: Strecke: {0} von {1} Blöcken ohne Gleis
+it: Linea: {0} di {1} blocchi senza binario
+
+de: Strecken-Blöcke des Moduls
+it: Blocchi di linea del modulo
+
+de: Stufe
+it: Livello
+
+de: Stunden (0 = laufend)
+it: Ore (0 = continuo)
+
+de: Städte
+it: Città
+
+de: Stück
+it: Pezzi
+
+de: Stück M/h
+it: Pezzi M/h
+
+de: Stückgut
+it: Collettame vario
+
+de: Symbol
+it: Simbolo
+
+de: Symbol kopiert.
+it: Simbolo copiato.
+
+de: Symbol oder Block wählen
+it: Scegli simbolo o blocco
+
+de: Symbol zuweisen
+it: Assegna simbolo
+
+de: Symbole auf der Anlage
+it: Simboli sul plastico
+
+de: Symbole verwalten
+it: Gestisci simboli
+
+de: System
+it: Sistema
+
+de: Sägespäne
+it: Segatura
+
+de: Sägewerk
+it: Segheria
+
+de: Tab
+it: Scheda
+
+de: Tab bearbeiten
+it: Modifica scheda
+
+de: Tabellen öffnen oder im Hauptfenster andocken
+it: Apri tabelle o agganciale nella finestra principale
+
+de: Tabs und Module zusammen, ohne den ersten Reiter
+it: Schede e moduli insieme, senza la prima scheda
+
+de: Tag {0}
+it: Giorno {0}
+
+de: Tag {0}, {1}
+it: Giorno {0}, {1}
+
+de: Tankinhalt Liter
+it: Contenuto serbatoio litri
+
+de: Tankstelle
+it: Distributore
+
+de: Text
+it: Testo
+
+de: Text „{0}“ fehlt in {1}.
+it: Il testo «{0}» manca in {1}.
+
+de: Text:
+it: Testo:
+
+de: Textilfabrik
+it: Fabbrica tessile
+
+de: Textrichtung:
+it: Direzione del testo:
+
+de: Tiefe: 3D (Schatten)
+it: 3D (ombra)
+
+de: Tiertransport
+it: Trasporto animali
+
+de: Tonnen
+it: Tonnellate
+
+de: Transport festlegen
+it: Definisci trasporto
+
+de: Transport nach:
+it: Trasporto a:
+
+de: Transport von „{0}“{1} nach „{2}“
+it: Trasporto da «{0}»{1} a «{2}»
+
+de: Transport von:
+it: Trasporto da:
+
+de: Transport über:
+it: Trasporto via:
+
+de: Treibstoff
+it: Carburante
+
+de: Triebzug
+it: Automotrice
+
+de: Triebzug / Triebwagen: befördert selbst Personen oder Güter
+it: Automotrice / elettromotrice: trasporta da sé persone o merci
+
+de: Triebzug Güter
+it: Automotrice merci
+
+de: Triebzug Personen
+it: Automotrice viaggiatori
+
+de: Triebzug: befördert selbst – Personen, Güter oder beides. Die Angaben gelten für den ganzen Triebzug.
+it: Automotrice: trasporta da sé – persone, merci o entrambe. I dati valgono per l'intera automotrice.
+
+de: Trocken
+it: Secco
+
+de: Typ (iTrain)
+it: Tipo (iTrain)
+
+de: Typ: {0}
+it: Tipo: {0}
+
+de: Uhr
+it: Orologio
+
+de: Uhr nach iTrain gestellt: {0}
+it: Orologio regolato su iTrain: {0}
+
+de: Umbenennen…
+it: Rinomina…
+
+de: Umgelagert
+it: Trasbordato
+
+de: Umladen in
+it: Trasbordare a
+
+de: Umladen je Modellminute
+it: Trasbordo per minuto di modello
+
+de: Unbegrenzt
+it: Illimitato
+
+de: Unbekannt
+it: Sconosciuto
+
+de: Unbekannt: Zug „{0}“ oder Block „{1}“ – übersprungen.
+it: Sconosciuto: treno «{0}» o blocco «{1}» – saltato.
+
+de: Unten
+it: In basso
+
+de: Update
+it: Aggiornamento
+
+de: Update-Prüfung ist in diesem ersten Gerüst noch nicht angebunden.
+it: Il controllo aggiornamenti non è ancora collegato in questa prima versione.
+
+de: Verbindung prüfen
+it: Verifica collegamento
+
+de: Verbindung zu iTrain
+it: Collegamento a iTrain
+
+de: Verbindung zu iTrain...
+it: Collegamento a iTrain...
+
+de: Verbindung {0} – zugehöriger {1} · grün: zum Güterbahnhof · rot: von ihm weg
+it: Collegamento {0} – {1} associato · verde: verso lo scalo merci · rosso: in uscita
+
+de: Verbindung {0} – {1} · grün: zur Station · rot: von der Station weg · Rechtsklick: Linienstärke
+it: Collegamento {0} – {1} · verde: verso la stazione · rosso: in uscita dalla stazione · clic destro: spessore linea
+
+de: Verbrauch auf 100km (Vorbild)
+it: Consumo per 100 km (reale)
+
+de: Verbrauch erhöhen
+it: Aumenta consumo
+
+de: Verbrauch: Schattenbahnhof nimmt es ab
+it: Consumo: la stazione nascosta lo prende
+
+de: Verbrauch: {0}
+it: Consumo: {0}
+
+de: Verbraucher:
+it: Consumatore:
+
+de: Verbraucht
+it: Consumato
+
+de: Verfügbar
+it: Disponibile
+
+de: Verkehr Schritt für Schritt aufbauen: Bahnhöfe, Gleise, Umgebung, Lieferketten
+it: Costruire il traffico passo per passo: stazioni, binari, ambiente, catene
+
+de: Verkehrs-Assistent – Einrichtung Bahnhöfe
+it: Assistente traffico – configurazione stazioni
+
+de: Verkehrs-Assistent – Prüfung
+it: Assistente traffico – verifica
+
+de: Verkehrs-Assistent – Transport festlegen
+it: Assistente traffico – definisci trasporto
+
+de: Verkehrs-Assistent…
+it: Assistente traffico…
+
+de: Verknüpft mit {0}.\n\nDaten aus dieser Datei jetzt übernehmen?
+it: Collegato a {0}.\n\nRiprendere ora i dati da questo file?
+
+de: Verknüpfte .tcdz geändert
+it: .tcdz collegato modificato
+
+de: Vernichtet
+it: Distrutto
+
+de: Versand
+it: Spedizione
+
+de: Versand heute
+it: Spedizione oggi
+
+de: Versorgung
+it: Approvvigionamento
+
+de: Versorgung heute
+it: Approvvigionamento oggi
+
+de: Vertikal:
+it: Verticale:
+
+de: Verwendet für
+it: Usato per
+
+de: Verwendet: {0}
+it: Usato: {0}
+
+de: Verwerfen
+it: Scarta
+
+de: Viehzuchtbetrieb
+it: Allevamento
+
+de: Vom Schattenbahnhof
+it: Dalla stazione nascosta
+
+de: Vom Schattenbahnhof (kommt von außerhalb der Anlage)
+it: Dalla stazione nascosta (arriva dall'esterno del plastico)
+
+de: Von beiden Seiten
+it: Da entrambi i lati
+
+de: Von und nach sind derselbe Bahnhof – kein Transport nötig.
+it: Da e a sono la stessa stazione – nessun trasporto necessario.
+
+de: Voreinstellung der Ladeklasse
+it: Preimpostazione della classe di carico
+
+de: Voreinstellungen
+it: Preferenze
+
+de: Vorerst nichts
+it: Per ora niente
+
+de: Vorgabe nach Größe (Stadt, Dorf, Ländlich) als Anteil der Abreisenden. Wird am Bahnsteig in Personenzüge mit Wagen „Kann Post/Expressgut mitnehmen“ geladen.
+it: Predefinito secondo la dimensione (città, paese, rurale) come quota dei partenti. Viene caricato al marciapiede nei treni viaggiatori con carrozze «Può portare posta/collettame».
+
+de: Vorgang
+it: Operazione
+
+de: Vorgang starten – aufgezeichneter Ablauf
+it: Avvia sequenza – sequenza registrata
+
+de: Vorgang starten…
+it: Avvia sequenza…
+
+de: Vorgänge erscheinen hier, je Zug eine Tabelle.
+it: Le operazioni compaiono qui, una tabella per treno.
+
+de: Vorhanden: {0}{1}
+it: Presente: {0}{1}
+
+de: Vorhandene Erzeuger anpassen (mehr herstellen)
+it: Adatta i produttori esistenti (produrre di più)
+
+de: Vorhandenen Ort wählen
+it: Scegli località esistente
+
+de: Vorhandenes wählen
+it: Scegli esistente
+
+de: Vorlage
+it: Modello
+
+de: Vorlage wählen.\nRohstoffbetriebe brauchen Dünger, Werkzeuge oder Maschinen als Eingang.\nDanach zeigt „Zusätzlich erforderlich“, was der Betrieb noch braucht.
+it: Scegliere un modello.\nLe aziende di materie prime hanno bisogno di fertilizzante, utensili o macchine come ingresso.\nPoi «Necessario in più» mostra cosa serve ancora all'azienda.
+
+de: Vorlage:
+it: Modello:
+
+de: Vorschau:
+it: Anteprima:
+
+de: Vorschlag
+it: Proposta
+
+de: Vorschlag Ländlich
+it: Proposta rurale
+
+de: Vorschlag für ein Dorf
+it: Proposta per un paese
+
+de: Vorschlag für eine Stadt
+it: Proposta per una città
+
+de: Vorschlag „{0}“ gespeichert.
+it: Proposta «{0}» salvata.
+
+de: Vorschlag…
+it: Proposta…
+
+de: Wagen
+it: Carro
+
+de: Wagen ergänzen
+it: Completa carri
+
+de: Wagen hinzufügen
+it: Aggiungi carro
+
+de: Wagen hinzufügen…
+it: Aggiungi carro…
+
+de: Wagen importieren...
+it: Importa carri...
+
+de: Wagen links auswählen.
+it: Scegliere un carro a sinistra.
+
+de: Wagen mit öffnungsfähigem Dach
+it: Carro con tetto apribile
+
+de: Wagenart
+it: Tipo di carro
+
+de: Wagenbauart
+it: Costruzione del carro
+
+de: Wagenladungen
+it: Carichi per carro
+
+de: Wandlung
+it: Trasformazione
+
+de: Warten
+it: Attendere
+
+de: Wartend
+it: In attesa
+
+de: Wartende Personen
+it: Persone in attesa
+
+de: Wartende Personen (1. Klasse / 2. Klasse): {0}
+it: Persone in attesa (1ª classe / 2ª classe): {0}
+
+de: Wartende Personen Richtung {0}
+it: Persone in attesa direzione {0}
+
+de: Wartende/Kapazität
+it: In attesa/capacità
+
+de: Wartet
+it: Attende
+
+de: Wartet auf Eingang: {0}
+it: Attende ingresso: {0}
+
+de: Wartezeit-Zähler ausblenden
+it: Nascondi contatore di attesa
+
+de: Was soll passieren
+it: Cosa deve succedere
+
+de: Was:
+it: Cosa:
+
+de: Wasserstoff
+it: Idrogeno
+
+de: Wasserverbrauch Liter/km
+it: Consumo d'acqua litri/km
+
+de: Wasservorrat Kubikmeter
+it: Scorta d'acqua metri cubi
+
+de: Weberei
+it: Tessitura
+
+de: Weicht von der Zusammenstellung in der .tcdz ab (eigene, erweiterte Daten).
+it: Differisce dalla composizione nel .tcdz (dati propri estesi).
+
+de: Weiter
+it: Avanti
+
+de: Weiter >
+it: Avanti >
+
+de: Weiteren Betrieb anlegen
+it: Crea un'altra azienda
+
+de: Weiß
+it: Bianco
+
+de: Welcher Betrieb liegt an den Ladegleisen von „{0}“?
+it: Quale azienda si trova ai binari di carico di «{0}»?
+
+de: Welcher Ort, Betrieb, welches Lager oder welche Übergabe?
+it: Quale località, azienda, magazzino o interscambio?
+
+de: Welcher Ort?
+it: Quale località?
+
+de: Welches Gleis soll Ladegleis werden? Ein Bahnsteig kann zugleich Ladegleis sein. {0}
+it: Quale binario deve diventare binario di carico? Un marciapiede può essere insieme binario di carico. {0}
+
+de: Werkzeuge
+it: Utensili
+
+de: Werkzeugfabrik
+it: Fabbrica di utensili
+
+de: Wert
+it: Valore
+
+de: Wie viel Kapazität eines {0}-Wagens (in {1}) eine Einheit {2} belegt. Beispiel: 10 – ein Wagen mit Kapazität 20 lädt 2.
+it: Quanta capacità di un carro {0} (in {1}) occupa un'unità di {2}. Esempio: 10 – un carro con capacità 20 carica 2.
+
+de: Wie viel der Wagen insgesamt aufnimmt, in der gewählten Einheit (Gebinde und Stück zählen gleich). Hat ein Gut eine eigene Einheit (z. B. Brammen zu je 10), belegt jede Einheit entsprechend mehr. Welche Kapazitäten gebraucht werden, zeigt Tabellen > Kapazitäten.
+it: Quanto contiene il carro in totale, nell'unità scelta (casse e pezzi contano uguale). Se una merce ha un'unità propria (ad es. bramme da 10), ogni unità occupa di più in proporzione. Tabelle > Capacità mostra quali capacità servono.
+
+de: Wird von außerhalb geliefert
+it: Fornito dall'esterno
+
+de: Wo läuft iTrain?
+it: Dove funziona iTrain?
+
+de: Wolle
+it: Lana
+
+de: Wollen verreisen: {0} (gehen alle {1} Modellminuten zum Bahnhof)
+it: Vogliono partire: {0} (vanno alla stazione ogni {1} minuti di modello)
+
+de: Wurzel
+it: Radice
+
+de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
+it: Scegliere i blocchi che in iTrain appartengono alla stazione nascosta e, per ogni blocco, se lì {0}. Meglio un binario per direzione di marcia.
+
+de: XTC antwortet nicht
+it: XTC non risponde
+
+de: XTC-Port (Vorgabe {0})
+it: Porta XTC (predefinita {0})
+
+de: Zeit
+it: Ora
+
+de: Zeit (Trigger)
+it: Ora (trigger)
+
+de: Zeit für Beladen
+it: Tempo di carico
+
+de: Zeit für Beladen (Sekunden)
+it: Tempo di carico (secondi)
+
+de: Zeit für Entladen
+it: Tempo di scarico
+
+de: Zeit für Entladen (Sekunden)
+it: Tempo di scarico (secondi)
+
+de: Zement
+it: Cemento
+
+de: Zementwerk
+it: Cementificio
+
+de: Zentriert
+it: Centrato
+
+de: Ziegel
+it: Mattoni
+
+de: Ziegelei
+it: Fornace
+
+de: Ziehen ordnet an (mit Umschalt rastet die Verbindung gerade im 90°-Winkel ein) · rechten Rand ziehen = Breite · Anschluss: Rechtsklick „Mit Station verbinden…“ · Doppelklick bearbeitet · Rechtsklick: Farbe/Löschen, auf einer Linie: Linienstärke · Palette: klicken oder auf die Fläche ziehen
+it: Trascinare dispone (con Maiusc il collegamento si aggancia dritto a 90°) · trascinare il bordo destro = larghezza · collegamento: clic destro «Collega con stazione…» · doppio clic modifica · clic destro: colore/elimina, su una linea: spessore · tavolozza: clic o trascinare sulla superficie
+
+de: Ziele nehmen nur {0} M/h auf
+it: Le destinazioni accolgono solo {0} M/h
+
+de: Zirkus
+it: Circo
+
+de: Zoom
+it: Zoom
+
+de: Zoom:
+it: Zoom:
+
+de: Zu wenig Platz an den Ladegleisen für: {0}.\nEin Lager an diesem Bahnhof nimmt auf, was die Gleise nicht halten können, und gibt es nach und nach weiter.
+it: Troppo poco spazio ai binari di carico per: {0}.\nUn magazzino a questa stazione accoglie ciò che i binari non possono tenere e lo passa poco a poco.
+
+de: Zu „{0}“ gibt es schon Fahrzeugdaten ({1}: Angaben zu Lokomotiven, Wagen und Zügen).\n\n„Übernehmen“: diese Konfiguration benutzt sie mit; Änderungen gelten auch für die anderen Konfigurationen dieser Anlage.\n„Nicht übernehmen“: eigene, leere Fahrzeugdaten.
+it: Per «{0}» esistono già dati dei veicoli ({1}: dati su locomotive, carri e treni).\n\n«Riprendi»: questa configurazione li condivide; le modifiche valgono anche per le altre configurazioni di questo plastico.\n«Non riprendere»: dati veicoli propri, vuoti.
+
+de: Zug
+it: Treno
+
+de: Zug links auswählen.
+it: Scegliere un treno a sinistra.
+
+de: Zug mit passenden Wagen
+it: Treno con carri adatti
+
+de: Zug von links auf die linke oder rechte Seite eines Blocks ziehen.
+it: Trascinare un treno da sinistra sul lato sinistro o destro di un blocco.
+
+de: Zug {0}
+it: Treno {0}
+
+de: Zug {0}{1}
+it: Treno {0}{1}
+
+de: Zug:
+it: Treno:
+
+de: Zuganzeiger
+it: Partenze
+
+de: Zuganzeiger Güterverkehr
+it: Partenze merci
+
+de: Zuganzeiger Personen- und Güterverkehr auf Handy, Tablet oder anderem Rechner
+it: Tabelloni partenze viaggiatori e merci su telefono, tablet o altro computer
+
+de: Zuganzeiger Personenverkehr
+it: Partenze viaggiatori
+
+de: Zuganzeiger für Personen- oder Güterverkehr: die nächsten nötigen Fahrten als Abfahrtstafel, auf jeden Monitor ziehbar
+it: Tabellone partenze per traffico viaggiatori o merci: le prossime corse necessarie come tabellone, trascinabile su qualsiasi monitor
+
+de: Zuganzeiger je Bahnhof
+it: Partenze per stazione
+
+de: Zuklappen
+it: Comprimi
+
+de: Zuletzt verwendet...
+it: Usati di recente...
+
+de: Zuordnen über "Bearbeiten…".
+it: Assegnare tramite "Modifica…".
+
+de: Zur Lieferung auswählen (Ladegleise):
+it: Scegli per la consegna (binari di carico):
+
+de: Zurzeit sind keine Fahrten nötig.
+it: Al momento non servono corse.
+
+de: Zurück
+it: Indietro
+
+de: Zustand
+it: Stato
+
+de: Zusteigen erlaubt
+it: Salita consentita
+
+de: Zusätzlich erforderlich
+it: Necessario in più
+
+de: Zwischenprodukt
+it: Semilavorato
+
+de: Züge
+it: Treni
+
+de: Züge (auf einen Block ziehen)
+it: Treni (trascinare su un blocco)
+
+de: alle Güter
+it: tutte le merci
+
+de: alle Güter der Ladeklasse {0}
+it: tutte le merci della classe {0}
+
+de: aus dem Nichts
+it: dal nulla
+
+de: aussteigen in {0}
+it: scendere a {0}
+
+de: der Abnehmer
+it: il cliente
+
+de: der volle Triebzug
+it: l'automotrice piena
+
+de: die Betriebe
+it: le aziende
+
+de: eigener Betrieb
+it: azienda propria
+
+de: ein voller Wagen
+it: un carro pieno
+
+de: erst eine Station anlegen
+it: creare prima una stazione
+
+de: es fehlen
+it: mancano
+
+de: es fehlen {0} M/h
+it: mancano {0} M/h
+
+de: es kommen nur {0} M/h
+it: arrivano solo {0} M/h
+
+de: geeignet: Zug 
+it: adatto: treno 
+
+de: geeignet: Züge 
+it: adatti: treni 
+
+de: gelb – Anlieferung aus Lager möglich
+it: giallo – consegna dal magazzino possibile
+
+de: grün
+it: verde
+
+de: hält
+it: ferma
+
+de: iTrain Datei neu einlesen...
+it: Rileggi file iTrain...
+
+de: iTrain Verbindung
+it: Connessione iTrain
+
+de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+it: iTrain scelto: eventi dei treni online via XTC ({0}:{1}). Ctrl + clic sulla fonte mostra Rx/Tx.
+
+de: iTrain läuft auf diesem Computer
+it: iTrain funziona su questo computer
+
+de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
+it: iTrain funziona su questo computer ({0}), XTC non risponde sulla porta {1}
+
+de: iTrain läuft auf einem anderen Computer
+it: iTrain funziona su un altro computer
+
+de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
+it: iTrain non funziona su questo computer (la porta XTC {0} non risponde)
+
+de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+it: iTrain funziona, ma l'interfaccia XTC non risponde. Senza XTC non arrivano eventi dei treni online.\n\nVerificare: Impostazioni → Collegamento a iTrain (indirizzo e porta XTC, predefinita 7128); se iTrain funziona su un altro computer, il suo firewall deve consentire la porta in entrata.
+
+de: iTrain nicht mehr gefunden.
+it: iTrain non più trovato.
+
+de: iTrain noch nicht gestartet
+it: iTrain non ancora avviato
+
+de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+it: iTrain non raggiungibile a {0} (la porta XTC {1} non risponde; iTrain è in funzione? indirizzo corretto? il firewall di Windows del computer iTrain deve consentire la porta {2} in entrata)
+
+de: iTrain wird gesucht …
+it: Ricerca di iTrain …
+
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+it: iTrain non trovato, la logistica è in pausa.\n\nSe iTrain è già in funzione, verificare indirizzo e porta XTC in Impostazioni → Collegamento a iTrain (lì anche «Verifica collegamento»).
+
+de: iTrain → Voreinstellungen → Modus → Server
+it: iTrain → Preferenze → Modalità → Server
+
+de: iTrain-Anlagendatei verknüpfen
+it: Collega file del plastico iTrain
+
+de: iTrain-Anlagendatei wählen
+it: Scegli file del plastico iTrain
+
+de: iTrain-Dateien (*.tcdz, *.tcd)
+it: File iTrain (*.tcdz, *.tcd)
+
+de: iTrain-Logistik Wagen-Angaben
+it: Dati carro iTrain-Logistik
+
+de: iTrain-Logistik – {0}
+it: iTrain-Logistik – {0}
+
+de: iTrain-Logistik-Dateien (*.logz)
+it: File iTrain-Logistik (*.logz)
+
+de: iTrain-Logistik-Simulator – {0}
+it: Simulatore iTrain-Logistik – {0}
+
+de: iTrain-Prüfung fehlgeschlagen: {0}
+it: Verifica di iTrain non riuscita: {0}
+
+de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
+it: Server iTrain raggiungibile a {0}:{1}, ma XTC non risponde sulla porta {2}
+
+de: je Modellstunde
+it: per ora di modello
+
+de: kein Abnehmer
+it: nessun cliente
+
+de: kein Bedarf eingetragen
+it: nessuna domanda inserita
+
+de: kein Güterbahnhof – Güter kommen nicht an
+it: nessuno scalo merci – le merci non arrivano
+
+de: kein Lieferant
+it: nessun fornitore
+
+de: kein Personenzug mit Gepäckwagen (Koffer als Ladegut aktivieren)
+it: nessun treno viaggiatori con bagagliaio (attivare le valigie come carico)
+
+de: kein Ziel
+it: nessuna destinazione
+
+de: kein Ziel – weiterer Bahnhof oder Schattenbahnhof nötig
+it: nessuna destinazione – serve un'altra stazione o stazione nascosta
+
+de: kein Zug kann das laden
+it: nessun treno può caricarlo
+
+de: kein Zug kann „{0}“ laden (Wagen ergänzen oder Lade-Joker)
+it: nessun treno può caricare «{0}» (completare i carri o jolly)
+
+de: kein Zug mit Plätzen
+it: nessun treno con posti
+
+de: kein anderer Bahnhof mit Bahnsteig „Mit Koffer“
+it: nessun'altra stazione con marciapiede «Con valigia»
+
+de: kein {0} vorhanden
+it: nessun {0} presente
+
+de: keine (keine Trennung nach Richtung)
+it: nessuna (nessuna separazione per direzione)
+
+de: keine Gleise
+it: nessun binario
+
+de: keine Güter aktiv
+it: nessuna merce attiva
+
+de: keine Güter am Gleis
+it: nessuna merce sul binario
+
+de: keine – bitte in iTrain anlegen, dann „Abgleichen“ und den Assistenten erneut starten
+it: nessuno – crearlo in iTrain, poi «Sincronizza» e riavviare l'assistente
+
+de: localhost oder z. B. 192.168.0.171
+it: localhost o ad es. 192.168.0.171
+
+de: mehr als {0} Fahrten je Modellstunde nötig – Menge senken oder größere Züge
+it: servono più di {0} corse per ora di modello – ridurre la quantità o treni più grandi
+
+de: nach jeder Übergabe von Gütern oder Personen
+it: dopo ogni passaggio di merci o persone
+
+de: niemand bringt Reisende – weiterer Bahnhof oder Schattenbahnhof nötig
+it: nessuno porta viaggiatori – serve un'altra stazione o stazione nascosta
+
+de: nimmt alles ab
+it: prende tutto
+
+de: noch {0} cm
+it: ancora {0} cm
+
+de: nur mit {0} verbunden{1}
+it: collegato solo con {0}{1}
+
+de: rot – Abholung nötig
+it: rosso – ritiro necessario
+
+de: rot – Anlieferung nötig
+it: rosso – consegna necessaria
+
+de: translations.properties wurde weder im Arbeitsverzeichnis noch als Ressource gefunden - es werden nur die Schluessel angezeigt.
+it: translations.properties non è stato trovato né nella cartella di lavoro né come risorsa - vengono mostrate solo le chiavi.
+
+de: von links
+it: da sinistra
+
+de: von links → {0}
+it: da sinistra → {0}
+
+de: von rechts
+it: da destra
+
+de: wird entladen
+it: in scarico
+
+de: wird geladen
+it: in carico
+
+de: z. B. 192.168.0.171 oder Rechnername
+it: ad es. 192.168.0.171 o nome del computer
+
+de: zeigt zurzeit: {0}{1}
+it: mostra ora: {0}{1}
+
+de: zurzeit kein Umladen
+it: ora nessun trasbordo
+
+de: {0}\nAusgewähltes wird mit „Weiter“ übernommen; „Offen lassen“ ändert nichts.
+it: {0}\nLa scelta viene applicata con «Avanti»; «Lascia aperto» non cambia nulla.
+
+de: {0}\nBahnhof: {1}
+it: {0}\nStazione: {1}
+
+de: {0}\nKein Bahnhof mit Bahnsteig angeschlossen
+it: {0}\nNessuna stazione con marciapiede collegata
+
+de: {0}   ↔   verknüpft mit {1}{2}
+it: {0}   ↔   collegato con {1}{2}
+
+de: {0} % der Reisenden in „{1}“ haben einen Koffer.
+it: Il {0} % dei viaggiatori di «{1}» ha una valigia.
+
+de: {0} (Build {1})
+it: {0} (build {1})
+
+de: {0} ({1} Koffer)
+it: {0} ({1} valigie)
+
+de: {0} Ausführungen/h
+it: {0} esecuzioni/h
+
+de: {0} Bahnhof/Bahnhöfe angeheftet oder ergänzt.
+it: {0} stazione/i collegata/e o completata/e.
+
+de: {0} Beim Personen-/Gepäckwagen gelten die Zeiten für Reisende und Gepäck.
+it: {0} Per la carrozza viaggiatori/bagagli i tempi valgono per viaggiatori e bagagli.
+
+de: {0} Gbf
+it: {0} Sm
+
+de: {0} Güter
+it: {0} merci
+
+de: {0} Güter ergänzt.
+it: {0} merci aggiunte.
+
+de: {0} Hinweise
+it: {0} avvisi
+
+de: {0} Kapazitäten
+it: {0} capacità
+
+de: {0} Personen
+it: {0} persone
+
+de: {0} Plätze
+it: {0} posti
+
+de: {0} Plätze 1. Klasse
+it: {0} posti 1ª classe
+
+de: {0} Plätze 2. Klasse
+it: {0} posti 2ª classe
+
+de: {0} Reisende wollen je Modellstunde aus „{1}“ abfahren.
+it: {0} viaggiatori vogliono partire da «{1}» per ora di modello.
+
+de: {0} Station(en) aus den iTrain-Bahnhöfen eingefügt.
+it: {0} stazione/i inserita/e dalle stazioni iTrain.
+
+de: {0} Wagenladungen{1}, {2}/{3} Plätze
+it: {0} carichi{1}, {2}/{3} posti
+
+de: {0} aus „{1}“
+it: {0} da «{1}»
+
+de: {0} ausgewählt
+it: {0} scelto/i
+
+de: {0} braucht Güter. Der Güterbahnhof gehört zu {1}. Welche Blöcke sind Ladegleise? (Er darf dieselben Blöcke wie der Bahnhof nutzen.)
+it: {0} ha bisogno di merci. Lo scalo merci appartiene a {1}. Quali blocchi sono binari di carico? (Può usare gli stessi blocchi della stazione.)
+
+de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
+it: {0} transita per {1}, {2} (carico/scarico al passaggio)
+
+de: {0} erreichbar über XTC unter {1}:{2}
+it: {0} raggiungibile via XTC a {1}:{2}
+
+de: {0} fährt ab von {1}{2}
+it: {0} parte da {1}{2}
+
+de: {0} für „{1}“
+it: {0} per «{1}»
+
+de: {0} gehört zur Anlage · kein Austausch, Reisende und Güter fahren mit Zügen
+it: {0} appartiene al plastico · nessuno scambio, viaggiatori e merci viaggiano in treno
+
+de: {0} hat Passagiere. Welche Blöcke von {1} sind Personengleise (Bahnsteige)? Keine Auswahl = keine Personen.
+it: {0} ha viaggiatori. Quali blocchi di {1} sono binari viaggiatori (marciapiedi)? Nessuna scelta = nessuna persona.
+
+de: {0} hat keine {1}e.
+it: {0} non ha {1}.
+
+de: {0} hält in {1}, {2}{3}
+it: {0} ferma a {1}, {2}{3}
+
+de: {0} ist angeschlossen an
+it: {0} è collegato a
+
+de: {0} ist mit keinem Bahnhof verbunden{1}
+it: {0} non è collegato ad alcuna stazione{1}
+
+de: {0} mit „{1}“ verbinden ({2}, {3} Bahnsteige)
+it: collegare {0} con «{1}» ({2}, {3} marciapiedi)
+
+de: {0} sollen je Modellstunde nach „{1}“ geliefert werden.
+it: {0} devono essere consegnati a «{1}» per ora di modello.
+
+de: {0} von {1} Blöcken sind keinem Gleis zugeordnet (Strecke).
+it: {0} di {1} blocchi non sono assegnati ad alcun binario (linea).
+
+de: {0} wird auf der Anlage nirgends benötigt.\nTrotzdem zum Verladen bereitstellen?
+it: {0} non serve da nessuna parte sul plastico.\nMetterlo comunque a disposizione per il carico?
+
+de: {0} wird in {1} benötigt.\nZum Verladen bereitstellen?
+it: {0} serve a {1}.\nMetterlo a disposizione per il carico?
+
+de: {0} wird noch verwendet: {1}
+it: {0} è ancora usato: {1}
+
+de: {0} {1} je Modellstunde
+it: {0} {1} per ora di modello
+
+de: {0} – Logistik gestartet.
+it: {0} – logistica avviata.
+
+de: {0} – Logistik ist auf Pause.
+it: {0} – la logistica è in pausa.
+
+de: {0} – hier gilt „{1}“
+it: {0} – qui vale «{1}»
+
+de: {0} – liefert immer, ohne auf der Anlage zu sein
+it: {0} – fornisce sempre, senza essere sul plastico
+
+de: {0} – nur über Gleise (Angebot/Reisende je Gleis)
+it: {0} – solo tramite binari (offerta/viaggiatori per binario)
+
+de: {0} – schon mit „{1}“ verbunden
+it: {0} – già collegato con «{1}»
+
+de: {0} ← von rechts
+it: {0} ← da destra
+
+de: {0}: bereit zum Transport / Lagerkapazität am Güterbahnhof
+it: {0}: pronto per il trasporto / capacità di magazzino allo scalo merci
+
+de: {0}Annehmen
+it: {0}Accetta
+
+de: {0}{1}Geräusche
+it: {0}{1}Suoni
+
+de: Änderungen speichern?
+it: Salvare le modifiche?
+
+de: Öffnen...
+it: Apri...
+
+de: Ölplattform
+it: Piattaforma petrolifera
+
+de: Ölquelle
+it: Pozzo petrolifero
+
+de: Ölraffinerie
+it: Raffineria
+
+de: Über
+it: Informazioni
+
+de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
+it: Tramite XTC, iTrain segnala per ogni treno l'ingresso in un blocco, l'attesa con la sua durata e la partenza, oltre all'ora di modello. Se iTrain funziona su un altro computer, il suo firewall deve consentire la porta XTC in entrata.
+
+de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
+it: Tramite il nome del computer (funziona se il router o il dispositivo conosce il nome):
+
+de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+it: Tramite l'interfaccia XTC, iTrain segnala per ogni treno ingresso, attesa con la sua durata e partenza, oltre all'ora di modello. "localhost" = iTrain funziona su questo computer. Se iTrain funziona su un altro computer, il suo firewall di Windows deve consentire la porta XTC in entrata. Le modifiche valgono dopo la chiusura delle preferenze.
+
+de: Übergabe
+it: Interscambio
+
+de: Übergabe (Außenwelt)
+it: Interscambio (mondo esterno)
+
+de: Übergabe bearbeiten
+it: Modifica interscambio
+
+de: Übergabe/Schattenbahnhof
+it: Interscambio/stazione nascosta
+
+de: Übergabe: Güter kommen von außerhalb oder gehen hinaus
+it: Interscambio: le merci arrivano dall'esterno o escono
+
+de: Übernehmen
+it: Riprendi
+
+de: Übernimmt Personenwerte und Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+it: Riprende valori dei viaggiatori e quantità di merci (sostituisce la tabella). ★ = proposta propria.
+
+de: Überschuss
+it: Eccedenza
+
+de: Überschuss vernichtet (heute)
+it: Eccedenza distrutta (oggi)
+
+de: Überschuss {0} M/h (wird gelagert)
+it: Eccedenza {0} M/h (viene immagazzinata)
+
+de: Übersicht
+it: Panoramica
+
+de: Übersicht öffnen
+it: Apri panoramica
+
+de: Überträgt den Wert der ersten markierten Zeile in der gewählten Spalte auf alle markierten Zeilen
+it: Copia il valore della prima riga selezionata nella colonna scelta su tutte le righe selezionate
+
+de: – direkt –
+it: – diretto –
+
+de: – kein Abnehmer
+it: – nessun cliente
+
+de: – kein Gegenstück
+it: – nessuna controparte
+
+de: – kein Lieferant
+it: – nessun fornitore
+
+de: – niemand
+it: – nessuno
+
+de: „Liefert immer, ohne auf der Anlage zu sein“ ist angehakt: alle Eingänge werden immer geliefert. Haken entfernen, um einzelne Güter zu wählen.
+it: «Fornisce sempre, senza essere sul plastico» è spuntato: tutti gli ingressi sono sempre forniti. Togliere la spunta per scegliere singole merci.
+
+de: „Weiter“ ergänzt: {0}{1}
+it: «Avanti» completa: {0}{1}
+
+de: „{0}“ braucht je Modellstunde {1}.
+it: «{0}» richiede {1} per ora di modello.
+
+de: „{0}“ erhöhen
+it: Aumenta «{0}»
+
+de: „{0}“ fährt ab aus „{1}“ – Route „{2}“{3}.
+it: «{0}» parte da «{1}» – itinerario «{2}»{3}.
+
+de: „{0}“ fährt in „{1}“ ({2}) von der falschen Seite ein – Zug muss Kopf machen.
+it: «{0}» entra in «{1}» ({2}) dal lato sbagliato – il treno deve invertire la marcia.
+
+de: „{0}“ hat noch die Art „Anderes“ (aus iTrain „other“) – dort halten Züge ohne Ein- und Aussteigen; im Stationsdialog Art „Bahnhof“ oder „Haltepunkt“ wählen
+it: «{0}» ha ancora il tipo «Altro» (da iTrain «other») – lì i treni fermano senza salita né discesa; scegliere nel dialogo della stazione il tipo «Stazione» o «Fermata»
+
+de: „{0}“ hat noch kein Ladegleis
+it: «{0}» non ha ancora un binario di carico
+
+de: „{0}“ hat noch kein Ladegleis, und es ist kein freier Block da. Bitte später im Stationsdialog ein Gleis als Ladegleis einrichten.
+it: «{0}» non ha ancora un binario di carico e non c'è alcun blocco libero. Preparare più tardi un binario di carico nel dialogo della stazione.
+
+de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
+it: «{0}» ferma a «{1}»: tipo «Altro», quindi niente salita né discesa. Scegliere il tipo nel dialogo della stazione (ad es. stazione).
+
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+it: «{0}» sarà allora collegato al {1} invece che all'infrastruttura del plastico.\nScalo merci, località, aziende e magazzini lo seguono nella sua scheda.
+
+de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
+it: «{0}» a «{1}»: tempo di attesa insufficiente per far salire/scendere tutti i viaggiatori.
+
+de: „{0}“ in „{1}“: Wartezeit zu kurz, um alles zu laden.
+it: «{0}» a «{1}»: tempo di attesa troppo breve per caricare tutto.
+
+de: „{0}“ liefert automatisch, ohne Zug.
+it: «{0}» fornisce automaticamente, senza treno.
+
+de: „{0}“ liefert {1} unbegrenzt.
+it: «{0}» fornisce {1} senza limiti.
+
+de: „{0}“ liefert, ohne auf der Anlage zu sein.
+it: «{0}» fornisce senza essere sul plastico.
+
+de: „{0}“ nimmt beliebig viele ankommende Reisende auf.
+it: «{0}» accoglie un numero qualsiasi di viaggiatori in arrivo.
+
+de: „{0}“ nimmt je Modellstunde {1} ankommende Reisende auf.
+it: «{0}» accoglie {1} viaggiatori in arrivo per ora di modello.
+
+de: „{0}“ stellt je Modellstunde {1} her{2}.
+it: «{0}» produce {1} per ora di modello{2}.
+
+de: „{0}“ stellt {1} schon her; es fehlen {2} je Modellstunde.
+it: «{0}» produce già {1}; mancano {2} per ora di modello.
+
+de: „{0}“ zum Bahnhof machen (bisher „Anderes“{1}
+it: Rendere «{0}» una stazione (finora «Altro»{1}
+
+de: „Übernehmen“ trägt das in die Anlage ein. Was danach noch fehlt, zeigt der Assistent an.
+it: «Riprendi» lo inserisce nel plastico. Ciò che manca dopo lo indica l'assistente.
+
+de: ∞ von außerhalb geliefert
+it: ∞ fornito dall'esterno
+
+de: ■ Stopp
+it: ■ Stop
+
+de: ▭ Block 
+it: ▭ Blocco 
+
+de: ▲ Abreisende 
+it: ▲ Partenti 
+
+de: ▲ Entladen · ▼ Beladen
+it: ▲ Scarico · ▼ Carico
+
+de: ▲ {0} geht an:
+it: ▲ {0} va a:
+
+de: ▶ Austausch läuft
+it: ▶ Scambio in corso
+
+de: ▶ Probehören
+it: ▶ Ascolta
+
+de: ▶ Start
+it: ▶ Avvia
+
+de: ▼ Ankommende 
+it: ▼ Arrivi 
+
+de: ▼ wartet auf Abholung · ▲ abgeladen, geht an die Abnehmer · Kapazität {0} je Gut{1}
+it: ▼ attende il ritiro · ▲ scaricato, va ai clienti · capacità {0} per merce{1}
+
+de: ▼ {0} kommt von:
+it: ▼ {0} viene da:
+
+de: ▼ {0} {1} M/h – {2}, kommt von:
+it: ▼ {0} {1} M/h – {2}, viene da:
+
+de: ▼ {0} – {1}, kommt von:
+it: ▼ {0} – {1}, viene da:
+
+de: ⚠ Kopf machen{0}
+it: ⚠ Invertire marcia{0}
+
+de: ✔ Direkte Verbindung über die Zugroute „{0}“.
+it: ✔ Collegamento diretto tramite l'itinerario «{0}».
+
+de: ✔ in Ordnung
+it: ✔ a posto
+
+de: ✔ {0} auf {1}:{2}, {3} Züge
+it: ✔ {0} su {1}:{2}, {3} treni
+
+de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
+it: ✔ {0} funziona su {1} (porta XTC {2}), {3} treni: {4}
+
+de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
+it: ✘ Nessuna risposta da iTrain a {0}:{1} ({2}).\niTrain è in funzione lì? Il firewall di Windows del computer iTrain è aperto in entrata per la porta {3}? Indirizzo e porta sono corretti?
+
+de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
+it: ✘ Nessuna risposta da iTrain-XTC a {0}:{1} ({2})
+
+de: ❚❚ Austausch angehalten
+it: ❚❚ Scambio in pausa
+
+de: ❚❚ Pause
+it: ❚❚ Pausa
+
+de: ❚❚ pausiert
+it: ❚❚ in pausa
+
+de: Verkehrs-Assistent...
+it: Assistente traffico...
+
+de: Symbole...
+it: Simboli...
+
+de: Anlagen-Infrastruktur
+it: Infrastruttura del plastico
+
+de: leer
+it: vuoto
+
+de: Modellbahn-Faktor
+it: Fattore del plastico
+
+de: Vorbild-Gewicht/Ladegewicht
+it: Peso reale/carico
+
+de: Vorbild-Volumen
+it: Volume reale
+
+de: Offen/Geschlossen
+it: Aperto/chiuso
+
+de: alle
+it: tutte
+
+de: nein
+it: no
+
+de: ja
+it: sì
+
+de: 1. Kl.
+it: 1ª cl.
+
+de: 2. Kl.
+it: 2ª cl.
+
+de: Wartend: {0} (1. Kl.) + {1} (2. Kl.) / {2}
+it: In attesa: {0} (1ª cl.) + {1} (2ª cl.) / {2}
+
+de: Passagiere 1. Klasse: {0} / {1},  2. Klasse: {2} / {3}
+it: Viaggiatori 1ª classe: {0} / {1},  2ª classe: {2} / {3}
+
+de: Block: -
+it: Blocco: -
+
+de: XTC-Port:
+it: Porta XTC:
+
+de: {0} Blöcke
+it: {0} blocchi
+
+de: (keine)
+it: (nessuna)
+
+de: Aktualisierung
+it: Aggiornamento
+
+de: Alle 10 Sekunden
+it: Ogni 10 secondi
+
+de: Alle 15 Minuten
+it: Ogni 15 minuti
+
+de: Alle 30 Sekunden
+it: Ogni 30 secondi
+
+de: Alle 5 Minuten
+it: Ogni 5 minuti
+
+de: Anfangsordner für Layout-Dateien
+it: Cartella iniziale dei file del plastico
+
+de: Ansicht
+it: Vista
+
+de: Beim Start automatisch nach Updates suchen
+it: Cerca aggiornamenti all'avvio
+
+de: Bildschirm
+it: Schermo
+
+de: Bildschirm {0} ({1}x{2})
+it: Schermo {0} ({1}x{2})
+
+de: Blockpositionen
+it: Posizioni dei blocchi
+
+de: Blöcke
+it: Blocchi
+
+de: Daten ändern
+it: Modifica dati
+
+de: Die Uhr zeigt die aus der geöffneten .tcdz gelesene Modellbahnzeit und läuft mit dem dort hinterlegten Beschleunigungsfaktor weiter. Ohne geöffnete Datei bleibt sie leer.
+it: L'orologio mostra l'ora del plastico letta dal .tcdz aperto e continua con il fattore di accelerazione lì memorizzato. Senza file aperto resta vuoto.
+
+de: Dunkel
+it: Scuro
+
+de: Durchsuchen...
+it: Sfoglia...
+
+de: Entfernen
+it: Rimuovi
+
+de: Epoche
+it: Epoca
+
+de: Epoche der Anlage. Der Echtzeit-Kern kennt nur die 1. und 2. Klasse; den Anteil der 1. Klasse stellen Sie je Stadt oder Dorf ein.
+it: Epoca del plastico. Il nucleo in tempo reale conosce solo 1ª e 2ª classe; la quota di 1ª classe si imposta per città o paese.
+
+de: Farbkombination
+it: Combinazione di colori
+
+de: Farbschema
+it: Schema colori
+
+de: Gekoppelte iTrain-Datei
+it: File iTrain collegato
+
+de: Gilt als Vorbelegung für neue Lokomotiven, solange dort noch kein eigener Wert eingetragen wurde. Bereits individuell gesetzte Werte bleiben unverändert.
+it: Vale come valore predefinito per le nuove locomotive finché non è inserito un valore proprio. I valori già impostati individualmente restano invariati.
+
+de: Hell
+it: Chiaro
+
+de: Hintergrund
+it: Sfondo
+
+de: Jede Minute
+it: Ogni minuto
+
+de: Legt fest, wie oft die gekoppelte .tcdz erneut eingelesen wird, um neu hinzugekommene oder entfernte Einträge zu übernehmen. Bereits vorhandene eigene Zusatzdaten bleiben dabei erhalten.
+it: Stabilisce ogni quanto il .tcdz collegato viene riletto per acquisire voci nuove o rimosse. I dati aggiuntivi propri esistenti restano invariati.
+
+de: Lokomotiven
+it: Locomotive
+
+de: Maßstab-Vorlage
+it: Modello di scala
+
+de: Modellbahn-Faktor-Vorlage
+it: Modello di fattore del plastico
+
+de: Nur beim Start
+it: Solo all'avvio
+
+de: Nur ein Bildschirm angeschlossen
+it: Un solo schermo collegato
+
+de: Ordner für Symbole (.svg)
+it: Cartella dei simboli (.svg)
+
+de: Pfad für Logistik-Dateien
+it: Percorso dei file logistici
+
+de: Pfade
+it: Percorsi
+
+de: Sekunden anzeigen
+it: Mostra secondi
+
+de: Speichern
+it: Salva
+
+de: Sprache
+it: Lingua
+
+de: Textfarbe
+it: Colore del testo
+
+de: Uhr
+it: Orologio
+
+de: Uhr im Ribbon anzeigen
+it: Mostra orologio nella barra
+
+de: Voreinstellungen
+it: Preferenze
+
+de: Vorlagen
+it: Modelli
+
+de: Wagen
+it: Carri
+
+de: Wie zuletzt
+it: Come l'ultima volta
+
+de: Zurück
+it: Indietro
+
+de: Züge
+it: Treni
+
+
+# Browser-Seiten (09.11.2026)
+de: Nicht gefunden
+it: Non trovato
+
+de: Kein Modul „{0}“ (oder nicht für den Browser freigegeben).
+it: Nessun modulo «{0}» (o non abilitato per il browser).
+
+de: Zur Übersicht
+it: Alla panoramica
+
+de: Kein Geräusch
+it: Nessun suono
+
+de: Lade…
+it: Caricamento…
+
+de: ausgestiegen
+it: scesi
+
+de: eingestiegen
+it: saliti
+
+de: Ausladen
+it: Scarico
+
+de: Einladen
+it: Carico
+
+de: Antippen: Geräusch
+it: Tocca: suono
+
+de: Bereit zum Transport
+it: Pronto per il trasporto
+
+de: Herstellung
+it: Produzione
+
+de: ohne Eingang
+it: senza ingresso
+
+de: Eingelagert
+it: Immagazzinato
+
+de: Ladung
+it: Carico
+
+de: Ton an
+it: Audio sì
+
+de: Ton aus
+it: Audio no
+
+de: Rezept ausblenden
+it: Nascondi ricetta
+
+de: Rezept anzeigen
+it: Mostra ricetta
+
+de: keine Verbindung zum Logistik-Rechner
+it: nessuna connessione al computer Logistica
+
+de: Vollbild an/aus
+it: Schermo intero sì/no
+
+de: Vollbild
+it: Schermo intero
+
+de: Anzeiger
+it: Tabelloni
+
+de: Kein Bahnhof unter dieser Adresse
+it: Nessuna stazione a questo indirizzo
+
+de: Nur lesen
+it: Solo lettura
+
+de: Joker
+it: jolly
+
+de: {0} in {1} benötigt
+it: {0} richiesto a {1}
+
+de: anliefern: {0}, {1}
+it: consegnare: {0}, {1}
+
+de: kein Ladegleis zum Entladen
+it: nessun binario di carico per scaricare
+
+de: abholen in {0}
+it: ritirare a {0}
+
+de: {0} bereit
+it: {0} pronti
+
+de: noch nirgends zur Abholung bereit
+it: non ancora pronto al ritiro da nessuna parte
+
+de: Personenzug
+it: treno passeggeri
+
+de: geeignet: Zug {0}
+it: adatto: treno {0}
+
+de: geeignet: Züge {0}
+it: adatti: treni {0}
+
+de: Tag
+it: Giorno
+
+de: Lizenz: GNU General Public License, Version 3 (GPL-3.0)
+it: Licenza: GNU General Public License, versione 3 (GPL-3.0)
+
+de: Enthält:
+it: Contiene:
+
+de: QR-Code-Generator von Project Nayuki (MIT-Lizenz)
+it: Generatore di codici QR di Project Nayuki (licenza MIT)
+
+de: Geräusche von freesound.org (CC0, gemeinfrei)
+it: Suoni da freesound.org (CC0, pubblico dominio)
+
+de: OpenJFX und Java-Laufzeit (GPL v2 mit Classpath Exception)
+it: OpenJFX e ambiente Java (GPL v2 con Classpath Exception)
+
+de: Über iTrain-Logistik
+it: Informazioni su iTrain-Logistik
+
+# 10.11.2026: Verknüpfte Datei, Browser-Status, Routen-Anzeiger
+
+de: Verknüpfte Datei
+it: File collegato
+
+de: Routen-Anzeiger
+it: Monitor percorso
+
+de: Logistik im Browser
+it: Logistica nel browser
+
+de: Zuganzeiger im Browser
+it: Tabellone partenze nel browser
+
+de: Logistik auf anderem Gerät...
+it: Logistica su altro dispositivo...
+
+de: Zuganzeiger auf anderem Gerät...
+it: Tabellone partenze su altro dispositivo...
+
+de: Logistik auf anderem Gerät
+it: Logistica su altro dispositivo
+
+de: Zuganzeiger auf anderem Gerät
+it: Tabellone partenze su altro dispositivo
+
+de: iTrain-Datei
+it: File iTrain
+
+de: Mit dieser iTrain-Datei ist die Logistik-Datei verknüpft
+it: Il file Logistica è collegato a questo file iTrain
+
+de: Logistik-Datei:
+it: File Logistica:
+
+de: iTrain-Datei:
+it: File iTrain:
+
+de: Zustand:
+it: Stato:
+
+de: Fahrzeugdatei:
+it: File dei veicoli:
+
+de: Gefunden, zuletzt geändert {0}
+it: Trovato, ultima modifica {0}
+
+de: Aktualisieren
+it: Aggiorna
+
+de: Andere Datei wählen…
+it: Scegli un altro file…
+
+de: Prüft erneut, ob die iTrain-Datei gefunden wird, und gleicht die Logistik mit ihr ab (Loks, Wagen, Blöcke, Züge, Zugrouten)
+it: Verifica di nuovo se il file iTrain viene trovato e sincronizza Logistica con esso (locomotive, carri, blocchi, treni, percorsi)
+
+de: Die verknüpfte iTrain-Datei wurde nicht gefunden – nichts abgeglichen.
+it: Il file iTrain collegato non è stato trovato – nessuna sincronizzazione.
+
+de: Verknüpfte iTrain-Datei: {0}
+it: File iTrain collegato: {0}
+
+de: Gefunden.
+it: Trovato.
+
+de: Nicht gefunden.
+it: Non trovato.
+
+de: Klick: Dialog „Verknüpfte Datei“
+it: Clic: finestra «File collegato»
+
+de: aus
+it: off
+
+de: Ausgeschaltet. Klick öffnet die Einstellungen.
+it: Disattivato. Un clic apre le impostazioni.
+
+de: Adressen
+it: Indirizzi
+
+de: dieser Rechner
+it: questo computer
+
+de: Verbundene Geräte
+it: Dispositivi collegati
+
+de: Browser Logistik ist ausgeschaltet – hier einschalten.
+it: Web Logistica è disattivato – attivalo qui.
+
+de: Browser Zuganzeiger ist ausgeschaltet – hier einschalten.
+it: Web Partenze è disattivato – attivalo qui.
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Funktionen → Logistik auf anderem Gerät: anderen Port wählen.
+it: Web Logistica non ha potuto aprire la porta {0} ({1}). Funzioni → Logistica su altro dispositivo: scegliere un'altra porta.
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Zuganzeiger auf anderem Gerät: anderen Port wählen.
+it: Web Partenze non ha potuto aprire la porta {0} ({1}). Funzioni → Tabellone partenze su altro dispositivo: scegliere un'altra porta.
+
+de: Browser Logistik: Anlage und Module im Browser auf diesem Rechner öffnen; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+it: Web Logistica: apre plastico e moduli nel browser di questo computer; «Su altro dispositivo» mostra indirizzi, porta e codice QR
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser auf diesem Rechner öffnen, auch je Bahnhof; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+it: Web Partenze: apre i tabelloni nel browser di questo computer, anche per stazione; «Su altro dispositivo» mostra indirizzi, porta e codice QR
+
+de: Zeigt, mit welcher iTrain-Datei (.tcdz) diese Logistik-Datei verknüpft ist und ob sie gefunden wird
+it: Mostra a quale file iTrain (.tcdz) è collegato questo file Logistica e se viene trovato
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal
+it: Monitor percorso: un treno con blocco precedente, attuale e successivo, posizione, tratto di frenata, punto di arresto e segnale
+
+de: Keine Datei geöffnet oder kein Zug vorhanden.
+it: Nessun file aperto o nessun treno presente.
+
+de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
+it: Nessun dato online: questo treno non è collegato a iTrain tramite XTC.
+
+de: Der Zug steht in iTrain in keinem Block.
+it: In iTrain il treno non si trova in nessun blocco.
+
+de: {0} mm > Position {1}
+it: {0} mm > posizione {1}
+
+de: Halt noch {0} s
+it: Fermata ancora {0} s
+
+de: Ziel
+it: Destinazione
+
+de: vorher
+it: precedente
+
+de: aktuell
+it: attuale
+
+de: danach
+it: successivo
+
+de: Weichen
+it: Scambi
+
+de: Richtungswechsel
+it: Inversione di marcia
+
+de: ▲ {0} ausgestiegen
+it: ▲ {0} scesi
+
+de: ▼ {0} eingestiegen
+it: ▼ {0} saliti
+
+de: Entladen ▲ {0}
+it: Scarico ▲ {0}
+
+de: Beladen ▼ {0}
+it: Carico ▼ {0}
+
+de: dahinter
+it: dietro
+
+de: Routen-Anzeiger im Browser
+it: Monitor percorso nel browser
+
+de: Routen-Anzeiger auf anderem Gerät...
+it: Monitor percorso su altro dispositivo...
+
+de: Routen-Anzeiger auf anderem Gerät
+it: Monitor percorso su altro dispositivo
+
+de: Routen-Anzeiger je Zug auf Handy, Tablet oder anderem Rechner
+it: Monitor percorso per treno su telefono, tablet o altro computer
+
+de: Browser Routen-Anzeiger eingeschaltet
+it: Monitor percorso web attivato
+
+de: Browser Routen-Anzeiger
+it: Web Percorso
+
+de: Zug wählen
+it: Scegli treno
+
+de: Fenster öffnen
+it: Apri finestra
+
+de: Im Browser öffnen
+it: Apri nel browser
+
+de: Kein Zug unter dieser Adresse
+it: Nessun treno a questo indirizzo
+
+de: Browser Routen-Anzeiger ist ausgeschaltet – hier einschalten.
+it: Il monitor percorso web è disattivato – attivalo qui.
+
+de: Port {0} ist schon vergeben – bitte einen anderen wählen.
+it: La porta {0} è già in uso – sceglierne un'altra.
+
+de: Eigener Port, getrennt von Browser Logistik und Browser Zuganzeiger. Jedes Gerät zeigt einen Zug; den Ton schaltet es oben im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+it: Porta propria, separata da Web Logistica e Web Partenze. Ogni dispositivo mostra un treno; l'audio lo attiva da sé in alto (il browser lo ricorda), «Schermo intero» per un tablet. Il firewall di Windows di questo computer deve consentire la porta in ingresso.
+
+de: Geräusche beim Ein-/Aussteigen und Verladen in den Routen-Anzeigern ein- oder ausschalten
+it: Attiva o disattiva i suoni di salita/discesa e carico nei monitor percorso
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal – als Fenster (auch mehrere) oder im Browser
+it: Monitor percorso: un treno con blocco precedente, attuale e successivo, posizione, tratto di frenata, punto di arresto e segnale – come finestra (anche più d'una) o nel browser
+
+de: Browser Routen-Anzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Routen-Anzeiger auf anderem Gerät: anderen Port wählen.
+it: Il monitor percorso web non ha potuto aprire la porta {0} ({1}). Funzioni → Monitor percorso su altro dispositivo: scegliere un'altra porta.
+de: Wagenliste
+it: Elenco carri
+de: Wagenliste befördert
+it: L'elenco carri trasporta
+de: Einsteigen/Aussteigen
+it: Salire/scendere
+de: Entladen/Beladen
+it: Scaricare/caricare
+de:  · steht
+it:  · fermo
+de: Wartezeit vorbei, steht
+it: Attesa terminata, fermo
+de:  · Abfahrt
+it:  · partenza
+de: Lager hinzufügen. {0} kann nicht entladen werden, die Abnehmer sind voll
+it: Aggiungere un magazzino. {0} non può essere scaricato, i destinatari sono pieni
+de: Lager voll. {0} kann nicht entladen werden, die Abnehmer sind voll
+it: Magazzino pieno. {0} non può essere scaricato, i destinatari sono pieni
+de: Kein Abnehmer an diesem Bahnhof für: {0}
+it: Nessun destinatario in questa stazione per: {0}
+de: Produktion passt sich an: mehr Anlieferung, mehr Herstellung
+it: La produzione si adatta: più consegne, più produzione
+de: Bedarf wächst mit der Versorgung
+it: Il fabbisogno cresce con il rifornimento
+de: Produktion ×{0}
+it: Produzione ×{0}
+de: Je Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn die Eingangslager gut gefüllt sind und der Ausgang abfließt; herunter, wenn Eingang fehlt oder der Ausgang voll ist. Rate und Lagerkapazitäten wachsen mit der Stufe. Der Regler Langsamer/Schneller wirkt auch hier.
+it: Al massimo un livello per ora modello (×1 fino a ×4): sale se i magazzini in ingresso sono ben riempiti e l’uscita defluisce; scende se manca l’ingresso o l’uscita è piena. Ritmo e capacità crescono con il livello. Il regolatore Più lento/Più veloce agisce anche qui.
+de: Je Gut und Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn der Bedarf gedeckt ist; herunter, wenn länger nichts geliefert wird. Reisende und Einwohner bleiben unverändert. Der Regler Langsamer/Schneller wirkt auch hier.
+it: Al massimo un livello per merce e ora modello (×1 fino a ×4): sale se il fabbisogno è coperto; scende se a lungo non viene consegnato nulla. Viaggiatori e abitanti restano invariati. Il regolatore Più lento/Più veloce agisce anche qui.
+de: Abnahme M/h
+it: Ritiro M/h
+de: Ankommende M/h
+it: In arrivo M/h
+de: unbegrenzt
+it: illimitato
+de: Abnahme Stück M/h
+it: Ritiro pezzi M/h
+de: Außenwelt: Güter, die hier abgenommen werden
+it: Mondo esterno: merci ritirate qui
+de: Leere Tabelle: Die Außenwelt nimmt alle Güter unbegrenzt ab. Mit Einträgen nur diese Güter, je Modellstunde höchstens die Menge.
+it: Tabella vuota: il mondo esterno ritira tutte le merci senza limite. Con voci solo queste merci, al massimo la quantità per ora modello.
+de: Zusätzlich erforderlich…
+it: Richiesto in più…
+de: Hinweise beim Start zeigen
+it: Mostra avvisi all'avvio
+de: die Anlage
+it: il plastico
+de: Transport – Wagen und Züge
+it: Trasporto – carri e treni
+de: ▼ {0} ({1}): kein Zug kann es befördern
+it: ▼ {0} ({1}): nessun treno può trasportarlo
+de: Reisende: kein Zug hat Sitz- oder Stehplätze
+it: Viaggiatori: nessun treno ha posti a sedere o in piedi
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) für dieses Gut freischalten
+it: Usare un carro esistente: abilitare «{0}» ({1}) per questa merce
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) im Wagenfenster ergänzen
+it: Usare un carro esistente: completare «{0}» ({1}) nella finestra carri
+de: Bestehenden Wagen verwenden: „{0}“ kann es, steht aber in keinem Zug – in iTrain einem Zug zuordnen
+it: Usare un carro esistente: «{0}» può, ma non è in alcun treno – assegnarlo a un treno in iTrain
+de: Transportmöglichkeit besorgen (kaufen, leihen …), in iTrain anlegen, dann abgleichen
+it: Procurarsi un mezzo di trasporto (comprare, prendere in prestito …), crearlo in iTrain, poi sincronizzare
+de: Bestehenden Transport zum Joker machen: „{0}“ ({1})
+it: Trasformare un trasporto esistente in jolly: «{0}» ({1})
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) als Personenwagen, Sitzplätze eintragen
+it: Usare un carro esistente: «{0}» ({1}) come carrozza, inserire i posti
+de: Vom Schattenbahnhof: angeliefert auf Gleis „{0}“ ({1})
+it: Dalla stazione nascosta: consegnato sul binario «{0}» ({1})
+de: Wagen „{0}“ in iTrain einem Zug zuordnen ({1}), dann „Mit iTrain abgleichen“.
+it: Assegnare il carro «{0}» a un treno in iTrain ({1}), poi «Sincronizza con iTrain».
+de: Wagen für {0} ({1})
+it: Carro per {0} ({1})
+de: Personenwagen
+it: Carrozze
+de:  besorgen, in iTrain anlegen und einem Zug zuordnen, dann „Mit iTrain abgleichen“.
+it: : procurare, creare in iTrain e assegnare a un treno, poi «Sincronizza con iTrain».
+de: Angeschlossene Betriebe und Übergaben (Güter über die Ladegleise)
+it: Aziende e punti di scambio collegati (merci tramite i binari di carico)
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Anschließen lassen sich Betriebe und Übergaben, keine Orte und Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+it: Stazione nascosta: viaggiatori e merci arrivano dall'esterno nella stazione nascosta – impostati per binario (marciapiede: viaggiatori per ora modello, binario di carico: offerta per merce). Un binario può essere marciapiede e binario di carico insieme (creare due volte con lo stesso blocco). Al salvataggio i binari di carico passano in uno scalo merci agganciato. Si possono collegare aziende e punti di scambio, non località né magazzini. Si carica e scarica già al passaggio, senza fermata.
+de: Benötigt keinen Lieferanten
+it: Non serve un fornitore
+de: Mit der KI prüfen...
+it: Verifica con l'IA...
+de: Mit der KI prüfen
+it: Verifica con l'IA
+de: Kontakt...
+it: Contatto...
+de: Kontakt
+it: Contatto
+de: Auf Update prüfen
+it: Cerca aggiornamento
+de: Diese Dateien in den Chat der KI ziehen
+it: Trascina questi file nella chat dell'IA
+de: Starten Sie einen neuen Chat (z. B. claude.ai). Ziehen Sie alle Dateien mit der Maus in den Chat und schreiben Sie dazu: „Bitte nach der Prompt-Datei vorgehen.“ Die KI prüft, ob die Logistik vollständig und mit der iTrain-Anlage verknüpft ist, fragt nach der Sprache und am Ende, ob ein Dokument daraus werden soll. Die iTrain-Datei wird dabei nicht nach dem iTrain-Handbuch geprüft, nur auf die Verknüpfung.
+it: Avviate una nuova chat (ad es. claude.ai). Trascinate tutti i file nella chat con il mouse e scrivete: «Per favore seguire il file prompt.» L'IA verifica se la logistica è completa e collegata al plastico iTrain, chiede la lingua e alla fine se deve diventare un documento. Il file iTrain non viene verificato secondo il manuale iTrain, solo per i collegamenti.
+de: Bei Fragen zum Inhalt bitte diese Dateien mit senden
+it: Per domande sul contenuto inviare anche questi file
+de: Ihr E-Mail-Programm öffnet eine neue Nachricht an {0}. Ziehen Sie die Dateien mit der Maus in die Nachricht (als Anhang). Öffnet sich kein E-Mail-Programm, schreiben Sie an {1} und hängen Sie die Dateien aus dem Ordner an.
+it: Il programma di posta apre un nuovo messaggio a {0}. Trascinate i file nel messaggio con il mouse (come allegato). Se non si apre alcun programma, scrivete a {1} e allegate i file della cartella.
+de: ⇲  Hier anfassen und alle Dateien auf einmal hinüberziehen
+it: ⇲  Afferrare qui e trascinare tutti i file in una volta
+de: Ordner: {0}
+it: Cartella: {0}
+de: Prompt kopieren
+it: Copia prompt
+de: Prompt kopiert ✔
+it: Prompt copiato ✔
+de: E-Mail öffnen
+it: Apri e-mail
+de: Bitte zuerst eine Logistik-Datei (.logz) öffnen.
+it: Aprire prima un file di logistica (.logz).
+de: Die Logistik-Datei hat ungespeicherte Änderungen. Zusammengestellt wird der gespeicherte Stand.
+it: Il file di logistica ha modifiche non salvate. Viene raccolto lo stato salvato.
+de: Vorher speichern?
+it: Salvare prima?
+de: Ohne Änderungen
+it: Senza modifiche
+de: Dateien konnten nicht zusammengestellt werden: {0}
+it: Impossibile raccogliere i file: {0}
+de: Lizenzhinweise
+it: Note di licenza
+de: Version {0}
+it: Versione {0}
+de: Copyright © 2026 Andre Ruff. Freie Software unter der GNU General Public License, Version 3 (GPL-3.0). Ohne Gewährleistung.
+it: Copyright © 2026 Andre Ruff. Software libero sotto GNU General Public License, versione 3 (GPL-3.0). Senza garanzia.
+de: Übersetzungen: Englisch, Niederländisch, Französisch, Spanisch und Italienisch mit KI-Unterstützung erstellt.
+it: Traduzioni: inglese, olandese, francese, spagnolo e italiano create con l'aiuto dell'IA.
+de: Eine neue Version von iTrain-Logistik ist verfügbar
+it: È disponibile una nuova versione di iTrain-Logistik
+de: iTrain-Logistik ist auf dem neuesten Stand
+it: iTrain-Logistik è aggiornato
+de: Installiert ist {0}, die neueste Veröffentlichung ist {1}.
+it: Installata la {0}, l'ultima pubblicazione è {1}.
+de: Installiert: {0}
+it: Installata: {0}
+de: Neu: {0}
+it: Nuova: {0}
+de: Die Prüfung war nicht möglich: {0}
+it: Verifica non possibile: {0}
+de: Die Veröffentlichungen stehen unter {0}
+it: Le pubblicazioni sono su {0}
+de: Zur Download-Seite
+it: Alla pagina di download
+de: noch keine öffentliche Veröffentlichung gefunden
+it: nessuna pubblicazione pubblica ancora trovata
+de: unbekanntes Antwortformat
+it: formato di risposta sconosciuto
+de: QR-Code drucken
+it: Stampa codice QR
+de: Drucken…
+it: Stampa…
+de: Als Bild speichern…
+it: Salva come immagine…
+de: Mit der Handy-Kamera scannen und den Link öffnen. Das Handy muss im WLAN der Anlage angemeldet sein.
+it: Scansionare con la fotocamera del telefono e aprire il link. Il telefono deve essere collegato al Wi-Fi del plastico.
+de: Kein Drucker gefunden. Mit „Als Bild speichern…“ lässt sich der Aushang als Bild ablegen und drucken.
+it: Nessuna stampante trovata. Con «Salva come immagine…» il cartello si salva come immagine da stampare.
+de: Modul-Anzeiger
+it: Indicatore modulo
+de: Modul-Anzeiger im Browser
+it: Indicatore modulo nel browser
+de: Alle Blöcke
+it: Tutti i blocchi
+de: Kein Zug im Block
+it: Nessun treno nel blocco
+de: Keine Blöcke
+it: Nessun blocco
+de: Keine Datei geöffnet.
+it: Nessun file aperto.
+de: Reisende: {0} (1. Klasse {1}, 2. Klasse {2}) von {3} Plätzen
+it: Viaggiatori: {0} (1ª classe {1}, 2ª classe {2}) su {3} posti
+de: Leer, {0} Plätze
+it: Vuoto, {0} posti
+de: Ohne Ladung
+it: Senza carico
+de: Leer
+it: Vuoto
+de: Route {0}
+it: Percorso {0}
+de: Hält, noch {0} s
+it: In sosta, ancora {0} s
+de: Hält
+it: In sosta
+de: Fährt, {0} km/h
+it: In marcia, {0} km/h
+de: Steht
+it: Fermo
+de: Strecke
+it: Linea
+de: Bremst
+it: Frena
+de: Halt erwarten
+it: Attendersi l'arresto
+de: Langsamfahrt erwarten
+it: Attendersi rallentamento
+de: Zuglänge {0} mm
+it: Lunghezza treno {0} mm
+de: Modul-Anzeiger:
+it: Indicatore modulo:
+de: Anzeiger im Fenster
+it: Indicatori in finestra
+de: Anzeiger im Browser
+it: Indicatori nel browser
+de: Auf diesem Gerät
+it: Su questo dispositivo
+de: Auf anderem Gerät
+it: Su un altro dispositivo
+de: Logistik (Übersicht)
+it: Logistica (panoramica)
+de: Logistik ganze Anlage
+it: Logistica intero plastico
+de: Logistik Modul „{0}“
+it: Logistica modulo «{0}»
+de: Zuganzeiger Auswahl
+it: Indicatore treni selezione
+de: Modul-Anzeiger auf anderem Gerät...
+it: Indicatore modulo su un altro dispositivo...
+de: Uhr auf anderem Gerät...
+it: Orologio su un altro dispositivo...
+de: Uhr auf anderem Gerät
+it: Orologio su un altro dispositivo
+de: Die Modelluhr im Browser – Antippen wechselt zwischen analog und digital
+it: L'orologio del modello nel browser – toccare per passare da analogico a digitale
+de: Darstellung und Farben wie im Fenster der Uhr (Rechtsklick bzw. ⚙).
+it: Aspetto e colori come nella finestra dell'orologio (clic destro o ⚙).
+de: Digital
+it: Digitale
+de: Analog (Bahnhofsuhr)
+it: Analogico (orologio da stazione)
+de: Farben...
+it: Colori...
+de: Standardfarben
+it: Colori predefiniti
+de: Farben der Uhr
+it: Colori dell'orologio
+de: Zifferblatt (analog)
+it: Quadrante (analogico)
+de: Zeiger und Striche (analog)
+it: Lancette e tacche (analogico)
+de: Sekundenzeiger (analog)
+it: Lancetta dei secondi (analogico)
+de: Ziffern (digital)
+it: Cifre (digitale)
+de: Transport – iTrain-Zugrouten
+it: Trasporto – percorsi treno iTrain
+de: ⇄ {0}: keine iTrain-Zugroute für den Transport
+it: ⇄ {0}: nessun percorso treno iTrain per il trasporto
+de: ⇄ Reisende aus {0}: keine iTrain-Zugroute zu einem anderen Bahnhof
+it: ⇄ Viaggiatori da {0}: nessun percorso treno iTrain verso un'altra stazione
+de: Bitte eine neue Route anlegen von {0} nach {1}
+it: Creare un nuovo percorso da {0} a {1}
+de: Bitte eine neue Route anlegen von {0} nach {1} für den Transport von {2} – in iTrain anlegen und speichern, dann „Mit iTrain abgleichen“.
+it: Creare un nuovo percorso da {0} a {1} per il trasporto di {2} – crearlo e salvarlo in iTrain, poi «Sincronizza con iTrain».
+de: Reisenden
+it: viaggiatori
+de: Im Handbuch lesen
+it: Leggi nel manuale
+de: Handbuch (PDF)
+it: Manuale (PDF)
+de: F1 zeigt in jedem Fenster die passende Hilfe.
+it: F1 mostra l'aiuto adatto in ogni finestra (testi di aiuto in tedesco).
+de: Hauptfenster
+it: Finestra principale
+de: Anzeiger auf anderem Gerät
+it: Indicatori su un altro dispositivo
+de: Ort bearbeiten
+it: Modifica località
+de: Modul und Tab
+it: Modulo e scheda
+de: Mit der KI prüfen, Kontakt
+it: Verifica con IA, contatto
+de: Zufriedenheit
+it: Soddisfazione
+de: Erfüllung
+it: Adempimento
+de: Bewertung
+it: Valutazione
+de: Erfüllungsgrad
+it: Grado di adempimento
+de: {0} je Modelltag (%)
+it: {0} per giorno modello (%)
+de: Maßnahmen
+it: Misure
+de: (erst unter 50 % nötig)
+it: (necessario solo sotto il 50 %)
+de: Was zu tun ist, um den Bedarf zu decken
+it: Cosa fare per coprire la domanda
+de: Keine einzelne Ursache unter 50 % – Posten mit gelbem Wert zuerst verbessern.
+it: Nessuna causa singola sotto il 50 % – migliorare prima le voci in giallo.
+de: Zufriedenheit: Anlieferung des Bedarfs und Abholung der Reisenden – Klick zeigt die Bewertung
+it: Soddisfazione: consegna della domanda e ritiro dei viaggiatori – clic mostra la valutazione
+de: Erfüllung: Anlieferung der Eingänge und Abholung der Herstellung – Klick zeigt die Bewertung
+it: Adempimento: consegna degli ingressi e ritiro della produzione – clic mostra la valutazione
+de: Anlieferung {0} entspricht der Vorgabe
+it: Consegna di {0} conforme all'obiettivo
+de: Anlieferung {0} etwas zu gering
+it: Consegna di {0} un po' scarsa
+de: Zu wenig {0}, mehr anliefern
+it: Troppo poco {0}, consegnare di più
+de: Reisende werden abgeholt
+it: I viaggiatori vengono prelevati
+de: Reisende warten, öfter abholen
+it: Viaggiatori in attesa, prelevare più spesso
+de: Zu viele Reisende warten, mehr Züge
+it: Troppi viaggiatori in attesa, più treni
+de: Mehr Züge mit Sitzplätzen in {0} halten lassen ({1} Reisende warten, {2} je Modellstunde)
+it: Far fermare più treni con posti a {0} ({1} viaggiatori in attesa, {2} per ora modello)
+de: Anlieferung {0}: wird von außerhalb geliefert
+it: Consegna di {0}: fornito dall'esterno
+de: {0} wird knapp
+it: {0} scarseggia
+de: Herstellung {0} läuft, wird abgeholt
+it: Produzione di {0} in corso, viene ritirata
+de: {0} staut sich, öfter abholen
+it: {0} si accumula, ritirare più spesso
+de: Lager {0} voll, Herstellung steht – mehr abholen
+it: Deposito {0} pieno, produzione ferma – ritirare di più
+de: Für {0} gibt es keinen Abnehmer – Abnehmer anlegen (Zusätzlich erforderlich)
+it: Non c'è un acquirente per {0} – crearne uno (Richiesto in più)
+de: Mehr {0} abholen: mehr Züge von {1} zu {2}
+it: Ritirare più {0}: più treni da {1} a {2}
+de: Produktion erhöhen, um den Bedarf zu decken: {0} gebraucht {1} M/h, hergestellt {2} M/h
+it: Aumentare la produzione per coprire la domanda: {0} richiesto {1} M/h, prodotto {2} M/h
+de: Mehr {0} anliefern: mehr Züge nach {1}
+it: Consegnare più {0}: più treni verso {1}
+de: Mehr {0} anliefern: mehr Züge nach {1} ({2} stehen bereit)
+it: Consegnare più {0}: più treni verso {1} ({2} pronti)
+de: Für {0} gibt es keinen Hersteller – Lieferant anlegen (Zusätzlich erforderlich)
+it: Non c'è un produttore per {0} – creare un fornitore (Richiesto in più)
+de: Mehr Produktion: {0} erhöhen, um den Bedarf an {1} zu decken
+it: Più produzione: aumentare {0} per coprire la domanda di {1}
+de: Ton bei Einfahrt eines Zugs in den Block
+it: Suono all'ingresso di un treno nel blocco
+de: Antippen, um den Ton einzuschalten
+it: Tocca per attivare il suono
+de: Klingel
+it: Campanello
+de: Glocke
+it: Campana
+de: Hupe
+it: Tromba
+de: Vorgabe
+it: Predefinito
+de: Sitzplätze 3. Klasse (zählen zur 2. Klasse)
+it: Posti 3ª classe (contano come 2ª classe)
+de: Sitzplätze 4. Klasse (zählen zur 2. Klasse)
+it: Posti 4ª classe (contano come 2ª classe)
+de: Angehakt: Epoche der Anlage (Voreinstellungen > Vorlagen). Abgehakt: eigene Epoche für diesen Wagen.
+it: Spuntato: epoca del plastico (Preferenze > Modelli). Non spuntato: epoca propria del carro.
+de: Zeitabschnitt
+it: Periodo
+de: Vorhandene Wagenklassen
+it: Classi presenti
+de: Besonderheiten & historische Meilensteine
+it: Particolarità e tappe storiche
+de: Sonderformen
+it: Forme speciali
+de: Transport – Wagen und Züge (Kapazität je Ladeklasse)
+it: Trasporto – carri e treni (capacità per classe di carico)
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2}
+it: ▼ {0} ({1}): nessun carro con capacità per {2}
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2} – vorhanden nur {3}
+it: ▼ {0} ({1}): nessun carro con capacità per {2} – solo {3}
+de: Pfeil Be-/Entladen (Güter)
+it: Freccia carico/scarico (merci)
+de: Entladen ·
+it: Scarico ·
+de: Beladen
+it: Carico
+de: Keine Module
+it: Nessun modulo
+de: Modul nicht gefunden.
+it: Modulo non trovato.
+de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das Modul festlegen.
+it: Nessun binario di linea – definirli in «Modifica plastico» con clic destro sul modulo.
+de: Geräusche...
+it: Suoni...

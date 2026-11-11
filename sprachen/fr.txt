@@ -1,0 +1,5002 @@
+# iTrain-Logistik – Français
+# Paare: „de:“ deutscher Text wie im Programm, „fr:“ Übersetzung. {0}, {1} … = Platzhalter, \n = Zeilenumbruch.
+# Eigene Korrekturen: Datei in <Logistik-Ordner>/sprachen/ ablegen, sie geht vor.
+
+de: \n(schon eingebaut)
+fr: \n(déjà intégrée)
+
+de: \nLinie: 
+fr: \nLigne : 
+
+de: \nNoch keine Zugverbindung über XTC
+fr: \nPas encore de liaison de train via XTC
+
+de: \nPassagiere 1. Klasse: 
+fr: \nVoyageurs 1re classe : 
+
+de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
+fr: \nLes événements de train arrivent en ligne via XTC ({0} trains connectés)
+
+de:   (hält in 
+fr:   (s'arrête à 
+
+de:   (noch ohne Ladegleis)
+fr:   (pas encore de voie de chargement)
+
+de:   keine Ladegleise – im Stationsdialog ein Gleis als Ladegleis wählen
+fr:   pas de voies de chargement – choisir une voie comme voie de chargement dans le dialogue de la gare
+
+de:   {0}: kommt von {1}
+fr:   {0} : vient de {1}
+
+de:   {0}: noch kein Lieferant – nach dem Übernehmen in „Kreislauf prüfen“ ergänzen
+fr:   {0} : pas encore de fournisseur – compléter après validation dans « Vérifier la chaîne »
+
+de:  (Art „Anderes“)
+fr:  (type « Autre »)
+
+de:  (Güterbahnhof)
+fr:  (gare de fret)
+
+de:  (Richtung {0})
+fr:  (direction {0})
+
+de:  (Schattenbahnhof, lagert um)
+fr:  (gare cachée, transborde)
+
+de:  (abgegeben alle {0} Stunden: {1} auf einmal)
+fr:  (livré toutes les {0} heures : {1} en une fois)
+
+de:  (alle Güter)
+fr:  (toutes les marchandises)
+
+de:  (an keinem Bahnhof)
+fr:  (à aucune gare)
+
+de:  (hält)
+fr:  (s'arrête)
+
+de:  (kein Ladegleis zum Entladen)
+fr:  (pas de voie de chargement pour décharger)
+
+de:  (nicht auf der Anlage)
+fr:  (pas sur le réseau)
+
+de:  (nicht auf der Anlage, liefert an {0})
+fr:  (pas sur le réseau, livre à {0})
+
+de:  (ohne Bahnsteig)
+fr:  (sans quai)
+
+de:  Abnehmer.\n
+fr:  clients.\n
+
+de:  Lieferanten.\n
+fr:  fournisseurs.\n
+
+de:  Reisende sind
+fr:  voyageurs sont
+
+de:  Reisender ist
+fr:  voyageur est
+
+de:  Richtung {0}
+fr:  direction {0}
+
+de:  Zeile mit ⚠. Bitte eine markieren, dann „Weiter“.
+fr:  ligne avec ⚠. Veuillez en sélectionner une, puis « Suivant ».
+
+de:  Zeilen mit ⚠. Bitte eine markieren, dann „Weiter“.
+fr:  lignes avec ⚠. Veuillez en sélectionner une, puis « Suivant ».
+
+de:  Zug
+fr:  train
+
+de:  Züge
+fr:  trains
+
+de:  benötigt
+fr:  nécessaire
+
+de:  mit „{0}“
+fr:  avec « {0} »
+
+de:  · fährt ein
+fr:  · entre
+
+de:  – Bahnhof oder Haltepunkt anlegen
+fr:  – créer une gare ou une halte
+
+de:  – Benötigt: {0} · Liefert: {1}
+fr:  – Besoin : {0} · Livre : {1}
+
+de:  – abholen in 
+fr:  – à prendre à 
+
+de:  – kann geliefert werden von: {0}
+fr:  – peut être livré par : {0}
+
+de:  – keine Güterwagen erkannt
+fr:  – aucun wagon marchandises reconnu
+
+de:  – mit „{0}“ verbinden
+fr:  – relier à « {0} »
+
+de:  – noch nirgends zur Abholung bereit
+fr:  – encore nulle part prêt à l'enlèvement
+
+de: (Spalte {0}, Symbol)
+fr: (colonne {0}, symbole)
+
+de: (Vorgabe {0})
+fr: (par défaut {0})
+
+de: (Vorgabe {0}, Browser Logistik {1})
+fr: (par défaut {0}, Web Logistique {1})
+
+de: (alle Eingänge – unten „Liefert immer“ angehakt)
+fr: (toutes les entrées – « Livre toujours » coché en bas)
+
+de: (erster Reiter, immer sichtbar)
+fr: (premier onglet, toujours visible)
+
+de: ,  2. Klasse: 
+fr: ,  2e classe : 
+
+de: , Joker
+fr: , joker
+
+de: 0 Hinweise
+fr: 0 avis
+
+de: 0 Sekunden bedeutet keine Bewertung. Sonst: Modellsekunden, die ein voller Wagen zum Beladen bzw. Entladen braucht (begrenzt das Umladen zusätzlich zum Gleis).
+fr: 0 seconde signifie aucune évaluation. Sinon : secondes de modèle dont un wagon plein a besoin pour charger ou décharger (limite le transbordement en plus de la voie).
+
+de: 1 Hinweis
+fr: 1 avis
+
+de: 1. Was wird transportiert?
+fr: 1. Que transporte-t-on ?
+
+de: 2. Woher kommt es?
+fr: 2. D'où cela vient-il ?
+
+de: 3. Wer verbraucht es, wie viel?
+fr: 3. Qui le consomme, combien ?
+
+de: 4. Transport zwischen den Bahnhöfen
+fr: 4. Transport entre les gares
+
+de: 5. Zusammenfassung
+fr: 5. Résumé
+
+de: Abbruch
+fr: Annuler
+
+de: Abfahrt
+fr: Départ
+
+de: Abgeglichen: {0} Loks, {1} Wagen, {2} Blöcke, {3} Züge, Uhr-Faktor {4} (so wie zuletzt in iTrain gespeichert) aus {5}{6}{7}
+fr: Synchronisé : {0} locos, {1} wagons, {2} cantons, {3} trains, facteur d'horloge {4} (tel qu'enregistré dans iTrain) depuis {5}{6}{7}
+
+de: Abgehende Güter
+fr: Marchandises sortantes
+
+de: Abgenommen
+fr: Enlevé
+
+de: Abgeschaltete Dialoge
+fr: Dialogues désactivés
+
+de: Abgleichen
+fr: Synchroniser
+
+de: Ablauf gespeichert: {0} Vorgänge.
+fr: Déroulement enregistré : {0} opérations.
+
+de: Ablauf konnte nicht gespeichert werden: {0}
+fr: Le déroulement n'a pas pu être enregistré : {0}
+
+de: Ablauf läuft: {0} Vorgänge über {1} s.
+fr: Déroulement en cours : {0} opérations sur {1} s.
+
+de: Ablauf stoppen
+fr: Arrêter le déroulement
+
+de: Ablauf vollständig gestartet.
+fr: Déroulement entièrement lancé.
+
+de: Abläufe
+fr: Déroulements
+
+de: Abreisend
+fr: Partant
+
+de: Abreisende
+fr: Partants
+
+de: Abreisende M/h
+fr: Partants M/h
+
+de: Abreisende Personen
+fr: Personnes au départ
+
+de: Abwärts
+fr: Descendre
+
+de: Adresse:
+fr: Adresse :
+
+de: Adresse: http://{0}:{1}/modul/{2}
+fr: Adresse : http://{0}:{1}/modul/{2}
+
+de: Aktion
+fr: Action
+
+de: Aktiv
+fr: Actif
+
+de: Aktuelle schließen
+fr: Fermer l'actuel
+
+de: Alle Angaben dieses Wagens (Wagenart, Plätze, Kapazität, Güter, Zeiten) in die Zwischenablage
+fr: Copier toutes les données de ce wagon (type, places, capacité, marchandises, temps) dans le presse-papiers
+
+de: Alle Bahnhöfe sind bereits vollständig angeheftet.
+fr: Toutes les gares sont déjà entièrement rattachées.
+
+de: Alle Bestände, Wartenden, Ladungen und den offenen Bedarf auf 0 setzen (die Anlage selbst bleibt)
+fr: Remettre à 0 tous les stocks, personnes en attente, chargements et besoins ouverts (le réseau lui-même reste)
+
+de: Alle Bestände, wartenden Passagiere, offenen Bedarfe, Zugladungen und Statistiken werden auf 0 gesetzt. Objekte, Gleise und Einstellungen bleiben erhalten.
+fr: Tous les stocks, voyageurs en attente, besoins ouverts, chargements des trains et statistiques sont remis à 0. Objets, voies et réglages sont conservés.
+
+de: Alle Betriebe haben Lieferanten und Abnehmer.
+fr: Toutes les entreprises ont des fournisseurs et des clients.
+
+de: Alle Blöcke der .tcdz
+fr: Tous les cantons du .tcdz
+
+de: Alle Blöcke sind Gleisen zugeordnet.
+fr: Tous les cantons sont attribués à des voies.
+
+de: Alle Dateien
+fr: Tous les fichiers
+
+de: Alle Fenster zentrieren
+fr: Centrer toutes les fenêtres
+
+de: Alle Spalten zeigen
+fr: Afficher toutes les colonnes
+
+de: Alle Züge
+fr: Tous les trains
+
+de: Alle anheften und fehlende Gleise ergänzen
+fr: Tout rattacher et compléter les voies manquantes
+
+de: Alle wieder anzeigen ({0})
+fr: Tout réafficher ({0})
+
+de: Alle Änderungen seit dem Öffnen bzw. dem letzten Speichern verwerfen?
+fr: Abandonner toutes les modifications depuis l'ouverture ou le dernier enregistrement ?
+
+de: Alles auf 0 gesetzt.
+fr: Tout remis à 0.
+
+de: Alles auf 0 setzen
+fr: Tout remettre à 0
+
+de: Alles auf 0 setzen?
+fr: Tout remettre à 0 ?
+
+de: Alles auswählen
+fr: Tout sélectionner
+
+de: Alles vorhanden – nichts zu ergänzen.
+fr: Tout est présent – rien à compléter.
+
+de: Als Gleis zuordnen
+fr: Attribuer comme voie
+
+de: Als Vorschlag speichern
+fr: Enregistrer comme proposition
+
+de: Als Vorschlag speichern…
+fr: Enregistrer comme proposition…
+
+de: Als eigenes Fenster lösen
+fr: Détacher en fenêtre séparée
+
+de: Am Bahnhof „{0}“ wird ein Lager gebraucht, damit {1} dort auf den Weitertransport warten kann.
+fr: La gare « {0} » a besoin d'un entrepôt pour que {1} puisse y attendre la suite du transport.
+
+de: An Bahnsteigen dieser Station steigen alle ankommenden Passagiere aus
+fr: Aux quais de cette gare, tous les voyageurs arrivant descendent
+
+de: An diesem Gleis angenommen und verladen: {0}
+fr: Accepté et chargé sur cette voie : {0}
+
+de: Anderes
+fr: Autre
+
+de: Anderes – bitte Art wählen
+fr: Autre – veuillez choisir un type
+
+de: Andocken {0}
+fr: Ancrer {0}
+
+de: Angaben aus der Zwischenablage übernehmen; erst „Speichern“ übernimmt sie in den Wagen
+fr: Reprendre les données du presse-papiers ; seul « Enregistrer » les applique au wagon
+
+de: Angaben kopieren
+fr: Copier les données
+
+de: Angebot
+fr: Offre
+
+de: Angebot M/h
+fr: Offre M/h
+
+de: Angebot wählen…
+fr: Choisir l'offre…
+
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+fr: Les gares cochées sont rattachées à l'onglet au lieu de l'infrastructure du réseau et figurent avec gare de fret, localités, entreprises et entrepôts dans son onglet. Aussi par clic droit sur une gare « Relier à l'onglet… ». Le nom vaut pour le symbole et l'onglet.
+
+de: Angehalten (Rate 0)
+fr: Arrêté (cadence 0)
+
+de: Angehalten – {0} neue Zeile(n) warten
+fr: En pause – {0} nouvelle(s) ligne(s) en attente
+
+de: Angeliefert
+fr: Livré
+
+de: Angenommene Post/Expressgut verlässt die Anlage. Erzeugt wird nur, wenn Zusteigen erlaubt ist.
+fr: Le courrier/messagerie accepté quitte le réseau. Généré seulement si la montée est autorisée.
+
+de: Anhalten
+fr: Pause
+
+de: Anhängen
+fr: Ajouter à la fin
+
+de: Ank. {0}
+fr: Arr. {0}
+
+de: Ankommend
+fr: Arrivant
+
+de: Ankommend in dieser Modellstunde: {0}
+fr: Arrivant dans cette heure de modèle : {0}
+
+de: Ankommende
+fr: Arrivants
+
+de: Ankommende Güter
+fr: Marchandises entrantes
+
+de: Ankommende Passagiere in dieser Modellstunde
+fr: Voyageurs arrivant dans cette heure de modèle
+
+de: Ankommende Personen
+fr: Personnes à l'arrivée
+
+de: Ankommende Reisende M/h
+fr: Voyageurs arrivant M/h
+
+de: Ankommende bei {0} auf „Unbegrenzt“
+fr: Arrivants à {0} sur « Illimité »
+
+de: Anlage
+fr: Réseau
+
+de: Anlage bearbeiten
+fr: Modifier le réseau
+
+de: Anlage bearbeiten: Orte, Bahnhöfe, Betriebe, Lager anlegen und verbinden
+fr: Modifier le réseau : créer et relier localités, gares, entreprises, entrepôts
+
+de: Anlage prüfen
+fr: Vérifier le réseau
+
+de: Anlage und Module im Browser zeigen (nur lesend, im Heimnetz)
+fr: Afficher le réseau et les modules dans le navigateur (lecture seule, réseau domestique)
+
+de: Anlagen-Infrastruktur ({0})
+fr: Infrastructure du réseau ({0})
+
+de: Anlegen
+fr: Créer
+
+de: Anlegen:
+fr: Créer :
+
+de: Annahme
+fr: Réception
+
+de: Annahme wählen…
+fr: Choisir la réception…
+
+de: Anschließer
+fr: Embranché
+
+de: Anschluss
+fr: Embranchement
+
+de: Ansichten
+fr: Vues
+
+de: Anteil 1. Klasse (%)
+fr: Part 1re classe (%)
+
+de: Antriebsart
+fr: Traction
+
+de: Anzahl Blöcke: {0}
+fr: Nombre de cantons : {0}
+
+de: Anzeige im Browser auf einem anderen Rechner, Handy oder Tablet
+fr: Affichage dans le navigateur sur un autre ordinateur, téléphone ou tablette
+
+de: Arial
+fr: Arial
+
+de: Art
+fr: Type
+
+de: Art einstellen!
+fr: Régler le type !
+
+de: Art nur zwischen Stationsarten änderbar
+fr: Type modifiable seulement entre types de gare
+
+de: Auch in „Browser Logistik“ beim Antippen eines Kastens (einmal)
+fr: Aussi dans « Web Logistique » en touchant un cadre (une fois)
+
+de: Auf .tcdz zurücksetzen
+fr: Rétablir depuis le .tcdz
+
+de: Auf 0 setzen
+fr: Remettre à 0
+
+de: Auf dem anderen Rechner, Handy oder Tablet diese Adresse im Browser öffnen. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben; beim ersten Start fragt Windows meist selbst nach. Module legst du in „Anlage bearbeiten“ an (Palette „Modul“).
+fr: Ouvrir cette adresse dans le navigateur de l'autre ordinateur, téléphone ou tablette. Le pare-feu Windows de cet ordinateur doit autoriser le port en entrée ; au premier démarrage, Windows le demande généralement. Les modules se créent dans « Modifier le réseau » (palette « Module »).
+
+de: Auf der Anlage
+fr: Sur le réseau
+
+de: Auf der Anlage oder Name eines (neuen) Moduls
+fr: Sur le réseau ou nom d'un (nouveau) module
+
+de: Aufgezeichneten Ablauf anzeigen, bearbeiten und abspielen
+fr: Afficher, modifier et lire le déroulement enregistré
+
+de: Aufwärts
+fr: Monter
+
+de: Aufzeichnen
+fr: Enregistrer
+
+de: Aufzeichnen (0)
+fr: Enregistrer (0)
+
+de: Aufzeichnen ({0})
+fr: Enregistrer ({0})
+
+de: Aufzeichnung beendet – nichts aufgezeichnet.
+fr: Enregistrement terminé – rien enregistré.
+
+de: Aufzeichnung gespeichert: {0} Vorgänge ({1}).
+fr: Enregistrement sauvegardé : {0} opérations ({1}).
+
+de: Aufzeichnung konnte nicht gespeichert werden: {0}
+fr: L'enregistrement n'a pas pu être sauvegardé : {0}
+
+de: Aufzeichnung läuft – jeder Drag&Drop wird mit seinem Zeitpunkt gespeichert.
+fr: Enregistrement en cours – chaque glisser-déposer est sauvegardé avec son instant.
+
+de: Aus
+fr: Désactivé
+
+de: Aus Lager: {0} ({1} vorrätig)
+fr: De l'entrepôt : {0} ({1} en stock)
+
+de: Aus der iTrain-Datei „{0}“: Maßstab 1:{1}{2}{3}{4}. Der Maßstab ist eingetragen. Eine Epoche steht nicht in der iTrain-Datei.
+fr: Du fichier iTrain « {0} » : échelle 1:{1}{2}{3}{4}. L'échelle est saisie. L'époque ne figure pas dans le fichier iTrain.
+
+de: Ausführungen M/h
+fr: Exécutions M/h
+
+de: Ausfüllen
+fr: Remplir
+
+de: Ausgang
+fr: Sortie
+
+de: Ausgangsbestände
+fr: Stocks de sortie
+
+de: Ausgangslager voll: {0}
+fr: Stock de sortie plein : {0}
+
+de: Ausgangslager {0}
+fr: Stock de sortie {0}
+
+de: Ausgeglichen
+fr: Équilibré
+
+de: Ausgehend
+fr: Sortant
+
+de: Ausgestiegen
+fr: Descendus
+
+de: Ausgewählte Blöcke an
+fr: Cantons choisis vers
+
+de: Ausgewähltes Gut aus dem Zug entladen…
+fr: Décharger la marchandise choisie du train…
+
+de: Ausgewähltes Gut in den haltenden Zug laden…
+fr: Charger la marchandise choisie dans le train à l'arrêt…
+
+de: Ausgleich über Übergabe
+fr: Compensation par échange
+
+de: Auslastung
+fr: Utilisation
+
+de: Auslastung = Füllstand der Ausgangslager. Rate/h = Ausführungen des Rezepts je Modellstunde.
+fr: Utilisation = niveau des stocks de sortie. Cadence/h = exécutions de la recette par heure de modèle.
+
+de: Ausrichtung
+fr: Alignement
+
+de: Ausstattung
+fr: Équipement
+
+de: Aussteigeanteil ankommender\nPassagiere (%)
+fr: Part des voyageurs\narrivant qui descendent (%)
+
+de: Aussteigen erlaubt
+fr: Descente autorisée
+
+de: Aussteigende Passagiere
+fr: Voyageurs descendant
+
+de: Aussteigende Passagiere ·
+fr: Voyageurs descendant ·
+
+de: Auswahl
+fr: Choix
+
+de: Auswahl öffnen
+fr: Ouvrir le choix
+
+de: Auswahl:
+fr: Choix :
+
+de: Automatisch (liefert immer, ohne auf der Anlage zu sein){0}
+fr: Automatique (livre toujours, sans être sur le réseau){0}
+
+de: Automatisch (wird von außerhalb geliefert){0}
+fr: Automatique (livré de l'extérieur){0}
+
+de: Automatisch ({0}, nicht auf der Anlage)
+fr: Automatique ({0}, pas sur le réseau)
+
+de: Automatisch geladen: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+fr: Chargé automatiquement : {0}  ({1} locos, {2} wagons, {3} cantons, {4} trains)
+
+de: Außenwelt: Güter, die hier bereitstehen
+fr: Monde extérieur : marchandises prêtes ici
+
+de: Außenwelt: Personen an diesem Bahnsteig
+fr: Monde extérieur : personnes à ce quai
+
+de: Außenwelt: stellt Personen und Güter bereit und nimmt alles ab
+fr: Monde extérieur : fournit personnes et marchandises et prend tout
+
+de: Backup geladen: {0}
+fr: Sauvegarde chargée : {0}
+
+de: Backup konnte nicht geladen werden
+fr: La sauvegarde n'a pas pu être chargée
+
+de: Backup laden
+fr: Charger une sauvegarde
+
+de: Backup laden...
+fr: Charger une sauvegarde...
+
+de: Bahnhof
+fr: Gare
+
+de: Bahnhof in iTrain
+fr: Gare dans iTrain
+
+de: Bahnhof „{0}“ an die Anlagen-Infrastruktur angeheftet.
+fr: Gare « {0} » rattachée à l'infrastructure du réseau.
+
+de: Bahnhof:
+fr: Gare :
+
+de: Bahnhöfe
+fr: Gares
+
+de: Bahnhöfe ({0})
+fr: Gares ({0})
+
+de: Bahnhöfe und Gleise
+fr: Gares et voies
+
+de: Bahnhöfe, die an diesem Tab hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+fr: Gares rattachées à cet onglet (avec leurs gares de fret, localités, entreprises, entrepôts)
+
+de: Bahnhöfe: {0}
+fr: Gares : {0}
+
+de: Bahnsteig
+fr: Quai
+
+de: Bahnsteig und Ladegleis
+fr: Quai et voie de chargement
+
+de: Bahnsteig und Ladegleis (beides an diesem Gleis)
+fr: Quai et voie de chargement (les deux sur cette voie)
+
+de: Bahnsteige und Ladegleise: Es entstehen ein {0} und ein angedockter Güterbahnhof.
+fr: Quais et voies de chargement : il se crée une {0} et une gare de fret accolée.
+
+de: Batterie
+fr: Batterie
+
+de: Bauernhof
+fr: Ferme
+
+de: Baumwollplantage
+fr: Plantation de coton
+
+de: Bearbeiten
+fr: Édition
+
+de: Bearbeiten…
+fr: Modifier…
+
+de: Bedarf
+fr: Besoin
+
+de: Bedarf = was je Modellstunde bewegt werden muss: das Größere aus Erzeugung und Verbrauch eines Guts, bei Passagieren das Aufkommen aller Orte. Kapazität = Summe der Wagen aller Züge (Felder Kapazität, Wagenladungen, aktive Güter bzw. Sitz- und Stehplätze). Ein Gut zählt nur bei Wagen, die es laden dürfen; Behälterwagen (Lade-Joker) zählen überall. Güter, die ohne Zug im selben Einzugsbereich verbraucht werden, sind hier noch mitgezählt.
+fr: Besoin = ce qui doit être déplacé par heure de modèle : le plus grand de la production et de la consommation d'une marchandise, pour les voyageurs le volume de toutes les localités. Capacité = somme des wagons de tous les trains (champs capacité, chargements, marchandises actives ou places assises et debout). Une marchandise ne compte que pour les wagons autorisés à la charger ; les wagons à conteneurs (joker) comptent partout. Les marchandises consommées sans train dans la même zone de desserte sont encore comptées ici.
+
+de: Bedarf M/h
+fr: Besoin M/h
+
+de: Bedarf bei {0}
+fr: Besoin à {0}
+
+de: Bedarf bei „{0}“: {1} je Modellstunde
+fr: Besoin à « {0} » : {1} par heure de modèle
+
+de: Bedarf eintragen bei: {0}{1}
+fr: Saisir le besoin à : {0}{1}
+
+de: Bedarf je Modellstunde
+fr: Besoin par heure de modèle
+
+de: Bedarf muss eingestellt werden – das geht im Schritt 3.
+fr: Le besoin doit être réglé – cela se fait à l'étape 3.
+
+de: Bedienung des Ladegleises (Richtung kommt über XTC):
+fr: Desserte de la voie de chargement (la direction vient via XTC) :
+
+de: Befördert Güter
+fr: Transporte des marchandises
+
+de: Befördert Personen
+fr: Transporte des personnes
+
+de: Behälter
+fr: Conteneur
+
+de: Behälterwagen sind Lade-Joker: Sie laden jedes Gut, unabhängig von Ladeklasse und aktiven Gütern, bis zur Kapazität; die Mischregel gilt nicht (jedes Gut in eigenen Behältern).
+fr: Les wagons à conteneurs sont des jokers de chargement : ils chargent toute marchandise, quels que soient la classe de chargement et les marchandises actives, jusqu'à la capacité ; la règle de mélange ne s'applique pas (chaque marchandise dans ses propres conteneurs).
+
+de: Beim Klick auf ein Symbol
+fr: Au clic sur un symbole
+
+de: Beispiel
+fr: Exemple
+
+de: Bekohlung
+fr: Charbonnage
+
+de: Belegung
+fr: Occupation
+
+de: Benötigt / frei
+fr: Nécessaire / libre
+
+de: Benötigt von: {0}
+fr: Nécessaire pour : {0}
+
+de: Benötigt: {0}
+fr: Besoin : {0}
+
+de: Bereitgestellt
+fr: Mis à disposition
+
+de: Beschreibung
+fr: Description
+
+de: Beschreibung: {0}
+fr: Description : {0}
+
+de: Bestand {0}
+fr: Stock {0}
+
+de: Bestände
+fr: Stocks
+
+de: Bestände  {0}/{1}
+fr: Stocks  {0}/{1}
+
+de: Bestände, Wartende, offenen Bedarf und Statistik dieses Objekts auf 0 setzen
+fr: Remettre à 0 les stocks, personnes en attente, besoins ouverts et statistiques de cet objet
+
+de: Betrieb
+fr: Entreprise
+
+de: Betrieb anlegen
+fr: Créer une entreprise
+
+de: Betrieb bearbeiten
+fr: Modifier l'entreprise
+
+de: Betrieb mit Rezepten (Produktion, Wandlung)
+fr: Entreprise avec recettes (production, transformation)
+
+de: Betriebe, die Ware liefern – wo wird es gebraucht
+fr: Entreprises qui livrent – où est-ce nécessaire
+
+de: Betriebswerk
+fr: Dépôt
+
+de: Bevölkerung
+fr: Population
+
+de: Bilanz
+fr: Bilan
+
+de: Bild nicht gefunden (Anfangsordner für Layout-Dateien prüfen).
+fr: Image introuvable (vérifier le dossier de départ des fichiers de réseau).
+
+de: Bitte Reisende oder ein Gut wählen.
+fr: Veuillez choisir des voyageurs ou une marchandise.
+
+de: Bitte die Adresse des iTrain-Computers eingeben.
+fr: Veuillez saisir l'adresse de l'ordinateur iTrain.
+
+de: Bitte mindestens ein Streckengleis wählen.
+fr: Veuillez choisir au moins une voie de ligne.
+
+de: Bitte wählen, wer es verbraucht.
+fr: Veuillez choisir qui le consomme.
+
+de: Bitte wählen, woher es kommt.
+fr: Veuillez choisir d'où cela vient.
+
+de: Bitte zuerst eine Konfiguration öffnen.
+fr: Veuillez d'abord ouvrir une configuration.
+
+de: Bitte zuerst im Fenster „Anlage bearbeiten“ ein Symbol anklicken.
+fr: Veuillez d'abord cliquer sur un symbole dans la fenêtre « Modifier le réseau ».
+
+de: Bitte zuerst über "Datei > Öffnen..." eine .logz-Datei laden oder über "Datei > Neu aus .tcdz importieren..." neu anlegen.
+fr: Veuillez d'abord charger un fichier .logz via "Fichier > Ouvrir..." ou en créer un via "Fichier > Nouvelle configuration...".
+
+de: Bitte „Transport von“ und „Transport nach“ wählen.
+fr: Veuillez choisir « Transport de » et « Transport vers ».
+
+de: Blau
+fr: Bleu
+
+de: Blech
+fr: Tôle
+
+de: Block
+fr: Canton
+
+de: Block links auswählen.
+fr: Choisir un canton à gauche.
+
+de: Block: 
+fr: Canton : 
+
+de: Blöcke
+fr: Cantons
+
+de: Blöcke (linke Hälfte = Einfahrt von links, rechte Hälfte = von rechts)
+fr: Cantons (moitié gauche = entrée par la gauche, moitié droite = par la droite)
+
+de: Blöcke, die einem Gleis einer Station zugeordnet sind
+fr: Cantons attribués à une voie d'une gare
+
+de: Blöcke, die keinem Gleis einer Station zugeordnet sind
+fr: Cantons attribués à aucune voie d'une gare
+
+de: Blöcke: {0}
+fr: Cantons : {0}
+
+de: Brammen
+fr: Brames
+
+de: Brauerei
+fr: Brasserie
+
+de: Bretter
+fr: Planches
+
+de: Browser Logistik
+fr: Web Logistique
+
+de: Browser Logistik eingeschaltet
+fr: Web Logistique activé
+
+de: Browser Logistik ist ausgeschaltet
+fr: Web Logistique est désactivé
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Logistik: anderen Port wählen.
+fr: Web Logistique n'a pas pu ouvrir le port {0} ({1}). Réglages → Web Logistique : choisir un autre port.
+
+de: Browser Logistik läuft: {0}
+fr: Web Logistique actif : {0}
+
+de: Browser Logistik...
+fr: Web Logistique...
+
+de: Browser Logistik: Anlage und Module im Browser (anderer Rechner, Handy, Tablet) öffnen; Einstellungen mit Port und QR-Code
+fr: Web Logistique : ouvrir le réseau et les modules dans le navigateur (autre ordinateur, téléphone, tablette) ; réglages avec port et code QR
+
+de: Browser Zuganzeiger
+fr: Web Départs
+
+de: Browser Zuganzeiger eingeschaltet
+fr: Web Départs activé
+
+de: Browser Zuganzeiger ist ausgeschaltet
+fr: Web Départs est désactivé
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Zuganzeiger: anderen Port wählen.
+fr: Web Départs n'a pas pu ouvrir le port {0} ({1}). Réglages → Web Départs : choisir un autre port.
+
+de: Browser Zuganzeiger läuft: {0}
+fr: Web Départs actif : {0}
+
+de: Browser Zuganzeiger...
+fr: Web Départs...
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser öffnen, auch je Bahnhof; Einstellungen mit Port und QR-Code
+fr: Web Départs : ouvrir les tableaux des départs dans le navigateur, aussi par gare ; réglages avec port et code QR
+
+de: Browser konnte nicht geöffnet werden: {0}
+fr: Le navigateur n'a pas pu être ouvert : {0}
+
+de: Browser: /modul/{0}
+fr: Navigateur : /modul/{0}
+
+de: Browser: aus
+fr: Navigateur : désactivé
+
+de: Bücher
+fr: Livres
+
+de: Chemiefabrik
+fr: Usine chimique
+
+de: Chemikalien
+fr: Produits chimiques
+
+de: Coils
+fr: Bobines
+
+de: Dampf
+fr: Vapeur
+
+de: Das Ladegleis steht im angedockten Güterbahnhof, der Bahnsteig im Schattenbahnhof – derselbe iTrain-Block.
+fr: La voie de chargement se trouve dans la gare de fret accolée, le quai dans la gare cachée – le même canton iTrain.
+
+de: Datei
+fr: Fichier
+
+de: Datei geschlossen.
+fr: Fichier fermé.
+
+de: Datei konnte nicht geöffnet werden
+fr: Le fichier n'a pas pu être ouvert
+
+de: Datei öffnen
+fr: Ouvrir un fichier
+
+de: Dateien
+fr: Fichiers
+
+de: Der Ablauf ist leer.
+fr: Le déroulement est vide.
+
+de: Der Betrieb sammelt, was er herstellt, und gibt es alle so viele Modellstunden auf einmal ab – z. B. 5 Gebinde Fisch alle 6 Stunden. Ein Lager gibt es danach Stück für Stück weiter.
+fr: L'entreprise rassemble ce qu'elle produit et le livre en une fois toutes les tant d'heures de modèle – p. ex. 5 caisses de poisson toutes les 6 heures. Un entrepôt le transmet ensuite pièce par pièce.
+
+de: Der Betrieb wird nicht gerechnet; seine Ausgangsgüter stehen allen Verbrauchern unbegrenzt zur Verfügung, ohne Zug.
+fr: L'entreprise n'est pas calculée ; ses marchandises de sortie sont à disposition de tous les consommateurs sans limite, sans train.
+
+de: Der Block "{0}" ist schon einem anderen {1} zugeordnet. Ein Block kann höchstens ein Bahnsteig und ein Ladegleis sein.
+fr: Le canton "{0}" est déjà attribué à une autre {1}. Un canton peut être au plus un quai et une voie de chargement.
+
+de: Der Dateiname beginnt mit dem Namen des Symbols, z. B. „Möbelfabrik - Holz sägen.mp3“ oder „Möbelfabrik 2.mp3“. Gesucht wird nach dem Namen des Objekts, dann nach dem Betriebstyp (Sägewerk …) und der Art (Stadt, Bahnhof …); bei mehreren Dateien zufällig. Formate mp3, wav, m4a, aiff. Mitgeliefert sind nur gemeinfreie Aufnahmen (CC0).
+fr: Le nom de fichier commence par le nom du symbole, p. ex. « Möbelfabrik - Holz sägen.mp3 » ou « Möbelfabrik 2.mp3 ». On cherche d'abord le nom de l'objet, puis le type d'entreprise (scierie …) et le type (ville, gare …) ; au hasard s'il y a plusieurs fichiers. Formats mp3, wav, m4a, aiff. Seuls des enregistrements libres de droits (CC0) sont fournis.
+
+de: Der Verbraucher hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden.
+fr: Le consommateur n'est rattaché à aucune gare avec {0} – veuillez d'abord le relier à une gare.
+
+de: Der erste Gütertransport {0}zu {1} wurde erfolgreich absolviert.
+fr: Le premier transport de marchandises {0}vers {1} a été effectué avec succès.
+
+de: Der erste Transfer {0}zu {1} wurde erfolgreich absolviert.
+fr: La première correspondance {0}vers {1} a été effectuée avec succès.
+
+de: Deutsch
+fr: Deutsch
+
+de: Dialog nicht mehr anzeigen
+fr: Ne plus afficher ce dialogue
+
+de: Die Anlage wurde geändert.
+fr: Le réseau a été modifié.
+
+de: Die Erzeugung schwankt je Modellstunde zwischen 50 % und 150 % der Rate (im Mittel gleich). Überschuss wird am Gleis bzw. im Lager gehalten und nach Bedarf weitergegeben.
+fr: La production varie par heure de modèle entre 50 % et 150 % de la cadence (identique en moyenne). Le surplus reste sur la voie ou dans l'entrepôt et est transmis selon les besoins.
+
+de: Die Fahrzeugdatei dieser Konfiguration wurde nicht gefunden:\n{0}\n\nLokomotiven, Wagen und Züge kommen jetzt ohne eigene Angaben aus der iTrain-Datei. Mit Datei > „Fahrzeuge importieren...“ lassen sich die Angaben aus einer anderen Fahrzeugdatei holen.
+fr: Le fichier des véhicules de cette configuration est introuvable :\n{0}\n\nLocomotives, wagons et trains viennent maintenant du fichier iTrain sans vos propres données. Avec Fichier > « Importer des véhicules... », on récupère les données d'un autre fichier de véhicules.
+
+de: Die Herkunft hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden („Mit Station verbinden…“).
+fr: L'origine n'est rattachée à aucune gare avec {0} – veuillez d'abord la relier à une gare (« Relier à la gare… »).
+
+de: Die Liste bleibt stehen, damit man in Ruhe lesen und markieren kann. Die Ereignisse werden trotzdem verarbeitet und bei „Weiter“ nachgetragen.
+fr: La liste reste figée pour lire et sélectionner tranquillement. Les événements sont quand même traités et ajoutés avec « Continuer ».
+
+de: Die eingetragenen Personen- und Gütermengen als eigenen Vorschlag speichern.
+fr: Enregistrer les quantités de personnes et de marchandises saisies comme proposition propre.
+
+de: Die gewählte Objektart zeigt auf der Anlage künftig das markierte Symbol.
+fr: Le type d'objet choisi affichera désormais le symbole sélectionné sur le réseau.
+
+de: Die gewählte Objektart zeigt wieder ihr eigenes Symbol.
+fr: Le type d'objet choisi affiche à nouveau son propre symbole.
+
+de: Diese Zeile ist in Ordnung (✓). Bitte eine Zeile mit ⚠ markieren.
+fr: Cette ligne est en ordre (✓). Veuillez sélectionner une ligne avec ⚠.
+
+de: Diesel
+fr: Diesel
+
+de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
+fr: Cet objet est en pause – un clic le relance
+
+de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+fr: Ce symbole est rattaché à l'infrastructure du réseau dans le premier onglet
+
+de: Dorf
+fr: Village
+
+de: Drag&Drop-Vorgänge mit ihrem Zeitpunkt aufzeichnen; erneuter Klick beendet und speichert
+fr: Enregistrer les glisser-déposer avec leur instant ; un nouveau clic arrête et enregistre
+
+de: Druckerei
+fr: Imprimerie
+
+de: Dynamisch: mal mehr, mal weniger herstellen
+fr: Dynamique : produire tantôt plus, tantôt moins
+
+de: Dünger
+fr: Engrais
+
+de: Eigene Datei {0}
+fr: Fichier propre {0}
+
+de: Eigene Datenfelder
+fr: Champs de données propres
+
+de: Eigene Farbfläche
+fr: Surface de couleur propre
+
+de: Eigenen Vorschlag löschen
+fr: Supprimer la proposition propre
+
+de: Eigener Betrieb (ohne Vorlage)
+fr: Entreprise propre (sans modèle)
+
+de: Eigener Betrieb: Eingänge und Ausgänge stellst Du danach selbst ein.
+fr: Entreprise propre : vous réglez ensuite vous-même entrées et sorties.
+
+de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+fr: Port propre, séparé du Web Logistique. Vitesse, zoom et « Proposer des trains adaptés » se règlent sur chaque appareil en bas du tableau (mémorisé par le navigateur), « Plein écran » pour une tablette comme tableau. Le pare-feu Windows de cet ordinateur doit autoriser le port en entrée.
+
+de: Eigener Reiter mit den angehängten Bahnhöfen
+fr: Onglet propre avec les gares rattachées
+
+de: Ein Modul
+fr: Un module
+
+de: Ein Tab
+fr: Un onglet
+
+de: Eine Verbindung verbindet eine Station mit einem Ort, Betrieb, Lager oder einer Übergabe (Einzugsbereich). Zwei Stationen lassen sich nicht verbinden.
+fr: Une liaison relie une gare à une localité, une entreprise, un entrepôt ou un échange (zone de desserte). Deux gares ne peuvent pas être reliées.
+
+de: Einfahrt
+fr: Entrée
+
+de: Einfahrt von
+fr: Entrée par
+
+de: Einfügen
+fr: Coller
+
+de: Einfügen geht im Fenster „Anlage bearbeiten“.
+fr: Le collage se fait dans la fenêtre « Modifier le réseau ».
+
+de: Eingang
+fr: Entrée
+
+de: Eingangsbestände
+fr: Stocks d'entrée
+
+de: Eingangsgüter, die von außerhalb geliefert werden
+fr: Marchandises d'entrée livrées de l'extérieur
+
+de: Eingangslager {0}
+fr: Stock d'entrée {0}
+
+de: Eingebautes Symbol
+fr: Symbole intégré
+
+de: Eingehend
+fr: Entrant
+
+de: Eingelagert {0}/{1}
+fr: Stocké {0}/{1}
+
+de: Eingestiegen
+fr: Montés
+
+de: Eingestiegen Richtung 
+fr: Montés direction 
+
+de: Eingänge der Betriebe – woher sie kommen
+fr: Entrées des entreprises – d'où viennent-elles
+
+de: Einheit
+fr: Unité
+
+de: Einheiten
+fr: Unités
+
+de: Einlagern in: {0}{1}
+fr: Stocker dans : {0}{1}
+
+de: Einmal beim Öffnen
+fr: Une fois à l'ouverture
+
+de: Einpassen
+fr: Ajuster
+
+de: Einrichtung
+fr: Configuration
+
+de: Einsteigende Passagiere
+fr: Voyageurs montant
+
+de: Einsteigende Passagiere ·
+fr: Voyageurs montant ·
+
+de: Einstellungen
+fr: Réglages
+
+de: Einstellungen, Adressen und QR-Code…
+fr: Réglages, adresses et code QR…
+
+de: Einwohner
+fr: Habitants
+
+de: Einwohner {0}  ·  Abreisende {1} M/h  ·  Ankommende {2}  ·  1. Klasse {3} %
+fr: Habitants {0}  ·  partants {1} M/h  ·  arrivants {2}  ·  1re classe {3} %
+
+de: Einzelne Kapazitäten mit Einheit zeigen
+fr: Afficher les capacités individuelles avec unité
+
+de: Einzugsbereich
+fr: Zone de desserte
+
+de: Einzugsbereich (Orte, Betriebe, Lager, Übergaben, die diese Station bedient)
+fr: Zone de desserte (localités, entreprises, entrepôts, échanges desservis par cette gare)
+
+de: Eisenerz
+fr: Minerai de fer
+
+de: Eisenerzbergwerk
+fr: Mine de fer
+
+de: Elektrisch
+fr: Électrique
+
+de: Empfangen
+fr: Reçu
+
+de: Endprodukt
+fr: Produit final
+
+de: English
+fr: English
+
+de: Entfernen
+fr: Supprimer
+
+de: Entladen
+fr: Décharger
+
+de: Entladen aller Güter erzwingen (auch ohne Abnehmer)
+fr: Forcer le déchargement de toutes les marchandises (même sans client)
+
+de: Entladen erlaubt
+fr: Déchargement autorisé
+
+de: Entladen in
+fr: Décharger à
+
+de: Entspricht der Zusammenstellung in der .tcdz.
+fr: Correspond à la composition dans le .tcdz.
+
+de: Epoche {0}
+fr: Époque {0}
+
+de: Ereignis
+fr: Événement
+
+de: Ereignisse
+fr: Événements
+
+de: Ergebnis der Prüfung
+fr: Résultat de la vérification
+
+de: Erzeugt Stück M/h
+fr: Génère pièces M/h
+
+de: Erzeugt wird hier vom angeschlossenen Ort (Reisende aus Stadt/Dorf/Ländlich).
+fr: Ici, c'est la localité raccordée qui génère (voyageurs de ville/village/rural).
+
+de: Erzeugung und Bereitstellung: links langsamer (×0,75 … ×0,1), Mitte ×1, rechts schneller (×1,5 … ×4). Angehalten wird mit dem Knopf Pause.
+fr: Production et mise à disposition : à gauche plus lent (×0,75 … ×0,1), au milieu ×1, à droite plus rapide (×1,5 … ×4). Arrêt avec le bouton Pause.
+
+de: Es fehlen 
+fr: Il manque 
+
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+fr: Il n'y a pas encore de {0}. Veuillez d'abord en créer un depuis la palette « {1} » dans le premier onglet ; il est rattaché à l'infrastructure du réseau.
+
+de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
+fr: Il n'y a pas encore de gare, halte, gare de fret ou embranchement.
+
+de: Es gibt schon eine Aufzeichnung. Soll sie durch die neue ersetzt werden?
+fr: Un enregistrement existe déjà. Faut-il le remplacer par le nouveau ?
+
+de: Es gibt ungespeicherte Änderungen. Vor dem Beenden speichern?
+fr: Il y a des modifications non enregistrées. Enregistrer avant de quitter ?
+
+de: Es ist keine Datei geöffnet. Der Simulator arbeitet immer mit der Datei, die in iTrain-Logistik geöffnet ist. Bitte zuerst eine Datei öffnen; danach öffnet sich der Simulator von selbst.
+fr: Aucun fichier n'est ouvert. Le simulateur travaille toujours avec le fichier ouvert dans iTrain-Logistik. Veuillez d'abord ouvrir un fichier ; le simulateur s'ouvre ensuite de lui-même.
+
+de: Expressgut
+fr: Messagerie
+
+de: Expressgut empfangen
+fr: Messagerie reçue
+
+de: Fabrik
+fr: Usine
+
+de: Fahrtrichtungen
+fr: Sens de marche
+
+de: Fahrzeugdaten (*.fahrzeuge.xml)
+fr: Données véhicules (*.fahrzeuge.xml)
+
+de: Fahrzeugdaten fehlen
+fr: Données véhicules manquantes
+
+de: Fahrzeuge
+fr: Véhicules
+
+de: Fahrzeuge exportieren
+fr: Exporter les véhicules
+
+de: Fahrzeuge exportieren...
+fr: Exporter les véhicules...
+
+de: Fahrzeuge exportiert: {0}
+fr: Véhicules exportés : {0}
+
+de: Fahrzeuge importieren
+fr: Importer des véhicules
+
+de: Fahrzeuge importieren...
+fr: Importer des véhicules...
+
+de: Fahrzeuge importiert aus {0}: {1} Lokomotiven/Wagen/Züge mit gleichem Namen übernommen, gespeichert in {2}.
+fr: Véhicules importés de {0} : {1} locomotives/wagons/trains de même nom repris, enregistrés dans {2}.
+
+de: Fahrzeuge konnten nicht exportiert werden
+fr: Les véhicules n'ont pas pu être exportés
+
+de: Fahrzeuge konnten nicht importiert werden
+fr: Les véhicules n'ont pas pu être importés
+
+de: Fahrzeuge übernehmen?
+fr: Reprendre les véhicules ?
+
+de: Fahrzeugfabrik
+fr: Usine de véhicules
+
+de: Faktor der Modelluhr
+fr: Facteur de l'horloge du modèle
+
+de: Faktor für die Lagergrößen
+fr: Facteur des tailles d'entrepôt
+
+de: Faktor für die Lagergrößen beim Anlegen eines Betriebs.\nBeispiel 0,1: Das Sägewerk-Eingangslager hat 40 statt 400 Einheiten.\nGilt für neu angelegte Betriebe.
+fr: Facteur des tailles d'entrepôt lors de la création d'une entreprise.\nExemple 0,1 : le stock d'entrée de la scierie a 40 au lieu de 400 unités.\nS'applique aux entreprises nouvellement créées.
+
+de: Farbe
+fr: Couleur
+
+de: Farbe des Symbols und der Verbindung
+fr: Couleur du symbole et de la liaison
+
+de: Farbe für "{0}"
+fr: Couleur pour "{0}"
+
+de: Farbe:
+fr: Couleur :
+
+de: Farben: Rechtsklick auf ein Symbol, „Farbe…“
+fr: Couleurs : clic droit sur un symbole, « Couleur… »
+
+de: Farbe…
+fr: Couleur…
+
+de: Farbstoffe
+fr: Colorants
+
+de: Fehler beim Laden von translations.properties: {0}
+fr: Erreur lors du chargement de translations.properties : {0}
+
+de: Feld
+fr: Champ
+
+de: Fester Mittelpunkt, an dem alle Stationen hängen
+fr: Centre fixe auquel toutes les gares sont rattachées
+
+de: Fett
+fr: Gras
+
+de: Fisch
+fr: Poisson
+
+de: Fischzucht
+fr: Pisciculture
+
+de: Flachwagen, Drehgestell (Regelbauart)
+fr: Wagon plat, bogies (standard)
+
+de: Flachwagen, Drehgestell (Sonderbauart)
+fr: Wagon plat, bogies (spécial)
+
+de: Flachwagen, Einzelachsen (Regelbauart)
+fr: Wagon plat, essieux (standard)
+
+de: Flachwagen, Einzelachsen (Sonderbauart)
+fr: Wagon plat, essieux (spécial)
+
+de: Fleisch
+fr: Viande
+
+de: Flüssig
+fr: Liquide
+
+de: Flüssiggut
+fr: Vrac liquide
+
+de: Flüssigkeiten
+fr: Liquides
+
+de: Flüssiglager
+fr: Stockage liquide
+
+de: Formatierung
+fr: Mise en forme
+
+de: Formatierung…
+fr: Mise en forme…
+
+de: Funktionen
+fr: Fonctions
+
+de: Führend
+fr: En tête
+
+de: Füllung
+fr: Remplissage
+
+de: Für diese Datei liegt noch keine Sicherung vor.
+fr: Il n'y a pas encore de sauvegarde pour ce fichier.
+
+de: Für {0} ist noch kein Bedarf eingestellt.
+fr: Aucun besoin n'est encore réglé pour {0}.
+
+de: Für {0} wird zusätzlich gebraucht bzw. bleibt übrig.\n▼ Eingang ohne Lieferanten · ▲ Ausgang ohne Abnehmer. Unter einem neuen Betrieb stehen dessen eigene offene Enden.\n„Wird von außerhalb geliefert“: das Gut steht dem Betrieb unbegrenzt zur Verfügung, ohne Zug. Mengen werden nach dem Übernehmen automatisch abgeglichen.
+fr: Pour {0}, nécessaire en plus ou en trop.\n▼ entrée sans fournisseur · ▲ sortie sans client. Sous une nouvelle entreprise figurent ses propres bouts ouverts.\n« Livré de l'extérieur » : la marchandise est à disposition de l'entreprise sans limite, sans train. Les quantités sont équilibrées automatiquement après validation.
+
+de: Ganze Anlage
+fr: Réseau entier
+
+de: Ganze Anlage in den sichtbaren Bereich zoomen
+fr: Zoomer tout le réseau dans la zone visible
+
+de: Gebinde
+fr: Caisses
+
+de: Gedeckter Wagen (Regelbauart)
+fr: Wagon couvert (standard)
+
+de: Gedeckter Wagen (Sonderbauart)
+fr: Wagon couvert (spécial)
+
+de: Geeignete Züge vorschlagen
+fr: Proposer des trains adaptés
+
+de: Gegenstück
+fr: Contrepartie
+
+de: Gegenstück (bringt)
+fr: Contrepartie (amène)
+
+de: Gegenstück (nimmt auf)
+fr: Contrepartie (accueille)
+
+de: Gegenstück fehlt: Ein anderer Bahnhof oder der Schattenbahnhof muss ebenfalls einen Bahnsteig „Mit Koffer“ haben, sonst können Kofferreisende nirgends aussteigen.
+fr: Contrepartie manquante : une autre gare ou la gare cachée doit aussi avoir un quai « Avec bagage », sinon les voyageurs avec bagage ne peuvent descendre nulle part.
+
+de: Geht an
+fr: Va à
+
+de: Gekoppelte Datei nicht gefunden: {0}
+fr: Fichier lié introuvable : {0}
+
+de: Geladen
+fr: Chargé
+
+de: Geladen Richtung 
+fr: Chargé direction 
+
+de: Gelb
+fr: Jaune
+
+de: Geliefert
+fr: Livré
+
+de: Geliefert von
+fr: Livré par
+
+de: Gemischt
+fr: Mixte
+
+de: Gemüse
+fr: Légumes
+
+de: Gepäckwagen
+fr: Fourgon à bagages
+
+de: Geräusch nicht abspielbar: {0} – {1}
+fr: Son impossible à lire : {0} – {1}
+
+de: Geräusche
+fr: Sons
+
+de: Geräusche nicht ausgepackt: {0}
+fr: Sons non extraits : {0}
+
+de: Gesamt (Cargo-Manager)
+fr: Total (gestionnaire cargo)
+
+de: Gesamten Güter- und Personenaustausch anhalten
+fr: Mettre en pause tout l'échange de marchandises et de voyageurs
+
+de: Gesamten Güter- und Personenaustausch starten
+fr: Lancer tout l'échange de marchandises et de voyageurs
+
+de: Geschlossen
+fr: Fermé
+
+de: Gespeichert: {0}
+fr: Enregistré : {0}
+
+de: Getreide
+fr: Céréales
+
+de: Getränke
+fr: Boissons
+
+de: Gewerbe
+fr: Commerce
+
+de: Gewicht und Volumen sind nur zur Information und werden beim Laden nicht bewertet.
+fr: Le poids et le volume sont indicatifs et ne sont pas évalués au chargement.
+
+de: Geöffnet: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+fr: Ouvert : {0}  ({1} locos, {2} wagons, {3} cantons, {4} trains)
+
+de: Glas
+fr: Verre
+
+de: Glashütte
+fr: Verrerie
+
+de: Gleis
+fr: Voie
+
+de: Gleis bearbeiten
+fr: Modifier la voie
+
+de: Gleis hinzufügen…
+fr: Ajouter une voie…
+
+de: Gleis:
+fr: Voie :
+
+de: Gleis: {0} – {1} ({2})
+fr: Voie : {0} – {1} ({2})
+
+de: Gleisanschluss eines Betriebs, Bahnsteige und Ladegleise
+fr: Embranchement d'une entreprise, quais et voies de chargement
+
+de: Gleisart
+fr: Type de voie
+
+de: Gleise
+fr: Voies
+
+de: Gleise (je Gleis genau ein iTrain-Block)
+fr: Voies (chaque voie exactement un canton iTrain)
+
+de: Gleise der Art Ladegleis (Güter) kommen beim Speichern in den Güterbahnhof {0}.
+fr: Les voies de type voie de chargement (marchandises) vont dans la gare de fret {0} à l'enregistrement.
+
+de: Gleise ordnen Sie in der Station zu (Doppelklick). Einzugsbereich: Rechtsklick auf das Objekt, „Mit Station verbinden…“.
+fr: Les voies s'attribuent dans la gare (double-clic). Zone de desserte : clic droit sur l'objet, « Relier à la gare… ».
+
+de: Gleise wählen…
+fr: Choisir les voies…
+
+de: Gleise/Blöcke
+fr: Voies/cantons
+
+de: Gleise: {0}
+fr: Voies : {0}
+
+de: Gleisname, Fahrtrichtungen und Kapazität danach in der Station einstellen.
+fr: Régler ensuite le nom de voie, les sens de marche et la capacité dans la gare.
+
+de: Glückwunsch!
+fr: Félicitations !
+
+de: Grau
+fr: Gris
+
+de: Grundbestand ergänzen
+fr: Compléter le stock de base
+
+de: Größe
+fr: Taille
+
+de: Größe:
+fr: Taille :
+
+de: Grün
+fr: Vert
+
+de: Gummi
+fr: Caoutchouc
+
+de: Gummiplantage
+fr: Plantation d'hévéas
+
+de: Gut
+fr: Marchandise
+
+de: Güter
+fr: Marchandises
+
+de: Güter (Bedarf)
+fr: Marchandises (besoin)
+
+de: Güter Bedarf
+fr: Besoin en marchandises
+
+de: Güter Herstellung
+fr: Production de marchandises
+
+de: Güter an diesem Gleis (keins = alle)
+fr: Marchandises sur cette voie (aucune = toutes)
+
+de: Güter fließen nur über Ladegleise. Deshalb mit dem Güterbahnhof verbunden:\n{0}
+fr: Les marchandises ne circulent que par les voies de chargement. Donc relié à la gare de fret :\n{0}
+
+de: Güter können nicht verbraucht werden
+fr: Les marchandises ne peuvent pas être consommées
+
+de: Güter wählen…
+fr: Choisir les marchandises…
+
+de: Güter zum Transport
+fr: Marchandises à transporter
+
+de: Güter zurück zum Empfänger, bitte abholen
+fr: Marchandises retour au destinataire, veuillez les enlever
+
+de: Güter, die die Übergabe unbegrenzt abnimmt
+fr: Marchandises que l'échange prend sans limite
+
+de: Güter, die die Übergabe unbegrenzt liefert
+fr: Marchandises que l'échange fournit sans limite
+
+de: Güter, die dieser Wagen laden kann (Aktiv). Sind Güter aktiv, lädt der Wagen nur diese; sonst alle Güter seiner Ladeklasse. Die Kapazität verteilt sich gleichmäßig auf die Wagenladungen; nicht mischbare Güter (z.B. Flüssiggut) belegen eine Wagenladung allein.
+fr: Marchandises que ce wagon peut charger (actives). Si des marchandises sont actives, le wagon ne charge que celles-ci ; sinon toutes les marchandises de sa classe. La capacité se répartit également sur les chargements ; les marchandises non mélangeables (p. ex. liquides) occupent seules un chargement.
+
+de: Güter-/Personenaustausch angehalten.
+fr: Échange de marchandises/voyageurs en pause.
+
+de: Güter-/Personenaustausch gestartet.
+fr: Échange de marchandises/voyageurs lancé.
+
+de: Güter...
+fr: Marchandises...
+
+de: Güter: Güterbahnhof andocken (mit denselben Blöcken als Ladegleise)
+fr: Marchandises : accoler une gare de fret (avec les mêmes cantons comme voies de chargement)
+
+de: Güterauswahl
+fr: Choix des marchandises
+
+de: Güterbahnhof
+fr: Gare de fret
+
+de: Güterbahnhof „{0}“ angelegt
+fr: Gare de fret « {0} » créée
+
+de: Güterbedarf (offen / je Modellstunde)
+fr: Besoin en marchandises (ouvert / par heure de modèle)
+
+de: Güterfluss je Modelltag
+fr: Flux de marchandises par jour de modèle
+
+de: Güterverkehr
+fr: Trafic marchandises
+
+de: Güterverkehr · Next trips
+fr: Trafic marchandises · Next trips
+
+de: Halt noch {0} s von {1} s
+fr: Arrêt encore {0} s sur {1} s
+
+de: Halte
+fr: Arrêts
+
+de: Haltepunkt
+fr: Halte
+
+de: Handbuch
+fr: Manuel
+
+de: Handbuch folgt im Ordner "handbuch" - noch nicht verdrahtet.
+fr: Le manuel suit dans le dossier "handbuch" - pas encore relié.
+
+de: Hergestellt von: {0}
+fr: Produit par : {0}
+
+de: Herkunft:
+fr: Origine :
+
+de: Herkunft: Schattenbahnhof stellt {0} je Modellstunde bereit
+fr: Origine : la gare cachée fournit {0} par heure de modèle
+
+de: Herkunft: {0}
+fr: Origine : {0}
+
+de: Heute angekommen/ausgestiegen (+) und abgefahren/eingestiegen (−)
+fr: Aujourd'hui arrivés/descendus (+) et partis/montés (−)
+
+de: Hilfe
+fr: Aide
+
+de: Hilfetexte folgen im Ordner "hilfetexte" - noch nicht verdrahtet.
+fr: Les textes d'aide suivent dans le dossier "hilfetexte" - pas encore reliés.
+
+de: Hinweis
+fr: Avis
+
+de: Hinweis  ·  Ziel  ·  Abholung  ·  Zug
+fr: Avis  ·  Destination  ·  Enlèvement  ·  Train
+
+de: Hinzufügen
+fr: Ajouter
+
+de: Hinzufügen/Ändern
+fr: Ajouter/modifier
+
+de: Holz
+fr: Bois
+
+de: Holzfällerlager
+fr: Camp de bûcherons
+
+de: Horizontal
+fr: Horizontal
+
+de: Horizontal:
+fr: Horizontal :
+
+de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
+fr: Rattachées au module au lieu de l'infrastructure du réseau ; gare de fret, localités, entreprises et entrepôts suivent.
+
+de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+fr: Au plus {0} onglets (onglets et modules). Le nombre se modifie dans Préférences > Onglets.
+
+de: Höchstzahl der Reiter
+fr: Nombre maximal d'onglets
+
+de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
+fr: Afficher dans le navigateur (lecture seule, sur un autre ordinateur, téléphone ou tablette)
+
+de: Im Lager
+fr: En entrepôt
+
+de: Im ZIP-Archiv "{0}" wurde keine .tcd-Datei gefunden.
+fr: Aucun fichier .tcd trouvé dans l'archive ZIP "{0}".
+
+de: Im ZIP-Archiv "{0}" wurde keine XML-Datei gefunden.
+fr: Aucun fichier XML trouvé dans l'archive ZIP "{0}".
+
+de: Im Zug
+fr: Dans le train
+
+de: In Bahnhöfen: {0}
+fr: Dans les gares : {0}
+
+de: In der .tcdz sind keine Bahnhöfe definiert
+fr: Aucune gare définie dans le .tcdz
+
+de: In der Zwischenablage ist kein kopiertes Symbol.
+fr: Le presse-papiers ne contient aucun symbole copié.
+
+de: In der Zwischenablage stehen keine Wagen-Angaben. Bitte zuerst bei einem Wagen „Angaben kopieren“ drücken.
+fr: Le presse-papiers ne contient pas de données de wagon. Veuillez d'abord cliquer sur « Copier les données » pour un wagon.
+
+de: In der Übersicht zeigen
+fr: Afficher dans la vue d'ensemble
+
+de: In iTrain definierte Bahnhöfe anheften oder öffnen
+fr: Rattacher ou ouvrir les gares définies dans iTrain
+
+de: In iTrain ein sonstiger Bahnhof (z. B. Betriebswerk). Solange „Anderes“ gewählt ist, halten Züge hier ohne Ein-/Aussteigen und ohne Umladen.
+fr: Dans iTrain, une gare d'un autre type (p. ex. dépôt). Tant que « Autre » est choisi, les trains s'y arrêtent sans montée/descente et sans transbordement.
+
+de: In iTrain sind keine Zugrouten angelegt – die Verbindung kann nicht geprüft werden.
+fr: Aucun itinéraire de train n'existe dans iTrain – la liaison ne peut pas être vérifiée.
+
+de: Industrie
+fr: Industrie
+
+de: Industrien
+fr: Industries
+
+de: Inhalt
+fr: Contenu
+
+de: Ist dieser Bahnhof auf der Anlage oder ein Modul?
+fr: Cette gare est-elle sur le réseau ou un module ?
+
+de: Ja, Lokomotiven zeigen
+fr: Oui, afficher les locomotives
+
+de: Je Bahnhof
+fr: Par gare
+
+de: Je Fahrtrichtung
+fr: Par sens de marche
+
+de: Je Gut
+fr: Par marchandise
+
+de: Je Ladeklasse
+fr: Par classe de chargement
+
+de: Jetzt abgleichen
+fr: Synchroniser maintenant
+
+de: Jetzt prüfen
+fr: Vérifier maintenant
+
+de: Kann Expressgut mitnehmen
+fr: Peut transporter la messagerie
+
+de: Kann Expressgut mitnehmen ({0} Stück)
+fr: Peut transporter la messagerie ({0} pièces)
+
+de: Kann Post mitnehmen
+fr: Peut transporter le courrier
+
+de: Kann Post mitnehmen ({0} Postsäcke)
+fr: Peut transporter le courrier ({0} sacs postaux)
+
+de: Kann nur in iTrain verändert werden.
+fr: Modifiable seulement dans iTrain.
+
+de: Kapazität
+fr: Capacité
+
+de: Kapazität = Einheiten je Gut (Abholung bzw. Anlieferung), Umladen = Einheiten je Modellminute
+fr: Capacité = unités par marchandise (enlèvement ou livraison), transborder = unités par minute de modèle
+
+de: Kapazität = Wartende je Richtung, Umladen = Personen je Modellminute
+fr: Capacité = personnes en attente par direction, transborder = personnes par minute de modèle
+
+de: Kapazität Einheit
+fr: Unité de capacité
+
+de: Kapazität aller Züge je Fahrt
+fr: Capacité de tous les trains par trajet
+
+de: Kapazität gesamt (Einheiten)
+fr: Capacité totale (unités)
+
+de: Kapazität je Einheit
+fr: Capacité par unité
+
+de: Kapazität passender Wagen je Fahrt
+fr: Capacité des wagons adaptés par trajet
+
+de: Kapazitäten
+fr: Capacités
+
+de: Kein Bild hinterlegt.
+fr: Aucune image enregistrée.
+
+de: Kein Ladegleis
+fr: Pas de voie de chargement
+
+de: Kein Modul
+fr: Pas de module
+
+de: Kein Rezept
+fr: Pas de recette
+
+de: Kein Tab
+fr: Pas d'onglet
+
+de: Kein freier Bahnhof.
+fr: Pas de gare libre.
+
+de: Keine Bahnhöfe
+fr: Pas de gares
+
+de: Keine Betriebe mit Eingängen
+fr: Pas d'entreprises avec entrées
+
+de: Keine Blöcke in der Datei
+fr: Pas de cantons dans le fichier
+
+de: Keine Datei geladen.
+fr: Aucun fichier chargé.
+
+de: Keine Datei geöffnet
+fr: Aucun fichier ouvert
+
+de: Keine Dialoge abgeschaltet.
+fr: Aucun dialogue désactivé.
+
+de: Keine Einträge
+fr: Aucune entrée
+
+de: Keine Konfiguration geöffnet.
+fr: Aucune configuration ouverte.
+
+de: Keine Quelle gewählt
+fr: Aucune source choisie
+
+de: Keine Reisenden möglich, weiterer Bahnhof nötig:\n
+fr: Pas de voyageurs possibles, une autre gare est nécessaire :\n
+
+de: Keine Station – im Editor per Rechtsklick „Mit Station verbinden…“ zuordnen.
+fr: Pas de gare – attribuer dans l'éditeur par clic droit « Relier à la gare… ».
+
+de: Keine Stationsart: {0}
+fr: Pas un type de gare : {0}
+
+de: Keine Zugroute fährt beide Bahnhöfe an. Umsteigen über einen Bahnhof dazwischen ist möglich (oben gewählt).
+fr: Aucun itinéraire ne dessert les deux gares. Une correspondance via une gare intermédiaire est possible (choisie ci-dessus).
+
+de: Keine Zugroute verbindet die beiden Bahnhöfe – bitte in iTrain eine Zugroute anlegen.
+fr: Aucun itinéraire ne relie les deux gares – veuillez créer un itinéraire dans iTrain.
+
+de: Keine Züge in der Datei
+fr: Pas de trains dans le fichier
+
+de: Keine freie Station.
+fr: Pas de gare libre.
+
+de: Keine freien Blöcke
+fr: Pas de cantons libres
+
+de: Keine freien Blöcke (alle gehören Gleisen oder anderen Modulen).
+fr: Pas de cantons libres (tous appartiennent à des voies ou à d'autres modules).
+
+de: Keine freien Blöcke – Gleise später in der Station zuordnen.
+fr: Pas de cantons libres – attribuer les voies plus tard dans la gare.
+
+de: Keine gekoppelte .tcdz-Datei hinterlegt.
+fr: Aucun fichier .tcdz lié enregistré.
+
+de: Keine iTrain-Datei geöffnet bzw. nicht lesbar – Werte bitte von Hand eintragen.
+fr: Aucun fichier iTrain ouvert ou illisible – veuillez saisir les valeurs à la main.
+
+de: Keine offenen Enden.
+fr: Pas de bouts ouverts.
+
+de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
+fr: Pas de bouts ouverts : chaque besoin a une contrepartie.
+
+de: Keine weiteren Reiter
+fr: Pas d'autres onglets
+
+de: Keinem Gleis zugeordnet (Strecke).
+fr: Attribué à aucune voie (ligne).
+
+de: Kesselwagen
+fr: Wagon-citerne
+
+de: Kleidung
+fr: Vêtements
+
+de: Kleine Station, Bahnsteige und Ladegleise
+fr: Petite gare, quais et voies de chargement
+
+de: Klick auf ein Symbol öffnet die Details ·
+fr: Un clic sur un symbole ouvre les détails ·
+
+de: Klicken: Gut zum Verladen bereitstellen
+fr: Cliquer : mettre la marchandise à disposition pour le chargement
+
+de: Koffer
+fr: Bagages
+
+de: Kohle
+fr: Charbon
+
+de: Kohlebergwerk
+fr: Mine de charbon
+
+de: Kohleverbrauch kg/km
+fr: Consommation de charbon kg/km
+
+de: Kohlevorrat Tonnen
+fr: Réserve de charbon tonnes
+
+de: Konnte nicht aus .tcdz angelegt werden
+fr: N'a pas pu être créé depuis le .tcdz
+
+de: Konnte nicht gespeichert werden
+fr: N'a pas pu être enregistré
+
+de: Konnte nicht mit der .tcdz abgeglichen werden
+fr: N'a pas pu être synchronisé avec le .tcdz
+
+de: Konserven
+fr: Conserves
+
+de: Konservenfabrik
+fr: Conserverie
+
+de: Kopie der Anlage fehlgeschlagen
+fr: Échec de la copie du réseau
+
+de: Kopieren
+fr: Copier
+
+de: Kopieren geht im Fenster „Anlage bearbeiten“: Symbol anklicken, dann Kopieren.
+fr: La copie se fait dans la fenêtre « Modifier le réseau » : cliquer sur un symbole, puis Copier.
+
+de: Kreislauf
+fr: Chaîne
+
+de: Kreislauf prüfen
+fr: Vérifier la chaîne
+
+de: Kreislauf prüfen…
+fr: Vérifier la chaîne…
+
+de: Kunststoff
+fr: Plastique
+
+de: Kursiv
+fr: Italique
+
+de: Kühlwagen
+fr: Wagon frigorifique
+
+de: Lade-Joker: lädt jedes Gut
+fr: Joker de chargement : charge toute marchandise
+
+de: Ladegleis
+fr: Voie de chargement
+
+de: Ladegleis einrichten
+fr: Aménager une voie de chargement
+
+de: Ladegleise eines Bahnhofs, Haltepunkts oder Schattenbahnhofs kommen in dessen Güterbahnhof (wird bei Bedarf angelegt)
+fr: Les voies de chargement d'une gare, halte ou gare cachée vont dans sa gare de fret (créée si nécessaire)
+
+de: Ladegleise für {0}: {1}
+fr: Voies de chargement pour {0} : {1}
+
+de: Ladegut
+fr: Chargement
+
+de: Ladegüter
+fr: Marchandises chargeables
+
+de: Ladeklasse
+fr: Classe de chargement
+
+de: Ladeklassen (keine = alle)
+fr: Classes de chargement (aucune = toutes)
+
+de: Laden
+fr: Charger
+
+de: Laden erlaubt
+fr: Chargement autorisé
+
+de: Laden in
+fr: Charger à
+
+de: Laden/Entladen bzw. Ein-/Aussteigen auch ohne Halt (bei der Durchfahrt)
+fr: Charger/décharger ou monter/descendre aussi sans arrêt (au passage)
+
+de: Ladungszustand
+fr: État de chargement
+
+de: Lager
+fr: Entrepôt
+
+de: Lager anlegen
+fr: Créer un entrepôt
+
+de: Lager bearbeiten
+fr: Modifier l'entrepôt
+
+de: Lager für Güter
+fr: Entrepôt de marchandises
+
+de: Lager hinzufügen. Die Kapazitäten am Bahnhof sind erschöpft
+fr: Ajouter un entrepôt. Les capacités de la gare sont épuisées
+
+de: Lagergrößen…
+fr: Tailles d'entrepôt…
+
+de: Lagerhalle
+fr: Halle
+
+de: Lagerkapazitäten (Einheiten)
+fr: Capacités d'entrepôt (unités)
+
+de: Lagerplatz
+fr: Aire de stockage
+
+de: Langgut
+fr: Produits longs
+
+de: Langsamer
+fr: Plus lent
+
+de: Lauflicht auf den Verbindungen (Sekunden)
+fr: Chenillard sur les liaisons (secondes)
+
+de: Lautstärke
+fr: Volume
+
+de: Legt ein Symbol an, das nur aus einem farbigen Quadrat besteht (Platzhalter ohne eigene .svg-Datei).
+fr: Crée un symbole composé uniquement d'un carré coloré (marque sans fichier .svg propre).
+
+de: Legt fehlende mitgelieferte Geräusche (CC0) wieder in den Ordner; eigene Dateien bleiben
+fr: Remet les sons fournis manquants (CC0) dans le dossier ; vos propres fichiers restent
+
+de: Lehm
+fr: Argile
+
+de: Lehmgrube
+fr: Glaisière
+
+de: Lieferkette für „{0}“
+fr: Chaîne pour « {0} »
+
+de: Liefert Expressgut
+fr: Livre de la messagerie
+
+de: Liefert Post
+fr: Livre du courrier
+
+de: Liefert Post {0} M/h, Expressgut {1} M/h
+fr: Livre du courrier {0} M/h, de la messagerie {1} M/h
+
+de: Liefert alle
+fr: Livre toutes les
+
+de: Liefert immer (nicht auf der Anlage)
+fr: Livre toujours (pas sur le réseau)
+
+de: Liefert immer, ohne auf der Anlage zu sein
+fr: Livre toujours, sans être sur le réseau
+
+de: Liefert immer, ohne auf der Anlage zu sein.
+fr: Livre toujours, sans être sur le réseau.
+
+de: Liefert unbegrenzt
+fr: Livre sans limite
+
+de: Liefert: {0}
+fr: Livre : {0}
+
+de: Liegt am Bahnhof:
+fr: Se trouve à la gare :
+
+de: Liest den Symbolordner (Voreinstellungen > Pfade) erneut, z. B. nach dem Hinzufügen eigener .svg-Dateien.
+fr: Relit le dossier des symboles (Préférences > Chemins), p. ex. après l'ajout de vos propres fichiers .svg.
+
+de: Linksbündig
+fr: Aligné à gauche
+
+de: Linux: Für mp3 braucht das Programm die ffmpeg-Bibliotheken des Systems (z. B. „sudo apt install ffmpeg“) und einen Tonausgang; wav geht auch ohne ffmpeg.
+fr: Linux : pour le mp3, le programme a besoin des bibliothèques ffmpeg du système (p. ex. « sudo apt install ffmpeg ») et d'une sortie audio ; le wav fonctionne aussi sans ffmpeg.
+
+de: Liste leeren (nur die Anzeige; an der Logistik ändert sich nichts).
+fr: Vider la liste (affichage seulement ; rien ne change dans la logistique).
+
+de: Liste wieder mitlaufen lassen; was beim Anhalten ankam, wird oben eingefügt.
+fr: Laisser la liste défiler à nouveau ; ce qui est arrivé pendant la pause est inséré en haut.
+
+de: Liter
+fr: Litres
+
+de: Logistik Daten
+fr: Données logistiques
+
+de: Logistik-Datei (.logz) öffnen
+fr: Ouvrir un fichier logistique (.logz)
+
+de: Logistik-Datei speichern
+fr: Enregistrer le fichier logistique
+
+de: Logistik-Datei öffnen
+fr: Ouvrir le fichier logistique
+
+de: Logistik-Datei: {0}\nVerknüpfte iTrain-Anlage: {1}\n„Abgleichen“ liest diese .tcdz. Ändern: Datei > iTrain Datei neu einlesen...{2}
+fr: Fichier logistique : {0}\nRéseau iTrain lié : {1}\n« Synchroniser » lit ce .tcdz. Modifier : Fichier > Relire le fichier iTrain...{2}
+
+de: Logistikdaten
+fr: Données logistiques
+
+de: Lok
+fr: Loco
+
+de: Lok hinzufügen…
+fr: Ajouter une loco…
+
+de: Lokomotive hinzufügen
+fr: Ajouter une locomotive
+
+de: Lokomotive links auswählen.
+fr: Choisir une locomotive à gauche.
+
+de: Lokomotiven
+fr: Locomotives
+
+de: Lokomotiven, Wagen, Blöcke, Züge, Belegung, Symbole und Güter
+fr: Locomotives, wagons, cantons, trains, occupation, symboles et marchandises
+
+de: Ländlich
+fr: Rural
+
+de: Ländlicher Ort mit wenig Aufkommen
+fr: Lieu rural à faible trafic
+
+de: Läuft
+fr: En marche
+
+de: Löschen
+fr: Supprimer
+
+de: Löscht eine selbst angelegte Farbfläche. .svg-Dateien bitte im Symbolordner entfernen.
+fr: Supprime une surface de couleur créée soi-même. Supprimer les fichiers .svg dans le dossier des symboles.
+
+de: M/h = je Modellstunde
+fr: M/h = par heure de modèle
+
+de: M/h = je Modellstunde. 0 Abreisende = keine Personen, sie erscheinen dann auch nicht im Symbol. Ankommende: so viele steigen hier je Modellstunde höchstens aus; „Unbegrenzt“ = beliebig viele. „Kreislauf prüfen“ sucht für beide Werte ein Gegenstück.
+fr: M/h = par heure de modèle. 0 partant = pas de personnes, elles n'apparaissent alors pas non plus dans le symbole. Arrivants : au plus ce nombre descend ici par heure de modèle ; « Illimité » = autant qu'on veut. « Vérifier la chaîne » cherche une contrepartie pour les deux valeurs.
+
+de: Mangel
+fr: Pénurie
+
+de: Maschinen
+fr: Machines
+
+de: Maschinenfabrik
+fr: Usine de machines
+
+de: Maßstab (1:x)
+fr: Échelle (1:x)
+
+de: Mehrere Rezepte (Nummer 1, 2, …) sind Alternativen: es läuft das erste, für das alle Eingänge vorrätig sind.
+fr: Plusieurs recettes (numéros 1, 2, …) sont des alternatives : la première pour laquelle toutes les entrées sont en stock s'exécute.
+
+de: Menge
+fr: Quantité
+
+de: Menge (Einheiten)
+fr: Quantité (unités)
+
+de: Menge je Ausführung
+fr: Quantité par exécution
+
+de: Menge je Modellstunde:
+fr: Quantité par heure de modèle :
+
+de: Mischbar in einer Wagenladung
+fr: Mélangeable dans un chargement
+
+de: Mit Koffer ({0} % der Reisenden haben einen Koffer und brauchen einen Gepäckwagen im Zug)
+fr: Avec bagage ({0} % des voyageurs ont un bagage et ont besoin d'un fourgon dans le train)
+
+de: Mit Koffer: davon warten so viele mit Koffer (brauchen einen Gepäckwagen im Zug)
+fr: Avec bagage : autant d'entre eux attendent avec bagage (besoin d'un fourgon dans le train)
+
+de: Mit Modul verbinden
+fr: Relier au module
+
+de: Mit Modul verbinden…
+fr: Relier au module…
+
+de: Mit Station verbinden…
+fr: Relier à la gare…
+
+de: Mit Tab verbinden
+fr: Relier à l'onglet
+
+de: Mit Tab verbinden…
+fr: Relier à l'onglet…
+
+de: Mit der .tcdz abgleichen: Loks, Wagen, Blöcke, Züge und Zugrouten neu aus iTrain lesen
+fr: Synchroniser avec le .tcdz : relire locos, wagons, cantons, trains et itinéraires depuis iTrain
+
+de: Mit iTrain abgleichen
+fr: Synchroniser avec iTrain
+
+de: Mitgelieferte wiederherstellen
+fr: Restaurer les sons fournis
+
+de: Modelluhr in einem eigenen Fenster zeigen (Zeit und Faktor aus iTrain)
+fr: Afficher l'horloge du modèle dans sa propre fenêtre (heure et facteur d'iTrain)
+
+de: Modellzeit
+fr: Heure du modèle
+
+de: Modul
+fr: Module
+
+de: Modul bearbeiten
+fr: Modifier le module
+
+de: Modul „{0}“
+fr: Module « {0} »
+
+de: Möbel
+fr: Meubles
+
+de: Möbelfabrik
+fr: Usine de meubles
+
+de: Nachfrage
+fr: Demande
+
+de: Nachfrage heute
+fr: Demande aujourd'hui
+
+de: Name
+fr: Nom
+
+de: Name (optional)
+fr: Nom (facultatif)
+
+de: Name des Moduls, zu dem „{0}“ gehört
+fr: Nom du module auquel appartient « {0} »
+
+de: Name des ersten Reiters
+fr: Nom du premier onglet
+
+de: Name des neuen Guts
+fr: Nom de la nouvelle marchandise
+
+de: Name und Art
+fr: Nom et type
+
+de: Name:
+fr: Nom :
+
+de: Name: {0}
+fr: Nom : {0}
+
+de: Nein
+fr: Non
+
+de: Neu angelegt aus {0}: {1}  ({2} Loks, {3} Wagen, {4} Blöcke, {5} Züge)
+fr: Nouvellement créé depuis {0} : {1}  ({2} locos, {3} wagons, {4} cantons, {5} trains)
+
+de: Neu eingefügt – an die gewünschte Stelle ziehen
+fr: Nouvellement inséré – faire glisser à l'endroit voulu
+
+de: Neu einlesen
+fr: Relire
+
+de: Neue Farbfläche...
+fr: Nouvelle surface de couleur...
+
+de: Neue Konfiguration
+fr: Nouvelle configuration
+
+de: Neue Konfiguration...
+fr: Nouvelle configuration...
+
+de: Neue Logistik-Datei speichern unter...
+fr: Enregistrer le nouveau fichier logistique sous...
+
+de: Neuer Bahnhof für {0} (Gleise wählen)
+fr: Nouvelle gare pour {0} (choisir les voies)
+
+de: Neuer Betrieb
+fr: Nouvelle entreprise
+
+de: Neuer Betrieb „{0}“ {1}
+fr: Nouvelle entreprise « {0} » {1}
+
+de: Neuer Betrieb: {0}
+fr: Nouvelle entreprise : {0}
+
+de: Neuer Betrieb: {0}{1}
+fr: Nouvelle entreprise : {0}{1}
+
+de: Neuer Haltepunkt für {0} (Gleise wählen)
+fr: Nouvelle halte pour {0} (choisir les voies)
+
+de: Neuer Name – gilt für den Reiter und das Symbol
+fr: Nouveau nom – vaut pour l'onglet et le symbole
+
+de: Neuer Schattenbahnhof (Gleise wählen)
+fr: Nouvelle gare cachée (choisir les voies)
+
+de: Neues Dorf mit Haltepunkt (Gleise wählen)
+fr: Nouveau village avec halte (choisir les voies)
+
+de: Neues Feld
+fr: Nouveau champ
+
+de: Neues Gut
+fr: Nouvelle marchandise
+
+de: Neues Gut…
+fr: Nouvelle marchandise…
+
+de: Neues Modul
+fr: Nouveau module
+
+de: Neues Modul…
+fr: Nouveau module…
+
+de: Neues Symbol
+fr: Nouveau symbole
+
+de: Nicht auf der Anlage (liefert bzw. nimmt automatisch)
+fr: Pas sur le réseau (livre ou prend automatiquement)
+
+de: Nicht auf der Anlage (liefert immer)
+fr: Pas sur le réseau (livre toujours)
+
+de: Nicht übernehmen
+fr: Ne pas reprendre
+
+de: Nimmt ab
+fr: Prend
+
+de: Nimmt an
+fr: Accepte
+
+de: Nimmt jedes Gut ab
+fr: Prend toute marchandise
+
+de: Noch kein Ereignis von diesem Zug empfangen.
+fr: Aucun événement reçu de ce train pour l'instant.
+
+de: Noch keine Gleise. Über "Bearbeiten…" Gleise mit iTrain-Blöcken anlegen.
+fr: Pas encore de voies. Créer des voies avec des cantons iTrain via "Modifier…".
+
+de: Noch keine Tabs oder Module – in „Anlage bearbeiten“ aus der Palette anlegen.
+fr: Pas encore d'onglets ni de modules – les créer depuis la palette dans « Modifier le réseau ».
+
+de: Noch nichts aufgezeichnet – „Anhängen“ fügt einen Vorgang hinzu.
+fr: Rien d'enregistré – « Ajouter à la fin » ajoute une opération.
+
+de: Noch zu erledigen
+fr: Reste à faire
+
+de: Nur Einfahrt rückwärts (iTrain „prev“)
+fr: Entrée seulement en arrière (iTrain « prev »)
+
+de: Nur Einfahrt vorwärts (iTrain „next“)
+fr: Entrée seulement en avant (iTrain « next »)
+
+de: Nur Güter der gewählten Ladeklasse zeigen
+fr: Afficher seulement les marchandises de la classe choisie
+
+de: Nur Ladegleise: Sie kommen in einen angedockten Güterbahnhof.
+fr: Seulement des voies de chargement : elles vont dans une gare de fret accolée.
+
+de: Nur dieses Objekt anhalten; alles andere läuft weiter
+fr: Mettre en pause seulement cet objet ; tout le reste continue
+
+de: Nur dieses Objekt ist angehalten; alles andere läuft weiter. Fortsetzen im Detailfenster mit „▶ Start“.
+fr: Seul cet objet est en pause ; tout le reste continue. Reprendre dans la fenêtre de détail avec « ▶ Démarrer ».
+
+de: Nächste Fahrten
+fr: Prochains trajets
+
+de: Nötige volle Fahrten je Modellstunde
+fr: Trajets pleins nécessaires par heure de modèle
+
+de: Oben
+fr: Haut
+
+de: Objektart wählen
+fr: Choisir le type d'objet
+
+de: Objektart:
+fr: Type d'objet :
+
+de: Offen
+fr: Ouvert
+
+de: Offen lassen
+fr: Laisser ouvert
+
+de: Offene Enden: {0}
+fr: Bouts ouverts : {0}
+
+de: Offene Güter
+fr: Marchandises ouvertes
+
+de: Offener Wagen (Regelbauart)
+fr: Wagon tombereau (standard)
+
+de: Offener Wagen (Sonderbauart)
+fr: Wagon tombereau (spécial)
+
+de: Offener Wagen für Mehrzweckverwendung
+fr: Wagon tombereau polyvalent
+
+de: Orange
+fr: Orange
+
+de: Ordner
+fr: Dossier
+
+de: Ordner der Geräusche
+fr: Dossier des sons
+
+de: Ordner fuer Logistik-Dateien konnte nicht angelegt werden: {0}
+fr: Le dossier des fichiers logistiques n'a pas pu être créé : {0}
+
+de: Ordner für die Fahrzeugdatei konnte nicht angelegt werden: {0}
+fr: Le dossier du fichier de véhicules n'a pas pu être créé : {0}
+
+de: Ordner lässt sich nicht öffnen: {0}
+fr: Le dossier ne peut pas être ouvert : {0}
+
+de: Ordner neu einlesen
+fr: Relire le dossier
+
+de: Ordner öffnen
+fr: Ouvrir le dossier
+
+de: Ort
+fr: Localité
+
+de: Ort mit Passagieren und Güterbedarf
+fr: Localité avec voyageurs et besoin en marchandises
+
+de: Orte, die Ware benötigen – wer liefert an
+fr: Localités ayant besoin de marchandises – qui livre
+
+de: Pakete
+fr: Colis
+
+de: Panoramawagen
+fr: Voiture panoramique
+
+de: Papier
+fr: Papier
+
+de: Papierfabrik
+fr: Papeterie
+
+de: Passagiere
+fr: Voyageurs
+
+de: Passagiere im Zug
+fr: Voyageurs dans le train
+
+de: Passagiere, die abfahren – wer nimmt sie auf
+fr: Voyageurs au départ – qui les accueille
+
+de: Passagiere, die ankommen – wer bringt sie
+fr: Voyageurs à l'arrivée – qui les amène
+
+de: Pause
+fr: Pause
+
+de: Pers
+fr: Pers
+
+de: Personen
+fr: Personnes
+
+de: Personen je Modellstunde von außerhalb
+fr: Personnes par heure de modèle venant de l'extérieur
+
+de: Personen-/Gepäckwagen
+fr: Voiture voyageurs/fourgon
+
+de: Personenbahnhof
+fr: Gare voyageurs
+
+de: Personenbahnhof, nur Bahnsteige
+fr: Gare voyageurs, quais seulement
+
+de: Personengleise
+fr: Voies voyageurs
+
+de: Personenverkehr
+fr: Trafic voyageurs
+
+de: Personenverkehr · Next trips
+fr: Trafic voyageurs · Next trips
+
+de: Pfeil Ein-/Aussteigen
+fr: Flèche montée/descente
+
+de: Pflicht (Anwender 09.11.2026): das Gleis, das von diesem Modul zum nächsten führt. Ohne Gleis lässt sich das Modul nicht speichern.
+fr: Obligatoire (utilisateur 09.11.2026) : la voie qui mène de ce module au suivant. Sans voie, le module ne peut pas être enregistré.
+
+de: Plätze
+fr: Places
+
+de: Port {0} antwortet, aber nicht wie iTrain-XTC
+fr: Le port {0} répond, mais pas comme iTrain-XTC
+
+de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
+fr: Le port {0} appartient déjà au Web Logistique – veuillez en choisir un autre.
+
+de: Port:
+fr: Port :
+
+de: Position und Tempo ausblenden
+fr: Masquer position et vitesse
+
+de: Post
+fr: Courrier
+
+de: Post empfangen
+fr: Courrier reçu
+
+de: Post und Expressgut
+fr: Courrier et messagerie
+
+de: Post und Expressgut an diesem Bahnsteig
+fr: Courrier et messagerie à ce quai
+
+de: Postwagen
+fr: Wagon postal
+
+de: Produkt
+fr: Produit
+
+de: Produktion
+fr: Production
+
+de: Produziert
+fr: Produit
+
+de: Programm beenden
+fr: Quitter le programme
+
+de: Prüfe {0}:{1} …
+fr: Vérification de {0}:{1} …
+
+de: Prüfe …
+fr: Vérification …
+
+de: Prüfung
+fr: Vérification
+
+de: Quelle
+fr: Source
+
+de: Quelle: Simulator{0}
+fr: Source : simulateur{0}
+
+de: Quelle: iTrain (XTC nicht verbunden)
+fr: Source : iTrain (XTC non connecté)
+
+de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
+fr: Source : iTrain (XTC {0}, {1}/{2} trains connectés)
+
+de: Quellen der mitgelieferten Geräusche.txt
+fr: Sources des sons fournis.txt
+
+de: Rahmen
+fr: Cadre
+
+de: Rahmen anzeigen
+fr: Afficher le cadre
+
+de: Raster anzeigen, Symbole rasten darauf ein
+fr: Afficher la grille, les symboles s'y alignent
+
+de: Raummeter
+fr: Mètres cubes
+
+de: Rechner mit iTrain (Name oder IP-Adresse)
+fr: Ordinateur avec iTrain (nom ou adresse IP)
+
+de: Rechnername
+fr: Nom de l'ordinateur
+
+de: Rechnername (mDNS)
+fr: Nom de l'ordinateur (mDNS)
+
+de: Rechtsbündig
+fr: Aligné à droite
+
+de: Reifen
+fr: Pneus
+
+de: Reifenfabrik
+fr: Usine de pneus
+
+de: Reisende
+fr: Voyageurs
+
+de: Reisende 1/2
+fr: Voyageurs 1/2
+
+de: Reisende an Bord: 1. Klasse / 2. Klasse
+fr: Voyageurs à bord : 1re classe / 2e classe
+
+de: Reisende aus bzw. nach „{0}“
+fr: Voyageurs de ou vers « {0} »
+
+de: Reisende je Modellstunde:
+fr: Voyageurs par heure de modèle :
+
+de: Reisende kommen aus Stadt, Dorf oder Ländlich (über deren Bahnhof) oder von außerhalb über den Schattenbahnhof und fahren zu einem anderen Bahnhof.
+fr: Les voyageurs viennent de ville, village ou rural (par leur gare) ou de l'extérieur par la gare cachée et vont vers une autre gare.
+
+de: Reisende warten in {0}{1} (meiste an {2}) – {3}
+fr: Des voyageurs attendent à {0}{1} (la plupart à {2}) – {3}
+
+de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
+fr: Voyageurs : veulent partir et vont ensemble à la gare toutes les {0} minutes de modèle (chenillard vert)
+
+de: Reiter
+fr: Onglets
+
+de: Reiter umbenennen
+fr: Renommer l'onglet
+
+de: Reiter „{0}“
+fr: Onglet « {0} »
+
+de: Rezept
+fr: Recette
+
+de: Rezept: {0}
+fr: Recette : {0}
+
+de: Rezepte
+fr: Recettes
+
+de: Rezepte, die es herstellen: {0}
+fr: Recettes qui le produisent : {0}
+
+de: Richtung
+fr: Direction
+
+de: Richtung {0}
+fr: Direction {0}
+
+de: Richtungen
+fr: Directions
+
+de: Rohstoff
+fr: Matière première
+
+de: Rohstoffe
+fr: Matières premières
+
+de: Rohöl
+fr: Pétrole brut
+
+de: Rot
+fr: Rouge
+
+de: Rot: Transport nötig · Gelb: über ein Lager lösbar · Grün: nichts offen (Farben wie im +Cargo-Cargo-Manager). Umladen von Hand ist zum Testen gedacht.
+fr: Rouge : transport nécessaire · Jaune : soluble par un entrepôt · Vert : rien d'ouvert (couleurs comme dans le gestionnaire cargo +Cargo). Le transbordement manuel sert aux tests.
+
+de: Route
+fr: Itinéraire
+
+de: Routen
+fr: Itinéraires
+
+de: Routen sind die Zugrouten aus der .tcdz. Ein Zug gehört zu der Route, die den Block enthält, in dem er zuletzt gemeldet wurde.
+fr: Les itinéraires sont ceux du .tcdz. Un train appartient à l'itinéraire contenant le canton où il a été signalé en dernier.
+
+de: Rx/Tx Simulator
+fr: Rx/Tx simulateur
+
+de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
+fr: Rx/Tx n'existe que si « iTrain » ou « Simulateur » est choisi dans Réglages.
+
+de: Rx/Tx iTrain (XTC){0}
+fr: Rx/Tx iTrain (XTC){0}
+
+de: Salonwagen
+fr: Voiture salon
+
+de: Sand
+fr: Sable
+
+de: Sandbaggerschiff
+fr: Drague à sable
+
+de: Sandgrube
+fr: Sablière
+
+de: Schattenbahnhof
+fr: Gare cachée
+
+de: Schattenbahnhof (verlässt die Anlage)
+fr: Gare cachée (quitte le réseau)
+
+de: Schattenbahnhof anlegen
+fr: Créer une gare cachée
+
+de: Schattenbahnhof nur noch über Gleise: Verbindung gelöst – {0}. Reisende und Güter je Gleis im Schattenbahnhof einstellen.
+fr: Gare cachée uniquement par les voies : liaison supprimée – {0}. Régler voyageurs et marchandises par voie dans la gare cachée.
+
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Angeschlossen werden keine Orte, Betriebe oder Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+fr: Gare cachée : voyageurs et marchandises arrivent de l'extérieur dans la gare cachée – réglés par voie (quai : voyageurs par heure de modèle, voie de chargement : offre par marchandise). Une voie peut être à la fois quai et voie de chargement (créer deux fois avec le même canton). Les voies de chargement vont dans une gare de fret accolée à l'enregistrement. Aucune localité, entreprise ou entrepôt n'y est raccordé. Le chargement et le déchargement se font déjà au passage, sans arrêt.
+
+de: Schlafwagen
+fr: Voiture-lits
+
+de: Schließen
+fr: Fermer
+
+de: Schneller
+fr: Plus rapide
+
+de: Schrift
+fr: Police
+
+de: Schuppen
+fr: Remise
+
+de: Schwarz
+fr: Noir
+
+de: Schüttgut
+fr: Vrac
+
+de: Senkrecht (abwärts)
+fr: Vertical (vers le bas)
+
+de: Senkrecht (aufwärts)
+fr: Vertical (vers le haut)
+
+de: Sicherung:
+fr: Sauvegarde :
+
+de: Simulator
+fr: Simulateur
+
+de: Simulator Verbindung
+fr: Connexion simulateur
+
+de: Simulator: {0} {1}{2}
+fr: Simulateur : {0} {1}{2}
+
+de: Sitzplätze 1. Klasse
+fr: Places assises 1re classe
+
+de: Sitzplätze 2. Klasse
+fr: Places assises 2e classe
+
+de: Sitzplätze 3. Klasse
+fr: Places assises 3e classe
+
+de: Sitzplätze 4. Klasse
+fr: Places assises 4e classe
+
+de: Solange das Fenster offen ist
+fr: Tant que la fenêtre est ouverte
+
+de: Sonderwagen
+fr: Wagon spécial
+
+de: Sonstige
+fr: Divers
+
+de: Spalten zeigen
+fr: Afficher les colonnes
+
+de: Speichern
+fr: Enregistrer
+
+de: Speichern und Schließen
+fr: Enregistrer et fermer
+
+de: Speisewagen
+fr: Voiture-restaurant
+
+de: Sperrgut
+fr: Colis encombrants
+
+de: Später
+fr: Plus tard
+
+de: Stadt
+fr: Ville
+
+de: Stadt/Dorf/Ländlich: {0}
+fr: Ville/village/rural : {0}
+
+de: Stahl
+fr: Acier
+
+de: Stahlwerk
+fr: Aciérie
+
+de: Standard
+fr: Standard
+
+de: Standardeinheit der Ladeklasse {0}: {1}.
+fr: Unité standard de la classe {0} : {1}.
+
+de: Start
+fr: Démarrer
+
+de: Start (s)
+fr: Début (s)
+
+de: Start = Sekunden nach Beginn des Ablaufs. Entf löscht, Tab springt weiter, Return bearbeitet.
+fr: Début = secondes après le début du déroulement. Suppr efface, Tab passe au suivant, Entrée modifie.
+
+de: Station
+fr: Gare
+
+de: Station / Gleis / Zug
+fr: Gare / voie / train
+
+de: Station mit Ladegleisen, auch zu einem Bahnhof gehörend
+fr: Gare avec voies de chargement, appartenant aussi à une gare
+
+de: Stationen
+fr: Gares
+
+de: Stationen (mit Gbf, Orten, Betrieben, Lagern)
+fr: Gares (avec gare de fret, localités, entreprises, entrepôts)
+
+de: Stationen, die an diesem Modul hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+fr: Gares rattachées à ce module (avec leurs gares de fret, localités, entreprises, entrepôts)
+
+de: Stationen: {0}
+fr: Gares : {0}
+
+de: Statistik je Modelltag
+fr: Statistiques par jour de modèle
+
+de: Status
+fr: État
+
+de: Stehplätze
+fr: Places debout
+
+de: Stehplätze (zählen zur 2. Klasse)
+fr: Places debout (comptent en 2e classe)
+
+de: Stein
+fr: Pierre
+
+de: Steinbruch
+fr: Carrière
+
+de: Stoff
+fr: Tissu
+
+de: Strecke: Gleis von Modul zu Modul (mindestens eins)
+fr: Ligne : voie de module à module (au moins une)
+
+de: Strecke: {0}
+fr: Ligne : {0}
+
+de: Strecke: {0} von {1} Blöcken ohne Gleis
+fr: Ligne : {0} sur {1} cantons sans voie
+
+de: Strecken-Blöcke des Moduls
+fr: Cantons de ligne du module
+
+de: Stufe
+fr: Niveau
+
+de: Stunden (0 = laufend)
+fr: Heures (0 = en continu)
+
+de: Städte
+fr: Villes
+
+de: Stück
+fr: Pièces
+
+de: Stück M/h
+fr: Pièces M/h
+
+de: Stückgut
+fr: Marchandises diverses
+
+de: Symbol
+fr: Symbole
+
+de: Symbol kopiert.
+fr: Symbole copié.
+
+de: Symbol oder Block wählen
+fr: Choisir un symbole ou un canton
+
+de: Symbol zuweisen
+fr: Attribuer le symbole
+
+de: Symbole auf der Anlage
+fr: Symboles sur le réseau
+
+de: Symbole verwalten
+fr: Gérer les symboles
+
+de: System
+fr: Système
+
+de: Sägespäne
+fr: Sciure
+
+de: Sägewerk
+fr: Scierie
+
+de: Tab
+fr: Onglet
+
+de: Tab bearbeiten
+fr: Modifier l'onglet
+
+de: Tabellen öffnen oder im Hauptfenster andocken
+fr: Ouvrir des tableaux ou les ancrer dans la fenêtre principale
+
+de: Tabs und Module zusammen, ohne den ersten Reiter
+fr: Onglets et modules ensemble, sans le premier onglet
+
+de: Tag {0}
+fr: Jour {0}
+
+de: Tag {0}, {1}
+fr: Jour {0}, {1}
+
+de: Tankinhalt Liter
+fr: Contenu du réservoir litres
+
+de: Tankstelle
+fr: Station-service
+
+de: Text
+fr: Texte
+
+de: Text „{0}“ fehlt in {1}.
+fr: Le texte « {0} » manque dans {1}.
+
+de: Text:
+fr: Texte :
+
+de: Textilfabrik
+fr: Usine textile
+
+de: Textrichtung:
+fr: Sens du texte :
+
+de: Tiefe: 3D (Schatten)
+fr: 3D (ombre)
+
+de: Tiertransport
+fr: Transport d'animaux
+
+de: Tonnen
+fr: Tonnes
+
+de: Transport festlegen
+fr: Définir un transport
+
+de: Transport nach:
+fr: Transport vers :
+
+de: Transport von „{0}“{1} nach „{2}“
+fr: Transport de « {0} »{1} vers « {2} »
+
+de: Transport von:
+fr: Transport de :
+
+de: Transport über:
+fr: Transport via :
+
+de: Treibstoff
+fr: Carburant
+
+de: Triebzug
+fr: Automotrice
+
+de: Triebzug / Triebwagen: befördert selbst Personen oder Güter
+fr: Automotrice / autorail : transporte elle-même personnes ou marchandises
+
+de: Triebzug Güter
+fr: Automotrice marchandises
+
+de: Triebzug Personen
+fr: Automotrice voyageurs
+
+de: Triebzug: befördert selbst – Personen, Güter oder beides. Die Angaben gelten für den ganzen Triebzug.
+fr: Automotrice : transporte elle-même – personnes, marchandises ou les deux. Les données valent pour toute l'automotrice.
+
+de: Trocken
+fr: Sec
+
+de: Typ (iTrain)
+fr: Type (iTrain)
+
+de: Typ: {0}
+fr: Type : {0}
+
+de: Uhr
+fr: Horloge
+
+de: Uhr nach iTrain gestellt: {0}
+fr: Horloge réglée sur iTrain : {0}
+
+de: Umbenennen…
+fr: Renommer…
+
+de: Umgelagert
+fr: Transbordé
+
+de: Umladen in
+fr: Transborder à
+
+de: Umladen je Modellminute
+fr: Transborder par minute de modèle
+
+de: Unbegrenzt
+fr: Illimité
+
+de: Unbekannt
+fr: Inconnu
+
+de: Unbekannt: Zug „{0}“ oder Block „{1}“ – übersprungen.
+fr: Inconnu : train « {0} » ou canton « {1} » – ignoré.
+
+de: Unten
+fr: Bas
+
+de: Update
+fr: Mise à jour
+
+de: Update-Prüfung ist in diesem ersten Gerüst noch nicht angebunden.
+fr: La vérification des mises à jour n'est pas encore reliée dans cette première version.
+
+de: Verbindung prüfen
+fr: Vérifier la connexion
+
+de: Verbindung zu iTrain
+fr: Connexion à iTrain
+
+de: Verbindung zu iTrain...
+fr: Connexion à iTrain...
+
+de: Verbindung {0} – zugehöriger {1} · grün: zum Güterbahnhof · rot: von ihm weg
+fr: Liaison {0} – {1} associée · vert : vers la gare de fret · rouge : en partant
+
+de: Verbindung {0} – {1} · grün: zur Station · rot: von der Station weg · Rechtsklick: Linienstärke
+fr: Liaison {0} – {1} · vert : vers la gare · rouge : en partant de la gare · clic droit : épaisseur de ligne
+
+de: Verbrauch auf 100km (Vorbild)
+fr: Consommation aux 100 km (réel)
+
+de: Verbrauch erhöhen
+fr: Augmenter la consommation
+
+de: Verbrauch: Schattenbahnhof nimmt es ab
+fr: Consommation : la gare cachée la prend
+
+de: Verbrauch: {0}
+fr: Consommation : {0}
+
+de: Verbraucher:
+fr: Consommateur :
+
+de: Verbraucht
+fr: Consommé
+
+de: Verfügbar
+fr: Disponible
+
+de: Verkehr Schritt für Schritt aufbauen: Bahnhöfe, Gleise, Umgebung, Lieferketten
+fr: Construire le trafic pas à pas : gares, voies, environnement, chaînes
+
+de: Verkehrs-Assistent – Einrichtung Bahnhöfe
+fr: Assistant trafic – configuration des gares
+
+de: Verkehrs-Assistent – Prüfung
+fr: Assistant trafic – vérification
+
+de: Verkehrs-Assistent – Transport festlegen
+fr: Assistant trafic – définir un transport
+
+de: Verkehrs-Assistent…
+fr: Assistant trafic…
+
+de: Verknüpft mit {0}.\n\nDaten aus dieser Datei jetzt übernehmen?
+fr: Lié à {0}.\n\nReprendre maintenant les données de ce fichier ?
+
+de: Verknüpfte .tcdz geändert
+fr: .tcdz lié modifié
+
+de: Vernichtet
+fr: Détruit
+
+de: Versand
+fr: Expédition
+
+de: Versand heute
+fr: Expédition aujourd'hui
+
+de: Versorgung
+fr: Approvisionnement
+
+de: Versorgung heute
+fr: Approvisionnement aujourd'hui
+
+de: Vertikal:
+fr: Vertical :
+
+de: Verwendet für
+fr: Utilisé pour
+
+de: Verwendet: {0}
+fr: Utilisé : {0}
+
+de: Verwerfen
+fr: Abandonner
+
+de: Viehzuchtbetrieb
+fr: Élevage
+
+de: Vom Schattenbahnhof
+fr: De la gare cachée
+
+de: Vom Schattenbahnhof (kommt von außerhalb der Anlage)
+fr: De la gare cachée (vient de l'extérieur du réseau)
+
+de: Von beiden Seiten
+fr: Des deux côtés
+
+de: Von und nach sind derselbe Bahnhof – kein Transport nötig.
+fr: De et vers sont la même gare – pas de transport nécessaire.
+
+de: Voreinstellung der Ladeklasse
+fr: Préréglage de la classe de chargement
+
+de: Voreinstellungen
+fr: Préférences
+
+de: Vorerst nichts
+fr: Rien pour l'instant
+
+de: Vorgabe nach Größe (Stadt, Dorf, Ländlich) als Anteil der Abreisenden. Wird am Bahnsteig in Personenzüge mit Wagen „Kann Post/Expressgut mitnehmen“ geladen.
+fr: Valeur par défaut selon la taille (ville, village, rural) en part des partants. Chargé au quai dans les trains de voyageurs ayant des voitures « Peut transporter courrier/messagerie ».
+
+de: Vorgang
+fr: Opération
+
+de: Vorgang starten – aufgezeichneter Ablauf
+fr: Lancer le déroulement – déroulement enregistré
+
+de: Vorgang starten…
+fr: Lancer le déroulement…
+
+de: Vorgänge erscheinen hier, je Zug eine Tabelle.
+fr: Les opérations apparaissent ici, un tableau par train.
+
+de: Vorhanden: {0}{1}
+fr: Présent : {0}{1}
+
+de: Vorhandene Erzeuger anpassen (mehr herstellen)
+fr: Adapter les producteurs existants (produire plus)
+
+de: Vorhandenen Ort wählen
+fr: Choisir une localité existante
+
+de: Vorhandenes wählen
+fr: Choisir l'existant
+
+de: Vorlage
+fr: Modèle
+
+de: Vorlage wählen.\nRohstoffbetriebe brauchen Dünger, Werkzeuge oder Maschinen als Eingang.\nDanach zeigt „Zusätzlich erforderlich“, was der Betrieb noch braucht.
+fr: Choisir un modèle.\nLes entreprises de matières premières ont besoin d'engrais, d'outils ou de machines en entrée.\nEnsuite « Nécessaire en plus » montre ce dont l'entreprise a encore besoin.
+
+de: Vorlage:
+fr: Modèle :
+
+de: Vorschau:
+fr: Aperçu :
+
+de: Vorschlag
+fr: Proposition
+
+de: Vorschlag Ländlich
+fr: Proposition rural
+
+de: Vorschlag für ein Dorf
+fr: Proposition pour un village
+
+de: Vorschlag für eine Stadt
+fr: Proposition pour une ville
+
+de: Vorschlag „{0}“ gespeichert.
+fr: Proposition « {0} » enregistrée.
+
+de: Vorschlag…
+fr: Proposition…
+
+de: Wagen
+fr: Wagon
+
+de: Wagen ergänzen
+fr: Compléter les wagons
+
+de: Wagen hinzufügen
+fr: Ajouter un wagon
+
+de: Wagen hinzufügen…
+fr: Ajouter un wagon…
+
+de: Wagen importieren...
+fr: Importer des wagons...
+
+de: Wagen links auswählen.
+fr: Choisir un wagon à gauche.
+
+de: Wagen mit öffnungsfähigem Dach
+fr: Wagon à toit ouvrant
+
+de: Wagenart
+fr: Type de wagon
+
+de: Wagenbauart
+fr: Construction du wagon
+
+de: Wagenladungen
+fr: Chargements par wagon
+
+de: Wandlung
+fr: Transformation
+
+de: Warten
+fr: Attendre
+
+de: Wartend
+fr: En attente
+
+de: Wartende Personen
+fr: Personnes en attente
+
+de: Wartende Personen (1. Klasse / 2. Klasse): {0}
+fr: Personnes en attente (1re classe / 2e classe) : {0}
+
+de: Wartende Personen Richtung {0}
+fr: Personnes en attente direction {0}
+
+de: Wartende/Kapazität
+fr: En attente/capacité
+
+de: Wartet
+fr: Attend
+
+de: Wartet auf Eingang: {0}
+fr: Attend une entrée : {0}
+
+de: Wartezeit-Zähler ausblenden
+fr: Masquer le compteur de temps d'attente
+
+de: Was soll passieren
+fr: Ce qui doit se passer
+
+de: Was:
+fr: Quoi :
+
+de: Wasserstoff
+fr: Hydrogène
+
+de: Wasserverbrauch Liter/km
+fr: Consommation d'eau litres/km
+
+de: Wasservorrat Kubikmeter
+fr: Réserve d'eau mètres cubes
+
+de: Weberei
+fr: Tissage
+
+de: Weicht von der Zusammenstellung in der .tcdz ab (eigene, erweiterte Daten).
+fr: Diffère de la composition dans le .tcdz (données propres, étendues).
+
+de: Weiter
+fr: Suivant
+
+de: Weiter >
+fr: Suivant >
+
+de: Weiteren Betrieb anlegen
+fr: Créer une autre entreprise
+
+de: Weiß
+fr: Blanc
+
+de: Welcher Betrieb liegt an den Ladegleisen von „{0}“?
+fr: Quelle entreprise se trouve aux voies de chargement de « {0} » ?
+
+de: Welcher Ort, Betrieb, welches Lager oder welche Übergabe?
+fr: Quelle localité, entreprise, quel entrepôt ou échange ?
+
+de: Welcher Ort?
+fr: Quelle localité ?
+
+de: Welches Gleis soll Ladegleis werden? Ein Bahnsteig kann zugleich Ladegleis sein. {0}
+fr: Quelle voie doit devenir voie de chargement ? Un quai peut être en même temps voie de chargement. {0}
+
+de: Werkzeuge
+fr: Outils
+
+de: Werkzeugfabrik
+fr: Usine d'outils
+
+de: Wert
+fr: Valeur
+
+de: Wie viel Kapazität eines {0}-Wagens (in {1}) eine Einheit {2} belegt. Beispiel: 10 – ein Wagen mit Kapazität 20 lädt 2.
+fr: Combien de capacité d'un wagon {0} (en {1}) occupe une unité de {2}. Exemple : 10 – un wagon de capacité 20 charge 2.
+
+de: Wie viel der Wagen insgesamt aufnimmt, in der gewählten Einheit (Gebinde und Stück zählen gleich). Hat ein Gut eine eigene Einheit (z. B. Brammen zu je 10), belegt jede Einheit entsprechend mehr. Welche Kapazitäten gebraucht werden, zeigt Tabellen > Kapazitäten.
+fr: Combien le wagon contient au total, dans l'unité choisie (caisses et pièces comptent pareil). Si une marchandise a sa propre unité (p. ex. brames de 10), chaque unité occupe d'autant plus. Tableaux > Capacités montre quelles capacités sont nécessaires.
+
+de: Wird von außerhalb geliefert
+fr: Livré de l'extérieur
+
+de: Wo läuft iTrain?
+fr: Où tourne iTrain ?
+
+de: Wolle
+fr: Laine
+
+de: Wollen verreisen: {0} (gehen alle {1} Modellminuten zum Bahnhof)
+fr: Veulent partir : {0} (vont à la gare toutes les {1} minutes de modèle)
+
+de: Wurzel
+fr: Racine
+
+de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
+fr: Choisissez les cantons qui appartiennent à la gare cachée dans iTrain, et pour chaque canton si on y {0}. De préférence une voie par sens de marche.
+
+de: XTC antwortet nicht
+fr: XTC ne répond pas
+
+de: XTC-Port (Vorgabe {0})
+fr: Port XTC (par défaut {0})
+
+de: Zeit
+fr: Heure
+
+de: Zeit (Trigger)
+fr: Heure (trigger)
+
+de: Zeit für Beladen
+fr: Temps de chargement
+
+de: Zeit für Beladen (Sekunden)
+fr: Temps de chargement (secondes)
+
+de: Zeit für Entladen
+fr: Temps de déchargement
+
+de: Zeit für Entladen (Sekunden)
+fr: Temps de déchargement (secondes)
+
+de: Zement
+fr: Ciment
+
+de: Zementwerk
+fr: Cimenterie
+
+de: Zentriert
+fr: Centré
+
+de: Ziegel
+fr: Briques
+
+de: Ziegelei
+fr: Briqueterie
+
+de: Ziehen ordnet an (mit Umschalt rastet die Verbindung gerade im 90°-Winkel ein) · rechten Rand ziehen = Breite · Anschluss: Rechtsklick „Mit Station verbinden…“ · Doppelklick bearbeitet · Rechtsklick: Farbe/Löschen, auf einer Linie: Linienstärke · Palette: klicken oder auf die Fläche ziehen
+fr: Glisser pour disposer (avec Maj la liaison s'aligne à 90°) · tirer le bord droit = largeur · raccordement : clic droit « Relier à la gare… » · double-clic modifie · clic droit : couleur/supprimer, sur une ligne : épaisseur · palette : cliquer ou glisser sur la surface
+
+de: Ziele nehmen nur {0} M/h auf
+fr: Les destinations ne prennent que {0} M/h
+
+de: Zirkus
+fr: Cirque
+
+de: Zoom
+fr: Zoom
+
+de: Zoom:
+fr: Zoom :
+
+de: Zu wenig Platz an den Ladegleisen für: {0}.\nEin Lager an diesem Bahnhof nimmt auf, was die Gleise nicht halten können, und gibt es nach und nach weiter.
+fr: Trop peu de place aux voies de chargement pour : {0}.\nUn entrepôt à cette gare accueille ce que les voies ne peuvent pas contenir et le transmet peu à peu.
+
+de: Zu „{0}“ gibt es schon Fahrzeugdaten ({1}: Angaben zu Lokomotiven, Wagen und Zügen).\n\n„Übernehmen“: diese Konfiguration benutzt sie mit; Änderungen gelten auch für die anderen Konfigurationen dieser Anlage.\n„Nicht übernehmen“: eigene, leere Fahrzeugdaten.
+fr: Il existe déjà des données véhicules pour « {0} » ({1} : données sur locomotives, wagons et trains).\n\n« Reprendre » : cette configuration les partage ; les modifications valent aussi pour les autres configurations de ce réseau.\n« Ne pas reprendre » : données véhicules propres, vides.
+
+de: Zug
+fr: Train
+
+de: Zug links auswählen.
+fr: Choisir un train à gauche.
+
+de: Zug mit passenden Wagen
+fr: Train avec wagons adaptés
+
+de: Zug von links auf die linke oder rechte Seite eines Blocks ziehen.
+fr: Faire glisser un train de la gauche sur le côté gauche ou droit d'un canton.
+
+de: Zug {0}
+fr: Train {0}
+
+de: Zug {0}{1}
+fr: Train {0}{1}
+
+de: Zug:
+fr: Train :
+
+de: Zuganzeiger
+fr: Départs
+
+de: Zuganzeiger Güterverkehr
+fr: Départs marchandises
+
+de: Zuganzeiger Personen- und Güterverkehr auf Handy, Tablet oder anderem Rechner
+fr: Tableaux des départs voyageurs et marchandises sur téléphone, tablette ou autre ordinateur
+
+de: Zuganzeiger Personenverkehr
+fr: Départs voyageurs
+
+de: Zuganzeiger für Personen- oder Güterverkehr: die nächsten nötigen Fahrten als Abfahrtstafel, auf jeden Monitor ziehbar
+fr: Tableau des départs voyageurs ou marchandises : les prochains trajets nécessaires comme tableau d'affichage, déplaçable sur tout écran
+
+de: Zuganzeiger je Bahnhof
+fr: Départs par gare
+
+de: Zuklappen
+fr: Replier
+
+de: Zuletzt verwendet...
+fr: Utilisés récemment...
+
+de: Zuordnen über "Bearbeiten…".
+fr: Attribuer via "Modifier…".
+
+de: Zur Lieferung auswählen (Ladegleise):
+fr: Choisir pour la livraison (voies de chargement) :
+
+de: Zurzeit sind keine Fahrten nötig.
+fr: Aucun trajet nécessaire pour l'instant.
+
+de: Zurück
+fr: Retour
+
+de: Zustand
+fr: État
+
+de: Zusteigen erlaubt
+fr: Montée autorisée
+
+de: Zusätzlich erforderlich
+fr: Nécessaire en plus
+
+de: Zwischenprodukt
+fr: Produit intermédiaire
+
+de: Züge
+fr: Trains
+
+de: Züge (auf einen Block ziehen)
+fr: Trains (glisser sur un canton)
+
+de: alle Güter
+fr: toutes les marchandises
+
+de: alle Güter der Ladeklasse {0}
+fr: toutes les marchandises de la classe {0}
+
+de: aus dem Nichts
+fr: de nulle part
+
+de: aussteigen in {0}
+fr: descendre à {0}
+
+de: der Abnehmer
+fr: le client
+
+de: der volle Triebzug
+fr: l'automotrice pleine
+
+de: die Betriebe
+fr: les entreprises
+
+de: eigener Betrieb
+fr: entreprise propre
+
+de: ein voller Wagen
+fr: un wagon plein
+
+de: erst eine Station anlegen
+fr: créer d'abord une gare
+
+de: es fehlen
+fr: il manque
+
+de: es fehlen {0} M/h
+fr: il manque {0} M/h
+
+de: es kommen nur {0} M/h
+fr: il n'arrive que {0} M/h
+
+de: geeignet: Zug 
+fr: adapté : train 
+
+de: geeignet: Züge 
+fr: adaptés : trains 
+
+de: gelb – Anlieferung aus Lager möglich
+fr: jaune – livraison depuis l'entrepôt possible
+
+de: grün
+fr: vert
+
+de: hält
+fr: s'arrête
+
+de: iTrain Datei neu einlesen...
+fr: Relire le fichier iTrain...
+
+de: iTrain Verbindung
+fr: Connexion iTrain
+
+de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+fr: iTrain choisi : événements de train en ligne via XTC ({0}:{1}). Ctrl + clic sur la source affiche Rx/Tx.
+
+de: iTrain läuft auf diesem Computer
+fr: iTrain tourne sur cet ordinateur
+
+de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
+fr: iTrain tourne sur cet ordinateur ({0}), XTC ne répond pas sur le port {1}
+
+de: iTrain läuft auf einem anderen Computer
+fr: iTrain tourne sur un autre ordinateur
+
+de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
+fr: iTrain ne tourne pas sur cet ordinateur (le port XTC {0} ne répond pas)
+
+de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+fr: iTrain tourne, mais l'interface XTC ne répond pas. Sans XTC, aucun événement de train n'arrive en ligne.\n\nVérifier : Réglages → Connexion à iTrain (adresse et port XTC, par défaut 7128) ; si iTrain tourne sur un autre ordinateur, son pare-feu doit autoriser le port en entrée.
+
+de: iTrain nicht mehr gefunden.
+fr: iTrain introuvable désormais.
+
+de: iTrain noch nicht gestartet
+fr: iTrain pas encore démarré
+
+de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+fr: iTrain injoignable à {0} (le port XTC {1} ne répond pas ; iTrain tourne-t-il ? adresse correcte ? le pare-feu Windows de l'ordinateur iTrain doit autoriser le port {2} en entrée)
+
+de: iTrain wird gesucht …
+fr: Recherche d'iTrain …
+
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+fr: iTrain introuvable, la logistique est en pause.\n\nSi iTrain tourne déjà, vérifier l'adresse et le port XTC sous Réglages → Connexion à iTrain (aussi « Vérifier la connexion »).
+
+de: iTrain → Voreinstellungen → Modus → Server
+fr: iTrain → Préférences → Mode → Serveur
+
+de: iTrain-Anlagendatei verknüpfen
+fr: Lier un fichier de réseau iTrain
+
+de: iTrain-Anlagendatei wählen
+fr: Choisir un fichier de réseau iTrain
+
+de: iTrain-Dateien (*.tcdz, *.tcd)
+fr: Fichiers iTrain (*.tcdz, *.tcd)
+
+de: iTrain-Logistik Wagen-Angaben
+fr: Données wagon iTrain-Logistik
+
+de: iTrain-Logistik – {0}
+fr: iTrain-Logistik – {0}
+
+de: iTrain-Logistik-Dateien (*.logz)
+fr: Fichiers iTrain-Logistik (*.logz)
+
+de: iTrain-Logistik-Simulator – {0}
+fr: Simulateur iTrain-Logistik – {0}
+
+de: iTrain-Prüfung fehlgeschlagen: {0}
+fr: Vérification iTrain échouée : {0}
+
+de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
+fr: Serveur iTrain joignable à {0}:{1}, mais XTC ne répond pas sur le port {2}
+
+de: je Modellstunde
+fr: par heure de modèle
+
+de: kein Abnehmer
+fr: pas de client
+
+de: kein Bedarf eingetragen
+fr: aucun besoin saisi
+
+de: kein Güterbahnhof – Güter kommen nicht an
+fr: pas de gare de fret – les marchandises n'arrivent pas
+
+de: kein Lieferant
+fr: pas de fournisseur
+
+de: kein Personenzug mit Gepäckwagen (Koffer als Ladegut aktivieren)
+fr: pas de train voyageurs avec fourgon (activer les bagages comme chargement)
+
+de: kein Ziel
+fr: pas de destination
+
+de: kein Ziel – weiterer Bahnhof oder Schattenbahnhof nötig
+fr: pas de destination – autre gare ou gare cachée nécessaire
+
+de: kein Zug kann das laden
+fr: aucun train ne peut charger cela
+
+de: kein Zug kann „{0}“ laden (Wagen ergänzen oder Lade-Joker)
+fr: aucun train ne peut charger « {0} » (compléter les wagons ou joker)
+
+de: kein Zug mit Plätzen
+fr: aucun train avec places
+
+de: kein anderer Bahnhof mit Bahnsteig „Mit Koffer“
+fr: aucune autre gare avec quai « Avec bagage »
+
+de: kein {0} vorhanden
+fr: pas de {0}
+
+de: keine (keine Trennung nach Richtung)
+fr: aucune (pas de séparation par direction)
+
+de: keine Gleise
+fr: pas de voies
+
+de: keine Güter aktiv
+fr: aucune marchandise active
+
+de: keine Güter am Gleis
+fr: aucune marchandise sur la voie
+
+de: keine – bitte in iTrain anlegen, dann „Abgleichen“ und den Assistenten erneut starten
+fr: aucun – à créer dans iTrain, puis « Synchroniser » et relancer l'assistant
+
+de: localhost oder z. B. 192.168.0.171
+fr: localhost ou p. ex. 192.168.0.171
+
+de: mehr als {0} Fahrten je Modellstunde nötig – Menge senken oder größere Züge
+fr: plus de {0} trajets par heure de modèle nécessaires – réduire la quantité ou des trains plus grands
+
+de: nach jeder Übergabe von Gütern oder Personen
+fr: après chaque transfert de marchandises ou de personnes
+
+de: niemand bringt Reisende – weiterer Bahnhof oder Schattenbahnhof nötig
+fr: personne n'amène de voyageurs – autre gare ou gare cachée nécessaire
+
+de: nimmt alles ab
+fr: prend tout
+
+de: noch {0} cm
+fr: encore {0} cm
+
+de: nur mit {0} verbunden{1}
+fr: relié seulement à {0}{1}
+
+de: rot – Abholung nötig
+fr: rouge – enlèvement nécessaire
+
+de: rot – Anlieferung nötig
+fr: rouge – livraison nécessaire
+
+de: translations.properties wurde weder im Arbeitsverzeichnis noch als Ressource gefunden - es werden nur die Schluessel angezeigt.
+fr: translations.properties n'a été trouvé ni dans le dossier de travail ni comme ressource - seules les clés sont affichées.
+
+de: von links
+fr: par la gauche
+
+de: von links → {0}
+fr: par la gauche → {0}
+
+de: von rechts
+fr: par la droite
+
+de: wird entladen
+fr: en déchargement
+
+de: wird geladen
+fr: en chargement
+
+de: z. B. 192.168.0.171 oder Rechnername
+fr: p. ex. 192.168.0.171 ou nom d'ordinateur
+
+de: zeigt zurzeit: {0}{1}
+fr: affiche actuellement : {0}{1}
+
+de: zurzeit kein Umladen
+fr: pas de transbordement actuellement
+
+de: {0}\nAusgewähltes wird mit „Weiter“ übernommen; „Offen lassen“ ändert nichts.
+fr: {0}\nLa sélection est reprise avec « Suivant » ; « Laisser ouvert » ne change rien.
+
+de: {0}\nBahnhof: {1}
+fr: {0}\nGare : {1}
+
+de: {0}\nKein Bahnhof mit Bahnsteig angeschlossen
+fr: {0}\nAucune gare avec quai raccordée
+
+de: {0}   ↔   verknüpft mit {1}{2}
+fr: {0}   ↔   lié à {1}{2}
+
+de: {0} % der Reisenden in „{1}“ haben einen Koffer.
+fr: {0} % des voyageurs de « {1} » ont un bagage.
+
+de: {0} (Build {1})
+fr: {0} (build {1})
+
+de: {0} ({1} Koffer)
+fr: {0} ({1} bagages)
+
+de: {0} Ausführungen/h
+fr: {0} exécutions/h
+
+de: {0} Bahnhof/Bahnhöfe angeheftet oder ergänzt.
+fr: {0} gare(s) rattachée(s) ou complétée(s).
+
+de: {0} Beim Personen-/Gepäckwagen gelten die Zeiten für Reisende und Gepäck.
+fr: {0} Pour la voiture voyageurs/fourgon, les temps valent pour les voyageurs et les bagages.
+
+de: {0} Gbf
+fr: {0} Gm
+
+de: {0} Güter
+fr: {0} marchandises
+
+de: {0} Güter ergänzt.
+fr: {0} marchandises ajoutées.
+
+de: {0} Hinweise
+fr: {0} avis
+
+de: {0} Kapazitäten
+fr: {0} capacités
+
+de: {0} Personen
+fr: {0} personnes
+
+de: {0} Plätze
+fr: {0} places
+
+de: {0} Plätze 1. Klasse
+fr: {0} places 1re classe
+
+de: {0} Plätze 2. Klasse
+fr: {0} places 2e classe
+
+de: {0} Reisende wollen je Modellstunde aus „{1}“ abfahren.
+fr: {0} voyageurs veulent partir de « {1} » par heure de modèle.
+
+de: {0} Station(en) aus den iTrain-Bahnhöfen eingefügt.
+fr: {0} gare(s) insérée(s) depuis les gares iTrain.
+
+de: {0} Wagenladungen{1}, {2}/{3} Plätze
+fr: {0} chargements{1}, {2}/{3} places
+
+de: {0} aus „{1}“
+fr: {0} de « {1} »
+
+de: {0} ausgewählt
+fr: {0} choisi(s)
+
+de: {0} braucht Güter. Der Güterbahnhof gehört zu {1}. Welche Blöcke sind Ladegleise? (Er darf dieselben Blöcke wie der Bahnhof nutzen.)
+fr: {0} a besoin de marchandises. La gare de fret appartient à {1}. Quels cantons sont des voies de chargement ? (Elle peut utiliser les mêmes cantons que la gare.)
+
+de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
+fr: {0} traverse {1}, {2} (chargement/déchargement au passage)
+
+de: {0} erreichbar über XTC unter {1}:{2}
+fr: {0} joignable via XTC à {1}:{2}
+
+de: {0} fährt ab von {1}{2}
+fr: {0} part de {1}{2}
+
+de: {0} für „{1}“
+fr: {0} pour « {1} »
+
+de: {0} gehört zur Anlage · kein Austausch, Reisende und Güter fahren mit Zügen
+fr: {0} appartient au réseau · pas d'échange, voyageurs et marchandises voyagent en train
+
+de: {0} hat Passagiere. Welche Blöcke von {1} sind Personengleise (Bahnsteige)? Keine Auswahl = keine Personen.
+fr: {0} a des voyageurs. Quels cantons de {1} sont des voies voyageurs (quais) ? Aucun choix = pas de personnes.
+
+de: {0} hat keine {1}e.
+fr: {0} n'a pas de {1}.
+
+de: {0} hält in {1}, {2}{3}
+fr: {0} s'arrête à {1}, {2}{3}
+
+de: {0} ist angeschlossen an
+fr: {0} est raccordé à
+
+de: {0} ist mit keinem Bahnhof verbunden{1}
+fr: {0} n'est relié à aucune gare{1}
+
+de: {0} mit „{1}“ verbinden ({2}, {3} Bahnsteige)
+fr: relier {0} à « {1} » ({2}, {3} quais)
+
+de: {0} sollen je Modellstunde nach „{1}“ geliefert werden.
+fr: {0} doivent être livrés à « {1} » par heure de modèle.
+
+de: {0} von {1} Blöcken sind keinem Gleis zugeordnet (Strecke).
+fr: {0} cantons sur {1} ne sont attribués à aucune voie (ligne).
+
+de: {0} wird auf der Anlage nirgends benötigt.\nTrotzdem zum Verladen bereitstellen?
+fr: {0} n'est nécessaire nulle part sur le réseau.\nLe mettre quand même à disposition pour le chargement ?
+
+de: {0} wird in {1} benötigt.\nZum Verladen bereitstellen?
+fr: {0} est nécessaire à {1}.\nLe mettre à disposition pour le chargement ?
+
+de: {0} wird noch verwendet: {1}
+fr: {0} est encore utilisé : {1}
+
+de: {0} {1} je Modellstunde
+fr: {0} {1} par heure de modèle
+
+de: {0} – Logistik gestartet.
+fr: {0} – logistique démarrée.
+
+de: {0} – Logistik ist auf Pause.
+fr: {0} – la logistique est en pause.
+
+de: {0} – hier gilt „{1}“
+fr: {0} – ici vaut « {1} »
+
+de: {0} – liefert immer, ohne auf der Anlage zu sein
+fr: {0} – livre toujours, sans être sur le réseau
+
+de: {0} – nur über Gleise (Angebot/Reisende je Gleis)
+fr: {0} – uniquement par les voies (offre/voyageurs par voie)
+
+de: {0} – schon mit „{1}“ verbunden
+fr: {0} – déjà relié à « {1} »
+
+de: {0} ← von rechts
+fr: {0} ← par la droite
+
+de: {0}: bereit zum Transport / Lagerkapazität am Güterbahnhof
+fr: {0} : prêt au transport / capacité de stockage à la gare de fret
+
+de: {0}Annehmen
+fr: {0}Accepter
+
+de: {0}{1}Geräusche
+fr: {0}{1}Sons
+
+de: Änderungen speichern?
+fr: Enregistrer les modifications ?
+
+de: Öffnen...
+fr: Ouvrir...
+
+de: Ölplattform
+fr: Plateforme pétrolière
+
+de: Ölquelle
+fr: Puits de pétrole
+
+de: Ölraffinerie
+fr: Raffinerie
+
+de: Über
+fr: À propos
+
+de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
+fr: Via XTC, iTrain signale pour chaque train l'entrée dans un canton, l'attente avec sa durée et le départ ainsi que l'heure du modèle. Si iTrain tourne sur un autre ordinateur, son pare-feu doit autoriser le port XTC en entrée.
+
+de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
+fr: Par le nom de l'ordinateur (fonctionne si le routeur ou l'appareil connaît le nom) :
+
+de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+fr: Via l'interface XTC, iTrain signale pour chaque train l'entrée, l'attente avec sa durée et le départ ainsi que l'heure du modèle. "localhost" = iTrain tourne sur cet ordinateur. Si iTrain tourne sur un autre ordinateur, son pare-feu Windows doit autoriser le port XTC en entrée. Les modifications s'appliquent après la fermeture des préférences.
+
+de: Übergabe
+fr: Échange
+
+de: Übergabe (Außenwelt)
+fr: Échange (monde extérieur)
+
+de: Übergabe bearbeiten
+fr: Modifier l'échange
+
+de: Übergabe/Schattenbahnhof
+fr: Échange/gare cachée
+
+de: Übergabe: Güter kommen von außerhalb oder gehen hinaus
+fr: Échange : les marchandises viennent de l'extérieur ou y vont
+
+de: Übernehmen
+fr: Reprendre
+
+de: Übernimmt Personenwerte und Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+fr: Reprend les valeurs de voyageurs et les quantités de marchandises (remplace le tableau). ★ = proposition propre.
+
+de: Überschuss
+fr: Surplus
+
+de: Überschuss vernichtet (heute)
+fr: Surplus détruit (aujourd'hui)
+
+de: Überschuss {0} M/h (wird gelagert)
+fr: Surplus {0} M/h (stocké)
+
+de: Übersicht
+fr: Vue d'ensemble
+
+de: Übersicht öffnen
+fr: Ouvrir la vue d'ensemble
+
+de: Überträgt den Wert der ersten markierten Zeile in der gewählten Spalte auf alle markierten Zeilen
+fr: Reporte la valeur de la première ligne sélectionnée dans la colonne choisie sur toutes les lignes sélectionnées
+
+de: – direkt –
+fr: – direct –
+
+de: – kein Abnehmer
+fr: – pas de client
+
+de: – kein Gegenstück
+fr: – pas de contrepartie
+
+de: – kein Lieferant
+fr: – pas de fournisseur
+
+de: – niemand
+fr: – personne
+
+de: „Liefert immer, ohne auf der Anlage zu sein“ ist angehakt: alle Eingänge werden immer geliefert. Haken entfernen, um einzelne Güter zu wählen.
+fr: « Livre toujours, sans être sur le réseau » est coché : toutes les entrées sont toujours livrées. Décocher pour choisir des marchandises individuelles.
+
+de: „Weiter“ ergänzt: {0}{1}
+fr: « Suivant » complète : {0}{1}
+
+de: „{0}“ braucht je Modellstunde {1}.
+fr: « {0} » a besoin de {1} par heure de modèle.
+
+de: „{0}“ erhöhen
+fr: Augmenter « {0} »
+
+de: „{0}“ fährt ab aus „{1}“ – Route „{2}“{3}.
+fr: « {0} » part de « {1} » – itinéraire « {2} »{3}.
+
+de: „{0}“ fährt in „{1}“ ({2}) von der falschen Seite ein – Zug muss Kopf machen.
+fr: « {0} » entre dans « {1} » ({2}) du mauvais côté – le train doit rebrousser.
+
+de: „{0}“ hat noch die Art „Anderes“ (aus iTrain „other“) – dort halten Züge ohne Ein- und Aussteigen; im Stationsdialog Art „Bahnhof“ oder „Haltepunkt“ wählen
+fr: « {0} » a encore le type « Autre » (d'iTrain « other ») – les trains s'y arrêtent sans montée ni descente ; choisir le type « Gare » ou « Halte » dans le dialogue de la gare
+
+de: „{0}“ hat noch kein Ladegleis
+fr: « {0} » n'a pas encore de voie de chargement
+
+de: „{0}“ hat noch kein Ladegleis, und es ist kein freier Block da. Bitte später im Stationsdialog ein Gleis als Ladegleis einrichten.
+fr: « {0} » n'a pas encore de voie de chargement et aucun canton n'est libre. Veuillez aménager plus tard une voie de chargement dans le dialogue de la gare.
+
+de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
+fr: « {0} » s'arrête à « {1} » : type « Autre », donc pas de montée ni de descente. Choisir le type dans le dialogue de la gare (p. ex. gare).
+
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+fr: « {0} » sera alors rattaché au {1} au lieu de l'infrastructure du réseau.\nGare de fret, localités, entreprises et entrepôts suivent dans son onglet.
+
+de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
+fr: « {0} » à « {1} » : temps d'attente insuffisant pour faire monter/descendre tous les voyageurs.
+
+de: „{0}“ in „{1}“: Wartezeit zu kurz, um alles zu laden.
+fr: « {0} » à « {1} » : temps d'attente trop court pour tout charger.
+
+de: „{0}“ liefert automatisch, ohne Zug.
+fr: « {0} » livre automatiquement, sans train.
+
+de: „{0}“ liefert {1} unbegrenzt.
+fr: « {0} » livre {1} sans limite.
+
+de: „{0}“ liefert, ohne auf der Anlage zu sein.
+fr: « {0} » livre sans être sur le réseau.
+
+de: „{0}“ nimmt beliebig viele ankommende Reisende auf.
+fr: « {0} » accueille autant de voyageurs arrivants que voulu.
+
+de: „{0}“ nimmt je Modellstunde {1} ankommende Reisende auf.
+fr: « {0} » accueille {1} voyageurs arrivants par heure de modèle.
+
+de: „{0}“ stellt je Modellstunde {1} her{2}.
+fr: « {0} » produit {1} par heure de modèle{2}.
+
+de: „{0}“ stellt {1} schon her; es fehlen {2} je Modellstunde.
+fr: « {0} » produit déjà {1} ; il manque {2} par heure de modèle.
+
+de: „{0}“ zum Bahnhof machen (bisher „Anderes“{1}
+fr: Faire de « {0} » une gare (jusqu'ici « Autre »{1}
+
+de: „Übernehmen“ trägt das in die Anlage ein. Was danach noch fehlt, zeigt der Assistent an.
+fr: « Reprendre » inscrit cela dans le réseau. Ce qui manque ensuite, l'assistant l'indique.
+
+de: ∞ von außerhalb geliefert
+fr: ∞ livré de l'extérieur
+
+de: ■ Stopp
+fr: ■ Stop
+
+de: ▭ Block 
+fr: ▭ Canton 
+
+de: ▲ Abreisende 
+fr: ▲ Partants 
+
+de: ▲ Entladen · ▼ Beladen
+fr: ▲ Déchargement · ▼ Chargement
+
+de: ▲ {0} geht an:
+fr: ▲ {0} va à :
+
+de: ▶ Austausch läuft
+fr: ▶ Échange en cours
+
+de: ▶ Probehören
+fr: ▶ Écouter
+
+de: ▶ Start
+fr: ▶ Démarrer
+
+de: ▼ Ankommende 
+fr: ▼ Arrivants 
+
+de: ▼ wartet auf Abholung · ▲ abgeladen, geht an die Abnehmer · Kapazität {0} je Gut{1}
+fr: ▼ attend l'enlèvement · ▲ déchargé, va aux clients · capacité {0} par marchandise{1}
+
+de: ▼ {0} kommt von:
+fr: ▼ {0} vient de :
+
+de: ▼ {0} {1} M/h – {2}, kommt von:
+fr: ▼ {0} {1} M/h – {2}, vient de :
+
+de: ▼ {0} – {1}, kommt von:
+fr: ▼ {0} – {1}, vient de :
+
+de: ⚠ Kopf machen{0}
+fr: ⚠ Rebrousser{0}
+
+de: ✔ Direkte Verbindung über die Zugroute „{0}“.
+fr: ✔ Liaison directe par l'itinéraire « {0} ».
+
+de: ✔ in Ordnung
+fr: ✔ en ordre
+
+de: ✔ {0} auf {1}:{2}, {3} Züge
+fr: ✔ {0} sur {1}:{2}, {3} trains
+
+de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
+fr: ✔ {0} tourne sur {1} (port XTC {2}), {3} trains : {4}
+
+de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
+fr: ✘ Pas de réponse d'iTrain à {0}:{1} ({2}).\niTrain tourne-t-il là ? Le pare-feu Windows de l'ordinateur iTrain est-il ouvert en entrée pour le port {3} ? Adresse et port sont-ils corrects ?
+
+de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
+fr: ✘ Pas de réponse d'iTrain-XTC à {0}:{1} ({2})
+
+de: ❚❚ Austausch angehalten
+fr: ❚❚ Échange en pause
+
+de: ❚❚ Pause
+fr: ❚❚ Pause
+
+de: ❚❚ pausiert
+fr: ❚❚ en pause
+
+de: Verkehrs-Assistent...
+fr: Assistant trafic...
+
+de: Symbole...
+fr: Symboles...
+
+de: Anlagen-Infrastruktur
+fr: Infrastructure du réseau
+
+de: leer
+fr: vide
+
+de: Modellbahn-Faktor
+fr: Facteur du réseau
+
+de: Vorbild-Gewicht/Ladegewicht
+fr: Poids réel/charge
+
+de: Vorbild-Volumen
+fr: Volume réel
+
+de: Offen/Geschlossen
+fr: Ouvert/fermé
+
+de: alle
+fr: toutes
+
+de: nein
+fr: non
+
+de: ja
+fr: oui
+
+de: 1. Kl.
+fr: 1re cl.
+
+de: 2. Kl.
+fr: 2e cl.
+
+de: Wartend: {0} (1. Kl.) + {1} (2. Kl.) / {2}
+fr: En attente : {0} (1re cl.) + {1} (2e cl.) / {2}
+
+de: Passagiere 1. Klasse: {0} / {1},  2. Klasse: {2} / {3}
+fr: Voyageurs 1re classe : {0} / {1},  2e classe : {2} / {3}
+
+de: Block: -
+fr: Canton : -
+
+de: XTC-Port:
+fr: Port XTC :
+
+de: {0} Blöcke
+fr: {0} cantons
+
+de: (keine)
+fr: (aucune)
+
+de: Aktualisierung
+fr: Mise à jour
+
+de: Alle 10 Sekunden
+fr: Toutes les 10 secondes
+
+de: Alle 15 Minuten
+fr: Toutes les 15 minutes
+
+de: Alle 30 Sekunden
+fr: Toutes les 30 secondes
+
+de: Alle 5 Minuten
+fr: Toutes les 5 minutes
+
+de: Anfangsordner für Layout-Dateien
+fr: Dossier de départ des fichiers de réseau
+
+de: Ansicht
+fr: Affichage
+
+de: Beim Start automatisch nach Updates suchen
+fr: Mises à jour auto au démarrage
+
+de: Bildschirm
+fr: Écran
+
+de: Bildschirm {0} ({1}x{2})
+fr: Écran {0} ({1}x{2})
+
+de: Blockpositionen
+fr: Positions des cantons
+
+de: Blöcke
+fr: Cantons
+
+de: Daten ändern
+fr: Modifier les données
+
+de: Die Uhr zeigt die aus der geöffneten .tcdz gelesene Modellbahnzeit und läuft mit dem dort hinterlegten Beschleunigungsfaktor weiter. Ohne geöffnete Datei bleibt sie leer.
+fr: L'horloge affiche l'heure du réseau lue dans le .tcdz ouvert et continue avec le facteur d'accélération qui y est enregistré. Sans fichier ouvert, elle reste vide.
+
+de: Dunkel
+fr: Sombre
+
+de: Durchsuchen...
+fr: Parcourir...
+
+de: Entfernen
+fr: Supprimer
+
+de: Epoche
+fr: Époque
+
+de: Epoche der Anlage. Der Echtzeit-Kern kennt nur die 1. und 2. Klasse; den Anteil der 1. Klasse stellen Sie je Stadt oder Dorf ein.
+fr: Époque du réseau. Le noyau temps réel ne connaît que la 1re et la 2e classe ; la part de 1re classe se règle par ville ou village.
+
+de: Farbkombination
+fr: Combinaison de couleurs
+
+de: Farbschema
+fr: Jeu de couleurs
+
+de: Gekoppelte iTrain-Datei
+fr: Fichier iTrain lié
+
+de: Gilt als Vorbelegung für neue Lokomotiven, solange dort noch kein eigener Wert eingetragen wurde. Bereits individuell gesetzte Werte bleiben unverändert.
+fr: Sert de valeur par défaut pour les nouvelles locomotives tant qu'aucune valeur propre n'y est saisie. Les valeurs déjà réglées individuellement restent inchangées.
+
+de: Hell
+fr: Clair
+
+de: Hintergrund
+fr: Arrière-plan
+
+de: Jede Minute
+fr: Chaque minute
+
+de: Legt fest, wie oft die gekoppelte .tcdz erneut eingelesen wird, um neu hinzugekommene oder entfernte Einträge zu übernehmen. Bereits vorhandene eigene Zusatzdaten bleiben dabei erhalten.
+fr: Définit à quelle fréquence le .tcdz lié est relu pour reprendre les entrées ajoutées ou supprimées. Les données propres existantes sont conservées.
+
+de: Lokomotiven
+fr: Locomotives
+
+de: Maßstab-Vorlage
+fr: Modèle d'échelle
+
+de: Modellbahn-Faktor-Vorlage
+fr: Modèle de facteur de réseau
+
+de: Nur beim Start
+fr: Seulement au démarrage
+
+de: Nur ein Bildschirm angeschlossen
+fr: Un seul écran connecté
+
+de: Ordner für Symbole (.svg)
+fr: Dossier des symboles (.svg)
+
+de: Pfad für Logistik-Dateien
+fr: Chemin des fichiers logistiques
+
+de: Pfade
+fr: Chemins
+
+de: Sekunden anzeigen
+fr: Afficher les secondes
+
+de: Speichern
+fr: Enregistrer
+
+de: Sprache
+fr: Langue
+
+de: Textfarbe
+fr: Couleur du texte
+
+de: Uhr
+fr: Horloge
+
+de: Uhr im Ribbon anzeigen
+fr: Afficher l'horloge dans le ruban
+
+de: Voreinstellungen
+fr: Préférences
+
+de: Vorlagen
+fr: Modèles
+
+de: Wagen
+fr: Wagons
+
+de: Wie zuletzt
+fr: Comme la dernière fois
+
+de: Zurück
+fr: Retour
+
+de: Züge
+fr: Trains
+
+
+# Browser-Seiten (09.11.2026)
+de: Nicht gefunden
+fr: Introuvable
+
+de: Kein Modul „{0}“ (oder nicht für den Browser freigegeben).
+fr: Aucun module « {0} » (ou non activé pour le navigateur).
+
+de: Zur Übersicht
+fr: Vers l'aperçu
+
+de: Kein Geräusch
+fr: Aucun son
+
+de: Lade…
+fr: Chargement…
+
+de: ausgestiegen
+fr: descendus
+
+de: eingestiegen
+fr: montés
+
+de: Ausladen
+fr: Déchargement
+
+de: Einladen
+fr: Chargement
+
+de: Antippen: Geräusch
+fr: Toucher : son
+
+de: Bereit zum Transport
+fr: Prêt au transport
+
+de: Herstellung
+fr: Production
+
+de: ohne Eingang
+fr: sans entrée
+
+de: Eingelagert
+fr: Stocké
+
+de: Ladung
+fr: Chargement
+
+de: Ton an
+fr: Son activé
+
+de: Ton aus
+fr: Son coupé
+
+de: Rezept ausblenden
+fr: Masquer la recette
+
+de: Rezept anzeigen
+fr: Afficher la recette
+
+de: keine Verbindung zum Logistik-Rechner
+fr: pas de connexion avec l'ordinateur Logistique
+
+de: Vollbild an/aus
+fr: Plein écran oui/non
+
+de: Vollbild
+fr: Plein écran
+
+de: Anzeiger
+fr: Tableaux
+
+de: Kein Bahnhof unter dieser Adresse
+fr: Aucune gare à cette adresse
+
+de: Nur lesen
+fr: Lecture seule
+
+de: Joker
+fr: joker
+
+de: {0} in {1} benötigt
+fr: {0} requis à {1}
+
+de: anliefern: {0}, {1}
+fr: livrer : {0}, {1}
+
+de: kein Ladegleis zum Entladen
+fr: aucune voie de chargement pour décharger
+
+de: abholen in {0}
+fr: enlever à {0}
+
+de: {0} bereit
+fr: {0} prêts
+
+de: noch nirgends zur Abholung bereit
+fr: prêt à l'enlèvement nulle part
+
+de: Personenzug
+fr: train de voyageurs
+
+de: geeignet: Zug {0}
+fr: adapté : train {0}
+
+de: geeignet: Züge {0}
+fr: adaptés : trains {0}
+
+de: Tag
+fr: Jour
+
+de: Lizenz: GNU General Public License, Version 3 (GPL-3.0)
+fr: Licence : GNU General Public License, version 3 (GPL-3.0)
+
+de: Enthält:
+fr: Contient :
+
+de: QR-Code-Generator von Project Nayuki (MIT-Lizenz)
+fr: Générateur de QR code de Project Nayuki (licence MIT)
+
+de: Geräusche von freesound.org (CC0, gemeinfrei)
+fr: Sons de freesound.org (CC0, domaine public)
+
+de: OpenJFX und Java-Laufzeit (GPL v2 mit Classpath Exception)
+fr: OpenJFX et environnement Java (GPL v2 avec Classpath Exception)
+
+de: Über iTrain-Logistik
+fr: À propos d'iTrain-Logistik
+
+# 10.11.2026: Verknüpfte Datei, Browser-Status, Routen-Anzeiger
+
+de: Verknüpfte Datei
+fr: Fichier lié
+
+de: Routen-Anzeiger
+fr: Suivi de route
+
+de: Logistik im Browser
+fr: Logistique dans le navigateur
+
+de: Zuganzeiger im Browser
+fr: Tableau des départs dans le navigateur
+
+de: Logistik auf anderem Gerät...
+fr: Logistique sur un autre appareil...
+
+de: Zuganzeiger auf anderem Gerät...
+fr: Tableau des départs sur un autre appareil...
+
+de: Logistik auf anderem Gerät
+fr: Logistique sur un autre appareil
+
+de: Zuganzeiger auf anderem Gerät
+fr: Tableau des départs sur un autre appareil
+
+de: iTrain-Datei
+fr: Fichier iTrain
+
+de: Mit dieser iTrain-Datei ist die Logistik-Datei verknüpft
+fr: Le fichier Logistique est lié à ce fichier iTrain
+
+de: Logistik-Datei:
+fr: Fichier Logistique :
+
+de: iTrain-Datei:
+fr: Fichier iTrain :
+
+de: Zustand:
+fr: État :
+
+de: Fahrzeugdatei:
+fr: Fichier des véhicules :
+
+de: Gefunden, zuletzt geändert {0}
+fr: Trouvé, modifié le {0}
+
+de: Aktualisieren
+fr: Actualiser
+
+de: Andere Datei wählen…
+fr: Choisir un autre fichier…
+
+de: Prüft erneut, ob die iTrain-Datei gefunden wird, und gleicht die Logistik mit ihr ab (Loks, Wagen, Blöcke, Züge, Zugrouten)
+fr: Vérifie à nouveau si le fichier iTrain est trouvé et synchronise la Logistique avec lui (locomotives, wagons, cantons, trains, itinéraires)
+
+de: Die verknüpfte iTrain-Datei wurde nicht gefunden – nichts abgeglichen.
+fr: Le fichier iTrain lié est introuvable – rien n'a été synchronisé.
+
+de: Verknüpfte iTrain-Datei: {0}
+fr: Fichier iTrain lié : {0}
+
+de: Gefunden.
+fr: Trouvé.
+
+de: Nicht gefunden.
+fr: Introuvable.
+
+de: Klick: Dialog „Verknüpfte Datei“
+fr: Clic : dialogue « Fichier lié »
+
+de: aus
+fr: arrêt
+
+de: Ausgeschaltet. Klick öffnet die Einstellungen.
+fr: Désactivé. Un clic ouvre les réglages.
+
+de: Adressen
+fr: Adresses
+
+de: dieser Rechner
+fr: cet ordinateur
+
+de: Verbundene Geräte
+fr: Appareils connectés
+
+de: Browser Logistik ist ausgeschaltet – hier einschalten.
+fr: Web Logistique est désactivé – activez-le ici.
+
+de: Browser Zuganzeiger ist ausgeschaltet – hier einschalten.
+fr: Web Départs est désactivé – activez-le ici.
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Funktionen → Logistik auf anderem Gerät: anderen Port wählen.
+fr: Web Logistique n'a pas pu ouvrir le port {0} ({1}). Fonctions → Logistique sur un autre appareil : choisir un autre port.
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Zuganzeiger auf anderem Gerät: anderen Port wählen.
+fr: Web Départs n'a pas pu ouvrir le port {0} ({1}). Fonctions → Tableau des départs sur un autre appareil : choisir un autre port.
+
+de: Browser Logistik: Anlage und Module im Browser auf diesem Rechner öffnen; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+fr: Web Logistique : ouvrir le réseau et les modules dans le navigateur de cet ordinateur ; « Sur un autre appareil » affiche adresses, port et QR code
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser auf diesem Rechner öffnen, auch je Bahnhof; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+fr: Web Départs : ouvrir les tableaux dans le navigateur de cet ordinateur, aussi par gare ; « Sur un autre appareil » affiche adresses, port et QR code
+
+de: Zeigt, mit welcher iTrain-Datei (.tcdz) diese Logistik-Datei verknüpft ist und ob sie gefunden wird
+fr: Indique à quel fichier iTrain (.tcdz) ce fichier Logistique est lié et s'il est trouvé
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal
+fr: Suivi de route : un train avec canton précédent, actuel et suivant, position, zone de freinage, point d'arrêt et signal
+
+de: Keine Datei geöffnet oder kein Zug vorhanden.
+fr: Aucun fichier ouvert ou aucun train.
+
+de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
+fr: Pas de données en ligne : ce train n'est pas relié à iTrain par XTC.
+
+de: Der Zug steht in iTrain in keinem Block.
+fr: Dans iTrain, le train n'est dans aucun canton.
+
+de: {0} mm > Position {1}
+fr: {0} mm > position {1}
+
+de: Halt noch {0} s
+fr: Arrêt encore {0} s
+
+de: Ziel
+fr: Destination
+
+de: vorher
+fr: précédent
+
+de: aktuell
+fr: actuel
+
+de: danach
+fr: suivant
+
+de: Weichen
+fr: Aiguillages
+
+de: Richtungswechsel
+fr: Changement de sens
+
+de: ▲ {0} ausgestiegen
+fr: ▲ {0} descendus
+
+de: ▼ {0} eingestiegen
+fr: ▼ {0} montés
+
+de: Entladen ▲ {0}
+fr: Déchargement ▲ {0}
+
+de: Beladen ▼ {0}
+fr: Chargement ▼ {0}
+
+de: dahinter
+fr: derrière
+
+de: Routen-Anzeiger im Browser
+fr: Suivi de route dans le navigateur
+
+de: Routen-Anzeiger auf anderem Gerät...
+fr: Suivi de route sur un autre appareil...
+
+de: Routen-Anzeiger auf anderem Gerät
+fr: Suivi de route sur un autre appareil
+
+de: Routen-Anzeiger je Zug auf Handy, Tablet oder anderem Rechner
+fr: Suivi de route par train sur téléphone, tablette ou autre ordinateur
+
+de: Browser Routen-Anzeiger eingeschaltet
+fr: Suivi de route web activé
+
+de: Browser Routen-Anzeiger
+fr: Web Suivi
+
+de: Zug wählen
+fr: Choisir un train
+
+de: Fenster öffnen
+fr: Ouvrir la fenêtre
+
+de: Im Browser öffnen
+fr: Ouvrir dans le navigateur
+
+de: Kein Zug unter dieser Adresse
+fr: Aucun train à cette adresse
+
+de: Browser Routen-Anzeiger ist ausgeschaltet – hier einschalten.
+fr: Le suivi de route web est désactivé – activez-le ici.
+
+de: Port {0} ist schon vergeben – bitte einen anderen wählen.
+fr: Le port {0} est déjà utilisé – choisissez-en un autre.
+
+de: Eigener Port, getrennt von Browser Logistik und Browser Zuganzeiger. Jedes Gerät zeigt einen Zug; den Ton schaltet es oben im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+fr: Port propre, distinct de Web Logistique et de Web Départs. Chaque appareil affiche un train ; il active lui-même le son en haut de l'affichage (le navigateur s'en souvient), « Plein écran » pour une tablette. Le pare-feu Windows de cet ordinateur doit autoriser le port en entrée.
+
+de: Geräusche beim Ein-/Aussteigen und Verladen in den Routen-Anzeigern ein- oder ausschalten
+fr: Activer ou couper les sons de montée/descente et de chargement dans les suivis de route
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal – als Fenster (auch mehrere) oder im Browser
+fr: Suivi de route : un train avec canton précédent, actuel et suivant, position, zone de freinage, point d'arrêt et signal – en fenêtre (plusieurs possibles) ou dans le navigateur
+
+de: Browser Routen-Anzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Routen-Anzeiger auf anderem Gerät: anderen Port wählen.
+fr: Le suivi de route web n'a pas pu ouvrir le port {0} ({1}). Fonctions → Suivi de route sur un autre appareil : choisir un autre port.
+de: Wagenliste
+fr: Liste de wagons
+de: Wagenliste befördert
+fr: La liste de wagons transporte
+de: Einsteigen/Aussteigen
+fr: Monter/descendre
+de: Entladen/Beladen
+fr: Décharger/charger
+de:  · steht
+fr:  · à l’arrêt
+de: Wartezeit vorbei, steht
+fr: Attente terminée, à l’arrêt
+de:  · Abfahrt
+fr:  · départ
+de: Lager hinzufügen. {0} kann nicht entladen werden, die Abnehmer sind voll
+fr: Ajouter un entrepôt. {0} ne peut pas être déchargé, les destinataires sont pleins
+de: Lager voll. {0} kann nicht entladen werden, die Abnehmer sind voll
+fr: Entrepôt plein. {0} ne peut pas être déchargé, les destinataires sont pleins
+de: Kein Abnehmer an diesem Bahnhof für: {0}
+fr: Aucun destinataire dans cette gare pour : {0}
+de: Produktion passt sich an: mehr Anlieferung, mehr Herstellung
+fr: La production s’adapte : plus de livraisons, plus de fabrication
+de: Bedarf wächst mit der Versorgung
+fr: Le besoin croît avec l’approvisionnement
+de: Produktion ×{0}
+fr: Production ×{0}
+de: Je Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn die Eingangslager gut gefüllt sind und der Ausgang abfließt; herunter, wenn Eingang fehlt oder der Ausgang voll ist. Rate und Lagerkapazitäten wachsen mit der Stufe. Der Regler Langsamer/Schneller wirkt auch hier.
+fr: Au plus un niveau par heure modèle (×1 à ×4) : vers le haut si les stocks d’entrée sont bien remplis et que la sortie s’écoule ; vers le bas si l’entrée manque ou si la sortie est pleine. Cadence et capacités suivent le niveau. Le curseur Plus lent/Plus rapide agit aussi ici.
+de: Je Gut und Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn der Bedarf gedeckt ist; herunter, wenn länger nichts geliefert wird. Reisende und Einwohner bleiben unverändert. Der Regler Langsamer/Schneller wirkt auch hier.
+fr: Au plus un niveau par marchandise et heure modèle (×1 à ×4) : vers le haut si le besoin est couvert ; vers le bas si rien n’est livré pendant longtemps. Voyageurs et habitants restent inchangés. Le curseur Plus lent/Plus rapide agit aussi ici.
+de: Abnahme M/h
+fr: Reprise M/h
+de: Ankommende M/h
+fr: Arrivants M/h
+de: unbegrenzt
+fr: illimité
+de: Abnahme Stück M/h
+fr: Reprise pièces M/h
+de: Außenwelt: Güter, die hier abgenommen werden
+fr: Monde extérieur : marchandises reprises ici
+de: Leere Tabelle: Die Außenwelt nimmt alle Güter unbegrenzt ab. Mit Einträgen nur diese Güter, je Modellstunde höchstens die Menge.
+fr: Tableau vide : le monde extérieur reprend toutes les marchandises sans limite. Avec des lignes, seulement ces marchandises, au plus la quantité par heure modèle.
+de: Zusätzlich erforderlich…
+fr: Requis en plus…
+de: Hinweise beim Start zeigen
+fr: Afficher les conseils au démarrage
+de: die Anlage
+fr: le réseau
+de: Transport – Wagen und Züge
+fr: Transport – wagons et trains
+de: ▼ {0} ({1}): kein Zug kann es befördern
+fr: ▼ {0} ({1}) : aucun train ne peut le transporter
+de: Reisende: kein Zug hat Sitz- oder Stehplätze
+fr: Voyageurs : aucun train n'a de places assises ou debout
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) für dieses Gut freischalten
+fr: Utiliser un wagon existant : activer « {0} » ({1}) pour cette marchandise
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) im Wagenfenster ergänzen
+fr: Utiliser un wagon existant : compléter « {0} » ({1}) dans la fenêtre des wagons
+de: Bestehenden Wagen verwenden: „{0}“ kann es, steht aber in keinem Zug – in iTrain einem Zug zuordnen
+fr: Utiliser un wagon existant : « {0} » le peut, mais n'est dans aucun train – l'affecter à un train dans iTrain
+de: Transportmöglichkeit besorgen (kaufen, leihen …), in iTrain anlegen, dann abgleichen
+fr: Se procurer un moyen de transport (acheter, emprunter …), le créer dans iTrain, puis synchroniser
+de: Bestehenden Transport zum Joker machen: „{0}“ ({1})
+fr: Transformer un transport existant en joker : « {0} » ({1})
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) als Personenwagen, Sitzplätze eintragen
+fr: Utiliser un wagon existant : « {0} » ({1}) comme voiture voyageurs, saisir les places
+de: Vom Schattenbahnhof: angeliefert auf Gleis „{0}“ ({1})
+fr: De la gare cachée : livré sur la voie « {0} » ({1})
+de: Wagen „{0}“ in iTrain einem Zug zuordnen ({1}), dann „Mit iTrain abgleichen“.
+fr: Affecter le wagon « {0} » à un train dans iTrain ({1}), puis « Synchroniser avec iTrain ».
+de: Wagen für {0} ({1})
+fr: Wagon pour {0} ({1})
+de: Personenwagen
+fr: Voitures voyageurs
+de:  besorgen, in iTrain anlegen und einem Zug zuordnen, dann „Mit iTrain abgleichen“.
+fr:  : se procurer, créer dans iTrain et affecter à un train, puis « Synchroniser avec iTrain ».
+de: Angeschlossene Betriebe und Übergaben (Güter über die Ladegleise)
+fr: Entreprises et points d'échange raccordés (marchandises par les voies de chargement)
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Anschließen lassen sich Betriebe und Übergaben, keine Orte und Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+fr: Gare cachée : voyageurs et marchandises arrivent de l'extérieur dans la gare cachée – réglés par voie (quai : voyageurs par heure modèle, voie de chargement : offre par marchandise). Une voie peut être quai et voie de chargement à la fois (créer deux fois avec le même canton). Les voies de chargement passent dans une gare marchandises accolée à l'enregistrement. On peut raccorder des entreprises et des points d'échange, pas de localités ni d'entrepôts. Le chargement et le déchargement se font dès le passage, sans arrêt.
+de: Benötigt keinen Lieferanten
+fr: N'a besoin d'aucun fournisseur
+de: Mit der KI prüfen...
+fr: Vérifier avec l'IA...
+de: Mit der KI prüfen
+fr: Vérifier avec l'IA
+de: Kontakt...
+fr: Contact...
+de: Kontakt
+fr: Contact
+de: Auf Update prüfen
+fr: Rechercher une mise à jour
+de: Diese Dateien in den Chat der KI ziehen
+fr: Glissez ces fichiers dans le chat de l'IA
+de: Starten Sie einen neuen Chat (z. B. claude.ai). Ziehen Sie alle Dateien mit der Maus in den Chat und schreiben Sie dazu: „Bitte nach der Prompt-Datei vorgehen.“ Die KI prüft, ob die Logistik vollständig und mit der iTrain-Anlage verknüpft ist, fragt nach der Sprache und am Ende, ob ein Dokument daraus werden soll. Die iTrain-Datei wird dabei nicht nach dem iTrain-Handbuch geprüft, nur auf die Verknüpfung.
+fr: Démarrez un nouveau chat (p. ex. claude.ai). Glissez tous les fichiers dans le chat avec la souris et écrivez : « Merci de suivre le fichier prompt. » L'IA vérifie si la logistique est complète et liée au réseau iTrain, demande la langue et à la fin s'il faut en faire un document. Le fichier iTrain n'est pas vérifié selon le manuel iTrain, seulement pour les liens.
+de: Bei Fragen zum Inhalt bitte diese Dateien mit senden
+fr: Pour toute question sur le contenu, joignez ces fichiers
+de: Ihr E-Mail-Programm öffnet eine neue Nachricht an {0}. Ziehen Sie die Dateien mit der Maus in die Nachricht (als Anhang). Öffnet sich kein E-Mail-Programm, schreiben Sie an {1} und hängen Sie die Dateien aus dem Ordner an.
+fr: Votre logiciel de messagerie ouvre un nouveau message à {0}. Glissez les fichiers dans le message avec la souris (en pièce jointe). Si aucun logiciel ne s'ouvre, écrivez à {1} et joignez les fichiers du dossier.
+de: ⇲  Hier anfassen und alle Dateien auf einmal hinüberziehen
+fr: ⇲  Saisir ici et glisser tous les fichiers d'un coup
+de: Ordner: {0}
+fr: Dossier : {0}
+de: Prompt kopieren
+fr: Copier le prompt
+de: Prompt kopiert ✔
+fr: Prompt copié ✔
+de: E-Mail öffnen
+fr: Ouvrir l'e-mail
+de: Bitte zuerst eine Logistik-Datei (.logz) öffnen.
+fr: Veuillez d'abord ouvrir un fichier logistique (.logz).
+de: Die Logistik-Datei hat ungespeicherte Änderungen. Zusammengestellt wird der gespeicherte Stand.
+fr: Le fichier logistique contient des modifications non enregistrées. C'est l'état enregistré qui est rassemblé.
+de: Vorher speichern?
+fr: Enregistrer d'abord ?
+de: Ohne Änderungen
+fr: Sans les modifications
+de: Dateien konnten nicht zusammengestellt werden: {0}
+fr: Impossible de rassembler les fichiers : {0}
+de: Lizenzhinweise
+fr: Mentions de licence
+de: Version {0}
+fr: Version {0}
+de: Copyright © 2026 Andre Ruff. Freie Software unter der GNU General Public License, Version 3 (GPL-3.0). Ohne Gewährleistung.
+fr: Copyright © 2026 Andre Ruff. Logiciel libre sous GNU General Public License, version 3 (GPL-3.0). Sans garantie.
+de: Übersetzungen: Englisch, Niederländisch, Französisch, Spanisch und Italienisch mit KI-Unterstützung erstellt.
+fr: Traductions : anglais, néerlandais, français, espagnol et italien réalisées avec l'aide de l'IA.
+de: Eine neue Version von iTrain-Logistik ist verfügbar
+fr: Une nouvelle version d'iTrain-Logistik est disponible
+de: iTrain-Logistik ist auf dem neuesten Stand
+fr: iTrain-Logistik est à jour
+de: Installiert ist {0}, die neueste Veröffentlichung ist {1}.
+fr: La version installée est {0}, la dernière publication est {1}.
+de: Installiert: {0}
+fr: Installée : {0}
+de: Neu: {0}
+fr: Nouvelle : {0}
+de: Die Prüfung war nicht möglich: {0}
+fr: La vérification n'a pas été possible : {0}
+de: Die Veröffentlichungen stehen unter {0}
+fr: Les publications se trouvent sur {0}
+de: Zur Download-Seite
+fr: Vers la page de téléchargement
+de: noch keine öffentliche Veröffentlichung gefunden
+fr: aucune publication publique trouvée pour l'instant
+de: unbekanntes Antwortformat
+fr: format de réponse inconnu
+de: QR-Code drucken
+fr: Imprimer le code QR
+de: Drucken…
+fr: Imprimer…
+de: Als Bild speichern…
+fr: Enregistrer comme image…
+de: Mit der Handy-Kamera scannen und den Link öffnen. Das Handy muss im WLAN der Anlage angemeldet sein.
+fr: Scanner avec l'appareil photo du téléphone et ouvrir le lien. Le téléphone doit être connecté au Wi-Fi du réseau.
+de: Kein Drucker gefunden. Mit „Als Bild speichern…“ lässt sich der Aushang als Bild ablegen und drucken.
+fr: Aucune imprimante trouvée. « Enregistrer comme image… » enregistre l'affiche en image pour l'imprimer.
+de: Modul-Anzeiger
+fr: Afficheur de module
+de: Modul-Anzeiger im Browser
+fr: Afficheur de module dans le navigateur
+de: Alle Blöcke
+fr: Tous les cantons
+de: Kein Zug im Block
+fr: Aucun train dans le canton
+de: Keine Blöcke
+fr: Aucun canton
+de: Keine Datei geöffnet.
+fr: Aucun fichier ouvert.
+de: Reisende: {0} (1. Klasse {1}, 2. Klasse {2}) von {3} Plätzen
+fr: Voyageurs : {0} (1re classe {1}, 2e classe {2}) sur {3} places
+de: Leer, {0} Plätze
+fr: Vide, {0} places
+de: Ohne Ladung
+fr: Sans chargement
+de: Leer
+fr: Vide
+de: Route {0}
+fr: Itinéraire {0}
+de: Hält, noch {0} s
+fr: À l'arrêt, encore {0} s
+de: Hält
+fr: À l'arrêt
+de: Fährt, {0} km/h
+fr: En marche, {0} km/h
+de: Steht
+fr: Immobile
+de: Strecke
+fr: Ligne
+de: Bremst
+fr: Freine
+de: Halt erwarten
+fr: Arrêt à prévoir
+de: Langsamfahrt erwarten
+fr: Ralentissement à prévoir
+de: Zuglänge {0} mm
+fr: Longueur du train {0} mm
+de: Modul-Anzeiger:
+fr: Afficheur de module :
+de: Anzeiger im Fenster
+fr: Afficheurs en fenêtre
+de: Anzeiger im Browser
+fr: Afficheurs dans le navigateur
+de: Auf diesem Gerät
+fr: Sur cet appareil
+de: Auf anderem Gerät
+fr: Sur un autre appareil
+de: Logistik (Übersicht)
+fr: Logistique (vue d'ensemble)
+de: Logistik ganze Anlage
+fr: Logistique réseau entier
+de: Logistik Modul „{0}“
+fr: Logistique module « {0} »
+de: Zuganzeiger Auswahl
+fr: Indicateur de trains sélection
+de: Modul-Anzeiger auf anderem Gerät...
+fr: Afficheur de module sur un autre appareil...
+de: Uhr auf anderem Gerät...
+fr: Horloge sur un autre appareil...
+de: Uhr auf anderem Gerät
+fr: Horloge sur un autre appareil
+de: Die Modelluhr im Browser – Antippen wechselt zwischen analog und digital
+fr: L'horloge du modèle dans le navigateur – toucher pour passer de l'analogique au numérique
+de: Darstellung und Farben wie im Fenster der Uhr (Rechtsklick bzw. ⚙).
+fr: Affichage et couleurs comme dans la fenêtre de l'horloge (clic droit ou ⚙).
+de: Digital
+fr: Numérique
+de: Analog (Bahnhofsuhr)
+fr: Analogique (horloge de gare)
+de: Farben...
+fr: Couleurs...
+de: Standardfarben
+fr: Couleurs par défaut
+de: Farben der Uhr
+fr: Couleurs de l'horloge
+de: Zifferblatt (analog)
+fr: Cadran (analogique)
+de: Zeiger und Striche (analog)
+fr: Aiguilles et traits (analogique)
+de: Sekundenzeiger (analog)
+fr: Trotteuse (analogique)
+de: Ziffern (digital)
+fr: Chiffres (numérique)
+de: Transport – iTrain-Zugrouten
+fr: Transport – itinéraires de train iTrain
+de: ⇄ {0}: keine iTrain-Zugroute für den Transport
+fr: ⇄ {0} : aucun itinéraire de train iTrain pour le transport
+de: ⇄ Reisende aus {0}: keine iTrain-Zugroute zu einem anderen Bahnhof
+fr: ⇄ Voyageurs de {0} : aucun itinéraire de train iTrain vers une autre gare
+de: Bitte eine neue Route anlegen von {0} nach {1}
+fr: Veuillez créer un nouvel itinéraire de {0} à {1}
+de: Bitte eine neue Route anlegen von {0} nach {1} für den Transport von {2} – in iTrain anlegen und speichern, dann „Mit iTrain abgleichen“.
+fr: Veuillez créer un nouvel itinéraire de {0} à {1} pour le transport de {2} – le créer et l'enregistrer dans iTrain, puis « Synchroniser avec iTrain ».
+de: Reisenden
+fr: voyageurs
+de: Im Handbuch lesen
+fr: Lire dans le manuel
+de: Handbuch (PDF)
+fr: Manuel (PDF)
+de: F1 zeigt in jedem Fenster die passende Hilfe.
+fr: F1 affiche l'aide correspondante dans chaque fenêtre (textes d'aide en allemand).
+de: Hauptfenster
+fr: Fenêtre principale
+de: Anzeiger auf anderem Gerät
+fr: Afficheurs sur un autre appareil
+de: Ort bearbeiten
+fr: Modifier la localité
+de: Modul und Tab
+fr: Module et onglet
+de: Mit der KI prüfen, Kontakt
+fr: Vérifier avec l'IA, contact
+de: Zufriedenheit
+fr: Satisfaction
+de: Erfüllung
+fr: Réalisation
+de: Bewertung
+fr: Évaluation
+de: Erfüllungsgrad
+fr: Taux de réalisation
+de: {0} je Modelltag (%)
+fr: {0} par jour modèle (%)
+de: Maßnahmen
+fr: Mesures
+de: (erst unter 50 % nötig)
+fr: (nécessaire seulement sous 50 %)
+de: Was zu tun ist, um den Bedarf zu decken
+fr: Que faire pour couvrir la demande
+de: Keine einzelne Ursache unter 50 % – Posten mit gelbem Wert zuerst verbessern.
+fr: Aucune cause isolée sous 50 % – améliorer d'abord les postes en jaune.
+de: Zufriedenheit: Anlieferung des Bedarfs und Abholung der Reisenden – Klick zeigt die Bewertung
+fr: Satisfaction : livraison de la demande et prise en charge des voyageurs – clic pour l'évaluation
+de: Erfüllung: Anlieferung der Eingänge und Abholung der Herstellung – Klick zeigt die Bewertung
+fr: Réalisation : livraison des entrées et enlèvement de la production – clic pour l'évaluation
+de: Anlieferung {0} entspricht der Vorgabe
+fr: Livraison de {0} conforme à l'objectif
+de: Anlieferung {0} etwas zu gering
+fr: Livraison de {0} un peu insuffisante
+de: Zu wenig {0}, mehr anliefern
+fr: Trop peu de {0}, livrer davantage
+de: Reisende werden abgeholt
+fr: Les voyageurs sont pris en charge
+de: Reisende warten, öfter abholen
+fr: Des voyageurs attendent, passer plus souvent
+de: Zu viele Reisende warten, mehr Züge
+fr: Trop de voyageurs attendent, plus de trains
+de: Mehr Züge mit Sitzplätzen in {0} halten lassen ({1} Reisende warten, {2} je Modellstunde)
+fr: Faire arrêter plus de trains avec places à {0} ({1} voyageurs attendent, {2} par heure modèle)
+de: Anlieferung {0}: wird von außerhalb geliefert
+fr: Livraison de {0} : livré de l'extérieur
+de: {0} wird knapp
+fr: {0} se raréfie
+de: Herstellung {0} läuft, wird abgeholt
+fr: Production de {0} en cours, enlevée
+de: {0} staut sich, öfter abholen
+fr: {0} s'accumule, enlever plus souvent
+de: Lager {0} voll, Herstellung steht – mehr abholen
+fr: Stock de {0} plein, production arrêtée – enlever davantage
+de: Für {0} gibt es keinen Abnehmer – Abnehmer anlegen (Zusätzlich erforderlich)
+fr: Il n'y a pas de client pour {0} – créer un client (Requis en plus)
+de: Mehr {0} abholen: mehr Züge von {1} zu {2}
+fr: Enlever plus de {0} : plus de trains de {1} à {2}
+de: Produktion erhöhen, um den Bedarf zu decken: {0} gebraucht {1} M/h, hergestellt {2} M/h
+fr: Augmenter la production pour couvrir la demande : {0} demandé {1} M/h, produit {2} M/h
+de: Mehr {0} anliefern: mehr Züge nach {1}
+fr: Livrer plus de {0} : plus de trains vers {1}
+de: Mehr {0} anliefern: mehr Züge nach {1} ({2} stehen bereit)
+fr: Livrer plus de {0} : plus de trains vers {1} ({2} prêts)
+de: Für {0} gibt es keinen Hersteller – Lieferant anlegen (Zusätzlich erforderlich)
+fr: Il n'y a pas de producteur pour {0} – créer un fournisseur (Requis en plus)
+de: Mehr Produktion: {0} erhöhen, um den Bedarf an {1} zu decken
+fr: Plus de production : augmenter {0} pour couvrir la demande de {1}
+de: Ton bei Einfahrt eines Zugs in den Block
+fr: Son à l'entrée d'un train dans le canton
+de: Antippen, um den Ton einzuschalten
+fr: Touchez pour activer le son
+de: Klingel
+fr: Sonnette
+de: Glocke
+fr: Cloche
+de: Hupe
+fr: Klaxon
+de: Vorgabe
+fr: Par défaut
+de: Sitzplätze 3. Klasse (zählen zur 2. Klasse)
+fr: Places 3e classe (comptent en 2e classe)
+de: Sitzplätze 4. Klasse (zählen zur 2. Klasse)
+fr: Places 4e classe (comptent en 2e classe)
+de: Angehakt: Epoche der Anlage (Voreinstellungen > Vorlagen). Abgehakt: eigene Epoche für diesen Wagen.
+fr: Coché : époque du réseau (Préférences > Modèles). Décoché : époque propre à ce wagon.
+de: Zeitabschnitt
+fr: Période
+de: Vorhandene Wagenklassen
+fr: Classes existantes
+de: Besonderheiten & historische Meilensteine
+fr: Particularités & jalons historiques
+de: Sonderformen
+fr: Formes particulières
+de: Transport – Wagen und Züge (Kapazität je Ladeklasse)
+fr: Transport – wagons et trains (capacité par classe de chargement)
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2}
+fr: ▼ {0} ({1}) : aucun wagon avec capacité pour {2}
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2} – vorhanden nur {3}
+fr: ▼ {0} ({1}) : aucun wagon avec capacité pour {2} – seulement {3}
+de: Pfeil Be-/Entladen (Güter)
+fr: Flèche chargement/déchargement (marchandises)
+de: Entladen ·
+fr: Déchargement ·
+de: Beladen
+fr: Chargement
+de: Keine Module
+fr: Aucun module
+de: Modul nicht gefunden.
+fr: Module introuvable.
+de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das Modul festlegen.
+fr: Aucune voie de ligne – les définir dans « Modifier le réseau » par clic droit sur le module.
+de: Geräusche...
+fr: Sons...
