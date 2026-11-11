@@ -1,0 +1,210 @@
+# iTrain-Logistik dialoogteksten – Nederlands
+# Zelfde sleutels en opmaak als Dialogtexte.txt. Ontbrekende secties: Duits.
+
+=== grundzuege ===
+TITEL: Voor je begint: zo werkt iTrain-Logistik
+TEXT:
+**iTrain-Logistik toont wat er op je baan vervoerd wordt: reizigers en goederen die je treinen van station naar station brengen.**
+
+**Een eigen bestand dat op iTrain voortbouwt**
+Logistiek maakt een eigen bestand aan (.logz). Daarin staan alle logistieke gegevens van je baan: plaatsen, stations, bedrijven en magazijnen, de voorraden en de gegevens van je voertuigen.
+Dit bestand werkt alleen samen met het iTrain-bestand (.tcdz) waaruit het is gemaakt. Sporenplan, blokken, stations en treinen komen uit iTrain en vormen de basis. Logistiek leest het iTrain-bestand alleen, het verandert het nooit.
+Beide moeten bij elkaar passen. Wordt in iTrain een blok hernoemd, een trein anders samengesteld of een wagon toegevoegd, dan neemt Logistiek dat over met de knop **Synchroniseren**. Is het iTrain-bestand sinds de laatste synchronisatie opgeslagen, dan biedt Logistiek dat bij het openen meteen aan. Met welke .tcdz het logistiekbestand gekoppeld is, staat altijd onder het lint.
+
+**Wat iTrain niet weet**
+iTrain kent lengte, snelheid en decoder van een voertuig, maar niet hoeveel reizigers een rijtuig opneemt of hoeveel ton kolen erin past. Die gegevens vul je in Logistiek aan:
+- Wagons: wagonsoort, plus zit- en staanplaatsen resp. laadklasse en capaciteit
+- Treinstellen en motorwagens: plaatsen resp. capaciteit direct bij de locomotief
+
+Logistiek rekent bewust met elke afzonderlijke wagon en niet met algemene wagonlijsten. Algemene lijsten zouden veel te eenvoudig verkeer geven; pas met de echte wagons telt of een trein werkelijk plaats heeft voor de wachtenden of de klaarstaande lading. Daarom leest Logistiek bij het aanmaken alle locomotieven en wagons uit iTrain in.
+
+**De volgende stappen**
+- Direct na het aanmaken vraagt Logistiek de capaciteiten van de wagons en treinstellen. Vul die zo volledig mogelijk aan.
+- Stations, plaatsen en bedrijven richt je daarna in onder **Baan bewerken**, het eenvoudigst met de verkeersassistent.
+- Tijdens het rijden meldt iTrain welke trein waar stopt. Dan stappen reizigers in en uit en worden goederen geladen.
+
+
+=== einrichtung_wagen ===
+TITEL: Vul eerst alle wagons aan
+TEXT:
+{offen} van {alle} wagons hebben nog geen volledige gegevens (wagonsoort en zitplaatsen resp. capaciteit). Zonder die gegevens kan geen trein personen of goederen vervoeren.
+
+Tip: neem de gegevens van een wagon over met **Gegevens kopiëren** en vul ze bij de volgende in met **Plakken**.
+
+Zijn de wagons al in een andere configuratie vastgelegd, dan neemt **Wagons importeren...** de gegevens over uit het voertuigbestand daarvan (*.fahrzeuge.xml), wagon voor wagon op naam.
+
+
+=== einrichtung_keine_wagen ===
+TITEL: Vul eerst alle wagons aan
+TEXT:
+In de .tcdz zijn geen wagons gedefinieerd.
+
+
+=== einrichtung_triebzuege ===
+TITEL: Zijn er treinstellen of motorwagens?
+TEXT:
+In iTrain zijn treinstellen locomotieven, maar ze vervoeren zelf personen of goederen. Markeer ze in het venster Locomotieven met **Treinstel / motorwagen** en geef ze daar plaatsen resp. capaciteit.
+
+
+=== einrichtung_fertig ===
+TITEL:
+TEXT:
+Voertuigen vastgelegd. Stations, plaatsen en bedrijven richt je in onder „Baan bewerken“.
+
+
+=== assistent_bahnhoefe_vorhanden ===
+TITEL: {anzahl} stations in het iTrain-bestand
+TEXT:
+In je iTrain-bestand zijn {anzahl} stations gedefinieerd die Logistiek nog niet kent.
+
+De assistent leidt je door de inrichting: voor elk station kies je de soort en voor elk spoor of daar reizigers in- en uitstappen, goederen geladen worden of voorlopig niets gebeurt.
+
+**Verder** start de assistent.
+
+
+=== tcdz_geaendert ===
+TITEL: Het iTrain-bestand is gewijzigd
+TEXT:
+„{datei}“ is sinds de laatste synchronisatie in iTrain gewijzigd.
+
+Met **Nu synchroniseren** neemt Logistiek nieuwe, gewijzigde en verwijderde locomotieven, wagons, blokken en treinen over. Je eigen gegevens (plaatsen, capaciteiten, stations, plaatsen, bedrijven) blijven behouden.
+
+
+=== assistent_bahnhoefe ===
+TITEL: Inrichting stations
+TEXT:
+Voor elk station uit iTrain leg je hier vast hoe het heet, welke soort het is en wat er aan zijn sporen gebeurt.
+- **Naam**: zo verschijnt het station in Logistiek (de naam in iTrain blijft).
+- **Soort**: station, halte, goederenstation, schaduwstation of aansluiting. Zolang bij een station „Overig“ staat, gaat het niet verder.
+- **Sporen**: **Perron** (reizigers stappen in en uit), **Laadspoor** (goederen worden geladen), **Perron en laadspoor** (beide aan hetzelfde spoor, bijv. in het schaduwstation) of **Voorlopig niets** (het spoor blijft vrij en kan later worden ingericht).
+- **Op de baan of module**: hoort het station bij een module, kies die dan of maak er een met **Nieuwe module…**.
+
+Kies je in een station perrons en laadsporen, dan maakt Logistiek een reizigersstation en een aangekoppeld goederenstation.
+De assistent kun je altijd opnieuw oproepen, bijvoorbeeld om nog een spoor als perron in te richten.
+
+
+=== umgebung_personen ===
+TITEL: Reizigersverkeer in „{bahnhof}“ geactiveerd
+TEXT:
+Voeg de omgeving toe waar de reizigers vandaan komen en naartoe willen.
+
+- **Stad**: veel reizigers, grote vraag naar goederen
+- **Dorp**: ongeveer half zoveel als een stad
+- **Landelijk**: weinig reizigers, vraag vooral naar levensmiddelen en landbouwbenodigdheden
+
+Daarna opent het bewerkingsvenster met alle gegevens zoals gewoonlijk. Bestaat de plaats al, kies dan **Bestaande plaats kiezen**.
+
+
+=== umgebung_gueter ===
+TITEL: Goederenverkeer in „{bahnhof}“ geactiveerd
+TEXT:
+Voeg toe wat aan deze laadsporen goederen nodig heeft of maakt.
+
+- **Stad, dorp, landelijk**: hebben goederen nodig (levensmiddelen, waren, bouwmaterialen …)
+- **Bedrijf**: maakt goederen en heeft daarvoor vaak zelf goederen nodig (een productieketen)
+- **Magazijn**: neemt goederen op en geeft ze geleidelijk door
+- **Overdracht**: goederen komen van buiten de baan of gaan daarheen
+
+Daarna opent het bewerkingsvenster met alle gegevens zoals gewoonlijk.
+
+
+=== assistent_pruefung ===
+TITEL: Wat er op de baan moet gebeuren
+TEXT:
+De tabel toont wie per modeluur hoeveel reizigers of goederen afgeeft of nodig heeft, wie de tegenhanger is en of je treinen dat aankunnen.
+- **✓** alles aanwezig
+- **⚠** hier ontbreekt iets, bijvoorbeeld een leverancier, een bestemming voor de reizigers of een trein met geschikte wagons
+
+Markeer een regel met **⚠** en kies **Verder** (of dubbelklik op de regel): de assistent vult aan wat daar ontbreekt – een bedrijf voor een vraag, meer productie bij een bestaand bedrijf, een schaduwstation als er geen tegenhanger is, een magazijn bij te veel productie. Daarna verschijnt de tabel opnieuw berekend, met alles wat net is aangevuld.
+
+
+=== lieferkette_betrieb ===
+TITEL: Keten voor „{ziel}“
+TEXT:
+Om de vraag van {menge} per modeluur in „{ziel}“ te dekken, moet een bedrijf worden opgenomen dat het maakt: **{betrieb}**.
+
+**Bedrijf aanleggen** maakt het aan en vraagt bij welk station het ligt. Heeft het bedrijf zelf goederen nodig (een productieketen), dan vraagt de assistent verder.
+**Van het schaduwstation** laat het goed in plaats daarvan uit het schaduwstation komen, dus van buiten de baan.
+
+
+=== lieferkette_vorhanden ===
+TITEL: Keten voor „{ziel}“
+TEXT:
+„{ziel}“ heeft {menge} per modeluur nodig. **{betrieb}** bestaat al en maakt {herstellung} per modeluur – voor alle afnemers samen ontbreekt nog {fehlt} per modeluur.
+
+**„{betrieb}“ verhogen** zet de uitvoeringen per modeluur van {rate} op {neu}. Heeft het bedrijf daarvoor zelf meer goederen nodig, dan toont de controle dat daarna.
+**Nog een bedrijf aanleggen** maakt een tweede producent bij een ander station.
+**Van het schaduwstation** laat het ontbrekende deel van buiten de baan komen.
+
+
+=== lieferkette_ohne_vorlage ===
+TITEL: Keten voor „{ziel}“
+TEXT:
+Voor de vraag van {menge} per modeluur in „{ziel}“ is er geen bedrijfssjabloon. Het goed kan uit het schaduwstation komen, dus van buiten de baan.
+
+
+=== lieferkette_ort ===
+TITEL: Bij welk station ligt „{betrieb}“?
+TEXT:
+Het bedrijf heeft laadsporen nodig, zodat treinen zijn goederen ophalen of aanleveren. Kies het station – elk station van de baan kan, alleen het schaduwstation niet (daar komen goederen per spoor van buiten). Heeft het station nog geen laadspoor, dan vraagt Logistiek meteen welk spoor er een wordt. Ligt het bedrijf aan geen station van de baan, kies dan **Niet op de baan**: dan levert het altijd, zonder trein.
+
+
+=== schattenbahnhof_vorschlag ===
+TITEL: Geen tegenhanger op de baan
+TEXT:
+Voor {was} is er op de baan geen tegenhanger: geen ander station en geen schaduwstation.
+
+Voorstel: een **schaduwstation** als verbinding met de buitenwereld. Zodat de uitwisseling altijd kan plaatsvinden, moet het
+- minstens **twee sporen** hebben, één per rijrichting,
+- zo lang zijn als je langste trein,
+- via het traject van beide kanten bereikbaar zijn.
+
+Vrije blokken uit iTrain die je ervoor kunt gebruiken: {bloecke}
+
+Tot dan mogen reizigers na een rondrit weer op hun instapstation uitstappen.
+
+
+=== ueberschuss ===
+TITEL: „{betrieb}“ maakt meer dan nodig is
+TEXT:
+Er blijft {menge} per modeluur over.
+
+- **Magazijn aanleggen**: het magazijn neemt het overschot op en geeft het geleidelijk door, zo komt de waar stuk voor stuk bij de afnemer aan.
+- **Verbruik verhogen**: „{ort}“ heeft voortaan zoveel meer nodig dat er niets overblijft.
+
+
+=== assistent_start ===
+TITEL: Wat wil je doen?
+TEXT:
+- **Stations en sporen**: namen, soort en sporen van de stations wijzigen, bijvoorbeeld spoor 3 tot perron maken.
+- **Vervoer vastleggen**: aangeven wat van waar naar waar gereden wordt.
+- **Baan controleren**: de tabel met vraag, productie en reizigers bekijken en gaten dichten.
+
+
+=== transport ===
+TITEL: Wat wordt van waar naar waar vervoerd?
+TEXT:
+Kies reizigers of een goed, de herkomst, de bestemming en de hoeveelheid per modeluur. De assistent vult vraag, productie en de vrijgave van de laadsporen in. Wat hij niet zelf kan instellen, bijvoorbeeld een ontbrekend recept, toont hij daarna.
+
+
+=== geraeusche_linux ===
+TITEL: Geluid kan niet worden afgespeeld
+TEXT:
+Het geluid **{datei}** kon niet worden afgespeeld ({fehler}).
+
+Onder Linux heeft iTrain-Logistik voor mp3-bestanden de ffmpeg-bibliotheken van het systeem nodig (libavcodec en libavformat). Die zijn vaak al aanwezig; installeer ze anders met het pakketbeheer, bijvoorbeeld:
+- Debian, Ubuntu, Linux Mint: **sudo apt install ffmpeg**
+- Fedora: **sudo dnf install ffmpeg-free**
+- openSUSE: **sudo zypper install ffmpeg**
+
+Er moet ook een geluidsuitgang aanwezig zijn (ALSA, PulseAudio of PipeWire). Start iTrain-Logistik daarna opnieuw.
+
+Bestanden in wav-formaat spelen ook zonder ffmpeg. De geluiden zijn uit te schakelen onder Logistieke gegevens → Geluiden.
+
+
+=== geraeusche_fehler ===
+TITEL: Geluid kan niet worden afgespeeld
+TEXT:
+Het geluid **{datei}** kon niet worden afgespeeld ({fehler}).
+
+Controleer of een geluidsuitgang (luidsprekers, koptelefoon) is ingeschakeld en of het bestand af te spelen is (formaten mp3, wav, m4a, aiff). De geluiden zijn uit te schakelen onder Logistieke gegevens → Geluiden.

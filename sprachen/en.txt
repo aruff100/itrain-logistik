@@ -1,0 +1,4873 @@
+# iTrain-Logistik – English
+# Paare: „de:“ deutscher Text wie im Programm, „en:“ Übersetzung. {0}, {1} … = Platzhalter, \n = Zeilenumbruch.
+# Eigene Korrekturen: Datei in <Logistik-Ordner>/sprachen/ ablegen, sie geht vor.
+
+de: \n(schon eingebaut)
+en: \n(already built in)
+
+de: \nLinie: 
+en: \nLine: 
+
+de: \nNoch keine Zugverbindung über XTC
+en: \nNo train connection via XTC yet
+
+de: \nPassagiere 1. Klasse: 
+en: \nPassengers 1st class: 
+
+de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
+en: \nTrain events arrive online via XTC ({0} trains connected)
+
+de:   (hält in 
+en:   (stops at 
+
+de:   (noch ohne Ladegleis)
+en:   (no loading track yet)
+
+de:   keine Ladegleise – im Stationsdialog ein Gleis als Ladegleis wählen
+en:   no loading tracks – choose a track as loading track in the station dialog
+
+de:   {0}: kommt von {1}
+en:   {0}: comes from {1}
+
+de:   {0}: noch kein Lieferant – nach dem Übernehmen in „Kreislauf prüfen“ ergänzen
+en:   {0}: no supplier yet – add it in “Check supply chain” after applying
+
+de:  (Art „Anderes“)
+en:  (type “Other”)
+
+de:  (Güterbahnhof)
+en:  (freight yard)
+
+de:  (Richtung {0})
+en:  (direction {0})
+
+de:  (Schattenbahnhof, lagert um)
+en:  (fiddle yard, transships)
+
+de:  (abgegeben alle {0} Stunden: {1} auf einmal)
+en:  (released every {0} hours: {1} at once)
+
+de:  (alle Güter)
+en:  (all goods)
+
+de:  (an keinem Bahnhof)
+en:  (at no station)
+
+de:  (hält)
+en:  (stops)
+
+de:  (kein Ladegleis zum Entladen)
+en:  (no loading track for unloading)
+
+de:  (nicht auf der Anlage)
+en:  (not on the layout)
+
+de:  (nicht auf der Anlage, liefert an {0})
+en:  (not on the layout, delivers to {0})
+
+de:  (ohne Bahnsteig)
+en:  (no platform)
+
+de:  Abnehmer.\n
+en:  customers.\n
+
+de:  Lieferanten.\n
+en:  suppliers.\n
+
+de:  Reisende sind
+en:  passengers are
+
+de:  Reisender ist
+en:  passenger is
+
+de:  Richtung {0}
+en:  direction {0}
+
+de:  Zeile mit ⚠. Bitte eine markieren, dann „Weiter“.
+en:  row with ⚠. Please select one, then “Next”.
+
+de:  Zeilen mit ⚠. Bitte eine markieren, dann „Weiter“.
+en:  rows with ⚠. Please select one, then “Next”.
+
+de:  Zug
+en:  train
+
+de:  Züge
+en:  trains
+
+de:  benötigt
+en:  needed
+
+de:  mit „{0}“
+en:  with “{0}”
+
+de:  · fährt ein
+en:  · arriving
+
+de:  – Bahnhof oder Haltepunkt anlegen
+en:  – create station or halt
+
+de:  – Benötigt: {0} · Liefert: {1}
+en:  – Needs: {0} · Supplies: {1}
+
+de:  – abholen in 
+en:  – pick up at 
+
+de:  – kann geliefert werden von: {0}
+en:  – can be supplied by: {0}
+
+de:  – keine Güterwagen erkannt
+en:  – no freight wagons found
+
+de:  – mit „{0}“ verbinden
+en:  – connect with “{0}”
+
+de:  – noch nirgends zur Abholung bereit
+en:  – not yet ready for pickup anywhere
+
+de: (Spalte {0}, Symbol)
+en: (column {0}, symbol)
+
+de: (Vorgabe {0})
+en: (default {0})
+
+de: (Vorgabe {0}, Browser Logistik {1})
+en: (default {0}, Browser Logistics {1})
+
+de: (alle Eingänge – unten „Liefert immer“ angehakt)
+en: (all inputs – “Always supplies” ticked below)
+
+de: (erster Reiter, immer sichtbar)
+en: (first tab, always visible)
+
+de: ,  2. Klasse: 
+en: ,  2nd class: 
+
+de: , Joker
+en: , joker
+
+de: 0 Hinweise
+en: 0 notices
+
+de: 0 Sekunden bedeutet keine Bewertung. Sonst: Modellsekunden, die ein voller Wagen zum Beladen bzw. Entladen braucht (begrenzt das Umladen zusätzlich zum Gleis).
+en: 0 seconds means no rating. Otherwise: model seconds a full wagon needs to load or unload (limits transshipment in addition to the track).
+
+de: 1 Hinweis
+en: 1 notice
+
+de: 1. Was wird transportiert?
+en: 1. What is transported?
+
+de: 2. Woher kommt es?
+en: 2. Where does it come from?
+
+de: 3. Wer verbraucht es, wie viel?
+en: 3. Who consumes it, how much?
+
+de: 4. Transport zwischen den Bahnhöfen
+en: 4. Transport between stations
+
+de: 5. Zusammenfassung
+en: 5. Summary
+
+de: Abbruch
+en: Cancel
+
+de: Abfahrt
+en: Departure
+
+de: Abgeglichen: {0} Loks, {1} Wagen, {2} Blöcke, {3} Züge, Uhr-Faktor {4} (so wie zuletzt in iTrain gespeichert) aus {5}{6}{7}
+en: Synchronised: {0} locos, {1} wagons, {2} blocks, {3} trains, clock factor {4} (as last saved in iTrain) from {5}{6}{7}
+
+de: Abgehende Güter
+en: Outgoing goods
+
+de: Abgenommen
+en: Taken
+
+de: Abgeschaltete Dialoge
+en: Disabled dialogs
+
+de: Abgleichen
+en: Synchronise
+
+de: Ablauf gespeichert: {0} Vorgänge.
+en: Sequence saved: {0} actions.
+
+de: Ablauf konnte nicht gespeichert werden: {0}
+en: Sequence could not be saved: {0}
+
+de: Ablauf läuft: {0} Vorgänge über {1} s.
+en: Sequence running: {0} actions over {1} s.
+
+de: Ablauf stoppen
+en: Stop sequence
+
+de: Ablauf vollständig gestartet.
+en: Sequence fully started.
+
+de: Abläufe
+en: Sequences
+
+de: Abreisend
+en: Departing
+
+de: Abreisende
+en: Departing
+
+de: Abreisende M/h
+en: Departing M/h
+
+de: Abreisende Personen
+en: Departing people
+
+de: Abwärts
+en: Down
+
+de: Adresse:
+en: Address:
+
+de: Adresse: http://{0}:{1}/modul/{2}
+en: Address: http://{0}:{1}/modul/{2}
+
+de: Aktion
+en: Action
+
+de: Aktiv
+en: Active
+
+de: Aktuelle schließen
+en: Close current
+
+de: Alle Angaben dieses Wagens (Wagenart, Plätze, Kapazität, Güter, Zeiten) in die Zwischenablage
+en: Copy all details of this wagon (type, seats, capacity, goods, times) to the clipboard
+
+de: Alle Bahnhöfe sind bereits vollständig angeheftet.
+en: All stations are already fully attached.
+
+de: Alle Bestände, Wartenden, Ladungen und den offenen Bedarf auf 0 setzen (die Anlage selbst bleibt)
+en: Set all stocks, waiting passengers, loads and open demand to 0 (the layout itself stays)
+
+de: Alle Bestände, wartenden Passagiere, offenen Bedarfe, Zugladungen und Statistiken werden auf 0 gesetzt. Objekte, Gleise und Einstellungen bleiben erhalten.
+en: All stocks, waiting passengers, open demand, train loads and statistics are set to 0. Objects, tracks and settings are kept.
+
+de: Alle Betriebe haben Lieferanten und Abnehmer.
+en: All industries have suppliers and customers.
+
+de: Alle Blöcke der .tcdz
+en: All blocks of the .tcdz
+
+de: Alle Blöcke sind Gleisen zugeordnet.
+en: All blocks are assigned to tracks.
+
+de: Alle Dateien
+en: All files
+
+de: Alle Fenster zentrieren
+en: Center all windows
+
+de: Alle Spalten zeigen
+en: Show all columns
+
+de: Alle Züge
+en: All trains
+
+de: Alle anheften und fehlende Gleise ergänzen
+en: Attach all and add missing tracks
+
+de: Alle wieder anzeigen ({0})
+en: Show all again ({0})
+
+de: Alle Änderungen seit dem Öffnen bzw. dem letzten Speichern verwerfen?
+en: Discard all changes since opening or last saving?
+
+de: Alles auf 0 gesetzt.
+en: Everything set to 0.
+
+de: Alles auf 0 setzen
+en: Reset all to 0
+
+de: Alles auf 0 setzen?
+en: Reset all to 0?
+
+de: Alles auswählen
+en: Select all
+
+de: Alles vorhanden – nichts zu ergänzen.
+en: Everything present – nothing to add.
+
+de: Als Gleis zuordnen
+en: Assign as track
+
+de: Als Vorschlag speichern
+en: Save as suggestion
+
+de: Als Vorschlag speichern…
+en: Save as suggestion…
+
+de: Als eigenes Fenster lösen
+en: Detach as separate window
+
+de: Am Bahnhof „{0}“ wird ein Lager gebraucht, damit {1} dort auf den Weitertransport warten kann.
+en: Station “{0}” needs a warehouse so that {1} can wait there for onward transport.
+
+de: An Bahnsteigen dieser Station steigen alle ankommenden Passagiere aus
+en: All arriving passengers alight at the platforms of this station
+
+de: An diesem Gleis angenommen und verladen: {0}
+en: Accepted and loaded at this track: {0}
+
+de: Anderes
+en: Other
+
+de: Anderes – bitte Art wählen
+en: Other – please choose type
+
+de: Andocken {0}
+en: Dock {0}
+
+de: Angaben aus der Zwischenablage übernehmen; erst „Speichern“ übernimmt sie in den Wagen
+en: Take details from the clipboard; only “Save” applies them to the wagon
+
+de: Angaben kopieren
+en: Copy details
+
+de: Angebot
+en: Supply
+
+de: Angebot M/h
+en: Supply M/h
+
+de: Angebot wählen…
+en: Choose supply…
+
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+en: Ticked stations hang on the tab instead of the layout infrastructure and appear in its tab with freight yard, towns, industries and warehouses. Also via right-click on a station “Connect with tab…”. The name applies to symbol and tab.
+
+de: Angehalten (Rate 0)
+en: Stopped (rate 0)
+
+de: Angehalten – {0} neue Zeile(n) warten
+en: Paused – {0} new row(s) waiting
+
+de: Angeliefert
+en: Delivered
+
+de: Angenommene Post/Expressgut verlässt die Anlage. Erzeugt wird nur, wenn Zusteigen erlaubt ist.
+en: Accepted mail/express goods leave the layout. Generated only if boarding is allowed.
+
+de: Anhalten
+en: Pause
+
+de: Anhängen
+en: Append
+
+de: Ank. {0}
+en: Arr. {0}
+
+de: Ankommend
+en: Arriving
+
+de: Ankommend in dieser Modellstunde: {0}
+en: Arriving in this model hour: {0}
+
+de: Ankommende
+en: Arriving
+
+de: Ankommende Güter
+en: Incoming goods
+
+de: Ankommende Passagiere in dieser Modellstunde
+en: Arriving passengers in this model hour
+
+de: Ankommende Personen
+en: Arriving people
+
+de: Ankommende Reisende M/h
+en: Arriving passengers M/h
+
+de: Ankommende bei {0} auf „Unbegrenzt“
+en: Arrivals at {0} to “Unlimited”
+
+de: Anlage
+en: Layout
+
+de: Anlage bearbeiten
+en: Edit layout
+
+de: Anlage bearbeiten: Orte, Bahnhöfe, Betriebe, Lager anlegen und verbinden
+en: Edit layout: create and connect towns, stations, industries, warehouses
+
+de: Anlage prüfen
+en: Check layout
+
+de: Anlage und Module im Browser zeigen (nur lesend, im Heimnetz)
+en: Show layout and modules in the browser (read-only, home network)
+
+de: Anlagen-Infrastruktur ({0})
+en: Layout infrastructure ({0})
+
+de: Anlegen
+en: Create
+
+de: Anlegen:
+en: Create:
+
+de: Annahme
+en: Acceptance
+
+de: Annahme wählen…
+en: Choose acceptance…
+
+de: Anschließer
+en: Siding user
+
+de: Anschluss
+en: Siding
+
+de: Ansichten
+en: Views
+
+de: Anteil 1. Klasse (%)
+en: Share 1st class (%)
+
+de: Antriebsart
+en: Traction
+
+de: Anzahl Blöcke: {0}
+en: Number of blocks: {0}
+
+de: Anzeige im Browser auf einem anderen Rechner, Handy oder Tablet
+en: Display in the browser on another computer, phone or tablet
+
+de: Arial
+en: Arial
+
+de: Art
+en: Type
+
+de: Art einstellen!
+en: Set type!
+
+de: Art nur zwischen Stationsarten änderbar
+en: Type can only be changed between station types
+
+de: Auch in „Browser Logistik“ beim Antippen eines Kastens (einmal)
+en: Also in “Browser Logistics” when tapping a box (once)
+
+de: Auf .tcdz zurücksetzen
+en: Reset to .tcdz
+
+de: Auf 0 setzen
+en: Set to 0
+
+de: Auf dem anderen Rechner, Handy oder Tablet diese Adresse im Browser öffnen. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben; beim ersten Start fragt Windows meist selbst nach. Module legst du in „Anlage bearbeiten“ an (Palette „Modul“).
+en: Open this address in the browser on the other computer, phone or tablet. The Windows firewall of this computer must allow the port inbound; Windows usually asks at first start. Create modules in “Edit layout” (palette “Module”).
+
+de: Auf der Anlage
+en: On the layout
+
+de: Auf der Anlage oder Name eines (neuen) Moduls
+en: On the layout or name of a (new) module
+
+de: Aufgezeichneten Ablauf anzeigen, bearbeiten und abspielen
+en: Show, edit and play the recorded sequence
+
+de: Aufwärts
+en: Up
+
+de: Aufzeichnen
+en: Record
+
+de: Aufzeichnen (0)
+en: Record (0)
+
+de: Aufzeichnen ({0})
+en: Record ({0})
+
+de: Aufzeichnung beendet – nichts aufgezeichnet.
+en: Recording ended – nothing recorded.
+
+de: Aufzeichnung gespeichert: {0} Vorgänge ({1}).
+en: Recording saved: {0} actions ({1}).
+
+de: Aufzeichnung konnte nicht gespeichert werden: {0}
+en: Recording could not be saved: {0}
+
+de: Aufzeichnung läuft – jeder Drag&Drop wird mit seinem Zeitpunkt gespeichert.
+en: Recording – every drag & drop is saved with its time.
+
+de: Aus
+en: Off
+
+de: Aus Lager: {0} ({1} vorrätig)
+en: From warehouse: {0} ({1} in stock)
+
+de: Aus der iTrain-Datei „{0}“: Maßstab 1:{1}{2}{3}{4}. Der Maßstab ist eingetragen. Eine Epoche steht nicht in der iTrain-Datei.
+en: From the iTrain file “{0}”: scale 1:{1}{2}{3}{4}. The scale has been entered. An era is not stored in the iTrain file.
+
+de: Ausführungen M/h
+en: Runs M/h
+
+de: Ausfüllen
+en: Fill in
+
+de: Ausgang
+en: Output
+
+de: Ausgangsbestände
+en: Output stocks
+
+de: Ausgangslager voll: {0}
+en: Output store full: {0}
+
+de: Ausgangslager {0}
+en: Output store {0}
+
+de: Ausgeglichen
+en: Balanced
+
+de: Ausgehend
+en: Outgoing
+
+de: Ausgestiegen
+en: Alighted
+
+de: Ausgewählte Blöcke an
+en: Selected blocks to
+
+de: Ausgewähltes Gut aus dem Zug entladen…
+en: Unload selected goods from the train…
+
+de: Ausgewähltes Gut in den haltenden Zug laden…
+en: Load selected goods into the stopping train…
+
+de: Ausgleich über Übergabe
+en: Balance via interchange
+
+de: Auslastung
+en: Utilisation
+
+de: Auslastung = Füllstand der Ausgangslager. Rate/h = Ausführungen des Rezepts je Modellstunde.
+en: Utilisation = fill level of the output stores. Rate/h = runs of the recipe per model hour.
+
+de: Ausrichtung
+en: Alignment
+
+de: Ausstattung
+en: Equipment
+
+de: Aussteigeanteil ankommender\nPassagiere (%)
+en: Share of arriving\npassengers alighting (%)
+
+de: Aussteigen erlaubt
+en: Alighting allowed
+
+de: Aussteigende Passagiere
+en: Alighting passengers
+
+de: Aussteigende Passagiere ·
+en: Alighting passengers ·
+
+de: Auswahl
+en: Selection
+
+de: Auswahl öffnen
+en: Open selection
+
+de: Auswahl:
+en: Selection:
+
+de: Automatisch (liefert immer, ohne auf der Anlage zu sein){0}
+en: Automatic (always supplies without being on the layout){0}
+
+de: Automatisch (wird von außerhalb geliefert){0}
+en: Automatic (supplied from outside){0}
+
+de: Automatisch ({0}, nicht auf der Anlage)
+en: Automatic ({0}, not on the layout)
+
+de: Automatisch geladen: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+en: Loaded automatically: {0}  ({1} locos, {2} wagons, {3} blocks, {4} trains)
+
+de: Außenwelt: Güter, die hier bereitstehen
+en: Outside world: goods ready here
+
+de: Außenwelt: Personen an diesem Bahnsteig
+en: Outside world: people at this platform
+
+de: Außenwelt: stellt Personen und Güter bereit und nimmt alles ab
+en: Outside world: provides people and goods and takes everything
+
+de: Backup geladen: {0}
+en: Backup loaded: {0}
+
+de: Backup konnte nicht geladen werden
+en: Backup could not be loaded
+
+de: Backup laden
+en: Load backup
+
+de: Backup laden...
+en: Load backup...
+
+de: Bahnhof
+en: Station
+
+de: Bahnhof in iTrain
+en: Station in iTrain
+
+de: Bahnhof „{0}“ an die Anlagen-Infrastruktur angeheftet.
+en: Station “{0}” attached to the layout infrastructure.
+
+de: Bahnhof:
+en: Station:
+
+de: Bahnhöfe
+en: Stations
+
+de: Bahnhöfe ({0})
+en: Stations ({0})
+
+de: Bahnhöfe und Gleise
+en: Stations and tracks
+
+de: Bahnhöfe, die an diesem Tab hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+en: Stations hanging on this tab (with their freight yards, towns, industries, warehouses)
+
+de: Bahnhöfe: {0}
+en: Stations: {0}
+
+de: Bahnsteig
+en: Platform
+
+de: Bahnsteig und Ladegleis
+en: Platform and loading track
+
+de: Bahnsteig und Ladegleis (beides an diesem Gleis)
+en: Platform and loading track (both at this track)
+
+de: Bahnsteige und Ladegleise: Es entstehen ein {0} und ein angedockter Güterbahnhof.
+en: Platforms and loading tracks: a {0} and a docked freight yard are created.
+
+de: Batterie
+en: Battery
+
+de: Bauernhof
+en: Farm
+
+de: Baumwollplantage
+en: Cotton plantation
+
+de: Bearbeiten
+en: Edit
+
+de: Bearbeiten…
+en: Edit…
+
+de: Bedarf
+en: Demand
+
+de: Bedarf = was je Modellstunde bewegt werden muss: das Größere aus Erzeugung und Verbrauch eines Guts, bei Passagieren das Aufkommen aller Orte. Kapazität = Summe der Wagen aller Züge (Felder Kapazität, Wagenladungen, aktive Güter bzw. Sitz- und Stehplätze). Ein Gut zählt nur bei Wagen, die es laden dürfen; Behälterwagen (Lade-Joker) zählen überall. Güter, die ohne Zug im selben Einzugsbereich verbraucht werden, sind hier noch mitgezählt.
+en: Demand = what has to be moved per model hour: the larger of production and consumption of a good, for passengers the volume of all towns. Capacity = sum of the wagons of all trains (fields capacity, wagon loads, active goods or seats and standing places). A good only counts for wagons allowed to load it; container wagons (loading joker) count everywhere. Goods consumed without a train within the same catchment area are still included here.
+
+de: Bedarf M/h
+en: Demand M/h
+
+de: Bedarf bei {0}
+en: Demand at {0}
+
+de: Bedarf bei „{0}“: {1} je Modellstunde
+en: Demand at “{0}”: {1} per model hour
+
+de: Bedarf eintragen bei: {0}{1}
+en: Enter demand at: {0}{1}
+
+de: Bedarf je Modellstunde
+en: Demand per model hour
+
+de: Bedarf muss eingestellt werden – das geht im Schritt 3.
+en: Demand must be set – this is done in step 3.
+
+de: Bedienung des Ladegleises (Richtung kommt über XTC):
+en: Loading track service (direction comes via XTC):
+
+de: Befördert Güter
+en: Carries goods
+
+de: Befördert Personen
+en: Carries passengers
+
+de: Behälter
+en: Container
+
+de: Behälterwagen sind Lade-Joker: Sie laden jedes Gut, unabhängig von Ladeklasse und aktiven Gütern, bis zur Kapazität; die Mischregel gilt nicht (jedes Gut in eigenen Behältern).
+en: Container wagons are loading jokers: they load any good regardless of load class and active goods, up to capacity; the mixing rule does not apply (each good in its own containers).
+
+de: Beim Klick auf ein Symbol
+en: When clicking a symbol
+
+de: Beispiel
+en: Example
+
+de: Bekohlung
+en: Coaling
+
+de: Belegung
+en: Occupancy
+
+de: Benötigt / frei
+en: Needed / free
+
+de: Benötigt von: {0}
+en: Needed by: {0}
+
+de: Benötigt: {0}
+en: Needs: {0}
+
+de: Bereitgestellt
+en: Provided
+
+de: Beschreibung
+en: Description
+
+de: Beschreibung: {0}
+en: Description: {0}
+
+de: Bestand {0}
+en: Stock {0}
+
+de: Bestände
+en: Stocks
+
+de: Bestände  {0}/{1}
+en: Stocks  {0}/{1}
+
+de: Bestände, Wartende, offenen Bedarf und Statistik dieses Objekts auf 0 setzen
+en: Set stocks, waiting, open demand and statistics of this object to 0
+
+de: Betrieb
+en: Industry
+
+de: Betrieb anlegen
+en: Create industry
+
+de: Betrieb bearbeiten
+en: Edit industry
+
+de: Betrieb mit Rezepten (Produktion, Wandlung)
+en: Industry with recipes (production, conversion)
+
+de: Betriebe, die Ware liefern – wo wird es gebraucht
+en: Industries supplying goods – where are they needed
+
+de: Betriebswerk
+en: Depot
+
+de: Bevölkerung
+en: Population
+
+de: Bilanz
+en: Balance
+
+de: Bild nicht gefunden (Anfangsordner für Layout-Dateien prüfen).
+en: Image not found (check start folder for layout files).
+
+de: Bitte Reisende oder ein Gut wählen.
+en: Please choose passengers or a good.
+
+de: Bitte die Adresse des iTrain-Computers eingeben.
+en: Please enter the address of the iTrain computer.
+
+de: Bitte mindestens ein Streckengleis wählen.
+en: Please choose at least one line track.
+
+de: Bitte wählen, wer es verbraucht.
+en: Please choose who consumes it.
+
+de: Bitte wählen, woher es kommt.
+en: Please choose where it comes from.
+
+de: Bitte zuerst eine Konfiguration öffnen.
+en: Please open a configuration first.
+
+de: Bitte zuerst im Fenster „Anlage bearbeiten“ ein Symbol anklicken.
+en: Please click a symbol in the “Edit layout” window first.
+
+de: Bitte zuerst über "Datei > Öffnen..." eine .logz-Datei laden oder über "Datei > Neu aus .tcdz importieren..." neu anlegen.
+en: Please first load a .logz file via "File > Open..." or create a new one via "File > New configuration...".
+
+de: Bitte „Transport von“ und „Transport nach“ wählen.
+en: Please choose “Transport from” and “Transport to”.
+
+de: Blau
+en: Blue
+
+de: Blech
+en: Sheet metal
+
+de: Block
+en: Block
+
+de: Block links auswählen.
+en: Select a block on the left.
+
+de: Block: 
+en: Block: 
+
+de: Blöcke
+en: Blocks
+
+de: Blöcke (linke Hälfte = Einfahrt von links, rechte Hälfte = von rechts)
+en: Blocks (left half = arrival from the left, right half = from the right)
+
+de: Blöcke, die einem Gleis einer Station zugeordnet sind
+en: Blocks assigned to a track of a station
+
+de: Blöcke, die keinem Gleis einer Station zugeordnet sind
+en: Blocks not assigned to a track of a station
+
+de: Blöcke: {0}
+en: Blocks: {0}
+
+de: Brammen
+en: Slabs
+
+de: Brauerei
+en: Brewery
+
+de: Bretter
+en: Planks
+
+de: Browser Logistik
+en: Browser Logistics
+
+de: Browser Logistik eingeschaltet
+en: Browser Logistics switched on
+
+de: Browser Logistik ist ausgeschaltet
+en: Browser Logistics is switched off
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Logistik: anderen Port wählen.
+en: Browser Logistics could not open port {0} ({1}). Settings → Browser Logistics: choose another port.
+
+de: Browser Logistik läuft: {0}
+en: Browser Logistics running: {0}
+
+de: Browser Logistik...
+en: Browser Logistics...
+
+de: Browser Logistik: Anlage und Module im Browser (anderer Rechner, Handy, Tablet) öffnen; Einstellungen mit Port und QR-Code
+en: Browser Logistics: open layout and modules in the browser (other computer, phone, tablet); settings with port and QR code
+
+de: Browser Zuganzeiger
+en: Browser Departure Board
+
+de: Browser Zuganzeiger eingeschaltet
+en: Browser Departure Board switched on
+
+de: Browser Zuganzeiger ist ausgeschaltet
+en: Browser Departure Board is switched off
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Zuganzeiger: anderen Port wählen.
+en: Browser Departure Board could not open port {0} ({1}). Settings → Browser Departure Board: choose another port.
+
+de: Browser Zuganzeiger läuft: {0}
+en: Browser Departure Board running: {0}
+
+de: Browser Zuganzeiger...
+en: Browser Departure Board...
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser öffnen, auch je Bahnhof; Einstellungen mit Port und QR-Code
+en: Browser Departure Board: open departure boards in the browser, also per station; settings with port and QR code
+
+de: Browser konnte nicht geöffnet werden: {0}
+en: Browser could not be opened: {0}
+
+de: Browser: /modul/{0}
+en: Browser: /modul/{0}
+
+de: Browser: aus
+en: Browser: off
+
+de: Bücher
+en: Books
+
+de: Chemiefabrik
+en: Chemical plant
+
+de: Chemikalien
+en: Chemicals
+
+de: Coils
+en: Coils
+
+de: Dampf
+en: Steam
+
+de: Das Ladegleis steht im angedockten Güterbahnhof, der Bahnsteig im Schattenbahnhof – derselbe iTrain-Block.
+en: The loading track is in the docked freight yard, the platform in the fiddle yard – the same iTrain block.
+
+de: Datei
+en: File
+
+de: Datei geschlossen.
+en: File closed.
+
+de: Datei konnte nicht geöffnet werden
+en: File could not be opened
+
+de: Datei öffnen
+en: Open file
+
+de: Dateien
+en: Files
+
+de: Der Ablauf ist leer.
+en: The sequence is empty.
+
+de: Der Betrieb sammelt, was er herstellt, und gibt es alle so viele Modellstunden auf einmal ab – z. B. 5 Gebinde Fisch alle 6 Stunden. Ein Lager gibt es danach Stück für Stück weiter.
+en: The industry collects what it produces and releases it all at once every so many model hours – e.g. 5 crates of fish every 6 hours. A warehouse then passes it on piece by piece.
+
+de: Der Betrieb wird nicht gerechnet; seine Ausgangsgüter stehen allen Verbrauchern unbegrenzt zur Verfügung, ohne Zug.
+en: The industry is not simulated; its output goods are available to all consumers without limit, without a train.
+
+de: Der Block "{0}" ist schon einem anderen {1} zugeordnet. Ein Block kann höchstens ein Bahnsteig und ein Ladegleis sein.
+en: Block "{0}" is already assigned to another {1}. A block can be at most one platform and one loading track.
+
+de: Der Dateiname beginnt mit dem Namen des Symbols, z. B. „Möbelfabrik - Holz sägen.mp3“ oder „Möbelfabrik 2.mp3“. Gesucht wird nach dem Namen des Objekts, dann nach dem Betriebstyp (Sägewerk …) und der Art (Stadt, Bahnhof …); bei mehreren Dateien zufällig. Formate mp3, wav, m4a, aiff. Mitgeliefert sind nur gemeinfreie Aufnahmen (CC0).
+en: The file name starts with the name of the symbol, e.g. “Möbelfabrik - Holz sägen.mp3” or “Möbelfabrik 2.mp3”. Search order: name of the object, then industry type (saw mill …) and kind (town, station …); random if several files match. Formats mp3, wav, m4a, aiff. Only public-domain recordings (CC0) are included.
+
+de: Der Verbraucher hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden.
+en: The consumer is not connected to a station with {0} – please connect it to a station first.
+
+de: Der erste Gütertransport {0}zu {1} wurde erfolgreich absolviert.
+en: The first freight transport {0}to {1} was completed successfully.
+
+de: Der erste Transfer {0}zu {1} wurde erfolgreich absolviert.
+en: The first transfer {0}to {1} was completed successfully.
+
+de: Deutsch
+en: Deutsch
+
+de: Dialog nicht mehr anzeigen
+en: Don't show this dialog again
+
+de: Die Anlage wurde geändert.
+en: The layout has been changed.
+
+de: Die Erzeugung schwankt je Modellstunde zwischen 50 % und 150 % der Rate (im Mittel gleich). Überschuss wird am Gleis bzw. im Lager gehalten und nach Bedarf weitergegeben.
+en: Production varies per model hour between 50 % and 150 % of the rate (same on average). Surplus is kept at the track or in the warehouse and passed on as needed.
+
+de: Die Fahrzeugdatei dieser Konfiguration wurde nicht gefunden:\n{0}\n\nLokomotiven, Wagen und Züge kommen jetzt ohne eigene Angaben aus der iTrain-Datei. Mit Datei > „Fahrzeuge importieren...“ lassen sich die Angaben aus einer anderen Fahrzeugdatei holen.
+en: The vehicle file of this configuration was not found:\n{0}\n\nLocomotives, wagons and trains now come from the iTrain file without your own details. Use File > “Import vehicles...” to fetch the details from another vehicle file.
+
+de: Die Herkunft hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden („Mit Station verbinden…“).
+en: The source is not connected to a station with {0} – please connect it to a station first (“Connect with station…”).
+
+de: Die Liste bleibt stehen, damit man in Ruhe lesen und markieren kann. Die Ereignisse werden trotzdem verarbeitet und bei „Weiter“ nachgetragen.
+en: The list stays still so you can read and select in peace. Events are still processed and added on “Continue”.
+
+de: Die eingetragenen Personen- und Gütermengen als eigenen Vorschlag speichern.
+en: Save the entered passenger and goods amounts as your own suggestion.
+
+de: Die gewählte Objektart zeigt auf der Anlage künftig das markierte Symbol.
+en: The chosen object type will show the selected symbol on the layout.
+
+de: Die gewählte Objektart zeigt wieder ihr eigenes Symbol.
+en: The chosen object type shows its own symbol again.
+
+de: Diese Zeile ist in Ordnung (✓). Bitte eine Zeile mit ⚠ markieren.
+en: This row is fine (✓). Please select a row with ⚠.
+
+de: Diesel
+en: Diesel
+
+de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
+en: This object is paused – click to let it run again
+
+de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+en: This symbol hangs on the layout infrastructure in the first tab
+
+de: Dorf
+en: Village
+
+de: Drag&Drop-Vorgänge mit ihrem Zeitpunkt aufzeichnen; erneuter Klick beendet und speichert
+en: Record drag & drop actions with their time; click again to stop and save
+
+de: Druckerei
+en: Printing works
+
+de: Dynamisch: mal mehr, mal weniger herstellen
+en: Dynamic: produce sometimes more, sometimes less
+
+de: Dünger
+en: Fertiliser
+
+de: Eigene Datei {0}
+en: Own file {0}
+
+de: Eigene Datenfelder
+en: Own data fields
+
+de: Eigene Farbfläche
+en: Own colour area
+
+de: Eigenen Vorschlag löschen
+en: Delete own suggestion
+
+de: Eigener Betrieb (ohne Vorlage)
+en: Own industry (no template)
+
+de: Eigener Betrieb: Eingänge und Ausgänge stellst Du danach selbst ein.
+en: Own industry: you set inputs and outputs yourself afterwards.
+
+de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+en: Own port, separate from Browser Logistics. Speed, zoom and “Suggest suitable trains” are set by each device at the bottom of the board (remembered by the browser), “Full screen” for a tablet as a display. The Windows firewall of this computer must allow the port inbound.
+
+de: Eigener Reiter mit den angehängten Bahnhöfen
+en: Own tab with the attached stations
+
+de: Ein Modul
+en: A module
+
+de: Ein Tab
+en: A tab
+
+de: Eine Verbindung verbindet eine Station mit einem Ort, Betrieb, Lager oder einer Übergabe (Einzugsbereich). Zwei Stationen lassen sich nicht verbinden.
+en: A connection links a station with a town, industry, warehouse or interchange (catchment area). Two stations cannot be connected.
+
+de: Einfahrt
+en: Arrival
+
+de: Einfahrt von
+en: Arrival from
+
+de: Einfügen
+en: Paste
+
+de: Einfügen geht im Fenster „Anlage bearbeiten“.
+en: Pasting works in the “Edit layout” window.
+
+de: Eingang
+en: Input
+
+de: Eingangsbestände
+en: Input stocks
+
+de: Eingangsgüter, die von außerhalb geliefert werden
+en: Input goods supplied from outside
+
+de: Eingangslager {0}
+en: Input store {0}
+
+de: Eingebautes Symbol
+en: Built-in symbol
+
+de: Eingehend
+en: Incoming
+
+de: Eingelagert {0}/{1}
+en: Stored {0}/{1}
+
+de: Eingestiegen
+en: Boarded
+
+de: Eingestiegen Richtung 
+en: Boarded direction 
+
+de: Eingänge der Betriebe – woher sie kommen
+en: Inputs of the industries – where they come from
+
+de: Einheit
+en: Unit
+
+de: Einheiten
+en: Units
+
+de: Einlagern in: {0}{1}
+en: Store in: {0}{1}
+
+de: Einmal beim Öffnen
+en: Once when opening
+
+de: Einpassen
+en: Fit
+
+de: Einrichtung
+en: Setup
+
+de: Einsteigende Passagiere
+en: Boarding passengers
+
+de: Einsteigende Passagiere ·
+en: Boarding passengers ·
+
+de: Einstellungen
+en: Settings
+
+de: Einstellungen, Adressen und QR-Code…
+en: Settings, addresses and QR code…
+
+de: Einwohner
+en: Inhabitants
+
+de: Einwohner {0}  ·  Abreisende {1} M/h  ·  Ankommende {2}  ·  1. Klasse {3} %
+en: Inhabitants {0}  ·  departing {1} M/h  ·  arriving {2}  ·  1st class {3} %
+
+de: Einzelne Kapazitäten mit Einheit zeigen
+en: Show individual capacities with unit
+
+de: Einzugsbereich
+en: Catchment area
+
+de: Einzugsbereich (Orte, Betriebe, Lager, Übergaben, die diese Station bedient)
+en: Catchment area (towns, industries, warehouses, interchanges served by this station)
+
+de: Eisenerz
+en: Iron ore
+
+de: Eisenerzbergwerk
+en: Iron ore mine
+
+de: Elektrisch
+en: Electric
+
+de: Empfangen
+en: Received
+
+de: Endprodukt
+en: End product
+
+de: English
+en: English
+
+de: Entfernen
+en: Remove
+
+de: Entladen
+en: Unload
+
+de: Entladen aller Güter erzwingen (auch ohne Abnehmer)
+en: Force unloading of all goods (even without customer)
+
+de: Entladen erlaubt
+en: Unloading allowed
+
+de: Entladen in
+en: Unload at
+
+de: Entspricht der Zusammenstellung in der .tcdz.
+en: Matches the composition in the .tcdz.
+
+de: Epoche {0}
+en: Era {0}
+
+de: Ereignis
+en: Event
+
+de: Ereignisse
+en: Events
+
+de: Ergebnis der Prüfung
+en: Result of the check
+
+de: Erzeugt Stück M/h
+en: Generates pieces M/h
+
+de: Erzeugt wird hier vom angeschlossenen Ort (Reisende aus Stadt/Dorf/Ländlich).
+en: Generated here by the connected town (passengers from town/village/rural).
+
+de: Erzeugung und Bereitstellung: links langsamer (×0,75 … ×0,1), Mitte ×1, rechts schneller (×1,5 … ×4). Angehalten wird mit dem Knopf Pause.
+en: Production and supply: left slower (×0.75 … ×0.1), centre ×1, right faster (×1.5 … ×4). Pause with the Pause button.
+
+de: Es fehlen 
+en: Missing: 
+
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+en: There is no {0} yet. Please first create one from the palette “{1}” in the first tab; it hangs on the layout infrastructure.
+
+de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
+en: There is no station, halt, freight yard or siding yet.
+
+de: Es gibt schon eine Aufzeichnung. Soll sie durch die neue ersetzt werden?
+en: A recording already exists. Replace it with the new one?
+
+de: Es gibt ungespeicherte Änderungen. Vor dem Beenden speichern?
+en: There are unsaved changes. Save before exiting?
+
+de: Es ist keine Datei geöffnet. Der Simulator arbeitet immer mit der Datei, die in iTrain-Logistik geöffnet ist. Bitte zuerst eine Datei öffnen; danach öffnet sich der Simulator von selbst.
+en: No file is open. The simulator always works with the file open in iTrain-Logistik. Please open a file first; the simulator then opens by itself.
+
+de: Expressgut
+en: Express goods
+
+de: Expressgut empfangen
+en: Express goods received
+
+de: Fabrik
+en: Factory
+
+de: Fahrtrichtungen
+en: Directions
+
+de: Fahrzeugdaten (*.fahrzeuge.xml)
+en: Vehicle data (*.fahrzeuge.xml)
+
+de: Fahrzeugdaten fehlen
+en: Vehicle data missing
+
+de: Fahrzeuge
+en: Vehicles
+
+de: Fahrzeuge exportieren
+en: Export vehicles
+
+de: Fahrzeuge exportieren...
+en: Export vehicles...
+
+de: Fahrzeuge exportiert: {0}
+en: Vehicles exported: {0}
+
+de: Fahrzeuge importieren
+en: Import vehicles
+
+de: Fahrzeuge importieren...
+en: Import vehicles...
+
+de: Fahrzeuge importiert aus {0}: {1} Lokomotiven/Wagen/Züge mit gleichem Namen übernommen, gespeichert in {2}.
+en: Vehicles imported from {0}: {1} locomotives/wagons/trains with the same name taken over, saved in {2}.
+
+de: Fahrzeuge konnten nicht exportiert werden
+en: Vehicles could not be exported
+
+de: Fahrzeuge konnten nicht importiert werden
+en: Vehicles could not be imported
+
+de: Fahrzeuge übernehmen?
+en: Take over vehicles?
+
+de: Fahrzeugfabrik
+en: Vehicle factory
+
+de: Faktor der Modelluhr
+en: Model clock factor
+
+de: Faktor für die Lagergrößen
+en: Factor for warehouse sizes
+
+de: Faktor für die Lagergrößen beim Anlegen eines Betriebs.\nBeispiel 0,1: Das Sägewerk-Eingangslager hat 40 statt 400 Einheiten.\nGilt für neu angelegte Betriebe.
+en: Factor for warehouse sizes when creating an industry.\nExample 0.1: the saw mill input store holds 40 instead of 400 units.\nApplies to newly created industries.
+
+de: Farbe
+en: Colour
+
+de: Farbe des Symbols und der Verbindung
+en: Colour of symbol and connection
+
+de: Farbe für "{0}"
+en: Colour for "{0}"
+
+de: Farbe:
+en: Colour:
+
+de: Farben: Rechtsklick auf ein Symbol, „Farbe…“
+en: Colours: right-click a symbol, “Colour…”
+
+de: Farbe…
+en: Colour…
+
+de: Farbstoffe
+en: Dyes
+
+de: Fehler beim Laden von translations.properties: {0}
+en: Error loading translations.properties: {0}
+
+de: Feld
+en: Field
+
+de: Fester Mittelpunkt, an dem alle Stationen hängen
+en: Fixed centre to which all stations are attached
+
+de: Fett
+en: Bold
+
+de: Fisch
+en: Fish
+
+de: Fischzucht
+en: Fish farm
+
+de: Flachwagen, Drehgestell (Regelbauart)
+en: Flat wagon, bogies (standard)
+
+de: Flachwagen, Drehgestell (Sonderbauart)
+en: Flat wagon, bogies (special)
+
+de: Flachwagen, Einzelachsen (Regelbauart)
+en: Flat wagon, single axles (standard)
+
+de: Flachwagen, Einzelachsen (Sonderbauart)
+en: Flat wagon, single axles (special)
+
+de: Fleisch
+en: Meat
+
+de: Flüssig
+en: Liquid
+
+de: Flüssiggut
+en: Liquid goods
+
+de: Flüssigkeiten
+en: Liquids
+
+de: Flüssiglager
+en: Liquid store
+
+de: Formatierung
+en: Formatting
+
+de: Formatierung…
+en: Formatting…
+
+de: Funktionen
+en: Functions
+
+de: Führend
+en: Leading
+
+de: Füllung
+en: Fill
+
+de: Für diese Datei liegt noch keine Sicherung vor.
+en: There is no backup for this file yet.
+
+de: Für {0} ist noch kein Bedarf eingestellt.
+en: No demand has been set for {0} yet.
+
+de: Für {0} wird zusätzlich gebraucht bzw. bleibt übrig.\n▼ Eingang ohne Lieferanten · ▲ Ausgang ohne Abnehmer. Unter einem neuen Betrieb stehen dessen eigene offene Enden.\n„Wird von außerhalb geliefert“: das Gut steht dem Betrieb unbegrenzt zur Verfügung, ohne Zug. Mengen werden nach dem Übernehmen automatisch abgeglichen.
+en: For {0} additionally needed or left over.\n▼ input without supplier · ▲ output without customer. Below a new industry are its own open ends.\n“Supplied from outside”: the good is available to the industry without limit, without a train. Amounts are balanced automatically after applying.
+
+de: Ganze Anlage
+en: Whole layout
+
+de: Ganze Anlage in den sichtbaren Bereich zoomen
+en: Zoom the whole layout into the visible area
+
+de: Gebinde
+en: Crates
+
+de: Gedeckter Wagen (Regelbauart)
+en: Covered wagon (standard)
+
+de: Gedeckter Wagen (Sonderbauart)
+en: Covered wagon (special)
+
+de: Geeignete Züge vorschlagen
+en: Suggest suitable trains
+
+de: Gegenstück
+en: Counterpart
+
+de: Gegenstück (bringt)
+en: Counterpart (brings)
+
+de: Gegenstück (nimmt auf)
+en: Counterpart (takes)
+
+de: Gegenstück fehlt: Ein anderer Bahnhof oder der Schattenbahnhof muss ebenfalls einen Bahnsteig „Mit Koffer“ haben, sonst können Kofferreisende nirgends aussteigen.
+en: Counterpart missing: another station or the fiddle yard must also have a platform “With luggage”, otherwise passengers with luggage cannot alight anywhere.
+
+de: Geht an
+en: Goes to
+
+de: Gekoppelte Datei nicht gefunden: {0}
+en: Linked file not found: {0}
+
+de: Geladen
+en: Loaded
+
+de: Geladen Richtung 
+en: Loaded direction 
+
+de: Gelb
+en: Yellow
+
+de: Geliefert
+en: Supplied
+
+de: Geliefert von
+en: Supplied by
+
+de: Gemischt
+en: Mixed
+
+de: Gemüse
+en: Vegetables
+
+de: Gepäckwagen
+en: Luggage van
+
+de: Geräusch nicht abspielbar: {0} – {1}
+en: Sound cannot be played: {0} – {1}
+
+de: Geräusche
+en: Sounds
+
+de: Geräusche nicht ausgepackt: {0}
+en: Sounds not unpacked: {0}
+
+de: Gesamt (Güterübersicht)
+en: Total (goods overview)
+
+de: Gesamten Güter- und Personenaustausch anhalten
+en: Pause all goods and passenger exchange
+
+de: Gesamten Güter- und Personenaustausch starten
+en: Start all goods and passenger exchange
+
+de: Geschlossen
+en: Closed
+
+de: Gespeichert: {0}
+en: Saved: {0}
+
+de: Getreide
+en: Grain
+
+de: Getränke
+en: Beverages
+
+de: Gewerbe
+en: Commerce
+
+de: Gewicht und Volumen sind nur zur Information und werden beim Laden nicht bewertet.
+en: Weight and volume are for information only and are not rated when loading.
+
+de: Geöffnet: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+en: Opened: {0}  ({1} locos, {2} wagons, {3} blocks, {4} trains)
+
+de: Glas
+en: Glass
+
+de: Glashütte
+en: Glassworks
+
+de: Gleis
+en: Track
+
+de: Gleis bearbeiten
+en: Edit track
+
+de: Gleis hinzufügen…
+en: Add track…
+
+de: Gleis:
+en: Track:
+
+de: Gleis: {0} – {1} ({2})
+en: Track: {0} – {1} ({2})
+
+de: Gleisanschluss eines Betriebs, Bahnsteige und Ladegleise
+en: Siding of an industry, platforms and loading tracks
+
+de: Gleisart
+en: Track type
+
+de: Gleise
+en: Tracks
+
+de: Gleise (je Gleis genau ein iTrain-Block)
+en: Tracks (each track exactly one iTrain block)
+
+de: Gleise der Art Ladegleis (Güter) kommen beim Speichern in den Güterbahnhof {0}.
+en: Tracks of type loading track (goods) move to freight yard {0} on saving.
+
+de: Gleise ordnen Sie in der Station zu (Doppelklick). Einzugsbereich: Rechtsklick auf das Objekt, „Mit Station verbinden…“.
+en: Assign tracks in the station (double-click). Catchment area: right-click the object, “Connect with station…”.
+
+de: Gleise wählen…
+en: Choose tracks…
+
+de: Gleise/Blöcke
+en: Tracks/blocks
+
+de: Gleise: {0}
+en: Tracks: {0}
+
+de: Gleisname, Fahrtrichtungen und Kapazität danach in der Station einstellen.
+en: Set track name, directions and capacity in the station afterwards.
+
+de: Glückwunsch!
+en: Congratulations!
+
+de: Grau
+en: Grey
+
+de: Grundbestand ergänzen
+en: Add default goods
+
+de: Größe
+en: Size
+
+de: Größe:
+en: Size:
+
+de: Grün
+en: Green
+
+de: Gummi
+en: Rubber
+
+de: Gummiplantage
+en: Rubber plantation
+
+de: Gut
+en: Good
+
+de: Güter
+en: Goods
+
+de: Güter (Bedarf)
+en: Goods (demand)
+
+de: Güter Bedarf
+en: Goods demand
+
+de: Güter Herstellung
+en: Goods production
+
+de: Güter an diesem Gleis (keins = alle)
+en: Goods at this track (none = all)
+
+de: Güter fließen nur über Ladegleise. Deshalb mit dem Güterbahnhof verbunden:\n{0}
+en: Goods only flow via loading tracks. Therefore connected with the freight yard:\n{0}
+
+de: Güter können nicht verbraucht werden
+en: Goods cannot be consumed
+
+de: Güter wählen…
+en: Choose goods…
+
+de: Güter zum Transport
+en: Goods for transport
+
+de: Güter zurück zum Empfänger, bitte abholen
+en: Goods back to the recipient, please pick up
+
+de: Güter, die die Übergabe unbegrenzt abnimmt
+en: Goods the interchange takes without limit
+
+de: Güter, die die Übergabe unbegrenzt liefert
+en: Goods the interchange supplies without limit
+
+de: Güter, die dieser Wagen laden kann (Aktiv). Sind Güter aktiv, lädt der Wagen nur diese; sonst alle Güter seiner Ladeklasse. Die Kapazität verteilt sich gleichmäßig auf die Wagenladungen; nicht mischbare Güter (z.B. Flüssiggut) belegen eine Wagenladung allein.
+en: Goods this wagon can load (active). If goods are active, the wagon loads only these; otherwise all goods of its load class. Capacity is spread evenly over the wagon loads; non-mixable goods (e.g. liquid goods) occupy a wagon load alone.
+
+de: Güter-/Personenaustausch angehalten.
+en: Goods/passenger exchange paused.
+
+de: Güter-/Personenaustausch gestartet.
+en: Goods/passenger exchange started.
+
+de: Güter...
+en: Goods...
+
+de: Güter: Güterbahnhof andocken (mit denselben Blöcken als Ladegleise)
+en: Goods: dock freight yard (with the same blocks as loading tracks)
+
+de: Güterauswahl
+en: Goods selection
+
+de: Güterbahnhof
+en: Freight yard
+
+de: Güterbahnhof „{0}“ angelegt
+en: Freight yard “{0}” created
+
+de: Güterbedarf (offen / je Modellstunde)
+en: Goods demand (open / per model hour)
+
+de: Güterfluss je Modelltag
+en: Goods flow per model day
+
+de: Güterverkehr
+en: Freight traffic
+
+de: Güterverkehr · Next trips
+en: Freight traffic · Next trips
+
+de: Halt noch {0} s von {1} s
+en: Stop {0} s left of {1} s
+
+de: Halte
+en: Stops
+
+de: Haltepunkt
+en: Halt
+
+de: Handbuch
+en: Manual
+
+de: Handbuch folgt im Ordner "handbuch" - noch nicht verdrahtet.
+en: Manual follows in folder "handbuch" - not yet connected.
+
+de: Hergestellt von: {0}
+en: Produced by: {0}
+
+de: Herkunft:
+en: Source:
+
+de: Herkunft: Schattenbahnhof stellt {0} je Modellstunde bereit
+en: Source: fiddle yard provides {0} per model hour
+
+de: Herkunft: {0}
+en: Source: {0}
+
+de: Heute angekommen/ausgestiegen (+) und abgefahren/eingestiegen (−)
+en: Today arrived/alighted (+) and departed/boarded (−)
+
+de: Hilfe
+en: Help
+
+de: Hilfetexte folgen im Ordner "hilfetexte" - noch nicht verdrahtet.
+en: Help texts follow in folder "hilfetexte" - not yet connected.
+
+de: Hinweis
+en: Notice
+
+de: Hinweis  ·  Ziel  ·  Abholung  ·  Zug
+en: Notice  ·  Destination  ·  Pickup  ·  Train
+
+de: Hinzufügen
+en: Add
+
+de: Hinzufügen/Ändern
+en: Add/Change
+
+de: Holz
+en: Wood
+
+de: Holzfällerlager
+en: Logging camp
+
+de: Horizontal
+en: Horizontal
+
+de: Horizontal:
+en: Horizontal:
+
+de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
+en: Hang on the module instead of the layout infrastructure; freight yard, towns, industries and warehouses move along.
+
+de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+en: At most {0} tabs (tabs and modules). The number can be changed in Preferences > Tabs.
+
+de: Höchstzahl der Reiter
+en: Maximum number of tabs
+
+de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
+en: Show in the browser (read-only, on another computer, phone or tablet)
+
+de: Im Lager
+en: In warehouse
+
+de: Im ZIP-Archiv "{0}" wurde keine .tcd-Datei gefunden.
+en: No .tcd file was found in ZIP archive "{0}".
+
+de: Im ZIP-Archiv "{0}" wurde keine XML-Datei gefunden.
+en: No XML file was found in ZIP archive "{0}".
+
+de: Im Zug
+en: In train
+
+de: In Bahnhöfen: {0}
+en: In stations: {0}
+
+de: In der .tcdz sind keine Bahnhöfe definiert
+en: No stations are defined in the .tcdz
+
+de: In der Zwischenablage ist kein kopiertes Symbol.
+en: There is no copied symbol in the clipboard.
+
+de: In der Zwischenablage stehen keine Wagen-Angaben. Bitte zuerst bei einem Wagen „Angaben kopieren“ drücken.
+en: There are no wagon details in the clipboard. Please press “Copy details” on a wagon first.
+
+de: In der Übersicht zeigen
+en: Show in overview
+
+de: In iTrain definierte Bahnhöfe anheften oder öffnen
+en: Attach or open stations defined in iTrain
+
+de: In iTrain ein sonstiger Bahnhof (z. B. Betriebswerk). Solange „Anderes“ gewählt ist, halten Züge hier ohne Ein-/Aussteigen und ohne Umladen.
+en: A miscellaneous station in iTrain (e.g. depot). As long as “Other” is chosen, trains stop here without boarding/alighting and without transshipment.
+
+de: In iTrain sind keine Zugrouten angelegt – die Verbindung kann nicht geprüft werden.
+en: No train routes exist in iTrain – the connection cannot be checked.
+
+de: Industrie
+en: Industry
+
+de: Industrien
+en: Industries
+
+de: Inhalt
+en: Content
+
+de: Ist dieser Bahnhof auf der Anlage oder ein Modul?
+en: Is this station on the layout or a module?
+
+de: Ja, Lokomotiven zeigen
+en: Yes, show locomotives
+
+de: Je Bahnhof
+en: Per station
+
+de: Je Fahrtrichtung
+en: Per direction
+
+de: Je Gut
+en: Per good
+
+de: Je Ladeklasse
+en: Per load class
+
+de: Jetzt abgleichen
+en: Synchronise now
+
+de: Jetzt prüfen
+en: Check now
+
+de: Kann Expressgut mitnehmen
+en: Can carry express goods
+
+de: Kann Expressgut mitnehmen ({0} Stück)
+en: Can carry express goods ({0} pieces)
+
+de: Kann Post mitnehmen
+en: Can carry mail
+
+de: Kann Post mitnehmen ({0} Postsäcke)
+en: Can carry mail ({0} mail bags)
+
+de: Kann nur in iTrain verändert werden.
+en: Can only be changed in iTrain.
+
+de: Kapazität
+en: Capacity
+
+de: Kapazität = Einheiten je Gut (Abholung bzw. Anlieferung), Umladen = Einheiten je Modellminute
+en: Capacity = units per good (pickup or delivery), transship = units per model minute
+
+de: Kapazität = Wartende je Richtung, Umladen = Personen je Modellminute
+en: Capacity = waiting per direction, transship = people per model minute
+
+de: Kapazität Einheit
+en: Capacity unit
+
+de: Kapazität aller Züge je Fahrt
+en: Capacity of all trains per trip
+
+de: Kapazität gesamt (Einheiten)
+en: Total capacity (units)
+
+de: Kapazität je Einheit
+en: Capacity per unit
+
+de: Kapazität passender Wagen je Fahrt
+en: Capacity of suitable wagons per trip
+
+de: Kapazitäten
+en: Capacities
+
+de: Kein Bild hinterlegt.
+en: No image stored.
+
+de: Kein Ladegleis
+en: No loading track
+
+de: Kein Modul
+en: No module
+
+de: Kein Rezept
+en: No recipe
+
+de: Kein Tab
+en: No tab
+
+de: Kein freier Bahnhof.
+en: No free station.
+
+de: Keine Bahnhöfe
+en: No stations
+
+de: Keine Betriebe mit Eingängen
+en: No industries with inputs
+
+de: Keine Blöcke in der Datei
+en: No blocks in the file
+
+de: Keine Datei geladen.
+en: No file loaded.
+
+de: Keine Datei geöffnet
+en: No file open
+
+de: Keine Dialoge abgeschaltet.
+en: No dialogs disabled.
+
+de: Keine Einträge
+en: No entries
+
+de: Keine Konfiguration geöffnet.
+en: No configuration open.
+
+de: Keine Quelle gewählt
+en: No source chosen
+
+de: Keine Reisenden möglich, weiterer Bahnhof nötig:\n
+en: No passengers possible, another station needed:\n
+
+de: Keine Station – im Editor per Rechtsklick „Mit Station verbinden…“ zuordnen.
+en: No station – assign one in the editor via right-click “Connect with station…”.
+
+de: Keine Stationsart: {0}
+en: Not a station type: {0}
+
+de: Keine Zugroute fährt beide Bahnhöfe an. Umsteigen über einen Bahnhof dazwischen ist möglich (oben gewählt).
+en: No train route serves both stations. Changing at a station in between is possible (chosen above).
+
+de: Keine Zugroute verbindet die beiden Bahnhöfe – bitte in iTrain eine Zugroute anlegen.
+en: No train route connects the two stations – please create a train route in iTrain.
+
+de: Keine Züge in der Datei
+en: No trains in the file
+
+de: Keine freie Station.
+en: No free station.
+
+de: Keine freien Blöcke
+en: No free blocks
+
+de: Keine freien Blöcke (alle gehören Gleisen oder anderen Modulen).
+en: No free blocks (all belong to tracks or other modules).
+
+de: Keine freien Blöcke – Gleise später in der Station zuordnen.
+en: No free blocks – assign tracks in the station later.
+
+de: Keine gekoppelte .tcdz-Datei hinterlegt.
+en: No linked .tcdz file stored.
+
+de: Keine iTrain-Datei geöffnet bzw. nicht lesbar – Werte bitte von Hand eintragen.
+en: No iTrain file open or not readable – please enter values by hand.
+
+de: Keine offenen Enden.
+en: No open ends.
+
+de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
+en: No open ends: every demand has a counterpart.
+
+de: Keine weiteren Reiter
+en: No more tabs
+
+de: Keinem Gleis zugeordnet (Strecke).
+en: Not assigned to a track (line).
+
+de: Kesselwagen
+en: Tank wagon
+
+de: Kleidung
+en: Clothing
+
+de: Kleine Station, Bahnsteige und Ladegleise
+en: Small station, platforms and loading tracks
+
+de: Klick auf ein Symbol öffnet die Details ·
+en: Click a symbol to open the details ·
+
+de: Klicken: Gut zum Verladen bereitstellen
+en: Click: provide goods for loading
+
+de: Koffer
+en: Luggage
+
+de: Kohle
+en: Coal
+
+de: Kohlebergwerk
+en: Coal mine
+
+de: Kohleverbrauch kg/km
+en: Coal consumption kg/km
+
+de: Kohlevorrat Tonnen
+en: Coal supply tonnes
+
+de: Konnte nicht aus .tcdz angelegt werden
+en: Could not be created from .tcdz
+
+de: Konnte nicht gespeichert werden
+en: Could not be saved
+
+de: Konnte nicht mit der .tcdz abgeglichen werden
+en: Could not be synchronised with the .tcdz
+
+de: Konserven
+en: Canned food
+
+de: Konservenfabrik
+en: Cannery
+
+de: Kopie der Anlage fehlgeschlagen
+en: Copying the layout failed
+
+de: Kopieren
+en: Copy
+
+de: Kopieren geht im Fenster „Anlage bearbeiten“: Symbol anklicken, dann Kopieren.
+en: Copying works in the “Edit layout” window: click a symbol, then Copy.
+
+de: Kreislauf
+en: Supply chain
+
+de: Kreislauf prüfen
+en: Check supply chain
+
+de: Kreislauf prüfen…
+en: Check supply chain…
+
+de: Kunststoff
+en: Plastics
+
+de: Kursiv
+en: Italic
+
+de: Kühlwagen
+en: Reefer wagon
+
+de: Lade-Joker: lädt jedes Gut
+en: Loading joker: loads any good
+
+de: Ladegleis
+en: Loading track
+
+de: Ladegleis einrichten
+en: Set up loading track
+
+de: Ladegleise eines Bahnhofs, Haltepunkts oder Schattenbahnhofs kommen in dessen Güterbahnhof (wird bei Bedarf angelegt)
+en: Loading tracks of a station, halt or fiddle yard go into its freight yard (created if needed)
+
+de: Ladegleise für {0}: {1}
+en: Loading tracks for {0}: {1}
+
+de: Ladegut
+en: Cargo
+
+de: Ladegüter
+en: Cargo goods
+
+de: Ladeklasse
+en: Load class
+
+de: Ladeklassen (keine = alle)
+en: Load classes (none = all)
+
+de: Laden
+en: Load
+
+de: Laden erlaubt
+en: Loading allowed
+
+de: Laden in
+en: Load at
+
+de: Laden/Entladen bzw. Ein-/Aussteigen auch ohne Halt (bei der Durchfahrt)
+en: Load/unload or board/alight also without stopping (when passing through)
+
+de: Ladungszustand
+en: Load state
+
+de: Lager
+en: Warehouse
+
+de: Lager anlegen
+en: Create warehouse
+
+de: Lager bearbeiten
+en: Edit warehouse
+
+de: Lager für Güter
+en: Warehouse for goods
+
+de: Lager hinzufügen. Die Kapazitäten am Bahnhof sind erschöpft
+en: Add a warehouse. The capacities at the station are exhausted
+
+de: Lagergrößen…
+en: Warehouse sizes…
+
+de: Lagerhalle
+en: Warehouse
+
+de: Lagerkapazitäten (Einheiten)
+en: Warehouse capacities (units)
+
+de: Lagerplatz
+en: Storage yard
+
+de: Langgut
+en: Long goods
+
+de: Langsamer
+en: Slower
+
+de: Lauflicht auf den Verbindungen (Sekunden)
+en: Running light on the connections (seconds)
+
+de: Lautstärke
+en: Volume
+
+de: Legt ein Symbol an, das nur aus einem farbigen Quadrat besteht (Platzhalter ohne eigene .svg-Datei).
+en: Creates a symbol consisting only of a coloured square (placeholder without its own .svg file).
+
+de: Legt fehlende mitgelieferte Geräusche (CC0) wieder in den Ordner; eigene Dateien bleiben
+en: Puts missing included sounds (CC0) back into the folder; your own files stay
+
+de: Lehm
+en: Clay
+
+de: Lehmgrube
+en: Clay pit
+
+de: Lieferkette für „{0}“
+en: Supply chain for “{0}”
+
+de: Liefert Expressgut
+en: Supplies express goods
+
+de: Liefert Post
+en: Supplies mail
+
+de: Liefert Post {0} M/h, Expressgut {1} M/h
+en: Supplies mail {0} M/h, express goods {1} M/h
+
+de: Liefert alle
+en: Supplies every
+
+de: Liefert immer (nicht auf der Anlage)
+en: Always supplies (not on the layout)
+
+de: Liefert immer, ohne auf der Anlage zu sein
+en: Always supplies without being on the layout
+
+de: Liefert immer, ohne auf der Anlage zu sein.
+en: Always supplies without being on the layout.
+
+de: Liefert unbegrenzt
+en: Supplies without limit
+
+de: Liefert: {0}
+en: Supplies: {0}
+
+de: Liegt am Bahnhof:
+en: Located at station:
+
+de: Liest den Symbolordner (Voreinstellungen > Pfade) erneut, z. B. nach dem Hinzufügen eigener .svg-Dateien.
+en: Re-reads the symbol folder (Preferences > Paths), e.g. after adding your own .svg files.
+
+de: Linksbündig
+en: Left-aligned
+
+de: Linux: Für mp3 braucht das Programm die ffmpeg-Bibliotheken des Systems (z. B. „sudo apt install ffmpeg“) und einen Tonausgang; wav geht auch ohne ffmpeg.
+en: Linux: for mp3 the program needs the system's ffmpeg libraries (e.g. “sudo apt install ffmpeg”) and an audio output; wav works without ffmpeg too.
+
+de: Liste leeren (nur die Anzeige; an der Logistik ändert sich nichts).
+en: Clear list (display only; nothing changes in the logistics).
+
+de: Liste wieder mitlaufen lassen; was beim Anhalten ankam, wird oben eingefügt.
+en: Let the list follow again; what arrived while paused is inserted at the top.
+
+de: Liter
+en: Litres
+
+de: Logistik Daten
+en: Logistics data
+
+de: Logistik-Datei (.logz) öffnen
+en: Open logistics file (.logz)
+
+de: Logistik-Datei speichern
+en: Save logistics file
+
+de: Logistik-Datei öffnen
+en: Open logistics file
+
+de: Logistik-Datei: {0}\nVerknüpfte iTrain-Anlage: {1}\n„Abgleichen“ liest diese .tcdz. Ändern: Datei > iTrain Datei neu einlesen...{2}
+en: Logistics file: {0}\nLinked iTrain layout: {1}\n“Synchronise” reads this .tcdz. Change: File > Reload iTrain file...{2}
+
+de: Logistikdaten
+en: Logistics data
+
+de: Lok
+en: Loco
+
+de: Lok hinzufügen…
+en: Add loco…
+
+de: Lokomotive hinzufügen
+en: Add locomotive
+
+de: Lokomotive links auswählen.
+en: Select a locomotive on the left.
+
+de: Lokomotiven
+en: Locomotives
+
+de: Lokomotiven, Wagen, Blöcke, Züge, Belegung, Symbole und Güter
+en: Locomotives, wagons, blocks, trains, occupancy, symbols and goods
+
+de: Ländlich
+en: Rural
+
+de: Ländlicher Ort mit wenig Aufkommen
+en: Rural place with little traffic
+
+de: Läuft
+en: Running
+
+de: Löschen
+en: Delete
+
+de: Löscht eine selbst angelegte Farbfläche. .svg-Dateien bitte im Symbolordner entfernen.
+en: Deletes a self-created colour area. Please remove .svg files in the symbol folder.
+
+de: M/h = je Modellstunde
+en: M/h = per model hour
+
+de: M/h = je Modellstunde. 0 Abreisende = keine Personen, sie erscheinen dann auch nicht im Symbol. Ankommende: so viele steigen hier je Modellstunde höchstens aus; „Unbegrenzt“ = beliebig viele. „Kreislauf prüfen“ sucht für beide Werte ein Gegenstück.
+en: M/h = per model hour. 0 departing = no people, they then do not appear in the symbol either. Arriving: at most this many alight here per model hour; “Unlimited” = any number. “Check supply chain” looks for a counterpart for both values.
+
+de: Mangel
+en: Shortage
+
+de: Maschinen
+en: Machines
+
+de: Maschinenfabrik
+en: Machine factory
+
+de: Maßstab (1:x)
+en: Scale (1:x)
+
+de: Mehrere Rezepte (Nummer 1, 2, …) sind Alternativen: es läuft das erste, für das alle Eingänge vorrätig sind.
+en: Several recipes (number 1, 2, …) are alternatives: the first one for which all inputs are in stock runs.
+
+de: Menge
+en: Amount
+
+de: Menge (Einheiten)
+en: Amount (units)
+
+de: Menge je Ausführung
+en: Amount per run
+
+de: Menge je Modellstunde:
+en: Amount per model hour:
+
+de: Mischbar in einer Wagenladung
+en: Mixable in one wagon load
+
+de: Mit Koffer ({0} % der Reisenden haben einen Koffer und brauchen einen Gepäckwagen im Zug)
+en: With luggage ({0} % of passengers have luggage and need a luggage van in the train)
+
+de: Mit Koffer: davon warten so viele mit Koffer (brauchen einen Gepäckwagen im Zug)
+en: With luggage: this many of them wait with luggage (need a luggage van in the train)
+
+de: Mit Modul verbinden
+en: Connect with module
+
+de: Mit Modul verbinden…
+en: Connect with module…
+
+de: Mit Station verbinden…
+en: Connect with station…
+
+de: Mit Tab verbinden
+en: Connect with tab
+
+de: Mit Tab verbinden…
+en: Connect with tab…
+
+de: Mit der .tcdz abgleichen: Loks, Wagen, Blöcke, Züge und Zugrouten neu aus iTrain lesen
+en: Synchronise with the .tcdz: re-read locos, wagons, blocks, trains and train routes from iTrain
+
+de: Mit iTrain abgleichen
+en: Synchronise with iTrain
+
+de: Mitgelieferte wiederherstellen
+en: Restore included sounds
+
+de: Modelluhr in einem eigenen Fenster zeigen (Zeit und Faktor aus iTrain)
+en: Show the model clock in its own window (time and factor from iTrain)
+
+de: Modellzeit
+en: Model time
+
+de: Modul
+en: Module
+
+de: Modul bearbeiten
+en: Edit module
+
+de: Modul „{0}“
+en: Module “{0}”
+
+de: Möbel
+en: Furniture
+
+de: Möbelfabrik
+en: Furniture factory
+
+de: Nachfrage
+en: Demand
+
+de: Nachfrage heute
+en: Demand today
+
+de: Name
+en: Name
+
+de: Name (optional)
+en: Name (optional)
+
+de: Name des Moduls, zu dem „{0}“ gehört
+en: Name of the module “{0}” belongs to
+
+de: Name des ersten Reiters
+en: Name of the first tab
+
+de: Name des neuen Guts
+en: Name of the new good
+
+de: Name und Art
+en: Name and type
+
+de: Name:
+en: Name:
+
+de: Name: {0}
+en: Name: {0}
+
+de: Nein
+en: No
+
+de: Neu angelegt aus {0}: {1}  ({2} Loks, {3} Wagen, {4} Blöcke, {5} Züge)
+en: Newly created from {0}: {1}  ({2} locos, {3} wagons, {4} blocks, {5} trains)
+
+de: Neu eingefügt – an die gewünschte Stelle ziehen
+en: Newly inserted – drag to the desired place
+
+de: Neu einlesen
+en: Reload
+
+de: Neue Farbfläche...
+en: New colour area...
+
+de: Neue Konfiguration
+en: New configuration
+
+de: Neue Konfiguration...
+en: New configuration...
+
+de: Neue Logistik-Datei speichern unter...
+en: Save new logistics file as...
+
+de: Neuer Bahnhof für {0} (Gleise wählen)
+en: New station for {0} (choose tracks)
+
+de: Neuer Betrieb
+en: New industry
+
+de: Neuer Betrieb „{0}“ {1}
+en: New industry “{0}” {1}
+
+de: Neuer Betrieb: {0}
+en: New industry: {0}
+
+de: Neuer Betrieb: {0}{1}
+en: New industry: {0}{1}
+
+de: Neuer Haltepunkt für {0} (Gleise wählen)
+en: New halt for {0} (choose tracks)
+
+de: Neuer Name – gilt für den Reiter und das Symbol
+en: New name – applies to the tab and the symbol
+
+de: Neuer Schattenbahnhof (Gleise wählen)
+en: New fiddle yard (choose tracks)
+
+de: Neues Dorf mit Haltepunkt (Gleise wählen)
+en: New village with halt (choose tracks)
+
+de: Neues Feld
+en: New field
+
+de: Neues Gut
+en: New good
+
+de: Neues Gut…
+en: New good…
+
+de: Neues Modul
+en: New module
+
+de: Neues Modul…
+en: New module…
+
+de: Neues Symbol
+en: New symbol
+
+de: Nicht auf der Anlage (liefert bzw. nimmt automatisch)
+en: Not on the layout (supplies or takes automatically)
+
+de: Nicht auf der Anlage (liefert immer)
+en: Not on the layout (always supplies)
+
+de: Nicht übernehmen
+en: Don't take over
+
+de: Nimmt ab
+en: Takes
+
+de: Nimmt an
+en: Accepts
+
+de: Nimmt jedes Gut ab
+en: Takes any good
+
+de: Noch kein Ereignis von diesem Zug empfangen.
+en: No event received from this train yet.
+
+de: Noch keine Gleise. Über "Bearbeiten…" Gleise mit iTrain-Blöcken anlegen.
+en: No tracks yet. Create tracks with iTrain blocks via "Edit…".
+
+de: Noch keine Tabs oder Module – in „Anlage bearbeiten“ aus der Palette anlegen.
+en: No tabs or modules yet – create them from the palette in “Edit layout”.
+
+de: Noch nichts aufgezeichnet – „Anhängen“ fügt einen Vorgang hinzu.
+en: Nothing recorded yet – “Append” adds an action.
+
+de: Noch zu erledigen
+en: Still to do
+
+de: Nur Einfahrt rückwärts (iTrain „prev“)
+en: Only arrival backwards (iTrain “prev”)
+
+de: Nur Einfahrt vorwärts (iTrain „next“)
+en: Only arrival forwards (iTrain “next”)
+
+de: Nur Güter der gewählten Ladeklasse zeigen
+en: Show only goods of the chosen load class
+
+de: Nur Ladegleise: Sie kommen in einen angedockten Güterbahnhof.
+en: Only loading tracks: they go into a docked freight yard.
+
+de: Nur dieses Objekt anhalten; alles andere läuft weiter
+en: Pause only this object; everything else keeps running
+
+de: Nur dieses Objekt ist angehalten; alles andere läuft weiter. Fortsetzen im Detailfenster mit „▶ Start“.
+en: Only this object is paused; everything else keeps running. Continue in the detail window with “▶ Start”.
+
+de: Nächste Fahrten
+en: Next trips
+
+de: Nötige volle Fahrten je Modellstunde
+en: Full trips needed per model hour
+
+de: Oben
+en: Top
+
+de: Objektart wählen
+en: Choose object type
+
+de: Objektart:
+en: Object type:
+
+de: Offen
+en: Open
+
+de: Offen lassen
+en: Leave open
+
+de: Offene Enden: {0}
+en: Open ends: {0}
+
+de: Offene Güter
+en: Open goods
+
+de: Offener Wagen (Regelbauart)
+en: Open wagon (standard)
+
+de: Offener Wagen (Sonderbauart)
+en: Open wagon (special)
+
+de: Offener Wagen für Mehrzweckverwendung
+en: Open multi-purpose wagon
+
+de: Orange
+en: Orange
+
+de: Ordner
+en: Folder
+
+de: Ordner der Geräusche
+en: Sounds folder
+
+de: Ordner fuer Logistik-Dateien konnte nicht angelegt werden: {0}
+en: Folder for logistics files could not be created: {0}
+
+de: Ordner für die Fahrzeugdatei konnte nicht angelegt werden: {0}
+en: Folder for the vehicle file could not be created: {0}
+
+de: Ordner lässt sich nicht öffnen: {0}
+en: Folder cannot be opened: {0}
+
+de: Ordner neu einlesen
+en: Reload folder
+
+de: Ordner öffnen
+en: Open folder
+
+de: Ort
+en: Place
+
+de: Ort mit Passagieren und Güterbedarf
+en: Place with passengers and goods demand
+
+de: Orte, die Ware benötigen – wer liefert an
+en: Towns needing goods – who supplies
+
+de: Pakete
+en: Parcels
+
+de: Panoramawagen
+en: Panorama car
+
+de: Papier
+en: Paper
+
+de: Papierfabrik
+en: Paper mill
+
+de: Passagiere
+en: Passengers
+
+de: Passagiere im Zug
+en: Passengers on train
+
+de: Passagiere, die abfahren – wer nimmt sie auf
+en: Departing passengers – who takes them
+
+de: Passagiere, die ankommen – wer bringt sie
+en: Arriving passengers – who brings them
+
+de: Pause
+en: Pause
+
+de: Pers
+en: Pass
+
+de: Personen
+en: People
+
+de: Personen je Modellstunde von außerhalb
+en: People per model hour from outside
+
+de: Personen-/Gepäckwagen
+en: Passenger/luggage coach
+
+de: Personenbahnhof
+en: Passenger station
+
+de: Personenbahnhof, nur Bahnsteige
+en: Passenger station, platforms only
+
+de: Personengleise
+en: Passenger tracks
+
+de: Personenverkehr
+en: Passenger traffic
+
+de: Personenverkehr · Next trips
+en: Passenger traffic · Next trips
+
+de: Pfeil Ein-/Aussteigen
+en: Arrow boarding/alighting
+
+de: Pflicht (Anwender 09.11.2026): das Gleis, das von diesem Modul zum nächsten führt. Ohne Gleis lässt sich das Modul nicht speichern.
+en: Required (user 09.11.2026): the track leading from this module to the next. Without a track the module cannot be saved.
+
+de: Plätze
+en: Seats
+
+de: Port {0} antwortet, aber nicht wie iTrain-XTC
+en: Port {0} answers, but not like iTrain XTC
+
+de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
+en: Port {0} already belongs to Browser Logistics – please choose another one.
+
+de: Port:
+en: Port:
+
+de: Position und Tempo ausblenden
+en: Hide position and speed
+
+de: Post
+en: Mail
+
+de: Post empfangen
+en: Mail received
+
+de: Post und Expressgut
+en: Mail and express goods
+
+de: Post und Expressgut an diesem Bahnsteig
+en: Mail and express goods at this platform
+
+de: Postwagen
+en: Mail van
+
+de: Produkt
+en: Product
+
+de: Produktion
+en: Production
+
+de: Produziert
+en: Produced
+
+de: Programm beenden
+en: Exit program
+
+de: Prüfe {0}:{1} …
+en: Checking {0}:{1} …
+
+de: Prüfe …
+en: Checking …
+
+de: Prüfung
+en: Check
+
+de: Quelle
+en: Source
+
+de: Quelle: Simulator{0}
+en: Source: simulator{0}
+
+de: Quelle: iTrain (XTC nicht verbunden)
+en: Source: iTrain (XTC not connected)
+
+de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
+en: Source: iTrain (XTC {0}, {1}/{2} trains connected)
+
+de: Quellen der mitgelieferten Geräusche.txt
+en: Sources of the included sounds.txt
+
+de: Rahmen
+en: Border
+
+de: Rahmen anzeigen
+en: Show border
+
+de: Raster anzeigen, Symbole rasten darauf ein
+en: Show grid, symbols snap to it
+
+de: Raummeter
+en: Cubic metres
+
+de: Rechner mit iTrain (Name oder IP-Adresse)
+en: Computer running iTrain (name or IP address)
+
+de: Rechnername
+en: Computer name
+
+de: Rechnername (mDNS)
+en: Computer name (mDNS)
+
+de: Rechtsbündig
+en: Right-aligned
+
+de: Reifen
+en: Tyres
+
+de: Reifenfabrik
+en: Tyre factory
+
+de: Reisende
+en: Passengers
+
+de: Reisende 1/2
+en: Passengers 1/2
+
+de: Reisende an Bord: 1. Klasse / 2. Klasse
+en: Passengers on board: 1st class / 2nd class
+
+de: Reisende aus bzw. nach „{0}“
+en: Passengers from or to “{0}”
+
+de: Reisende je Modellstunde:
+en: Passengers per model hour:
+
+de: Reisende kommen aus Stadt, Dorf oder Ländlich (über deren Bahnhof) oder von außerhalb über den Schattenbahnhof und fahren zu einem anderen Bahnhof.
+en: Passengers come from town, village or rural (via their station) or from outside via the fiddle yard and travel to another station.
+
+de: Reisende warten in {0}{1} (meiste an {2}) – {3}
+en: Passengers waiting at {0}{1} (most at {2}) – {3}
+
+de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
+en: Passengers: want to travel and go to the station together every {0} model minutes (green running light)
+
+de: Reiter
+en: Tabs
+
+de: Reiter umbenennen
+en: Rename tab
+
+de: Reiter „{0}“
+en: Tab “{0}”
+
+de: Rezept
+en: Recipe
+
+de: Rezept: {0}
+en: Recipe: {0}
+
+de: Rezepte
+en: Recipes
+
+de: Rezepte, die es herstellen: {0}
+en: Recipes producing it: {0}
+
+de: Richtung
+en: Direction
+
+de: Richtung {0}
+en: Direction {0}
+
+de: Richtungen
+en: Directions
+
+de: Rohstoff
+en: Raw material
+
+de: Rohstoffe
+en: Raw materials
+
+de: Rohöl
+en: Crude oil
+
+de: Rot
+en: Red
+
+de: Rot: Transport nötig · Gelb: über ein Lager lösbar · Grün: nichts offen. Umladen von Hand ist zum Testen gedacht.
+en: Red: transport needed · Yellow: solvable via a warehouse · Green: nothing open. Manual transshipment is meant for testing.
+
+de: Route
+en: Route
+
+de: Routen
+en: Routes
+
+de: Routen sind die Zugrouten aus der .tcdz. Ein Zug gehört zu der Route, die den Block enthält, in dem er zuletzt gemeldet wurde.
+en: Routes are the train routes from the .tcdz. A train belongs to the route containing the block where it was last reported.
+
+de: Rx/Tx Simulator
+en: Rx/Tx simulator
+
+de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
+en: Rx/Tx is only available once “iTrain” or “Simulator” is chosen under Settings.
+
+de: Rx/Tx iTrain (XTC){0}
+en: Rx/Tx iTrain (XTC){0}
+
+de: Salonwagen
+en: Saloon car
+
+de: Sand
+en: Sand
+
+de: Sandbaggerschiff
+en: Sand dredger
+
+de: Sandgrube
+en: Sand pit
+
+de: Schattenbahnhof
+en: Fiddle yard
+
+de: Schattenbahnhof (verlässt die Anlage)
+en: Fiddle yard (leaves the layout)
+
+de: Schattenbahnhof anlegen
+en: Create fiddle yard
+
+de: Schattenbahnhof nur noch über Gleise: Verbindung gelöst – {0}. Reisende und Güter je Gleis im Schattenbahnhof einstellen.
+en: Fiddle yard only via tracks: connection removed – {0}. Set passengers and goods per track in the fiddle yard.
+
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Angeschlossen werden keine Orte, Betriebe oder Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+en: Fiddle yard: passengers and goods come from outside into the fiddle yard – set per track (platform: passengers per model hour, loading track: supply per good). A track can be platform and loading track at once (create twice with the same block). Loading tracks move to a docked freight yard on saving. No towns, industries or warehouses are connected. Loading and unloading already happen when passing through, without stopping.
+
+de: Schlafwagen
+en: Sleeping car
+
+de: Schließen
+en: Close
+
+de: Schneller
+en: Faster
+
+de: Schrift
+en: Font
+
+de: Schuppen
+en: Shed
+
+de: Schwarz
+en: Black
+
+de: Schüttgut
+en: Bulk goods
+
+de: Senkrecht (abwärts)
+en: Vertical (downwards)
+
+de: Senkrecht (aufwärts)
+en: Vertical (upwards)
+
+de: Sicherung:
+en: Backup:
+
+de: Simulator
+en: Simulator
+
+de: Simulator Verbindung
+en: Simulator connection
+
+de: Simulator: {0} {1}{2}
+en: Simulator: {0} {1}{2}
+
+de: Sitzplätze 1. Klasse
+en: Seats 1st class
+
+de: Sitzplätze 2. Klasse
+en: Seats 2nd class
+
+de: Sitzplätze 3. Klasse
+en: Seats 3rd class
+
+de: Sitzplätze 4. Klasse
+en: Seats 4th class
+
+de: Solange das Fenster offen ist
+en: As long as the window is open
+
+de: Sonderwagen
+en: Special wagon
+
+de: Sonstige
+en: Misc.
+
+de: Spalten zeigen
+en: Show columns
+
+de: Speichern
+en: Save
+
+de: Speichern und Schließen
+en: Save and close
+
+de: Speisewagen
+en: Dining car
+
+de: Sperrgut
+en: Bulky goods
+
+de: Später
+en: Later
+
+de: Stadt
+en: Town
+
+de: Stadt/Dorf/Ländlich: {0}
+en: Town/village/rural: {0}
+
+de: Stahl
+en: Steel
+
+de: Stahlwerk
+en: Steel mill
+
+de: Standard
+en: Default
+
+de: Standardeinheit der Ladeklasse {0}: {1}.
+en: Default unit of load class {0}: {1}.
+
+de: Start
+en: Start
+
+de: Start (s)
+en: Start (s)
+
+de: Start = Sekunden nach Beginn des Ablaufs. Entf löscht, Tab springt weiter, Return bearbeitet.
+en: Start = seconds after the beginning of the sequence. Del deletes, Tab moves on, Return edits.
+
+de: Station
+en: Station
+
+de: Station / Gleis / Zug
+en: Station / track / train
+
+de: Station mit Ladegleisen, auch zu einem Bahnhof gehörend
+en: Station with loading tracks, also belonging to a station
+
+de: Stationen
+en: Stations
+
+de: Stationen (mit Gbf, Orten, Betrieben, Lagern)
+en: Stations (with freight yard, towns, industries, warehouses)
+
+de: Stationen, die an diesem Modul hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+en: Stations hanging on this module (with their freight yards, towns, industries, warehouses)
+
+de: Stationen: {0}
+en: Stations: {0}
+
+de: Statistik je Modelltag
+en: Statistics per model day
+
+de: Status
+en: Status
+
+de: Stehplätze
+en: Standing
+
+de: Stehplätze (zählen zur 2. Klasse)
+en: Standing places (count as 2nd class)
+
+de: Stein
+en: Stone
+
+de: Steinbruch
+en: Quarry
+
+de: Stoff
+en: Fabric
+
+de: Strecke: Gleis von Modul zu Modul (mindestens eins)
+en: Line: track from module to module (at least one)
+
+de: Strecke: {0}
+en: Line: {0}
+
+de: Strecke: {0} von {1} Blöcken ohne Gleis
+en: Line: {0} of {1} blocks without track
+
+de: Strecken-Blöcke des Moduls
+en: Line blocks of the module
+
+de: Stufe
+en: Level
+
+de: Stunden (0 = laufend)
+en: Hours (0 = continuous)
+
+de: Städte
+en: Towns
+
+de: Stück
+en: Pieces
+
+de: Stück M/h
+en: Pieces M/h
+
+de: Stückgut
+en: Piece goods
+
+de: Symbol
+en: Symbol
+
+de: Symbol kopiert.
+en: Symbol copied.
+
+de: Symbol oder Block wählen
+en: Choose symbol or block
+
+de: Symbol zuweisen
+en: Assign symbol
+
+de: Symbole auf der Anlage
+en: Symbols on the layout
+
+de: Symbole verwalten
+en: Manage symbols
+
+de: System
+en: System
+
+de: Sägespäne
+en: Sawdust
+
+de: Sägewerk
+en: Saw mill
+
+de: Tab
+en: Tab
+
+de: Tab bearbeiten
+en: Edit tab
+
+de: Tabellen öffnen oder im Hauptfenster andocken
+en: Open tables or dock them in the main window
+
+de: Tabs und Module zusammen, ohne den ersten Reiter
+en: Tabs and modules together, without the first tab
+
+de: Tag {0}
+en: Day {0}
+
+de: Tag {0}, {1}
+en: Day {0}, {1}
+
+de: Tankinhalt Liter
+en: Tank content litres
+
+de: Tankstelle
+en: Filling station
+
+de: Text
+en: Text
+
+de: Text „{0}“ fehlt in {1}.
+en: Text “{0}” is missing in {1}.
+
+de: Text:
+en: Text:
+
+de: Textilfabrik
+en: Textile factory
+
+de: Textrichtung:
+en: Text direction:
+
+de: Tiefe: 3D (Schatten)
+en: Depth: 3D (shadow)
+
+de: Tiertransport
+en: Livestock
+
+de: Tonnen
+en: Tonnes
+
+de: Transport festlegen
+en: Define transport
+
+de: Transport nach:
+en: Transport to:
+
+de: Transport von „{0}“{1} nach „{2}“
+en: Transport from “{0}”{1} to “{2}”
+
+de: Transport von:
+en: Transport from:
+
+de: Transport über:
+en: Transport via:
+
+de: Treibstoff
+en: Fuel
+
+de: Triebzug
+en: Railcar
+
+de: Triebzug / Triebwagen: befördert selbst Personen oder Güter
+en: Railcar / multiple unit: carries passengers or goods itself
+
+de: Triebzug Güter
+en: Railcar goods
+
+de: Triebzug Personen
+en: Railcar passengers
+
+de: Triebzug: befördert selbst – Personen, Güter oder beides. Die Angaben gelten für den ganzen Triebzug.
+en: Railcar: carries itself – passengers, goods or both. The details apply to the whole railcar.
+
+de: Trocken
+en: Dry
+
+de: Typ (iTrain)
+en: Type (iTrain)
+
+de: Typ: {0}
+en: Type: {0}
+
+de: Uhr
+en: Clock
+
+de: Uhr nach iTrain gestellt: {0}
+en: Clock set to iTrain: {0}
+
+de: Umbenennen…
+en: Rename…
+
+de: Umgelagert
+en: Transshipped
+
+de: Umladen in
+en: Transship at
+
+de: Umladen je Modellminute
+en: Transship per model minute
+
+de: Unbegrenzt
+en: Unlimited
+
+de: Unbekannt
+en: Unknown
+
+de: Unbekannt: Zug „{0}“ oder Block „{1}“ – übersprungen.
+en: Unknown: train “{0}” or block “{1}” – skipped.
+
+de: Unten
+en: Bottom
+
+de: Update
+en: Update
+
+de: Update-Prüfung ist in diesem ersten Gerüst noch nicht angebunden.
+en: Update check is not yet connected in this first framework.
+
+de: Verbindung prüfen
+en: Check connection
+
+de: Verbindung zu iTrain
+en: Connection to iTrain
+
+de: Verbindung zu iTrain...
+en: Connection to iTrain...
+
+de: Verbindung {0} – zugehöriger {1} · grün: zum Güterbahnhof · rot: von ihm weg
+en: Connection {0} – associated {1} · green: to the freight yard · red: away from it
+
+de: Verbindung {0} – {1} · grün: zur Station · rot: von der Station weg · Rechtsklick: Linienstärke
+en: Connection {0} – {1} · green: to the station · red: away from the station · right-click: line width
+
+de: Verbrauch auf 100km (Vorbild)
+en: Consumption per 100 km (prototype)
+
+de: Verbrauch erhöhen
+en: Increase consumption
+
+de: Verbrauch: Schattenbahnhof nimmt es ab
+en: Consumption: fiddle yard takes it
+
+de: Verbrauch: {0}
+en: Consumption: {0}
+
+de: Verbraucher:
+en: Consumer:
+
+de: Verbraucht
+en: Consumed
+
+de: Verfügbar
+en: Available
+
+de: Verkehr Schritt für Schritt aufbauen: Bahnhöfe, Gleise, Umgebung, Lieferketten
+en: Build up traffic step by step: stations, tracks, surroundings, supply chains
+
+de: Verkehrs-Assistent – Einrichtung Bahnhöfe
+en: Traffic assistant – station setup
+
+de: Verkehrs-Assistent – Prüfung
+en: Traffic assistant – check
+
+de: Verkehrs-Assistent – Transport festlegen
+en: Traffic assistant – define transport
+
+de: Verkehrs-Assistent…
+en: Traffic assistant…
+
+de: Verknüpft mit {0}.\n\nDaten aus dieser Datei jetzt übernehmen?
+en: Linked with {0}.\n\nTake over data from this file now?
+
+de: Verknüpfte .tcdz geändert
+en: Linked .tcdz changed
+
+de: Vernichtet
+en: Destroyed
+
+de: Versand
+en: Shipping
+
+de: Versand heute
+en: Shipped today
+
+de: Versorgung
+en: Supply
+
+de: Versorgung heute
+en: Supply today
+
+de: Vertikal:
+en: Vertical:
+
+de: Verwendet für
+en: Used for
+
+de: Verwendet: {0}
+en: Used: {0}
+
+de: Verwerfen
+en: Discard
+
+de: Viehzuchtbetrieb
+en: Livestock farm
+
+de: Vom Schattenbahnhof
+en: From the fiddle yard
+
+de: Vom Schattenbahnhof (kommt von außerhalb der Anlage)
+en: From the fiddle yard (comes from outside the layout)
+
+de: Von beiden Seiten
+en: From both sides
+
+de: Von und nach sind derselbe Bahnhof – kein Transport nötig.
+en: From and to are the same station – no transport needed.
+
+de: Voreinstellung der Ladeklasse
+en: Default of the load class
+
+de: Voreinstellungen
+en: Preferences
+
+de: Vorerst nichts
+en: Nothing for now
+
+de: Vorgabe nach Größe (Stadt, Dorf, Ländlich) als Anteil der Abreisenden. Wird am Bahnsteig in Personenzüge mit Wagen „Kann Post/Expressgut mitnehmen“ geladen.
+en: Default by size (town, village, rural) as share of departing passengers. Loaded at the platform into passenger trains with coaches “Can carry mail/express goods”.
+
+de: Vorgang
+en: Action
+
+de: Vorgang starten – aufgezeichneter Ablauf
+en: Start sequence – recorded sequence
+
+de: Vorgang starten…
+en: Start sequence…
+
+de: Vorgänge erscheinen hier, je Zug eine Tabelle.
+en: Actions appear here, one table per train.
+
+de: Vorhanden: {0}{1}
+en: Present: {0}{1}
+
+de: Vorhandene Erzeuger anpassen (mehr herstellen)
+en: Adjust existing producers (produce more)
+
+de: Vorhandenen Ort wählen
+en: Choose existing place
+
+de: Vorhandenes wählen
+en: Choose existing
+
+de: Vorlage
+en: Template
+
+de: Vorlage wählen.\nRohstoffbetriebe brauchen Dünger, Werkzeuge oder Maschinen als Eingang.\nDanach zeigt „Zusätzlich erforderlich“, was der Betrieb noch braucht.
+en: Choose a template.\nRaw material industries need fertiliser, tools or machines as input.\nAfterwards “Additionally required” shows what the industry still needs.
+
+de: Vorlage:
+en: Template:
+
+de: Vorschau:
+en: Preview:
+
+de: Vorschlag
+en: Suggestion
+
+de: Vorschlag Ländlich
+en: Suggestion rural
+
+de: Vorschlag für ein Dorf
+en: Suggestion for a village
+
+de: Vorschlag für eine Stadt
+en: Suggestion for a town
+
+de: Vorschlag „{0}“ gespeichert.
+en: Suggestion “{0}” saved.
+
+de: Vorschlag…
+en: Suggestion…
+
+de: Wagen
+en: Wagon
+
+de: Wagen ergänzen
+en: Complete wagons
+
+de: Wagen hinzufügen
+en: Add wagon
+
+de: Wagen hinzufügen…
+en: Add wagon…
+
+de: Wagen importieren...
+en: Import wagons...
+
+de: Wagen links auswählen.
+en: Select a wagon on the left.
+
+de: Wagen mit öffnungsfähigem Dach
+en: Wagon with opening roof
+
+de: Wagenart
+en: Wagon type
+
+de: Wagenbauart
+en: Wagon design
+
+de: Wagenladungen
+en: Wagon loads
+
+de: Wandlung
+en: Conversion
+
+de: Warten
+en: Wait
+
+de: Wartend
+en: Waiting
+
+de: Wartende Personen
+en: Waiting people
+
+de: Wartende Personen (1. Klasse / 2. Klasse): {0}
+en: Waiting people (1st class / 2nd class): {0}
+
+de: Wartende Personen Richtung {0}
+en: Waiting people direction {0}
+
+de: Wartende/Kapazität
+en: Waiting/capacity
+
+de: Wartet
+en: Waiting
+
+de: Wartet auf Eingang: {0}
+en: Waiting for input: {0}
+
+de: Wartezeit-Zähler ausblenden
+en: Hide waiting-time counter
+
+de: Was soll passieren
+en: What should happen
+
+de: Was:
+en: What:
+
+de: Wasserstoff
+en: Hydrogen
+
+de: Wasserverbrauch Liter/km
+en: Water consumption litres/km
+
+de: Wasservorrat Kubikmeter
+en: Water supply cubic metres
+
+de: Weberei
+en: Weaving mill
+
+de: Weicht von der Zusammenstellung in der .tcdz ab (eigene, erweiterte Daten).
+en: Differs from the composition in the .tcdz (own, extended data).
+
+de: Weiter
+en: Next
+
+de: Weiter >
+en: Next >
+
+de: Weiteren Betrieb anlegen
+en: Create another industry
+
+de: Weiß
+en: White
+
+de: Welcher Betrieb liegt an den Ladegleisen von „{0}“?
+en: Which industry is at the loading tracks of “{0}”?
+
+de: Welcher Ort, Betrieb, welches Lager oder welche Übergabe?
+en: Which town, industry, warehouse or interchange?
+
+de: Welcher Ort?
+en: Which place?
+
+de: Welches Gleis soll Ladegleis werden? Ein Bahnsteig kann zugleich Ladegleis sein. {0}
+en: Which track should become a loading track? A platform can be a loading track at the same time. {0}
+
+de: Werkzeuge
+en: Tools
+
+de: Werkzeugfabrik
+en: Tool factory
+
+de: Wert
+en: Value
+
+de: Wie viel Kapazität eines {0}-Wagens (in {1}) eine Einheit {2} belegt. Beispiel: 10 – ein Wagen mit Kapazität 20 lädt 2.
+en: How much capacity of a {0} wagon (in {1}) one unit of {2} occupies. Example: 10 – a wagon with capacity 20 loads 2.
+
+de: Wie viel der Wagen insgesamt aufnimmt, in der gewählten Einheit (Gebinde und Stück zählen gleich). Hat ein Gut eine eigene Einheit (z. B. Brammen zu je 10), belegt jede Einheit entsprechend mehr. Welche Kapazitäten gebraucht werden, zeigt Tabellen > Kapazitäten.
+en: How much the wagon holds in total, in the chosen unit (crates and pieces count the same). If a good has its own unit (e.g. slabs of 10 each), each unit occupies correspondingly more. Tables > Capacities shows which capacities are needed.
+
+de: Wird von außerhalb geliefert
+en: Supplied from outside
+
+de: Wo läuft iTrain?
+en: Where does iTrain run?
+
+de: Wolle
+en: Wool
+
+de: Wollen verreisen: {0} (gehen alle {1} Modellminuten zum Bahnhof)
+en: Want to travel: {0} (go to the station every {1} model minutes)
+
+de: Wurzel
+en: Root
+
+de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
+en: Choose the blocks that belong to the fiddle yard in iTrain, and per block whether it is {0}. Preferably one track per direction.
+
+de: XTC antwortet nicht
+en: XTC does not answer
+
+de: XTC-Port (Vorgabe {0})
+en: XTC port (default {0})
+
+de: Zeit
+en: Time
+
+de: Zeit (Trigger)
+en: Time (trigger)
+
+de: Zeit für Beladen
+en: Loading time
+
+de: Zeit für Beladen (Sekunden)
+en: Loading time (seconds)
+
+de: Zeit für Entladen
+en: Unloading time
+
+de: Zeit für Entladen (Sekunden)
+en: Unloading time (seconds)
+
+de: Zement
+en: Cement
+
+de: Zementwerk
+en: Cement works
+
+de: Zentriert
+en: Centred
+
+de: Ziegel
+en: Bricks
+
+de: Ziegelei
+en: Brickworks
+
+de: Ziehen ordnet an (mit Umschalt rastet die Verbindung gerade im 90°-Winkel ein) · rechten Rand ziehen = Breite · Anschluss: Rechtsklick „Mit Station verbinden…“ · Doppelklick bearbeitet · Rechtsklick: Farbe/Löschen, auf einer Linie: Linienstärke · Palette: klicken oder auf die Fläche ziehen
+en: Drag arranges (with Shift the connection snaps straight at 90°) · drag right edge = width · connection: right-click “Connect with station…” · double-click edits · right-click: colour/delete, on a line: line width · palette: click or drag onto the area
+
+de: Ziele nehmen nur {0} M/h auf
+en: Destinations take only {0} M/h
+
+de: Zirkus
+en: Circus
+
+de: Zoom
+en: Zoom
+
+de: Zoom:
+en: Zoom:
+
+de: Zu wenig Platz an den Ladegleisen für: {0}.\nEin Lager an diesem Bahnhof nimmt auf, was die Gleise nicht halten können, und gibt es nach und nach weiter.
+en: Not enough room at the loading tracks for: {0}.\nA warehouse at this station takes what the tracks cannot hold and passes it on gradually.
+
+de: Zu „{0}“ gibt es schon Fahrzeugdaten ({1}: Angaben zu Lokomotiven, Wagen und Zügen).\n\n„Übernehmen“: diese Konfiguration benutzt sie mit; Änderungen gelten auch für die anderen Konfigurationen dieser Anlage.\n„Nicht übernehmen“: eigene, leere Fahrzeugdaten.
+en: Vehicle data already exist for “{0}” ({1}: details on locomotives, wagons and trains).\n\n“Take over”: this configuration shares them; changes also apply to the other configurations of this layout.\n“Don't take over”: own, empty vehicle data.
+
+de: Zug
+en: Train
+
+de: Zug links auswählen.
+en: Select a train on the left.
+
+de: Zug mit passenden Wagen
+en: Train with suitable wagons
+
+de: Zug von links auf die linke oder rechte Seite eines Blocks ziehen.
+en: Drag a train from the left onto the left or right side of a block.
+
+de: Zug {0}
+en: Train {0}
+
+de: Zug {0}{1}
+en: Train {0}{1}
+
+de: Zug:
+en: Train:
+
+de: Zuganzeiger
+en: Departure board
+
+de: Zuganzeiger Güterverkehr
+en: Departure board freight
+
+de: Zuganzeiger Personen- und Güterverkehr auf Handy, Tablet oder anderem Rechner
+en: Departure boards for passenger and freight traffic on phone, tablet or another computer
+
+de: Zuganzeiger Personenverkehr
+en: Departure board passengers
+
+de: Zuganzeiger für Personen- oder Güterverkehr: die nächsten nötigen Fahrten als Abfahrtstafel, auf jeden Monitor ziehbar
+en: Departure board for passenger or freight traffic: the next necessary trips as a departure board, can be dragged to any monitor
+
+de: Zuganzeiger je Bahnhof
+en: Departure board per station
+
+de: Zuklappen
+en: Collapse
+
+de: Zuletzt verwendet...
+en: Recently used...
+
+de: Zuordnen über "Bearbeiten…".
+en: Assign via "Edit…".
+
+de: Zur Lieferung auswählen (Ladegleise):
+en: Choose for delivery (loading tracks):
+
+de: Zurzeit sind keine Fahrten nötig.
+en: No trips needed at the moment.
+
+de: Zurück
+en: Back
+
+de: Zustand
+en: State
+
+de: Zusteigen erlaubt
+en: Boarding allowed
+
+de: Zusätzlich erforderlich
+en: Additionally required
+
+de: Zwischenprodukt
+en: Intermediate product
+
+de: Züge
+en: Trains
+
+de: Züge (auf einen Block ziehen)
+en: Trains (drag onto a block)
+
+de: alle Güter
+en: all goods
+
+de: alle Güter der Ladeklasse {0}
+en: all goods of load class {0}
+
+de: aus dem Nichts
+en: from nowhere
+
+de: aussteigen in {0}
+en: alight at {0}
+
+de: der Abnehmer
+en: the customer
+
+de: der volle Triebzug
+en: the full railcar
+
+de: die Betriebe
+en: the industries
+
+de: eigener Betrieb
+en: own industry
+
+de: ein voller Wagen
+en: a full wagon
+
+de: erst eine Station anlegen
+en: create a station first
+
+de: es fehlen
+en: missing
+
+de: es fehlen {0} M/h
+en: {0} M/h missing
+
+de: es kommen nur {0} M/h
+en: only {0} M/h arrive
+
+de: geeignet: Zug 
+en: suitable: train 
+
+de: geeignet: Züge 
+en: suitable: trains 
+
+de: gelb – Anlieferung aus Lager möglich
+en: yellow – delivery from warehouse possible
+
+de: grün
+en: green
+
+de: hält
+en: stops
+
+de: iTrain Datei neu einlesen...
+en: Reload iTrain file...
+
+de: iTrain Verbindung
+en: iTrain connection
+
+de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+en: iTrain chosen: train events online via XTC ({0}:{1}). Ctrl + click on the source shows Rx/Tx.
+
+de: iTrain läuft auf diesem Computer
+en: iTrain runs on this computer
+
+de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
+en: iTrain runs on this computer ({0}), XTC does not answer on port {1}
+
+de: iTrain läuft auf einem anderen Computer
+en: iTrain runs on another computer
+
+de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
+en: iTrain is not running on this computer (XTC port {0} does not answer)
+
+de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+en: iTrain is running, but the XTC interface does not answer. Without XTC no train events arrive online.\n\nCheck: Settings → Connection to iTrain (address and XTC port, default 7128); if iTrain runs on another computer, its firewall must allow the port inbound.
+
+de: iTrain nicht mehr gefunden.
+en: iTrain no longer found.
+
+de: iTrain noch nicht gestartet
+en: iTrain not started yet
+
+de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+en: iTrain not reachable at {0} (XTC port {1} does not answer; is iTrain running? address correct? the Windows firewall on the iTrain computer must allow port {2} inbound)
+
+de: iTrain wird gesucht …
+en: Searching for iTrain …
+
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+en: iTrain was not found, logistics is paused.\n\nIf iTrain is already running, please check address and XTC port under Settings → Connection to iTrain (also “Check connection” there).
+
+de: iTrain → Voreinstellungen → Modus → Server
+en: iTrain → Preferences → Mode → Server
+
+de: iTrain-Anlagendatei verknüpfen
+en: Link iTrain layout file
+
+de: iTrain-Anlagendatei wählen
+en: Choose iTrain layout file
+
+de: iTrain-Dateien (*.tcdz, *.tcd)
+en: iTrain files (*.tcdz, *.tcd)
+
+de: iTrain-Logistik Wagen-Angaben
+en: iTrain-Logistik wagon details
+
+de: iTrain-Logistik – {0}
+en: iTrain-Logistik – {0}
+
+de: iTrain-Logistik-Dateien (*.logz)
+en: iTrain-Logistik files (*.logz)
+
+de: iTrain-Logistik-Simulator – {0}
+en: iTrain-Logistik simulator – {0}
+
+de: iTrain-Prüfung fehlgeschlagen: {0}
+en: iTrain check failed: {0}
+
+de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
+en: iTrain server reachable at {0}:{1}, but XTC does not answer on port {2}
+
+de: je Modellstunde
+en: per model hour
+
+de: kein Abnehmer
+en: no customer
+
+de: kein Bedarf eingetragen
+en: no demand entered
+
+de: kein Güterbahnhof – Güter kommen nicht an
+en: no freight yard – goods do not arrive
+
+de: kein Lieferant
+en: no supplier
+
+de: kein Personenzug mit Gepäckwagen (Koffer als Ladegut aktivieren)
+en: no passenger train with luggage van (activate luggage as cargo)
+
+de: kein Ziel
+en: no destination
+
+de: kein Ziel – weiterer Bahnhof oder Schattenbahnhof nötig
+en: no destination – another station or fiddle yard needed
+
+de: kein Zug kann das laden
+en: no train can load this
+
+de: kein Zug kann „{0}“ laden (Wagen ergänzen oder Lade-Joker)
+en: no train can load “{0}” (complete wagons or loading joker)
+
+de: kein Zug mit Plätzen
+en: no train with seats
+
+de: kein anderer Bahnhof mit Bahnsteig „Mit Koffer“
+en: no other station with platform “With luggage”
+
+de: kein {0} vorhanden
+en: no {0} present
+
+de: keine (keine Trennung nach Richtung)
+en: none (no separation by direction)
+
+de: keine Gleise
+en: no tracks
+
+de: keine Güter aktiv
+en: no goods active
+
+de: keine Güter am Gleis
+en: no goods at the track
+
+de: keine – bitte in iTrain anlegen, dann „Abgleichen“ und den Assistenten erneut starten
+en: none – please create in iTrain, then “Synchronise” and start the assistant again
+
+de: localhost oder z. B. 192.168.0.171
+en: localhost or e.g. 192.168.0.171
+
+de: mehr als {0} Fahrten je Modellstunde nötig – Menge senken oder größere Züge
+en: more than {0} trips per model hour needed – reduce amount or use bigger trains
+
+de: nach jeder Übergabe von Gütern oder Personen
+en: after every transfer of goods or people
+
+de: niemand bringt Reisende – weiterer Bahnhof oder Schattenbahnhof nötig
+en: nobody brings passengers – another station or fiddle yard needed
+
+de: nimmt alles ab
+en: takes everything
+
+de: noch {0} cm
+en: {0} cm left
+
+de: nur mit {0} verbunden{1}
+en: only connected with {0}{1}
+
+de: rot – Abholung nötig
+en: red – pickup needed
+
+de: rot – Anlieferung nötig
+en: red – delivery needed
+
+de: translations.properties wurde weder im Arbeitsverzeichnis noch als Ressource gefunden - es werden nur die Schluessel angezeigt.
+en: translations.properties was found neither in the working directory nor as a resource - only the keys are shown.
+
+de: von links
+en: from the left
+
+de: von links → {0}
+en: from the left → {0}
+
+de: von rechts
+en: from the right
+
+de: wird entladen
+en: unloading
+
+de: wird geladen
+en: loading
+
+de: z. B. 192.168.0.171 oder Rechnername
+en: e.g. 192.168.0.171 or computer name
+
+de: zeigt zurzeit: {0}{1}
+en: currently shows: {0}{1}
+
+de: zurzeit kein Umladen
+en: no transfer now
+
+de: {0}\nAusgewähltes wird mit „Weiter“ übernommen; „Offen lassen“ ändert nichts.
+en: {0}\nThe selection is applied with “Next”; “Leave open” changes nothing.
+
+de: {0}\nBahnhof: {1}
+en: {0}\nStation: {1}
+
+de: {0}\nKein Bahnhof mit Bahnsteig angeschlossen
+en: {0}\nNo station with platform connected
+
+de: {0}   ↔   verknüpft mit {1}{2}
+en: {0}   ↔   linked with {1}{2}
+
+de: {0} % der Reisenden in „{1}“ haben einen Koffer.
+en: {0} % of the passengers in “{1}” have luggage.
+
+de: {0} (Build {1})
+en: {0} (build {1})
+
+de: {0} ({1} Koffer)
+en: {0} ({1} luggage)
+
+de: {0} Ausführungen/h
+en: {0} runs/h
+
+de: {0} Bahnhof/Bahnhöfe angeheftet oder ergänzt.
+en: {0} station(s) attached or completed.
+
+de: {0} Beim Personen-/Gepäckwagen gelten die Zeiten für Reisende und Gepäck.
+en: {0} For the passenger/luggage coach the times apply to passengers and luggage.
+
+de: {0} Gbf
+en: {0} Yard
+
+de: {0} Güter
+en: {0} goods
+
+de: {0} Güter ergänzt.
+en: {0} goods added.
+
+de: {0} Hinweise
+en: {0} notices
+
+de: {0} Kapazitäten
+en: {0} capacities
+
+de: {0} Personen
+en: {0} people
+
+de: {0} Plätze
+en: {0} seats
+
+de: {0} Plätze 1. Klasse
+en: {0} seats 1st class
+
+de: {0} Plätze 2. Klasse
+en: {0} seats 2nd class
+
+de: {0} Reisende wollen je Modellstunde aus „{1}“ abfahren.
+en: {0} passengers per model hour want to depart from “{1}”.
+
+de: {0} Station(en) aus den iTrain-Bahnhöfen eingefügt.
+en: {0} station(s) inserted from the iTrain stations.
+
+de: {0} Wagenladungen{1}, {2}/{3} Plätze
+en: {0} wagon loads{1}, {2}/{3} seats
+
+de: {0} aus „{1}“
+en: {0} from “{1}”
+
+de: {0} ausgewählt
+en: {0} selected
+
+de: {0} braucht Güter. Der Güterbahnhof gehört zu {1}. Welche Blöcke sind Ladegleise? (Er darf dieselben Blöcke wie der Bahnhof nutzen.)
+en: {0} needs goods. The freight yard belongs to {1}. Which blocks are loading tracks? (It may use the same blocks as the station.)
+
+de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
+en: {0} passes through {1}, {2} (loading/unloading while passing)
+
+de: {0} erreichbar über XTC unter {1}:{2}
+en: {0} reachable via XTC at {1}:{2}
+
+de: {0} fährt ab von {1}{2}
+en: {0} departs from {1}{2}
+
+de: {0} für „{1}“
+en: {0} for “{1}”
+
+de: {0} gehört zur Anlage · kein Austausch, Reisende und Güter fahren mit Zügen
+en: {0} belongs to the layout · no exchange, passengers and goods travel by train
+
+de: {0} hat Passagiere. Welche Blöcke von {1} sind Personengleise (Bahnsteige)? Keine Auswahl = keine Personen.
+en: {0} has passengers. Which blocks of {1} are passenger tracks (platforms)? No selection = no people.
+
+de: {0} hat keine {1}e.
+en: {0} has no {1}s.
+
+de: {0} hält in {1}, {2}{3}
+en: {0} stops at {1}, {2}{3}
+
+de: {0} ist angeschlossen an
+en: {0} is connected to
+
+de: {0} ist mit keinem Bahnhof verbunden{1}
+en: {0} is not connected to any station{1}
+
+de: {0} mit „{1}“ verbinden ({2}, {3} Bahnsteige)
+en: connect {0} with “{1}” ({2}, {3} platforms)
+
+de: {0} sollen je Modellstunde nach „{1}“ geliefert werden.
+en: {0} are to be delivered to “{1}” per model hour.
+
+de: {0} von {1} Blöcken sind keinem Gleis zugeordnet (Strecke).
+en: {0} of {1} blocks are not assigned to a track (line).
+
+de: {0} wird auf der Anlage nirgends benötigt.\nTrotzdem zum Verladen bereitstellen?
+en: {0} is not needed anywhere on the layout.\nProvide for loading anyway?
+
+de: {0} wird in {1} benötigt.\nZum Verladen bereitstellen?
+en: {0} is needed at {1}.\nProvide for loading?
+
+de: {0} wird noch verwendet: {1}
+en: {0} is still used: {1}
+
+de: {0} {1} je Modellstunde
+en: {0} {1} per model hour
+
+de: {0} – Logistik gestartet.
+en: {0} – logistics started.
+
+de: {0} – Logistik ist auf Pause.
+en: {0} – logistics is paused.
+
+de: {0} – hier gilt „{1}“
+en: {0} – “{1}” applies here
+
+de: {0} – liefert immer, ohne auf der Anlage zu sein
+en: {0} – always supplies without being on the layout
+
+de: {0} – nur über Gleise (Angebot/Reisende je Gleis)
+en: {0} – only via tracks (supply/passengers per track)
+
+de: {0} – schon mit „{1}“ verbunden
+en: {0} – already connected with “{1}”
+
+de: {0} ← von rechts
+en: {0} ← from the right
+
+de: {0}: bereit zum Transport / Lagerkapazität am Güterbahnhof
+en: {0}: ready for transport / storage capacity at the freight yard
+
+de: {0}Annehmen
+en: {0}Accept
+
+de: {0}{1}Geräusche
+en: {0}{1}Sounds
+
+de: Änderungen speichern?
+en: Save changes?
+
+de: Öffnen...
+en: Open...
+
+de: Ölplattform
+en: Oil platform
+
+de: Ölquelle
+en: Oil well
+
+de: Ölraffinerie
+en: Oil refinery
+
+de: Über
+en: About
+
+de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
+en: Via XTC iTrain reports for each train the arrival in a block, waiting with waiting time and departure as well as the model time. If iTrain runs on another computer, its firewall must allow the XTC port inbound.
+
+de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
+en: Via the computer name (works if router or device knows the name):
+
+de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+en: Via the XTC interface iTrain reports for each train arrival, waiting with waiting time and departure as well as the model time. "localhost" = iTrain runs on this computer. If iTrain runs on another computer, its Windows firewall must allow the XTC port inbound. Changes apply after closing the preferences.
+
+de: Übergabe
+en: Interchange
+
+de: Übergabe (Außenwelt)
+en: Interchange (outside world)
+
+de: Übergabe bearbeiten
+en: Edit interchange
+
+de: Übergabe/Schattenbahnhof
+en: Interchange/fiddle yard
+
+de: Übergabe: Güter kommen von außerhalb oder gehen hinaus
+en: Interchange: goods come from outside or go out
+
+de: Übernehmen
+en: Take over
+
+de: Übernimmt Personenwerte und Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+en: Takes passenger values and goods amounts (replaces the table). ★ = own suggestion.
+
+de: Überschuss
+en: Surplus
+
+de: Überschuss vernichtet (heute)
+en: Surplus destroyed (today)
+
+de: Überschuss {0} M/h (wird gelagert)
+en: Surplus {0} M/h (stored)
+
+de: Übersicht
+en: Overview
+
+de: Übersicht öffnen
+en: Open overview
+
+de: Überträgt den Wert der ersten markierten Zeile in der gewählten Spalte auf alle markierten Zeilen
+en: Copies the value of the first selected row in the chosen column to all selected rows
+
+de: – direkt –
+en: – direct –
+
+de: – kein Abnehmer
+en: – no customer
+
+de: – kein Gegenstück
+en: – no counterpart
+
+de: – kein Lieferant
+en: – no supplier
+
+de: – niemand
+en: – nobody
+
+de: „Liefert immer, ohne auf der Anlage zu sein“ ist angehakt: alle Eingänge werden immer geliefert. Haken entfernen, um einzelne Güter zu wählen.
+en: “Always supplies without being on the layout” is ticked: all inputs are always supplied. Untick to choose individual goods.
+
+de: „Weiter“ ergänzt: {0}{1}
+en: “Next” adds: {0}{1}
+
+de: „{0}“ braucht je Modellstunde {1}.
+en: “{0}” needs {1} per model hour.
+
+de: „{0}“ erhöhen
+en: Increase “{0}”
+
+de: „{0}“ fährt ab aus „{1}“ – Route „{2}“{3}.
+en: “{0}” departs from “{1}” – route “{2}”{3}.
+
+de: „{0}“ fährt in „{1}“ ({2}) von der falschen Seite ein – Zug muss Kopf machen.
+en: “{0}” enters “{1}” ({2}) from the wrong side – train must reverse.
+
+de: „{0}“ hat noch die Art „Anderes“ (aus iTrain „other“) – dort halten Züge ohne Ein- und Aussteigen; im Stationsdialog Art „Bahnhof“ oder „Haltepunkt“ wählen
+en: “{0}” still has type “Other” (from iTrain “other”) – trains stop there without boarding and alighting; choose type “Station” or “Halt” in the station dialog
+
+de: „{0}“ hat noch kein Ladegleis
+en: “{0}” has no loading track yet
+
+de: „{0}“ hat noch kein Ladegleis, und es ist kein freier Block da. Bitte später im Stationsdialog ein Gleis als Ladegleis einrichten.
+en: “{0}” has no loading track yet, and there is no free block. Please set up a track as loading track later in the station dialog.
+
+de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
+en: “{0}” stops at “{1}”: type “Other”, therefore no boarding and alighting. Choose the type in the station dialog (e.g. station).
+
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+en: “{0}” then hangs on the {1} instead of the layout infrastructure.\nFreight yard, towns, industries and warehouses move along into its tab.
+
+de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
+en: “{0}” at “{1}”: waiting time is not enough for all passengers to board/alight.
+
+de: „{0}“ in „{1}“: Wartezeit zu kurz, um alles zu laden.
+en: “{0}” at “{1}”: waiting time too short to load everything.
+
+de: „{0}“ liefert automatisch, ohne Zug.
+en: “{0}” supplies automatically, without a train.
+
+de: „{0}“ liefert {1} unbegrenzt.
+en: “{0}” supplies {1} without limit.
+
+de: „{0}“ liefert, ohne auf der Anlage zu sein.
+en: “{0}” supplies without being on the layout.
+
+de: „{0}“ nimmt beliebig viele ankommende Reisende auf.
+en: “{0}” takes any number of arriving passengers.
+
+de: „{0}“ nimmt je Modellstunde {1} ankommende Reisende auf.
+en: “{0}” takes {1} arriving passengers per model hour.
+
+de: „{0}“ stellt je Modellstunde {1} her{2}.
+en: “{0}” produces {1} per model hour{2}.
+
+de: „{0}“ stellt {1} schon her; es fehlen {2} je Modellstunde.
+en: “{0}” already produces {1}; {2} per model hour are missing.
+
+de: „{0}“ zum Bahnhof machen (bisher „Anderes“{1}
+en: Make “{0}” a station (so far “Other”{1}
+
+de: „Übernehmen“ trägt das in die Anlage ein. Was danach noch fehlt, zeigt der Assistent an.
+en: “Take over” enters this into the layout. What is still missing afterwards is shown by the assistant.
+
+de: ∞ von außerhalb geliefert
+en: ∞ supplied from outside
+
+de: ■ Stopp
+en: ■ Stop
+
+de: ▭ Block 
+en: ▭ Block 
+
+de: ▲ Abreisende 
+en: ▲ Departing 
+
+de: ▲ Entladen · ▼ Beladen
+en: ▲ Unloading · ▼ Loading
+
+de: ▲ {0} geht an:
+en: ▲ {0} goes to:
+
+de: ▶ Austausch läuft
+en: ▶ Exchange running
+
+de: ▶ Probehören
+en: ▶ Listen
+
+de: ▶ Start
+en: ▶ Start
+
+de: ▼ Ankommende 
+en: ▼ Arriving 
+
+de: ▼ wartet auf Abholung · ▲ abgeladen, geht an die Abnehmer · Kapazität {0} je Gut{1}
+en: ▼ waiting for pickup · ▲ unloaded, goes to the customers · capacity {0} per good{1}
+
+de: ▼ {0} kommt von:
+en: ▼ {0} comes from:
+
+de: ▼ {0} {1} M/h – {2}, kommt von:
+en: ▼ {0} {1} M/h – {2}, comes from:
+
+de: ▼ {0} – {1}, kommt von:
+en: ▼ {0} – {1}, comes from:
+
+de: ⚠ Kopf machen{0}
+en: ⚠ Reverse{0}
+
+de: ✔ Direkte Verbindung über die Zugroute „{0}“.
+en: ✔ Direct connection via train route “{0}”.
+
+de: ✔ in Ordnung
+en: ✔ OK
+
+de: ✔ {0} auf {1}:{2}, {3} Züge
+en: ✔ {0} on {1}:{2}, {3} trains
+
+de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
+en: ✔ {0} runs on {1} (XTC port {2}), {3} trains: {4}
+
+de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
+en: ✘ No answer from iTrain at {0}:{1} ({2}).\nIs iTrain running there? Is the Windows firewall on the iTrain computer open inbound for port {3}? Are address and port correct?
+
+de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
+en: ✘ No answer from iTrain XTC at {0}:{1} ({2})
+
+de: ❚❚ Austausch angehalten
+en: ❚❚ Exchange paused
+
+de: ❚❚ Pause
+en: ❚❚ Pause
+
+de: ❚❚ pausiert
+en: ❚❚ paused
+
+de: Verkehrs-Assistent...
+en: Traffic assistant...
+
+de: Symbole...
+en: Symbols...
+
+de: Anlagen-Infrastruktur
+en: Layout infrastructure
+
+de: leer
+en: empty
+
+de: Modellbahn-Faktor
+en: Model railway factor
+
+de: Vorbild-Gewicht/Ladegewicht
+en: Prototype weight/load weight
+
+de: Vorbild-Volumen
+en: Prototype volume
+
+de: Offen/Geschlossen
+en: Open/closed
+
+de: alle
+en: all
+
+de: nein
+en: no
+
+de: ja
+en: yes
+
+de: 1. Kl.
+en: 1st cl.
+
+de: 2. Kl.
+en: 2nd cl.
+
+de: Wartend: {0} (1. Kl.) + {1} (2. Kl.) / {2}
+en: Waiting: {0} (1st cl.) + {1} (2nd cl.) / {2}
+
+de: Passagiere 1. Klasse: {0} / {1},  2. Klasse: {2} / {3}
+en: Passengers 1st class: {0} / {1},  2nd class: {2} / {3}
+
+de: Block: -
+en: Block: -
+
+de: XTC-Port:
+en: XTC port:
+
+de: Durchsuchen...
+en: Browse...
+
+de: {0} Blöcke
+en: {0} blocks
+
+
+# Browser-Seiten (09.11.2026)
+de: Nicht gefunden
+en: Not found
+
+de: Kein Modul „{0}“ (oder nicht für den Browser freigegeben).
+en: No module “{0}” (or not enabled for the browser).
+
+de: Zur Übersicht
+en: To the overview
+
+de: Kein Geräusch
+en: No sound
+
+de: Lade…
+en: Loading…
+
+de: ausgestiegen
+en: got off
+
+de: eingestiegen
+en: got on
+
+de: Ausladen
+en: Unloading
+
+de: Einladen
+en: Loading
+
+de: Antippen: Geräusch
+en: Tap: sound
+
+de: Bereit zum Transport
+en: Ready for transport
+
+de: Herstellung
+en: Production
+
+de: ohne Eingang
+en: no input
+
+de: Eingelagert
+en: Stored
+
+de: Ladung
+en: Load
+
+de: Hell
+en: Light
+
+de: Dunkel
+en: Dark
+
+de: Ton an
+en: Sound on
+
+de: Ton aus
+en: Sound off
+
+de: Rezept ausblenden
+en: Hide recipe
+
+de: Rezept anzeigen
+en: Show recipe
+
+de: keine Verbindung zum Logistik-Rechner
+en: no connection to the Logistics computer
+
+de: Vollbild an/aus
+en: Full screen on/off
+
+de: Vollbild
+en: Full screen
+
+de: Anzeiger
+en: Boards
+
+de: Kein Bahnhof unter dieser Adresse
+en: No station at this address
+
+de: Nur lesen
+en: Read only
+
+de: Joker
+en: wildcard
+
+de: {0} in {1} benötigt
+en: {0} needed in {1}
+
+de: anliefern: {0}, {1}
+en: deliver to: {0}, {1}
+
+de: kein Ladegleis zum Entladen
+en: no loading track for unloading
+
+de: abholen in {0}
+en: collect at {0}
+
+de: {0} bereit
+en: {0} ready
+
+de: noch nirgends zur Abholung bereit
+en: not yet ready for collection anywhere
+
+de: Personenzug
+en: passenger train
+
+de: geeignet: Zug {0}
+en: suitable: train {0}
+
+de: geeignet: Züge {0}
+en: suitable: trains {0}
+
+de: Tag
+en: Day
+
+de: Lizenz: GNU General Public License, Version 3 (GPL-3.0)
+en: License: GNU General Public License, version 3 (GPL-3.0)
+
+de: Enthält:
+en: Contains:
+
+de: QR-Code-Generator von Project Nayuki (MIT-Lizenz)
+en: QR code generator by Project Nayuki (MIT license)
+
+de: Geräusche von freesound.org (CC0, gemeinfrei)
+en: Sounds from freesound.org (CC0, public domain)
+
+de: OpenJFX und Java-Laufzeit (GPL v2 mit Classpath Exception)
+en: OpenJFX and Java runtime (GPL v2 with Classpath Exception)
+
+de: Über iTrain-Logistik
+en: About iTrain-Logistik
+
+# 10.11.2026: Verknüpfte Datei, Browser-Status, Routen-Anzeiger
+
+de: Verknüpfte Datei
+en: Linked file
+
+de: Routen-Anzeiger
+en: Route display
+
+de: Logistik im Browser
+en: Logistics in browser
+
+de: Zuganzeiger im Browser
+en: Departure board in browser
+
+de: Logistik auf anderem Gerät...
+en: Logistics on another device...
+
+de: Zuganzeiger auf anderem Gerät...
+en: Departure board on another device...
+
+de: Logistik auf anderem Gerät
+en: Logistics on another device
+
+de: Zuganzeiger auf anderem Gerät
+en: Departure board on another device
+
+de: iTrain-Datei
+en: iTrain file
+
+de: Mit dieser iTrain-Datei ist die Logistik-Datei verknüpft
+en: The Logistics file is linked to this iTrain file
+
+de: Logistik-Datei:
+en: Logistics file:
+
+de: iTrain-Datei:
+en: iTrain file:
+
+de: Zustand:
+en: Status:
+
+de: Fahrzeugdatei:
+en: Vehicle file:
+
+de: Gefunden, zuletzt geändert {0}
+en: Found, last modified {0}
+
+de: Aktualisieren
+en: Refresh
+
+de: Andere Datei wählen…
+en: Choose another file…
+
+de: Prüft erneut, ob die iTrain-Datei gefunden wird, und gleicht die Logistik mit ihr ab (Loks, Wagen, Blöcke, Züge, Zugrouten)
+en: Checks again whether the iTrain file is found and synchronises Logistics with it (locomotives, wagons, blocks, trains, train routes)
+
+de: Die verknüpfte iTrain-Datei wurde nicht gefunden – nichts abgeglichen.
+en: The linked iTrain file was not found – nothing synchronised.
+
+de: Verknüpfte iTrain-Datei: {0}
+en: Linked iTrain file: {0}
+
+de: Gefunden.
+en: Found.
+
+de: Nicht gefunden.
+en: Not found.
+
+de: Klick: Dialog „Verknüpfte Datei“
+en: Click: “Linked file” dialog
+
+de: aus
+en: off
+
+de: Ausgeschaltet. Klick öffnet die Einstellungen.
+en: Switched off. Click opens the settings.
+
+de: Adressen
+en: Addresses
+
+de: dieser Rechner
+en: this computer
+
+de: Verbundene Geräte
+en: Connected devices
+
+de: Browser Logistik ist ausgeschaltet – hier einschalten.
+en: Browser Logistics is switched off – switch it on here.
+
+de: Browser Zuganzeiger ist ausgeschaltet – hier einschalten.
+en: Browser departure board is switched off – switch it on here.
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Funktionen → Logistik auf anderem Gerät: anderen Port wählen.
+en: Browser Logistics could not open port {0} ({1}). Functions → Logistics on another device: choose another port.
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Zuganzeiger auf anderem Gerät: anderen Port wählen.
+en: Browser departure board could not open port {0} ({1}). Functions → Departure board on another device: choose another port.
+
+de: Browser Logistik: Anlage und Module im Browser auf diesem Rechner öffnen; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+en: Browser Logistics: open the layout and modules in the browser on this computer; “On another device” shows addresses, port and QR code
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser auf diesem Rechner öffnen, auch je Bahnhof; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+en: Browser departure board: open the boards in the browser on this computer, also per station; “On another device” shows addresses, port and QR code
+
+de: Zeigt, mit welcher iTrain-Datei (.tcdz) diese Logistik-Datei verknüpft ist und ob sie gefunden wird
+en: Shows which iTrain file (.tcdz) this Logistics file is linked to and whether it is found
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal
+en: Route display: one train with previous, current and next block, position, braking section, stop point and signal
+
+de: Keine Datei geöffnet oder kein Zug vorhanden.
+en: No file open or no train available.
+
+de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
+en: No online data: this train is not connected to iTrain via XTC.
+
+de: Der Zug steht in iTrain in keinem Block.
+en: In iTrain the train is not in any block.
+
+de: {0} mm > Position {1}
+en: {0} mm > position {1}
+
+de: Halt noch {0} s
+en: Stop for another {0} s
+
+de: Ziel
+en: Destination
+
+de: vorher
+en: previous
+
+de: aktuell
+en: current
+
+de: danach
+en: next
+
+de: Weichen
+en: Turnouts
+
+de: Richtungswechsel
+en: Change of direction
+
+de: ▲ {0} ausgestiegen
+en: ▲ {0} got off
+
+de: ▼ {0} eingestiegen
+en: ▼ {0} got on
+
+de: Entladen ▲ {0}
+en: Unloading ▲ {0}
+
+de: Beladen ▼ {0}
+en: Loading ▼ {0}
+
+de: dahinter
+en: behind
+
+de: Routen-Anzeiger im Browser
+en: Route display in browser
+
+de: Routen-Anzeiger auf anderem Gerät...
+en: Route display on another device...
+
+de: Routen-Anzeiger auf anderem Gerät
+en: Route display on another device
+
+de: Routen-Anzeiger je Zug auf Handy, Tablet oder anderem Rechner
+en: Route display per train on phone, tablet or another computer
+
+de: Browser Routen-Anzeiger eingeschaltet
+en: Browser route display switched on
+
+de: Browser Routen-Anzeiger
+en: Browser route display
+
+de: Zug wählen
+en: Choose train
+
+de: Fenster öffnen
+en: Open window
+
+de: Im Browser öffnen
+en: Open in browser
+
+de: Kein Zug unter dieser Adresse
+en: No train at this address
+
+de: Browser Routen-Anzeiger ist ausgeschaltet – hier einschalten.
+en: Browser route display is switched off – switch it on here.
+
+de: Port {0} ist schon vergeben – bitte einen anderen wählen.
+en: Port {0} is already in use – please choose another.
+
+de: Eigener Port, getrennt von Browser Logistik und Browser Zuganzeiger. Jedes Gerät zeigt einen Zug; den Ton schaltet es oben im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+en: Own port, separate from Browser Logistics and the browser departure board. Each device shows one train; it switches the sound on itself at the top of the display (the browser remembers), “Full screen” for a tablet. The Windows firewall of this computer must allow the port for incoming connections.
+
+de: Geräusche beim Ein-/Aussteigen und Verladen in den Routen-Anzeigern ein- oder ausschalten
+en: Switch the sounds for boarding/alighting and loading in the route displays on or off
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal – als Fenster (auch mehrere) oder im Browser
+en: Route display: one train with previous, current and next block, position, braking section, stop point and signal – as a window (several possible) or in the browser
+
+de: Browser Routen-Anzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Routen-Anzeiger auf anderem Gerät: anderen Port wählen.
+en: Browser route display could not open port {0} ({1}). Functions → Route display on another device: choose another port.
+de: Wagenliste
+en: Wagon list
+de: Wagenliste befördert
+en: Wagon list carries
+de: Einsteigen/Aussteigen
+en: Board/alight
+de: Entladen/Beladen
+en: Unload/load
+de:  · steht
+en:  · stopped
+de: Wartezeit vorbei, steht
+en: Wait over, stopped
+de:  · Abfahrt
+en:  · departing
+de: Lager hinzufügen. {0} kann nicht entladen werden, die Abnehmer sind voll
+en: Add a storage. {0} cannot be unloaded, the recipients are full
+de: Lager voll. {0} kann nicht entladen werden, die Abnehmer sind voll
+en: Storage full. {0} cannot be unloaded, the recipients are full
+de: Kein Abnehmer an diesem Bahnhof für: {0}
+en: No recipient at this station for: {0}
+de: Produktion passt sich an: mehr Anlieferung, mehr Herstellung
+en: Production adapts: more deliveries, more output
+de: Bedarf wächst mit der Versorgung
+en: Demand grows with supply
+de: Produktion ×{0}
+en: Production ×{0}
+de: Je Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn die Eingangslager gut gefüllt sind und der Ausgang abfließt; herunter, wenn Eingang fehlt oder der Ausgang voll ist. Rate und Lagerkapazitäten wachsen mit der Stufe. Der Regler Langsamer/Schneller wirkt auch hier.
+en: At most one level per model hour (×1 to ×4): up when the input stores are well filled and the output is flowing; down when input is missing or the output is full. Rate and store capacities grow with the level. The Slower/Faster slider applies here too.
+de: Je Gut und Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn der Bedarf gedeckt ist; herunter, wenn länger nichts geliefert wird. Reisende und Einwohner bleiben unverändert. Der Regler Langsamer/Schneller wirkt auch hier.
+en: At most one level per good and model hour (×1 to ×4): up when demand is met; down when nothing is delivered for a longer time. Travellers and residents stay unchanged. The Slower/Faster slider applies here too.
+de: Abnahme M/h
+en: Taken M/h
+de: Ankommende M/h
+en: Arriving M/h
+de: unbegrenzt
+en: unlimited
+de: Abnahme Stück M/h
+en: Taken pieces M/h
+de: Außenwelt: Güter, die hier abgenommen werden
+en: Outside world: goods taken here
+de: Leere Tabelle: Die Außenwelt nimmt alle Güter unbegrenzt ab. Mit Einträgen nur diese Güter, je Modellstunde höchstens die Menge.
+en: Empty table: the outside world takes all goods without limit. With entries only these goods, at most the amount per model hour.
+de: Zusätzlich erforderlich…
+en: Additionally required…
+de: Hinweise beim Start zeigen
+en: Show hints at startup
+de: die Anlage
+en: the layout
+de: Transport – Wagen und Züge
+en: Transport – wagons and trains
+de: ▼ {0} ({1}): kein Zug kann es befördern
+en: ▼ {0} ({1}): no train can carry it
+de: Reisende: kein Zug hat Sitz- oder Stehplätze
+en: Travellers: no train has seats or standing room
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) für dieses Gut freischalten
+en: Use existing wagon: enable “{0}” ({1}) for this good
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) im Wagenfenster ergänzen
+en: Use existing wagon: complete “{0}” ({1}) in the wagon window
+de: Bestehenden Wagen verwenden: „{0}“ kann es, steht aber in keinem Zug – in iTrain einem Zug zuordnen
+en: Use existing wagon: “{0}” can do it but is in no train – assign it to a train in iTrain
+de: Transportmöglichkeit besorgen (kaufen, leihen …), in iTrain anlegen, dann abgleichen
+en: Obtain transport (buy, borrow …), create it in iTrain, then synchronise
+de: Bestehenden Transport zum Joker machen: „{0}“ ({1})
+en: Turn existing transport into a joker: “{0}” ({1})
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) als Personenwagen, Sitzplätze eintragen
+en: Use existing wagon: “{0}” ({1}) as passenger coach, enter seats
+de: Vom Schattenbahnhof: angeliefert auf Gleis „{0}“ ({1})
+en: From the fiddle yard: delivered on track “{0}” ({1})
+de: Wagen „{0}“ in iTrain einem Zug zuordnen ({1}), dann „Mit iTrain abgleichen“.
+en: Assign wagon “{0}” to a train in iTrain ({1}), then “Synchronise with iTrain”.
+de: Wagen für {0} ({1})
+en: Wagon for {0} ({1})
+de: Personenwagen
+en: Passenger coaches
+de:  besorgen, in iTrain anlegen und einem Zug zuordnen, dann „Mit iTrain abgleichen“.
+en:  – obtain, create in iTrain and assign to a train, then “Synchronise with iTrain”.
+de: Angeschlossene Betriebe und Übergaben (Güter über die Ladegleise)
+en: Connected industries and interchanges (goods via the loading tracks)
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Anschließen lassen sich Betriebe und Übergaben, keine Orte und Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+en: Fiddle yard: travellers and goods come into the fiddle yard from outside – set per track (platform: travellers per model hour, loading track: supply per good). A track can be platform and loading track at once (create twice with the same block). Loading tracks move into a docked goods station when saving. Industries and interchanges can be connected, not towns and warehouses. Loading and unloading already happens when passing through, without stopping.
+de: Benötigt keinen Lieferanten
+en: Needs no supplier
+de: Mit der KI prüfen...
+en: Check with AI...
+de: Mit der KI prüfen
+en: Check with AI
+de: Kontakt...
+en: Contact...
+de: Kontakt
+en: Contact
+de: Auf Update prüfen
+en: Check for update
+de: Diese Dateien in den Chat der KI ziehen
+en: Drag these files into the AI chat
+de: Starten Sie einen neuen Chat (z. B. claude.ai). Ziehen Sie alle Dateien mit der Maus in den Chat und schreiben Sie dazu: „Bitte nach der Prompt-Datei vorgehen.“ Die KI prüft, ob die Logistik vollständig und mit der iTrain-Anlage verknüpft ist, fragt nach der Sprache und am Ende, ob ein Dokument daraus werden soll. Die iTrain-Datei wird dabei nicht nach dem iTrain-Handbuch geprüft, nur auf die Verknüpfung.
+en: Start a new chat (e.g. claude.ai). Drag all files into the chat with the mouse and write: “Please follow the prompt file.” The AI checks whether the logistics are complete and linked to the iTrain layout, asks for the language and at the end whether it should become a document. The iTrain file is not checked against the iTrain manual, only for the links.
+de: Bei Fragen zum Inhalt bitte diese Dateien mit senden
+en: For questions about the content please send these files
+de: Ihr E-Mail-Programm öffnet eine neue Nachricht an {0}. Ziehen Sie die Dateien mit der Maus in die Nachricht (als Anhang). Öffnet sich kein E-Mail-Programm, schreiben Sie an {1} und hängen Sie die Dateien aus dem Ordner an.
+en: Your e-mail program opens a new message to {0}. Drag the files into the message with the mouse (as attachment). If no e-mail program opens, write to {1} and attach the files from the folder.
+de: ⇲  Hier anfassen und alle Dateien auf einmal hinüberziehen
+en: ⇲  Grab here and drag all files across at once
+de: Ordner: {0}
+en: Folder: {0}
+de: Prompt kopieren
+en: Copy prompt
+de: Prompt kopiert ✔
+en: Prompt copied ✔
+de: E-Mail öffnen
+en: Open e-mail
+de: Bitte zuerst eine Logistik-Datei (.logz) öffnen.
+en: Please open a logistics file (.logz) first.
+de: Die Logistik-Datei hat ungespeicherte Änderungen. Zusammengestellt wird der gespeicherte Stand.
+en: The logistics file has unsaved changes. The saved state is compiled.
+de: Vorher speichern?
+en: Save first?
+de: Ohne Änderungen
+en: Without changes
+de: Dateien konnten nicht zusammengestellt werden: {0}
+en: Files could not be compiled: {0}
+de: Lizenzhinweise
+en: License notices
+de: Version {0}
+en: Version {0}
+de: Copyright © 2026 Andre Ruff. Freie Software unter der GNU General Public License, Version 3 (GPL-3.0). Ohne Gewährleistung.
+en: Copyright © 2026 Andre Ruff. Free software under the GNU General Public License, version 3 (GPL-3.0). No warranty.
+de: Übersetzungen: Englisch, Niederländisch, Französisch, Spanisch und Italienisch mit KI-Unterstützung erstellt.
+en: Translations: English, Dutch, French, Spanish and Italian created with AI assistance.
+de: Eine neue Version von iTrain-Logistik ist verfügbar
+en: A new version of iTrain-Logistik is available
+de: iTrain-Logistik ist auf dem neuesten Stand
+en: iTrain-Logistik is up to date
+de: Installiert ist {0}, die neueste Veröffentlichung ist {1}.
+en: Installed is {0}, the latest release is {1}.
+de: Installiert: {0}
+en: Installed: {0}
+de: Neu: {0}
+en: New: {0}
+de: Die Prüfung war nicht möglich: {0}
+en: The check was not possible: {0}
+de: Die Veröffentlichungen stehen unter {0}
+en: The releases are at {0}
+de: Zur Download-Seite
+en: To the download page
+de: noch keine öffentliche Veröffentlichung gefunden
+en: no public release found yet
+de: unbekanntes Antwortformat
+en: unknown response format
+de: QR-Code drucken
+en: Print QR code
+de: Drucken…
+en: Print…
+de: Als Bild speichern…
+en: Save as image…
+de: Mit der Handy-Kamera scannen und den Link öffnen. Das Handy muss im WLAN der Anlage angemeldet sein.
+en: Scan with the phone camera and open the link. The phone must be connected to the layout's Wi-Fi.
+de: Kein Drucker gefunden. Mit „Als Bild speichern…“ lässt sich der Aushang als Bild ablegen und drucken.
+en: No printer found. “Save as image…” stores the notice as an image to print.
+de: Modul-Anzeiger
+en: Module display
+de: Modul-Anzeiger im Browser
+en: Module display in browser
+de: Alle Blöcke
+en: All blocks
+de: Kein Zug im Block
+en: No train in block
+de: Keine Blöcke
+en: No blocks
+de: Keine Datei geöffnet.
+en: No file open.
+de: Reisende: {0} (1. Klasse {1}, 2. Klasse {2}) von {3} Plätzen
+en: Travellers: {0} (1st class {1}, 2nd class {2}) of {3} seats
+de: Leer, {0} Plätze
+en: Empty, {0} seats
+de: Ohne Ladung
+en: No cargo
+de: Leer
+en: Empty
+de: Route {0}
+en: Route {0}
+de: Hält, noch {0} s
+en: Stopping, {0} s left
+de: Hält
+en: Stopping
+de: Fährt, {0} km/h
+en: Running, {0} km/h
+de: Steht
+en: Standing
+de: Strecke
+en: Line
+de: Bremst
+en: Braking
+de: Halt erwarten
+en: Expect stop
+de: Langsamfahrt erwarten
+en: Expect slow speed
+de: Zuglänge {0} mm
+en: Train length {0} mm
+de: Modul-Anzeiger:
+en: Module display:
+de: Anzeiger im Fenster
+en: Displays in a window
+de: Anzeiger im Browser
+en: Displays in the browser
+de: Auf diesem Gerät
+en: On this device
+de: Auf anderem Gerät
+en: On another device
+de: Logistik (Übersicht)
+en: Logistics (overview)
+de: Logistik ganze Anlage
+en: Logistics whole layout
+de: Logistik Modul „{0}“
+en: Logistics module “{0}”
+de: Zuganzeiger Auswahl
+en: Train indicator selection
+de: Modul-Anzeiger auf anderem Gerät...
+en: Module display on another device...
+de: Uhr auf anderem Gerät...
+en: Clock on another device...
+de: Uhr auf anderem Gerät
+en: Clock on another device
+de: Die Modelluhr im Browser – Antippen wechselt zwischen analog und digital
+en: The model clock in the browser – tap to switch between analogue and digital
+de: Darstellung und Farben wie im Fenster der Uhr (Rechtsklick bzw. ⚙).
+en: Display and colours as in the clock window (right-click or ⚙).
+de: Digital
+en: Digital
+de: Analog (Bahnhofsuhr)
+en: Analogue (station clock)
+de: Sekunden anzeigen
+en: Show seconds
+de: Farben...
+en: Colours...
+de: Standardfarben
+en: Default colours
+de: Farben der Uhr
+en: Clock colours
+de: Hintergrund
+en: Background
+de: Zifferblatt (analog)
+en: Dial (analogue)
+de: Zeiger und Striche (analog)
+en: Hands and marks (analogue)
+de: Sekundenzeiger (analog)
+en: Second hand (analogue)
+de: Ziffern (digital)
+en: Digits (digital)
+de: Transport – iTrain-Zugrouten
+en: Transport – iTrain train routes
+de: ⇄ {0}: keine iTrain-Zugroute für den Transport
+en: ⇄ {0}: no iTrain train route for the transport
+de: ⇄ Reisende aus {0}: keine iTrain-Zugroute zu einem anderen Bahnhof
+en: ⇄ Travellers from {0}: no iTrain train route to another station
+de: Bitte eine neue Route anlegen von {0} nach {1}
+en: Please create a new route from {0} to {1}
+de: Bitte eine neue Route anlegen von {0} nach {1} für den Transport von {2} – in iTrain anlegen und speichern, dann „Mit iTrain abgleichen“.
+en: Please create a new route from {0} to {1} for transporting {2} – create and save it in iTrain, then “Synchronise with iTrain”.
+de: Reisenden
+en: travellers
+de: Im Handbuch lesen
+en: Read in the manual
+de: Handbuch (PDF)
+en: Manual (PDF)
+de: F1 zeigt in jedem Fenster die passende Hilfe.
+en: F1 shows the matching help in every window (help texts in German).
+de: Hauptfenster
+en: Main window
+de: Anzeiger auf anderem Gerät
+en: Displays on another device
+de: Ort bearbeiten
+en: Edit town
+de: Modul und Tab
+en: Module and tab
+de: Mit der KI prüfen, Kontakt
+en: Check with AI, contact
+de: Zufriedenheit
+en: Satisfaction
+de: Erfüllung
+en: Fulfilment
+de: Bewertung
+en: Rating
+de: Erfüllungsgrad
+en: Degree of fulfilment
+de: {0} je Modelltag (%)
+en: {0} per model day (%)
+de: Maßnahmen
+en: Measures
+de: (erst unter 50 % nötig)
+en: (only needed below 50 %)
+de: Was zu tun ist, um den Bedarf zu decken
+en: What to do to meet the demand
+de: Keine einzelne Ursache unter 50 % – Posten mit gelbem Wert zuerst verbessern.
+en: No single cause below 50 % – improve the items with a yellow value first.
+de: Zufriedenheit: Anlieferung des Bedarfs und Abholung der Reisenden – Klick zeigt die Bewertung
+en: Satisfaction: delivery of the demand and pick-up of travellers – click shows the rating
+de: Erfüllung: Anlieferung der Eingänge und Abholung der Herstellung – Klick zeigt die Bewertung
+en: Fulfilment: delivery of inputs and pick-up of output – click shows the rating
+de: Anlieferung {0} entspricht der Vorgabe
+en: Delivery of {0} meets the target
+de: Anlieferung {0} etwas zu gering
+en: Delivery of {0} somewhat too low
+de: Zu wenig {0}, mehr anliefern
+en: Too little {0}, deliver more
+de: Reisende werden abgeholt
+en: Travellers are being picked up
+de: Reisende warten, öfter abholen
+en: Travellers waiting, pick up more often
+de: Zu viele Reisende warten, mehr Züge
+en: Too many travellers waiting, more trains
+de: Mehr Züge mit Sitzplätzen in {0} halten lassen ({1} Reisende warten, {2} je Modellstunde)
+en: Let more trains with seats stop at {0} ({1} travellers waiting, {2} per model hour)
+de: Anlieferung {0}: wird von außerhalb geliefert
+en: Delivery of {0}: supplied from outside
+de: {0} wird knapp
+en: {0} is running low
+de: Herstellung {0} läuft, wird abgeholt
+en: Production of {0} running, being picked up
+de: {0} staut sich, öfter abholen
+en: {0} is piling up, pick up more often
+de: Lager {0} voll, Herstellung steht – mehr abholen
+en: Store of {0} full, production stopped – pick up more
+de: Für {0} gibt es keinen Abnehmer – Abnehmer anlegen (Zusätzlich erforderlich)
+en: There is no customer for {0} – create a customer (Additionally required)
+de: Mehr {0} abholen: mehr Züge von {1} zu {2}
+en: Pick up more {0}: more trains from {1} to {2}
+de: Produktion erhöhen, um den Bedarf zu decken: {0} gebraucht {1} M/h, hergestellt {2} M/h
+en: Increase production to meet the demand: {0} needed {1} M/h, produced {2} M/h
+de: Mehr {0} anliefern: mehr Züge nach {1}
+en: Deliver more {0}: more trains to {1}
+de: Mehr {0} anliefern: mehr Züge nach {1} ({2} stehen bereit)
+en: Deliver more {0}: more trains to {1} ({2} ready)
+de: Für {0} gibt es keinen Hersteller – Lieferant anlegen (Zusätzlich erforderlich)
+en: There is no producer for {0} – create a supplier (Additionally required)
+de: Mehr Produktion: {0} erhöhen, um den Bedarf an {1} zu decken
+en: More production: increase {0} to meet the demand for {1}
+de: Ton bei Einfahrt eines Zugs in den Block
+en: Sound when a train enters the block
+de: Antippen, um den Ton einzuschalten
+en: Tap to switch the sound on
+de: Klingel
+en: Bell
+de: Glocke
+en: Chime
+de: Hupe
+en: Horn
+de: Epoche
+en: Era
+de: Vorgabe
+en: Default
+de: Sitzplätze 3. Klasse (zählen zur 2. Klasse)
+en: 3rd class seats (count as 2nd class)
+de: Sitzplätze 4. Klasse (zählen zur 2. Klasse)
+en: 4th class seats (count as 2nd class)
+de: Angehakt: Epoche der Anlage (Voreinstellungen > Vorlagen). Abgehakt: eigene Epoche für diesen Wagen.
+en: Ticked: era of the layout (Preferences > Templates). Unticked: own era for this wagon.
+de: Zeitabschnitt
+en: Period
+de: Vorhandene Wagenklassen
+en: Coach classes
+de: Besonderheiten & historische Meilensteine
+en: Features & historical milestones
+de: Sonderformen
+en: Special forms
+de: Transport – Wagen und Züge (Kapazität je Ladeklasse)
+en: Transport – wagons and trains (capacity per cargo class)
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2}
+en: ▼ {0} ({1}): no wagon with capacity for {2}
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2} – vorhanden nur {3}
+en: ▼ {0} ({1}): no wagon with capacity for {2} – only {3}
+de: Pfeil Be-/Entladen (Güter)
+en: Arrow loading/unloading (goods)
+de: Entladen ·
+en: Unloading ·
+de: Beladen
+en: Loading
+de: Keine Module
+en: No modules
+de: Modul nicht gefunden.
+en: Module not found.
+de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das Modul festlegen.
+en: No line tracks – set them in “Edit layout” by right-clicking the module.
+de: Geräusche...
+en: Sounds...

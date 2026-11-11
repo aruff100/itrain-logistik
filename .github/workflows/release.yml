@@ -1,0 +1,82 @@
+name: Installer bauen und veröffentlichen
+
+# Baut für Windows, macOS und Linux je einen Installer (.msi / .dmg / .deb) mit
+# "./gradlew jpackage" (build.gradle.kts, jlink { jpackage { … } }). jpackage
+# kann nicht für andere Plattformen bauen, deshalb ein Runner je Betriebssystem.
+# Übernommen aus iTrain_import_export, angepasst an JDK 25.
+#
+# Auslöser:
+#   - Tag "v*" (z. B. "v0.1.0"): baut alle drei Installer und legt ein
+#     GitHub-Release mit den drei Dateien an.
+#   - "Run workflow" im Reiter Actions: baut nur die Installer als Artefakte.
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Quellcode auschecken
+        uses: actions/checkout@v4
+
+      # Gradle selbst läuft auf diesem JDK; die Toolchain (Liberica 25) lädt
+      # der foojay-Resolver nach (settings.gradle.kts).
+      - name: JDK 25 einrichten
+        uses: actions/setup-java@v4
+        with:
+          distribution: liberica
+          java-version: "25"
+          java-package: jdk
+
+      - name: fakeroot installieren (jpackage --type deb)
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y fakeroot
+
+      - name: Gradle-Wrapper ausführbar machen
+        if: runner.os != 'Windows'
+        run: chmod +x ./gradlew
+
+      - name: Installer bauen (jpackage)
+        shell: bash
+        run: ./gradlew jpackage --no-daemon
+
+      - name: Installer als Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: installer-${{ matrix.os }}
+          path: |
+            build/jpackage/*.msi
+            build/jpackage/*.dmg
+            build/jpackage/*.deb
+          if-no-files-found: error
+
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Installer herunterladen
+        uses: actions/download-artifact@v4
+        with:
+          path: installers
+
+      - name: GitHub-Release anlegen
+        uses: softprops/action-gh-release@v2
+        with:
+          files: installers/**/*
+          body: |
+            Installer für Windows (.msi), macOS (.dmg) und Linux (.deb). Sie bringen ihre eigene Java-Laufzeit mit.
+
+            Die Installer sind nicht signiert. Windows zeigt deshalb beim ersten Start „Der Computer wurde durch Windows geschützt“ (→ „Weitere Informationen“ → „Trotzdem ausführen“); unter macOS nach dem ersten Startversuch in Systemeinstellungen → Datenschutz & Sicherheit „Dennoch öffnen“ wählen.
+
+            Unter Linux brauchen mp3-Geräusche die ffmpeg-Bibliotheken des Systems (z. B. `sudo apt install ffmpeg`).

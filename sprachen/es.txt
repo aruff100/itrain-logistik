@@ -1,0 +1,5002 @@
+# iTrain-Logistik – Español
+# Paare: „de:“ deutscher Text wie im Programm, „es:“ Übersetzung. {0}, {1} … = Platzhalter, \n = Zeilenumbruch.
+# Eigene Korrekturen: Datei in <Logistik-Ordner>/sprachen/ ablegen, sie geht vor.
+
+de: \n(schon eingebaut)
+es: \n(ya integrada)
+
+de: \nLinie: 
+es: \nLínea: 
+
+de: \nNoch keine Zugverbindung über XTC
+es: \nTodavía sin conexión de tren vía XTC
+
+de: \nPassagiere 1. Klasse: 
+es: \nViajeros 1.ª clase: 
+
+de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
+es: \nLos eventos de tren llegan en línea vía XTC ({0} trenes conectados)
+
+de:   (hält in 
+es:   (para en 
+
+de:   (noch ohne Ladegleis)
+es:   (todavía sin vía de carga)
+
+de:   keine Ladegleise – im Stationsdialog ein Gleis als Ladegleis wählen
+es:   sin vías de carga – elegir una vía como vía de carga en el diálogo de la estación
+
+de:   {0}: kommt von {1}
+es:   {0}: viene de {1}
+
+de:   {0}: noch kein Lieferant – nach dem Übernehmen in „Kreislauf prüfen“ ergänzen
+es:   {0}: todavía sin proveedor – completarlo tras aplicar en «Comprobar cadena»
+
+de:  (Art „Anderes“)
+es:  (tipo «Otro»)
+
+de:  (Güterbahnhof)
+es:  (estación de mercancías)
+
+de:  (Richtung {0})
+es:  (dirección {0})
+
+de:  (Schattenbahnhof, lagert um)
+es:  (estación oculta, transborda)
+
+de:  (abgegeben alle {0} Stunden: {1} auf einmal)
+es:  (entregado cada {0} horas: {1} de una vez)
+
+de:  (alle Güter)
+es:  (todas las mercancías)
+
+de:  (an keinem Bahnhof)
+es:  (en ninguna estación)
+
+de:  (hält)
+es:  (para)
+
+de:  (kein Ladegleis zum Entladen)
+es:  (sin vía de carga para descargar)
+
+de:  (nicht auf der Anlage)
+es:  (no está en la maqueta)
+
+de:  (nicht auf der Anlage, liefert an {0})
+es:  (no está en la maqueta, entrega a {0})
+
+de:  (ohne Bahnsteig)
+es:  (sin andén)
+
+de:  Abnehmer.\n
+es:  clientes.\n
+
+de:  Lieferanten.\n
+es:  proveedores.\n
+
+de:  Reisende sind
+es:  viajeros están
+
+de:  Reisender ist
+es:  viajero está
+
+de:  Richtung {0}
+es:  dirección {0}
+
+de:  Zeile mit ⚠. Bitte eine markieren, dann „Weiter“.
+es:  fila con ⚠. Marque una y luego «Siguiente».
+
+de:  Zeilen mit ⚠. Bitte eine markieren, dann „Weiter“.
+es:  filas con ⚠. Marque una y luego «Siguiente».
+
+de:  Zug
+es:  tren
+
+de:  Züge
+es:  trenes
+
+de:  benötigt
+es:  necesario
+
+de:  mit „{0}“
+es:  con «{0}»
+
+de:  · fährt ein
+es:  · entrando
+
+de:  – Bahnhof oder Haltepunkt anlegen
+es:  – crear estación o apeadero
+
+de:  – Benötigt: {0} · Liefert: {1}
+es:  – Necesita: {0} · Entrega: {1}
+
+de:  – abholen in 
+es:  – recoger en 
+
+de:  – kann geliefert werden von: {0}
+es:  – puede ser entregado por: {0}
+
+de:  – keine Güterwagen erkannt
+es:  – no se reconocieron vagones de mercancías
+
+de:  – mit „{0}“ verbinden
+es:  – conectar con «{0}»
+
+de:  – noch nirgends zur Abholung bereit
+es:  – todavía en ningún sitio listo para recoger
+
+de: (Spalte {0}, Symbol)
+es: (columna {0}, símbolo)
+
+de: (Vorgabe {0})
+es: (predeterminado {0})
+
+de: (Vorgabe {0}, Browser Logistik {1})
+es: (predeterminado {0}, Web Logística {1})
+
+de: (alle Eingänge – unten „Liefert immer“ angehakt)
+es: (todas las entradas – «Entrega siempre» marcado abajo)
+
+de: (erster Reiter, immer sichtbar)
+es: (primera pestaña, siempre visible)
+
+de: ,  2. Klasse: 
+es: ,  2.ª clase: 
+
+de: , Joker
+es: , comodín
+
+de: 0 Hinweise
+es: 0 avisos
+
+de: 0 Sekunden bedeutet keine Bewertung. Sonst: Modellsekunden, die ein voller Wagen zum Beladen bzw. Entladen braucht (begrenzt das Umladen zusätzlich zum Gleis).
+es: 0 segundos significa sin valoración. Si no: segundos de modelo que necesita un vagón lleno para cargar o descargar (limita el transbordo además de la vía).
+
+de: 1 Hinweis
+es: 1 aviso
+
+de: 1. Was wird transportiert?
+es: 1. ¿Qué se transporta?
+
+de: 2. Woher kommt es?
+es: 2. ¿De dónde viene?
+
+de: 3. Wer verbraucht es, wie viel?
+es: 3. ¿Quién lo consume, cuánto?
+
+de: 4. Transport zwischen den Bahnhöfen
+es: 4. Transporte entre las estaciones
+
+de: 5. Zusammenfassung
+es: 5. Resumen
+
+de: Abbruch
+es: Cancelar
+
+de: Abfahrt
+es: Salida
+
+de: Abgeglichen: {0} Loks, {1} Wagen, {2} Blöcke, {3} Züge, Uhr-Faktor {4} (so wie zuletzt in iTrain gespeichert) aus {5}{6}{7}
+es: Sincronizado: {0} locomotoras, {1} vagones, {2} bloques, {3} trenes, factor de reloj {4} (como se guardó por última vez en iTrain) desde {5}{6}{7}
+
+de: Abgehende Güter
+es: Mercancías salientes
+
+de: Abgenommen
+es: Retirado
+
+de: Abgeschaltete Dialoge
+es: Diálogos desactivados
+
+de: Abgleichen
+es: Sincronizar
+
+de: Ablauf gespeichert: {0} Vorgänge.
+es: Secuencia guardada: {0} operaciones.
+
+de: Ablauf konnte nicht gespeichert werden: {0}
+es: No se pudo guardar la secuencia: {0}
+
+de: Ablauf läuft: {0} Vorgänge über {1} s.
+es: Secuencia en curso: {0} operaciones en {1} s.
+
+de: Ablauf stoppen
+es: Detener secuencia
+
+de: Ablauf vollständig gestartet.
+es: Secuencia iniciada por completo.
+
+de: Abläufe
+es: Secuencias
+
+de: Abreisend
+es: Saliendo
+
+de: Abreisende
+es: Salientes
+
+de: Abreisende M/h
+es: Salientes M/h
+
+de: Abreisende Personen
+es: Personas que salen
+
+de: Abwärts
+es: Bajar
+
+de: Adresse:
+es: Dirección:
+
+de: Adresse: http://{0}:{1}/modul/{2}
+es: Dirección: http://{0}:{1}/modul/{2}
+
+de: Aktion
+es: Acción
+
+de: Aktiv
+es: Activo
+
+de: Aktuelle schließen
+es: Cerrar actual
+
+de: Alle Angaben dieses Wagens (Wagenart, Plätze, Kapazität, Güter, Zeiten) in die Zwischenablage
+es: Copiar todos los datos de este vagón (tipo, plazas, capacidad, mercancías, tiempos) al portapapeles
+
+de: Alle Bahnhöfe sind bereits vollständig angeheftet.
+es: Todas las estaciones ya están vinculadas por completo.
+
+de: Alle Bestände, Wartenden, Ladungen und den offenen Bedarf auf 0 setzen (die Anlage selbst bleibt)
+es: Poner a 0 todas las existencias, personas en espera, cargas y demanda abierta (la maqueta en sí se mantiene)
+
+de: Alle Bestände, wartenden Passagiere, offenen Bedarfe, Zugladungen und Statistiken werden auf 0 gesetzt. Objekte, Gleise und Einstellungen bleiben erhalten.
+es: Todas las existencias, viajeros en espera, demandas abiertas, cargas de trenes y estadísticas se ponen a 0. Objetos, vías y ajustes se conservan.
+
+de: Alle Betriebe haben Lieferanten und Abnehmer.
+es: Todas las empresas tienen proveedores y clientes.
+
+de: Alle Blöcke der .tcdz
+es: Todos los bloques del .tcdz
+
+de: Alle Blöcke sind Gleisen zugeordnet.
+es: Todos los bloques están asignados a vías.
+
+de: Alle Dateien
+es: Todos los archivos
+
+de: Alle Fenster zentrieren
+es: Centrar todas las ventanas
+
+de: Alle Spalten zeigen
+es: Mostrar todas las columnas
+
+de: Alle Züge
+es: Todos los trenes
+
+de: Alle anheften und fehlende Gleise ergänzen
+es: Vincular todas y completar vías que faltan
+
+de: Alle wieder anzeigen ({0})
+es: Volver a mostrar todos ({0})
+
+de: Alle Änderungen seit dem Öffnen bzw. dem letzten Speichern verwerfen?
+es: ¿Descartar todos los cambios desde la apertura o el último guardado?
+
+de: Alles auf 0 gesetzt.
+es: Todo puesto a 0.
+
+de: Alles auf 0 setzen
+es: Poner todo a 0
+
+de: Alles auf 0 setzen?
+es: ¿Poner todo a 0?
+
+de: Alles auswählen
+es: Seleccionar todo
+
+de: Alles vorhanden – nichts zu ergänzen.
+es: Todo presente – nada que completar.
+
+de: Als Gleis zuordnen
+es: Asignar como vía
+
+de: Als Vorschlag speichern
+es: Guardar como propuesta
+
+de: Als Vorschlag speichern…
+es: Guardar como propuesta…
+
+de: Als eigenes Fenster lösen
+es: Separar como ventana propia
+
+de: Am Bahnhof „{0}“ wird ein Lager gebraucht, damit {1} dort auf den Weitertransport warten kann.
+es: La estación «{0}» necesita un almacén para que {1} pueda esperar allí el transporte siguiente.
+
+de: An Bahnsteigen dieser Station steigen alle ankommenden Passagiere aus
+es: En los andenes de esta estación bajan todos los viajeros que llegan
+
+de: An diesem Gleis angenommen und verladen: {0}
+es: Aceptado y cargado en esta vía: {0}
+
+de: Anderes
+es: Otro
+
+de: Anderes – bitte Art wählen
+es: Otro – elija un tipo
+
+de: Andocken {0}
+es: Acoplar {0}
+
+de: Angaben aus der Zwischenablage übernehmen; erst „Speichern“ übernimmt sie in den Wagen
+es: Tomar los datos del portapapeles; solo «Guardar» los aplica al vagón
+
+de: Angaben kopieren
+es: Copiar datos
+
+de: Angebot
+es: Oferta
+
+de: Angebot M/h
+es: Oferta M/h
+
+de: Angebot wählen…
+es: Elegir oferta…
+
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+es: Las estaciones marcadas cuelgan de la pestaña en lugar de la infraestructura de la maqueta y aparecen con estación de mercancías, localidades, empresas y almacenes en su pestaña. También con clic derecho en una estación «Conectar con pestaña…». El nombre vale para símbolo y pestaña.
+
+de: Angehalten (Rate 0)
+es: Detenido (ritmo 0)
+
+de: Angehalten – {0} neue Zeile(n) warten
+es: En pausa – {0} fila(s) nueva(s) esperando
+
+de: Angeliefert
+es: Entregado
+
+de: Angenommene Post/Expressgut verlässt die Anlage. Erzeugt wird nur, wenn Zusteigen erlaubt ist.
+es: El correo/paquetería aceptado sale de la maqueta. Solo se genera si se permite subir.
+
+de: Anhalten
+es: Pausar
+
+de: Anhängen
+es: Añadir al final
+
+de: Ank. {0}
+es: Lleg. {0}
+
+de: Ankommend
+es: Llegando
+
+de: Ankommend in dieser Modellstunde: {0}
+es: Llegando en esta hora de modelo: {0}
+
+de: Ankommende
+es: Llegadas
+
+de: Ankommende Güter
+es: Mercancías entrantes
+
+de: Ankommende Passagiere in dieser Modellstunde
+es: Viajeros que llegan en esta hora de modelo
+
+de: Ankommende Personen
+es: Personas que llegan
+
+de: Ankommende Reisende M/h
+es: Viajeros que llegan M/h
+
+de: Ankommende bei {0} auf „Unbegrenzt“
+es: Llegadas en {0} a «Ilimitado»
+
+de: Anlage
+es: Maqueta
+
+de: Anlage bearbeiten
+es: Editar maqueta
+
+de: Anlage bearbeiten: Orte, Bahnhöfe, Betriebe, Lager anlegen und verbinden
+es: Editar maqueta: crear y conectar localidades, estaciones, empresas, almacenes
+
+de: Anlage prüfen
+es: Comprobar maqueta
+
+de: Anlage und Module im Browser zeigen (nur lesend, im Heimnetz)
+es: Mostrar maqueta y módulos en el navegador (solo lectura, red doméstica)
+
+de: Anlagen-Infrastruktur ({0})
+es: Infraestructura de la maqueta ({0})
+
+de: Anlegen
+es: Crear
+
+de: Anlegen:
+es: Crear:
+
+de: Annahme
+es: Recepción
+
+de: Annahme wählen…
+es: Elegir recepción…
+
+de: Anschließer
+es: Apartadero de cliente
+
+de: Anschluss
+es: Apartadero
+
+de: Ansichten
+es: Vistas
+
+de: Anteil 1. Klasse (%)
+es: Proporción 1.ª clase (%)
+
+de: Antriebsart
+es: Tracción
+
+de: Anzahl Blöcke: {0}
+es: Número de bloques: {0}
+
+de: Anzeige im Browser auf einem anderen Rechner, Handy oder Tablet
+es: Visualización en el navegador de otro ordenador, móvil o tableta
+
+de: Arial
+es: Arial
+
+de: Art
+es: Tipo
+
+de: Art einstellen!
+es: ¡Ajustar tipo!
+
+de: Art nur zwischen Stationsarten änderbar
+es: El tipo solo se puede cambiar entre tipos de estación
+
+de: Auch in „Browser Logistik“ beim Antippen eines Kastens (einmal)
+es: También en «Web Logística» al tocar un recuadro (una vez)
+
+de: Auf .tcdz zurücksetzen
+es: Restablecer desde .tcdz
+
+de: Auf 0 setzen
+es: Poner a 0
+
+de: Auf dem anderen Rechner, Handy oder Tablet diese Adresse im Browser öffnen. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben; beim ersten Start fragt Windows meist selbst nach. Module legst du in „Anlage bearbeiten“ an (Palette „Modul“).
+es: Abrir esta dirección en el navegador del otro ordenador, móvil o tableta. El cortafuegos de Windows de este ordenador debe permitir el puerto entrante; en el primer inicio Windows suele preguntarlo. Los módulos se crean en «Editar maqueta» (paleta «Módulo»).
+
+de: Auf der Anlage
+es: En la maqueta
+
+de: Auf der Anlage oder Name eines (neuen) Moduls
+es: En la maqueta o nombre de un módulo (nuevo)
+
+de: Aufgezeichneten Ablauf anzeigen, bearbeiten und abspielen
+es: Mostrar, editar y reproducir la secuencia grabada
+
+de: Aufwärts
+es: Subir
+
+de: Aufzeichnen
+es: Grabar
+
+de: Aufzeichnen (0)
+es: Grabar (0)
+
+de: Aufzeichnen ({0})
+es: Grabar ({0})
+
+de: Aufzeichnung beendet – nichts aufgezeichnet.
+es: Grabación terminada – nada grabado.
+
+de: Aufzeichnung gespeichert: {0} Vorgänge ({1}).
+es: Grabación guardada: {0} operaciones ({1}).
+
+de: Aufzeichnung konnte nicht gespeichert werden: {0}
+es: No se pudo guardar la grabación: {0}
+
+de: Aufzeichnung läuft – jeder Drag&Drop wird mit seinem Zeitpunkt gespeichert.
+es: Grabando – cada arrastrar y soltar se guarda con su momento.
+
+de: Aus
+es: Desactivado
+
+de: Aus Lager: {0} ({1} vorrätig)
+es: Del almacén: {0} ({1} en existencia)
+
+de: Aus der iTrain-Datei „{0}“: Maßstab 1:{1}{2}{3}{4}. Der Maßstab ist eingetragen. Eine Epoche steht nicht in der iTrain-Datei.
+es: Del archivo iTrain «{0}»: escala 1:{1}{2}{3}{4}. La escala se ha introducido. La época no figura en el archivo iTrain.
+
+de: Ausführungen M/h
+es: Ejecuciones M/h
+
+de: Ausfüllen
+es: Rellenar
+
+de: Ausgang
+es: Salida
+
+de: Ausgangsbestände
+es: Existencias de salida
+
+de: Ausgangslager voll: {0}
+es: Almacén de salida lleno: {0}
+
+de: Ausgangslager {0}
+es: Almacén de salida {0}
+
+de: Ausgeglichen
+es: Equilibrado
+
+de: Ausgehend
+es: Saliente
+
+de: Ausgestiegen
+es: Bajados
+
+de: Ausgewählte Blöcke an
+es: Bloques elegidos a
+
+de: Ausgewähltes Gut aus dem Zug entladen…
+es: Descargar la mercancía elegida del tren…
+
+de: Ausgewähltes Gut in den haltenden Zug laden…
+es: Cargar la mercancía elegida en el tren detenido…
+
+de: Ausgleich über Übergabe
+es: Compensación mediante intercambio
+
+de: Auslastung
+es: Ocupación
+
+de: Auslastung = Füllstand der Ausgangslager. Rate/h = Ausführungen des Rezepts je Modellstunde.
+es: Ocupación = nivel de los almacenes de salida. Ritmo/h = ejecuciones de la receta por hora de modelo.
+
+de: Ausrichtung
+es: Alineación
+
+de: Ausstattung
+es: Equipamiento
+
+de: Aussteigeanteil ankommender\nPassagiere (%)
+es: Proporción de viajeros\nque llegan y bajan (%)
+
+de: Aussteigen erlaubt
+es: Bajar permitido
+
+de: Aussteigende Passagiere
+es: Viajeros que bajan
+
+de: Aussteigende Passagiere ·
+es: Viajeros que bajan ·
+
+de: Auswahl
+es: Selección
+
+de: Auswahl öffnen
+es: Abrir selección
+
+de: Auswahl:
+es: Selección:
+
+de: Automatisch (liefert immer, ohne auf der Anlage zu sein){0}
+es: Automático (entrega siempre, sin estar en la maqueta){0}
+
+de: Automatisch (wird von außerhalb geliefert){0}
+es: Automático (se entrega desde fuera){0}
+
+de: Automatisch ({0}, nicht auf der Anlage)
+es: Automático ({0}, no está en la maqueta)
+
+de: Automatisch geladen: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+es: Cargado automáticamente: {0}  ({1} locomotoras, {2} vagones, {3} bloques, {4} trenes)
+
+de: Außenwelt: Güter, die hier bereitstehen
+es: Mundo exterior: mercancías listas aquí
+
+de: Außenwelt: Personen an diesem Bahnsteig
+es: Mundo exterior: personas en este andén
+
+de: Außenwelt: stellt Personen und Güter bereit und nimmt alles ab
+es: Mundo exterior: aporta personas y mercancías y lo recibe todo
+
+de: Backup geladen: {0}
+es: Copia de seguridad cargada: {0}
+
+de: Backup konnte nicht geladen werden
+es: No se pudo cargar la copia de seguridad
+
+de: Backup laden
+es: Cargar copia de seguridad
+
+de: Backup laden...
+es: Cargar copia de seguridad...
+
+de: Bahnhof
+es: Estación
+
+de: Bahnhof in iTrain
+es: Estación en iTrain
+
+de: Bahnhof „{0}“ an die Anlagen-Infrastruktur angeheftet.
+es: Estación «{0}» vinculada a la infraestructura de la maqueta.
+
+de: Bahnhof:
+es: Estación:
+
+de: Bahnhöfe
+es: Estaciones
+
+de: Bahnhöfe ({0})
+es: Estaciones ({0})
+
+de: Bahnhöfe und Gleise
+es: Estaciones y vías
+
+de: Bahnhöfe, die an diesem Tab hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+es: Estaciones que cuelgan de esta pestaña (con sus estaciones de mercancías, localidades, empresas, almacenes)
+
+de: Bahnhöfe: {0}
+es: Estaciones: {0}
+
+de: Bahnsteig
+es: Andén
+
+de: Bahnsteig und Ladegleis
+es: Andén y vía de carga
+
+de: Bahnsteig und Ladegleis (beides an diesem Gleis)
+es: Andén y vía de carga (ambos en esta vía)
+
+de: Bahnsteige und Ladegleise: Es entstehen ein {0} und ein angedockter Güterbahnhof.
+es: Andenes y vías de carga: se crean una {0} y una estación de mercancías acoplada.
+
+de: Batterie
+es: Batería
+
+de: Bauernhof
+es: Granja
+
+de: Baumwollplantage
+es: Plantación de algodón
+
+de: Bearbeiten
+es: Editar
+
+de: Bearbeiten…
+es: Editar…
+
+de: Bedarf
+es: Demanda
+
+de: Bedarf = was je Modellstunde bewegt werden muss: das Größere aus Erzeugung und Verbrauch eines Guts, bei Passagieren das Aufkommen aller Orte. Kapazität = Summe der Wagen aller Züge (Felder Kapazität, Wagenladungen, aktive Güter bzw. Sitz- und Stehplätze). Ein Gut zählt nur bei Wagen, die es laden dürfen; Behälterwagen (Lade-Joker) zählen überall. Güter, die ohne Zug im selben Einzugsbereich verbraucht werden, sind hier noch mitgezählt.
+es: Demanda = lo que hay que mover por hora de modelo: el mayor entre producción y consumo de una mercancía, para viajeros el volumen de todas las localidades. Capacidad = suma de los vagones de todos los trenes (campos capacidad, cargas por vagón, mercancías activas o plazas sentadas y de pie). Una mercancía solo cuenta en vagones que puedan cargarla; los vagones de contenedores (comodín) cuentan en todas partes. Las mercancías consumidas sin tren en la misma zona de servicio todavía se cuentan aquí.
+
+de: Bedarf M/h
+es: Demanda M/h
+
+de: Bedarf bei {0}
+es: Demanda en {0}
+
+de: Bedarf bei „{0}“: {1} je Modellstunde
+es: Demanda en «{0}»: {1} por hora de modelo
+
+de: Bedarf eintragen bei: {0}{1}
+es: Introducir demanda en: {0}{1}
+
+de: Bedarf je Modellstunde
+es: Demanda por hora de modelo
+
+de: Bedarf muss eingestellt werden – das geht im Schritt 3.
+es: Hay que ajustar la demanda – se hace en el paso 3.
+
+de: Bedienung des Ladegleises (Richtung kommt über XTC):
+es: Servicio de la vía de carga (la dirección llega vía XTC):
+
+de: Befördert Güter
+es: Transporta mercancías
+
+de: Befördert Personen
+es: Transporta personas
+
+de: Behälter
+es: Contenedor
+
+de: Behälterwagen sind Lade-Joker: Sie laden jedes Gut, unabhängig von Ladeklasse und aktiven Gütern, bis zur Kapazität; die Mischregel gilt nicht (jedes Gut in eigenen Behältern).
+es: Los vagones de contenedores son comodines de carga: cargan cualquier mercancía, sin importar clase de carga ni mercancías activas, hasta la capacidad; la regla de mezcla no se aplica (cada mercancía en sus propios contenedores).
+
+de: Beim Klick auf ein Symbol
+es: Al hacer clic en un símbolo
+
+de: Beispiel
+es: Ejemplo
+
+de: Bekohlung
+es: Carboneo
+
+de: Belegung
+es: Ocupación
+
+de: Benötigt / frei
+es: Necesario / libre
+
+de: Benötigt von: {0}
+es: Lo necesita: {0}
+
+de: Benötigt: {0}
+es: Necesita: {0}
+
+de: Bereitgestellt
+es: Preparado
+
+de: Beschreibung
+es: Descripción
+
+de: Beschreibung: {0}
+es: Descripción: {0}
+
+de: Bestand {0}
+es: Existencia {0}
+
+de: Bestände
+es: Existencias
+
+de: Bestände  {0}/{1}
+es: Existencias  {0}/{1}
+
+de: Bestände, Wartende, offenen Bedarf und Statistik dieses Objekts auf 0 setzen
+es: Poner a 0 existencias, personas en espera, demanda abierta y estadística de este objeto
+
+de: Betrieb
+es: Empresa
+
+de: Betrieb anlegen
+es: Crear empresa
+
+de: Betrieb bearbeiten
+es: Editar empresa
+
+de: Betrieb mit Rezepten (Produktion, Wandlung)
+es: Empresa con recetas (producción, transformación)
+
+de: Betriebe, die Ware liefern – wo wird es gebraucht
+es: Empresas que entregan mercancías – dónde se necesitan
+
+de: Betriebswerk
+es: Depósito
+
+de: Bevölkerung
+es: Población
+
+de: Bilanz
+es: Balance
+
+de: Bild nicht gefunden (Anfangsordner für Layout-Dateien prüfen).
+es: Imagen no encontrada (comprobar la carpeta inicial de archivos de maqueta).
+
+de: Bitte Reisende oder ein Gut wählen.
+es: Elija viajeros o una mercancía.
+
+de: Bitte die Adresse des iTrain-Computers eingeben.
+es: Introduzca la dirección del ordenador de iTrain.
+
+de: Bitte mindestens ein Streckengleis wählen.
+es: Elija al menos una vía de trayecto.
+
+de: Bitte wählen, wer es verbraucht.
+es: Elija quién lo consume.
+
+de: Bitte wählen, woher es kommt.
+es: Elija de dónde viene.
+
+de: Bitte zuerst eine Konfiguration öffnen.
+es: Abra primero una configuración.
+
+de: Bitte zuerst im Fenster „Anlage bearbeiten“ ein Symbol anklicken.
+es: Haga clic primero en un símbolo en la ventana «Editar maqueta».
+
+de: Bitte zuerst über "Datei > Öffnen..." eine .logz-Datei laden oder über "Datei > Neu aus .tcdz importieren..." neu anlegen.
+es: Cargue primero un archivo .logz con "Archivo > Abrir..." o cree uno con "Archivo > Nueva configuración...".
+
+de: Bitte „Transport von“ und „Transport nach“ wählen.
+es: Elija «Transporte desde» y «Transporte hasta».
+
+de: Blau
+es: Azul
+
+de: Blech
+es: Chapa
+
+de: Block
+es: Bloque
+
+de: Block links auswählen.
+es: Elija un bloque a la izquierda.
+
+de: Block: 
+es: Bloque: 
+
+de: Blöcke
+es: Bloques
+
+de: Blöcke (linke Hälfte = Einfahrt von links, rechte Hälfte = von rechts)
+es: Bloques (mitad izquierda = entrada por la izquierda, mitad derecha = por la derecha)
+
+de: Blöcke, die einem Gleis einer Station zugeordnet sind
+es: Bloques asignados a una vía de una estación
+
+de: Blöcke, die keinem Gleis einer Station zugeordnet sind
+es: Bloques no asignados a ninguna vía de una estación
+
+de: Blöcke: {0}
+es: Bloques: {0}
+
+de: Brammen
+es: Desbastes
+
+de: Brauerei
+es: Cervecería
+
+de: Bretter
+es: Tablones
+
+de: Browser Logistik
+es: Web Logística
+
+de: Browser Logistik eingeschaltet
+es: Web Logística activado
+
+de: Browser Logistik ist ausgeschaltet
+es: Web Logística está desactivado
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Logistik: anderen Port wählen.
+es: Web Logística no pudo abrir el puerto {0} ({1}). Ajustes → Web Logística: elegir otro puerto.
+
+de: Browser Logistik läuft: {0}
+es: Web Logística en marcha: {0}
+
+de: Browser Logistik...
+es: Web Logística...
+
+de: Browser Logistik: Anlage und Module im Browser (anderer Rechner, Handy, Tablet) öffnen; Einstellungen mit Port und QR-Code
+es: Web Logística: abrir maqueta y módulos en el navegador (otro ordenador, móvil, tableta); ajustes con puerto y código QR
+
+de: Browser Zuganzeiger
+es: Web Salidas
+
+de: Browser Zuganzeiger eingeschaltet
+es: Web Salidas activado
+
+de: Browser Zuganzeiger ist ausgeschaltet
+es: Web Salidas está desactivado
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Einstellungen → Browser Zuganzeiger: anderen Port wählen.
+es: Web Salidas no pudo abrir el puerto {0} ({1}). Ajustes → Web Salidas: elegir otro puerto.
+
+de: Browser Zuganzeiger läuft: {0}
+es: Web Salidas en marcha: {0}
+
+de: Browser Zuganzeiger...
+es: Web Salidas...
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser öffnen, auch je Bahnhof; Einstellungen mit Port und QR-Code
+es: Web Salidas: abrir paneles de salidas en el navegador, también por estación; ajustes con puerto y código QR
+
+de: Browser konnte nicht geöffnet werden: {0}
+es: No se pudo abrir el navegador: {0}
+
+de: Browser: /modul/{0}
+es: Navegador: /modul/{0}
+
+de: Browser: aus
+es: Navegador: desactivado
+
+de: Bücher
+es: Libros
+
+de: Chemiefabrik
+es: Fábrica química
+
+de: Chemikalien
+es: Productos químicos
+
+de: Coils
+es: Bobinas
+
+de: Dampf
+es: Vapor
+
+de: Das Ladegleis steht im angedockten Güterbahnhof, der Bahnsteig im Schattenbahnhof – derselbe iTrain-Block.
+es: La vía de carga está en la estación de mercancías acoplada, el andén en la estación oculta – el mismo bloque de iTrain.
+
+de: Datei
+es: Archivo
+
+de: Datei geschlossen.
+es: Archivo cerrado.
+
+de: Datei konnte nicht geöffnet werden
+es: No se pudo abrir el archivo
+
+de: Datei öffnen
+es: Abrir archivo
+
+de: Dateien
+es: Archivos
+
+de: Der Ablauf ist leer.
+es: La secuencia está vacía.
+
+de: Der Betrieb sammelt, was er herstellt, und gibt es alle so viele Modellstunden auf einmal ab – z. B. 5 Gebinde Fisch alle 6 Stunden. Ein Lager gibt es danach Stück für Stück weiter.
+es: La empresa acumula lo que produce y lo entrega de una vez cada tantas horas de modelo – p. ej. 5 cajas de pescado cada 6 horas. Un almacén lo pasa luego pieza a pieza.
+
+de: Der Betrieb wird nicht gerechnet; seine Ausgangsgüter stehen allen Verbrauchern unbegrenzt zur Verfügung, ohne Zug.
+es: La empresa no se calcula; sus mercancías de salida están a disposición de todos los consumidores sin límite, sin tren.
+
+de: Der Block "{0}" ist schon einem anderen {1} zugeordnet. Ein Block kann höchstens ein Bahnsteig und ein Ladegleis sein.
+es: El bloque "{0}" ya está asignado a otra {1}. Un bloque puede ser como máximo un andén y una vía de carga.
+
+de: Der Dateiname beginnt mit dem Namen des Symbols, z. B. „Möbelfabrik - Holz sägen.mp3“ oder „Möbelfabrik 2.mp3“. Gesucht wird nach dem Namen des Objekts, dann nach dem Betriebstyp (Sägewerk …) und der Art (Stadt, Bahnhof …); bei mehreren Dateien zufällig. Formate mp3, wav, m4a, aiff. Mitgeliefert sind nur gemeinfreie Aufnahmen (CC0).
+es: El nombre de archivo empieza con el nombre del símbolo, p. ej. «Möbelfabrik - Holz sägen.mp3» o «Möbelfabrik 2.mp3». Se busca por el nombre del objeto, luego por el tipo de empresa (aserradero …) y el tipo (ciudad, estación …); con varios archivos, al azar. Formatos mp3, wav, m4a, aiff. Solo se incluyen grabaciones de dominio público (CC0).
+
+de: Der Verbraucher hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden.
+es: El consumidor no está en ninguna estación con {0} – conéctelo primero con una estación.
+
+de: Der erste Gütertransport {0}zu {1} wurde erfolgreich absolviert.
+es: El primer transporte de mercancías {0}a {1} se realizó con éxito.
+
+de: Der erste Transfer {0}zu {1} wurde erfolgreich absolviert.
+es: El primer transbordo {0}a {1} se realizó con éxito.
+
+de: Deutsch
+es: Deutsch
+
+de: Dialog nicht mehr anzeigen
+es: No volver a mostrar este diálogo
+
+de: Die Anlage wurde geändert.
+es: La maqueta ha cambiado.
+
+de: Die Erzeugung schwankt je Modellstunde zwischen 50 % und 150 % der Rate (im Mittel gleich). Überschuss wird am Gleis bzw. im Lager gehalten und nach Bedarf weitergegeben.
+es: La producción varía por hora de modelo entre el 50 % y el 150 % del ritmo (igual de media). El excedente se queda en la vía o en el almacén y se reparte según necesidad.
+
+de: Die Fahrzeugdatei dieser Konfiguration wurde nicht gefunden:\n{0}\n\nLokomotiven, Wagen und Züge kommen jetzt ohne eigene Angaben aus der iTrain-Datei. Mit Datei > „Fahrzeuge importieren...“ lassen sich die Angaben aus einer anderen Fahrzeugdatei holen.
+es: No se encontró el archivo de vehículos de esta configuración:\n{0}\n\nLocomotoras, vagones y trenes vienen ahora del archivo iTrain sin datos propios. Con Archivo > «Importar vehículos...» se obtienen los datos de otro archivo de vehículos.
+
+de: Die Herkunft hängt an keinem Bahnhof mit {0} – bitte zuerst mit einem Bahnhof verbinden („Mit Station verbinden…“).
+es: El origen no está en ninguna estación con {0} – conéctelo primero con una estación («Conectar con estación…»).
+
+de: Die Liste bleibt stehen, damit man in Ruhe lesen und markieren kann. Die Ereignisse werden trotzdem verarbeitet und bei „Weiter“ nachgetragen.
+es: La lista se queda quieta para poder leer y marcar con calma. Los eventos se siguen procesando y se añaden con «Continuar».
+
+de: Die eingetragenen Personen- und Gütermengen als eigenen Vorschlag speichern.
+es: Guardar las cantidades de personas y mercancías introducidas como propuesta propia.
+
+de: Die gewählte Objektart zeigt auf der Anlage künftig das markierte Symbol.
+es: El tipo de objeto elegido mostrará en la maqueta el símbolo marcado.
+
+de: Die gewählte Objektart zeigt wieder ihr eigenes Symbol.
+es: El tipo de objeto elegido vuelve a mostrar su propio símbolo.
+
+de: Diese Zeile ist in Ordnung (✓). Bitte eine Zeile mit ⚠ markieren.
+es: Esta fila está en orden (✓). Marque una fila con ⚠.
+
+de: Diesel
+es: Diésel
+
+de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
+es: Este objeto está en pausa – un clic lo pone en marcha de nuevo
+
+de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+es: Este símbolo cuelga de la infraestructura de la maqueta en la primera pestaña
+
+de: Dorf
+es: Pueblo
+
+de: Drag&Drop-Vorgänge mit ihrem Zeitpunkt aufzeichnen; erneuter Klick beendet und speichert
+es: Grabar operaciones de arrastrar y soltar con su momento; otro clic termina y guarda
+
+de: Druckerei
+es: Imprenta
+
+de: Dynamisch: mal mehr, mal weniger herstellen
+es: Dinámico: producir a veces más, a veces menos
+
+de: Dünger
+es: Fertilizante
+
+de: Eigene Datei {0}
+es: Archivo propio {0}
+
+de: Eigene Datenfelder
+es: Campos de datos propios
+
+de: Eigene Farbfläche
+es: Superficie de color propia
+
+de: Eigenen Vorschlag löschen
+es: Borrar propuesta propia
+
+de: Eigener Betrieb (ohne Vorlage)
+es: Empresa propia (sin plantilla)
+
+de: Eigener Betrieb: Eingänge und Ausgänge stellst Du danach selbst ein.
+es: Empresa propia: después ajusta usted mismo entradas y salidas.
+
+de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+es: Puerto propio, separado del Web Logística. Velocidad, zoom y «Proponer trenes adecuados» los ajusta cada dispositivo abajo en el panel (lo recuerda el navegador), «Pantalla completa» para una tableta como panel. El cortafuegos de Windows de este ordenador debe permitir el puerto entrante.
+
+de: Eigener Reiter mit den angehängten Bahnhöfen
+es: Pestaña propia con las estaciones vinculadas
+
+de: Ein Modul
+es: Un módulo
+
+de: Ein Tab
+es: Una pestaña
+
+de: Eine Verbindung verbindet eine Station mit einem Ort, Betrieb, Lager oder einer Übergabe (Einzugsbereich). Zwei Stationen lassen sich nicht verbinden.
+es: Una conexión une una estación con una localidad, empresa, almacén o intercambio (zona de servicio). No se pueden conectar dos estaciones.
+
+de: Einfahrt
+es: Entrada
+
+de: Einfahrt von
+es: Entrada desde
+
+de: Einfügen
+es: Pegar
+
+de: Einfügen geht im Fenster „Anlage bearbeiten“.
+es: Pegar funciona en la ventana «Editar maqueta».
+
+de: Eingang
+es: Entrada
+
+de: Eingangsbestände
+es: Existencias de entrada
+
+de: Eingangsgüter, die von außerhalb geliefert werden
+es: Mercancías de entrada que se entregan desde fuera
+
+de: Eingangslager {0}
+es: Almacén de entrada {0}
+
+de: Eingebautes Symbol
+es: Símbolo integrado
+
+de: Eingehend
+es: Entrante
+
+de: Eingelagert {0}/{1}
+es: Almacenado {0}/{1}
+
+de: Eingestiegen
+es: Subidos
+
+de: Eingestiegen Richtung 
+es: Subidos dirección 
+
+de: Eingänge der Betriebe – woher sie kommen
+es: Entradas de las empresas – de dónde vienen
+
+de: Einheit
+es: Unidad
+
+de: Einheiten
+es: Unidades
+
+de: Einlagern in: {0}{1}
+es: Almacenar en: {0}{1}
+
+de: Einmal beim Öffnen
+es: Una vez al abrir
+
+de: Einpassen
+es: Ajustar
+
+de: Einrichtung
+es: Configuración
+
+de: Einsteigende Passagiere
+es: Viajeros que suben
+
+de: Einsteigende Passagiere ·
+es: Viajeros que suben ·
+
+de: Einstellungen
+es: Ajustes
+
+de: Einstellungen, Adressen und QR-Code…
+es: Ajustes, direcciones y código QR…
+
+de: Einwohner
+es: Habitantes
+
+de: Einwohner {0}  ·  Abreisende {1} M/h  ·  Ankommende {2}  ·  1. Klasse {3} %
+es: Habitantes {0}  ·  salientes {1} M/h  ·  llegadas {2}  ·  1.ª clase {3} %
+
+de: Einzelne Kapazitäten mit Einheit zeigen
+es: Mostrar capacidades individuales con unidad
+
+de: Einzugsbereich
+es: Zona de servicio
+
+de: Einzugsbereich (Orte, Betriebe, Lager, Übergaben, die diese Station bedient)
+es: Zona de servicio (localidades, empresas, almacenes, intercambios a los que sirve esta estación)
+
+de: Eisenerz
+es: Mineral de hierro
+
+de: Eisenerzbergwerk
+es: Mina de hierro
+
+de: Elektrisch
+es: Eléctrico
+
+de: Empfangen
+es: Recibido
+
+de: Endprodukt
+es: Producto final
+
+de: English
+es: English
+
+de: Entfernen
+es: Quitar
+
+de: Entladen
+es: Descargar
+
+de: Entladen aller Güter erzwingen (auch ohne Abnehmer)
+es: Forzar la descarga de todas las mercancías (también sin cliente)
+
+de: Entladen erlaubt
+es: Descarga permitida
+
+de: Entladen in
+es: Descargar en
+
+de: Entspricht der Zusammenstellung in der .tcdz.
+es: Coincide con la composición del .tcdz.
+
+de: Epoche {0}
+es: Época {0}
+
+de: Ereignis
+es: Evento
+
+de: Ereignisse
+es: Eventos
+
+de: Ergebnis der Prüfung
+es: Resultado de la comprobación
+
+de: Erzeugt Stück M/h
+es: Genera piezas M/h
+
+de: Erzeugt wird hier vom angeschlossenen Ort (Reisende aus Stadt/Dorf/Ländlich).
+es: Aquí genera la localidad conectada (viajeros de ciudad/pueblo/rural).
+
+de: Erzeugung und Bereitstellung: links langsamer (×0,75 … ×0,1), Mitte ×1, rechts schneller (×1,5 … ×4). Angehalten wird mit dem Knopf Pause.
+es: Producción y disponibilidad: a la izquierda más lento (×0,75 … ×0,1), en el centro ×1, a la derecha más rápido (×1,5 … ×4). Se detiene con el botón Pausa.
+
+de: Es fehlen 
+es: Faltan 
+
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+es: Todavía no hay {0}. Créelo primero desde la paleta «{1}» en la primera pestaña; cuelga de la infraestructura de la maqueta.
+
+de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
+es: Todavía no hay estación, apeadero, estación de mercancías ni apartadero.
+
+de: Es gibt schon eine Aufzeichnung. Soll sie durch die neue ersetzt werden?
+es: Ya existe una grabación. ¿Sustituirla por la nueva?
+
+de: Es gibt ungespeicherte Änderungen. Vor dem Beenden speichern?
+es: Hay cambios sin guardar. ¿Guardar antes de salir?
+
+de: Es ist keine Datei geöffnet. Der Simulator arbeitet immer mit der Datei, die in iTrain-Logistik geöffnet ist. Bitte zuerst eine Datei öffnen; danach öffnet sich der Simulator von selbst.
+es: No hay ningún archivo abierto. El simulador trabaja siempre con el archivo abierto en iTrain-Logistik. Abra primero un archivo; después el simulador se abre solo.
+
+de: Expressgut
+es: Paquetería
+
+de: Expressgut empfangen
+es: Paquetería recibida
+
+de: Fabrik
+es: Fábrica
+
+de: Fahrtrichtungen
+es: Sentidos de marcha
+
+de: Fahrzeugdaten (*.fahrzeuge.xml)
+es: Datos de vehículos (*.fahrzeuge.xml)
+
+de: Fahrzeugdaten fehlen
+es: Faltan datos de vehículos
+
+de: Fahrzeuge
+es: Vehículos
+
+de: Fahrzeuge exportieren
+es: Exportar vehículos
+
+de: Fahrzeuge exportieren...
+es: Exportar vehículos...
+
+de: Fahrzeuge exportiert: {0}
+es: Vehículos exportados: {0}
+
+de: Fahrzeuge importieren
+es: Importar vehículos
+
+de: Fahrzeuge importieren...
+es: Importar vehículos...
+
+de: Fahrzeuge importiert aus {0}: {1} Lokomotiven/Wagen/Züge mit gleichem Namen übernommen, gespeichert in {2}.
+es: Vehículos importados de {0}: {1} locomotoras/vagones/trenes con el mismo nombre adoptados, guardados en {2}.
+
+de: Fahrzeuge konnten nicht exportiert werden
+es: No se pudieron exportar los vehículos
+
+de: Fahrzeuge konnten nicht importiert werden
+es: No se pudieron importar los vehículos
+
+de: Fahrzeuge übernehmen?
+es: ¿Adoptar vehículos?
+
+de: Fahrzeugfabrik
+es: Fábrica de vehículos
+
+de: Faktor der Modelluhr
+es: Factor del reloj de modelo
+
+de: Faktor für die Lagergrößen
+es: Factor para tamaños de almacén
+
+de: Faktor für die Lagergrößen beim Anlegen eines Betriebs.\nBeispiel 0,1: Das Sägewerk-Eingangslager hat 40 statt 400 Einheiten.\nGilt für neu angelegte Betriebe.
+es: Factor para los tamaños de almacén al crear una empresa.\nEjemplo 0,1: el almacén de entrada del aserradero tiene 40 en vez de 400 unidades.\nVale para empresas creadas a partir de ahora.
+
+de: Farbe
+es: Color
+
+de: Farbe des Symbols und der Verbindung
+es: Color del símbolo y de la conexión
+
+de: Farbe für "{0}"
+es: Color para "{0}"
+
+de: Farbe:
+es: Color:
+
+de: Farben: Rechtsklick auf ein Symbol, „Farbe…“
+es: Colores: clic derecho en un símbolo, «Color…»
+
+de: Farbe…
+es: Color…
+
+de: Farbstoffe
+es: Colorantes
+
+de: Fehler beim Laden von translations.properties: {0}
+es: Error al cargar translations.properties: {0}
+
+de: Feld
+es: Campo
+
+de: Fester Mittelpunkt, an dem alle Stationen hängen
+es: Centro fijo del que cuelgan todas las estaciones
+
+de: Fett
+es: Negrita
+
+de: Fisch
+es: Pescado
+
+de: Fischzucht
+es: Piscifactoría
+
+de: Flachwagen, Drehgestell (Regelbauart)
+es: Vagón plataforma, bogies (estándar)
+
+de: Flachwagen, Drehgestell (Sonderbauart)
+es: Vagón plataforma, bogies (especial)
+
+de: Flachwagen, Einzelachsen (Regelbauart)
+es: Vagón plataforma, ejes sueltos (estándar)
+
+de: Flachwagen, Einzelachsen (Sonderbauart)
+es: Vagón plataforma, ejes sueltos (especial)
+
+de: Fleisch
+es: Carne
+
+de: Flüssig
+es: Líquido
+
+de: Flüssiggut
+es: Granel líquido
+
+de: Flüssigkeiten
+es: Líquidos
+
+de: Flüssiglager
+es: Almacén de líquidos
+
+de: Formatierung
+es: Formato
+
+de: Formatierung…
+es: Formato…
+
+de: Funktionen
+es: Funciones
+
+de: Führend
+es: Delantero
+
+de: Füllung
+es: Relleno
+
+de: Für diese Datei liegt noch keine Sicherung vor.
+es: Todavía no hay copia de seguridad de este archivo.
+
+de: Für {0} ist noch kein Bedarf eingestellt.
+es: Todavía no hay demanda ajustada para {0}.
+
+de: Für {0} wird zusätzlich gebraucht bzw. bleibt übrig.\n▼ Eingang ohne Lieferanten · ▲ Ausgang ohne Abnehmer. Unter einem neuen Betrieb stehen dessen eigene offene Enden.\n„Wird von außerhalb geliefert“: das Gut steht dem Betrieb unbegrenzt zur Verfügung, ohne Zug. Mengen werden nach dem Übernehmen automatisch abgeglichen.
+es: Para {0} se necesita además o sobra.\n▼ entrada sin proveedor · ▲ salida sin cliente. Bajo una empresa nueva aparecen sus propios cabos sueltos.\n«Se entrega desde fuera»: la mercancía está a disposición de la empresa sin límite, sin tren. Las cantidades se ajustan automáticamente al aplicar.
+
+de: Ganze Anlage
+es: Maqueta completa
+
+de: Ganze Anlage in den sichtbaren Bereich zoomen
+es: Ajustar toda la maqueta al área visible
+
+de: Gebinde
+es: Cajas
+
+de: Gedeckter Wagen (Regelbauart)
+es: Vagón cubierto (estándar)
+
+de: Gedeckter Wagen (Sonderbauart)
+es: Vagón cubierto (especial)
+
+de: Geeignete Züge vorschlagen
+es: Proponer trenes adecuados
+
+de: Gegenstück
+es: Contrapartida
+
+de: Gegenstück (bringt)
+es: Contrapartida (trae)
+
+de: Gegenstück (nimmt auf)
+es: Contrapartida (recibe)
+
+de: Gegenstück fehlt: Ein anderer Bahnhof oder der Schattenbahnhof muss ebenfalls einen Bahnsteig „Mit Koffer“ haben, sonst können Kofferreisende nirgends aussteigen.
+es: Falta contrapartida: otra estación o la estación oculta también debe tener un andén «Con maleta», si no los viajeros con maleta no pueden bajar en ningún sitio.
+
+de: Geht an
+es: Va a
+
+de: Gekoppelte Datei nicht gefunden: {0}
+es: Archivo vinculado no encontrado: {0}
+
+de: Geladen
+es: Cargado
+
+de: Geladen Richtung 
+es: Cargado dirección 
+
+de: Gelb
+es: Amarillo
+
+de: Geliefert
+es: Entregado
+
+de: Geliefert von
+es: Entregado por
+
+de: Gemischt
+es: Mixto
+
+de: Gemüse
+es: Verduras
+
+de: Gepäckwagen
+es: Furgón de equipajes
+
+de: Geräusch nicht abspielbar: {0} – {1}
+es: No se puede reproducir el sonido: {0} – {1}
+
+de: Geräusche
+es: Sonidos
+
+de: Geräusche nicht ausgepackt: {0}
+es: Sonidos no extraídos: {0}
+
+de: Gesamt (Güterübersicht)
+es: Total (resumen de mercancías)
+
+de: Gesamten Güter- und Personenaustausch anhalten
+es: Pausar todo el intercambio de mercancías y viajeros
+
+de: Gesamten Güter- und Personenaustausch starten
+es: Iniciar todo el intercambio de mercancías y viajeros
+
+de: Geschlossen
+es: Cerrado
+
+de: Gespeichert: {0}
+es: Guardado: {0}
+
+de: Getreide
+es: Cereales
+
+de: Getränke
+es: Bebidas
+
+de: Gewerbe
+es: Comercio
+
+de: Gewicht und Volumen sind nur zur Information und werden beim Laden nicht bewertet.
+es: El peso y el volumen son solo informativos y no se valoran al cargar.
+
+de: Geöffnet: {0}  ({1} Loks, {2} Wagen, {3} Blöcke, {4} Züge)
+es: Abierto: {0}  ({1} locomotoras, {2} vagones, {3} bloques, {4} trenes)
+
+de: Glas
+es: Vidrio
+
+de: Glashütte
+es: Vidriera
+
+de: Gleis
+es: Vía
+
+de: Gleis bearbeiten
+es: Editar vía
+
+de: Gleis hinzufügen…
+es: Añadir vía…
+
+de: Gleis:
+es: Vía:
+
+de: Gleis: {0} – {1} ({2})
+es: Vía: {0} – {1} ({2})
+
+de: Gleisanschluss eines Betriebs, Bahnsteige und Ladegleise
+es: Apartadero de una empresa, andenes y vías de carga
+
+de: Gleisart
+es: Tipo de vía
+
+de: Gleise
+es: Vías
+
+de: Gleise (je Gleis genau ein iTrain-Block)
+es: Vías (cada vía exactamente un bloque de iTrain)
+
+de: Gleise der Art Ladegleis (Güter) kommen beim Speichern in den Güterbahnhof {0}.
+es: Las vías de tipo vía de carga (mercancías) pasan al guardar a la estación de mercancías {0}.
+
+de: Gleise ordnen Sie in der Station zu (Doppelklick). Einzugsbereich: Rechtsklick auf das Objekt, „Mit Station verbinden…“.
+es: Las vías se asignan en la estación (doble clic). Zona de servicio: clic derecho en el objeto, «Conectar con estación…».
+
+de: Gleise wählen…
+es: Elegir vías…
+
+de: Gleise/Blöcke
+es: Vías/bloques
+
+de: Gleise: {0}
+es: Vías: {0}
+
+de: Gleisname, Fahrtrichtungen und Kapazität danach in der Station einstellen.
+es: Ajustar después en la estación el nombre de vía, los sentidos de marcha y la capacidad.
+
+de: Glückwunsch!
+es: ¡Enhorabuena!
+
+de: Grau
+es: Gris
+
+de: Grundbestand ergänzen
+es: Completar existencias básicas
+
+de: Größe
+es: Tamaño
+
+de: Größe:
+es: Tamaño:
+
+de: Grün
+es: Verde
+
+de: Gummi
+es: Caucho
+
+de: Gummiplantage
+es: Plantación de caucho
+
+de: Gut
+es: Mercancía
+
+de: Güter
+es: Mercancías
+
+de: Güter (Bedarf)
+es: Mercancías (demanda)
+
+de: Güter Bedarf
+es: Demanda de mercancías
+
+de: Güter Herstellung
+es: Producción de mercancías
+
+de: Güter an diesem Gleis (keins = alle)
+es: Mercancías en esta vía (ninguna = todas)
+
+de: Güter fließen nur über Ladegleise. Deshalb mit dem Güterbahnhof verbunden:\n{0}
+es: Las mercancías solo fluyen por vías de carga. Por eso se conecta con la estación de mercancías:\n{0}
+
+de: Güter können nicht verbraucht werden
+es: Las mercancías no se pueden consumir
+
+de: Güter wählen…
+es: Elegir mercancías…
+
+de: Güter zum Transport
+es: Mercancías para transportar
+
+de: Güter zurück zum Empfänger, bitte abholen
+es: Mercancías de vuelta al destinatario, recójalas
+
+de: Güter, die die Übergabe unbegrenzt abnimmt
+es: Mercancías que el intercambio recibe sin límite
+
+de: Güter, die die Übergabe unbegrenzt liefert
+es: Mercancías que el intercambio entrega sin límite
+
+de: Güter, die dieser Wagen laden kann (Aktiv). Sind Güter aktiv, lädt der Wagen nur diese; sonst alle Güter seiner Ladeklasse. Die Kapazität verteilt sich gleichmäßig auf die Wagenladungen; nicht mischbare Güter (z.B. Flüssiggut) belegen eine Wagenladung allein.
+es: Mercancías que este vagón puede cargar (activas). Si hay mercancías activas, el vagón solo carga esas; si no, todas las de su clase de carga. La capacidad se reparte por igual entre las cargas del vagón; las mercancías no mezclables (p. ej. líquidos) ocupan solas una carga.
+
+de: Güter-/Personenaustausch angehalten.
+es: Intercambio de mercancías/viajeros en pausa.
+
+de: Güter-/Personenaustausch gestartet.
+es: Intercambio de mercancías/viajeros iniciado.
+
+de: Güter...
+es: Mercancías...
+
+de: Güter: Güterbahnhof andocken (mit denselben Blöcken als Ladegleise)
+es: Mercancías: acoplar estación de mercancías (con los mismos bloques como vías de carga)
+
+de: Güterauswahl
+es: Selección de mercancías
+
+de: Güterbahnhof
+es: Estación de mercancías
+
+de: Güterbahnhof „{0}“ angelegt
+es: Estación de mercancías «{0}» creada
+
+de: Güterbedarf (offen / je Modellstunde)
+es: Demanda de mercancías (abierta / por hora de modelo)
+
+de: Güterfluss je Modelltag
+es: Flujo de mercancías por día de modelo
+
+de: Güterverkehr
+es: Tráfico de mercancías
+
+de: Güterverkehr · Next trips
+es: Tráfico de mercancías · Next trips
+
+de: Halt noch {0} s von {1} s
+es: Parada: quedan {0} s de {1} s
+
+de: Halte
+es: Paradas
+
+de: Haltepunkt
+es: Apeadero
+
+de: Handbuch
+es: Manual
+
+de: Handbuch folgt im Ordner "handbuch" - noch nicht verdrahtet.
+es: El manual seguirá en la carpeta "handbuch" - aún sin conectar.
+
+de: Hergestellt von: {0}
+es: Producido por: {0}
+
+de: Herkunft:
+es: Origen:
+
+de: Herkunft: Schattenbahnhof stellt {0} je Modellstunde bereit
+es: Origen: la estación oculta aporta {0} por hora de modelo
+
+de: Herkunft: {0}
+es: Origen: {0}
+
+de: Heute angekommen/ausgestiegen (+) und abgefahren/eingestiegen (−)
+es: Hoy llegados/bajados (+) y salidos/subidos (−)
+
+de: Hilfe
+es: Ayuda
+
+de: Hilfetexte folgen im Ordner "hilfetexte" - noch nicht verdrahtet.
+es: Los textos de ayuda seguirán en la carpeta "hilfetexte" - aún sin conectar.
+
+de: Hinweis
+es: Aviso
+
+de: Hinweis  ·  Ziel  ·  Abholung  ·  Zug
+es: Aviso  ·  Destino  ·  Recogida  ·  Tren
+
+de: Hinzufügen
+es: Añadir
+
+de: Hinzufügen/Ändern
+es: Añadir/cambiar
+
+de: Holz
+es: Madera
+
+de: Holzfällerlager
+es: Campamento maderero
+
+de: Horizontal
+es: Horizontal
+
+de: Horizontal:
+es: Horizontal:
+
+de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
+es: Cuelgan del módulo en vez de la infraestructura de la maqueta; estación de mercancías, localidades, empresas y almacenes van con ellas.
+
+de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+es: Como máximo {0} pestañas (pestañas y módulos). El número se cambia en Preferencias > Pestañas.
+
+de: Höchstzahl der Reiter
+es: Número máximo de pestañas
+
+de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
+es: Mostrar en el navegador (solo lectura, en otro ordenador, móvil o tableta)
+
+de: Im Lager
+es: En almacén
+
+de: Im ZIP-Archiv "{0}" wurde keine .tcd-Datei gefunden.
+es: No se encontró ningún archivo .tcd en el archivo ZIP "{0}".
+
+de: Im ZIP-Archiv "{0}" wurde keine XML-Datei gefunden.
+es: No se encontró ningún archivo XML en el archivo ZIP "{0}".
+
+de: Im Zug
+es: En el tren
+
+de: In Bahnhöfen: {0}
+es: En estaciones: {0}
+
+de: In der .tcdz sind keine Bahnhöfe definiert
+es: El .tcdz no define estaciones
+
+de: In der Zwischenablage ist kein kopiertes Symbol.
+es: No hay ningún símbolo copiado en el portapapeles.
+
+de: In der Zwischenablage stehen keine Wagen-Angaben. Bitte zuerst bei einem Wagen „Angaben kopieren“ drücken.
+es: No hay datos de vagón en el portapapeles. Pulse primero «Copiar datos» en un vagón.
+
+de: In der Übersicht zeigen
+es: Mostrar en la vista general
+
+de: In iTrain definierte Bahnhöfe anheften oder öffnen
+es: Vincular o abrir estaciones definidas en iTrain
+
+de: In iTrain ein sonstiger Bahnhof (z. B. Betriebswerk). Solange „Anderes“ gewählt ist, halten Züge hier ohne Ein-/Aussteigen und ohne Umladen.
+es: En iTrain, una estación de otro tipo (p. ej. depósito). Mientras esté elegido «Otro», los trenes paran aquí sin subir/bajar y sin transbordo.
+
+de: In iTrain sind keine Zugrouten angelegt – die Verbindung kann nicht geprüft werden.
+es: En iTrain no hay rutas de tren – no se puede comprobar la conexión.
+
+de: Industrie
+es: Industria
+
+de: Industrien
+es: Industrias
+
+de: Inhalt
+es: Contenido
+
+de: Ist dieser Bahnhof auf der Anlage oder ein Modul?
+es: ¿Esta estación está en la maqueta o es un módulo?
+
+de: Ja, Lokomotiven zeigen
+es: Sí, mostrar locomotoras
+
+de: Je Bahnhof
+es: Por estación
+
+de: Je Fahrtrichtung
+es: Por sentido de marcha
+
+de: Je Gut
+es: Por mercancía
+
+de: Je Ladeklasse
+es: Por clase de carga
+
+de: Jetzt abgleichen
+es: Sincronizar ahora
+
+de: Jetzt prüfen
+es: Comprobar ahora
+
+de: Kann Expressgut mitnehmen
+es: Puede llevar paquetería
+
+de: Kann Expressgut mitnehmen ({0} Stück)
+es: Puede llevar paquetería ({0} piezas)
+
+de: Kann Post mitnehmen
+es: Puede llevar correo
+
+de: Kann Post mitnehmen ({0} Postsäcke)
+es: Puede llevar correo ({0} sacas)
+
+de: Kann nur in iTrain verändert werden.
+es: Solo se puede cambiar en iTrain.
+
+de: Kapazität
+es: Capacidad
+
+de: Kapazität = Einheiten je Gut (Abholung bzw. Anlieferung), Umladen = Einheiten je Modellminute
+es: Capacidad = unidades por mercancía (recogida o entrega), transbordo = unidades por minuto de modelo
+
+de: Kapazität = Wartende je Richtung, Umladen = Personen je Modellminute
+es: Capacidad = personas en espera por dirección, transbordo = personas por minuto de modelo
+
+de: Kapazität Einheit
+es: Unidad de capacidad
+
+de: Kapazität aller Züge je Fahrt
+es: Capacidad de todos los trenes por viaje
+
+de: Kapazität gesamt (Einheiten)
+es: Capacidad total (unidades)
+
+de: Kapazität je Einheit
+es: Capacidad por unidad
+
+de: Kapazität passender Wagen je Fahrt
+es: Capacidad de vagones adecuados por viaje
+
+de: Kapazitäten
+es: Capacidades
+
+de: Kein Bild hinterlegt.
+es: No hay imagen guardada.
+
+de: Kein Ladegleis
+es: Sin vía de carga
+
+de: Kein Modul
+es: Sin módulo
+
+de: Kein Rezept
+es: Sin receta
+
+de: Kein Tab
+es: Sin pestaña
+
+de: Kein freier Bahnhof.
+es: No hay estación libre.
+
+de: Keine Bahnhöfe
+es: Sin estaciones
+
+de: Keine Betriebe mit Eingängen
+es: No hay empresas con entradas
+
+de: Keine Blöcke in der Datei
+es: No hay bloques en el archivo
+
+de: Keine Datei geladen.
+es: Ningún archivo cargado.
+
+de: Keine Datei geöffnet
+es: Ningún archivo abierto
+
+de: Keine Dialoge abgeschaltet.
+es: Ningún diálogo desactivado.
+
+de: Keine Einträge
+es: Sin entradas
+
+de: Keine Konfiguration geöffnet.
+es: Ninguna configuración abierta.
+
+de: Keine Quelle gewählt
+es: Ninguna fuente elegida
+
+de: Keine Reisenden möglich, weiterer Bahnhof nötig:\n
+es: No hay viajeros posibles, hace falta otra estación:\n
+
+de: Keine Station – im Editor per Rechtsklick „Mit Station verbinden…“ zuordnen.
+es: Sin estación – asignar en el editor con clic derecho «Conectar con estación…».
+
+de: Keine Stationsart: {0}
+es: No es un tipo de estación: {0}
+
+de: Keine Zugroute fährt beide Bahnhöfe an. Umsteigen über einen Bahnhof dazwischen ist möglich (oben gewählt).
+es: Ninguna ruta de tren pasa por ambas estaciones. Se puede transbordar en una estación intermedia (elegida arriba).
+
+de: Keine Zugroute verbindet die beiden Bahnhöfe – bitte in iTrain eine Zugroute anlegen.
+es: Ninguna ruta de tren une las dos estaciones – cree una ruta de tren en iTrain.
+
+de: Keine Züge in der Datei
+es: No hay trenes en el archivo
+
+de: Keine freie Station.
+es: No hay estación libre.
+
+de: Keine freien Blöcke
+es: No hay bloques libres
+
+de: Keine freien Blöcke (alle gehören Gleisen oder anderen Modulen).
+es: No hay bloques libres (todos pertenecen a vías u otros módulos).
+
+de: Keine freien Blöcke – Gleise später in der Station zuordnen.
+es: No hay bloques libres – asignar las vías más tarde en la estación.
+
+de: Keine gekoppelte .tcdz-Datei hinterlegt.
+es: No hay archivo .tcdz vinculado.
+
+de: Keine iTrain-Datei geöffnet bzw. nicht lesbar – Werte bitte von Hand eintragen.
+es: Ningún archivo iTrain abierto o no legible – introduzca los valores a mano.
+
+de: Keine offenen Enden.
+es: Sin cabos sueltos.
+
+de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
+es: Sin cabos sueltos: cada demanda tiene contrapartida.
+
+de: Keine weiteren Reiter
+es: No hay más pestañas
+
+de: Keinem Gleis zugeordnet (Strecke).
+es: No asignado a ninguna vía (trayecto).
+
+de: Kesselwagen
+es: Vagón cisterna
+
+de: Kleidung
+es: Ropa
+
+de: Kleine Station, Bahnsteige und Ladegleise
+es: Estación pequeña, andenes y vías de carga
+
+de: Klick auf ein Symbol öffnet die Details ·
+es: Un clic en un símbolo abre los detalles ·
+
+de: Klicken: Gut zum Verladen bereitstellen
+es: Clic: preparar mercancía para cargar
+
+de: Koffer
+es: Maletas
+
+de: Kohle
+es: Carbón
+
+de: Kohlebergwerk
+es: Mina de carbón
+
+de: Kohleverbrauch kg/km
+es: Consumo de carbón kg/km
+
+de: Kohlevorrat Tonnen
+es: Reserva de carbón toneladas
+
+de: Konnte nicht aus .tcdz angelegt werden
+es: No se pudo crear desde el .tcdz
+
+de: Konnte nicht gespeichert werden
+es: No se pudo guardar
+
+de: Konnte nicht mit der .tcdz abgeglichen werden
+es: No se pudo sincronizar con el .tcdz
+
+de: Konserven
+es: Conservas
+
+de: Konservenfabrik
+es: Conservera
+
+de: Kopie der Anlage fehlgeschlagen
+es: Falló la copia de la maqueta
+
+de: Kopieren
+es: Copiar
+
+de: Kopieren geht im Fenster „Anlage bearbeiten“: Symbol anklicken, dann Kopieren.
+es: Copiar funciona en la ventana «Editar maqueta»: hacer clic en un símbolo y luego Copiar.
+
+de: Kreislauf
+es: Cadena
+
+de: Kreislauf prüfen
+es: Comprobar cadena
+
+de: Kreislauf prüfen…
+es: Comprobar cadena…
+
+de: Kunststoff
+es: Plástico
+
+de: Kursiv
+es: Cursiva
+
+de: Kühlwagen
+es: Vagón frigorífico
+
+de: Lade-Joker: lädt jedes Gut
+es: Comodín de carga: carga cualquier mercancía
+
+de: Ladegleis
+es: Vía de carga
+
+de: Ladegleis einrichten
+es: Preparar vía de carga
+
+de: Ladegleise eines Bahnhofs, Haltepunkts oder Schattenbahnhofs kommen in dessen Güterbahnhof (wird bei Bedarf angelegt)
+es: Las vías de carga de una estación, apeadero o estación oculta van a su estación de mercancías (se crea si hace falta)
+
+de: Ladegleise für {0}: {1}
+es: Vías de carga para {0}: {1}
+
+de: Ladegut
+es: Carga
+
+de: Ladegüter
+es: Mercancías cargables
+
+de: Ladeklasse
+es: Clase de carga
+
+de: Ladeklassen (keine = alle)
+es: Clases de carga (ninguna = todas)
+
+de: Laden
+es: Cargar
+
+de: Laden erlaubt
+es: Carga permitida
+
+de: Laden in
+es: Cargar en
+
+de: Laden/Entladen bzw. Ein-/Aussteigen auch ohne Halt (bei der Durchfahrt)
+es: Cargar/descargar o subir/bajar también sin parar (al pasar)
+
+de: Ladungszustand
+es: Estado de carga
+
+de: Lager
+es: Almacén
+
+de: Lager anlegen
+es: Crear almacén
+
+de: Lager bearbeiten
+es: Editar almacén
+
+de: Lager für Güter
+es: Almacén de mercancías
+
+de: Lager hinzufügen. Die Kapazitäten am Bahnhof sind erschöpft
+es: Añadir almacén. Las capacidades de la estación están agotadas
+
+de: Lagergrößen…
+es: Tamaños de almacén…
+
+de: Lagerhalle
+es: Nave
+
+de: Lagerkapazitäten (Einheiten)
+es: Capacidades de almacén (unidades)
+
+de: Lagerplatz
+es: Zona de almacenaje
+
+de: Langgut
+es: Productos largos
+
+de: Langsamer
+es: Más lento
+
+de: Lauflicht auf den Verbindungen (Sekunden)
+es: Luz corrida en las conexiones (segundos)
+
+de: Lautstärke
+es: Volumen
+
+de: Legt ein Symbol an, das nur aus einem farbigen Quadrat besteht (Platzhalter ohne eigene .svg-Datei).
+es: Crea un símbolo que es solo un cuadrado de color (marcador sin archivo .svg propio).
+
+de: Legt fehlende mitgelieferte Geräusche (CC0) wieder in den Ordner; eigene Dateien bleiben
+es: Devuelve a la carpeta los sonidos incluidos que faltan (CC0); los archivos propios se quedan
+
+de: Lehm
+es: Arcilla
+
+de: Lehmgrube
+es: Barrera de arcilla
+
+de: Lieferkette für „{0}“
+es: Cadena para «{0}»
+
+de: Liefert Expressgut
+es: Entrega paquetería
+
+de: Liefert Post
+es: Entrega correo
+
+de: Liefert Post {0} M/h, Expressgut {1} M/h
+es: Entrega correo {0} M/h, paquetería {1} M/h
+
+de: Liefert alle
+es: Entrega cada
+
+de: Liefert immer (nicht auf der Anlage)
+es: Entrega siempre (no está en la maqueta)
+
+de: Liefert immer, ohne auf der Anlage zu sein
+es: Entrega siempre, sin estar en la maqueta
+
+de: Liefert immer, ohne auf der Anlage zu sein.
+es: Entrega siempre, sin estar en la maqueta.
+
+de: Liefert unbegrenzt
+es: Entrega sin límite
+
+de: Liefert: {0}
+es: Entrega: {0}
+
+de: Liegt am Bahnhof:
+es: Está en la estación:
+
+de: Liest den Symbolordner (Voreinstellungen > Pfade) erneut, z. B. nach dem Hinzufügen eigener .svg-Dateien.
+es: Vuelve a leer la carpeta de símbolos (Preferencias > Rutas), p. ej. tras añadir archivos .svg propios.
+
+de: Linksbündig
+es: Alineado a la izquierda
+
+de: Linux: Für mp3 braucht das Programm die ffmpeg-Bibliotheken des Systems (z. B. „sudo apt install ffmpeg“) und einen Tonausgang; wav geht auch ohne ffmpeg.
+es: Linux: para mp3 el programa necesita las bibliotecas ffmpeg del sistema (p. ej. «sudo apt install ffmpeg») y una salida de audio; wav funciona también sin ffmpeg.
+
+de: Liste leeren (nur die Anzeige; an der Logistik ändert sich nichts).
+es: Vaciar la lista (solo la vista; en la logística no cambia nada).
+
+de: Liste wieder mitlaufen lassen; was beim Anhalten ankam, wird oben eingefügt.
+es: Dejar que la lista siga avanzando; lo que llegó durante la pausa se inserta arriba.
+
+de: Liter
+es: Litros
+
+de: Logistik Daten
+es: Datos logísticos
+
+de: Logistik-Datei (.logz) öffnen
+es: Abrir archivo logístico (.logz)
+
+de: Logistik-Datei speichern
+es: Guardar archivo logístico
+
+de: Logistik-Datei öffnen
+es: Abrir archivo logístico
+
+de: Logistik-Datei: {0}\nVerknüpfte iTrain-Anlage: {1}\n„Abgleichen“ liest diese .tcdz. Ändern: Datei > iTrain Datei neu einlesen...{2}
+es: Archivo logístico: {0}\nMaqueta iTrain vinculada: {1}\n«Sincronizar» lee este .tcdz. Cambiar: Archivo > Volver a leer archivo iTrain...{2}
+
+de: Logistikdaten
+es: Datos logísticos
+
+de: Lok
+es: Loco
+
+de: Lok hinzufügen…
+es: Añadir loco…
+
+de: Lokomotive hinzufügen
+es: Añadir locomotora
+
+de: Lokomotive links auswählen.
+es: Elija una locomotora a la izquierda.
+
+de: Lokomotiven
+es: Locomotoras
+
+de: Lokomotiven, Wagen, Blöcke, Züge, Belegung, Symbole und Güter
+es: Locomotoras, vagones, bloques, trenes, ocupación, símbolos y mercancías
+
+de: Ländlich
+es: Rural
+
+de: Ländlicher Ort mit wenig Aufkommen
+es: Lugar rural con poco tráfico
+
+de: Läuft
+es: En marcha
+
+de: Löschen
+es: Borrar
+
+de: Löscht eine selbst angelegte Farbfläche. .svg-Dateien bitte im Symbolordner entfernen.
+es: Borra una superficie de color creada por usted. Los archivos .svg, bórrelos en la carpeta de símbolos.
+
+de: M/h = je Modellstunde
+es: M/h = por hora de modelo
+
+de: M/h = je Modellstunde. 0 Abreisende = keine Personen, sie erscheinen dann auch nicht im Symbol. Ankommende: so viele steigen hier je Modellstunde höchstens aus; „Unbegrenzt“ = beliebig viele. „Kreislauf prüfen“ sucht für beide Werte ein Gegenstück.
+es: M/h = por hora de modelo. 0 salientes = sin personas, entonces tampoco aparecen en el símbolo. Llegadas: como máximo tantas bajan aquí por hora de modelo; «Ilimitado» = las que sean. «Comprobar cadena» busca contrapartida para ambos valores.
+
+de: Mangel
+es: Escasez
+
+de: Maschinen
+es: Máquinas
+
+de: Maschinenfabrik
+es: Fábrica de máquinas
+
+de: Maßstab (1:x)
+es: Escala (1:x)
+
+de: Mehrere Rezepte (Nummer 1, 2, …) sind Alternativen: es läuft das erste, für das alle Eingänge vorrätig sind.
+es: Varias recetas (número 1, 2, …) son alternativas: se ejecuta la primera para la que todas las entradas están en existencia.
+
+de: Menge
+es: Cantidad
+
+de: Menge (Einheiten)
+es: Cantidad (unidades)
+
+de: Menge je Ausführung
+es: Cantidad por ejecución
+
+de: Menge je Modellstunde:
+es: Cantidad por hora de modelo:
+
+de: Mischbar in einer Wagenladung
+es: Mezclable en una carga de vagón
+
+de: Mit Koffer ({0} % der Reisenden haben einen Koffer und brauchen einen Gepäckwagen im Zug)
+es: Con maleta (el {0} % de los viajeros lleva maleta y necesita un furgón en el tren)
+
+de: Mit Koffer: davon warten so viele mit Koffer (brauchen einen Gepäckwagen im Zug)
+es: Con maleta: de ellos esperan tantos con maleta (necesitan un furgón en el tren)
+
+de: Mit Modul verbinden
+es: Conectar con módulo
+
+de: Mit Modul verbinden…
+es: Conectar con módulo…
+
+de: Mit Station verbinden…
+es: Conectar con estación…
+
+de: Mit Tab verbinden
+es: Conectar con pestaña
+
+de: Mit Tab verbinden…
+es: Conectar con pestaña…
+
+de: Mit der .tcdz abgleichen: Loks, Wagen, Blöcke, Züge und Zugrouten neu aus iTrain lesen
+es: Sincronizar con el .tcdz: volver a leer de iTrain locomotoras, vagones, bloques, trenes y rutas
+
+de: Mit iTrain abgleichen
+es: Sincronizar con iTrain
+
+de: Mitgelieferte wiederherstellen
+es: Restaurar los incluidos
+
+de: Modelluhr in einem eigenen Fenster zeigen (Zeit und Faktor aus iTrain)
+es: Mostrar el reloj de modelo en una ventana propia (hora y factor de iTrain)
+
+de: Modellzeit
+es: Hora de modelo
+
+de: Modul
+es: Módulo
+
+de: Modul bearbeiten
+es: Editar módulo
+
+de: Modul „{0}“
+es: Módulo «{0}»
+
+de: Möbel
+es: Muebles
+
+de: Möbelfabrik
+es: Fábrica de muebles
+
+de: Nachfrage
+es: Demanda
+
+de: Nachfrage heute
+es: Demanda hoy
+
+de: Name
+es: Nombre
+
+de: Name (optional)
+es: Nombre (opcional)
+
+de: Name des Moduls, zu dem „{0}“ gehört
+es: Nombre del módulo al que pertenece «{0}»
+
+de: Name des ersten Reiters
+es: Nombre de la primera pestaña
+
+de: Name des neuen Guts
+es: Nombre de la nueva mercancía
+
+de: Name und Art
+es: Nombre y tipo
+
+de: Name:
+es: Nombre:
+
+de: Name: {0}
+es: Nombre: {0}
+
+de: Nein
+es: No
+
+de: Neu angelegt aus {0}: {1}  ({2} Loks, {3} Wagen, {4} Blöcke, {5} Züge)
+es: Creado desde {0}: {1}  ({2} locomotoras, {3} vagones, {4} bloques, {5} trenes)
+
+de: Neu eingefügt – an die gewünschte Stelle ziehen
+es: Recién insertado – arrastrar al lugar deseado
+
+de: Neu einlesen
+es: Volver a leer
+
+de: Neue Farbfläche...
+es: Nueva superficie de color...
+
+de: Neue Konfiguration
+es: Nueva configuración
+
+de: Neue Konfiguration...
+es: Nueva configuración...
+
+de: Neue Logistik-Datei speichern unter...
+es: Guardar nuevo archivo logístico como...
+
+de: Neuer Bahnhof für {0} (Gleise wählen)
+es: Nueva estación para {0} (elegir vías)
+
+de: Neuer Betrieb
+es: Nueva empresa
+
+de: Neuer Betrieb „{0}“ {1}
+es: Nueva empresa «{0}» {1}
+
+de: Neuer Betrieb: {0}
+es: Nueva empresa: {0}
+
+de: Neuer Betrieb: {0}{1}
+es: Nueva empresa: {0}{1}
+
+de: Neuer Haltepunkt für {0} (Gleise wählen)
+es: Nuevo apeadero para {0} (elegir vías)
+
+de: Neuer Name – gilt für den Reiter und das Symbol
+es: Nuevo nombre – vale para la pestaña y el símbolo
+
+de: Neuer Schattenbahnhof (Gleise wählen)
+es: Nueva estación oculta (elegir vías)
+
+de: Neues Dorf mit Haltepunkt (Gleise wählen)
+es: Nuevo pueblo con apeadero (elegir vías)
+
+de: Neues Feld
+es: Nuevo campo
+
+de: Neues Gut
+es: Nueva mercancía
+
+de: Neues Gut…
+es: Nueva mercancía…
+
+de: Neues Modul
+es: Nuevo módulo
+
+de: Neues Modul…
+es: Nuevo módulo…
+
+de: Neues Symbol
+es: Nuevo símbolo
+
+de: Nicht auf der Anlage (liefert bzw. nimmt automatisch)
+es: No está en la maqueta (entrega o recibe automáticamente)
+
+de: Nicht auf der Anlage (liefert immer)
+es: No está en la maqueta (entrega siempre)
+
+de: Nicht übernehmen
+es: No adoptar
+
+de: Nimmt ab
+es: Recibe
+
+de: Nimmt an
+es: Acepta
+
+de: Nimmt jedes Gut ab
+es: Recibe cualquier mercancía
+
+de: Noch kein Ereignis von diesem Zug empfangen.
+es: Todavía no se recibió ningún evento de este tren.
+
+de: Noch keine Gleise. Über "Bearbeiten…" Gleise mit iTrain-Blöcken anlegen.
+es: Todavía no hay vías. Crear vías con bloques de iTrain con "Editar…".
+
+de: Noch keine Tabs oder Module – in „Anlage bearbeiten“ aus der Palette anlegen.
+es: Todavía no hay pestañas ni módulos – créelos desde la paleta en «Editar maqueta».
+
+de: Noch nichts aufgezeichnet – „Anhängen“ fügt einen Vorgang hinzu.
+es: Nada grabado todavía – «Añadir al final» añade una operación.
+
+de: Noch zu erledigen
+es: Pendiente
+
+de: Nur Einfahrt rückwärts (iTrain „prev“)
+es: Solo entrada hacia atrás (iTrain «prev»)
+
+de: Nur Einfahrt vorwärts (iTrain „next“)
+es: Solo entrada hacia delante (iTrain «next»)
+
+de: Nur Güter der gewählten Ladeklasse zeigen
+es: Mostrar solo mercancías de la clase elegida
+
+de: Nur Ladegleise: Sie kommen in einen angedockten Güterbahnhof.
+es: Solo vías de carga: van a una estación de mercancías acoplada.
+
+de: Nur dieses Objekt anhalten; alles andere läuft weiter
+es: Pausar solo este objeto; todo lo demás sigue
+
+de: Nur dieses Objekt ist angehalten; alles andere läuft weiter. Fortsetzen im Detailfenster mit „▶ Start“.
+es: Solo este objeto está en pausa; todo lo demás sigue. Continuar en la ventana de detalle con «▶ Iniciar».
+
+de: Nächste Fahrten
+es: Próximos viajes
+
+de: Nötige volle Fahrten je Modellstunde
+es: Viajes llenos necesarios por hora de modelo
+
+de: Oben
+es: Arriba
+
+de: Objektart wählen
+es: Elegir tipo de objeto
+
+de: Objektart:
+es: Tipo de objeto:
+
+de: Offen
+es: Abierto
+
+de: Offen lassen
+es: Dejar abierto
+
+de: Offene Enden: {0}
+es: Cabos sueltos: {0}
+
+de: Offene Güter
+es: Mercancías abiertas
+
+de: Offener Wagen (Regelbauart)
+es: Vagón abierto (estándar)
+
+de: Offener Wagen (Sonderbauart)
+es: Vagón abierto (especial)
+
+de: Offener Wagen für Mehrzweckverwendung
+es: Vagón abierto polivalente
+
+de: Orange
+es: Naranja
+
+de: Ordner
+es: Carpeta
+
+de: Ordner der Geräusche
+es: Carpeta de sonidos
+
+de: Ordner fuer Logistik-Dateien konnte nicht angelegt werden: {0}
+es: No se pudo crear la carpeta de archivos logísticos: {0}
+
+de: Ordner für die Fahrzeugdatei konnte nicht angelegt werden: {0}
+es: No se pudo crear la carpeta del archivo de vehículos: {0}
+
+de: Ordner lässt sich nicht öffnen: {0}
+es: No se puede abrir la carpeta: {0}
+
+de: Ordner neu einlesen
+es: Volver a leer la carpeta
+
+de: Ordner öffnen
+es: Abrir carpeta
+
+de: Ort
+es: Localidad
+
+de: Ort mit Passagieren und Güterbedarf
+es: Localidad con viajeros y demanda de mercancías
+
+de: Orte, die Ware benötigen – wer liefert an
+es: Localidades que necesitan mercancías – quién entrega
+
+de: Pakete
+es: Paquetes
+
+de: Panoramawagen
+es: Coche panorámico
+
+de: Papier
+es: Papel
+
+de: Papierfabrik
+es: Papelera
+
+de: Passagiere
+es: Viajeros
+
+de: Passagiere im Zug
+es: Viajeros en el tren
+
+de: Passagiere, die abfahren – wer nimmt sie auf
+es: Viajeros que salen – quién los recibe
+
+de: Passagiere, die ankommen – wer bringt sie
+es: Viajeros que llegan – quién los trae
+
+de: Pause
+es: Pausa
+
+de: Pers
+es: Pers
+
+de: Personen
+es: Personas
+
+de: Personen je Modellstunde von außerhalb
+es: Personas por hora de modelo de fuera
+
+de: Personen-/Gepäckwagen
+es: Coche de viajeros/equipajes
+
+de: Personenbahnhof
+es: Estación de viajeros
+
+de: Personenbahnhof, nur Bahnsteige
+es: Estación de viajeros, solo andenes
+
+de: Personengleise
+es: Vías de viajeros
+
+de: Personenverkehr
+es: Tráfico de viajeros
+
+de: Personenverkehr · Next trips
+es: Tráfico de viajeros · Next trips
+
+de: Pfeil Ein-/Aussteigen
+es: Flecha subir/bajar
+
+de: Pflicht (Anwender 09.11.2026): das Gleis, das von diesem Modul zum nächsten führt. Ohne Gleis lässt sich das Modul nicht speichern.
+es: Obligatorio (usuario 09.11.2026): la vía que lleva de este módulo al siguiente. Sin vía no se puede guardar el módulo.
+
+de: Plätze
+es: Plazas
+
+de: Port {0} antwortet, aber nicht wie iTrain-XTC
+es: El puerto {0} responde, pero no como iTrain-XTC
+
+de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
+es: El puerto {0} ya pertenece al Web Logística – elija otro.
+
+de: Port:
+es: Puerto:
+
+de: Position und Tempo ausblenden
+es: Ocultar posición y velocidad
+
+de: Post
+es: Correo
+
+de: Post empfangen
+es: Correo recibido
+
+de: Post und Expressgut
+es: Correo y paquetería
+
+de: Post und Expressgut an diesem Bahnsteig
+es: Correo y paquetería en este andén
+
+de: Postwagen
+es: Vagón correo
+
+de: Produkt
+es: Producto
+
+de: Produktion
+es: Producción
+
+de: Produziert
+es: Producido
+
+de: Programm beenden
+es: Salir del programa
+
+de: Prüfe {0}:{1} …
+es: Comprobando {0}:{1} …
+
+de: Prüfe …
+es: Comprobando …
+
+de: Prüfung
+es: Comprobación
+
+de: Quelle
+es: Fuente
+
+de: Quelle: Simulator{0}
+es: Fuente: simulador{0}
+
+de: Quelle: iTrain (XTC nicht verbunden)
+es: Fuente: iTrain (XTC no conectado)
+
+de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
+es: Fuente: iTrain (XTC {0}, {1}/{2} trenes conectados)
+
+de: Quellen der mitgelieferten Geräusche.txt
+es: Fuentes de los sonidos incluidos.txt
+
+de: Rahmen
+es: Marco
+
+de: Rahmen anzeigen
+es: Mostrar marco
+
+de: Raster anzeigen, Symbole rasten darauf ein
+es: Mostrar cuadrícula, los símbolos se ajustan a ella
+
+de: Raummeter
+es: Metros cúbicos
+
+de: Rechner mit iTrain (Name oder IP-Adresse)
+es: Ordenador con iTrain (nombre o dirección IP)
+
+de: Rechnername
+es: Nombre del ordenador
+
+de: Rechnername (mDNS)
+es: Nombre del ordenador (mDNS)
+
+de: Rechtsbündig
+es: Alineado a la derecha
+
+de: Reifen
+es: Neumáticos
+
+de: Reifenfabrik
+es: Fábrica de neumáticos
+
+de: Reisende
+es: Viajeros
+
+de: Reisende 1/2
+es: Viajeros 1/2
+
+de: Reisende an Bord: 1. Klasse / 2. Klasse
+es: Viajeros a bordo: 1.ª clase / 2.ª clase
+
+de: Reisende aus bzw. nach „{0}“
+es: Viajeros desde o hacia «{0}»
+
+de: Reisende je Modellstunde:
+es: Viajeros por hora de modelo:
+
+de: Reisende kommen aus Stadt, Dorf oder Ländlich (über deren Bahnhof) oder von außerhalb über den Schattenbahnhof und fahren zu einem anderen Bahnhof.
+es: Los viajeros vienen de ciudad, pueblo o rural (por su estación) o de fuera por la estación oculta y viajan a otra estación.
+
+de: Reisende warten in {0}{1} (meiste an {2}) – {3}
+es: Viajeros esperando en {0}{1} (la mayoría en {2}) – {3}
+
+de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
+es: Viajeros: quieren viajar y van juntos a la estación cada {0} minutos de modelo (luz corrida verde)
+
+de: Reiter
+es: Pestañas
+
+de: Reiter umbenennen
+es: Renombrar pestaña
+
+de: Reiter „{0}“
+es: Pestaña «{0}»
+
+de: Rezept
+es: Receta
+
+de: Rezept: {0}
+es: Receta: {0}
+
+de: Rezepte
+es: Recetas
+
+de: Rezepte, die es herstellen: {0}
+es: Recetas que lo producen: {0}
+
+de: Richtung
+es: Dirección
+
+de: Richtung {0}
+es: Dirección {0}
+
+de: Richtungen
+es: Direcciones
+
+de: Rohstoff
+es: Materia prima
+
+de: Rohstoffe
+es: Materias primas
+
+de: Rohöl
+es: Crudo
+
+de: Rot
+es: Rojo
+
+de: Rot: Transport nötig · Gelb: über ein Lager lösbar · Grün: nichts offen. Umladen von Hand ist zum Testen gedacht.
+es: Rojo: transporte necesario · Amarillo: se resuelve con un almacén · Verde: nada pendiente. El transbordo manual sirve para pruebas.
+
+de: Route
+es: Ruta
+
+de: Routen
+es: Rutas
+
+de: Routen sind die Zugrouten aus der .tcdz. Ein Zug gehört zu der Route, die den Block enthält, in dem er zuletzt gemeldet wurde.
+es: Las rutas son las rutas de tren del .tcdz. Un tren pertenece a la ruta que contiene el bloque en el que se notificó por última vez.
+
+de: Rx/Tx Simulator
+es: Rx/Tx simulador
+
+de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
+es: Rx/Tx solo existe si en Ajustes se ha elegido «iTrain» o «Simulador».
+
+de: Rx/Tx iTrain (XTC){0}
+es: Rx/Tx iTrain (XTC){0}
+
+de: Salonwagen
+es: Coche salón
+
+de: Sand
+es: Arena
+
+de: Sandbaggerschiff
+es: Draga de arena
+
+de: Sandgrube
+es: Arenera
+
+de: Schattenbahnhof
+es: Estación oculta
+
+de: Schattenbahnhof (verlässt die Anlage)
+es: Estación oculta (sale de la maqueta)
+
+de: Schattenbahnhof anlegen
+es: Crear estación oculta
+
+de: Schattenbahnhof nur noch über Gleise: Verbindung gelöst – {0}. Reisende und Güter je Gleis im Schattenbahnhof einstellen.
+es: Estación oculta solo mediante vías: conexión eliminada – {0}. Ajustar viajeros y mercancías por vía en la estación oculta.
+
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Angeschlossen werden keine Orte, Betriebe oder Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+es: Estación oculta: viajeros y mercancías llegan de fuera a la estación oculta – ajustado por vía (andén: viajeros por hora de modelo, vía de carga: oferta por mercancía). Una vía puede ser a la vez andén y vía de carga (crear dos veces con el mismo bloque). Las vías de carga pasan al guardar a una estación de mercancías acoplada. No se conectan localidades, empresas ni almacenes. Se carga y descarga ya al pasar, sin parar.
+
+de: Schlafwagen
+es: Coche cama
+
+de: Schließen
+es: Cerrar
+
+de: Schneller
+es: Más rápido
+
+de: Schrift
+es: Fuente
+
+de: Schuppen
+es: Cochera
+
+de: Schwarz
+es: Negro
+
+de: Schüttgut
+es: Granel
+
+de: Senkrecht (abwärts)
+es: Vertical (hacia abajo)
+
+de: Senkrecht (aufwärts)
+es: Vertical (hacia arriba)
+
+de: Sicherung:
+es: Copia de seguridad:
+
+de: Simulator
+es: Simulador
+
+de: Simulator Verbindung
+es: Conexión simulador
+
+de: Simulator: {0} {1}{2}
+es: Simulador: {0} {1}{2}
+
+de: Sitzplätze 1. Klasse
+es: Asientos 1.ª clase
+
+de: Sitzplätze 2. Klasse
+es: Asientos 2.ª clase
+
+de: Sitzplätze 3. Klasse
+es: Asientos 3.ª clase
+
+de: Sitzplätze 4. Klasse
+es: Asientos 4.ª clase
+
+de: Solange das Fenster offen ist
+es: Mientras la ventana esté abierta
+
+de: Sonderwagen
+es: Vagón especial
+
+de: Sonstige
+es: Varios
+
+de: Spalten zeigen
+es: Mostrar columnas
+
+de: Speichern
+es: Guardar
+
+de: Speichern und Schließen
+es: Guardar y cerrar
+
+de: Speisewagen
+es: Coche restaurante
+
+de: Sperrgut
+es: Carga voluminosa
+
+de: Später
+es: Más tarde
+
+de: Stadt
+es: Ciudad
+
+de: Stadt/Dorf/Ländlich: {0}
+es: Ciudad/pueblo/rural: {0}
+
+de: Stahl
+es: Acero
+
+de: Stahlwerk
+es: Acería
+
+de: Standard
+es: Estándar
+
+de: Standardeinheit der Ladeklasse {0}: {1}.
+es: Unidad estándar de la clase de carga {0}: {1}.
+
+de: Start
+es: Iniciar
+
+de: Start (s)
+es: Inicio (s)
+
+de: Start = Sekunden nach Beginn des Ablaufs. Entf löscht, Tab springt weiter, Return bearbeitet.
+es: Inicio = segundos tras el comienzo de la secuencia. Supr borra, Tab avanza, Intro edita.
+
+de: Station
+es: Estación
+
+de: Station / Gleis / Zug
+es: Estación / vía / tren
+
+de: Station mit Ladegleisen, auch zu einem Bahnhof gehörend
+es: Estación con vías de carga, también perteneciente a una estación
+
+de: Stationen
+es: Estaciones
+
+de: Stationen (mit Gbf, Orten, Betrieben, Lagern)
+es: Estaciones (con estación de mercancías, localidades, empresas, almacenes)
+
+de: Stationen, die an diesem Modul hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)
+es: Estaciones que cuelgan de este módulo (con sus estaciones de mercancías, localidades, empresas, almacenes)
+
+de: Stationen: {0}
+es: Estaciones: {0}
+
+de: Statistik je Modelltag
+es: Estadística por día de modelo
+
+de: Status
+es: Estado
+
+de: Stehplätze
+es: Plazas de pie
+
+de: Stehplätze (zählen zur 2. Klasse)
+es: Plazas de pie (cuentan como 2.ª clase)
+
+de: Stein
+es: Piedra
+
+de: Steinbruch
+es: Cantera
+
+de: Stoff
+es: Tejido
+
+de: Strecke: Gleis von Modul zu Modul (mindestens eins)
+es: Trayecto: vía de módulo a módulo (al menos una)
+
+de: Strecke: {0}
+es: Trayecto: {0}
+
+de: Strecke: {0} von {1} Blöcken ohne Gleis
+es: Trayecto: {0} de {1} bloques sin vía
+
+de: Strecken-Blöcke des Moduls
+es: Bloques de trayecto del módulo
+
+de: Stufe
+es: Nivel
+
+de: Stunden (0 = laufend)
+es: Horas (0 = continuo)
+
+de: Städte
+es: Ciudades
+
+de: Stück
+es: Piezas
+
+de: Stück M/h
+es: Piezas M/h
+
+de: Stückgut
+es: Carga general
+
+de: Symbol
+es: Símbolo
+
+de: Symbol kopiert.
+es: Símbolo copiado.
+
+de: Symbol oder Block wählen
+es: Elegir símbolo o bloque
+
+de: Symbol zuweisen
+es: Asignar símbolo
+
+de: Symbole auf der Anlage
+es: Símbolos en la maqueta
+
+de: Symbole verwalten
+es: Gestionar símbolos
+
+de: System
+es: Sistema
+
+de: Sägespäne
+es: Serrín
+
+de: Sägewerk
+es: Aserradero
+
+de: Tab
+es: Pestaña
+
+de: Tab bearbeiten
+es: Editar pestaña
+
+de: Tabellen öffnen oder im Hauptfenster andocken
+es: Abrir tablas o acoplarlas en la ventana principal
+
+de: Tabs und Module zusammen, ohne den ersten Reiter
+es: Pestañas y módulos juntos, sin la primera pestaña
+
+de: Tag {0}
+es: Día {0}
+
+de: Tag {0}, {1}
+es: Día {0}, {1}
+
+de: Tankinhalt Liter
+es: Contenido del depósito litros
+
+de: Tankstelle
+es: Gasolinera
+
+de: Text
+es: Texto
+
+de: Text „{0}“ fehlt in {1}.
+es: Falta el texto «{0}» en {1}.
+
+de: Text:
+es: Texto:
+
+de: Textilfabrik
+es: Fábrica textil
+
+de: Textrichtung:
+es: Dirección del texto:
+
+de: Tiefe: 3D (Schatten)
+es: 3D (sombra)
+
+de: Tiertransport
+es: Transporte de animales
+
+de: Tonnen
+es: Toneladas
+
+de: Transport festlegen
+es: Definir transporte
+
+de: Transport nach:
+es: Transporte hasta:
+
+de: Transport von „{0}“{1} nach „{2}“
+es: Transporte de «{0}»{1} a «{2}»
+
+de: Transport von:
+es: Transporte desde:
+
+de: Transport über:
+es: Transporte vía:
+
+de: Treibstoff
+es: Combustible
+
+de: Triebzug
+es: Automotor
+
+de: Triebzug / Triebwagen: befördert selbst Personen oder Güter
+es: Automotor / autovía: transporta él mismo personas o mercancías
+
+de: Triebzug Güter
+es: Automotor mercancías
+
+de: Triebzug Personen
+es: Automotor viajeros
+
+de: Triebzug: befördert selbst – Personen, Güter oder beides. Die Angaben gelten für den ganzen Triebzug.
+es: Automotor: transporta él mismo – personas, mercancías o ambos. Los datos valen para todo el automotor.
+
+de: Trocken
+es: Seco
+
+de: Typ (iTrain)
+es: Tipo (iTrain)
+
+de: Typ: {0}
+es: Tipo: {0}
+
+de: Uhr
+es: Reloj
+
+de: Uhr nach iTrain gestellt: {0}
+es: Reloj ajustado a iTrain: {0}
+
+de: Umbenennen…
+es: Renombrar…
+
+de: Umgelagert
+es: Transbordado
+
+de: Umladen in
+es: Transbordar en
+
+de: Umladen je Modellminute
+es: Transbordo por minuto de modelo
+
+de: Unbegrenzt
+es: Ilimitado
+
+de: Unbekannt
+es: Desconocido
+
+de: Unbekannt: Zug „{0}“ oder Block „{1}“ – übersprungen.
+es: Desconocido: tren «{0}» o bloque «{1}» – omitido.
+
+de: Unten
+es: Abajo
+
+de: Update
+es: Actualización
+
+de: Update-Prüfung ist in diesem ersten Gerüst noch nicht angebunden.
+es: La comprobación de actualizaciones aún no está conectada en esta primera versión.
+
+de: Verbindung prüfen
+es: Comprobar conexión
+
+de: Verbindung zu iTrain
+es: Conexión con iTrain
+
+de: Verbindung zu iTrain...
+es: Conexión con iTrain...
+
+de: Verbindung {0} – zugehöriger {1} · grün: zum Güterbahnhof · rot: von ihm weg
+es: Conexión {0} – {1} asociada · verde: hacia la estación de mercancías · rojo: alejándose
+
+de: Verbindung {0} – {1} · grün: zur Station · rot: von der Station weg · Rechtsklick: Linienstärke
+es: Conexión {0} – {1} · verde: hacia la estación · rojo: alejándose de la estación · clic derecho: grosor de línea
+
+de: Verbrauch auf 100km (Vorbild)
+es: Consumo por 100 km (real)
+
+de: Verbrauch erhöhen
+es: Aumentar consumo
+
+de: Verbrauch: Schattenbahnhof nimmt es ab
+es: Consumo: la estación oculta lo recibe
+
+de: Verbrauch: {0}
+es: Consumo: {0}
+
+de: Verbraucher:
+es: Consumidor:
+
+de: Verbraucht
+es: Consumido
+
+de: Verfügbar
+es: Disponible
+
+de: Verkehr Schritt für Schritt aufbauen: Bahnhöfe, Gleise, Umgebung, Lieferketten
+es: Construir el tráfico paso a paso: estaciones, vías, entorno, cadenas
+
+de: Verkehrs-Assistent – Einrichtung Bahnhöfe
+es: Asistente de tráfico – configuración de estaciones
+
+de: Verkehrs-Assistent – Prüfung
+es: Asistente de tráfico – comprobación
+
+de: Verkehrs-Assistent – Transport festlegen
+es: Asistente de tráfico – definir transporte
+
+de: Verkehrs-Assistent…
+es: Asistente de tráfico…
+
+de: Verknüpft mit {0}.\n\nDaten aus dieser Datei jetzt übernehmen?
+es: Vinculado con {0}.\n\n¿Adoptar ahora los datos de este archivo?
+
+de: Verknüpfte .tcdz geändert
+es: .tcdz vinculado modificado
+
+de: Vernichtet
+es: Destruido
+
+de: Versand
+es: Envío
+
+de: Versand heute
+es: Envío hoy
+
+de: Versorgung
+es: Abastecimiento
+
+de: Versorgung heute
+es: Abastecimiento hoy
+
+de: Vertikal:
+es: Vertical:
+
+de: Verwendet für
+es: Usado para
+
+de: Verwendet: {0}
+es: Usado: {0}
+
+de: Verwerfen
+es: Descartar
+
+de: Viehzuchtbetrieb
+es: Granja ganadera
+
+de: Vom Schattenbahnhof
+es: Desde la estación oculta
+
+de: Vom Schattenbahnhof (kommt von außerhalb der Anlage)
+es: Desde la estación oculta (viene de fuera de la maqueta)
+
+de: Von beiden Seiten
+es: Desde ambos lados
+
+de: Von und nach sind derselbe Bahnhof – kein Transport nötig.
+es: Origen y destino son la misma estación – no hace falta transporte.
+
+de: Voreinstellung der Ladeklasse
+es: Ajuste de la clase de carga
+
+de: Voreinstellungen
+es: Preferencias
+
+de: Vorerst nichts
+es: Nada por ahora
+
+de: Vorgabe nach Größe (Stadt, Dorf, Ländlich) als Anteil der Abreisenden. Wird am Bahnsteig in Personenzüge mit Wagen „Kann Post/Expressgut mitnehmen“ geladen.
+es: Predeterminado según tamaño (ciudad, pueblo, rural) como proporción de los salientes. Se carga en el andén en trenes de viajeros con coches «Puede llevar correo/paquetería».
+
+de: Vorgang
+es: Operación
+
+de: Vorgang starten – aufgezeichneter Ablauf
+es: Iniciar secuencia – secuencia grabada
+
+de: Vorgang starten…
+es: Iniciar secuencia…
+
+de: Vorgänge erscheinen hier, je Zug eine Tabelle.
+es: Las operaciones aparecen aquí, una tabla por tren.
+
+de: Vorhanden: {0}{1}
+es: Presente: {0}{1}
+
+de: Vorhandene Erzeuger anpassen (mehr herstellen)
+es: Ajustar productores existentes (producir más)
+
+de: Vorhandenen Ort wählen
+es: Elegir localidad existente
+
+de: Vorhandenes wählen
+es: Elegir existente
+
+de: Vorlage
+es: Plantilla
+
+de: Vorlage wählen.\nRohstoffbetriebe brauchen Dünger, Werkzeuge oder Maschinen als Eingang.\nDanach zeigt „Zusätzlich erforderlich“, was der Betrieb noch braucht.
+es: Elegir plantilla.\nLas empresas de materias primas necesitan fertilizante, herramientas o máquinas como entrada.\nDespués «Necesario además» muestra lo que aún necesita la empresa.
+
+de: Vorlage:
+es: Plantilla:
+
+de: Vorschau:
+es: Vista previa:
+
+de: Vorschlag
+es: Propuesta
+
+de: Vorschlag Ländlich
+es: Propuesta rural
+
+de: Vorschlag für ein Dorf
+es: Propuesta para un pueblo
+
+de: Vorschlag für eine Stadt
+es: Propuesta para una ciudad
+
+de: Vorschlag „{0}“ gespeichert.
+es: Propuesta «{0}» guardada.
+
+de: Vorschlag…
+es: Propuesta…
+
+de: Wagen
+es: Vagón
+
+de: Wagen ergänzen
+es: Completar vagones
+
+de: Wagen hinzufügen
+es: Añadir vagón
+
+de: Wagen hinzufügen…
+es: Añadir vagón…
+
+de: Wagen importieren...
+es: Importar vagones...
+
+de: Wagen links auswählen.
+es: Elija un vagón a la izquierda.
+
+de: Wagen mit öffnungsfähigem Dach
+es: Vagón de techo abrible
+
+de: Wagenart
+es: Tipo de vagón
+
+de: Wagenbauart
+es: Construcción del vagón
+
+de: Wagenladungen
+es: Cargas por vagón
+
+de: Wandlung
+es: Transformación
+
+de: Warten
+es: Esperar
+
+de: Wartend
+es: En espera
+
+de: Wartende Personen
+es: Personas en espera
+
+de: Wartende Personen (1. Klasse / 2. Klasse): {0}
+es: Personas en espera (1.ª clase / 2.ª clase): {0}
+
+de: Wartende Personen Richtung {0}
+es: Personas en espera dirección {0}
+
+de: Wartende/Kapazität
+es: En espera/capacidad
+
+de: Wartet
+es: Espera
+
+de: Wartet auf Eingang: {0}
+es: Espera entrada: {0}
+
+de: Wartezeit-Zähler ausblenden
+es: Ocultar contador de espera
+
+de: Was soll passieren
+es: Qué debe suceder
+
+de: Was:
+es: Qué:
+
+de: Wasserstoff
+es: Hidrógeno
+
+de: Wasserverbrauch Liter/km
+es: Consumo de agua litros/km
+
+de: Wasservorrat Kubikmeter
+es: Reserva de agua metros cúbicos
+
+de: Weberei
+es: Tejeduría
+
+de: Weicht von der Zusammenstellung in der .tcdz ab (eigene, erweiterte Daten).
+es: Difiere de la composición del .tcdz (datos propios ampliados).
+
+de: Weiter
+es: Siguiente
+
+de: Weiter >
+es: Siguiente >
+
+de: Weiteren Betrieb anlegen
+es: Crear otra empresa
+
+de: Weiß
+es: Blanco
+
+de: Welcher Betrieb liegt an den Ladegleisen von „{0}“?
+es: ¿Qué empresa está en las vías de carga de «{0}»?
+
+de: Welcher Ort, Betrieb, welches Lager oder welche Übergabe?
+es: ¿Qué localidad, empresa, almacén o intercambio?
+
+de: Welcher Ort?
+es: ¿Qué localidad?
+
+de: Welches Gleis soll Ladegleis werden? Ein Bahnsteig kann zugleich Ladegleis sein. {0}
+es: ¿Qué vía debe ser vía de carga? Un andén puede ser a la vez vía de carga. {0}
+
+de: Werkzeuge
+es: Herramientas
+
+de: Werkzeugfabrik
+es: Fábrica de herramientas
+
+de: Wert
+es: Valor
+
+de: Wie viel Kapazität eines {0}-Wagens (in {1}) eine Einheit {2} belegt. Beispiel: 10 – ein Wagen mit Kapazität 20 lädt 2.
+es: Cuánta capacidad de un vagón {0} (en {1}) ocupa una unidad de {2}. Ejemplo: 10 – un vagón de capacidad 20 carga 2.
+
+de: Wie viel der Wagen insgesamt aufnimmt, in der gewählten Einheit (Gebinde und Stück zählen gleich). Hat ein Gut eine eigene Einheit (z. B. Brammen zu je 10), belegt jede Einheit entsprechend mehr. Welche Kapazitäten gebraucht werden, zeigt Tabellen > Kapazitäten.
+es: Cuánto admite el vagón en total, en la unidad elegida (cajas y piezas cuentan igual). Si una mercancía tiene unidad propia (p. ej. desbastes de 10), cada unidad ocupa más en proporción. Tablas > Capacidades muestra qué capacidades se necesitan.
+
+de: Wird von außerhalb geliefert
+es: Se entrega desde fuera
+
+de: Wo läuft iTrain?
+es: ¿Dónde funciona iTrain?
+
+de: Wolle
+es: Lana
+
+de: Wollen verreisen: {0} (gehen alle {1} Modellminuten zum Bahnhof)
+es: Quieren viajar: {0} (van a la estación cada {1} minutos de modelo)
+
+de: Wurzel
+es: Raíz
+
+de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
+es: Elija los bloques que pertenecen a la estación oculta en iTrain y, por bloque, si allí {0}. Mejor una vía por sentido de marcha.
+
+de: XTC antwortet nicht
+es: XTC no responde
+
+de: XTC-Port (Vorgabe {0})
+es: Puerto XTC (predeterminado {0})
+
+de: Zeit
+es: Hora
+
+de: Zeit (Trigger)
+es: Hora (trigger)
+
+de: Zeit für Beladen
+es: Tiempo de carga
+
+de: Zeit für Beladen (Sekunden)
+es: Tiempo de carga (segundos)
+
+de: Zeit für Entladen
+es: Tiempo de descarga
+
+de: Zeit für Entladen (Sekunden)
+es: Tiempo de descarga (segundos)
+
+de: Zement
+es: Cemento
+
+de: Zementwerk
+es: Cementera
+
+de: Zentriert
+es: Centrado
+
+de: Ziegel
+es: Ladrillos
+
+de: Ziegelei
+es: Ladrillera
+
+de: Ziehen ordnet an (mit Umschalt rastet die Verbindung gerade im 90°-Winkel ein) · rechten Rand ziehen = Breite · Anschluss: Rechtsklick „Mit Station verbinden…“ · Doppelklick bearbeitet · Rechtsklick: Farbe/Löschen, auf einer Linie: Linienstärke · Palette: klicken oder auf die Fläche ziehen
+es: Arrastrar ordena (con Mayús la conexión encaja recta a 90°) · arrastrar el borde derecho = ancho · conexión: clic derecho «Conectar con estación…» · doble clic edita · clic derecho: color/borrar, sobre una línea: grosor · paleta: clic o arrastrar a la superficie
+
+de: Ziele nehmen nur {0} M/h auf
+es: Los destinos solo reciben {0} M/h
+
+de: Zirkus
+es: Circo
+
+de: Zoom
+es: Zoom
+
+de: Zoom:
+es: Zoom:
+
+de: Zu wenig Platz an den Ladegleisen für: {0}.\nEin Lager an diesem Bahnhof nimmt auf, was die Gleise nicht halten können, und gibt es nach und nach weiter.
+es: Poco espacio en las vías de carga para: {0}.\nUn almacén en esta estación recibe lo que las vías no pueden contener y lo pasa poco a poco.
+
+de: Zu „{0}“ gibt es schon Fahrzeugdaten ({1}: Angaben zu Lokomotiven, Wagen und Zügen).\n\n„Übernehmen“: diese Konfiguration benutzt sie mit; Änderungen gelten auch für die anderen Konfigurationen dieser Anlage.\n„Nicht übernehmen“: eigene, leere Fahrzeugdaten.
+es: Ya hay datos de vehículos para «{0}» ({1}: datos de locomotoras, vagones y trenes).\n\n«Adoptar»: esta configuración los comparte; los cambios valen también para las otras configuraciones de esta maqueta.\n«No adoptar»: datos de vehículos propios, vacíos.
+
+de: Zug
+es: Tren
+
+de: Zug links auswählen.
+es: Elija un tren a la izquierda.
+
+de: Zug mit passenden Wagen
+es: Tren con vagones adecuados
+
+de: Zug von links auf die linke oder rechte Seite eines Blocks ziehen.
+es: Arrastrar un tren de la izquierda al lado izquierdo o derecho de un bloque.
+
+de: Zug {0}
+es: Tren {0}
+
+de: Zug {0}{1}
+es: Tren {0}{1}
+
+de: Zug:
+es: Tren:
+
+de: Zuganzeiger
+es: Salidas
+
+de: Zuganzeiger Güterverkehr
+es: Salidas mercancías
+
+de: Zuganzeiger Personen- und Güterverkehr auf Handy, Tablet oder anderem Rechner
+es: Paneles de salidas de viajeros y mercancías en móvil, tableta u otro ordenador
+
+de: Zuganzeiger Personenverkehr
+es: Salidas viajeros
+
+de: Zuganzeiger für Personen- oder Güterverkehr: die nächsten nötigen Fahrten als Abfahrtstafel, auf jeden Monitor ziehbar
+es: Panel de salidas de viajeros o mercancías: los próximos viajes necesarios como panel de salidas, se puede arrastrar a cualquier monitor
+
+de: Zuganzeiger je Bahnhof
+es: Salidas por estación
+
+de: Zuklappen
+es: Plegar
+
+de: Zuletzt verwendet...
+es: Usados recientemente...
+
+de: Zuordnen über "Bearbeiten…".
+es: Asignar con "Editar…".
+
+de: Zur Lieferung auswählen (Ladegleise):
+es: Elegir para la entrega (vías de carga):
+
+de: Zurzeit sind keine Fahrten nötig.
+es: Ahora no hacen falta viajes.
+
+de: Zurück
+es: Atrás
+
+de: Zustand
+es: Estado
+
+de: Zusteigen erlaubt
+es: Subir permitido
+
+de: Zusätzlich erforderlich
+es: Necesario además
+
+de: Zwischenprodukt
+es: Producto intermedio
+
+de: Züge
+es: Trenes
+
+de: Züge (auf einen Block ziehen)
+es: Trenes (arrastrar a un bloque)
+
+de: alle Güter
+es: todas las mercancías
+
+de: alle Güter der Ladeklasse {0}
+es: todas las mercancías de la clase {0}
+
+de: aus dem Nichts
+es: de la nada
+
+de: aussteigen in {0}
+es: bajar en {0}
+
+de: der Abnehmer
+es: el cliente
+
+de: der volle Triebzug
+es: el automotor lleno
+
+de: die Betriebe
+es: las empresas
+
+de: eigener Betrieb
+es: empresa propia
+
+de: ein voller Wagen
+es: un vagón lleno
+
+de: erst eine Station anlegen
+es: crear primero una estación
+
+de: es fehlen
+es: faltan
+
+de: es fehlen {0} M/h
+es: faltan {0} M/h
+
+de: es kommen nur {0} M/h
+es: solo llegan {0} M/h
+
+de: geeignet: Zug 
+es: adecuado: tren 
+
+de: geeignet: Züge 
+es: adecuados: trenes 
+
+de: gelb – Anlieferung aus Lager möglich
+es: amarillo – entrega desde almacén posible
+
+de: grün
+es: verde
+
+de: hält
+es: para
+
+de: iTrain Datei neu einlesen...
+es: Volver a leer archivo iTrain...
+
+de: iTrain Verbindung
+es: Conexión iTrain
+
+de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+es: iTrain elegido: eventos de tren en línea vía XTC ({0}:{1}). Ctrl + clic en la fuente muestra Rx/Tx.
+
+de: iTrain läuft auf diesem Computer
+es: iTrain funciona en este ordenador
+
+de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
+es: iTrain funciona en este ordenador ({0}), XTC no responde en el puerto {1}
+
+de: iTrain läuft auf einem anderen Computer
+es: iTrain funciona en otro ordenador
+
+de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
+es: iTrain no funciona en este ordenador (el puerto XTC {0} no responde)
+
+de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+es: iTrain funciona, pero la interfaz XTC no responde. Sin XTC no llegan eventos de tren en línea.\n\nComprobar: Ajustes → Conexión con iTrain (dirección y puerto XTC, predeterminado 7128); si iTrain funciona en otro ordenador, su cortafuegos debe permitir el puerto entrante.
+
+de: iTrain nicht mehr gefunden.
+es: iTrain ya no se encuentra.
+
+de: iTrain noch nicht gestartet
+es: iTrain aún no iniciado
+
+de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+es: iTrain no accesible en {0} (el puerto XTC {1} no responde; ¿funciona iTrain? ¿dirección correcta? el cortafuegos de Windows del ordenador de iTrain debe permitir el puerto {2} entrante)
+
+de: iTrain wird gesucht …
+es: Buscando iTrain …
+
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+es: No se encontró iTrain, la logística está en pausa.\n\nSi iTrain ya funciona, compruebe la dirección y el puerto XTC en Ajustes → Conexión con iTrain (allí también «Comprobar conexión»).
+
+de: iTrain → Voreinstellungen → Modus → Server
+es: iTrain → Preferencias → Modo → Servidor
+
+de: iTrain-Anlagendatei verknüpfen
+es: Vincular archivo de maqueta iTrain
+
+de: iTrain-Anlagendatei wählen
+es: Elegir archivo de maqueta iTrain
+
+de: iTrain-Dateien (*.tcdz, *.tcd)
+es: Archivos iTrain (*.tcdz, *.tcd)
+
+de: iTrain-Logistik Wagen-Angaben
+es: Datos de vagón iTrain-Logistik
+
+de: iTrain-Logistik – {0}
+es: iTrain-Logistik – {0}
+
+de: iTrain-Logistik-Dateien (*.logz)
+es: Archivos iTrain-Logistik (*.logz)
+
+de: iTrain-Logistik-Simulator – {0}
+es: Simulador iTrain-Logistik – {0}
+
+de: iTrain-Prüfung fehlgeschlagen: {0}
+es: Comprobación de iTrain fallida: {0}
+
+de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
+es: Servidor iTrain accesible en {0}:{1}, pero XTC no responde en el puerto {2}
+
+de: je Modellstunde
+es: por hora de modelo
+
+de: kein Abnehmer
+es: sin cliente
+
+de: kein Bedarf eingetragen
+es: sin demanda introducida
+
+de: kein Güterbahnhof – Güter kommen nicht an
+es: sin estación de mercancías – las mercancías no llegan
+
+de: kein Lieferant
+es: sin proveedor
+
+de: kein Personenzug mit Gepäckwagen (Koffer als Ladegut aktivieren)
+es: ningún tren de viajeros con furgón (activar maletas como carga)
+
+de: kein Ziel
+es: sin destino
+
+de: kein Ziel – weiterer Bahnhof oder Schattenbahnhof nötig
+es: sin destino – hace falta otra estación o estación oculta
+
+de: kein Zug kann das laden
+es: ningún tren puede cargarlo
+
+de: kein Zug kann „{0}“ laden (Wagen ergänzen oder Lade-Joker)
+es: ningún tren puede cargar «{0}» (completar vagones o comodín)
+
+de: kein Zug mit Plätzen
+es: ningún tren con plazas
+
+de: kein anderer Bahnhof mit Bahnsteig „Mit Koffer“
+es: ninguna otra estación con andén «Con maleta»
+
+de: kein {0} vorhanden
+es: no hay {0}
+
+de: keine (keine Trennung nach Richtung)
+es: ninguna (sin separación por dirección)
+
+de: keine Gleise
+es: sin vías
+
+de: keine Güter aktiv
+es: ninguna mercancía activa
+
+de: keine Güter am Gleis
+es: ninguna mercancía en la vía
+
+de: keine – bitte in iTrain anlegen, dann „Abgleichen“ und den Assistenten erneut starten
+es: ninguna – créela en iTrain, luego «Sincronizar» e inicie de nuevo el asistente
+
+de: localhost oder z. B. 192.168.0.171
+es: localhost o p. ej. 192.168.0.171
+
+de: mehr als {0} Fahrten je Modellstunde nötig – Menge senken oder größere Züge
+es: hacen falta más de {0} viajes por hora de modelo – reducir cantidad o trenes más grandes
+
+de: nach jeder Übergabe von Gütern oder Personen
+es: tras cada transferencia de mercancías o personas
+
+de: niemand bringt Reisende – weiterer Bahnhof oder Schattenbahnhof nötig
+es: nadie trae viajeros – hace falta otra estación o estación oculta
+
+de: nimmt alles ab
+es: recibe todo
+
+de: noch {0} cm
+es: faltan {0} cm
+
+de: nur mit {0} verbunden{1}
+es: solo conectado con {0}{1}
+
+de: rot – Abholung nötig
+es: rojo – recogida necesaria
+
+de: rot – Anlieferung nötig
+es: rojo – entrega necesaria
+
+de: translations.properties wurde weder im Arbeitsverzeichnis noch als Ressource gefunden - es werden nur die Schluessel angezeigt.
+es: translations.properties no se encontró ni en la carpeta de trabajo ni como recurso - solo se muestran las claves.
+
+de: von links
+es: por la izquierda
+
+de: von links → {0}
+es: por la izquierda → {0}
+
+de: von rechts
+es: por la derecha
+
+de: wird entladen
+es: descargando
+
+de: wird geladen
+es: cargando
+
+de: z. B. 192.168.0.171 oder Rechnername
+es: p. ej. 192.168.0.171 o nombre de ordenador
+
+de: zeigt zurzeit: {0}{1}
+es: muestra ahora: {0}{1}
+
+de: zurzeit kein Umladen
+es: ahora sin transbordo
+
+de: {0}\nAusgewähltes wird mit „Weiter“ übernommen; „Offen lassen“ ändert nichts.
+es: {0}\nLo elegido se adopta con «Siguiente»; «Dejar abierto» no cambia nada.
+
+de: {0}\nBahnhof: {1}
+es: {0}\nEstación: {1}
+
+de: {0}\nKein Bahnhof mit Bahnsteig angeschlossen
+es: {0}\nNinguna estación con andén conectada
+
+de: {0}   ↔   verknüpft mit {1}{2}
+es: {0}   ↔   vinculado con {1}{2}
+
+de: {0} % der Reisenden in „{1}“ haben einen Koffer.
+es: El {0} % de los viajeros de «{1}» lleva maleta.
+
+de: {0} (Build {1})
+es: {0} (build {1})
+
+de: {0} ({1} Koffer)
+es: {0} ({1} maletas)
+
+de: {0} Ausführungen/h
+es: {0} ejecuciones/h
+
+de: {0} Bahnhof/Bahnhöfe angeheftet oder ergänzt.
+es: {0} estación(es) vinculada(s) o completada(s).
+
+de: {0} Beim Personen-/Gepäckwagen gelten die Zeiten für Reisende und Gepäck.
+es: {0} En el coche de viajeros/equipajes los tiempos valen para viajeros y equipaje.
+
+de: {0} Gbf
+es: {0} Merc
+
+de: {0} Güter
+es: {0} mercancías
+
+de: {0} Güter ergänzt.
+es: {0} mercancías añadidas.
+
+de: {0} Hinweise
+es: {0} avisos
+
+de: {0} Kapazitäten
+es: {0} capacidades
+
+de: {0} Personen
+es: {0} personas
+
+de: {0} Plätze
+es: {0} plazas
+
+de: {0} Plätze 1. Klasse
+es: {0} plazas 1.ª clase
+
+de: {0} Plätze 2. Klasse
+es: {0} plazas 2.ª clase
+
+de: {0} Reisende wollen je Modellstunde aus „{1}“ abfahren.
+es: {0} viajeros quieren salir de «{1}» por hora de modelo.
+
+de: {0} Station(en) aus den iTrain-Bahnhöfen eingefügt.
+es: {0} estación(es) insertada(s) desde las estaciones de iTrain.
+
+de: {0} Wagenladungen{1}, {2}/{3} Plätze
+es: {0} cargas{1}, {2}/{3} plazas
+
+de: {0} aus „{1}“
+es: {0} de «{1}»
+
+de: {0} ausgewählt
+es: {0} elegido(s)
+
+de: {0} braucht Güter. Der Güterbahnhof gehört zu {1}. Welche Blöcke sind Ladegleise? (Er darf dieselben Blöcke wie der Bahnhof nutzen.)
+es: {0} necesita mercancías. La estación de mercancías pertenece a {1}. ¿Qué bloques son vías de carga? (Puede usar los mismos bloques que la estación.)
+
+de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
+es: {0} pasa por {1}, {2} (carga/descarga al pasar)
+
+de: {0} erreichbar über XTC unter {1}:{2}
+es: {0} accesible vía XTC en {1}:{2}
+
+de: {0} fährt ab von {1}{2}
+es: {0} sale de {1}{2}
+
+de: {0} für „{1}“
+es: {0} para «{1}»
+
+de: {0} gehört zur Anlage · kein Austausch, Reisende und Güter fahren mit Zügen
+es: {0} pertenece a la maqueta · sin intercambio, viajeros y mercancías viajan en tren
+
+de: {0} hat Passagiere. Welche Blöcke von {1} sind Personengleise (Bahnsteige)? Keine Auswahl = keine Personen.
+es: {0} tiene viajeros. ¿Qué bloques de {1} son vías de viajeros (andenes)? Sin selección = sin personas.
+
+de: {0} hat keine {1}e.
+es: {0} no tiene {1}.
+
+de: {0} hält in {1}, {2}{3}
+es: {0} para en {1}, {2}{3}
+
+de: {0} ist angeschlossen an
+es: {0} está conectado a
+
+de: {0} ist mit keinem Bahnhof verbunden{1}
+es: {0} no está conectado con ninguna estación{1}
+
+de: {0} mit „{1}“ verbinden ({2}, {3} Bahnsteige)
+es: conectar {0} con «{1}» ({2}, {3} andenes)
+
+de: {0} sollen je Modellstunde nach „{1}“ geliefert werden.
+es: {0} deben entregarse por hora de modelo a «{1}».
+
+de: {0} von {1} Blöcken sind keinem Gleis zugeordnet (Strecke).
+es: {0} de {1} bloques no están asignados a ninguna vía (trayecto).
+
+de: {0} wird auf der Anlage nirgends benötigt.\nTrotzdem zum Verladen bereitstellen?
+es: {0} no se necesita en ningún lugar de la maqueta.\n¿Prepararlo para cargar de todos modos?
+
+de: {0} wird in {1} benötigt.\nZum Verladen bereitstellen?
+es: {0} se necesita en {1}.\n¿Prepararlo para cargar?
+
+de: {0} wird noch verwendet: {1}
+es: {0} todavía se usa: {1}
+
+de: {0} {1} je Modellstunde
+es: {0} {1} por hora de modelo
+
+de: {0} – Logistik gestartet.
+es: {0} – logística iniciada.
+
+de: {0} – Logistik ist auf Pause.
+es: {0} – la logística está en pausa.
+
+de: {0} – hier gilt „{1}“
+es: {0} – aquí vale «{1}»
+
+de: {0} – liefert immer, ohne auf der Anlage zu sein
+es: {0} – entrega siempre, sin estar en la maqueta
+
+de: {0} – nur über Gleise (Angebot/Reisende je Gleis)
+es: {0} – solo mediante vías (oferta/viajeros por vía)
+
+de: {0} – schon mit „{1}“ verbunden
+es: {0} – ya conectado con «{1}»
+
+de: {0} ← von rechts
+es: {0} ← por la derecha
+
+de: {0}: bereit zum Transport / Lagerkapazität am Güterbahnhof
+es: {0}: listo para transporte / capacidad de almacén en la estación de mercancías
+
+de: {0}Annehmen
+es: {0}Aceptar
+
+de: {0}{1}Geräusche
+es: {0}{1}Sonidos
+
+de: Änderungen speichern?
+es: ¿Guardar cambios?
+
+de: Öffnen...
+es: Abrir...
+
+de: Ölplattform
+es: Plataforma petrolera
+
+de: Ölquelle
+es: Pozo de petróleo
+
+de: Ölraffinerie
+es: Refinería
+
+de: Über
+es: Acerca de
+
+de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
+es: Vía XTC, iTrain informa por tren de la entrada en un bloque, la espera con su duración y la salida, así como de la hora de modelo. Si iTrain funciona en otro ordenador, su cortafuegos debe permitir el puerto XTC entrante.
+
+de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
+es: Por el nombre del ordenador (funciona si el router o el dispositivo conoce el nombre):
+
+de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+es: Mediante la interfaz XTC, iTrain informa por tren de la entrada, la espera con su duración y la salida, así como de la hora de modelo. "localhost" = iTrain funciona en este ordenador. Si iTrain funciona en otro ordenador, su cortafuegos de Windows debe permitir el puerto XTC entrante. Los cambios valen tras cerrar las preferencias.
+
+de: Übergabe
+es: Intercambio
+
+de: Übergabe (Außenwelt)
+es: Intercambio (mundo exterior)
+
+de: Übergabe bearbeiten
+es: Editar intercambio
+
+de: Übergabe/Schattenbahnhof
+es: Intercambio/estación oculta
+
+de: Übergabe: Güter kommen von außerhalb oder gehen hinaus
+es: Intercambio: las mercancías vienen de fuera o salen
+
+de: Übernehmen
+es: Adoptar
+
+de: Übernimmt Personenwerte und Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+es: Adopta valores de viajeros y cantidades de mercancías (sustituye la tabla). ★ = propuesta propia.
+
+de: Überschuss
+es: Excedente
+
+de: Überschuss vernichtet (heute)
+es: Excedente destruido (hoy)
+
+de: Überschuss {0} M/h (wird gelagert)
+es: Excedente {0} M/h (se almacena)
+
+de: Übersicht
+es: Vista general
+
+de: Übersicht öffnen
+es: Abrir vista general
+
+de: Überträgt den Wert der ersten markierten Zeile in der gewählten Spalte auf alle markierten Zeilen
+es: Copia el valor de la primera fila marcada en la columna elegida a todas las filas marcadas
+
+de: – direkt –
+es: – directo –
+
+de: – kein Abnehmer
+es: – sin cliente
+
+de: – kein Gegenstück
+es: – sin contrapartida
+
+de: – kein Lieferant
+es: – sin proveedor
+
+de: – niemand
+es: – nadie
+
+de: „Liefert immer, ohne auf der Anlage zu sein“ ist angehakt: alle Eingänge werden immer geliefert. Haken entfernen, um einzelne Güter zu wählen.
+es: «Entrega siempre, sin estar en la maqueta» está marcado: todas las entradas se entregan siempre. Desmarcar para elegir mercancías individuales.
+
+de: „Weiter“ ergänzt: {0}{1}
+es: «Siguiente» completa: {0}{1}
+
+de: „{0}“ braucht je Modellstunde {1}.
+es: «{0}» necesita {1} por hora de modelo.
+
+de: „{0}“ erhöhen
+es: Aumentar «{0}»
+
+de: „{0}“ fährt ab aus „{1}“ – Route „{2}“{3}.
+es: «{0}» sale de «{1}» – ruta «{2}»{3}.
+
+de: „{0}“ fährt in „{1}“ ({2}) von der falschen Seite ein – Zug muss Kopf machen.
+es: «{0}» entra en «{1}» ({2}) por el lado equivocado – el tren debe invertir la marcha.
+
+de: „{0}“ hat noch die Art „Anderes“ (aus iTrain „other“) – dort halten Züge ohne Ein- und Aussteigen; im Stationsdialog Art „Bahnhof“ oder „Haltepunkt“ wählen
+es: «{0}» aún tiene el tipo «Otro» (de iTrain «other») – allí los trenes paran sin subir ni bajar; elija en el diálogo de la estación el tipo «Estación» o «Apeadero»
+
+de: „{0}“ hat noch kein Ladegleis
+es: «{0}» aún no tiene vía de carga
+
+de: „{0}“ hat noch kein Ladegleis, und es ist kein freier Block da. Bitte später im Stationsdialog ein Gleis als Ladegleis einrichten.
+es: «{0}» aún no tiene vía de carga y no hay bloque libre. Prepare más tarde una vía de carga en el diálogo de la estación.
+
+de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
+es: «{0}» para en «{1}»: tipo «Otro», por eso no se sube ni se baja. Elija el tipo en el diálogo de la estación (p. ej. estación).
+
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+es: «{0}» colgará entonces del {1} en vez de la infraestructura de la maqueta.\nEstación de mercancías, localidades, empresas y almacenes van con ella a su pestaña.
+
+de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
+es: «{0}» en «{1}»: el tiempo de espera no basta para que suban/bajen todos los viajeros.
+
+de: „{0}“ in „{1}“: Wartezeit zu kurz, um alles zu laden.
+es: «{0}» en «{1}»: tiempo de espera demasiado corto para cargarlo todo.
+
+de: „{0}“ liefert automatisch, ohne Zug.
+es: «{0}» entrega automáticamente, sin tren.
+
+de: „{0}“ liefert {1} unbegrenzt.
+es: «{0}» entrega {1} sin límite.
+
+de: „{0}“ liefert, ohne auf der Anlage zu sein.
+es: «{0}» entrega sin estar en la maqueta.
+
+de: „{0}“ nimmt beliebig viele ankommende Reisende auf.
+es: «{0}» recibe cualquier número de viajeros que llegan.
+
+de: „{0}“ nimmt je Modellstunde {1} ankommende Reisende auf.
+es: «{0}» recibe {1} viajeros que llegan por hora de modelo.
+
+de: „{0}“ stellt je Modellstunde {1} her{2}.
+es: «{0}» produce {1} por hora de modelo{2}.
+
+de: „{0}“ stellt {1} schon her; es fehlen {2} je Modellstunde.
+es: «{0}» ya produce {1}; faltan {2} por hora de modelo.
+
+de: „{0}“ zum Bahnhof machen (bisher „Anderes“{1}
+es: Convertir «{0}» en estación (hasta ahora «Otro»{1}
+
+de: „Übernehmen“ trägt das in die Anlage ein. Was danach noch fehlt, zeigt der Assistent an.
+es: «Adoptar» lo introduce en la maqueta. Lo que falte después lo indica el asistente.
+
+de: ∞ von außerhalb geliefert
+es: ∞ se entrega desde fuera
+
+de: ■ Stopp
+es: ■ Parar
+
+de: ▭ Block 
+es: ▭ Bloque 
+
+de: ▲ Abreisende 
+es: ▲ Salientes 
+
+de: ▲ Entladen · ▼ Beladen
+es: ▲ Descarga · ▼ Carga
+
+de: ▲ {0} geht an:
+es: ▲ {0} va a:
+
+de: ▶ Austausch läuft
+es: ▶ Intercambio en marcha
+
+de: ▶ Probehören
+es: ▶ Escuchar
+
+de: ▶ Start
+es: ▶ Iniciar
+
+de: ▼ Ankommende 
+es: ▼ Llegadas 
+
+de: ▼ wartet auf Abholung · ▲ abgeladen, geht an die Abnehmer · Kapazität {0} je Gut{1}
+es: ▼ espera recogida · ▲ descargado, va a los clientes · capacidad {0} por mercancía{1}
+
+de: ▼ {0} kommt von:
+es: ▼ {0} viene de:
+
+de: ▼ {0} {1} M/h – {2}, kommt von:
+es: ▼ {0} {1} M/h – {2}, viene de:
+
+de: ▼ {0} – {1}, kommt von:
+es: ▼ {0} – {1}, viene de:
+
+de: ⚠ Kopf machen{0}
+es: ⚠ Invertir marcha{0}
+
+de: ✔ Direkte Verbindung über die Zugroute „{0}“.
+es: ✔ Conexión directa por la ruta «{0}».
+
+de: ✔ in Ordnung
+es: ✔ en orden
+
+de: ✔ {0} auf {1}:{2}, {3} Züge
+es: ✔ {0} en {1}:{2}, {3} trenes
+
+de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
+es: ✔ {0} funciona en {1} (puerto XTC {2}), {3} trenes: {4}
+
+de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
+es: ✘ Sin respuesta de iTrain en {0}:{1} ({2}).\n¿Funciona iTrain allí? ¿Está abierto el cortafuegos de Windows del ordenador de iTrain para el puerto {3} entrante? ¿Son correctos dirección y puerto?
+
+de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
+es: ✘ Sin respuesta de iTrain-XTC en {0}:{1} ({2})
+
+de: ❚❚ Austausch angehalten
+es: ❚❚ Intercambio en pausa
+
+de: ❚❚ Pause
+es: ❚❚ Pausa
+
+de: ❚❚ pausiert
+es: ❚❚ en pausa
+
+de: Verkehrs-Assistent...
+es: Asistente de tráfico...
+
+de: Symbole...
+es: Símbolos...
+
+de: Anlagen-Infrastruktur
+es: Infraestructura de la maqueta
+
+de: leer
+es: vacío
+
+de: Modellbahn-Faktor
+es: Factor de maqueta
+
+de: Vorbild-Gewicht/Ladegewicht
+es: Peso real/carga
+
+de: Vorbild-Volumen
+es: Volumen real
+
+de: Offen/Geschlossen
+es: Abierto/cerrado
+
+de: alle
+es: todas
+
+de: nein
+es: no
+
+de: ja
+es: sí
+
+de: 1. Kl.
+es: 1.ª cl.
+
+de: 2. Kl.
+es: 2.ª cl.
+
+de: Wartend: {0} (1. Kl.) + {1} (2. Kl.) / {2}
+es: En espera: {0} (1.ª cl.) + {1} (2.ª cl.) / {2}
+
+de: Passagiere 1. Klasse: {0} / {1},  2. Klasse: {2} / {3}
+es: Viajeros 1.ª clase: {0} / {1},  2.ª clase: {2} / {3}
+
+de: Block: -
+es: Bloque: -
+
+de: XTC-Port:
+es: Puerto XTC:
+
+de: {0} Blöcke
+es: {0} bloques
+
+de: (keine)
+es: (ninguna)
+
+de: Aktualisierung
+es: Actualización
+
+de: Alle 10 Sekunden
+es: Cada 10 segundos
+
+de: Alle 15 Minuten
+es: Cada 15 minutos
+
+de: Alle 30 Sekunden
+es: Cada 30 segundos
+
+de: Alle 5 Minuten
+es: Cada 5 minutos
+
+de: Anfangsordner für Layout-Dateien
+es: Carpeta inicial de archivos de maqueta
+
+de: Ansicht
+es: Vista
+
+de: Beim Start automatisch nach Updates suchen
+es: Buscar actualizaciones al iniciar
+
+de: Bildschirm
+es: Pantalla
+
+de: Bildschirm {0} ({1}x{2})
+es: Pantalla {0} ({1}x{2})
+
+de: Blockpositionen
+es: Posiciones de bloques
+
+de: Blöcke
+es: Bloques
+
+de: Daten ändern
+es: Modificar datos
+
+de: Die Uhr zeigt die aus der geöffneten .tcdz gelesene Modellbahnzeit und läuft mit dem dort hinterlegten Beschleunigungsfaktor weiter. Ohne geöffnete Datei bleibt sie leer.
+es: El reloj muestra la hora de la maqueta leída del .tcdz abierto y sigue con el factor de aceleración guardado allí. Sin archivo abierto queda vacío.
+
+de: Dunkel
+es: Oscuro
+
+de: Durchsuchen...
+es: Examinar...
+
+de: Entfernen
+es: Quitar
+
+de: Epoche
+es: Época
+
+de: Epoche der Anlage. Der Echtzeit-Kern kennt nur die 1. und 2. Klasse; den Anteil der 1. Klasse stellen Sie je Stadt oder Dorf ein.
+es: Época de la maqueta. El núcleo en tiempo real solo conoce 1.ª y 2.ª clase; la proporción de 1.ª clase se ajusta por ciudad o pueblo.
+
+de: Farbkombination
+es: Combinación de colores
+
+de: Farbschema
+es: Esquema de colores
+
+de: Gekoppelte iTrain-Datei
+es: Archivo iTrain vinculado
+
+de: Gilt als Vorbelegung für neue Lokomotiven, solange dort noch kein eigener Wert eingetragen wurde. Bereits individuell gesetzte Werte bleiben unverändert.
+es: Sirve de valor predeterminado para locomotoras nuevas mientras no tengan un valor propio. Los valores ya fijados individualmente no cambian.
+
+de: Hell
+es: Claro
+
+de: Hintergrund
+es: Fondo
+
+de: Jede Minute
+es: Cada minuto
+
+de: Legt fest, wie oft die gekoppelte .tcdz erneut eingelesen wird, um neu hinzugekommene oder entfernte Einträge zu übernehmen. Bereits vorhandene eigene Zusatzdaten bleiben dabei erhalten.
+es: Define con qué frecuencia se vuelve a leer el .tcdz vinculado para adoptar entradas nuevas o eliminadas. Los datos propios existentes se conservan.
+
+de: Lokomotiven
+es: Locomotoras
+
+de: Maßstab-Vorlage
+es: Plantilla de escala
+
+de: Modellbahn-Faktor-Vorlage
+es: Plantilla de factor de maqueta
+
+de: Nur beim Start
+es: Solo al iniciar
+
+de: Nur ein Bildschirm angeschlossen
+es: Solo una pantalla conectada
+
+de: Ordner für Symbole (.svg)
+es: Carpeta de símbolos (.svg)
+
+de: Pfad für Logistik-Dateien
+es: Ruta de archivos logísticos
+
+de: Pfade
+es: Rutas
+
+de: Sekunden anzeigen
+es: Mostrar segundos
+
+de: Speichern
+es: Guardar
+
+de: Sprache
+es: Idioma
+
+de: Textfarbe
+es: Color del texto
+
+de: Uhr
+es: Reloj
+
+de: Uhr im Ribbon anzeigen
+es: Mostrar reloj en la cinta
+
+de: Voreinstellungen
+es: Preferencias
+
+de: Vorlagen
+es: Plantillas
+
+de: Wagen
+es: Vagones
+
+de: Wie zuletzt
+es: Como la última vez
+
+de: Zurück
+es: Atrás
+
+de: Züge
+es: Trenes
+
+
+# Browser-Seiten (09.11.2026)
+de: Nicht gefunden
+es: No encontrado
+
+de: Kein Modul „{0}“ (oder nicht für den Browser freigegeben).
+es: No hay módulo «{0}» (o no está habilitado para el navegador).
+
+de: Zur Übersicht
+es: A la vista general
+
+de: Kein Geräusch
+es: Sin sonido
+
+de: Lade…
+es: Cargando…
+
+de: ausgestiegen
+es: bajaron
+
+de: eingestiegen
+es: subieron
+
+de: Ausladen
+es: Descarga
+
+de: Einladen
+es: Carga
+
+de: Antippen: Geräusch
+es: Tocar: sonido
+
+de: Bereit zum Transport
+es: Listo para transporte
+
+de: Herstellung
+es: Producción
+
+de: ohne Eingang
+es: sin entrada
+
+de: Eingelagert
+es: Almacenado
+
+de: Ladung
+es: Carga
+
+de: Ton an
+es: Sonido sí
+
+de: Ton aus
+es: Sonido no
+
+de: Rezept ausblenden
+es: Ocultar receta
+
+de: Rezept anzeigen
+es: Mostrar receta
+
+de: keine Verbindung zum Logistik-Rechner
+es: sin conexión con el ordenador de Logística
+
+de: Vollbild an/aus
+es: Pantalla completa sí/no
+
+de: Vollbild
+es: Pantalla completa
+
+de: Anzeiger
+es: Paneles
+
+de: Kein Bahnhof unter dieser Adresse
+es: No hay estación en esta dirección
+
+de: Nur lesen
+es: Solo lectura
+
+de: Joker
+es: comodín
+
+de: {0} in {1} benötigt
+es: {0} necesario en {1}
+
+de: anliefern: {0}, {1}
+es: entregar: {0}, {1}
+
+de: kein Ladegleis zum Entladen
+es: no hay vía de carga para descargar
+
+de: abholen in {0}
+es: recoger en {0}
+
+de: {0} bereit
+es: {0} listos
+
+de: noch nirgends zur Abholung bereit
+es: aún no está listo para recoger en ningún sitio
+
+de: Personenzug
+es: tren de viajeros
+
+de: geeignet: Zug {0}
+es: adecuado: tren {0}
+
+de: geeignet: Züge {0}
+es: adecuados: trenes {0}
+
+de: Tag
+es: Día
+
+de: Lizenz: GNU General Public License, Version 3 (GPL-3.0)
+es: Licencia: GNU General Public License, versión 3 (GPL-3.0)
+
+de: Enthält:
+es: Contiene:
+
+de: QR-Code-Generator von Project Nayuki (MIT-Lizenz)
+es: Generador de códigos QR de Project Nayuki (licencia MIT)
+
+de: Geräusche von freesound.org (CC0, gemeinfrei)
+es: Sonidos de freesound.org (CC0, dominio público)
+
+de: OpenJFX und Java-Laufzeit (GPL v2 mit Classpath Exception)
+es: OpenJFX y entorno Java (GPL v2 con Classpath Exception)
+
+de: Über iTrain-Logistik
+es: Acerca de iTrain-Logistik
+
+# 10.11.2026: Verknüpfte Datei, Browser-Status, Routen-Anzeiger
+
+de: Verknüpfte Datei
+es: Archivo vinculado
+
+de: Routen-Anzeiger
+es: Seguimiento de ruta
+
+de: Logistik im Browser
+es: Logística en el navegador
+
+de: Zuganzeiger im Browser
+es: Panel de salidas en el navegador
+
+de: Logistik auf anderem Gerät...
+es: Logística en otro dispositivo...
+
+de: Zuganzeiger auf anderem Gerät...
+es: Panel de salidas en otro dispositivo...
+
+de: Logistik auf anderem Gerät
+es: Logística en otro dispositivo
+
+de: Zuganzeiger auf anderem Gerät
+es: Panel de salidas en otro dispositivo
+
+de: iTrain-Datei
+es: Archivo iTrain
+
+de: Mit dieser iTrain-Datei ist die Logistik-Datei verknüpft
+es: El archivo de Logística está vinculado a este archivo iTrain
+
+de: Logistik-Datei:
+es: Archivo de Logística:
+
+de: iTrain-Datei:
+es: Archivo iTrain:
+
+de: Zustand:
+es: Estado:
+
+de: Fahrzeugdatei:
+es: Archivo de vehículos:
+
+de: Gefunden, zuletzt geändert {0}
+es: Encontrado, última modificación {0}
+
+de: Aktualisieren
+es: Actualizar
+
+de: Andere Datei wählen…
+es: Elegir otro archivo…
+
+de: Prüft erneut, ob die iTrain-Datei gefunden wird, und gleicht die Logistik mit ihr ab (Loks, Wagen, Blöcke, Züge, Zugrouten)
+es: Comprueba de nuevo si se encuentra el archivo iTrain y sincroniza Logística con él (locomotoras, vagones, bloques, trenes, rutas)
+
+de: Die verknüpfte iTrain-Datei wurde nicht gefunden – nichts abgeglichen.
+es: No se encontró el archivo iTrain vinculado – no se sincronizó nada.
+
+de: Verknüpfte iTrain-Datei: {0}
+es: Archivo iTrain vinculado: {0}
+
+de: Gefunden.
+es: Encontrado.
+
+de: Nicht gefunden.
+es: No encontrado.
+
+de: Klick: Dialog „Verknüpfte Datei“
+es: Clic: diálogo «Archivo vinculado»
+
+de: aus
+es: no
+
+de: Ausgeschaltet. Klick öffnet die Einstellungen.
+es: Desactivado. Un clic abre los ajustes.
+
+de: Adressen
+es: Direcciones
+
+de: dieser Rechner
+es: este ordenador
+
+de: Verbundene Geräte
+es: Dispositivos conectados
+
+de: Browser Logistik ist ausgeschaltet – hier einschalten.
+es: Web Logística está desactivado – actívelo aquí.
+
+de: Browser Zuganzeiger ist ausgeschaltet – hier einschalten.
+es: Web Salidas está desactivado – actívelo aquí.
+
+de: Browser Logistik konnte Port {0} nicht öffnen ({1}). Funktionen → Logistik auf anderem Gerät: anderen Port wählen.
+es: Web Logística no pudo abrir el puerto {0} ({1}). Funciones → Logística en otro dispositivo: elija otro puerto.
+
+de: Browser Zuganzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Zuganzeiger auf anderem Gerät: anderen Port wählen.
+es: Web Salidas no pudo abrir el puerto {0} ({1}). Funciones → Panel de salidas en otro dispositivo: elija otro puerto.
+
+de: Browser Logistik: Anlage und Module im Browser auf diesem Rechner öffnen; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+es: Web Logística: abrir la maqueta y los módulos en el navegador de este ordenador; «En otro dispositivo» muestra direcciones, puerto y código QR
+
+de: Browser Zuganzeiger: Abfahrtstafeln im Browser auf diesem Rechner öffnen, auch je Bahnhof; „Auf anderem Gerät“ zeigt Adressen, Port und QR-Code
+es: Web Salidas: abrir los paneles en el navegador de este ordenador, también por estación; «En otro dispositivo» muestra direcciones, puerto y código QR
+
+de: Zeigt, mit welcher iTrain-Datei (.tcdz) diese Logistik-Datei verknüpft ist und ob sie gefunden wird
+es: Muestra a qué archivo iTrain (.tcdz) está vinculado este archivo de Logística y si se encuentra
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal
+es: Seguimiento de ruta: un tren con bloque anterior, actual y siguiente, posición, tramo de frenado, punto de parada y señal
+
+de: Keine Datei geöffnet oder kein Zug vorhanden.
+es: No hay archivo abierto o no hay ningún tren.
+
+de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
+es: Sin datos en línea: este tren no está conectado a iTrain por XTC.
+
+de: Der Zug steht in iTrain in keinem Block.
+es: En iTrain el tren no está en ningún bloque.
+
+de: {0} mm > Position {1}
+es: {0} mm > posición {1}
+
+de: Halt noch {0} s
+es: Parada {0} s más
+
+de: Ziel
+es: Destino
+
+de: vorher
+es: anterior
+
+de: aktuell
+es: actual
+
+de: danach
+es: siguiente
+
+de: Weichen
+es: Desvíos
+
+de: Richtungswechsel
+es: Cambio de sentido
+
+de: ▲ {0} ausgestiegen
+es: ▲ {0} bajaron
+
+de: ▼ {0} eingestiegen
+es: ▼ {0} subieron
+
+de: Entladen ▲ {0}
+es: Descarga ▲ {0}
+
+de: Beladen ▼ {0}
+es: Carga ▼ {0}
+
+de: dahinter
+es: detrás
+
+de: Routen-Anzeiger im Browser
+es: Seguimiento de ruta en el navegador
+
+de: Routen-Anzeiger auf anderem Gerät...
+es: Seguimiento de ruta en otro dispositivo...
+
+de: Routen-Anzeiger auf anderem Gerät
+es: Seguimiento de ruta en otro dispositivo
+
+de: Routen-Anzeiger je Zug auf Handy, Tablet oder anderem Rechner
+es: Seguimiento de ruta por tren en móvil, tableta u otro ordenador
+
+de: Browser Routen-Anzeiger eingeschaltet
+es: Seguimiento de ruta web activado
+
+de: Browser Routen-Anzeiger
+es: Web Rutas
+
+de: Zug wählen
+es: Elegir tren
+
+de: Fenster öffnen
+es: Abrir ventana
+
+de: Im Browser öffnen
+es: Abrir en el navegador
+
+de: Kein Zug unter dieser Adresse
+es: No hay tren en esta dirección
+
+de: Browser Routen-Anzeiger ist ausgeschaltet – hier einschalten.
+es: El seguimiento de ruta web está desactivado – actívelo aquí.
+
+de: Port {0} ist schon vergeben – bitte einen anderen wählen.
+es: El puerto {0} ya está en uso – elija otro.
+
+de: Eigener Port, getrennt von Browser Logistik und Browser Zuganzeiger. Jedes Gerät zeigt einen Zug; den Ton schaltet es oben im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
+es: Puerto propio, separado de Web Logística y Web Salidas. Cada dispositivo muestra un tren; el sonido lo activa él mismo arriba (el navegador lo recuerda), «Pantalla completa» para una tableta. El cortafuegos de Windows de este ordenador debe permitir el puerto de entrada.
+
+de: Geräusche beim Ein-/Aussteigen und Verladen in den Routen-Anzeigern ein- oder ausschalten
+es: Activar o desactivar los sonidos de subida/bajada y carga en los seguimientos de ruta
+
+de: Routen-Anzeiger: ein Zug mit vorherigem, aktuellem und nächstem Block, Position, Bremsstrecke, Haltepunkt und Signal – als Fenster (auch mehrere) oder im Browser
+es: Seguimiento de ruta: un tren con bloque anterior, actual y siguiente, posición, tramo de frenado, punto de parada y señal – como ventana (también varias) o en el navegador
+
+de: Browser Routen-Anzeiger konnte Port {0} nicht öffnen ({1}). Funktionen → Routen-Anzeiger auf anderem Gerät: anderen Port wählen.
+es: El seguimiento de ruta web no pudo abrir el puerto {0} ({1}). Funciones → Seguimiento de ruta en otro dispositivo: elija otro puerto.
+de: Wagenliste
+es: Lista de vagones
+de: Wagenliste befördert
+es: La lista de vagones transporta
+de: Einsteigen/Aussteigen
+es: Subir/bajar
+de: Entladen/Beladen
+es: Descargar/cargar
+de:  · steht
+es:  · parado
+de: Wartezeit vorbei, steht
+es: Espera terminada, parado
+de:  · Abfahrt
+es:  · salida
+de: Lager hinzufügen. {0} kann nicht entladen werden, die Abnehmer sind voll
+es: Añadir un almacén. {0} no se puede descargar, los destinatarios están llenos
+de: Lager voll. {0} kann nicht entladen werden, die Abnehmer sind voll
+es: Almacén lleno. {0} no se puede descargar, los destinatarios están llenos
+de: Kein Abnehmer an diesem Bahnhof für: {0}
+es: Ningún destinatario en esta estación para: {0}
+de: Produktion passt sich an: mehr Anlieferung, mehr Herstellung
+es: La producción se adapta: más entregas, más fabricación
+de: Bedarf wächst mit der Versorgung
+es: La demanda crece con el suministro
+de: Produktion ×{0}
+es: Producción ×{0}
+de: Je Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn die Eingangslager gut gefüllt sind und der Ausgang abfließt; herunter, wenn Eingang fehlt oder der Ausgang voll ist. Rate und Lagerkapazitäten wachsen mit der Stufe. Der Regler Langsamer/Schneller wirkt auch hier.
+es: Como máximo un nivel por hora modelo (×1 a ×4): sube si los almacenes de entrada están bien llenos y la salida fluye; baja si falta entrada o la salida está llena. Ritmo y capacidades crecen con el nivel. El regulador Más lento/Más rápido también actúa aquí.
+de: Je Gut und Modellstunde höchstens eine Stufe (×1 bis ×4): hoch, wenn der Bedarf gedeckt ist; herunter, wenn länger nichts geliefert wird. Reisende und Einwohner bleiben unverändert. Der Regler Langsamer/Schneller wirkt auch hier.
+es: Como máximo un nivel por mercancía y hora modelo (×1 a ×4): sube si la demanda está cubierta; baja si no se entrega nada durante más tiempo. Viajeros y habitantes no cambian. El regulador Más lento/Más rápido también actúa aquí.
+de: Abnahme M/h
+es: Recepción M/h
+de: Ankommende M/h
+es: Llegadas M/h
+de: unbegrenzt
+es: ilimitado
+de: Abnahme Stück M/h
+es: Recepción piezas M/h
+de: Außenwelt: Güter, die hier abgenommen werden
+es: Mundo exterior: mercancías que se reciben aquí
+de: Leere Tabelle: Die Außenwelt nimmt alle Güter unbegrenzt ab. Mit Einträgen nur diese Güter, je Modellstunde höchstens die Menge.
+es: Tabla vacía: el mundo exterior recibe todas las mercancías sin límite. Con entradas solo estas mercancías, como máximo la cantidad por hora de modelo.
+de: Zusätzlich erforderlich…
+es: Requerido además…
+de: Hinweise beim Start zeigen
+es: Mostrar avisos al iniciar
+de: die Anlage
+es: la maqueta
+de: Transport – Wagen und Züge
+es: Transporte – vagones y trenes
+de: ▼ {0} ({1}): kein Zug kann es befördern
+es: ▼ {0} ({1}): ningún tren puede transportarlo
+de: Reisende: kein Zug hat Sitz- oder Stehplätze
+es: Viajeros: ningún tren tiene asientos ni plazas de pie
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) für dieses Gut freischalten
+es: Usar vagón existente: habilitar «{0}» ({1}) para esta mercancía
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) im Wagenfenster ergänzen
+es: Usar vagón existente: completar «{0}» ({1}) en la ventana de vagones
+de: Bestehenden Wagen verwenden: „{0}“ kann es, steht aber in keinem Zug – in iTrain einem Zug zuordnen
+es: Usar vagón existente: «{0}» puede, pero no está en ningún tren – asignarlo a un tren en iTrain
+de: Transportmöglichkeit besorgen (kaufen, leihen …), in iTrain anlegen, dann abgleichen
+es: Conseguir transporte (comprar, pedir prestado …), crearlo en iTrain y sincronizar
+de: Bestehenden Transport zum Joker machen: „{0}“ ({1})
+es: Convertir transporte existente en comodín: «{0}» ({1})
+de: Bestehenden Wagen verwenden: „{0}“ ({1}) als Personenwagen, Sitzplätze eintragen
+es: Usar vagón existente: «{0}» ({1}) como coche de viajeros, introducir asientos
+de: Vom Schattenbahnhof: angeliefert auf Gleis „{0}“ ({1})
+es: De la estación oculta: entregado en la vía «{0}» ({1})
+de: Wagen „{0}“ in iTrain einem Zug zuordnen ({1}), dann „Mit iTrain abgleichen“.
+es: Asignar el vagón «{0}» a un tren en iTrain ({1}) y luego «Sincronizar con iTrain».
+de: Wagen für {0} ({1})
+es: Vagón para {0} ({1})
+de: Personenwagen
+es: Coches de viajeros
+de:  besorgen, in iTrain anlegen und einem Zug zuordnen, dann „Mit iTrain abgleichen“.
+es: : conseguir, crear en iTrain y asignar a un tren, luego «Sincronizar con iTrain».
+de: Angeschlossene Betriebe und Übergaben (Güter über die Ladegleise)
+es: Empresas y puntos de intercambio conectados (mercancías por las vías de carga)
+de: Schattenbahnhof: Reisende und Güter kommen von außerhalb in den Schattenbahnhof – je Gleis eingestellt (Bahnsteig: Reisende je Modellstunde, Ladegleis: Angebot je Gut). Ein Gleis kann Bahnsteig und Ladegleis zugleich sein (zweimal mit demselben Block anlegen). Ladegleise kommen beim Speichern in einen angedockten Güterbahnhof. Anschließen lassen sich Betriebe und Übergaben, keine Orte und Lager. Geladen und entladen wird schon bei der Durchfahrt, ohne Halt.
+es: Estación oculta: viajeros y mercancías llegan de fuera a la estación oculta – ajustado por vía (andén: viajeros por hora de modelo, vía de carga: oferta por mercancía). Una vía puede ser andén y vía de carga a la vez (crear dos veces con el mismo bloque). Al guardar, las vías de carga pasan a una estación de mercancías acoplada. Se pueden conectar empresas y puntos de intercambio, no localidades ni almacenes. Se carga y descarga ya al pasar, sin parar.
+de: Benötigt keinen Lieferanten
+es: No necesita proveedor
+de: Mit der KI prüfen...
+es: Comprobar con IA...
+de: Mit der KI prüfen
+es: Comprobar con IA
+de: Kontakt...
+es: Contacto...
+de: Kontakt
+es: Contacto
+de: Auf Update prüfen
+es: Buscar actualización
+de: Diese Dateien in den Chat der KI ziehen
+es: Arrastre estos archivos al chat de la IA
+de: Starten Sie einen neuen Chat (z. B. claude.ai). Ziehen Sie alle Dateien mit der Maus in den Chat und schreiben Sie dazu: „Bitte nach der Prompt-Datei vorgehen.“ Die KI prüft, ob die Logistik vollständig und mit der iTrain-Anlage verknüpft ist, fragt nach der Sprache und am Ende, ob ein Dokument daraus werden soll. Die iTrain-Datei wird dabei nicht nach dem iTrain-Handbuch geprüft, nur auf die Verknüpfung.
+es: Inicie un chat nuevo (p. ej. claude.ai). Arrastre todos los archivos al chat con el ratón y escriba: «Por favor, siga el archivo de prompt.» La IA comprueba si la logística está completa y vinculada a la maqueta de iTrain, pregunta el idioma y al final si debe convertirse en un documento. El archivo de iTrain no se comprueba según el manual de iTrain, solo los vínculos.
+de: Bei Fragen zum Inhalt bitte diese Dateien mit senden
+es: Para preguntas sobre el contenido, envíe estos archivos
+de: Ihr E-Mail-Programm öffnet eine neue Nachricht an {0}. Ziehen Sie die Dateien mit der Maus in die Nachricht (als Anhang). Öffnet sich kein E-Mail-Programm, schreiben Sie an {1} und hängen Sie die Dateien aus dem Ordner an.
+es: Su programa de correo abre un mensaje nuevo a {0}. Arrastre los archivos al mensaje con el ratón (como adjunto). Si no se abre ningún programa, escriba a {1} y adjunte los archivos de la carpeta.
+de: ⇲  Hier anfassen und alle Dateien auf einmal hinüberziehen
+es: ⇲  Agarrar aquí y arrastrar todos los archivos a la vez
+de: Ordner: {0}
+es: Carpeta: {0}
+de: Prompt kopieren
+es: Copiar prompt
+de: Prompt kopiert ✔
+es: Prompt copiado ✔
+de: E-Mail öffnen
+es: Abrir correo
+de: Bitte zuerst eine Logistik-Datei (.logz) öffnen.
+es: Abra primero un archivo de logística (.logz).
+de: Die Logistik-Datei hat ungespeicherte Änderungen. Zusammengestellt wird der gespeicherte Stand.
+es: El archivo de logística tiene cambios sin guardar. Se reúne el estado guardado.
+de: Vorher speichern?
+es: ¿Guardar antes?
+de: Ohne Änderungen
+es: Sin cambios
+de: Dateien konnten nicht zusammengestellt werden: {0}
+es: No se pudieron reunir los archivos: {0}
+de: Lizenzhinweise
+es: Avisos de licencia
+de: Version {0}
+es: Versión {0}
+de: Copyright © 2026 Andre Ruff. Freie Software unter der GNU General Public License, Version 3 (GPL-3.0). Ohne Gewährleistung.
+es: Copyright © 2026 Andre Ruff. Software libre bajo la GNU General Public License, versión 3 (GPL-3.0). Sin garantía.
+de: Übersetzungen: Englisch, Niederländisch, Französisch, Spanisch und Italienisch mit KI-Unterstützung erstellt.
+es: Traducciones: inglés, neerlandés, francés, español e italiano creadas con ayuda de IA.
+de: Eine neue Version von iTrain-Logistik ist verfügbar
+es: Hay una nueva versión de iTrain-Logistik
+de: iTrain-Logistik ist auf dem neuesten Stand
+es: iTrain-Logistik está actualizado
+de: Installiert ist {0}, die neueste Veröffentlichung ist {1}.
+es: Instalada: {0}, la última publicación es {1}.
+de: Installiert: {0}
+es: Instalada: {0}
+de: Neu: {0}
+es: Nueva: {0}
+de: Die Prüfung war nicht möglich: {0}
+es: No fue posible comprobar: {0}
+de: Die Veröffentlichungen stehen unter {0}
+es: Las publicaciones están en {0}
+de: Zur Download-Seite
+es: A la página de descarga
+de: noch keine öffentliche Veröffentlichung gefunden
+es: aún no se encontró ninguna publicación pública
+de: unbekanntes Antwortformat
+es: formato de respuesta desconocido
+de: QR-Code drucken
+es: Imprimir código QR
+de: Drucken…
+es: Imprimir…
+de: Als Bild speichern…
+es: Guardar como imagen…
+de: Mit der Handy-Kamera scannen und den Link öffnen. Das Handy muss im WLAN der Anlage angemeldet sein.
+es: Escanear con la cámara del móvil y abrir el enlace. El móvil debe estar conectado al wifi de la maqueta.
+de: Kein Drucker gefunden. Mit „Als Bild speichern…“ lässt sich der Aushang als Bild ablegen und drucken.
+es: No se encontró impresora. Con «Guardar como imagen…» se guarda el cartel como imagen para imprimirlo.
+de: Modul-Anzeiger
+es: Indicador de módulo
+de: Modul-Anzeiger im Browser
+es: Indicador de módulo en navegador
+de: Alle Blöcke
+es: Todos los bloques
+de: Kein Zug im Block
+es: Ningún tren en el bloque
+de: Keine Blöcke
+es: Ningún bloque
+de: Keine Datei geöffnet.
+es: Ningún archivo abierto.
+de: Reisende: {0} (1. Klasse {1}, 2. Klasse {2}) von {3} Plätzen
+es: Viajeros: {0} (1.ª clase {1}, 2.ª clase {2}) de {3} plazas
+de: Leer, {0} Plätze
+es: Vacío, {0} plazas
+de: Ohne Ladung
+es: Sin carga
+de: Leer
+es: Vacío
+de: Route {0}
+es: Ruta {0}
+de: Hält, noch {0} s
+es: Parado, quedan {0} s
+de: Hält
+es: Parado
+de: Fährt, {0} km/h
+es: En marcha, {0} km/h
+de: Steht
+es: Detenido
+de: Strecke
+es: Trayecto
+de: Bremst
+es: Frena
+de: Halt erwarten
+es: Esperar parada
+de: Langsamfahrt erwarten
+es: Esperar marcha lenta
+de: Zuglänge {0} mm
+es: Longitud del tren {0} mm
+de: Modul-Anzeiger:
+es: Indicador de módulo:
+de: Anzeiger im Fenster
+es: Indicadores en ventana
+de: Anzeiger im Browser
+es: Indicadores en el navegador
+de: Auf diesem Gerät
+es: En este dispositivo
+de: Auf anderem Gerät
+es: En otro dispositivo
+de: Logistik (Übersicht)
+es: Logística (resumen)
+de: Logistik ganze Anlage
+es: Logística maqueta completa
+de: Logistik Modul „{0}“
+es: Logística módulo «{0}»
+de: Zuganzeiger Auswahl
+es: Indicador de trenes selección
+de: Modul-Anzeiger auf anderem Gerät...
+es: Indicador de módulo en otro dispositivo...
+de: Uhr auf anderem Gerät...
+es: Reloj en otro dispositivo...
+de: Uhr auf anderem Gerät
+es: Reloj en otro dispositivo
+de: Die Modelluhr im Browser – Antippen wechselt zwischen analog und digital
+es: El reloj del modelo en el navegador – tocar cambia entre analógico y digital
+de: Darstellung und Farben wie im Fenster der Uhr (Rechtsklick bzw. ⚙).
+es: Presentación y colores como en la ventana del reloj (clic derecho o ⚙).
+de: Digital
+es: Digital
+de: Analog (Bahnhofsuhr)
+es: Analógico (reloj de estación)
+de: Farben...
+es: Colores...
+de: Standardfarben
+es: Colores predeterminados
+de: Farben der Uhr
+es: Colores del reloj
+de: Zifferblatt (analog)
+es: Esfera (analógico)
+de: Zeiger und Striche (analog)
+es: Agujas y marcas (analógico)
+de: Sekundenzeiger (analog)
+es: Segundero (analógico)
+de: Ziffern (digital)
+es: Cifras (digital)
+de: Transport – iTrain-Zugrouten
+es: Transporte – rutas de tren de iTrain
+de: ⇄ {0}: keine iTrain-Zugroute für den Transport
+es: ⇄ {0}: ninguna ruta de tren de iTrain para el transporte
+de: ⇄ Reisende aus {0}: keine iTrain-Zugroute zu einem anderen Bahnhof
+es: ⇄ Viajeros de {0}: ninguna ruta de tren de iTrain a otra estación
+de: Bitte eine neue Route anlegen von {0} nach {1}
+es: Cree una nueva ruta de {0} a {1}
+de: Bitte eine neue Route anlegen von {0} nach {1} für den Transport von {2} – in iTrain anlegen und speichern, dann „Mit iTrain abgleichen“.
+es: Cree una nueva ruta de {0} a {1} para el transporte de {2}: créela y guárdela en iTrain, luego «Sincronizar con iTrain».
+de: Reisenden
+es: viajeros
+de: Im Handbuch lesen
+es: Leer en el manual
+de: Handbuch (PDF)
+es: Manual (PDF)
+de: F1 zeigt in jedem Fenster die passende Hilfe.
+es: F1 muestra la ayuda correspondiente en cada ventana (textos de ayuda en alemán).
+de: Hauptfenster
+es: Ventana principal
+de: Anzeiger auf anderem Gerät
+es: Indicadores en otro dispositivo
+de: Ort bearbeiten
+es: Editar localidad
+de: Modul und Tab
+es: Módulo y pestaña
+de: Mit der KI prüfen, Kontakt
+es: Comprobar con IA, contacto
+de: Zufriedenheit
+es: Satisfacción
+de: Erfüllung
+es: Cumplimiento
+de: Bewertung
+es: Valoración
+de: Erfüllungsgrad
+es: Grado de cumplimiento
+de: {0} je Modelltag (%)
+es: {0} por día del modelo (%)
+de: Maßnahmen
+es: Medidas
+de: (erst unter 50 % nötig)
+es: (solo necesario por debajo del 50 %)
+de: Was zu tun ist, um den Bedarf zu decken
+es: Qué hacer para cubrir la demanda
+de: Keine einzelne Ursache unter 50 % – Posten mit gelbem Wert zuerst verbessern.
+es: Ninguna causa por debajo del 50 % – mejore primero las partidas en amarillo.
+de: Zufriedenheit: Anlieferung des Bedarfs und Abholung der Reisenden – Klick zeigt die Bewertung
+es: Satisfacción: entrega de la demanda y recogida de viajeros – clic muestra la valoración
+de: Erfüllung: Anlieferung der Eingänge und Abholung der Herstellung – Klick zeigt die Bewertung
+es: Cumplimiento: entrega de entradas y recogida de la producción – clic muestra la valoración
+de: Anlieferung {0} entspricht der Vorgabe
+es: Entrega de {0} conforme al objetivo
+de: Anlieferung {0} etwas zu gering
+es: Entrega de {0} algo baja
+de: Zu wenig {0}, mehr anliefern
+es: Demasiado poco {0}, entregar más
+de: Reisende werden abgeholt
+es: Los viajeros son recogidos
+de: Reisende warten, öfter abholen
+es: Viajeros esperando, recoger con más frecuencia
+de: Zu viele Reisende warten, mehr Züge
+es: Demasiados viajeros esperando, más trenes
+de: Mehr Züge mit Sitzplätzen in {0} halten lassen ({1} Reisende warten, {2} je Modellstunde)
+es: Hacer parar más trenes con asientos en {0} ({1} viajeros esperan, {2} por hora del modelo)
+de: Anlieferung {0}: wird von außerhalb geliefert
+es: Entrega de {0}: se entrega desde fuera
+de: {0} wird knapp
+es: {0} escasea
+de: Herstellung {0} läuft, wird abgeholt
+es: Producción de {0} en marcha, se recoge
+de: {0} staut sich, öfter abholen
+es: {0} se acumula, recoger más a menudo
+de: Lager {0} voll, Herstellung steht – mehr abholen
+es: Almacén de {0} lleno, producción parada – recoger más
+de: Für {0} gibt es keinen Abnehmer – Abnehmer anlegen (Zusätzlich erforderlich)
+es: No hay cliente para {0} – crear un cliente (Requerido además)
+de: Mehr {0} abholen: mehr Züge von {1} zu {2}
+es: Recoger más {0}: más trenes de {1} a {2}
+de: Produktion erhöhen, um den Bedarf zu decken: {0} gebraucht {1} M/h, hergestellt {2} M/h
+es: Aumentar la producción para cubrir la demanda: {0} necesario {1} M/h, producido {2} M/h
+de: Mehr {0} anliefern: mehr Züge nach {1}
+es: Entregar más {0}: más trenes a {1}
+de: Mehr {0} anliefern: mehr Züge nach {1} ({2} stehen bereit)
+es: Entregar más {0}: más trenes a {1} ({2} listos)
+de: Für {0} gibt es keinen Hersteller – Lieferant anlegen (Zusätzlich erforderlich)
+es: No hay productor para {0} – crear un proveedor (Requerido además)
+de: Mehr Produktion: {0} erhöhen, um den Bedarf an {1} zu decken
+es: Más producción: aumentar {0} para cubrir la demanda de {1}
+de: Ton bei Einfahrt eines Zugs in den Block
+es: Sonido al entrar un tren en el bloque
+de: Antippen, um den Ton einzuschalten
+es: Toque para activar el sonido
+de: Klingel
+es: Timbre
+de: Glocke
+es: Campana
+de: Hupe
+es: Bocina
+de: Vorgabe
+es: Predeterminado
+de: Sitzplätze 3. Klasse (zählen zur 2. Klasse)
+es: Asientos de 3.ª clase (cuentan como 2.ª)
+de: Sitzplätze 4. Klasse (zählen zur 2. Klasse)
+es: Asientos de 4.ª clase (cuentan como 2.ª)
+de: Angehakt: Epoche der Anlage (Voreinstellungen > Vorlagen). Abgehakt: eigene Epoche für diesen Wagen.
+es: Marcado: época de la maqueta (Preferencias > Plantillas). Desmarcado: época propia del vagón.
+de: Zeitabschnitt
+es: Periodo
+de: Vorhandene Wagenklassen
+es: Clases existentes
+de: Besonderheiten & historische Meilensteine
+es: Particularidades e hitos históricos
+de: Sonderformen
+es: Formas especiales
+de: Transport – Wagen und Züge (Kapazität je Ladeklasse)
+es: Transporte – vagones y trenes (capacidad por clase de carga)
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2}
+es: ▼ {0} ({1}): ningún vagón con capacidad para {2}
+de: ▼ {0} ({1}): kein Wagen mit Kapazität für {2} – vorhanden nur {3}
+es: ▼ {0} ({1}): ningún vagón con capacidad para {2} – solo {3}
+de: Pfeil Be-/Entladen (Güter)
+es: Flecha carga/descarga (mercancías)
+de: Entladen ·
+es: Descarga ·
+de: Beladen
+es: Carga
+de: Keine Module
+es: Ningún módulo
+de: Modul nicht gefunden.
+es: Módulo no encontrado.
+de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das Modul festlegen.
+es: Sin vías de trayecto – defínalas en «Editar maqueta» con clic derecho en el módulo.
+de: Geräusche...
+es: Sonidos...

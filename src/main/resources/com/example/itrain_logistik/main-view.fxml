@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import com.example.itrain_logistik.DigitalClockView?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.itrain_logistik.MainController">
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu fx:id="fileMenu" text="Datei">
+                    <MenuItem fx:id="openMenuItem" text="Öffnen..." onAction="#onOpenFile"/>
+                    <MenuItem fx:id="newFromTcdzMenuItem" text="Neue Konfiguration..." onAction="#onNewFromTcdz"/>
+                    <MenuItem fx:id="saveMenuItem" text="Speichern" onAction="#onSave"/>
+                    <MenuItem fx:id="abgleichenMenuItem" text="Mit iTrain abgleichen" onAction="#onAbgleichen"/>
+                    <MenuItem text="iTrain Datei neu einlesen..." onAction="#onTcdzVerknuepfen"/>
+                    <MenuItem text="Fahrzeuge importieren..." onAction="#onFahrzeugeImportieren"/>
+                    <MenuItem text="Fahrzeuge exportieren..." onAction="#onFahrzeugeExportieren"/>
+                    <MenuItem fx:id="closeFileMenuItem" text="Aktuelle schließen" onAction="#onCloseFile"/>
+                    <SeparatorMenuItem/>
+                    <!-- Inhalt (zuletzt geöffnete .logz-Dateien) wird zur Laufzeit
+                         vom Controller aufgebaut, siehe MainController.refreshRecentFilesMenu(). -->
+                    <Menu fx:id="recentFilesMenu" text="Zuletzt verwendet..."/>
+                    <MenuItem fx:id="loadBackupMenuItem" text="Backup laden..." onAction="#onLoadBackup"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="exitMenuItem" text="Programm beenden" onAction="#onExit"/>
+                </Menu>
+                <Menu fx:id="editMenu" text="Bearbeiten">
+                    <MenuItem fx:id="centerWindowsMenuItem" text="Alle Fenster zentrieren" onAction="#onCenterWindows"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="kopierenMenuItem" text="Kopieren" onAction="#onKopieren" disable="true"/>
+                    <MenuItem fx:id="einfuegenMenuItem" text="Einfügen" onAction="#onEinfuegen" disable="true"/>
+                </Menu>
+                <Menu fx:id="settingsMenu" text="Einstellungen">
+                    <MenuItem fx:id="preferencesMenuItem" text="Voreinstellungen" onAction="#onPreferences"/>
+                    <SeparatorMenuItem/>
+                    <CheckMenuItem fx:id="simulatorMenuItem" text="Simulator Verbindung" onAction="#onQuelleSimulator"/>
+                    <CheckMenuItem fx:id="itrainMenuItem" text="iTrain Verbindung" onAction="#onQuelleItrain"/>
+                    <SeparatorMenuItem fx:id="trennVerbindung"/>
+                    <MenuItem text="Verbindung zu iTrain..." onAction="#onItrainVerbindung"/>
+                </Menu>
+                <Menu fx:id="functionsMenu" text="Funktionen">
+                    <MenuItem fx:id="functionsLogistikNetzMenuItem" text="Anlage bearbeiten" onAction="#onOpenLogistikNetz"/>
+                    <MenuItem text="Verkehrs-Assistent..." onAction="#onVerkehrsAssistent"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="functionsAllesAufNullMenuItem" text="Alles auf 0 setzen" onAction="#onAllesAufNull"/>
+                </Menu>
+                <!-- Alle Anzeiger (Anwender 11.11.2026): im Fenster, im Browser (dieses / anderes Gerät), Uhr -->
+                <Menu fx:id="anzeigerMenu" text="Anzeiger">
+                    <MenuItem text="…"/>
+                </Menu>
+                <!-- iTrain Daten (Anwender 20.10.2026): ersetzt die Ribbon-Knöpfe Lokomotiven bis Güter -->
+                <Menu fx:id="itrainDatenMenu" text="Logistik Daten">
+                    <MenuItem text="Lokomotiven" onAction="#onOpenLocomotives"/>
+                    <MenuItem text="Wagen" onAction="#onOpenWagons"/>
+                    <MenuItem text="Blöcke" onAction="#onOpenBlocks"/>
+                    <MenuItem text="Züge" onAction="#onOpenTrains"/>
+                    <MenuItem text="Belegung" onAction="#onOpenControlState"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Symbole..." onAction="#onOpenSymbolManager"/>
+                    <MenuItem text="Güter..." onAction="#onOpenLadegutKatalog"/>
+                    <MenuItem text="Geräusche..." onAction="#onGeraeusche"/>
+                </Menu>
+                <Menu fx:id="ansichtenMenu" text="Ansichten"/>
+                <Menu fx:id="helpMenu" text="Hilfe">
+                    <MenuItem fx:id="helpMenuItem" text="Hilfe" onAction="#onHelp" accelerator="F1"/>
+                    <MenuItem fx:id="manualMenuItem" text="Handbuch" onAction="#onOpenManual"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="kiMenuItem" text="Mit der KI prüfen..." onAction="#onKiPruefen"/>
+                    <MenuItem fx:id="kontaktMenuItem" text="Kontakt..." onAction="#onKontakt"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="updateMenuItem" text="Auf Update prüfen" onAction="#onCheckForUpdate"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="aboutMenuItem" text="Über" onAction="#onAbout"/>
+                </Menu>
+            </MenuBar>
+            <!-- ToolBar akzeptiert HBox.hgrow an ihren eigenen Kindern nicht (der
+                 innere Aufbau ist zwar eine HBox, FXML prueft aber den
+                 direkten Elternknoten) - deshalb steht die Uhr in einer
+                 eigenen umschliessenden HBox NEBEN der ToolBar, nicht darin.
+                 Die ToolBar behaelt ihre natuerliche (Inhalts-)Breite und
+                 nutzt bei zu wenig Platz ihren eingebauten Overflow-Pfeil.
+                 Ein wachsender Spacer zwischen ToolBar und Uhr nimmt
+                 ueberschuessigen Platz auf, ohne dass die Uhr verdraengt
+                 wird - waere die ToolBar selbst hgrow="ALWAYS", wuerde sie
+                 bei knappem Fensterplatz die Uhr auf Breite 0 zusammendruecken. -->
+            <HBox alignment="CENTER_LEFT">
+                <ToolBar fx:id="ribbonToolBar">
+                    <Button fx:id="openToolButton" onAction="#onOpenFile"/>
+                    <Button fx:id="saveToolButton" onAction="#onSave"/>
+                    <Button fx:id="abgleichenToolButton" text="Abgleichen" onAction="#onAbgleichen"/>
+                    <Button fx:id="verknuepftToolButton" text="Verknüpfte Datei" onAction="#onVerknuepfteDatei"/>
+                    <Button fx:id="preferencesToolButton" onAction="#onPreferences"/>
+                    <Separator orientation="VERTICAL"/>
+                    <Button fx:id="logistikNetzToolButton" text="Anlage bearbeiten" onAction="#onOpenLogistikNetz"/>
+                    <MenuButton fx:id="ansichtenToolButton" text="Ansichten"/>
+                    <MenuButton fx:id="bahnhoefeToolButton" text="Bahnhöfe"/>
+                    <Button fx:id="austauschToolButton" onAction="#onAustauschUmschalten"/>
+                    <MenuButton fx:id="anzeigerToolButton" text="Anzeiger"/>
+                    <MenuButton fx:id="itrainDatenToolButton" text="Logistik Daten">
+                        <items>
+                            <MenuItem text="Lokomotiven" onAction="#onOpenLocomotives"/>
+                            <MenuItem text="Wagen" onAction="#onOpenWagons"/>
+                            <MenuItem text="Blöcke" onAction="#onOpenBlocks"/>
+                            <MenuItem text="Züge" onAction="#onOpenTrains"/>
+                            <MenuItem text="Belegung" onAction="#onOpenControlState"/>
+                            <SeparatorMenuItem/>
+                            <MenuItem text="Symbole..." onAction="#onOpenSymbolManager"/>
+                            <MenuItem text="Güter..." onAction="#onOpenLadegutKatalog"/>
+                    <MenuItem text="Geräusche..." onAction="#onGeraeusche"/>
+                        </items>
+                    </MenuButton>
+                    <Separator orientation="VERTICAL"/>
+                    <Button fx:id="allesAufNullToolButton" text="Alles auf 0 setzen" onAction="#onAllesAufNull"/>
+                </ToolBar>
+                <Region HBox.hgrow="ALWAYS"/>
+                <DigitalClockView fx:id="digitalClock"/>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <!-- Solange keine Datei geladen ist, zeigt die Mitte das Programmsymbol
+             (der Personenwagen) an die Fenstergröße gebunden - siehe
+             MainController.initStartImage(). Nach dem Öffnen einer .tcdz
+             erscheint dort die Übersicht (siehe buildOverview()). -->
+        <StackPane fx:id="centerPane">
+            <ImageView fx:id="startImage" preserveRatio="true" smooth="true" mouseTransparent="true"/>
+        </StackPane>
+    </center>
+    <bottom>
+        <VBox>
+            <Separator/>
+            <HBox alignment="CENTER_LEFT">
+                <!-- Browser-Seiten (Anwender 10.11.2026): Zahl der Geräte, die sie gerade offen haben;
+                     beim Überfahren die Adressen. -->
+                <Label fx:id="browserLogistikStatus" text="">
+                    <padding>
+                        <Insets top="4" right="6" bottom="4" left="10"/>
+                    </padding>
+                </Label>
+                <Label fx:id="browserZuganzeigerStatus" text="">
+                    <padding>
+                        <Insets top="4" right="6" bottom="4" left="6"/>
+                    </padding>
+                </Label>
+                <Label fx:id="browserRoutenStatus" text="">
+                    <padding>
+                        <Insets top="4" right="6" bottom="4" left="6"/>
+                    </padding>
+                </Label>
+                <Label fx:id="statusLabel" text="" maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                    <padding>
+                        <Insets top="4" right="10" bottom="4" left="10"/>
+                    </padding>
+                </Label>
+                <!-- "Unter in der Statusleiste zeigst Du die Verbindung mit einem
+                     gruenen Kreis an. [...] Mit Druck auf dieses Symbol oeffnet
+                     sich ein Rx/Tx Fenster das alle Trigger zeile fuer zeile
+                     auflistet." Farbe des Kreises wird von MainController alle
+                     2 Sekunden aktualisiert, siehe aktualisiereVerbindungsAnzeige(). -->
+                <Label fx:id="austauschLabel" text="">
+                    <padding>
+                        <Insets top="4" right="10" bottom="4" left="10"/>
+                    </padding>
+                </Label>
+                <HBox alignment="CENTER_LEFT" spacing="6" onMouseClicked="#onOpenTriggerLog"
+                      style="-fx-cursor: hand;">
+                    <Circle fx:id="verbindungsKreis" radius="6" fill="RED"/>
+                    <Label fx:id="quelleLabel" text="Keine Quelle gewählt"/>
+                    <padding>
+                        <Insets top="4" right="10" bottom="4" left="10"/>
+                    </padding>
+                </HBox>
+                <!-- Verknüpfte iTrain-Datei (Anwender 10.11.2026): grün = gefunden, rot = nicht gefunden. -->
+                <HBox alignment="CENTER_LEFT" spacing="6" onMouseClicked="#onVerknuepfteDatei" style="-fx-cursor: hand;">
+                    <Circle fx:id="tcdzKreis" radius="6" fill="GRAY"/>
+                    <Label fx:id="tcdzLabel" text="iTrain-Datei"/>
+                    <padding>
+                        <Insets top="4" right="10" bottom="4" left="4"/>
+                    </padding>
+                </HBox>
+                <!-- Verbindung zu iTrain (Anwender 14.10.2026): rotes Kreuz, solange keine
+                     Online-Übermittlung läuft; Inhalt baut MainController.zeigeItrainVerbindung(). -->
+                <StackPane fx:id="itrainSymbol">
+                    <padding>
+                        <Insets top="2" right="10" bottom="2" left="4"/>
+                    </padding>
+                </StackPane>
+            </HBox>
+        </VBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,226 @@
+# ===========================================================================
+#  Hilfetexte von iTrain-Logistik (F1) - zum Bearbeiten
+# ===========================================================================
+#
+#  F1 zeigt in jedem Fenster den passenden Abschnitt; Hilfe > Hilfe zeigt alle.
+#  Aufbau je Abschnitt:
+#
+#     === schluessel ===
+#     TITEL: <Überschrift im Hilfefenster>
+#     FENSTER: <Anfang des Fenstertitels> | <weiterer Fenstertitel> ...
+#     ANKER: <Sprungmarke im Handbuch, siehe Handbuch-HTML>
+#     TEXT:
+#     <Fliesstext; **fett**, "- " Aufzählung, Leerzeile = Absatz>
+#
+#  FENSTER: das Programm vergleicht den Anfang des Fenstertitels (deutsch
+#  oder übersetzt). Der erste passende Abschnitt gewinnt; "hauptfenster"
+#  steht deshalb am Ende.
+#  ANKER: führt mit "Im Handbuch lesen" an die Stelle im Handbuch.
+#  Schlüssel bitte nicht umbenennen.
+# ===========================================================================
+
+=== geraet ===
+TITEL: Anzeiger auf anderem Gerät
+FENSTER: Logistik auf anderem Gerät | Zuganzeiger auf anderem Gerät | Routen-Anzeiger auf anderem Gerät | Modul-Anzeiger auf anderem Gerät | Uhr auf anderem Gerät
+ANKER: qr-codes-und-ihr-ausdruck
+TEXT:
+Adressen der Anzeigen im Browser für Handy, Tablet oder anderen Rechner im selben Netz. **QR** zeigt den Code einer Adresse, **Drucken...** einen A4-Aushang zum Aufhängen an der Anlage. Die Windows-Firewall muss die Ports eingehend erlauben (8090 bis 8092).
+
+=== zusaetzlich ===
+TITEL: Zusätzlich erforderlich
+FENSTER: Zusätzlich erforderlich
+ANKER: zusaetzlich-erforderlich-und-kreislauf-pruefen
+TEXT:
+Zeigt, was der Anlage noch fehlt: Lieferanten (▼), Abnehmer (▲), Bahnhöfe für Reisende, **Wagen**, die ein Gut laden können, und **iTrain-Zugrouten**, die Herkunft und Ziel verbinden.
+
+- Je Zeile wählen, woher ein Gut kommt bzw. was angelegt werden soll. Die Liste klappt für lange Texte breit auf.
+- **Offen lassen** ändert nichts. **Weiter** übernimmt alles andere.
+- Routen und neue Wagen legen Sie in iTrain an; die Logistik zeigt danach einen Merkzettel.
+- **Hinweise beim Start zeigen** schaltet das Fenster beim Laden der Datei ab bzw. an.
+
+=== kreislauf ===
+TITEL: Kreislauf prüfen
+FENSTER: Kreislauf prüfen
+ANKER: kreislauf-pruefen
+TEXT:
+Oben das Ergebnis, darunter fünf Tabellen: Eingänge der Betriebe, Betriebe, die liefern, Orte mit Bedarf, abfahrende und ankommende Reisende – je mit Menge je Modellstunde und Gegenstück.
+
+Grün = in Ordnung, orange = Hinweis (z. B. Überschuss), rot = es fehlt etwas. Der Knopf ist erst aktiv, wenn „Zusätzlich erforderlich“ nichts mehr zeigt.
+
+=== anlage_bearbeiten ===
+TITEL: Anlage bearbeiten
+FENSTER: Anlage bearbeiten
+ANKER: anordnen-in-anlage-bearbeiten
+TEXT:
+Hier legen Sie Orte, Bahnhöfe, Betriebe, Lager, Übergaben, Tabs und Module an und verbinden sie.
+
+- **Palette** links: Klick oder Ziehen auf die Fläche.
+- **Ziehen** verschiebt (Raster), mit **Umschalt** wird eine Verbindung gerade.
+- **Doppelklick** bearbeitet, **Rechtsklick** verbindet („Mit Station verbinden...“), färbt oder kopiert.
+- Oben: **Verkehrs-Assistent**, **Zusätzlich erforderlich** (grau, wenn nichts fehlt), **Kreislauf prüfen**, **Lagergrößen**.
+
+=== gleis ===
+TITEL: Gleis bearbeiten
+FENSTER: Gleis bearbeiten
+ANKER: gleise-lager-und-betriebe-die-kapazitaeten-am-boden
+TEXT:
+Ein Gleis ist genau ein iTrain-Block: **Bahnsteig** (Reisende), **Ladegleis** (Güter) oder am Schattenbahnhof beides.
+
+- **Kapazität**: Personen je Richtung bzw. Einheiten je Gut; mehr Vorrat nur über ein Lager.
+- **Umladen je Modellminute**: wie schnell beim Halt umgeladen wird.
+- **Fahrtrichtungen**: Reisende steigen nur in Fahrtrichtung ein.
+- Am Schattenbahnhof: **Güter, die hier bereitstehen** (Angebot) und **Güter, die hier abgenommen werden** (leer = alles), Ankommende, Post und Expressgut.
+
+=== lager ===
+TITEL: Lager bearbeiten
+FENSTER: Lager bearbeiten
+ANKER: lager-uebergaben-und-der-schattenbahnhof
+TEXT:
+Ein Lager vergrößert den Vorrat eines Bahnhofs über die Kapazität der Gleise hinaus. Es nimmt die gewählten Güter auf und gibt sie an Züge und Betriebe ab. **Lagergrößen** in „Anlage bearbeiten“ ändert alle Lager mit einem Faktor.
+
+=== betrieb ===
+TITEL: Betrieb bearbeiten
+FENSTER: Betrieb bearbeiten | Neuer Betrieb
+ANKER: betrieb
+TEXT:
+Ein Betrieb stellt nach **Rezept** her: Eingänge werden zu Ausgängen, **Ausführungen M/h** mal je Modellstunde.
+
+- Mehrere Rezepte sind Alternativen; ein 3D-Strich trennt sie.
+- **Geliefert von** zeigt die Herkunft jedes Eingangs, rot fehlt ein Lieferant oder Abnehmer.
+- **Wird von außerhalb geliefert**: Eingang ohne Zug, unbegrenzt.
+- **Dynamisch**, **Produktion passt sich an**, **Liefert alle x Stunden**, **Liefert immer, ohne auf der Anlage zu sein**.
+- Das Schild **⚙ Erfüllung** bewertet Anlieferung der Eingänge und Abholung der Herstellung; im Detailfenster Tabelle und **Maßnahmen**.
+
+=== ort ===
+TITEL: Ort bearbeiten
+FENSTER: Stadt bearbeiten | Dorf bearbeiten | Ländlich bearbeiten
+ANKER: ort-stadt-dorf-laendlich
+TEXT:
+Ein Ort hat **Abreisende** und **Ankommende** je Modellstunde (1. und 2. Klasse) und **Bedarf** an Gütern. **Vorschlag...** füllt typische Werte. Post und Expressgut liefert der Ort selbst. **Bedarf wächst mit der Versorgung** steigert den Güterbedarf, wenn gut geliefert wird.
+
+Das Schild **☺ Zufriedenheit** (rot unter 50 %, gelb bis 85 %, grün darüber) bewertet Anlieferung und Abholung der Reisenden; Klick auf den Kasten zeigt die Tabelle und unter der Statistik den Knopf **Maßnahmen**.
+
+=== station ===
+TITEL: Bahnhof bearbeiten
+FENSTER: Bahnhof bearbeiten | Güterbahnhof bearbeiten | Schattenbahnhof bearbeiten | Haltepunkt bearbeiten | Anschluss bearbeiten | Anderes bearbeiten
+ANKER: schritt-3-anlage-bearbeiten-bahnhoefe-einbauen
+TEXT:
+Name, Art und **Gleise** der Station. Doppelklick auf eine Gleiszeile öffnet das Gleis. Im **Einzugsbereich** hängen Orte, Betriebe, Lager und Übergaben, die der Bahnhof bedient. Ladegleise eines Bahnhofs wandern in den angedockten Güterbahnhof. Am Schattenbahnhof lassen sich nur Betriebe und Übergaben anschließen.
+
+=== uebergabe ===
+TITEL: Übergabe bearbeiten
+FENSTER: Übergabe bearbeiten
+ANKER: lager-uebergaben-und-der-schattenbahnhof
+TEXT:
+Eine Übergabe ist eine Güterstelle zur Außenwelt ohne eigenes Gleis. Sie **benötigt keinen Lieferanten**: Das **Angebot** liefert sie unbegrenzt, die **Annahme** nimmt sie unbegrenzt ab.
+
+=== modul ===
+TITEL: Modul und Tab
+FENSTER: Modul bearbeiten | Neues Modul | Tab bearbeiten
+ANKER: module-anlegen
+TEXT:
+Ein **Tab** gibt einem Teil der Anlage einen eigenen Reiter. Ein **Modul** ebenso, braucht aber mindestens ein **Streckengleis** (Block von Modul zu Modul) und kann im Browser gezeigt werden. Bahnhöfe hängen Sie per Rechtsklick „Mit Tab verbinden...“ bzw. „Mit Modul verbinden...“ an.
+
+=== wagen ===
+TITEL: Wagen
+FENSTER: Wagen
+ANKER: wagen-wagenart-kapazitaet-wagenladungen
+TEXT:
+Befördert wird nur, was ein Wagen laden kann. Tragen Sie je Wagen **Wagenart** und **Plätze** bzw. **Ladeklasse**, **Kapazität** und **Wagenladungen** ein. **Behälter** macht den Wagen zum Joker. **Epoche** mit **Vorgabe**: angehakt gilt die Epoche der Anlage; in Epoche I/II gibt es Plätze der 3. bzw. 4. Klasse (zählen zur 2. Klasse). Eine **Wagenliste** befördert Personen oder (als Joker) Güter. **Angaben kopieren** und **Einfügen** übertragen die Werte auf gleiche Wagen.
+
+=== lok ===
+TITEL: Lokomotiven
+FENSTER: Lokomotiven
+ANKER: triebzuege-und-triebwagen
+TEXT:
+Angaben aus iTrain plus eigene Felder. **Triebzug / Triebwagen** für Fahrzeuge, die selbst Reisende oder Güter befördern; darunter dieselben Felder wie bei einem Wagen.
+
+=== zuege ===
+TITEL: Züge
+FENSTER: Züge
+ANKER: schritt-2-wagen-und-triebwagen-ergaenzen
+TEXT:
+Zusammenstellung jedes Zugs aus iTrain mit Kapazität und Einheit und der aktuellen Ladung. Ändern Sie Wagen in iTrain, holt **Abgleichen** den neuen Stand.
+
+=== zuganzeiger ===
+TITEL: Zuganzeiger
+FENSTER: Zuganzeiger
+ANKER: zuganzeiger
+TEXT:
+Abfahrtstafel der nötigen Fahrten: Gut oder Reisende, Menge, als Laufschrift Ziel, Abholort und geeignete Züge. Erledigte Fahrten werden kurz grün. Unten: **Geeignete Züge vorschlagen**, **Langsamer/Schneller**, **Zoom**. Ein größeres Fenster zeigt mehr Zeilen.
+
+=== routen ===
+TITEL: Routen-Anzeiger
+FENSTER: Routen-Anzeiger
+ANKER: routen-anzeiger-als-fenster
+TEXT:
+Ein Zug von der Seite: vorheriger, aktueller und nächster Block, Weichen, Bremsstrecke, Haltepunkt, Signal bzw. Prellbock. Der Zug ist maßstäblich zum Block, wenn iTrain die Zuglänge meldet. Unten rechts **Bremst** und **Halt erwarten**. **Ton an/aus** für die Geräusche beim Halt.
+
+=== modulanzeiger ===
+TITEL: Modul-Anzeiger
+FENSTER: Modul-Anzeiger
+ANKER: der-modul-anzeiger
+TEXT:
+Je Block der Zug mit Ladung, Reisenden, Ziel und Zustand. Ein Modul zeigt nur seine Streckengleise (in „Anlage bearbeiten“ per Rechtsklick auf das Modul festgelegt). Das Modul wählen Sie im Menü Anzeiger → Modul-Anzeiger → <Modul>; jedes Feld nennt seinen Block. Im Browser gibt es dieselbe Anzeige, auch für einen einzelnen Block – mit QR-Code zum Aushängen am Block. Oben rechts der **Ton bei Einfahrt**: Klingel, Glocke oder Hupe; ein Klick auf das Modul in der Übersicht spielt ihn.
+
+=== uhr ===
+TITEL: Uhr
+FENSTER: Uhr
+ANKER: die-uhr
+TEXT:
+Die Modellzeit aus iTrain, **digital** oder **analog**. Die Anzeige wächst mit dem Fenster. Rechtsklick oder **⚙**: Digital/Analog, Sekunden, **Farben...**, Standardfarben. Im Browser: Anzeiger → Anzeiger im Browser → Uhr.
+
+=== simulator ===
+TITEL: Simulator
+FENSTER: iTrain-Logistik-Simulator | Vorgang starten
+ANKER: simulator
+TEXT:
+Ersetzt iTrain zum Planen und Vorführen: einen Zug auf die linke oder rechte Hälfte eines Blocks ziehen – der Simulator meldet Einfahrt, Warten, Abfahrt. **Aufzeichnen** und **Vorgang starten...** spielen Abläufe ab.
+
+=== verbindung ===
+TITEL: Verbindung zu iTrain
+FENSTER: Verbindung zu iTrain
+ANKER: schritt-7-verbindung-zu-itrain-und-die-erste-fahrt
+TEXT:
+Die Logistik empfängt die Zugereignisse über **XTC** (Port 7128). iTrain auf diesem oder einem anderen Rechner wählen, **Verbindung prüfen**, speichern und **Einstellungen → iTrain Verbindung** wählen.
+
+=== assistent ===
+TITEL: Verkehrs-Assistent
+FENSTER: Verkehrs-Assistent
+ANKER: schritt-3-anlage-bearbeiten-bahnhoefe-einbauen
+TEXT:
+Baut den Verkehr Schritt für Schritt auf: Bahnhöfe und Gleise aus iTrain, Umgebung (Stadt, Dorf, Betriebe), Transport eines Guts von der Herkunft zum Abnehmer und eine Prüfung der Anlage mit Fahrten je Stunde.
+
+=== hilfe_menue ===
+TITEL: Mit der KI prüfen, Kontakt
+FENSTER: Mit der KI prüfen | Kontakt
+ANKER: das-hilfe-menue
+TEXT:
+Die Dateien Ihrer Konfiguration liegen in einem Ordner bereit. Ziehen Sie sie mit der Maus in den Chat der KI bzw. in die E-Mail (Drag & Drop) oder öffnen Sie den Ordner.
+
+=== geraeusche ===
+TITEL: Geräusche
+FENSTER: Geräusche
+ANKER: geraeusche
+TEXT:
+Logistik Daten → **Geräusche...**: ob beim Klick auf ein Symbol ein Geräusch spielt (aus, einmal, solange das Fenster offen ist), Lautstärke, Ordner und die Liste der Dateien mit Probehören. Der Dateiname beginnt mit dem Namen des Symbols („Möbelfabrik - Holz sägen.mp3“). Die Anlagen-Infrastruktur hat einen Sphärenklang.
+
+=== voreinstellungen ===
+TITEL: Voreinstellungen
+FENSTER: Voreinstellungen | Einstellungen | Preferences
+ANKER: verwendung
+TEXT:
+Sprache, Farbschema, 3D-Schatten, Lauflicht, Pfeilfarben, Raster, abgeschaltete Dialoge; Uhr; Pfade; iTrain (XTC); Reiter; **Beim Start automatisch nach Updates suchen**.
+
+=== hauptfenster ===
+TITEL: Hauptfenster
+FENSTER: iTrain-Logistik
+ANKER: symbole-und-umrandungen
+TEXT:
+Die **Übersicht** zeigt Ihre Anlage: Bahnhöfe mit Gleisen, Orte, Betriebe, Lager. Ein gelber Rahmen = Zug am Gleis, Lauflicht = Austausch, rote Schrift = Hinweis. Klick auf ein Symbol öffnet sein Detailfenster.
+
+- **Anlage bearbeiten**: Symbole anlegen und verbinden.
+- **Anzeiger**: Zuganzeiger, Routen-, Modul-Anzeiger und Uhr – im Fenster oder im Browser.
+- Statusleiste: **Langsamer/Schneller** (Mitte ×1), Austausch, Quelle der Zugereignisse.
+
+F1 zeigt in jedem Fenster die passende Hilfe, **Hilfe → Handbuch** das ganze Handbuch.

@@ -1,0 +1,213 @@
+# ===========================================================================
+#  iTrain-Logistik dialog texts – English
+#  Same keys and format as Dialogtexte.txt (German): "=== key ===", "TITEL:",
+#  "TEXT:". Missing sections fall back to German. Keep placeholders {name}.
+# ===========================================================================
+
+=== grundzuege ===
+TITEL: Before you start: how iTrain-Logistik works
+TEXT:
+**iTrain-Logistik shows what is carried on your layout: passengers and goods that your trains take from station to station.**
+
+**A file of its own, based on iTrain**
+Logistik creates its own file (.logz). It contains all logistics details of your layout: towns, stations, industries and warehouses, the stocks and the details of your vehicles.
+This file only works together with the iTrain file (.tcdz) it was created from. Track plan, blocks, stations and trains come from iTrain and form the basis. Logistik only reads the iTrain file, it never changes it.
+Both must match. If a block is renamed in iTrain, a train composed differently or a wagon added, Logistik takes this over with the **Synchronise** button. If the iTrain file was saved since the last synchronisation, Logistik offers it right away when opening. The .tcdz the logistics file is linked with is always shown below the ribbon.
+
+**What iTrain does not know**
+iTrain knows length, speed and decoder of a vehicle, but not how many passengers a coach holds or how many tonnes of coal fit into a wagon. You add these details in Logistik:
+- Wagons: wagon type, plus seats and standing places or load class and capacity
+- Railcars and multiple units: seats or capacity directly at the locomotive
+
+Logistik deliberately calculates with every single wagon and not with flat wagon lists. Flat lists would give far too simple traffic; only with the real wagons does it count whether a train really has room for the waiting passengers or the cargo ready for pickup. That is why Logistik reads all locomotives and wagons from iTrain when creating the file.
+
+**The next steps**
+- Right after creating, Logistik asks for the capacities of the wagons and railcars. Please complete them as fully as possible.
+- Then set up stations, towns and industries under **Edit layout**, most easily with the traffic assistant.
+- During operation iTrain reports which train stops where. Passengers then board and alight, and goods are loaded.
+
+
+=== einrichtung_wagen ===
+TITEL: Please complete all wagons first
+TEXT:
+{offen} of {alle} wagons do not yet have complete details (wagon type and seats or capacity). Without them no train can carry people or goods.
+
+Tip: take over the details of one wagon with **Copy details** and enter them at the next one with **Paste**.
+
+If the wagons are already recorded in another configuration, **Import wagons...** takes over the details from its vehicle file (*.fahrzeuge.xml), wagon by wagon by name.
+
+
+=== einrichtung_keine_wagen ===
+TITEL: Please complete all wagons first
+TEXT:
+No wagons are defined in the .tcdz.
+
+
+=== einrichtung_triebzuege ===
+TITEL: Are there railcars or multiple units?
+TEXT:
+In iTrain, railcars are locomotives but carry people or goods themselves. Mark them in the Locomotives window with **Railcar / multiple unit** and give them seats or capacity there.
+
+
+=== einrichtung_fertig ===
+TITEL:
+TEXT:
+Vehicles recorded. Set up stations, towns and industries under “Edit layout”.
+
+
+=== assistent_bahnhoefe_vorhanden ===
+TITEL: {anzahl} stations in the iTrain file
+TEXT:
+Your iTrain file defines {anzahl} stations that Logistik does not know yet.
+
+The assistant guides you through the setup: for each station you choose the type, and for each track whether passengers board and alight there, goods are loaded or nothing happens for now.
+
+**Next** starts the assistant.
+
+
+=== tcdz_geaendert ===
+TITEL: The iTrain file has changed
+TEXT:
+“{datei}” was changed in iTrain since the last synchronisation.
+
+With **Synchronise now** Logistik takes over new, changed and removed locomotives, wagons, blocks and trains. Your own details (seats, capacities, stations, towns, industries) are kept.
+
+
+=== assistent_bahnhoefe ===
+TITEL: Station setup
+TEXT:
+For each station from iTrain you set here what it is called, which type it has and what happens at its tracks.
+- **Name**: how the station appears in Logistik (the name in iTrain stays).
+- **Type**: station, halt, freight yard, fiddle yard or siding. As long as a station shows “Other”, you cannot continue.
+- **Tracks**: **Platform** (passengers board and alight), **Loading track** (goods are loaded), **Platform and loading track** (both at the same track, e.g. in the fiddle yard) or **Nothing for now** (the track stays free and can be set up later).
+- **On the layout or module**: if the station belongs to a module, choose it or create one with **New module…**.
+
+If you choose platforms and loading tracks in a station, Logistik creates a passenger station and a docked freight yard.
+You can call the assistant again at any time, for example to set up another track as a platform.
+
+
+=== umgebung_personen ===
+TITEL: Passenger traffic activated at “{bahnhof}”
+TEXT:
+Please add the surroundings the passengers come from and want to travel to.
+
+- **Town**: many passengers, large demand for goods
+- **Village**: about half as much as a town
+- **Rural**: few passengers, demand mainly for food and farm supplies
+
+Then the edit window opens with all details as usual. If the place already exists, choose **Choose existing place**.
+
+
+=== umgebung_gueter ===
+TITEL: Freight traffic activated at “{bahnhof}”
+TEXT:
+Please add what needs or produces goods at these loading tracks.
+
+- **Town, village, rural**: need goods (food, wares, building materials …)
+- **Industry**: produces goods and often needs goods itself (a manufacturing chain)
+- **Warehouse**: takes in goods and passes them on gradually
+- **Interchange**: goods come from outside the layout or go there
+
+Then the edit window opens with all details as usual.
+
+
+=== assistent_pruefung ===
+TITEL: What should happen on the layout
+TEXT:
+The table shows who releases or needs how many passengers or goods per model hour, who the counterpart is and whether your trains can manage it.
+- **✓** everything present
+- **⚠** something is missing here, for example a supplier, a destination for the passengers or a train with suitable wagons
+
+Select a row with **⚠** and choose **Next** (or double-click the row): the assistant adds what is missing there – an industry for a demand, more production at an existing industry, a fiddle yard if there is no counterpart, a warehouse for too much production. Then the table appears recalculated, with everything just added.
+
+
+=== lieferkette_betrieb ===
+TITEL: Supply chain for “{ziel}”
+TEXT:
+To cover the demand of {menge} per model hour at “{ziel}”, an industry that produces it must be included: **{betrieb}**.
+
+**Create industry** creates it and asks at which station it is located. If the industry itself needs goods (a manufacturing chain), the assistant continues asking.
+**From the fiddle yard** lets the good come from the fiddle yard instead, i.e. from outside the layout.
+
+
+=== lieferkette_vorhanden ===
+TITEL: Supply chain for “{ziel}”
+TEXT:
+“{ziel}” needs {menge} per model hour. **{betrieb}** already exists and produces {herstellung} per model hour – for all customers together {fehlt} per model hour are still missing.
+
+**Increase “{betrieb}”** sets the runs per model hour from {rate} to {neu}. If the industry needs more goods itself for this, the check shows it afterwards.
+**Create another industry** creates a second producer at another station.
+**From the fiddle yard** lets the missing part come from outside the layout.
+
+
+=== lieferkette_ohne_vorlage ===
+TITEL: Supply chain for “{ziel}”
+TEXT:
+There is no industry template for the demand of {menge} per model hour at “{ziel}”. The good can come from the fiddle yard, i.e. from outside the layout.
+
+
+=== lieferkette_ort ===
+TITEL: At which station is “{betrieb}” located?
+TEXT:
+The industry needs loading tracks so that trains can pick up or deliver its goods. Choose the station – any station of the layout works, only the fiddle yard does not (goods come from outside there, per track). If the station has no loading track yet, Logistik then asks which track becomes one. If the industry is not at any station of the layout, choose **Not on the layout**: it then always supplies, without a train.
+
+
+=== schattenbahnhof_vorschlag ===
+TITEL: No counterpart on the layout
+TEXT:
+For {was} there is no counterpart on the layout: no other station and no fiddle yard.
+
+Suggestion: a **fiddle yard** as connection to the outside world. So that the exchange can always take place, it should
+- have at least **two tracks**, one per direction,
+- be as long as your longest train,
+- be reachable via the line from both sides.
+
+Free blocks from iTrain you can use for it: {bloecke}
+
+Until then, passengers may alight again at their boarding station after a round trip.
+
+
+=== ueberschuss ===
+TITEL: “{betrieb}” produces more than is needed
+TEXT:
+{menge} per model hour are left over.
+
+- **Create warehouse**: the warehouse takes in the surplus and passes it on gradually, so the goods arrive piece by piece at the customer.
+- **Increase consumption**: “{ort}” will need so much more that nothing is left over.
+
+
+=== assistent_start ===
+TITEL: What would you like to do?
+TEXT:
+- **Stations and tracks**: change names, types and tracks of the stations, for example make track 3 a platform.
+- **Define transport**: state what is carried from where to where.
+- **Check layout**: view the table with demand, production and passengers and close gaps.
+
+
+=== transport ===
+TITEL: What is transported from where to where?
+TEXT:
+Choose passengers or a good, the source, the destination and the amount per model hour. The assistant enters demand, production and the release of the loading tracks. What it cannot set itself, for example a missing recipe, it shows afterwards.
+
+
+=== geraeusche_linux ===
+TITEL: Sound cannot be played
+TEXT:
+The sound **{datei}** could not be played ({fehler}).
+
+On Linux, iTrain-Logistik needs the system's ffmpeg libraries (libavcodec and libavformat) for mp3 files. They are often already present; otherwise install them with the package manager, for example:
+- Debian, Ubuntu, Linux Mint: **sudo apt install ffmpeg**
+- Fedora: **sudo dnf install ffmpeg-free**
+- openSUSE: **sudo zypper install ffmpeg**
+
+An audio output must also be present (ALSA, PulseAudio or PipeWire). Then restart iTrain-Logistik.
+
+Files in wav format play without ffmpeg too. Sounds can be switched off under Logistics data → Sounds.
+
+
+=== geraeusche_fehler ===
+TITEL: Sound cannot be played
+TEXT:
+The sound **{datei}** could not be played ({fehler}).
+
+Please check whether an audio output (speakers, headphones) is switched on and whether the file can be played (formats mp3, wav, m4a, aiff). Sounds can be switched off under Logistics data → Sounds.

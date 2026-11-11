@@ -1,0 +1,284 @@
+# ===========================================================================
+#  Dialogtexte von iTrain-Logistik - zum Bearbeiten
+# ===========================================================================
+#
+#  Diese Datei enthaelt die Texte der Dialoge (spaeter auch Hilfe und
+#  Handbuch). Bearbeite den Text nach Belieben und gib Bescheid; beim
+#  naechsten Bauen des Programms (gradlew run / build) wird die Datei
+#  automatisch eingebunden.
+#
+#  AUFBAU
+#  ------
+#  Ein Abschnitt beginnt mit einer Zeile
+#        === schluessel ===
+#  Danach folgen zwei Bloecke:
+#        TITEL: <die fette Ueberschrift des Dialogs>
+#        TEXT:
+#        <der Fliesstext, beliebig viele Zeilen>
+#
+#  Den Schluessel bitte NICHT aendern - daran findet das Programm den
+#  Abschnitt. Reihenfolge der Abschnitte ist egal.
+#
+#  AUSZEICHNUNG IM TEXT
+#  --------------------
+#     **fett**          hebt eine Stelle hervor
+#     "- " am Anfang    macht aus der Zeile einen Aufzaehlungspunkt
+#     Leerzeile         beginnt einen neuen Absatz
+#     einfacher Umbruch bleibt ein Umbruch im selben Absatz
+#     {name}            Platzhalter, den das Programm einsetzt (z. B. eine
+#                       Anzahl). Die Platzhalter eines Abschnitts stehen in
+#                       dessen Kommentar; bitte nicht umbenennen.
+#
+#  Zeilen, die mit # beginnen, sind Kommentare und erscheinen nicht im
+#  Dialog. Innerhalb einer Zeile ist # ein gewoehnliches Zeichen.
+#
+# ===========================================================================
+
+
+# Erscheint bei "Neu aus .tcdz importieren..." vor der Dateiauswahl.
+# Knoepfe: Abbruch / Weiter
+=== grundzuege ===
+TITEL: Bevor es losgeht: So arbeitet iTrain-Logistik
+TEXT:
+**iTrain-Logistik bildet ab, was auf Ihrer Anlage befördert wird: Reisende und Güter, die Ihre Züge von Bahnhof zu Bahnhof bringen.**
+
+**Eine eigene Datei, die auf iTrain aufbaut**
+Logistik legt eine eigene Datei an (.logz). Darin stehen alle Logistik-Angaben zu Ihrer Anlage: Orte, Bahnhöfe, Betriebe und Lager, die Bestände und die Angaben zu Ihren Fahrzeugen.
+Diese Datei funktioniert nur zusammen mit der iTrain-Datei (.tcdz), aus der sie angelegt wurde. Gleisplan, Blöcke, Bahnhöfe und Züge kommen aus iTrain und bilden die Grundlage. Logistik liest die iTrain-Datei nur, es ändert sie nie.
+Beide müssen zueinander passen. Wird in iTrain ein Block umbenannt, ein Zug anders zusammengestellt oder ein Wagen hinzugefügt, übernimmt Logistik das mit dem Knopf **Abgleichen**. Wurde die iTrain-Datei seit dem letzten Abgleich gespeichert, bietet Logistik das Abgleichen beim Öffnen gleich an. Mit welcher .tcdz die Logistik-Datei verknüpft ist, steht immer unter dem Ribbon.
+
+**Was iTrain nicht weiß**
+iTrain kennt Länge, Geschwindigkeit und Decoder eines Fahrzeugs, aber nicht, wie viele Reisende ein Wagen aufnimmt oder wie viele Tonnen Kohle hineinpassen. Diese Angaben ergänzen Sie in Logistik:
+- Wagen: Wagenart, dazu Sitz- und Stehplätze bzw. Ladeklasse und Kapazität
+- Triebzüge und Triebwagen: Plätze bzw. Kapazität direkt bei der Lokomotive
+
+Logistik rechnet bewusst mit jedem einzelnen Wagen und nicht mit pauschalen Wagenlisten. Pauschale Listen ergäben einen viel zu einfachen Verkehr; erst mit den echten Wagen zählt, ob ein Zug wirklich Platz für die Wartenden oder die bereitstehende Ladung hat. Deshalb liest Logistik beim Anlegen alle Lokomotiven und Wagen aus iTrain ein.
+
+**Die nächsten Schritte**
+- Gleich nach dem Anlegen fragt Logistik die Kapazitäten der Wagen und Triebzüge ab. Bitte ergänzen Sie sie möglichst vollständig.
+- Bahnhöfe, Orte und Betriebe richten Sie danach unter **Anlage bearbeiten** ein, am einfachsten mit dem Verkehrs-Assistenten.
+- Im Betrieb meldet iTrain, welcher Zug wo hält. Dann steigen Reisende ein und aus, und Güter werden geladen.
+
+
+# Nach dem Anlegen, Schritt 1. Platzhalter: {offen} = Wagen ohne vollstaendige
+# Angaben, {alle} = Wagen insgesamt. Knoepfe: Spaeter / Wagen importieren... / Wagen ergaenzen
+=== einrichtung_wagen ===
+TITEL: Bitte zuerst alle Wagen ergänzen
+TEXT:
+{offen} von {alle} Wagen haben noch keine vollständigen Angaben (Wagenart und Sitzplätze bzw. Kapazität). Ohne sie kann kein Zug Personen oder Güter befördern.
+
+Tipp: Angaben eines Wagens mit **Angaben kopieren** übernehmen und beim nächsten mit **Einfügen** eintragen.
+
+Sind die Wagen schon in einer anderen Konfiguration erfasst, übernimmt **Wagen importieren...** die Angaben aus deren Fahrzeugdatei (*.fahrzeuge.xml), Wagen für Wagen nach dem Namen.
+
+
+# Nach dem Anlegen, wenn die .tcdz keine Wagen enthaelt. Knopf: OK
+=== einrichtung_keine_wagen ===
+TITEL: Bitte zuerst alle Wagen ergänzen
+TEXT:
+In der .tcdz sind keine Wagen definiert.
+
+
+# Nach dem Anlegen, Schritt 2. Knoepfe: Nein / Ja, Lokomotiven zeigen
+=== einrichtung_triebzuege ===
+TITEL: Gibt es Triebzüge oder Triebwagen?
+TEXT:
+In iTrain sind Triebzüge Lokomotiven, befördern aber selbst Personen oder Güter. Sie werden im Fenster Lokomotiven mit **Triebzug / Triebwagen** gekennzeichnet und bekommen dort Plätze bzw. Kapazität.
+
+
+# Erscheint in der Statusleiste nach Schritt 2.
+=== einrichtung_fertig ===
+TITEL:
+TEXT:
+Fahrzeuge erfasst. Bahnhöfe, Orte und Betriebe richten Sie unter „Anlage bearbeiten“ ein.
+
+
+# Beim ersten "Anlage bearbeiten", solange die Bahnhoefe aus iTrain noch
+# nicht eingebaut sind. Platzhalter: {anzahl} = Bahnhoefe in der .tcdz.
+# Knoepfe: Abbruch / Weiter
+=== assistent_bahnhoefe_vorhanden ===
+TITEL: {anzahl} Bahnhöfe in der iTrain-Datei vorhanden
+TEXT:
+In Ihrer iTrain-Datei sind {anzahl} Bahnhöfe definiert, die Logistik noch nicht kennt.
+
+Der Assistent führt Sie durch die Einrichtung: Für jeden Bahnhof legen Sie die Art fest und für jedes Gleis, ob dort Reisende ein- und aussteigen, Güter geladen werden oder vorerst nichts passiert.
+
+**Weiter** startet den Assistenten.
+
+
+# Beim Oeffnen einer .logz, wenn die verknuepfte .tcdz seit dem letzten
+# Einlesen geaendert wurde. Platzhalter: {datei} = Name der .tcdz.
+# Knoepfe: Spaeter / Jetzt abgleichen
+=== tcdz_geaendert ===
+TITEL: Die iTrain-Datei wurde geändert
+TEXT:
+„{datei}“ wurde seit dem letzten Abgleich in iTrain geändert.
+
+Mit **Jetzt abgleichen** übernimmt Logistik neue, geänderte und entfernte Lokomotiven, Wagen, Blöcke und Züge. Ihre eigenen Angaben (Plätze, Kapazitäten, Bahnhöfe, Orte, Betriebe) bleiben erhalten.
+
+
+# Verkehrs-Assistent, Schritt Bahnhoefe (Kopf ueber der Tabelle).
+=== assistent_bahnhoefe ===
+TITEL: Einrichtung Bahnhöfe
+TEXT:
+Für jeden Bahnhof aus iTrain legen Sie hier fest, wie er heißt, welche Art er hat und was an seinen Gleisen passiert.
+- **Name**: so erscheint der Bahnhof in Logistik (der Name in iTrain bleibt).
+- **Art**: Bahnhof, Haltepunkt, Güterbahnhof, Schattenbahnhof oder Anschluss. Solange bei einem Bahnhof „Anderes“ steht, geht es nicht weiter.
+- **Gleise**: **Bahnsteig** (Reisende steigen ein und aus), **Ladegleis** (Güter werden geladen), **Bahnsteig und Ladegleis** (beides am selben Gleis, z. B. im Schattenbahnhof) oder **Vorerst nichts** (das Gleis bleibt frei und kann später eingerichtet werden).
+- **Auf der Anlage oder Modul**: Gehört der Bahnhof zu einem Modul, wählen Sie es aus oder legen mit **Neues Modul…** eines an.
+
+Wählen Sie in einem Bahnhof Bahnsteige und Ladegleise, legt Logistik einen Personenbahnhof und einen angedockten Güterbahnhof an.
+Den Assistenten können Sie jederzeit wieder aufrufen, zum Beispiel um ein weiteres Gleis als Bahnsteig einzurichten.
+
+
+# Verkehrs-Assistent: ein Bahnhof hat (neue) Bahnsteige. Platzhalter: {bahnhof}
+# Knoepfe: Stadt / Dorf / Laendlich / Vorhandenen Ort waehlen / Spaeter
+=== umgebung_personen ===
+TITEL: Personenverkehr in „{bahnhof}“ aktiviert
+TEXT:
+Bitte fügen Sie die Umgebung hinzu, aus der die Reisenden kommen und in die sie fahren wollen.
+
+- **Stadt**: viele Reisende, großer Bedarf an Gütern
+- **Dorf**: etwa halb so viel wie eine Stadt
+- **Ländlich**: wenige Reisende, Bedarf vor allem an Lebensmitteln und Landwirtschaftsbedarf
+
+Danach öffnet sich das Fenster zum Bearbeiten mit allen Angaben wie gewohnt. Gibt es den Ort schon, wählen Sie **Vorhandenen Ort wählen**.
+
+
+# Verkehrs-Assistent: ein Bahnhof hat (neue) Ladegleise. Platzhalter: {bahnhof}
+# Knoepfe: Stadt / Dorf / Laendlich / Betrieb / Lager / Uebergabe /
+#          Vorhandenes waehlen / Spaeter
+=== umgebung_gueter ===
+TITEL: Güterverkehr in „{bahnhof}“ aktiviert
+TEXT:
+Bitte fügen Sie hinzu, was an diesen Ladegleisen Güter braucht oder herstellt.
+
+- **Stadt, Dorf, Ländlich**: brauchen Güter (Lebensmittel, Waren, Baustoffe …)
+- **Betrieb**: stellt Güter her und braucht dafür oft selbst Güter (eine Fertigung)
+- **Lager**: nimmt Güter auf und gibt sie nach und nach weiter
+- **Übergabe**: Güter kommen von außerhalb der Anlage oder gehen dorthin
+
+Danach öffnet sich das Fenster zum Bearbeiten mit allen Angaben wie gewohnt.
+
+
+# Verkehrs-Assistent, Schritt Pruefung (Kopf ueber der Tabelle).
+# Knoepfe: Schliessen / Luecken schliessen
+=== assistent_pruefung ===
+TITEL: Was auf der Anlage passieren soll
+TEXT:
+Die Tabelle zeigt, wer je Modellstunde wie viele Reisende oder Güter abgibt oder braucht, wer das Gegenstück ist und ob Ihre Züge das schaffen.
+- **✓** alles vorhanden
+- **⚠** hier fehlt etwas, zum Beispiel ein Lieferant, ein Ziel für die Reisenden oder ein Zug mit passenden Wagen
+
+Markieren Sie eine Zeile mit **⚠** und wählen Sie **Weiter** (oder Doppelklick auf die Zeile): Der Assistent ergänzt, was dort fehlt – einen Betrieb für einen Bedarf, mehr Herstellung bei einem vorhandenen Betrieb, einen Schattenbahnhof, wenn es kein Gegenstück gibt, ein Lager bei zu viel Herstellung. Danach erscheint die Tabelle neu berechnet, mit allem, was gerade ergänzt wurde.
+
+
+# Lieferkette: ein Bedarf hat keinen Lieferanten. Platzhalter: {menge} (z. B.
+# "10 Gebinde Fisch"), {ziel} (wer es braucht), {betrieb} (Vorlage, die es
+# herstellt). Knoepfe: Spaeter / Vom Schattenbahnhof / Betrieb anlegen
+=== lieferkette_betrieb ===
+TITEL: Lieferkette für „{ziel}“
+TEXT:
+Damit der Bedarf von {menge} je Modellstunde in „{ziel}“ gedeckt wird, muss ein Betrieb eingebunden werden, der das herstellt: **{betrieb}**.
+
+**Betrieb anlegen** legt ihn an und fragt, an welchem Bahnhof er liegt. Braucht der Betrieb selbst Güter (eine Fertigung), fragt der Assistent danach weiter.
+**Vom Schattenbahnhof** lässt das Gut stattdessen aus dem Schattenbahnhof kommen, also von außerhalb der Anlage.
+
+
+# Lieferkette: ein Betrieb stellt das Gut schon her, aber zu wenig. Platzhalter:
+# {menge}, {ziel}, {betrieb} (vorhandener Hersteller), {herstellung} (bisher
+# je Modellstunde mit Gut), {fehlt} (fehlende Menge je Modellstunde), {rate}
+# (Ausfuehrungen je Modellstunde jetzt), {neu} (nach dem Erhoehen).
+# Knoepfe: Vom Schattenbahnhof / „Betrieb“ erhoehen / Weiteren Betrieb anlegen / Spaeter
+=== lieferkette_vorhanden ===
+TITEL: Lieferkette für „{ziel}“
+TEXT:
+„{ziel}“ braucht {menge} je Modellstunde. **{betrieb}** ist schon vorhanden und stellt {herstellung} je Modellstunde her – für alle Abnehmer zusammen fehlen noch {fehlt} je Modellstunde.
+
+**„{betrieb}“ erhöhen** setzt die Ausführungen je Modellstunde von {rate} auf {neu}. Braucht der Betrieb dafür selbst mehr Güter, zeigt die Prüfung das danach an.
+**Weiteren Betrieb anlegen** legt einen zweiten Hersteller an einem anderen Bahnhof an.
+**Vom Schattenbahnhof** lässt den fehlenden Teil von außerhalb der Anlage kommen.
+
+
+# Lieferkette: kein Betrieb stellt das Gut her. Platzhalter: {menge}, {ziel}.
+# Knoepfe: Spaeter / Vom Schattenbahnhof
+=== lieferkette_ohne_vorlage ===
+TITEL: Lieferkette für „{ziel}“
+TEXT:
+Für den Bedarf von {menge} je Modellstunde in „{ziel}“ gibt es keine Betriebsvorlage. Das Gut kann aus dem Schattenbahnhof kommen, also von außerhalb der Anlage.
+
+
+# Wohin kommt ein neuer Betrieb? Platzhalter: {betrieb}
+=== lieferkette_ort ===
+TITEL: An welchem Bahnhof liegt „{betrieb}“?
+TEXT:
+Der Betrieb braucht Ladegleise, damit Züge seine Güter abholen bzw. anliefern. Wählen Sie den Bahnhof – jeder Bahnhof der Anlage geht, nur der Schattenbahnhof nicht (dort kommen Güter je Gleis von außerhalb). Hat der Bahnhof noch kein Ladegleis, fragt Logistik gleich danach, welches Gleis eines wird. Liegt der Betrieb an keinem Bahnhof der Anlage, wählen Sie **Nicht auf der Anlage**: Dann liefert er immer, ohne Zug.
+
+
+# Es gibt kein Gegenstueck (keinen anderen Bahnhof). Platzhalter: {was}
+# (z. B. "Reisende aus Stadt"), {bloecke} (freie Bloecke aus iTrain).
+# Knoepfe: Spaeter / Schattenbahnhof anlegen
+=== schattenbahnhof_vorschlag ===
+TITEL: Kein Gegenstück auf der Anlage
+TEXT:
+Für {was} gibt es auf der Anlage kein Gegenstück: keinen weiteren Bahnhof und keinen Schattenbahnhof.
+
+Vorschlag: ein **Schattenbahnhof** als Verbindung zur Außenwelt. Damit der Austausch immer stattfinden kann, sollte er
+- mindestens **zwei Gleise** haben, je Fahrtrichtung eins,
+- so lang sein wie Ihr längster Zug,
+- über die Strecke von beiden Seiten erreichbar sein.
+
+Freie Blöcke aus iTrain, die Sie dafür nehmen können: {bloecke}
+
+Bis dahin dürfen Reisende nach einer Runde wieder am Einstiegsbahnhof aussteigen.
+
+
+# Ein Betrieb stellt mehr her als gebraucht wird. Platzhalter: {menge},
+# {betrieb}, {ort}. Knoepfe: Spaeter / Verbrauch erhoehen / Lager anlegen
+=== ueberschuss ===
+TITEL: „{betrieb}“ stellt mehr her als gebraucht wird
+TEXT:
+Es bleiben {menge} je Modellstunde übrig.
+
+- **Lager anlegen**: Das Lager nimmt den Überschuss auf und gibt ihn nach und nach weiter, so kommt die Ware Stück für Stück beim Abnehmer an.
+- **Verbrauch erhöhen**: „{ort}“ braucht künftig so viel mehr, dass nichts übrig bleibt.
+
+
+# Startauswahl, wenn die Bahnhoefe schon eingebaut sind.
+# Knoepfe: Bahnhoefe und Gleise / Transport festlegen / Anlage pruefen / Abbruch
+=== assistent_start ===
+TITEL: Was möchten Sie tun?
+TEXT:
+- **Bahnhöfe und Gleise**: Namen, Art und Gleise der Bahnhöfe ändern, zum Beispiel Gleis 3 zum Bahnsteig machen.
+- **Transport festlegen**: angeben, von wo was wohin gefahren wird.
+- **Anlage prüfen**: die Tabelle mit Bedarf, Herstellung und Reisenden ansehen und Lücken schließen.
+
+
+# Von wo wird was wohin transportiert. Knoepfe: Abbruch / Uebernehmen
+=== transport ===
+TITEL: Von wo wird was wohin transportiert?
+TEXT:
+Wählen Sie Reisende oder ein Gut, die Herkunft, das Ziel und die Menge je Modellstunde. Der Assistent trägt Bedarf, Herstellung und die Freigabe der Ladegleise ein. Was er nicht selbst einstellen kann, zum Beispiel ein fehlendes Rezept, zeigt er danach an.
+
+# Geräusch nicht abspielbar unter Linux (einmal je Programmstart). Platzhalter: {datei}, {fehler}
+=== geraeusche_linux ===
+TITEL: Geräusch lässt sich nicht abspielen
+TEXT:
+Das Geräusch **{datei}** konnte nicht abgespielt werden ({fehler}).
+
+Unter Linux braucht iTrain-Logistik für mp3-Dateien die ffmpeg-Bibliotheken des Systems (libavcodec und libavformat). Sie sind oft schon vorhanden, sonst installieren Sie sie mit der Paketverwaltung, zum Beispiel:
+- Debian, Ubuntu, Linux Mint: **sudo apt install ffmpeg**
+- Fedora: **sudo dnf install ffmpeg-free**
+- openSUSE: **sudo zypper install ffmpeg**
+
+Außerdem muss ein Tonausgang vorhanden sein (ALSA, PulseAudio oder PipeWire). Danach iTrain-Logistik neu starten.
+
+Dateien im Format wav spielen auch ohne ffmpeg. Abschalten lassen sich die Geräusche unter Logistik Daten → Geräusche.
+
+# Geräusch nicht abspielbar unter Windows/macOS. Platzhalter: {datei}, {fehler}
+=== geraeusche_fehler ===
+TITEL: Geräusch lässt sich nicht abspielen
+TEXT:
+Das Geräusch **{datei}** konnte nicht abgespielt werden ({fehler}).
+
+Bitte prüfen, ob ein Tonausgang (Lautsprecher, Kopfhörer) eingeschaltet ist und ob die Datei abspielbar ist (Formate mp3, wav, m4a, aiff). Abschalten lassen sich die Geräusche unter Logistik Daten → Geräusche.

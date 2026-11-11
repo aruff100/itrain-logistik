@@ -1,0 +1,210 @@
+# iTrain-Logistik – textos de los diálogos en español
+# Mismas claves y formato que Dialogtexte.txt. Secciones que falten: alemán.
+
+=== grundzuege ===
+TITEL: Antes de empezar: así funciona iTrain-Logistik
+TEXT:
+**iTrain-Logistik representa lo que se transporta en su maqueta: viajeros y mercancías que sus trenes llevan de estación en estación.**
+
+**Un archivo propio basado en iTrain**
+Logística crea un archivo propio (.logz). En él están todos los datos logísticos de su maqueta: localidades, estaciones, empresas y almacenes, las existencias y los datos de sus vehículos.
+Este archivo solo funciona junto con el archivo iTrain (.tcdz) a partir del cual se creó. El plano de vías, los bloques, las estaciones y los trenes vienen de iTrain y son la base. Logística solo lee el archivo iTrain, nunca lo modifica.
+Ambos deben encajar. Si en iTrain se renombra un bloque, se compone un tren de otra forma o se añade un vagón, Logística lo adopta con el botón **Sincronizar**. Si el archivo iTrain se guardó desde la última sincronización, Logística la ofrece directamente al abrir. Con qué .tcdz está vinculado el archivo logístico se indica siempre debajo de la cinta.
+
+**Lo que iTrain no sabe**
+iTrain conoce la longitud, la velocidad y el decodificador de un vehículo, pero no cuántos viajeros caben en un coche ni cuántas toneladas de carbón caben en un vagón. Estos datos los completa usted en Logística:
+- Vagones: tipo de vagón, además de plazas sentadas y de pie o clase de carga y capacidad
+- Automotores y autovías: plazas o capacidad directamente en la locomotora
+
+Logística calcula a propósito con cada vagón individual y no con listas globales. Las listas globales darían un tráfico demasiado simple; solo con los vagones reales cuenta si un tren tiene sitio de verdad para los viajeros en espera o la carga preparada. Por eso Logística lee al crear el archivo todas las locomotoras y vagones de iTrain.
+
+**Los próximos pasos**
+- Justo después de crearlo, Logística pregunta las capacidades de los vagones y automotores. Complételas lo más posible.
+- Luego configure estaciones, localidades y empresas en **Editar maqueta**, lo más fácil con el asistente de tráfico.
+- Durante el servicio, iTrain informa qué tren para dónde. Entonces suben y bajan viajeros y se cargan mercancías.
+
+
+=== einrichtung_wagen ===
+TITEL: Complete primero todos los vagones
+TEXT:
+{offen} de {alle} vagones aún no tienen datos completos (tipo de vagón y plazas o capacidad). Sin ellos ningún tren puede transportar personas ni mercancías.
+
+Consejo: tome los datos de un vagón con **Copiar datos** e introdúzcalos en el siguiente con **Pegar**.
+
+Si los vagones ya están registrados en otra configuración, **Importar vagones...** adopta los datos de su archivo de vehículos (*.fahrzeuge.xml), vagón a vagón por el nombre.
+
+
+=== einrichtung_keine_wagen ===
+TITEL: Complete primero todos los vagones
+TEXT:
+En el .tcdz no hay vagones definidos.
+
+
+=== einrichtung_triebzuege ===
+TITEL: ¿Hay automotores o autovías?
+TEXT:
+En iTrain los automotores son locomotoras, pero transportan ellos mismos personas o mercancías. Márquelos en la ventana Locomotoras con **Automotor / autovía** y deles allí plazas o capacidad.
+
+
+=== einrichtung_fertig ===
+TITEL:
+TEXT:
+Vehículos registrados. Configure estaciones, localidades y empresas en «Editar maqueta».
+
+
+=== assistent_bahnhoefe_vorhanden ===
+TITEL: {anzahl} estaciones en el archivo iTrain
+TEXT:
+Su archivo iTrain define {anzahl} estaciones que Logística aún no conoce.
+
+El asistente le guía por la configuración: para cada estación elige el tipo y para cada vía si allí suben y bajan viajeros, se cargan mercancías o de momento no pasa nada.
+
+**Siguiente** inicia el asistente.
+
+
+=== tcdz_geaendert ===
+TITEL: El archivo iTrain ha cambiado
+TEXT:
+«{datei}» se modificó en iTrain desde la última sincronización.
+
+Con **Sincronizar ahora**, Logística adopta locomotoras, vagones, bloques y trenes nuevos, modificados y eliminados. Sus propios datos (plazas, capacidades, estaciones, localidades, empresas) se conservan.
+
+
+=== assistent_bahnhoefe ===
+TITEL: Configuración de estaciones
+TEXT:
+Para cada estación de iTrain define aquí cómo se llama, qué tipo tiene y qué pasa en sus vías.
+- **Nombre**: así aparece la estación en Logística (el nombre en iTrain se mantiene).
+- **Tipo**: estación, apeadero, estación de mercancías, estación oculta o apartadero. Mientras una estación muestre «Otro», no se puede continuar.
+- **Vías**: **Andén** (los viajeros suben y bajan), **Vía de carga** (se cargan mercancías), **Andén y vía de carga** (ambos en la misma vía, p. ej. en la estación oculta) o **Nada por ahora** (la vía queda libre y se puede configurar más tarde).
+- **En la maqueta o módulo**: si la estación pertenece a un módulo, elíjalo o cree uno con **Nuevo módulo…**.
+
+Si elige andenes y vías de carga en una estación, Logística crea una estación de viajeros y una estación de mercancías acoplada.
+Puede volver a abrir el asistente en cualquier momento, por ejemplo para configurar otra vía como andén.
+
+
+=== umgebung_personen ===
+TITEL: Tráfico de viajeros activado en «{bahnhof}»
+TEXT:
+Añada el entorno del que vienen los viajeros y al que quieren ir.
+
+- **Ciudad**: muchos viajeros, gran demanda de mercancías
+- **Pueblo**: aproximadamente la mitad que una ciudad
+- **Rural**: pocos viajeros, demanda sobre todo de alimentos y suministros agrícolas
+
+Después se abre la ventana de edición con todos los datos como siempre. Si la localidad ya existe, elija **Elegir localidad existente**.
+
+
+=== umgebung_gueter ===
+TITEL: Tráfico de mercancías activado en «{bahnhof}»
+TEXT:
+Añada lo que necesita o produce mercancías en estas vías de carga.
+
+- **Ciudad, pueblo, rural**: necesitan mercancías (alimentos, artículos, materiales de construcción …)
+- **Empresa**: produce mercancías y a menudo necesita a su vez mercancías (una cadena de fabricación)
+- **Almacén**: recibe mercancías y las pasa poco a poco
+- **Intercambio**: las mercancías vienen de fuera de la maqueta o van allí
+
+Después se abre la ventana de edición con todos los datos como siempre.
+
+
+=== assistent_pruefung ===
+TITEL: Lo que debe pasar en la maqueta
+TEXT:
+La tabla muestra quién entrega o necesita cuántos viajeros o mercancías por hora de modelo, quién es la contrapartida y si sus trenes pueden con ello.
+- **✓** todo presente
+- **⚠** aquí falta algo, por ejemplo un proveedor, un destino para los viajeros o un tren con vagones adecuados
+
+Marque una fila con **⚠** y elija **Siguiente** (o doble clic en la fila): el asistente completa lo que falta allí – una empresa para una demanda, más producción en una empresa existente, una estación oculta si no hay contrapartida, un almacén si hay demasiada producción. Después la tabla aparece recalculada, con todo lo recién añadido.
+
+
+=== lieferkette_betrieb ===
+TITEL: Cadena para «{ziel}»
+TEXT:
+Para cubrir la demanda de {menge} por hora de modelo en «{ziel}» hay que incluir una empresa que lo produzca: **{betrieb}**.
+
+**Crear empresa** la crea y pregunta en qué estación está. Si la empresa necesita a su vez mercancías (una cadena de fabricación), el asistente sigue preguntando.
+**Desde la estación oculta** hace que la mercancía venga de la estación oculta, es decir, de fuera de la maqueta.
+
+
+=== lieferkette_vorhanden ===
+TITEL: Cadena para «{ziel}»
+TEXT:
+«{ziel}» necesita {menge} por hora de modelo. **{betrieb}** ya existe y produce {herstellung} por hora de modelo – para todos los clientes juntos faltan aún {fehlt} por hora de modelo.
+
+**Aumentar «{betrieb}»** pone las ejecuciones por hora de modelo de {rate} a {neu}. Si la empresa necesita para ello más mercancías, la comprobación lo muestra después.
+**Crear otra empresa** crea un segundo productor en otra estación.
+**Desde la estación oculta** hace que la parte que falta venga de fuera de la maqueta.
+
+
+=== lieferkette_ohne_vorlage ===
+TITEL: Cadena para «{ziel}»
+TEXT:
+Para la demanda de {menge} por hora de modelo en «{ziel}» no hay plantilla de empresa. La mercancía puede venir de la estación oculta, es decir, de fuera de la maqueta.
+
+
+=== lieferkette_ort ===
+TITEL: ¿En qué estación está «{betrieb}»?
+TEXT:
+La empresa necesita vías de carga para que los trenes recojan o entreguen sus mercancías. Elija la estación – vale cualquier estación de la maqueta, salvo la estación oculta (allí las mercancías vienen de fuera, por vía). Si la estación aún no tiene vía de carga, Logística pregunta enseguida qué vía lo será. Si la empresa no está en ninguna estación de la maqueta, elija **No está en la maqueta**: entonces entrega siempre, sin tren.
+
+
+=== schattenbahnhof_vorschlag ===
+TITEL: Sin contrapartida en la maqueta
+TEXT:
+Para {was} no hay contrapartida en la maqueta: ni otra estación ni estación oculta.
+
+Propuesta: una **estación oculta** como conexión con el mundo exterior. Para que el intercambio siempre pueda darse, debería
+- tener al menos **dos vías**, una por sentido de marcha,
+- ser tan larga como su tren más largo,
+- ser accesible por el trayecto desde ambos lados.
+
+Bloques libres de iTrain que puede usar para ello: {bloecke}
+
+Hasta entonces, los viajeros pueden volver a bajar en su estación de subida tras una vuelta.
+
+
+=== ueberschuss ===
+TITEL: «{betrieb}» produce más de lo necesario
+TEXT:
+Sobran {menge} por hora de modelo.
+
+- **Crear almacén**: el almacén recibe el excedente y lo pasa poco a poco, así la mercancía llega pieza a pieza al cliente.
+- **Aumentar consumo**: «{ort}» necesitará en adelante tanto más que no sobre nada.
+
+
+=== assistent_start ===
+TITEL: ¿Qué desea hacer?
+TEXT:
+- **Estaciones y vías**: cambiar nombres, tipo y vías de las estaciones, por ejemplo convertir la vía 3 en andén.
+- **Definir transporte**: indicar qué se lleva de dónde a dónde.
+- **Comprobar maqueta**: ver la tabla de demanda, producción y viajeros y cerrar huecos.
+
+
+=== transport ===
+TITEL: ¿Qué se transporta de dónde a dónde?
+TEXT:
+Elija viajeros o una mercancía, el origen, el destino y la cantidad por hora de modelo. El asistente introduce demanda, producción y la habilitación de las vías de carga. Lo que no pueda ajustar él mismo, por ejemplo una receta que falte, lo muestra después.
+
+
+=== geraeusche_linux ===
+TITEL: No se puede reproducir el sonido
+TEXT:
+No se pudo reproducir el sonido **{datei}** ({fehler}).
+
+En Linux, iTrain-Logistik necesita para los archivos mp3 las bibliotecas ffmpeg del sistema (libavcodec y libavformat). A menudo ya están; si no, instálelas con el gestor de paquetes, por ejemplo:
+- Debian, Ubuntu, Linux Mint: **sudo apt install ffmpeg**
+- Fedora: **sudo dnf install ffmpeg-free**
+- openSUSE: **sudo zypper install ffmpeg**
+
+También debe haber una salida de audio (ALSA, PulseAudio o PipeWire). Después reinicie iTrain-Logistik.
+
+Los archivos wav se reproducen también sin ffmpeg. Los sonidos se desactivan en Datos de logística → Sonidos.
+
+
+=== geraeusche_fehler ===
+TITEL: No se puede reproducir el sonido
+TEXT:
+No se pudo reproducir el sonido **{datei}** ({fehler}).
+
+Compruebe que haya una salida de audio activada (altavoces, auriculares) y que el archivo se pueda reproducir (formatos mp3, wav, m4a, aiff). Los sonidos se desactivan en Datos de logística → Sonidos.
