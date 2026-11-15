@@ -55,6 +55,8 @@ final class BahnhoefeDialog {
     static final String BEIDE = "Bahnsteig und Ladegleis";
     static final String AUF_ANLAGE = "Auf der Anlage";
     static final String NEUES_MODUL = "Neues Modul…";
+    /** Kennung der von Hand angelegten Bahnhöfe im Ergebnis ({@code itrainName} = EIGEN + Id). */
+    static final String EIGEN = "\u0000eigen:";
 
     /** Ergebnis je Bahnhof; {@code station} null = noch nicht eingebaut. Wert null in {@code wahl} = vorerst nichts. */
     record Ergebnis(String itrainName, Station station, String name, ObjektArt art, Map<String, GleisArt> wahl,
@@ -80,6 +82,17 @@ final class BahnhoefeDialog {
      * @return die Einstellungen oder null (Abbruch)
      */
     static List<Ergebnis> zeige(Window owner, Anlage anlage, Map<String, List<String>> daten, Map<String, String> typen) {
+        // Von Hand angelegte Bahnhöfe (ohne iTrain-Bahnhof, kein angedockter Gbf) gehören dazu (Anwender 15.11.2026:
+        // „Wenn ich einen Bahnhof manuell hinzufüge … wird der Bahnhof nicht angezeigt“). Schlüssel EIGEN + Id.
+        Map<String, List<String>> alle = new LinkedHashMap<>(daten);
+        Map<String, Station> eigene = new LinkedHashMap<>();
+        for (Station st : anlage.stationen()) {
+            if ((st.getItrainName() == null || st.getItrainName().isBlank()) && st.getGehoertZu() == null) {
+                alle.put(EIGEN + st.getId(), new ArrayList<>());
+                eigene.put(EIGEN + st.getId(), st);
+            }
+        }
+        daten = alle;
         if (daten.isEmpty()) {
             return null;
         }
@@ -90,7 +103,7 @@ final class BahnhoefeDialog {
         grid.setHgap(14);
         grid.setVgap(10);
         grid.setPadding(new Insets(6, 0, 6, 0));
-        grid.addRow(0, fett("Bahnhof in iTrain"), fett("Name und Art"), fett("Gleise"));
+        grid.addRow(0, fett("Bahnhof"), fett("Name und Art"), fett("Gleise"));
         List<Zeile> zeilen = new ArrayList<>();
         // „Ist dieser Bahnhof auf der Anlage oder ein Modul?“ (Anwender 09.11.2026): gemeinsame Liste für alle Zeilen
         javafx.collections.ObservableList<String> lagen = FXCollections.observableArrayList(AUF_ANLAGE);
@@ -101,8 +114,9 @@ final class BahnhoefeDialog {
         int r = 1;
         for (Map.Entry<String, List<String>> e : daten.entrySet()) {
             String itrain = e.getKey();
-            Station s = anlage.stationFuerItrain(itrain);
-            if (s != null && !itrain.equals(s.getItrainName())) {
+            boolean eigen = eigene.containsKey(itrain);
+            Station s = eigen ? eigene.get(itrain) : anlage.stationFuerItrain(itrain);
+            if (!eigen && s != null && !itrain.equals(s.getItrainName())) {
                 s = null;
             }
             Station gbf = s != null ? anlage.angedockterGueterbahnhof(s) : null;
@@ -191,18 +205,43 @@ final class BahnhoefeDialog {
                 }
                 allesPruefen[0].run();
             });
-            for (ChoiceBox<String> cb : wahl.values()) {
-                cb.valueProperty().addListener((o, v1, v2) -> {
-                    // Bahnsteig im Güterbahnhof: der Bahnhof wird Personenbahnhof, Ladegleise kommen in einen Gbf
-                    if ((BAHNSTEIG.equals(v2) || BEIDE.equals(v2)) && art.getValue() == ObjektArt.GUETERBAHNHOF) {
-                        art.setValue(ObjektArt.BAHNHOF);
+            java.util.function.Consumer<ChoiceBox<String>> beobachten = cb -> cb.valueProperty().addListener((o, v1, v2) -> {
+                // Bahnsteig im Güterbahnhof: der Bahnhof wird Personenbahnhof, Ladegleise kommen in einen Gbf
+                if ((BAHNSTEIG.equals(v2) || BEIDE.equals(v2)) && art.getValue() == ObjektArt.GUETERBAHNHOF) {
+                    art.setValue(ObjektArt.BAHNHOF);
+                }
+                allesPruefen[0].run();
+            });
+            wahl.values().forEach(beobachten);
+            if (eigen) {
+                // Von Hand angelegter Bahnhof: freie Blöcke als Gleise hinzufügen
+                ComboBox<String> plus = new ComboBox<>(FXCollections.observableArrayList(anlage.freieBloecke()));
+                plus.setPromptText(plus.getItems().isEmpty() ? "Keine freien Blöcke" : "+ Gleis hinzufügen…");
+                plus.setDisable(plus.getItems().isEmpty());
+                plus.valueProperty().addListener((o, b1, block) -> {
+                    if (block == null || wahl.containsKey(block)) {
+                        return;
                     }
+                    ChoiceBox<String> cb = new ChoiceBox<>(FXCollections.observableArrayList(BAHNSTEIG, LADEGLEIS,
+                            BEIDE, NICHTS));
+                    cb.setValue(art.getValue() == ObjektArt.GUETERBAHNHOF ? LADEGLEIS : BAHNSTEIG);
+                    wahl.put(block, cb);
+                    beobachten.accept(cb);
+                    HBox g = new HBox(4, new Label(block), cb);
+                    g.setAlignment(Pos.CENTER_LEFT);
+                    gleise.getChildren().add(gleise.getChildren().size() - 1, g);
+                    javafx.application.Platform.runLater(() -> {
+                        plus.getItems().remove(block);
+                        plus.setValue(null);
+                    });
                     allesPruefen[0].run();
                 });
+                gleise.getChildren().add(plus);
             }
             pruefer.add(pruefen);
 
-            Label titel = new Label(itrain + (typen.get(itrain) == null ? "" : "\niTrain: "
+            Label titel = new Label(eigen ? s.getAnzeigeName() + "\n(von Hand angelegt)"
+                    : itrain + (typen.get(itrain) == null ? "" : "\niTrain: "
                     + Anlage.itrainTypText(typen.get(itrain))) + (s != null ? "\n(schon eingebaut)" : ""));
             titel.setMinWidth(Region.USE_PREF_SIZE);
             ComboBox<String> lage = new ComboBox<>(lagen);
@@ -249,6 +288,7 @@ final class BahnhoefeDialog {
         scroll.setFitToWidth(true);
         scroll.setPrefViewportHeight(Math.min(520, 110.0 * daten.size() + 40));
         VBox inhalt = new VBox(12, kopf, scroll);
+        VBox.setVgrow(scroll, javafx.scene.layout.Priority.ALWAYS); // wächst mit dem Fenster (Anwender 15.11.2026)
         inhalt.setPadding(new Insets(10));
 
         Dialog<ButtonType> d = new Dialog<>();

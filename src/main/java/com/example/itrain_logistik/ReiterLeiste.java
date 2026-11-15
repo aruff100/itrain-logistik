@@ -185,8 +185,8 @@ final class ReiterLeiste {
         if (w != null) {
             d.initOwner(w);
         }
-        d.setTitle("Reiter umbenennen");
-        d.setHeaderText(b == null ? "Name des ersten Reiters" : "Neuer Name – gilt für den Reiter und das Symbol");
+        d.setTitle("Tab umbenennen");
+        d.setHeaderText(b == null ? "Name des ersten Tabs" : "Neuer Name – gilt für den Tab und das Symbol");
         d.showAndWait().map(String::trim).filter(n -> !n.isEmpty()).ifPresent(n -> {
             if (b != null) {
                 b.setName(n);

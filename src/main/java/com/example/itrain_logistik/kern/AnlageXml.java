@@ -289,6 +289,9 @@ public final class AnlageXml {
         if (s.isBreiteAngleichen()) {
             attr(x, "breiteAngleichen", "true");
         }
+        if (s.isRundverkehr()) {
+            attr(x, "rundverkehr", "true");
+        }
         if (s.isReisendeAusOrt()) {
             attr(x, "reisendeAusOrt", "true");
         }
@@ -792,6 +795,7 @@ public final class AnlageXml {
             s.setGehoertZu(e.getAttribute("gehoertZu"));
         }
         s.setBreiteAngleichen("true".equals(e.getAttribute("breiteAngleichen")));
+        s.setRundverkehr("true".equals(e.getAttribute("rundverkehr")));
         s.setReisendeAusOrt("true".equals(e.getAttribute("reisendeAusOrt")));
         for (Element z : kinder(e, "einzug")) {
             s.getEinzugsbereich().add(z.getAttribute("id"));

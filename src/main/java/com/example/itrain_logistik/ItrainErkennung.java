@@ -41,24 +41,24 @@ public final class ItrainErkennung {
         int xtcPort = AppSettings.getInstance().getXtcPort();
         String version = XtcVerbindung.begruessung(host, xtcPort, 800);
         if (version != null) {
-            return new Ergebnis(true, version + " erreichbar über XTC unter " + host + ":" + xtcPort, true);
+            return new Ergebnis(true, version + " erreichbar über XML TrainControl unter " + host + ":" + xtcPort, true);
         }
         boolean lokal = istLokal(host);
         boolean server = port > 0 && portErreichbar(host, port, 800);
         if (server) {
             return new Ergebnis(true, "iTrain-Server erreichbar unter " + host + ":" + port
-                    + ", aber XTC antwortet nicht auf Port " + xtcPort, false);
+                    + ", aber XML TrainControl antwortet nicht auf Port " + xtcPort, false);
         }
         if (lokal) {
             Optional<String> prozess = lokalerProzess();
             if (prozess.isPresent()) {
                 return new Ergebnis(true, "iTrain läuft auf diesem Rechner (" + prozess.get()
-                        + "), XTC antwortet nicht auf Port " + xtcPort, false);
+                        + "), XML TrainControl antwortet nicht auf Port " + xtcPort, false);
             }
         }
         return new Ergebnis(false, lokal
-                ? "iTrain läuft nicht auf diesem Rechner (XTC-Port " + xtcPort + " antwortet nicht)"
-                : "iTrain unter " + host + " nicht erreichbar (XTC-Port " + xtcPort + " antwortet nicht; läuft iTrain? "
+                ? "iTrain läuft nicht auf diesem Rechner (XML-TrainControl-Port " + xtcPort + " antwortet nicht)"
+                : "iTrain unter " + host + " nicht erreichbar (XML-TrainControl-Port " + xtcPort + " antwortet nicht; läuft iTrain? "
                         + "Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port " + xtcPort
                         + " eingehend erlauben)");
     }

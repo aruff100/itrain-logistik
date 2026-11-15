@@ -8,14 +8,14 @@ fr: \n(déjà intégrée)
 de: \nLinie: 
 fr: \nLigne : 
 
-de: \nNoch keine Zugverbindung über XTC
-fr: \nPas encore de liaison de train via XTC
+de: \nNoch keine Zugverbindung über XML TrainControl
+fr: \nPas encore de liaison de train via XML TrainControl
 
 de: \nPassagiere 1. Klasse: 
 fr: \nVoyageurs 1re classe : 
 
-de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
-fr: \nLes événements de train arrivent en ligne via XTC ({0} trains connectés)
+de: \nZugereignisse kommen online über XML TrainControl an ({0} Züge verbunden)
+fr: \nLes événements de train arrivent en ligne via XML TrainControl ({0} trains connectés)
 
 de:   (hält in 
 fr:   (s'arrête à 
@@ -137,7 +137,7 @@ fr: (par défaut {0}, Web Logistique {1})
 de: (alle Eingänge – unten „Liefert immer“ angehakt)
 fr: (toutes les entrées – « Livre toujours » coché en bas)
 
-de: (erster Reiter, immer sichtbar)
+de: (erster Tab, immer sichtbar)
 fr: (premier onglet, toujours visible)
 
 de: ,  2. Klasse: 
@@ -341,7 +341,7 @@ fr: Offre M/h
 de: Angebot wählen…
 fr: Choisir l'offre…
 
-de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Tab. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Tab.
 fr: Les gares cochées sont rattachées à l'onglet au lieu de l'infrastructure du réseau et figurent avec gare de fret, localités, entreprises et entrepôts dans son onglet. Aussi par clic droit sur une gare « Relier à l'onglet… ». Le nom vaut pour le symbole et l'onglet.
 
 de: Angehalten (Rate 0)
@@ -689,8 +689,8 @@ fr: Besoin par heure de modèle
 de: Bedarf muss eingestellt werden – das geht im Schritt 3.
 fr: Le besoin doit être réglé – cela se fait à l'étape 3.
 
-de: Bedienung des Ladegleises (Richtung kommt über XTC):
-fr: Desserte de la voie de chargement (la direction vient via XTC) :
+de: Bedienung des Ladegleises (Richtung kommt über XML TrainControl):
+fr: Desserte de la voie de chargement (la direction vient via XML TrainControl) :
 
 de: Befördert Güter
 fr: Transporte des marchandises
@@ -986,7 +986,7 @@ fr: Diesel
 de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
 fr: Cet objet est en pause – un clic le relance
 
-de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+de: Dieses Symbol hängt im ersten Tab an der Anlagen-Infrastruktur
 fr: Ce symbole est rattaché à l'infrastructure du réseau dans le premier onglet
 
 de: Dorf
@@ -1025,7 +1025,7 @@ fr: Entreprise propre : vous réglez ensuite vous-même entrées et sorties.
 de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
 fr: Port propre, séparé du Web Logistique. Vitesse, zoom et « Proposer des trains adaptés » se règlent sur chaque appareil en bas du tableau (mémorisé par le navigateur), « Plein écran » pour une tablette comme tableau. Le pare-feu Windows de cet ordinateur doit autoriser le port en entrée.
 
-de: Eigener Reiter mit den angehängten Bahnhöfen
+de: Eigener Tab mit den angehängten Bahnhöfen
 fr: Onglet propre avec les gares rattachées
 
 de: Ein Modul
@@ -1184,7 +1184,7 @@ fr: Production et mise à disposition : à gauche plus lent (×0,75 … ×0,1), 
 de: Es fehlen 
 fr: Il manque 
 
-de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Tab anlegen; er hängt an der Anlagen-Infrastruktur.
 fr: Il n'y a pas encore de {0}. Veuillez d'abord en créer un depuis la palette « {1} » dans le premier onglet ; il est rattaché à l'infrastructure du réseau.
 
 de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
@@ -1661,10 +1661,10 @@ fr: Horizontal :
 de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
 fr: Rattachées au module au lieu de l'infrastructure du réseau ; gare de fret, localités, entreprises et entrepôts suivent.
 
-de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+de: Höchstens {0} Tabs (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Tabs ändern.
 fr: Au plus {0} onglets (onglets et modules). Le nombre se modifie dans Préférences > Onglets.
 
-de: Höchstzahl der Reiter
+de: Höchstzahl der Tabs
 fr: Nombre maximal d'onglets
 
 de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
@@ -1868,7 +1868,7 @@ fr: Pas de bouts ouverts.
 de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
 fr: Pas de bouts ouverts : chaque besoin a une contrepartie.
 
-de: Keine weiteren Reiter
+de: Keine weiteren Tabs
 fr: Pas d'autres onglets
 
 de: Keinem Gleis zugeordnet (Strecke).
@@ -2243,7 +2243,7 @@ fr: Nom (facultatif)
 de: Name des Moduls, zu dem „{0}“ gehört
 fr: Nom du module auquel appartient « {0} »
 
-de: Name des ersten Reiters
+de: Name des ersten Tabs
 fr: Nom du premier onglet
 
 de: Name des neuen Guts
@@ -2300,7 +2300,7 @@ fr: Nouvelle entreprise : {0}{1}
 de: Neuer Haltepunkt für {0} (Gleise wählen)
 fr: Nouvelle halte pour {0} (choisir les voies)
 
-de: Neuer Name – gilt für den Reiter und das Symbol
+de: Neuer Name – gilt für den Tab und das Symbol
 fr: Nouveau nom – vaut pour l'onglet et le symbole
 
 de: Neuer Schattenbahnhof (Gleise wählen)
@@ -2510,8 +2510,8 @@ fr: Obligatoire (utilisateur 09.11.2026) : la voie qui mène de ce module au sui
 de: Plätze
 fr: Places
 
-de: Port {0} antwortet, aber nicht wie iTrain-XTC
-fr: Le port {0} répond, mais pas comme iTrain-XTC
+de: Port {0} antwortet, aber nicht wie iTrain XML TrainControl
+fr: Le port {0} répond, mais pas comme iTrain XML TrainControl
 
 de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
 fr: Le port {0} appartient déjà au Web Logistique – veuillez en choisir un autre.
@@ -2564,11 +2564,11 @@ fr: Source
 de: Quelle: Simulator{0}
 fr: Source : simulateur{0}
 
-de: Quelle: iTrain (XTC nicht verbunden)
-fr: Source : iTrain (XTC non connecté)
+de: Quelle: iTrain (XML TrainControl nicht verbunden)
+fr: Source : iTrain (XML TrainControl non connecté)
 
-de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
-fr: Source : iTrain (XTC {0}, {1}/{2} trains connectés)
+de: Quelle: iTrain (XML TrainControl {0}, {1}/{2} Züge verbunden)
+fr: Source : iTrain (XML TrainControl {0}, {1}/{2} trains connectés)
 
 de: Quellen der mitgelieferten Geräusche.txt
 fr: Sources des sons fournis.txt
@@ -2627,13 +2627,13 @@ fr: Des voyageurs attendent à {0}{1} (la plupart à {2}) – {3}
 de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
 fr: Voyageurs : veulent partir et vont ensemble à la gare toutes les {0} minutes de modèle (chenillard vert)
 
-de: Reiter
+de: Tabs
 fr: Onglets
 
-de: Reiter umbenennen
+de: Tab umbenennen
 fr: Renommer l'onglet
 
-de: Reiter „{0}“
+de: Tab „{0}“
 fr: Onglet « {0} »
 
 de: Rezept
@@ -2687,8 +2687,8 @@ fr: Rx/Tx simulateur
 de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
 fr: Rx/Tx n'existe que si « iTrain » ou « Simulateur » est choisi dans Réglages.
 
-de: Rx/Tx iTrain (XTC){0}
-fr: Rx/Tx iTrain (XTC){0}
+de: Rx/Tx iTrain (XML TrainControl){0}
+fr: Rx/Tx iTrain (XML TrainControl){0}
 
 de: Salonwagen
 fr: Voiture salon
@@ -2930,7 +2930,7 @@ fr: Modifier l'onglet
 de: Tabellen öffnen oder im Hauptfenster andocken
 fr: Ouvrir des tableaux ou les ancrer dans la fenêtre principale
 
-de: Tabs und Module zusammen, ohne den ersten Reiter
+de: Tabs und Module zusammen, ohne den ersten Tab
 fr: Onglets et modules ensemble, sans le premier onglet
 
 de: Tag {0}
@@ -3350,11 +3350,11 @@ fr: Racine
 de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
 fr: Choisissez les cantons qui appartiennent à la gare cachée dans iTrain, et pour chaque canton si on y {0}. De préférence une voie par sens de marche.
 
-de: XTC antwortet nicht
-fr: XTC ne répond pas
+de: XML TrainControl antwortet nicht
+fr: XML TrainControl ne répond pas
 
-de: XTC-Port (Vorgabe {0})
-fr: Port XTC (par défaut {0})
+de: XML-TrainControl-Port (Vorgabe {0})
+fr: Port XML TrainControl (par défaut {0})
 
 de: Zeit
 fr: Heure
@@ -3545,23 +3545,23 @@ fr: Relire le fichier iTrain...
 de: iTrain Verbindung
 fr: Connexion iTrain
 
-de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
-fr: iTrain choisi : événements de train en ligne via XTC ({0}:{1}). Ctrl + clic sur la source affiche Rx/Tx.
+de: iTrain gewählt: Zugereignisse online über XML TrainControl ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+fr: iTrain choisi : événements de train en ligne via XML TrainControl ({0}:{1}). Ctrl + clic sur la source affiche Rx/Tx.
 
 de: iTrain läuft auf diesem Computer
 fr: iTrain tourne sur cet ordinateur
 
-de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
-fr: iTrain tourne sur cet ordinateur ({0}), XTC ne répond pas sur le port {1}
+de: iTrain läuft auf diesem Rechner ({0}), XML TrainControl antwortet nicht auf Port {1}
+fr: iTrain tourne sur cet ordinateur ({0}), XML TrainControl ne répond pas sur le port {1}
 
 de: iTrain läuft auf einem anderen Computer
 fr: iTrain tourne sur un autre ordinateur
 
-de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
-fr: iTrain ne tourne pas sur cet ordinateur (le port XTC {0} ne répond pas)
+de: iTrain läuft nicht auf diesem Rechner (XML-TrainControl-Port {0} antwortet nicht)
+fr: iTrain ne tourne pas sur cet ordinateur (le port XML TrainControl {0} ne répond pas)
 
-de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
-fr: iTrain tourne, mais l'interface XTC ne répond pas. Sans XTC, aucun événement de train n'arrive en ligne.\n\nVérifier : Réglages → Connexion à iTrain (adresse et port XTC, par défaut 7128) ; si iTrain tourne sur un autre ordinateur, son pare-feu doit autoriser le port en entrée.
+de: iTrain läuft, aber die XML-TrainControl-Schnittstelle antwortet nicht. Ohne XML TrainControl kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XML-TrainControl-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+fr: iTrain tourne, mais l'interface XML TrainControl ne répond pas. Sans XML TrainControl, aucun événement de train n'arrive en ligne.\n\nVérifier : Réglages → Connexion à iTrain (adresse et port XML TrainControl, par défaut 7128) ; si iTrain tourne sur un autre ordinateur, son pare-feu doit autoriser le port en entrée.
 
 de: iTrain nicht mehr gefunden.
 fr: iTrain introuvable désormais.
@@ -3569,14 +3569,14 @@ fr: iTrain introuvable désormais.
 de: iTrain noch nicht gestartet
 fr: iTrain pas encore démarré
 
-de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
-fr: iTrain injoignable à {0} (le port XTC {1} ne répond pas ; iTrain tourne-t-il ? adresse correcte ? le pare-feu Windows de l'ordinateur iTrain doit autoriser le port {2} en entrée)
+de: iTrain unter {0} nicht erreichbar (XML-TrainControl-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+fr: iTrain injoignable à {0} (le port XML TrainControl {1} ne répond pas ; iTrain tourne-t-il ? adresse correcte ? le pare-feu Windows de l'ordinateur iTrain doit autoriser le port {2} en entrée)
 
 de: iTrain wird gesucht …
 fr: Recherche d'iTrain …
 
-de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
-fr: iTrain introuvable, la logistique est en pause.\n\nSi iTrain tourne déjà, vérifier l'adresse et le port XTC sous Réglages → Connexion à iTrain (aussi « Vérifier la connexion »).
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XML-TrainControl-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+fr: iTrain introuvable, la logistique est en pause.\n\nSi iTrain tourne déjà, vérifier l'adresse et le port XML TrainControl sous Réglages → Connexion à iTrain (aussi « Vérifier la connexion »).
 
 de: iTrain → Voreinstellungen → Modus → Server
 fr: iTrain → Préférences → Mode → Serveur
@@ -3605,8 +3605,8 @@ fr: Simulateur iTrain-Logistik – {0}
 de: iTrain-Prüfung fehlgeschlagen: {0}
 fr: Vérification iTrain échouée : {0}
 
-de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
-fr: Serveur iTrain joignable à {0}:{1}, mais XTC ne répond pas sur le port {2}
+de: iTrain-Server erreichbar unter {0}:{1}, aber XML TrainControl antwortet nicht auf Port {2}
+fr: Serveur iTrain joignable à {0}:{1}, mais XML TrainControl ne répond pas sur le port {2}
 
 de: je Modellstunde
 fr: par heure de modèle
@@ -3794,8 +3794,8 @@ fr: {0} a besoin de marchandises. La gare de fret appartient à {1}. Quels canto
 de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
 fr: {0} traverse {1}, {2} (chargement/déchargement au passage)
 
-de: {0} erreichbar über XTC unter {1}:{2}
-fr: {0} joignable via XTC à {1}:{2}
+de: {0} erreichbar über XML TrainControl unter {1}:{2}
+fr: {0} joignable via XML TrainControl à {1}:{2}
 
 de: {0} fährt ab von {1}{2}
 fr: {0} part de {1}{2}
@@ -3890,14 +3890,14 @@ fr: Raffinerie
 de: Über
 fr: À propos
 
-de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
-fr: Via XTC, iTrain signale pour chaque train l'entrée dans un canton, l'attente avec sa durée et le départ ainsi que l'heure du modèle. Si iTrain tourne sur un autre ordinateur, son pare-feu doit autoriser le port XTC en entrée.
+de: Über XML TrainControl meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XML-TrainControl-Port eingehend erlauben.
+fr: Via XML TrainControl, iTrain signale pour chaque train l'entrée dans un canton, l'attente avec sa durée et le départ ainsi que l'heure du modèle. Si iTrain tourne sur un autre ordinateur, son pare-feu doit autoriser le port XML TrainControl en entrée.
 
 de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
 fr: Par le nom de l'ordinateur (fonctionne si le routeur ou l'appareil connaît le nom) :
 
-de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
-fr: Via l'interface XTC, iTrain signale pour chaque train l'entrée, l'attente avec sa durée et le départ ainsi que l'heure du modèle. "localhost" = iTrain tourne sur cet ordinateur. Si iTrain tourne sur un autre ordinateur, son pare-feu Windows doit autoriser le port XTC en entrée. Les modifications s'appliquent après la fermeture des préférences.
+de: Über die XML-TrainControl-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XML-TrainControl-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+fr: Via l'interface XML TrainControl, iTrain signale pour chaque train l'entrée, l'attente avec sa durée et le départ ainsi que l'heure du modèle. "localhost" = iTrain tourne sur cet ordinateur. Si iTrain tourne sur un autre ordinateur, son pare-feu Windows doit autoriser le port XML TrainControl en entrée. Les modifications s'appliquent après la fermeture des préférences.
 
 de: Übergabe
 fr: Échange
@@ -3983,7 +3983,7 @@ fr: « {0} » n'a pas encore de voie de chargement et aucun canton n'est libre. 
 de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
 fr: « {0} » s'arrête à « {1} » : type « Autre », donc pas de montée ni de descente. Choisir le type dans le dialogue de la gare (p. ex. gare).
 
-de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Tab.
 fr: « {0} » sera alors rattaché au {1} au lieu de l'infrastructure du réseau.\nGare de fret, localités, entreprises et entrepôts suivent dans son onglet.
 
 de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
@@ -4073,14 +4073,14 @@ fr: ✔ en ordre
 de: ✔ {0} auf {1}:{2}, {3} Züge
 fr: ✔ {0} sur {1}:{2}, {3} trains
 
-de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
-fr: ✔ {0} tourne sur {1} (port XTC {2}), {3} trains : {4}
+de: ✔ {0} läuft auf {1} (XML-TrainControl-Port {2}), {3} Züge: {4}
+fr: ✔ {0} tourne sur {1} (port XML TrainControl {2}), {3} trains : {4}
 
 de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
 fr: ✘ Pas de réponse d'iTrain à {0}:{1} ({2}).\niTrain tourne-t-il là ? Le pare-feu Windows de l'ordinateur iTrain est-il ouvert en entrée pour le port {3} ? Adresse et port sont-ils corrects ?
 
-de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
-fr: ✘ Pas de réponse d'iTrain-XTC à {0}:{1} ({2})
+de: ✘ Keine Antwort von iTrain XML TrainControl auf {0}:{1} ({2})
+fr: ✘ Pas de réponse d'iTrain XML TrainControl à {0}:{1} ({2})
 
 de: ❚❚ Austausch angehalten
 fr: ❚❚ Échange en pause
@@ -4139,8 +4139,8 @@ fr: Voyageurs 1re classe : {0} / {1},  2e classe : {2} / {3}
 de: Block: -
 fr: Canton : -
 
-de: XTC-Port:
-fr: Port XTC :
+de: XML-TrainControl-Port:
+fr: Port XML TrainControl :
 
 de: {0} Blöcke
 fr: {0} cantons
@@ -4530,8 +4530,8 @@ fr: Suivi de route : un train avec canton précédent, actuel et suivant, positi
 de: Keine Datei geöffnet oder kein Zug vorhanden.
 fr: Aucun fichier ouvert ou aucun train.
 
-de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
-fr: Pas de données en ligne : ce train n'est pas relié à iTrain par XTC.
+de: Keine Online-Daten: Dieser Zug ist nicht über XML TrainControl mit iTrain verbunden.
+fr: Pas de données en ligne : ce train n'est pas relié à iTrain par XML TrainControl.
 
 de: Der Zug steht in iTrain in keinem Block.
 fr: Dans iTrain, le train n'est dans aucun canton.
@@ -5000,3 +5000,162 @@ de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das 
 fr: Aucune voie de ligne – les définir dans « Modifier le réseau » par clic droit sur le module.
 de: Geräusche...
 fr: Sons...
+
+de: Ordner der iTrain-Bilder
+fr: Dossier des images iTrain
+
+de: Ordner für Geräusche
+fr: Dossier des sons
+
+de: Ordner für KI Datei Sammlung
+fr: Dossier de collecte de fichiers IA
+
+de: Bilder, die in iTrain den Lokomotiven und Wagen zugeordnet sind, sucht die Logistik im Ordner der iTrain-Bilder (Vorgabe: Ordner „images“ im iTrain-Ordner).
+fr: Les images attribuées aux locomotives et wagons dans iTrain sont cherchées dans le dossier des images iTrain (par défaut : dossier « images » du dossier iTrain).
+
+de: Bild nicht gefunden (Ordner der iTrain-Bilder in Voreinstellungen > Pfade prüfen).
+fr: Image introuvable (vérifier le dossier des images iTrain dans Préférences > Chemins).
+
+de: (von Hand angelegt)
+fr: (créée manuellement)
+
+de: + Gleis hinzufügen…
+fr: + Ajouter une voie…
+
+de: Betrieb / Ort
+fr: Entreprise / Lieu
+
+de: Weitere Hinweise
+fr: Autres remarques
+
+de: Zurück zur Prüfung
+fr: Retour à la vérification
+
+de: „{0}“ bearbeiten
+fr: Modifier « {0} »
+
+de: Wagen ergänzen…
+fr: Compléter les wagons…
+
+de: Rundfahrt in „{0}“
+fr: Circuit à « {0} »
+
+de: Rundfahrt: an anderen Gleisen von „{0}“ aussteigen
+fr: Circuit : descendre sur d’autres voies de « {0} »
+
+de: andere Gleise
+fr: autres voies
+
+de: Rundfahrt
+fr: circuit
+
+de: Rundfahrt: Reisende dürfen an einem anderen Bahnsteig dieses Bahnhofs wieder aussteigen
+fr: Circuit : les voyageurs peuvent redescendre sur un autre quai de cette gare
+
+de: Hinweise nicht noch einmal anzeigen
+fr: Ne plus afficher ces remarques
+
+de: Kapazitäten müssen ergänzt werden
+fr: Les capacités doivent être complétées
+
+de: Bisher keine iTrain-Route von den Gleisen von „{0}“ nach {1}
+fr: Pas encore d’itinéraire iTrain des voies de « {0} » vers {1}
+
+de: Uhr-Faktor ×{0}
+fr: facteur d’horloge ×{0}
+
+de: Wird ohne Zug geliefert (von außerhalb bzw. Betrieb nicht auf der Anlage) – fertig.
+fr: Livré sans train (de l’extérieur ou entreprise hors réseau) – terminé.
+
+de: – (kein Zug nötig)
+fr: – (aucun train nécessaire)
+
+de: außerhalb
+fr: extérieur
+
+de: Es fehlt noch ein Zug
+fr: Il manque encore un train
+
+de: Von {0} müssen mit Zug „{1}“ in einer realen Stunde {2} angeliefert werden
+fr: Depuis {0}, le train « {1} » doit livrer {2} en une heure réelle
+
+de: Nach {0} müssen mit Zug „{1}“ in einer realen Stunde {2} abgefahren werden
+fr: Le train « {1} » doit transporter {2} vers {0} en une heure réelle
+
+de: Nach {0} fahren mit Zug „{1}“ in einer realen Stunde {2}
+fr: Le train « {1} » emmène {2} vers {0} en une heure réelle
+
+de: Von {0} kommen mit Zug „{1}“ in einer realen Stunde {2}
+fr: Le train « {1} » amène {2} de {0} en une heure réelle
+
+de: etwa {0} Fahrten
+fr: environ {0} trajets
+
+de: etwa 1 Fahrt
+fr: environ 1 trajet
+
+de: Uhr-Faktor unbekannt
+fr: facteur d’horloge inconnu
+
+de: ×1 gerechnet
+fr: calculé avec ×1
+
+de: Gegenstück {0}, mit Zug „{1}“ – fertig, Menge unbegrenzt.
+fr: Contrepartie {0}, avec le train « {1} » – terminé, quantité illimitée.
+
+de: kein Zug kann „{0}“ laden
+fr: aucun train ne peut charger « {0} »
+
+de: Wagen ergänzen oder Lade-Joker
+fr: compléter les wagons ou joker de chargement
+
+de: mehr als {0} Fahrten je Modellstunde nötig
+fr: plus de {0} trajets par heure modèle nécessaires
+
+de: Menge senken oder größere Züge
+fr: réduire la quantité ou trains plus grands
+
+de: Die Download-Seite
+fr: La page de téléchargement
+
+de: Änderungen gelten nach dem Schließen der Voreinstellungen.
+fr: Les modifications s’appliquent après la fermeture des préférences.
+
+de: Vorschlag Personen
+fr: Proposition voyageurs
+
+de: Vorschlag Güter
+fr: Proposition marchandises
+
+de: Die eingetragenen Gütermengen als eigenen Vorschlag speichern.
+fr: Enregistrer les quantités de marchandises saisies comme proposition personnelle.
+
+de: Die eingetragenen Personenwerte als eigenen Vorschlag speichern.
+fr: Enregistrer les valeurs voyageurs saisies comme proposition personnelle.
+
+de: Übernimmt nur die Personenwerte (Abreisende, Anteil 1. Klasse, Aussteigeanteil). ★ = eigener Vorschlag.
+fr: Reprend uniquement les valeurs voyageurs (départs, part 1re classe, part descendant). ★ = proposition personnelle.
+
+de: Übernimmt nur die Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+fr: Reprend uniquement les quantités de marchandises (remplace le tableau). ★ = proposition personnelle.
+
+de: {0} Abreisende M/h
+fr: {0} départs M/h
+
+de: {0} % 1. Klasse
+fr: {0} % 1re classe
+
+de: Kleinvieh
+fr: Petit bétail
+
+de: Großvieh
+fr: Gros bétail
+
+de: Muss gebracht werden
+fr: À livrer
+
+de: Bedarf wächst
+fr: Demande croissante
+
+de: Erfüllung je Gut
+fr: Taux par marchandise

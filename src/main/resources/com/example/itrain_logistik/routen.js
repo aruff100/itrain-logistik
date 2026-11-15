@@ -71,7 +71,7 @@ function bild(jetztMs) {
   document.getElementById('name').textContent = d.zug;
   if (!d.verbunden || d.block == null) {
     gleis(w, gleisY, 0, 4); zug(d.bild, w * 0.55, gleisY, Math.min(w * 0.4, 260), zugH, -1);
-    hinweis(w, !d.verbunden ? T('Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.') : T('Der Zug steht in iTrain in keinem Block.'));
+    hinweis(w, !d.verbunden ? T('Keine Online-Daten: Dieser Zug ist nicht über XML TrainControl mit iTrain verbunden.') : T('Der Zug steht in iTrain in keinem Block.'));
     vorgang('einsteigen', false); vorgang('beladen', false);
     requestAnimationFrame(bild); return;
   }

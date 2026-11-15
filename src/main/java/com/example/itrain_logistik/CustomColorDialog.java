@@ -154,6 +154,9 @@ final class CustomColorDialog {
             stage.setY(owner.getY() + (owner.getHeight() - stage.getHeight()) / 2);
         });
         applyPickers.run();
+        stage.setResizable(true);
+        stage.sizeToScene();
+        WindowState.apply(stage, "farbkombination", content.prefWidth(-1) + 16, content.prefHeight(-1) + 40);
         stage.showAndWait();
     }
 

@@ -12,6 +12,8 @@ public enum Ladeklasse {
     SPERRGUT("Sperrgut", "#006C3A", true),
     STUECKGUT("Stückgut", "#013C5E", true),
     FLUESSIGGUT("Flüssiggut", "#9AA4AA", false),
+    /** Lebende Tiere (Anwender 15.11.2026): Kapazität immer in Stück, nicht mit anderen Gütern gemischt. */
+    TIERTRANSPORT("Tiertransport", "#8B5E3C", false),
     PASSAGIERE("Passagiere", "#1A3399", false);
 
     private final String label;
@@ -36,8 +38,8 @@ public enum Ladeklasse {
         return mischbar;
     }
 
-    /** Die vier Gueter-Ladeklassen ohne Passagiere (fuer Wagen- und Lager-Auswahl). */
+    /** Die Gueter-Ladeklassen ohne Passagiere (fuer Wagen- und Lager-Auswahl). */
     public static Ladeklasse[] gueterKlassen() {
-        return new Ladeklasse[]{SCHUETTGUT, SPERRGUT, STUECKGUT, FLUESSIGGUT};
+        return new Ladeklasse[]{SCHUETTGUT, SPERRGUT, STUECKGUT, FLUESSIGGUT, TIERTRANSPORT};
     }
 }

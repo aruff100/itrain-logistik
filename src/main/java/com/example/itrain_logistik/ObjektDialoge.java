@@ -227,8 +227,8 @@ public final class ObjektDialoge {
         ScrollPane sc = new ScrollPane(stationen);
         sc.setPrefSize(300, 160);
         Label hinweis = new Label("Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit "
-                + "Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof "
-                + "„Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.");
+                + "Güterbahnhof, Orten, Betrieben und Lagern in seinem Tab. Ebenso per Rechtsklick auf einen Bahnhof "
+                + "„Mit Tab verbinden…“. Der Name gilt für Symbol und Tab.");
         hinweis.setWrapText(true);
         hinweis.setMaxWidth(420);
         GridPane grid = grid();
@@ -343,8 +343,8 @@ public final class ObjektDialoge {
     }
 
     /**
-     * Stadt/Dorf/Ländlich: breites Fenster, links Personen, rechts Güter, dazwischen eine 3D-Linie;
-     * "Vorschlag…" übernimmt Stadt/Dorf/Ländlich oder eigene gespeicherte Mengen.
+     * Stadt/Dorf/Ländlich: breites Fenster, links Personen, rechts Güter, dazwischen eine 3D-Linie bis unten;
+     * je Seite eigene Knöpfe „Vorschlag…“/„Als Vorschlag speichern…“ (nur Personen bzw. nur Güter).
      */
     private static boolean ort(Stage owner, Ort o, Anlage a) {
         TextField name = new TextField(o.getAnzeigeName());
@@ -359,7 +359,9 @@ public final class ObjektDialoge {
         TextField erste = new TextField(zahl(o.getAnteilErsteKlasse() * 100));
         TextField aussteigen = new TextField(zahl(o.getAussteigeAnteil() * 100));
 
-        MengenEditor gueter = new MengenEditor(owner, a, o.getBedarf(), "Bedarf M/h",
+        // Personen und Güter getrennt (Anwender 15.11.2026): je eigene Vorschlagsknöpfe
+        MengenEditor gueter = new MengenEditor(owner, a, o.getBedarf(), "Bedarf M/h", null, null);
+        javafx.scene.Node personenKnoepfe = MengenEditor.personenKnoepfe(owner, a,
                 () -> new double[]{parse(passagiere.getText(), 0), parse(erste.getText(), 10) / 100.0,
                         parse(aussteigen.getText(), 30) / 100.0},
                 v -> {
@@ -403,21 +405,24 @@ public final class ObjektDialoge {
         postHinweis.setWrapText(true);
         postHinweis.setMaxWidth(320);
         postHinweis.setStyle("-fx-font-size: 11px; -fx-opacity: 0.8;");
+        javafx.scene.layout.Region fuellerL = new javafx.scene.layout.Region();
+        VBox.setVgrow(fuellerL, Priority.ALWAYS);
         VBox links = new VBox(10, ueberschrift("Personen"), personen, personenHinweis,
-                ueberschrift("Post und Expressgut"), postGrid, postHinweis);
+                ueberschrift("Post und Expressgut"), postGrid, postHinweis, fuellerL, personenKnoepfe);
         links.setMinWidth(330);
         CheckBox bedarfWaechst = new CheckBox("Bedarf wächst mit der Versorgung");
         bedarfWaechst.setSelected(o.isBedarfWaechst());
         bedarfWaechst.setTooltip(new javafx.scene.control.Tooltip("Je Gut und Modellstunde höchstens eine Stufe (×1 bis "
                 + "×4): hoch, wenn der Bedarf gedeckt ist; herunter, wenn länger nichts geliefert wird. Reisende und "
                 + "Einwohner bleiben unverändert. Der Regler Langsamer/Schneller wirkt auch hier."));
-        VBox rechts = new VBox(10, ueberschrift("Güter (Bedarf)"), gueter.getView(), bedarfWaechst);
+        VBox rechts = new VBox(10, ueberschrift("Güter (Bedarf)"), gueter.getView(), bedarfWaechst,
+                gueter.getKnoepfe());
         VBox.setVgrow(gueter.getView(), Priority.ALWAYS);
         HBox.setHgrow(rechts, Priority.ALWAYS);
-        rechts.setPrefWidth(470);
+        rechts.setPrefWidth(520);
         HBox teile = new HBox(14, links, linie3d(), rechts);
-        // Vorschläge gelten für Personen und Güter: linksbündig unter beiden Abschnitten
-        VBox inhalt = new VBox(12, kopf, new Separator(), teile, new Separator(), gueter.getKnoepfe());
+        // Die 3D-Linie trennt Personen und Güter bis unten; jede Seite hat ihre eigenen Vorschläge
+        VBox inhalt = new VBox(12, kopf, new Separator(), teile);
         VBox.setVgrow(teile, Priority.ALWAYS);
         if (!zeige(owner, o.getArt().getLabel() + " bearbeiten", inhalt)) {
             return false;
@@ -622,6 +627,16 @@ public final class ObjektDialoge {
             lh.setStyle("-fx-font-size: 11px; -fx-opacity: 0.85;");
             inhalt.getChildren().add(1, lh);
         }
+        // Rundfahrt (Anwender 15.11.2026): kleine Anlagen mit nur einem Bahnhof
+        CheckBox rund = new CheckBox("Rundfahrt: Reisende dürfen an einem anderen Bahnsteig dieses Bahnhofs wieder "
+                + "aussteigen");
+        rund.setSelected(s.isRundverkehr());
+        rund.setWrapText(true);
+        rund.setMaxWidth(520);
+        if (s.getArt() == com.example.itrain_logistik.kern.ObjektArt.BAHNHOF
+                || s.getArt() == com.example.itrain_logistik.kern.ObjektArt.HALTEPUNKT) {
+            inhalt.getChildren().add(2, rund);
+        }
         if (!zeige(owner, s.getArt().getLabel() + " bearbeiten", inhalt)) {
             return false;
         }
@@ -641,6 +656,7 @@ public final class ObjektDialoge {
         s.getGleise().clear();
         s.getGleise().addAll(gleise);
         s.setReisendeAusOrt(false);
+        s.setRundverkehr(rund.isSelected());
         if (gbfAndocken.isSelected()) {
             a.gueterbahnhofAndocken(s);
         }
@@ -912,7 +928,7 @@ public final class ObjektDialoge {
         ComboBox<String> bedien = new ComboBox<>(FXCollections.observableArrayList(
                 "Von beiden Seiten", "Nur Einfahrt vorwärts (iTrain „next“)", "Nur Einfahrt rückwärts (iTrain „prev“)"));
         bedien.getSelectionModel().select("next".equals(g.getBedienSeite()) ? 1 : "prev".equals(g.getBedienSeite()) ? 2 : 0);
-        Label bedienLabel = new Label("Bedienung des Ladegleises (Richtung kommt über XTC):");
+        Label bedienLabel = new Label("Bedienung des Ladegleises (Richtung kommt über XML TrainControl):");
         TextField kapazitaet = new TextField(String.valueOf(g.getKapazitaet()));
         TextField rate = new TextField(zahl(g.getUmladeRate()));
         Set<String> auswahl = new LinkedHashSet<>(g.getGueterAuswahl());
@@ -1067,7 +1083,7 @@ public final class ObjektDialoge {
             zeile(pg, 2, "Ankommende M/h", ankommend);
             Button pVorschlag = new Button("Vorschlag…");
             pVorschlag.setOnAction(e -> {
-                MengenEditor.Vorschlag v = MengenEditor.waehle(owner, a);
+                MengenEditor.Vorschlag v = MengenEditor.waehle(owner, a, true);
                 if (v != null) {
                     proStunde.setText(zahl(v.passagiere()));
                     ersteKl.setText(zahl(v.ersteKlasse() * 100));

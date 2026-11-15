@@ -425,7 +425,7 @@ public final class XtcVerbindung {
                 zuege.add(entities(t.group(1)));
             }
             if (version.isEmpty() && zuege.isEmpty()) {
-                return new Pruefung(false, "", zuege, "Port " + port + " antwortet, aber nicht wie iTrain-XTC");
+                return new Pruefung(false, "", zuege, "Port " + port + " antwortet, aber nicht wie iTrain XML TrainControl");
             }
             return new Pruefung(true, version, zuege, "");
         } catch (IOException ex) {

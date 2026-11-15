@@ -37,6 +37,8 @@ public final class Station extends AnlagenObjekt {
      * breit wie den Güterbahnhof (Anwender 27.10.2026); danach ändert der Anwender die Breite wie gewohnt.
      */
     private boolean breiteAngleichen;
+    /** Rundfahrt (Anwender 15.11.2026): Reisende dürfen an einem anderen Gleis desselben Bahnhofs aussteigen. */
+    private boolean rundverkehr;
 
     /**
      * Schattenbahnhof: Reisende kommen aus angeschlossenen Orten (wie an einem normalen Bahnhof) statt von
@@ -54,6 +56,14 @@ public final class Station extends AnlagenObjekt {
 
     public boolean isBreiteAngleichen() {
         return breiteAngleichen;
+    }
+
+    public boolean isRundverkehr() {
+        return rundverkehr;
+    }
+
+    public void setRundverkehr(boolean rundverkehr) {
+        this.rundverkehr = rundverkehr;
     }
 
     public void setBreiteAngleichen(boolean breiteAngleichen) {

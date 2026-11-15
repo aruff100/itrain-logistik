@@ -23,6 +23,7 @@ public class LogistikApplication extends Application {
         Uebersetzung.laden(I18n.getInstance().getCurrentLanguage());
         Uebersetzung.installieren();
         Hilfe.installieren();   // F1 in allen Fenstern (Anwender 11.11.2026)
+        DialogeOben.installieren(); // Dialoge größenveränderbar und zuoberst (Anwender 15.11.2026)
 
         FXMLLoader fxmlLoader = new FXMLLoader(LogistikApplication.class.getResource("main-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());

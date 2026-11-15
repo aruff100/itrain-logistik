@@ -282,6 +282,15 @@ public final class AppSettings {
         prefs.put("mengenVorschlaege", text == null ? "" : text);
     }
 
+    /** Eigene Personen-Vorschläge (getrennt von den Güter-Vorschlägen, Anwender 15.11.2026). */
+    public String getPersonenVorschlaege() {
+        return prefs.get("personenVorschlaege", "");
+    }
+
+    public void setPersonenVorschlaege(String text) {
+        prefs.put("personenVorschlaege", text == null ? "" : text);
+    }
+
     /** Wie lange (1-5 s) eine Verbindungslinie nach einer Übergabe als Lauflicht leuchtet. */
     public int getLauflichtSekunden() {
         return Math.max(1, Math.min(5, prefs.getInt("lauflichtSekunden", 3)));
@@ -372,7 +381,8 @@ public final class AppSettings {
 
     /** "SIMULATOR", "ITRAIN" oder "" (keine gewählt). */
     public String getTriggerQuelle() {
-        return prefs.get("triggerQuelle", "");
+        // Beim ersten Start ist der Simulator eingestellt (Anwender 15.11.2026)
+        return prefs.get("triggerQuelle", QUELLE_SIMULATOR);
     }
 
     public void setTriggerQuelle(String quelle) {
@@ -513,6 +523,35 @@ public final class AppSettings {
             return stored;
         }
         return getLogistikDirectory() + File.separator + "Geräusche";
+    }
+
+    /**
+     * Ordner der iTrain-Bilder (Anwender 15.11.2026): Vorgabe {@code <Benutzerordner>/iTrain/images}, getrennt
+     * einstellbar (Voreinstellungen > Pfade). {@link ImageResolver} löst die Bildpfade der .tcdz darüber auf.
+     */
+    public String getItrainBilderOrdner() {
+        String stored = prefs.get("itrainBilderOrdner", null);
+        if (stored != null && !stored.isBlank()) {
+            return stored;
+        }
+        return System.getProperty("user.home") + File.separator + "iTrain" + File.separator + "images";
+    }
+
+    public void setItrainBilderOrdner(String path) {
+        prefs.put("itrainBilderOrdner", path);
+    }
+
+    /** Ordner für die KI-Datei-Sammlung (Hilfe > Mit der KI prüfen...); Vorgabe {@code <Logistik-Ordner>/KI-Pruefung}. */
+    public String getKiOrdner() {
+        String stored = prefs.get("kiOrdner", null);
+        if (stored != null && !stored.isBlank()) {
+            return stored;
+        }
+        return getLogistikDirectory() + File.separator + "KI-Pruefung";
+    }
+
+    public void setKiOrdner(String path) {
+        prefs.put("kiOrdner", path);
     }
 
     public void setGeraeuscheOrdner(String path) {
@@ -761,6 +800,27 @@ public final class AppSettings {
 
     public void setModulTon(String modul, String art) {
         prefs.put("modul.ton." + modul, art == null ? "aus" : art);
+    }
+
+    /** Hinweis beim ersten Start abgeschaltet („Hinweise nicht noch einmal anzeigen“, Anwender 15.11.2026). */
+    public boolean isErststartHinweisAus() {
+        return prefs.getBoolean("erststart.hinweisAus", false);
+    }
+
+    public void setErststartHinweisAus(boolean aus) {
+        prefs.putBoolean("erststart.hinweisAus", aus);
+    }
+
+    /**
+     * Hat die Logistik schon einmal Daten gespeichert? Erst dann prüft der Start, ob iTrain läuft
+     * (Anwender 15.11.2026).
+     */
+    public boolean isDatenGespeichert() {
+        return prefs.getBoolean("daten.gespeichert", false);
+    }
+
+    public void setDatenGespeichert(boolean ja) {
+        prefs.putBoolean("daten.gespeichert", ja);
     }
 
     /** „Zusätzlich erforderlich“ beim Laden einer .logz zeigen, wenn etwas fehlt (Anwender 11.11.2026). */

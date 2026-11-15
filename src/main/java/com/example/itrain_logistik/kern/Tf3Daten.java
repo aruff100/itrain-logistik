@@ -96,6 +96,9 @@ public final class Tf3Daten {
         l.get(l.size() - 1).setEinheit("Stück");
         gut(l, EXPRESSGUT, "Expressgut", Ladeklasse.STUECKGUT, "#D9381E", GutStufe.ENDPRODUKT, null);
         l.get(l.size() - 1).setEinheit("Stück");
+        // Tiertransport (Anwender 15.11.2026): kein TF3-Gut, immer in Stück
+        gut(l, "small_livestock", "Kleinvieh", Ladeklasse.TIERTRANSPORT, "#D9A066", GutStufe.ROHSTOFF, null);
+        gut(l, "large_livestock", "Großvieh", Ladeklasse.TIERTRANSPORT, "#7A4A2A", GutStufe.ROHSTOFF, null);
         return l;
     }
 

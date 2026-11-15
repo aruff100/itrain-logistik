@@ -8,14 +8,14 @@ it: \n(già integrata)
 de: \nLinie: 
 it: \nLinea: 
 
-de: \nNoch keine Zugverbindung über XTC
-it: \nAncora nessun collegamento treno via XTC
+de: \nNoch keine Zugverbindung über XML TrainControl
+it: \nAncora nessun collegamento treno via XML TrainControl
 
 de: \nPassagiere 1. Klasse: 
 it: \nViaggiatori 1ª classe: 
 
-de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
-it: \nGli eventi dei treni arrivano online via XTC ({0} treni collegati)
+de: \nZugereignisse kommen online über XML TrainControl an ({0} Züge verbunden)
+it: \nGli eventi dei treni arrivano online via XML TrainControl ({0} treni collegati)
 
 de:   (hält in 
 it:   (ferma a 
@@ -137,7 +137,7 @@ it: (predefinito {0}, Browser Logistica {1})
 de: (alle Eingänge – unten „Liefert immer“ angehakt)
 it: (tutti gli ingressi – «Fornisce sempre» spuntato sotto)
 
-de: (erster Reiter, immer sichtbar)
+de: (erster Tab, immer sichtbar)
 it: (prima scheda, sempre visibile)
 
 de: ,  2. Klasse: 
@@ -341,7 +341,7 @@ it: Offerta M/h
 de: Angebot wählen…
 it: Scegli offerta…
 
-de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Tab. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Tab.
 it: Le stazioni spuntate sono collegate alla scheda invece che all'infrastruttura del plastico e compaiono con scalo merci, località, aziende e magazzini nella sua scheda. Anche con clic destro su una stazione «Collega con scheda…». Il nome vale per simbolo e scheda.
 
 de: Angehalten (Rate 0)
@@ -689,8 +689,8 @@ it: Domanda per ora di modello
 de: Bedarf muss eingestellt werden – das geht im Schritt 3.
 it: La domanda va impostata – lo si fa nel passo 3.
 
-de: Bedienung des Ladegleises (Richtung kommt über XTC):
-it: Servizio del binario di carico (la direzione arriva via XTC):
+de: Bedienung des Ladegleises (Richtung kommt über XML TrainControl):
+it: Servizio del binario di carico (la direzione arriva via XML TrainControl):
 
 de: Befördert Güter
 it: Trasporta merci
@@ -986,7 +986,7 @@ it: Diesel
 de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
 it: Questo oggetto è in pausa – un clic lo fa ripartire
 
-de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+de: Dieses Symbol hängt im ersten Tab an der Anlagen-Infrastruktur
 it: Questo simbolo è collegato all'infrastruttura del plastico nella prima scheda
 
 de: Dorf
@@ -1025,7 +1025,7 @@ it: Azienda propria: ingressi e uscite li imposti poi tu.
 de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
 it: Porta propria, separata da Browser Logistica. Velocità, zoom e «Proponi treni adatti» si impostano su ogni dispositivo in basso nel tabellone (il browser li ricorda), «Schermo intero» per un tablet come tabellone. Il firewall di Windows di questo computer deve consentire la porta in entrata.
 
-de: Eigener Reiter mit den angehängten Bahnhöfen
+de: Eigener Tab mit den angehängten Bahnhöfen
 it: Scheda propria con le stazioni collegate
 
 de: Ein Modul
@@ -1184,7 +1184,7 @@ it: Produzione e disponibilità: a sinistra più lento (×0,75 … ×0,1), al ce
 de: Es fehlen 
 it: Mancano 
 
-de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Tab anlegen; er hängt an der Anlagen-Infrastruktur.
 it: Non c'è ancora {0}. Crearlo prima dalla tavolozza «{1}» nella prima scheda; è collegato all'infrastruttura del plastico.
 
 de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
@@ -1661,10 +1661,10 @@ it: Orizzontale:
 de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
 it: Collegate al modulo invece che all'infrastruttura del plastico; scalo merci, località, aziende e magazzini le seguono.
 
-de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+de: Höchstens {0} Tabs (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Tabs ändern.
 it: Al massimo {0} schede (schede e moduli). Il numero si cambia in Preferenze > Schede.
 
-de: Höchstzahl der Reiter
+de: Höchstzahl der Tabs
 it: Numero massimo di schede
 
 de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
@@ -1868,7 +1868,7 @@ it: Nessun capo aperto.
 de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
 it: Nessun capo aperto: ogni domanda ha una controparte.
 
-de: Keine weiteren Reiter
+de: Keine weiteren Tabs
 it: Nessun'altra scheda
 
 de: Keinem Gleis zugeordnet (Strecke).
@@ -2243,7 +2243,7 @@ it: Nome (facoltativo)
 de: Name des Moduls, zu dem „{0}“ gehört
 it: Nome del modulo a cui appartiene «{0}»
 
-de: Name des ersten Reiters
+de: Name des ersten Tabs
 it: Nome della prima scheda
 
 de: Name des neuen Guts
@@ -2300,7 +2300,7 @@ it: Nuova azienda: {0}{1}
 de: Neuer Haltepunkt für {0} (Gleise wählen)
 it: Nuova fermata per {0} (scegliere binari)
 
-de: Neuer Name – gilt für den Reiter und das Symbol
+de: Neuer Name – gilt für den Tab und das Symbol
 it: Nuovo nome – vale per la scheda e il simbolo
 
 de: Neuer Schattenbahnhof (Gleise wählen)
@@ -2510,8 +2510,8 @@ it: Obbligatorio (utente 09.11.2026): il binario che porta da questo modulo al s
 de: Plätze
 it: Posti
 
-de: Port {0} antwortet, aber nicht wie iTrain-XTC
-it: La porta {0} risponde, ma non come iTrain-XTC
+de: Port {0} antwortet, aber nicht wie iTrain XML TrainControl
+it: La porta {0} risponde, ma non come iTrain XML TrainControl
 
 de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
 it: La porta {0} appartiene già a Browser Logistica – sceglierne un'altra.
@@ -2564,11 +2564,11 @@ it: Fonte
 de: Quelle: Simulator{0}
 it: Fonte: simulatore{0}
 
-de: Quelle: iTrain (XTC nicht verbunden)
-it: Fonte: iTrain (XTC non collegato)
+de: Quelle: iTrain (XML TrainControl nicht verbunden)
+it: Fonte: iTrain (XML TrainControl non collegato)
 
-de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
-it: Fonte: iTrain (XTC {0}, {1}/{2} treni collegati)
+de: Quelle: iTrain (XML TrainControl {0}, {1}/{2} Züge verbunden)
+it: Fonte: iTrain (XML TrainControl {0}, {1}/{2} treni collegati)
 
 de: Quellen der mitgelieferten Geräusche.txt
 it: Fonti dei suoni inclusi.txt
@@ -2627,13 +2627,13 @@ it: Viaggiatori in attesa a {0}{1} (la maggior parte a {2}) – {3}
 de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
 it: Viaggiatori: vogliono partire e vanno insieme alla stazione ogni {0} minuti di modello (luce scorrevole verde)
 
-de: Reiter
+de: Tabs
 it: Schede
 
-de: Reiter umbenennen
+de: Tab umbenennen
 it: Rinomina scheda
 
-de: Reiter „{0}“
+de: Tab „{0}“
 it: Scheda «{0}»
 
 de: Rezept
@@ -2687,8 +2687,8 @@ it: Rx/Tx simulatore
 de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
 it: Rx/Tx esiste solo se in Impostazioni è scelto «iTrain» o «Simulatore».
 
-de: Rx/Tx iTrain (XTC){0}
-it: Rx/Tx iTrain (XTC){0}
+de: Rx/Tx iTrain (XML TrainControl){0}
+it: Rx/Tx iTrain (XML TrainControl){0}
 
 de: Salonwagen
 it: Carrozza salone
@@ -2930,7 +2930,7 @@ it: Modifica scheda
 de: Tabellen öffnen oder im Hauptfenster andocken
 it: Apri tabelle o agganciale nella finestra principale
 
-de: Tabs und Module zusammen, ohne den ersten Reiter
+de: Tabs und Module zusammen, ohne den ersten Tab
 it: Schede e moduli insieme, senza la prima scheda
 
 de: Tag {0}
@@ -3350,11 +3350,11 @@ it: Radice
 de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
 it: Scegliere i blocchi che in iTrain appartengono alla stazione nascosta e, per ogni blocco, se lì {0}. Meglio un binario per direzione di marcia.
 
-de: XTC antwortet nicht
-it: XTC non risponde
+de: XML TrainControl antwortet nicht
+it: XML TrainControl non risponde
 
-de: XTC-Port (Vorgabe {0})
-it: Porta XTC (predefinita {0})
+de: XML-TrainControl-Port (Vorgabe {0})
+it: Porta XML TrainControl (predefinita {0})
 
 de: Zeit
 it: Ora
@@ -3545,23 +3545,23 @@ it: Rileggi file iTrain...
 de: iTrain Verbindung
 it: Connessione iTrain
 
-de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
-it: iTrain scelto: eventi dei treni online via XTC ({0}:{1}). Ctrl + clic sulla fonte mostra Rx/Tx.
+de: iTrain gewählt: Zugereignisse online über XML TrainControl ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+it: iTrain scelto: eventi dei treni online via XML TrainControl ({0}:{1}). Ctrl + clic sulla fonte mostra Rx/Tx.
 
 de: iTrain läuft auf diesem Computer
 it: iTrain funziona su questo computer
 
-de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
-it: iTrain funziona su questo computer ({0}), XTC non risponde sulla porta {1}
+de: iTrain läuft auf diesem Rechner ({0}), XML TrainControl antwortet nicht auf Port {1}
+it: iTrain funziona su questo computer ({0}), XML TrainControl non risponde sulla porta {1}
 
 de: iTrain läuft auf einem anderen Computer
 it: iTrain funziona su un altro computer
 
-de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
-it: iTrain non funziona su questo computer (la porta XTC {0} non risponde)
+de: iTrain läuft nicht auf diesem Rechner (XML-TrainControl-Port {0} antwortet nicht)
+it: iTrain non funziona su questo computer (la porta XML TrainControl {0} non risponde)
 
-de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
-it: iTrain funziona, ma l'interfaccia XTC non risponde. Senza XTC non arrivano eventi dei treni online.\n\nVerificare: Impostazioni → Collegamento a iTrain (indirizzo e porta XTC, predefinita 7128); se iTrain funziona su un altro computer, il suo firewall deve consentire la porta in entrata.
+de: iTrain läuft, aber die XML-TrainControl-Schnittstelle antwortet nicht. Ohne XML TrainControl kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XML-TrainControl-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+it: iTrain funziona, ma l'interfaccia XML TrainControl non risponde. Senza XML TrainControl non arrivano eventi dei treni online.\n\nVerificare: Impostazioni → Collegamento a iTrain (indirizzo e porta XML TrainControl, predefinita 7128); se iTrain funziona su un altro computer, il suo firewall deve consentire la porta in entrata.
 
 de: iTrain nicht mehr gefunden.
 it: iTrain non più trovato.
@@ -3569,14 +3569,14 @@ it: iTrain non più trovato.
 de: iTrain noch nicht gestartet
 it: iTrain non ancora avviato
 
-de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
-it: iTrain non raggiungibile a {0} (la porta XTC {1} non risponde; iTrain è in funzione? indirizzo corretto? il firewall di Windows del computer iTrain deve consentire la porta {2} in entrata)
+de: iTrain unter {0} nicht erreichbar (XML-TrainControl-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+it: iTrain non raggiungibile a {0} (la porta XML TrainControl {1} non risponde; iTrain è in funzione? indirizzo corretto? il firewall di Windows del computer iTrain deve consentire la porta {2} in entrata)
 
 de: iTrain wird gesucht …
 it: Ricerca di iTrain …
 
-de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
-it: iTrain non trovato, la logistica è in pausa.\n\nSe iTrain è già in funzione, verificare indirizzo e porta XTC in Impostazioni → Collegamento a iTrain (lì anche «Verifica collegamento»).
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XML-TrainControl-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+it: iTrain non trovato, la logistica è in pausa.\n\nSe iTrain è già in funzione, verificare indirizzo e porta XML TrainControl in Impostazioni → Collegamento a iTrain (lì anche «Verifica collegamento»).
 
 de: iTrain → Voreinstellungen → Modus → Server
 it: iTrain → Preferenze → Modalità → Server
@@ -3605,8 +3605,8 @@ it: Simulatore iTrain-Logistik – {0}
 de: iTrain-Prüfung fehlgeschlagen: {0}
 it: Verifica di iTrain non riuscita: {0}
 
-de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
-it: Server iTrain raggiungibile a {0}:{1}, ma XTC non risponde sulla porta {2}
+de: iTrain-Server erreichbar unter {0}:{1}, aber XML TrainControl antwortet nicht auf Port {2}
+it: Server iTrain raggiungibile a {0}:{1}, ma XML TrainControl non risponde sulla porta {2}
 
 de: je Modellstunde
 it: per ora di modello
@@ -3794,8 +3794,8 @@ it: {0} ha bisogno di merci. Lo scalo merci appartiene a {1}. Quali blocchi sono
 de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
 it: {0} transita per {1}, {2} (carico/scarico al passaggio)
 
-de: {0} erreichbar über XTC unter {1}:{2}
-it: {0} raggiungibile via XTC a {1}:{2}
+de: {0} erreichbar über XML TrainControl unter {1}:{2}
+it: {0} raggiungibile via XML TrainControl a {1}:{2}
 
 de: {0} fährt ab von {1}{2}
 it: {0} parte da {1}{2}
@@ -3890,14 +3890,14 @@ it: Raffineria
 de: Über
 it: Informazioni
 
-de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
-it: Tramite XTC, iTrain segnala per ogni treno l'ingresso in un blocco, l'attesa con la sua durata e la partenza, oltre all'ora di modello. Se iTrain funziona su un altro computer, il suo firewall deve consentire la porta XTC in entrata.
+de: Über XML TrainControl meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XML-TrainControl-Port eingehend erlauben.
+it: Tramite XML TrainControl, iTrain segnala per ogni treno l'ingresso in un blocco, l'attesa con la sua durata e la partenza, oltre all'ora di modello. Se iTrain funziona su un altro computer, il suo firewall deve consentire la porta XML TrainControl in entrata.
 
 de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
 it: Tramite il nome del computer (funziona se il router o il dispositivo conosce il nome):
 
-de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
-it: Tramite l'interfaccia XTC, iTrain segnala per ogni treno ingresso, attesa con la sua durata e partenza, oltre all'ora di modello. "localhost" = iTrain funziona su questo computer. Se iTrain funziona su un altro computer, il suo firewall di Windows deve consentire la porta XTC in entrata. Le modifiche valgono dopo la chiusura delle preferenze.
+de: Über die XML-TrainControl-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XML-TrainControl-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+it: Tramite l'interfaccia XML TrainControl, iTrain segnala per ogni treno ingresso, attesa con la sua durata e partenza, oltre all'ora di modello. "localhost" = iTrain funziona su questo computer. Se iTrain funziona su un altro computer, il suo firewall di Windows deve consentire la porta XML TrainControl in entrata. Le modifiche valgono dopo la chiusura delle preferenze.
 
 de: Übergabe
 it: Interscambio
@@ -3983,7 +3983,7 @@ it: «{0}» non ha ancora un binario di carico e non c'è alcun blocco libero. P
 de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
 it: «{0}» ferma a «{1}»: tipo «Altro», quindi niente salita né discesa. Scegliere il tipo nel dialogo della stazione (ad es. stazione).
 
-de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Tab.
 it: «{0}» sarà allora collegato al {1} invece che all'infrastruttura del plastico.\nScalo merci, località, aziende e magazzini lo seguono nella sua scheda.
 
 de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
@@ -4073,14 +4073,14 @@ it: ✔ a posto
 de: ✔ {0} auf {1}:{2}, {3} Züge
 it: ✔ {0} su {1}:{2}, {3} treni
 
-de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
-it: ✔ {0} funziona su {1} (porta XTC {2}), {3} treni: {4}
+de: ✔ {0} läuft auf {1} (XML-TrainControl-Port {2}), {3} Züge: {4}
+it: ✔ {0} funziona su {1} (porta XML TrainControl {2}), {3} treni: {4}
 
 de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
 it: ✘ Nessuna risposta da iTrain a {0}:{1} ({2}).\niTrain è in funzione lì? Il firewall di Windows del computer iTrain è aperto in entrata per la porta {3}? Indirizzo e porta sono corretti?
 
-de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
-it: ✘ Nessuna risposta da iTrain-XTC a {0}:{1} ({2})
+de: ✘ Keine Antwort von iTrain XML TrainControl auf {0}:{1} ({2})
+it: ✘ Nessuna risposta da iTrain XML TrainControl a {0}:{1} ({2})
 
 de: ❚❚ Austausch angehalten
 it: ❚❚ Scambio in pausa
@@ -4139,8 +4139,8 @@ it: Viaggiatori 1ª classe: {0} / {1},  2ª classe: {2} / {3}
 de: Block: -
 it: Blocco: -
 
-de: XTC-Port:
-it: Porta XTC:
+de: XML-TrainControl-Port:
+it: Porta XML TrainControl:
 
 de: {0} Blöcke
 it: {0} blocchi
@@ -4530,8 +4530,8 @@ it: Monitor percorso: un treno con blocco precedente, attuale e successivo, posi
 de: Keine Datei geöffnet oder kein Zug vorhanden.
 it: Nessun file aperto o nessun treno presente.
 
-de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
-it: Nessun dato online: questo treno non è collegato a iTrain tramite XTC.
+de: Keine Online-Daten: Dieser Zug ist nicht über XML TrainControl mit iTrain verbunden.
+it: Nessun dato online: questo treno non è collegato a iTrain tramite XML TrainControl.
 
 de: Der Zug steht in iTrain in keinem Block.
 it: In iTrain il treno non si trova in nessun blocco.
@@ -5000,3 +5000,162 @@ de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das 
 it: Nessun binario di linea – definirli in «Modifica plastico» con clic destro sul modulo.
 de: Geräusche...
 it: Suoni...
+
+de: Ordner der iTrain-Bilder
+it: Cartella immagini iTrain
+
+de: Ordner für Geräusche
+it: Cartella dei suoni
+
+de: Ordner für KI Datei Sammlung
+it: Cartella raccolta file IA
+
+de: Bilder, die in iTrain den Lokomotiven und Wagen zugeordnet sind, sucht die Logistik im Ordner der iTrain-Bilder (Vorgabe: Ordner „images“ im iTrain-Ordner).
+it: Le immagini assegnate in iTrain a locomotive e carri vengono cercate nella cartella immagini iTrain (predefinita: cartella «images» nella cartella iTrain).
+
+de: Bild nicht gefunden (Ordner der iTrain-Bilder in Voreinstellungen > Pfade prüfen).
+it: Immagine non trovata (controllare la cartella immagini iTrain in Preferenze > Percorsi).
+
+de: (von Hand angelegt)
+it: (creata a mano)
+
+de: + Gleis hinzufügen…
+it: + Aggiungi binario…
+
+de: Betrieb / Ort
+it: Azienda / Luogo
+
+de: Weitere Hinweise
+it: Altre indicazioni
+
+de: Zurück zur Prüfung
+it: Torna al controllo
+
+de: „{0}“ bearbeiten
+it: Modifica «{0}»
+
+de: Wagen ergänzen…
+it: Completa carri…
+
+de: Rundfahrt in „{0}“
+it: Giro in «{0}»
+
+de: Rundfahrt: an anderen Gleisen von „{0}“ aussteigen
+it: Giro: scendere su altri binari di «{0}»
+
+de: andere Gleise
+it: altri binari
+
+de: Rundfahrt
+it: giro
+
+de: Rundfahrt: Reisende dürfen an einem anderen Bahnsteig dieses Bahnhofs wieder aussteigen
+it: Giro: i viaggiatori possono scendere a un altro marciapiede di questa stazione
+
+de: Hinweise nicht noch einmal anzeigen
+it: Non mostrare più questi avvisi
+
+de: Kapazitäten müssen ergänzt werden
+it: Le capacità vanno integrate
+
+de: Bisher keine iTrain-Route von den Gleisen von „{0}“ nach {1}
+it: Ancora nessun percorso iTrain dai binari di «{0}» a {1}
+
+de: Uhr-Faktor ×{0}
+it: fattore orologio ×{0}
+
+de: Wird ohne Zug geliefert (von außerhalb bzw. Betrieb nicht auf der Anlage) – fertig.
+it: Consegnato senza treno (dall’esterno o azienda non sul plastico) – fatto.
+
+de: – (kein Zug nötig)
+it: – (nessun treno necessario)
+
+de: außerhalb
+it: esterno
+
+de: Es fehlt noch ein Zug
+it: Manca ancora un treno
+
+de: Von {0} müssen mit Zug „{1}“ in einer realen Stunde {2} angeliefert werden
+it: Da {0}, il treno «{1}» deve consegnare {2} in un’ora reale
+
+de: Nach {0} müssen mit Zug „{1}“ in einer realen Stunde {2} abgefahren werden
+it: Il treno «{1}» deve portare {2} a {0} in un’ora reale
+
+de: Nach {0} fahren mit Zug „{1}“ in einer realen Stunde {2}
+it: Il treno «{1}» porta {2} a {0} in un’ora reale
+
+de: Von {0} kommen mit Zug „{1}“ in einer realen Stunde {2}
+it: Il treno «{1}» porta {2} da {0} in un’ora reale
+
+de: etwa {0} Fahrten
+it: circa {0} corse
+
+de: etwa 1 Fahrt
+it: circa 1 corsa
+
+de: Uhr-Faktor unbekannt
+it: fattore orologio sconosciuto
+
+de: ×1 gerechnet
+it: calcolato con ×1
+
+de: Gegenstück {0}, mit Zug „{1}“ – fertig, Menge unbegrenzt.
+it: Controparte {0}, con il treno «{1}» – fatto, quantità illimitata.
+
+de: kein Zug kann „{0}“ laden
+it: nessun treno può caricare «{0}»
+
+de: Wagen ergänzen oder Lade-Joker
+it: completare i carri o jolly di carico
+
+de: mehr als {0} Fahrten je Modellstunde nötig
+it: servono più di {0} corse per ora modello
+
+de: Menge senken oder größere Züge
+it: ridurre la quantità o treni più grandi
+
+de: Die Download-Seite
+it: La pagina di download
+
+de: Änderungen gelten nach dem Schließen der Voreinstellungen.
+it: Le modifiche valgono dopo la chiusura delle preferenze.
+
+de: Vorschlag Personen
+it: Proposta passeggeri
+
+de: Vorschlag Güter
+it: Proposta merci
+
+de: Die eingetragenen Gütermengen als eigenen Vorschlag speichern.
+it: Salva le quantità di merci inserite come proposta personale.
+
+de: Die eingetragenen Personenwerte als eigenen Vorschlag speichern.
+it: Salva i valori passeggeri inseriti come proposta personale.
+
+de: Übernimmt nur die Personenwerte (Abreisende, Anteil 1. Klasse, Aussteigeanteil). ★ = eigener Vorschlag.
+it: Applica solo i valori passeggeri (partenti, quota 1ª classe, quota in discesa). ★ = proposta personale.
+
+de: Übernimmt nur die Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+it: Applica solo le quantità di merci (sostituisce la tabella). ★ = proposta personale.
+
+de: {0} Abreisende M/h
+it: {0} partenti M/h
+
+de: {0} % 1. Klasse
+it: {0} % 1ª classe
+
+de: Kleinvieh
+it: Bestiame minuto
+
+de: Großvieh
+it: Bestiame grosso
+
+de: Muss gebracht werden
+it: Da consegnare
+
+de: Bedarf wächst
+it: Domanda cresce
+
+de: Erfüllung je Gut
+it: Soddisfazione per merce

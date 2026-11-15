@@ -89,7 +89,7 @@ public final class Gut {
 
     /** Eigene Einheit (null = Standard der Ladeklasse). */
     public String getEigeneEinheit() {
-        return einheit != null && Einheit.ALLE.contains(einheit) ? einheit : null;
+        return einheit != null && ladeklasse != Ladeklasse.TIERTRANSPORT && Einheit.ALLE.contains(einheit) ? einheit : null;
     }
 
     public void setEinheit(String einheit) {

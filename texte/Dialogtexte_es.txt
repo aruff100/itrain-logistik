@@ -208,3 +208,5 @@ TEXT:
 No se pudo reproducir el sonido **{datei}** ({fehler}).
 
 Compruebe que haya una salida de audio activada (altavoces, auriculares) y que el archivo se pueda reproducir (formatos mp3, wav, m4a, aiff). Los sonidos se desactivan en Datos de logística → Sonidos.
+
+=

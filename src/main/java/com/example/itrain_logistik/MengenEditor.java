@@ -119,34 +119,24 @@ public final class MengenEditor {
         Button weg = new Button("Entfernen");
         weg.setOnAction(e -> zeilen.remove(tabelle.getSelectionModel().getSelectedItem()));
 
+        // Nur Güter (Anwender 15.11.2026): Personen haben eigene Vorschläge, siehe personenKnoepfe
         Button vorschlag = new Button("Vorschlag…");
         vorschlag.setOnAction(e -> {
-            Vorschlag v = waehle(owner, anlage);
+            Vorschlag v = waehle(owner, anlage, false);
             if (v != null) {
                 zeilen.clear();
                 v.gueter().forEach(this::setze);
-                if (personenSetzen != null) {
-                    personenSetzen.accept(new double[]{v.passagiere(), v.ersteKlasse(), v.aussteigen()});
-                }
             }
         });
         Button speichern = new Button("Als Vorschlag speichern…");
         speichern.setOnAction(e -> {
-            TextInputDialog d = new TextInputDialog();
-            if (owner != null) {
-                d.initOwner(owner);
+            String n = name(owner, "Die eingetragenen Gütermengen als eigenen Vorschlag speichern.");
+            if (n != null) {
+                speichere(new Vorschlag(n, 0, 0, 0, getMengen(), true));
             }
-            d.setTitle("Als Vorschlag speichern");
-            d.setHeaderText("Die eingetragenen Personen- und Gütermengen als eigenen Vorschlag speichern.");
-            d.setContentText("Name:");
-            d.showAndWait().map(String::trim).filter(n -> !n.isEmpty()).ifPresent(n -> {
-                double[] p = personenLesen != null ? personenLesen.get() : new double[]{0, 0.1, 0.3};
-                speichere(new Vorschlag(n, p[0], p[1], p[2], getMengen(), true));
-            });
         });
         view = new VBox(8, tabelle, new HBox(6, gutBox, mengeFeld, hinzu, weg));
         VBox.setVgrow(tabelle, Priority.ALWAYS);
-        // Die Vorschlagsknöpfe gelten für Personen und Güter; der Aufrufer platziert sie (linksbündig darunter).
         knoepfe = new HBox(8, vorschlag, speichern);
     }
 
@@ -164,7 +154,7 @@ public final class MengenEditor {
         return view;
     }
 
-    /** "Vorschlag…" und "Als Vorschlag speichern…" (für Personen und Güter). */
+    /** "Vorschlag…" und "Als Vorschlag speichern…" (nur Güter). */
     public Node getKnoepfe() {
         return knoepfe;
     }
@@ -263,12 +253,71 @@ public final class MengenEditor {
         new Alert(Alert.AlertType.INFORMATION, "Vorschlag „" + neu.name() + "“ gespeichert.").showAndWait();
     }
 
-    /** Auswahlliste "Vorschlag": eingebaute und eigene Vorschläge; eigene lassen sich löschen. */
-    public static Vorschlag waehle(Stage owner, Anlage a) {
+    /**
+     * Knöpfe „Vorschlag…“ und „Als Vorschlag speichern…“ nur für die Personenwerte (Anwender 15.11.2026: Personen
+     * und Güter getrennt). {@code lesen}/{@code setzen}: {Abreisende, Anteil 1. Klasse, Aussteigeanteil}.
+     */
+    public static HBox personenKnoepfe(Stage owner, Anlage a, Supplier<double[]> lesen, Consumer<double[]> setzen) {
+        Button vorschlag = new Button("Vorschlag…");
+        vorschlag.setOnAction(e -> {
+            Vorschlag v = waehle(owner, a, true);
+            if (v != null) {
+                setzen.accept(new double[]{v.passagiere(), v.ersteKlasse(), v.aussteigen()});
+            }
+        });
+        Button speichern = new Button("Als Vorschlag speichern…");
+        speichern.setOnAction(e -> {
+            String n = name(owner, "Die eingetragenen Personenwerte als eigenen Vorschlag speichern.");
+            if (n != null) {
+                double[] p = lesen.get();
+                List<Vorschlag> l = eigenePersonen();
+                l.removeIf(v -> v.name().equals(n));
+                l.add(new Vorschlag(n, p[0], p[1], p[2], Map.of(), true));
+                speicherPersonen(l);
+                new Alert(Alert.AlertType.INFORMATION, "Vorschlag „" + n + "“ gespeichert.").showAndWait();
+            }
+        });
+        return new HBox(8, vorschlag, speichern);
+    }
+
+    private static String name(Stage owner, String kopf) {
+        TextInputDialog d = new TextInputDialog();
+        if (owner != null) {
+            d.initOwner(owner);
+        }
+        d.setTitle("Als Vorschlag speichern");
+        d.setHeaderText(kopf);
+        d.setContentText("Name:");
+        return d.showAndWait().map(String::trim).filter(n -> !n.isEmpty()).orElse(null);
+    }
+
+    /** Eigene Personen-Vorschläge. Format je Zeile: Name TAB Abreisende TAB 1.Kl TAB Aussteigen. */
+    public static List<Vorschlag> eigenePersonen() {
+        List<Vorschlag> l = new ArrayList<>();
+        for (String zeile : AppSettings.getInstance().getPersonenVorschlaege().split("\n")) {
+            String[] t = zeile.split("\t", -1);
+            if (t.length >= 4 && !t[0].isBlank()) {
+                l.add(new Vorschlag(t[0], zahl(t[1]), zahl(t[2]), zahl(t[3]), Map.of(), true));
+            }
+        }
+        return l;
+    }
+
+    private static void speicherPersonen(List<Vorschlag> l) {
+        StringBuilder sb = new StringBuilder();
+        for (Vorschlag v : l) {
+            sb.append(v.name().replace('\t', ' ').replace('\n', ' ')).append('\t').append(v.passagiere()).append('\t')
+                    .append(v.ersteKlasse()).append('\t').append(v.aussteigen()).append('\n');
+        }
+        AppSettings.getInstance().setPersonenVorschlaege(sb.toString());
+    }
+
+    /** Auswahlliste "Vorschlag" für Personen bzw. Güter: eingebaute und eigene; eigene lassen sich löschen. */
+    public static Vorschlag waehle(Stage owner, Anlage a, boolean personen) {
         ListView<Vorschlag> liste = new ListView<>();
         Runnable fuellen = () -> {
             liste.getItems().setAll(eingebaut(a));
-            liste.getItems().addAll(eigene());
+            liste.getItems().addAll(personen ? eigenePersonen() : eigene());
         };
         fuellen.run();
         liste.setPrefSize(380, 220);
@@ -276,8 +325,9 @@ public final class MengenEditor {
             @Override
             protected void updateItem(Vorschlag v, boolean empty) {
                 super.updateItem(v, empty);
-                setText(empty || v == null ? null : (v.eigen() ? "★ " : "") + v.name() + "  ("
-                        + ObjektDialoge.zahl(v.passagiere()) + " Passagiere/h, " + v.gueter().size() + " Güter)");
+                setText(empty || v == null ? null : (v.eigen() ? "★ " : "") + v.name() + "  (" + (personen
+                        ? ObjektDialoge.zahl(v.passagiere()) + " Abreisende M/h, " + ObjektDialoge.zahl(v.ersteKlasse() * 100)
+                        + " % 1. Klasse" : v.gueter().size() + " Güter") + ")");
             }
         });
         liste.getSelectionModel().selectFirst();
@@ -285,13 +335,21 @@ public final class MengenEditor {
         loeschen.setOnAction(e -> {
             Vorschlag v = liste.getSelectionModel().getSelectedItem();
             if (v != null && v.eigen()) {
-                List<Vorschlag> l = eigene();
-                l.removeIf(x -> x.name().equals(v.name()));
-                speicherAlle(l);
+                if (personen) {
+                    List<Vorschlag> l = eigenePersonen();
+                    l.removeIf(x -> x.name().equals(v.name()));
+                    speicherPersonen(l);
+                } else {
+                    List<Vorschlag> l = eigene();
+                    l.removeIf(x -> x.name().equals(v.name()));
+                    speicherAlle(l);
+                }
                 fuellen.run();
             }
         });
-        Label hinweis = new Label("Übernimmt Personenwerte und Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.");
+        Label hinweis = new Label(personen ? "Übernimmt nur die Personenwerte (Abreisende, Anteil 1. Klasse, "
+                + "Aussteigeanteil). ★ = eigener Vorschlag." : "Übernimmt nur die Gütermengen (ersetzt die Tabelle). "
+                + "★ = eigener Vorschlag.");
         hinweis.setWrapText(true);
         Dialog<ButtonType> d = new Dialog<>();
         Fenster.merken(d, "mengen"); // Größe merken (Anwender 22.10.2026)
@@ -301,7 +359,7 @@ public final class MengenEditor {
                 d.getDialogPane().getStylesheets().addAll(owner.getScene().getStylesheets());
             }
         }
-        d.setTitle("Vorschlag");
+        d.setTitle(personen ? "Vorschlag Personen" : "Vorschlag Güter");
         VBox inhalt = new VBox(8, liste, hinweis, loeschen);
         inhalt.setPadding(new Insets(10));
         d.getDialogPane().setContent(inhalt);

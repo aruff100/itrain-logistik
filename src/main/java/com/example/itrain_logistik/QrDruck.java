@@ -72,6 +72,7 @@ public final class QrDruck {
         VBox.setVgrow(sp, Priority.ALWAYS);
         Scene sc = new Scene(root, 560, 760);
         st.setScene(sc);
+        WindowState.apply(st, "qrdruck", 560, 760);
         st.show();
     }
 

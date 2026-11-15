@@ -110,7 +110,7 @@ final class VerkehrsAssistent {
         }
         List<Station> mitNeuenBahnsteigen = new ArrayList<>();
         List<Station> mitNeuenLadegleisen = new ArrayList<>();
-        if (!daten.isEmpty()) {
+        if (!daten.isEmpty() || !a.stationen().isEmpty()) {
             List<BahnhoefeDialog.Ergebnis> erg = BahnhoefeDialog.zeige(owner, a, daten, doc.bahnhofTypen());
             if (erg == null) {
                 return false;
@@ -139,26 +139,38 @@ final class VerkehrsAssistent {
     private void pruefung() {
         String zuletzt = null;
         for (int runde = 0; runde < 200; runde++) {
-            List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> zeilen =
-                    com.example.itrain_logistik.kern.VerkehrsPruefung.pruefe(anlage(), zuege.get());
+            List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> zeilen = gruppiert(
+                    com.example.itrain_logistik.kern.VerkehrsPruefung.pruefe(anlage(), zuege.get(), LaufendeUhr.faktor()));
             if (zeilen.isEmpty()) {
                 return;
             }
             Texte.Abschnitt t = Texte.dialog("assistent_pruefung");
             javafx.scene.control.TableView<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> tab =
                     new javafx.scene.control.TableView<>(javafx.collections.FXCollections.observableArrayList(zeilen));
-            tab.getColumns().add(spalte("", 34, z -> z.ok() ? "✓" : "⚠"));
+            // Zusammenhang (Anwender 15.11.2026): je Betrieb bzw. Ort ein Block, dazwischen eine Leerzeile; der Name
+            // steht in der ersten Zeile des Blocks.
+            java.util.Set<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> ersteZeilen =
+                    java.util.Collections.newSetFromMap(new java.util.IdentityHashMap<>());
+            for (int i = 0; i < zeilen.size(); i++) {
+                if (zeilen.get(i) != LEER && (i == 0 || zeilen.get(i - 1) == LEER)) {
+                    ersteZeilen.add(zeilen.get(i));
+                }
+            }
+            tab.getColumns().add(spalte("", 44, z -> z == LEER ? "" : z.ok() ? "✓" : "⚠"));
+            tab.getColumns().add(spalte("Betrieb / Ort", 170, z -> z == LEER || !ersteZeilen.contains(z) ? ""
+                    : z.quelle() != null ? z.quelle().objekt().getAnzeigeName() : "Weitere Hinweise"));
             tab.getColumns().add(spalte("Was soll passieren", 330, z -> z.was()));
             tab.getColumns().add(spalte("Gegenstück", 230, z -> z.gegenstueck()));
             tab.getColumns().add(spalte("Züge", 260, z -> z.fahrzeuge()));
-            tab.getColumns().add(spalte("Hinweis", 260, z -> z.hinweis() == null ? "" : z.hinweis()));
+            tab.getColumns().add(spalte("Hinweis", 380, z -> z.hinweis() == null ? "" : z.hinweis()));
+            tab.getColumns().forEach(c -> c.setSortable(false)); // Reihenfolge = Zusammenhang
             tab.setColumnResizePolicy(javafx.scene.control.TableView.UNCONSTRAINED_RESIZE_POLICY);
-            tab.setPrefHeight(360);
+            tab.setPrefHeight(420);
             tab.getSelectionModel().setSelectionMode(javafx.scene.control.SelectionMode.SINGLE);
             Spalten.einrichten(tab, "assistent.pruefung");
             Label auswahlText = new Label();
             auswahlText.setWrapText(true);
-            long offen = zeilen.stream().filter(z -> !z.ok()).count();
+            long offen = zeilen.stream().filter(z -> z != LEER && !z.ok()).count();
             javafx.scene.layout.VBox inhalt = new javafx.scene.layout.VBox(10, Texte.darstellen(t.text(), 900), tab,
                     auswahlText);
             inhalt.setPadding(new Insets(8));
@@ -168,26 +180,43 @@ final class VerkehrsAssistent {
             d.setTitle("Verkehrs-Assistent – Prüfung");
             d.setHeaderText(t.titel());
             d.getDialogPane().setContent(inhalt);
+            d.getDialogPane().setStyle("-fx-font-size: 15px;"); // etwas größere Schrift (Anwender 15.11.2026)
             ButtonType schliessen = new ButtonType("Schließen", ButtonBar.ButtonData.CANCEL_CLOSE);
             ButtonType weiter = new ButtonType("Weiter", ButtonBar.ButtonData.OK_DONE);
             d.getDialogPane().getButtonTypes().setAll(schliessen, weiter);
             javafx.scene.Node weiterKnopf = d.getDialogPane().lookupButton(weiter);
             Runnable auswahl = () -> {
                 var z = tab.getSelectionModel().getSelectedItem();
+                if (z == LEER) {
+                    z = null;
+                }
                 boolean geht = z != null && !z.ok();
                 weiterKnopf.setDisable(!geht);
                 auswahlText.setText(offen == 0 ? "Alles vorhanden – nichts zu ergänzen."
                         : z == null ? offen + (offen == 1 ? " Zeile mit ⚠. Bitte eine markieren, dann „Weiter“."
                         : " Zeilen mit ⚠. Bitte eine markieren, dann „Weiter“.")
                         : z.ok() ? "Diese Zeile ist in Ordnung (✓). Bitte eine Zeile mit ⚠ markieren."
-                        : "„Weiter“ ergänzt: " + z.was() + (z.hinweis() != null ? " (" + z.hinweis() + ")" : ""));
+                        : "„Weiter“ ergänzt: " + z.was() + (z.hinweis() != null && !z.hinweis().isBlank() ? " (" + z.hinweis() + ")" : ""));
             };
             tab.getSelectionModel().selectedItemProperty().addListener((o, a1, a2) -> auswahl.run());
             tab.setRowFactory(tv -> {
                 javafx.scene.control.TableRow<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> r =
-                        new javafx.scene.control.TableRow<>();
+                        new javafx.scene.control.TableRow<>() {
+                            @Override
+                            protected void updateItem(com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z,
+                                                      boolean leer) {
+                                super.updateItem(z, leer);
+                                faerben(this);
+                            }
+
+                            @Override
+                            public void updateSelected(boolean b) {
+                                super.updateSelected(b);
+                                faerben(this);
+                            }
+                        };
                 r.setOnMouseClicked(e -> {
-                    if (e.getClickCount() == 2 && !r.isEmpty() && !r.getItem().ok()) {
+                    if (e.getClickCount() == 2 && !r.isEmpty() && r.getItem() != LEER && !r.getItem().ok()) {
                         ((javafx.scene.control.Button) weiterKnopf).fire();
                     }
                 });
@@ -197,7 +226,7 @@ final class VerkehrsAssistent {
             // die zuletzt bearbeitete Zeile sichtbar halten (nicht markieren: der Anwender wählt selbst)
             if (zuletzt != null) {
                 for (int i = 0; i < zeilen.size(); i++) {
-                    if (zuletzt.equals(schluessel(zeilen.get(i)))) {
+                    if (zeilen.get(i) != LEER && zuletzt.equals(schluessel(zeilen.get(i)))) {
                         tab.scrollTo(Math.max(0, i - 2));
                         break;
                     }
@@ -209,15 +238,98 @@ final class VerkehrsAssistent {
                 d.getDialogPane().getStylesheets().addAll(owner.getScene().getStylesheets());
             }
             var gewaehlt = tab.getSelectionModel().selectedItemProperty();
-            if (d.showAndWait().orElse(schliessen) != weiter || gewaehlt.get() == null) {
+            if (d.showAndWait().orElse(schliessen) != weiter || gewaehlt.get() == null || gewaehlt.get() == LEER) {
                 return;
             }
             com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z = gewaehlt.get();
             zuletzt = schluessel(z);
             spaeter.remove(zuletzt); // ausdrücklich gewählt: auch nach „Später“ wieder fragen
-            lueckeSchliessen(z);
+            String vorher = stand();
+            boolean gefragt = lueckeSchliessen(z);
             geaendert.run();
+            // Nichts geändert und nichts gefragt (Anwender 15.11.2026, macOS: „komme immer wieder auf das gleiche
+            // Fenster zurück, ich kann nichts ändern“): erklären und das Objekt zum Bearbeiten anbieten.
+            if (!gefragt && vorher.equals(stand()) && vonHand(z)) {
+                return; // Wagenfenster offen: dort weiterarbeiten, der Assistent ist jederzeit wieder aufrufbar
+            }
         }
+    }
+
+    /** Platzhalter für die Leerzeile zwischen zwei Blöcken. */
+    private static final com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile LEER =
+            new com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile("", "", "", true, null, null);
+
+    /**
+     * Ordnet die Zeilen je Betrieb bzw. Ort (Reihenfolge des ersten Auftretens, innerhalb eines Blocks wie geliefert:
+     * Eingänge vor Ausgängen, Bedarf vor Reisenden), Zeilen ohne Objekt zuletzt; zwischen den Blöcken {@link #LEER}.
+     */
+    private static List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> gruppiert(
+            List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> l) {
+        Map<String, List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile>> gruppen = new LinkedHashMap<>();
+        for (var z : l) {
+            String k = z.quelle() != null ? z.quelle().objekt().getId() : "\uffff";
+            gruppen.computeIfAbsent(k, x -> new ArrayList<>()).add(z);
+        }
+        List<String> schluessel = new ArrayList<>(gruppen.keySet());
+        if (schluessel.remove("\uffff")) {
+            schluessel.add("\uffff");
+        }
+        List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> erg = new ArrayList<>();
+        for (String k : schluessel) {
+            if (!erg.isEmpty()) {
+                erg.add(LEER);
+            }
+            List<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> g = new ArrayList<>(gruppen.get(k));
+            g.sort(java.util.Comparator.comparingInt(z -> z.quelle() == null ? 99 : z.quelle().abschnitt().ordinal()));
+            erg.addAll(g);
+        }
+        return erg;
+    }
+
+    /** Fertig = hellgrün, zu ergänzen = gelblich, dunkle Schrift in beiden Farbschemata (Anwender 15.11.2026). */
+    private static void faerben(javafx.scene.control.TableRow<com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile> r) {
+        var z = r.getItem();
+        if (r.isEmpty() || z == null || z == LEER) {
+            r.setStyle("");
+            return;
+        }
+        String grund = z.ok() ? "#dcf2d6" : "#fff1b8";
+        r.setStyle("-fx-background-color: " + (r.isSelected() ? "#3a6fc4, " + grund : grund) + ";"
+                + (r.isSelected() ? " -fx-background-insets: 0, 2;" : "") + " -fx-text-background-color: #1a1a1a;");
+    }
+
+    /** Stand der Anlage als Text (zum Erkennen, ob „Weiter“ etwas geändert hat). */
+    private String stand() {
+        StringBuilder x = new StringBuilder();
+        com.example.itrain_logistik.kern.AnlageXml.schreibe(anlage(), x);
+        return x.toString();
+    }
+
+    /**
+     * Kein Vorschlag möglich: Grund nennen und das betroffene Objekt bzw. das Wagenfenster zum Bearbeiten öffnen.
+     *
+     * @return true, wenn das Wagenfenster geöffnet wurde (Prüfung beenden)
+     */
+    private boolean vonHand(com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z) {
+        com.example.itrain_logistik.kern.AnlagenObjekt o = z.quelle() != null ? z.quelle().objekt() : null;
+        List<ButtonType> k = new ArrayList<>();
+        ButtonType spaet = new ButtonType("Zurück zur Prüfung", ButtonBar.ButtonData.CANCEL_CLOSE);
+        String h = z.hinweis() == null ? "" : z.hinweis();
+        // Fehlt ein Zug (Wagen ohne passende Ladung bzw. Plätze): Wagenfenster anbieten
+        ButtonType wagen = h.contains("kein Zug") || h.contains("Wagen ergänzen") || h.contains("Fahrten")
+                ? knopf("Wagen ergänzen…", k) : null;
+        ButtonType oeffnen = o == null ? null : knopf("„" + o.getAnzeigeName() + "“ bearbeiten", k);
+        k.add(spaet);
+        Texte.Abschnitt t = Texte.dialog("assistent_von_hand", "was", z.was(), "hinweis", h.isEmpty() ? "–" : h);
+        ButtonType w = frage(t, k, spaet);
+        if (w == oeffnen && o != null) {
+            ObjektDialoge.bearbeite(owner, o, anlage(), doc.getSnapshot().blocks());
+            geaendert.run();
+        } else if (w == wagen && wagen != null && doc.getSnapshot() != null) {
+            WagonsWindow.show(owner, doc.getSnapshot().wagons(), anlage(), geaendert);
+            return true;
+        }
+        return false;
     }
 
     private static String schluessel(com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z) {
@@ -239,7 +351,7 @@ final class VerkehrsAssistent {
 
             {
                 text.wrappingWidthProperty().bind(col.widthProperty().subtract(10));
-                text.setStyle("-fx-fill: -fx-text-base-color;");
+                text.setStyle("-fx-fill: #1a1a1a; -fx-font-size: 15px;");
                 setGraphic(text);
                 setPrefHeight(javafx.scene.control.Control.USE_COMPUTED_SIZE);
             }
@@ -248,12 +360,13 @@ final class VerkehrsAssistent {
             protected void updateItem(String item, boolean empty) {
                 super.updateItem(item, empty);
                 text.setText(empty || item == null ? "" : item);
+                // große Zeichen, dunkle Schrift auf den hellen Zeilenfarben (Anwender 15.11.2026)
                 if ("⚠".equals(item)) {
-                    text.setStyle("-fx-fill: #d07a00; -fx-font-weight: bold;");
+                    text.setStyle("-fx-fill: #c76a00; -fx-font-weight: bold; -fx-font-size: 24px;");
                 } else if ("✓".equals(item)) {
-                    text.setStyle("-fx-fill: #2e9d3f; -fx-font-weight: bold;");
+                    text.setStyle("-fx-fill: #1f8a32; -fx-font-weight: bold; -fx-font-size: 24px;");
                 } else {
-                    text.setStyle("-fx-fill: -fx-text-base-color;");
+                    text.setStyle("-fx-fill: #1a1a1a; -fx-font-size: 15px;");
                 }
             }
         });
@@ -262,7 +375,26 @@ final class VerkehrsAssistent {
 
     // ------------------------------------------------------------------ Schritt 3: Lücken schließen
 
-    private void lueckeSchliessen(com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z) {
+    /** @return true, wenn dabei ein Fenster bzw. Dialog gezeigt wurde */
+    private boolean lueckeSchliessen(com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z) {
+        boolean[] gezeigt = {false};
+        javafx.collections.ListChangeListener<javafx.stage.Window> l = c -> {
+            while (c.next()) {
+                if (c.wasAdded()) {
+                    gezeigt[0] = true;
+                }
+            }
+        };
+        javafx.stage.Window.getWindows().addListener(l);
+        try {
+            lueckeSchliessenIntern(z);
+        } finally {
+            javafx.stage.Window.getWindows().removeListener(l);
+        }
+        return gezeigt[0];
+    }
+
+    private void lueckeSchliessenIntern(com.example.itrain_logistik.kern.VerkehrsPruefung.Zeile z) {
         com.example.itrain_logistik.kern.KreislaufPruefung.Zeile q = z.quelle();
         if (q == null) {
             // z. B. Koffer: nur Hinweis, Abhilfe im Gleisdialog bzw. Wagenfenster
@@ -274,7 +406,7 @@ final class VerkehrsAssistent {
             case ORTSBEDARF, EINGAENGE -> fehlt.startsWith("kein Lieferant") || fehlt.startsWith("es fehlen")
                     ? lieferkette(q) : false;
             case ABFAHRT, ANKUNFT -> fehlt.contains("niemand") || fehlt.contains("kein Ziel")
-                    ? schattenbahnhof("Reisende aus bzw. nach „" + q.objekt().getAnzeigeName() + "“", null, 0) : false;
+                    ? reisendeOhneGegenstueck(q) : false;
             case AUSGAENGE -> fehlt.startsWith("kein Abnehmer")
                     ? schattenbahnhof(anlage().gutName(q.gutId()) + " aus „" + q.objekt().getAnzeigeName() + "“",
                     q.gutId(), -1)
@@ -283,6 +415,39 @@ final class VerkehrsAssistent {
         if (!erledigt) {
             spaeter.add(schluessel(z));
         }
+    }
+
+    /** Reisende ohne Gegenstück: Rundfahrt am eigenen Bahnhof (Anwender 15.11.2026) oder Schattenbahnhof. */
+    private boolean reisendeOhneGegenstueck(com.example.itrain_logistik.kern.KreislaufPruefung.Zeile q) {
+        String was = "Reisende aus bzw. nach „" + q.objekt().getAnzeigeName() + "“";
+        List<Station> rund = q.objekt() instanceof Ort o
+                ? com.example.itrain_logistik.kern.KreislaufPruefung.rundfahrtMoeglich(anlage(), o) : List.of();
+        if (rund.isEmpty()) {
+            return schattenbahnhof(was, null, 0);
+        }
+        List<ButtonType> k = new ArrayList<>();
+        Map<ButtonType, Station> jeKnopf = new LinkedHashMap<>();
+        for (Station s : rund) {
+            jeKnopf.put(knopf("Rundfahrt in „" + s.getAnzeigeName() + "“", k), s);
+        }
+        ButtonType sbf = knopf("Schattenbahnhof", k);
+        ButtonType spaet = new ButtonType("Später", ButtonBar.ButtonData.CANCEL_CLOSE);
+        k.add(spaet);
+        ButtonType w = frage(Texte.dialog("assistent_rundfahrt", "was", was), k, spaet);
+        if (w == sbf) {
+            return schattenbahnhof(was, null, 0);
+        }
+        Station s = jeKnopf.get(w);
+        if (s == null) {
+            return false;
+        }
+        s.setRundverkehr(true);
+        Ort o = (Ort) q.objekt();
+        if (!o.isAnkommendUnbegrenzt() && o.getAnkommendProStunde() < o.getPassagiereProStunde()) {
+            o.setAnkommendUnbegrenzt(true);
+        }
+        geaendert.run();
+        return true;
     }
 
     /** Menge eines Guts je Ausführung (erstes Rezept, das es herstellt), mindestens 1. */
@@ -699,6 +864,10 @@ final class VerkehrsAssistent {
     }
 
     /** Bahnhöfe einbauen bzw. umstellen; merkt sich, wo Bahnsteige bzw. Ladegleise neu dazugekommen sind. */
+    private static boolean eigen(BahnhoefeDialog.Ergebnis e) {
+        return e.itrainName() != null && e.itrainName().startsWith(BahnhoefeDialog.EIGEN);
+    }
+
     private void uebernehmen(List<BahnhoefeDialog.Ergebnis> erg, Map<String, List<String>> daten,
                              List<Station> neueSteige, List<Station> neueLade) {
         Anlage a = anlage();
@@ -711,8 +880,16 @@ final class VerkehrsAssistent {
                     || gbf != null && !gbf.gleiseDerArt(GleisArt.LADEGLEIS).isEmpty());
             vorher.put(e.itrainName(), new boolean[]{steig, lade});
         }
+        for (BahnhoefeDialog.Ergebnis e : erg) {
+            if (eigen(e)) {
+                a.bahnhofEinstellen(e.station(), e.name(), e.art(), e.wahl(), e.beide());
+            }
+        }
         if (!a.isBahnhoefeEingefuegt()) {
             for (BahnhoefeDialog.Ergebnis e : erg) {
+                if (eigen(e)) {
+                    continue;
+                }
                 Set<String> lade = new LinkedHashSet<>();
                 Set<String> steige = new LinkedHashSet<>();
                 e.wahl().forEach((b, art) -> {
@@ -728,6 +905,9 @@ final class VerkehrsAssistent {
             a.bahnhoefeEinfuegen(daten, doc.bahnhofTypen());
         } else {
             for (BahnhoefeDialog.Ergebnis e : erg) {
+                if (eigen(e)) {
+                    continue;
+                }
                 Station s = e.station();
                 if (s == null) {
                     // in iTrain neu hinzugekommener Bahnhof: jetzt anheften
@@ -741,7 +921,7 @@ final class VerkehrsAssistent {
             }
         }
         for (BahnhoefeDialog.Ergebnis e : erg) {
-            Station s = a.stationFuerItrain(e.itrainName());
+            Station s = eigen(e) ? e.station() : a.stationFuerItrain(e.itrainName());
             if (s == null) {
                 continue;
             }

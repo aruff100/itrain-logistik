@@ -1018,7 +1018,7 @@ public final class MainController {
             // Strg + Klick: Rx/Tx der Verbindung (Anwender 08.11.2026), nur mit gewählter Quelle
             String q = AppSettings.getInstance().getTriggerQuelle();
             if (AppSettings.QUELLE_ITRAIN.equals(q)) {
-                XtcMonitorWindow.show(stage(), "Rx/Tx iTrain (XTC)" + (xtc != null
+                XtcMonitorWindow.show(stage(), "Rx/Tx iTrain (XML TrainControl)" + (xtc != null
                         ? " – " + xtc.getRechner() + ":" + xtc.getPort() : " – keine Verbindung"));
             } else if (AppSettings.QUELLE_SIMULATOR.equals(q)) {
                 XtcMonitorWindow.show(stage(), "Rx/Tx Simulator");
@@ -2207,7 +2207,17 @@ public final class MainController {
      */
     private void pruefeItrainBeimStart() {
         AppSettings st = AppSettings.getInstance();
-        if (AppSettings.QUELLE_SIMULATOR.equals(st.getTriggerQuelle())) {
+        erststartHinweis();
+        // Die Prüfung, ob iTrain läuft, erst, wenn die Logistik schon einmal Daten gespeichert hat
+        // (Anwender 15.11.2026). Ältere Installationen mit vorhandenen .logz gelten als gespeichert.
+        if (!st.isDatenGespeichert()) {
+            java.io.File[] logz = new java.io.File(st.getLogistikDirectory()).listFiles(
+                    (d, n) -> n.toLowerCase(java.util.Locale.ROOT).endsWith(".logz"));
+            if (logz != null && logz.length > 0) {
+                st.setDatenGespeichert(true);
+            }
+        }
+        if (AppSettings.QUELLE_SIMULATOR.equals(st.getTriggerQuelle()) || !st.isDatenGespeichert()) {
             // Mit dem Simulator keine Startprüfung (Anwender 14.10.2026); das Symbol wird trotzdem gepflegt.
             itrainStatus = ItrainErkennung.pruefe(st.getItrainRechner(), st.getItrainPort());
             zeigeItrainVerbindung();
@@ -2218,15 +2228,45 @@ public final class MainController {
     }
 
     /**
+     * Hinweis beim ersten Start (Anwender 15.11.2026): Simulator voreingestellt, zwei Verbindungen zu iTrain
+     * (Gleisplan-Datei und online über XML TrainControl), mit „Hinweise nicht noch einmal anzeigen“.
+     */
+    private void erststartHinweis() {
+        AppSettings st = AppSettings.getInstance();
+        if (st.isErststartHinweisAus()) {
+            return;
+        }
+        Texte.Abschnitt t = Texte.dialog("erster_start", "pfad", st.getLayoutFilesDirectory());
+        javafx.scene.control.Alert a = new javafx.scene.control.Alert(javafx.scene.control.Alert.AlertType.WARNING);
+        a.initOwner(stage());
+        a.setTitle("iTrain-Logistik");
+        a.setHeaderText(t.titel());
+        javafx.scene.control.CheckBox aus = new javafx.scene.control.CheckBox("Hinweise nicht noch einmal anzeigen");
+        // Abstand zum Rand und zwischen den Zeilen, breit genug ohne Umbruch (Anwender 15.11.2026)
+        javafx.scene.layout.VBox inhalt = new javafx.scene.layout.VBox(18, Texte.darstellen(t.text(), 820), aus);
+        inhalt.setPadding(new javafx.geometry.Insets(16, 24, 12, 24));
+        a.getDialogPane().setContent(inhalt);
+        a.getButtonTypes().setAll(javafx.scene.control.ButtonType.OK);
+        a.setResizable(true);
+        if (stage().getScene() != null) {
+            a.getDialogPane().getStylesheets().addAll(stage().getScene().getStylesheets());
+        }
+        a.showAndWait();
+        if (aus.isSelected()) {
+            st.setErststartHinweisAus(true);
+        }
+    }
+
+    /**
      * Prüft, ob iTrain läuft; wenn nicht: "iTrain noch nicht gestartet, Logistik ist auf Pause" mit "Weiter",
      * danach Pause; sonst läuft die Logistik. Beim Start (ohne Simulator), beim Beenden des Simulators und beim
      * Umschalten auf iTrain (Anwender 14.10.2026).
      */
     /** Weg zum Server-Modus in iTrain 6 (deutsche Oberfläche, itrain.jar 6.0.4; Handbuch Kapitel Netzwerk). */
     private static final String SERVER_WEG = "iTrain → Voreinstellungen → Modus → Server";
-    private static final String SERVER_HINWEIS = "iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. "
-            + "Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain "
-            + "(Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen "
+    private static final String SERVER_HINWEIS = "iTrain läuft, aber die XML-TrainControl-Schnittstelle antwortet nicht. "
+            + "Ohne XML TrainControl kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain "
+            + "(Adresse und XML-TrainControl-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen "
             + "Firewall den Port eingehend erlauben.";
 
     private void pruefeItrain() {
@@ -2247,13 +2287,13 @@ public final class MainController {
                 Alert s = new Alert(Alert.AlertType.INFORMATION, SERVER_HINWEIS, weiter);
                 s.initOwner(stage());
                 s.setTitle("iTrain-Logistik");
-                s.setHeaderText("XTC antwortet nicht");
+                s.setHeaderText("XML TrainControl antwortet nicht");
                 s.showAndWait();
             }
             return;
         }
         Alert a = new Alert(Alert.AlertType.INFORMATION, "iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\n"
-                + "Läuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain "
+                + "Läuft iTrain bereits, bitte Adresse und XML-TrainControl-Port unter Einstellungen → Verbindung zu iTrain "
                 + "prüfen (dort auch „Verbindung prüfen“).", weiter);
         a.setHeaderText("iTrain noch nicht gestartet");
         a.initOwner(stage());
@@ -2288,7 +2328,7 @@ public final class MainController {
         // kurze XTC-Verbindung mehr, die iTrain anzeigt).
         if (xtc != null && xtc.verbundeneZuege() > 0) {
             itrainPruefungLaeuft.set(false);
-            String text = (xtc.getVersion().isEmpty() ? "iTrain" : xtc.getVersion()) + " verbunden über XTC unter "
+            String text = (xtc.getVersion().isEmpty() ? "iTrain" : xtc.getVersion()) + " verbunden über XML TrainControl unter "
                     + xtc.getRechner() + ":" + xtc.getPort();
             if (itrainStatus == null || !text.equals(itrainStatus.wie())) {
                 itrainStatus = new ItrainErkennung.Ergebnis(true, text, true);
@@ -2356,9 +2396,9 @@ public final class MainController {
         }
         itrainSymbol.getChildren().setAll(bild);
         String text = (itrainStatus == null ? "iTrain wird gesucht …" : itrainStatus.wie())
-                + (xtc != null && xtc.verbundeneZuege() > 0 ? "\nZugereignisse kommen online über XTC an ("
+                + (xtc != null && xtc.verbundeneZuege() > 0 ? "\nZugereignisse kommen online über XML TrainControl an ("
                         + xtc.verbundeneZuege() + " Züge verbunden)"
-                : "\nNoch keine Zugverbindung über XTC");
+                : "\nNoch keine Zugverbindung über XML TrainControl");
         javafx.scene.control.Tooltip.install(itrainSymbol, Symbole.tip(text));
     }
 
@@ -2391,7 +2431,7 @@ public final class MainController {
             AppSettings.getInstance().setTriggerQuelle(AppSettings.QUELLE_ITRAIN);
             xtcNeuStarten();
             if (AppSettings.getInstance().isXtcAktiv()) {
-                statusLabel.setText("iTrain gewählt: Zugereignisse online über XTC (" + AppSettings.getInstance()
+                statusLabel.setText("iTrain gewählt: Zugereignisse online über XML TrainControl (" + AppSettings.getInstance()
                         .getItrainRechner() + ":" + AppSettings.getInstance().getXtcPort()
                         + "). Strg + Klick auf die Quelle zeigt Rx/Tx.");
                 zeigeQuelle();
@@ -3133,10 +3173,10 @@ public final class MainController {
             quelleLabel.setText("Quelle: Simulator" + (SimulatorWindow.istOffen() ? "" : " (keine Datei offen)"));
         } else if (AppSettings.QUELLE_ITRAIN.equals(q)) {
             if (xtc != null) {
-                quelleLabel.setText("Quelle: iTrain (XTC " + xtc.getRechner() + ", " + xtc.verbundeneZuege() + "/"
+                quelleLabel.setText("Quelle: iTrain (XML TrainControl " + xtc.getRechner() + ", " + xtc.verbundeneZuege() + "/"
                         + xtc.zuegeGesamt() + " Züge verbunden)");
             } else {
-                quelleLabel.setText("Quelle: iTrain (XTC nicht verbunden)");
+                quelleLabel.setText("Quelle: iTrain (XML TrainControl nicht verbunden)");
             }
         } else {
             quelleLabel.setText("Keine Quelle gewählt");

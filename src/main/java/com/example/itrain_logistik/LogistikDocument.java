@@ -501,6 +501,7 @@ public final class LogistikDocument {
             schreibeFahrzeugdatei(fahrzeugFile);
         }
         dirty = false;
+        AppSettings.getInstance().setDatenGespeichert(true); // ab jetzt Startprüfung auf iTrain (15.11.2026)
     }
 
     /** Numerierte Sicherungen der Logistik-Datei, neueste zuerst (fuer "Backup laden..."). */

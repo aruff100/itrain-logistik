@@ -129,6 +129,10 @@ public final class KreislaufPruefung {
                     aufnahme = Double.POSITIVE_INFINITY;
                     ziele.add(s.getAnzeigeName() + " (unbegrenzt)");
                 }
+                for (Station s : rundfahrt(a, o)) {
+                    aufnahme += o.isAnkommendUnbegrenzt() ? Double.POSITIVE_INFINITY : o.getAnkommendProStunde();
+                    ziele.add(s.getAnzeigeName() + " (andere Gleise, Rundfahrt)");
+                }
                 String fehlt = null;
                 if (!eigener) {
                     fehlt = ohneBahnsteigText(a, o);
@@ -158,6 +162,12 @@ public final class KreislaufPruefung {
                     if (m > 0) {
                         angebot += m;
                         quellen.add(s.getAnzeigeName() + " (" + zahl(m) + " M/h)");
+                    }
+                }
+                if (o.getPassagiereProStunde() > 0) {
+                    for (Station s : rundfahrt(a, o)) {
+                        angebot += o.getPassagiereProStunde();
+                        quellen.add(s.getAnzeigeName() + " (andere Gleise, Rundfahrt)");
                     }
                 }
                 String fehlt = null;
@@ -287,6 +297,41 @@ public final class KreislaufPruefung {
         boolean bahnhof = (s.getArt() == ObjektArt.BAHNHOF || s.getArt() == ObjektArt.HALTEPUNKT) && !a.istAussenwelt(s)
                 || s.getArt() == ObjektArt.SCHATTENBAHNHOF && !a.reisendeVonAussen(s);
         return bahnhof && !s.gleiseDerArt(GleisArt.BAHNSTEIG).isEmpty();
+    }
+
+    /**
+     * Stationen des Orts, an denen Reisende an einem anderen Gleis wieder aussteigen dürfen (Anwender 15.11.2026):
+     * Rundfahrt eingeschaltet und mindestens zwei Bahnsteige, oder einziger Personenbahnhof der Anlage (dort lässt der
+     * Kern das ohnehin zu).
+     */
+    public static List<Station> rundfahrt(Anlage a, Ort o) {
+        List<Station> l = new ArrayList<>();
+        for (Station s : a.stationenFuer(o.getId())) {
+            if (!personenStation(a, s)) {
+                continue;
+            }
+            int steige = s.gleiseDerArt(GleisArt.BAHNSTEIG).size();
+            if (s.isRundverkehr() && steige >= 2 || einzigerPersonenbahnhof(a, s)) {
+                l.add(s);
+            }
+        }
+        return l;
+    }
+
+    /** Stationen des Orts mit mindestens zwei Bahnsteigen, für die Rundfahrt noch nicht eingeschaltet ist. */
+    public static List<Station> rundfahrtMoeglich(Anlage a, Ort o) {
+        return a.stationenFuer(o.getId()).stream().filter(s -> personenStation(a, s) && !s.isRundverkehr()
+                && s.gleiseDerArt(GleisArt.BAHNSTEIG).size() >= 2 && !einzigerPersonenbahnhof(a, s)).toList();
+    }
+
+    /** Wie {@code EchtzeitKern.einzigerPersonenbahnhof}: keine andere Station mit Bahnsteigen. */
+    static boolean einzigerPersonenbahnhof(Anlage a, Station s) {
+        for (Station o : a.stationen()) {
+            if (o != s && o.getArt() != ObjektArt.ANDERES && !o.gleiseDerArt(GleisArt.BAHNSTEIG).isEmpty()) {
+                return false;
+            }
+        }
+        return true;
     }
 
     /** Bedienen zwei Orte nur dieselben Stationen (dann kann man nicht zwischen ihnen reisen)? */

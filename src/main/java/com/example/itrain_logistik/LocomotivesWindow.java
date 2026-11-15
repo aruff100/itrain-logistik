@@ -170,7 +170,7 @@ public final class LocomotivesWindow {
         File file = ImageResolver.resolve(relativePath);
         if (file == null) {
             Label hint = new Label(relativePath != null
-                    ? "Bild nicht gefunden (Anfangsordner für Layout-Dateien prüfen)."
+                    ? "Bild nicht gefunden (Ordner der iTrain-Bilder in Voreinstellungen > Pfade prüfen)."
                     : "Kein Bild hinterlegt.");
             hint.setWrapText(true);
             return hint;

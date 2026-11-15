@@ -211,3 +211,39 @@ TEXT:
 The sound **{datei}** could not be played ({fehler}).
 
 Please check whether an audio output (speakers, headphones) is switched on and whether the file can be played (formats mp3, wav, m4a, aiff). Sounds can be switched off under Logistics data → Sounds.
+
+=== assistent_von_hand ===
+TITEL: No suggestion possible
+TEXT:
+The assistant cannot complete this line by itself:
+
+{was}
+
+Reason: {hinweis}
+
+Please edit the symbol concerned (e.g. adjust quantities, assign platforms or loading tracks) or create a counterpart in the editor. The check is then shown again.
+
+=== assistent_rundfahrt ===
+TITEL: Passengers without a counterpart
+TEXT:
+There is no counterpart for {was}.
+
+On small layouts with only one station, passengers can get off again at **another platform of the same station** (**round trip**). They board at one track and get off at another.
+
+Alternatively a shadow station as the link to the outside world.
+
+=== erster_start ===
+TITEL: Logistics is starting for the first time
+TEXT:
+Welcome to iTrain-Logistics. The **simulator** is preselected for trying things out.
+It lets you test everything without a running layout.
+
+To work with your layout, Logistics needs **two connections to iTrain**:
+- the current **iTrain track plan file** (.tcdz) and
+- an **online connection via XML TrainControl**.
+
+How to proceed:
+- **Start iTrain** and enable "XML TrainControl" there: Options → Preferences → Remote Control.
+- Choose the track plan file: **File → New configuration**.
+      iTrain files are normally stored in: **{pfad}**
+- Switch on the online connection: **Settings → iTrain connection**.

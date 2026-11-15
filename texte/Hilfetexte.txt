@@ -119,7 +119,7 @@ TITEL: Modul und Tab
 FENSTER: Modul bearbeiten | Neues Modul | Tab bearbeiten
 ANKER: module-anlegen
 TEXT:
-Ein **Tab** gibt einem Teil der Anlage einen eigenen Reiter. Ein **Modul** ebenso, braucht aber mindestens ein **Streckengleis** (Block von Modul zu Modul) und kann im Browser gezeigt werden. Bahnhöfe hängen Sie per Rechtsklick „Mit Tab verbinden...“ bzw. „Mit Modul verbinden...“ an.
+Ein **Tab** gibt einem Teil der Anlage einen eigenen Tab in der Übersicht. Ein **Modul** ebenso, braucht aber mindestens ein **Streckengleis** (Block von Modul zu Modul) und kann im Browser gezeigt werden. Bahnhöfe hängen Sie per Rechtsklick „Mit Tab verbinden...“ bzw. „Mit Modul verbinden...“ an.
 
 === wagen ===
 TITEL: Wagen
@@ -182,7 +182,7 @@ TITEL: Verbindung zu iTrain
 FENSTER: Verbindung zu iTrain
 ANKER: schritt-7-verbindung-zu-itrain-und-die-erste-fahrt
 TEXT:
-Die Logistik empfängt die Zugereignisse über **XTC** (Port 7128). iTrain auf diesem oder einem anderen Rechner wählen, **Verbindung prüfen**, speichern und **Einstellungen → iTrain Verbindung** wählen.
+Die Logistik empfängt die Zugereignisse über **XML TrainControl** (Port 7128). iTrain auf diesem oder einem anderen Rechner wählen, **Verbindung prüfen**, speichern und **Einstellungen → iTrain Verbindung** wählen.
 
 === assistent ===
 TITEL: Verkehrs-Assistent
@@ -210,7 +210,7 @@ TITEL: Voreinstellungen
 FENSTER: Voreinstellungen | Einstellungen | Preferences
 ANKER: verwendung
 TEXT:
-Sprache, Farbschema, 3D-Schatten, Lauflicht, Pfeilfarben, Raster, abgeschaltete Dialoge; Uhr; Pfade; iTrain (XTC); Reiter; **Beim Start automatisch nach Updates suchen**.
+Sprache, Farbschema, 3D-Schatten, Lauflicht, Pfeilfarben, Raster, abgeschaltete Dialoge; Uhr; Pfade (iTrain-Bilder, Geräusche, KI-Datei-Sammlung); iTrain Verbindung (XML TrainControl); Tabs; **Beim Start automatisch nach Updates suchen**.
 
 === hauptfenster ===
 TITEL: Hauptfenster

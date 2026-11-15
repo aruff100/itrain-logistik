@@ -275,7 +275,9 @@ public final class DateienFenster {
     private static File ordner(String art, LogistikDocument doc) throws IOException {
         String name = (doc != null && doc.getLogistikFile() != null ? basis(doc.getLogistikFile().getName()) + "_"
                 : "") + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
-        File o = new File(new File(AppSettings.getInstance().getLogistikDirectory(), art), name);
+        File basisOrdner = "KI-Pruefung".equals(art) ? new File(AppSettings.getInstance().getKiOrdner())
+                : new File(AppSettings.getInstance().getLogistikDirectory(), art);
+        File o = new File(basisOrdner, name);
         Files.createDirectories(o.toPath());
         return o;
     }

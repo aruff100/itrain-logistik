@@ -29,14 +29,33 @@ public final class ItrainVerbindungDialog {
     private ItrainVerbindungDialog() {
     }
 
+    /** Inhalt (Dialog und Voreinstellungen > iTrain Verbindung) und das Speichern der Werte. */
+    record Inhalt(javafx.scene.Node knoten, Runnable speichern) {
+    }
+
     public static boolean zeige(Window owner) {
-        AppSettings st = AppSettings.getInstance();
         Dialog<ButtonType> d = new Dialog<>();
         d.initOwner(owner);
         d.setTitle("Verbindung zu iTrain");
         d.setHeaderText("Wo läuft iTrain?");
         DialogKnoepfe.setze(d.getDialogPane());
+        Inhalt i = inhalt(false);
+        d.getDialogPane().setContent(i.knoten());
+        Fenster.merken(d, "itrainVerbindung");
+        if (d.showAndWait().orElse(DialogKnoepfe.ABBRUCH) != DialogKnoepfe.SPEICHERN) {
+            return false;
+        }
+        i.speichern().run();
+        return true;
+    }
 
+    /**
+     * Gemeinsamer Inhalt (Anwender 15.11.2026: Voreinstellungen > „iTrain Verbindung“ zeigt dasselbe wie der Dialog).
+     *
+     * @param sofort true = jede Änderung gleich speichern (Voreinstellungen), false = erst über {@link Inhalt#speichern}
+     */
+    static Inhalt inhalt(boolean sofort) {
+        AppSettings st = AppSettings.getInstance();
         ToggleGroup gruppe = new ToggleGroup();
         RadioButton hier = new RadioButton("iTrain läuft auf diesem Computer");
         RadioButton anders = new RadioButton("iTrain läuft auf einem anderen Computer");
@@ -76,7 +95,7 @@ public final class ItrainVerbindungDialog {
                     pruefen.setDisable(false);
                     if (r.erreichbar()) {
                         ergebnis.setStyle("-fx-text-fill: #2e9e3e;");
-                        ergebnis.setText("✔ " + r.version() + " läuft auf " + host + " (XTC-Port " + p + "), "
+                        ergebnis.setText("✔ " + r.version() + " läuft auf " + host + " (XML-TrainControl-Port " + p + "), "
                                 + r.zuege().size() + " Züge: " + String.join(", ", r.zuege()));
                     } else {
                         ergebnis.setStyle("-fx-text-fill: #c0392b;");
@@ -95,26 +114,30 @@ public final class ItrainVerbindungDialog {
         g.add(anders, 0, 1, 2, 1);
         g.add(new Label("Adresse:"), 0, 2);
         g.add(adresse, 1, 2);
-        g.add(new Label("XTC-Port:"), 0, 3);
+        g.add(new Label("XML-TrainControl-Port:"), 0, 3);
         g.add(new HBox(8, port, new Label("(Vorgabe " + XtcVerbindung.PORT_VORGABE + ")")), 1, 3);
         GridPane.setMargin(adresse, new Insets(0, 0, 0, 0));
-        Label hinweis = new Label("Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und "
-                + "Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port "
+        Label hinweis = new Label("Über XML TrainControl meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und "
+                + "Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XML-TrainControl-Port "
                 + "eingehend erlauben.");
         hinweis.setWrapText(true);
         hinweis.setMaxWidth(520);
         hinweis.setStyle("-fx-opacity: 0.8;");
         VBox inhalt = new VBox(10, g, new HBox(8, pruefen), ergebnis, hinweis);
-        inhalt.setPadding(new Insets(10));
-        d.getDialogPane().setContent(inhalt);
-        Fenster.merken(d, "itrainVerbindung");
-
-        if (d.showAndWait().orElse(DialogKnoepfe.ABBRUCH) != DialogKnoepfe.SPEICHERN) {
-            return false;
+        inhalt.setPadding(new Insets(15));
+        Runnable speichern = () -> {
+            String host = hier.isSelected() || adresse.getText().isBlank() ? "localhost" : adresse.getText().trim();
+            st.setItrainRechner(host);
+            st.setXtcPort(port.getValue());
+        };
+        if (sofort) {
+            hier.selectedProperty().addListener((o, a, b) -> speichern.run());
+            adresse.textProperty().addListener((o, a, b) -> speichern.run());
+            port.valueProperty().addListener((o, a, b) -> speichern.run());
+            Label gilt = new Label("Änderungen gelten nach dem Schließen der Voreinstellungen.");
+            gilt.setStyle("-fx-opacity: 0.8;");
+            inhalt.getChildren().add(gilt);
         }
-        String host = hier.isSelected() || adresse.getText().isBlank() ? "localhost" : adresse.getText().trim();
-        st.setItrainRechner(host);
-        st.setXtcPort(port.getValue());
-        return true;
+        return new Inhalt(inhalt, speichern);
     }
 }

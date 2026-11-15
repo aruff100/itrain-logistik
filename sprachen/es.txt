@@ -8,14 +8,14 @@ es: \n(ya integrada)
 de: \nLinie: 
 es: \nLínea: 
 
-de: \nNoch keine Zugverbindung über XTC
-es: \nTodavía sin conexión de tren vía XTC
+de: \nNoch keine Zugverbindung über XML TrainControl
+es: \nTodavía sin conexión de tren vía XML TrainControl
 
 de: \nPassagiere 1. Klasse: 
 es: \nViajeros 1.ª clase: 
 
-de: \nZugereignisse kommen online über XTC an ({0} Züge verbunden)
-es: \nLos eventos de tren llegan en línea vía XTC ({0} trenes conectados)
+de: \nZugereignisse kommen online über XML TrainControl an ({0} Züge verbunden)
+es: \nLos eventos de tren llegan en línea vía XML TrainControl ({0} trenes conectados)
 
 de:   (hält in 
 es:   (para en 
@@ -137,7 +137,7 @@ es: (predeterminado {0}, Web Logística {1})
 de: (alle Eingänge – unten „Liefert immer“ angehakt)
 es: (todas las entradas – «Entrega siempre» marcado abajo)
 
-de: (erster Reiter, immer sichtbar)
+de: (erster Tab, immer sichtbar)
 es: (primera pestaña, siempre visible)
 
 de: ,  2. Klasse: 
@@ -341,7 +341,7 @@ es: Oferta M/h
 de: Angebot wählen…
 es: Elegir oferta…
 
-de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Reiter. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Reiter.
+de: Angehakte Bahnhöfe hängen am Tab statt an der Anlagen-Infrastruktur und stehen mit Güterbahnhof, Orten, Betrieben und Lagern in seinem Tab. Ebenso per Rechtsklick auf einen Bahnhof „Mit Tab verbinden…“. Der Name gilt für Symbol und Tab.
 es: Las estaciones marcadas cuelgan de la pestaña en lugar de la infraestructura de la maqueta y aparecen con estación de mercancías, localidades, empresas y almacenes en su pestaña. También con clic derecho en una estación «Conectar con pestaña…». El nombre vale para símbolo y pestaña.
 
 de: Angehalten (Rate 0)
@@ -689,8 +689,8 @@ es: Demanda por hora de modelo
 de: Bedarf muss eingestellt werden – das geht im Schritt 3.
 es: Hay que ajustar la demanda – se hace en el paso 3.
 
-de: Bedienung des Ladegleises (Richtung kommt über XTC):
-es: Servicio de la vía de carga (la dirección llega vía XTC):
+de: Bedienung des Ladegleises (Richtung kommt über XML TrainControl):
+es: Servicio de la vía de carga (la dirección llega vía XML TrainControl):
 
 de: Befördert Güter
 es: Transporta mercancías
@@ -986,7 +986,7 @@ es: Diésel
 de: Dieses Objekt ist angehalten – Klick lässt es wieder laufen
 es: Este objeto está en pausa – un clic lo pone en marcha de nuevo
 
-de: Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur
+de: Dieses Symbol hängt im ersten Tab an der Anlagen-Infrastruktur
 es: Este símbolo cuelga de la infraestructura de la maqueta en la primera pestaña
 
 de: Dorf
@@ -1025,7 +1025,7 @@ es: Empresa propia: después ajusta usted mismo entradas y salidas.
 de: Eigener Port, getrennt von Browser Logistik. Tempo, Zoom und „Geeignete Züge vorschlagen“ stellt jedes Gerät unten im Anzeiger selbst ein (merkt sich der Browser), „Vollbild“ für ein Tablet als Tafel. Die Windows-Firewall dieses Rechners muss den Port eingehend erlauben.
 es: Puerto propio, separado del Web Logística. Velocidad, zoom y «Proponer trenes adecuados» los ajusta cada dispositivo abajo en el panel (lo recuerda el navegador), «Pantalla completa» para una tableta como panel. El cortafuegos de Windows de este ordenador debe permitir el puerto entrante.
 
-de: Eigener Reiter mit den angehängten Bahnhöfen
+de: Eigener Tab mit den angehängten Bahnhöfen
 es: Pestaña propia con las estaciones vinculadas
 
 de: Ein Modul
@@ -1184,7 +1184,7 @@ es: Producción y disponibilidad: a la izquierda más lento (×0,75 … ×0,1), 
 de: Es fehlen 
 es: Faltan 
 
-de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.
+de: Es gibt noch kein {0}. Bitte zuerst aus der Palette „{1}“ im ersten Tab anlegen; er hängt an der Anlagen-Infrastruktur.
 es: Todavía no hay {0}. Créelo primero desde la paleta «{1}» en la primera pestaña; cuelga de la infraestructura de la maqueta.
 
 de: Es gibt noch keinen Bahnhof, Haltepunkt, Güterbahnhof oder Anschluss.
@@ -1661,10 +1661,10 @@ es: Horizontal:
 de: Hängen am Modul statt an der Anlagen-Infrastruktur; Güterbahnhof, Orte, Betriebe und Lager gehen mit.
 es: Cuelgan del módulo en vez de la infraestructura de la maqueta; estación de mercancías, localidades, empresas y almacenes van con ellas.
 
-de: Höchstens {0} Reiter (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.
+de: Höchstens {0} Tabs (Tabs und Module). Die Zahl lässt sich in den Voreinstellungen > Tabs ändern.
 es: Como máximo {0} pestañas (pestañas y módulos). El número se cambia en Preferencias > Pestañas.
 
-de: Höchstzahl der Reiter
+de: Höchstzahl der Tabs
 es: Número máximo de pestañas
 
 de: Im Browser zeigen (nur lesend, auf einem anderen Rechner, Handy oder Tablet)
@@ -1868,7 +1868,7 @@ es: Sin cabos sueltos.
 de: Keine offenen Enden: jeder Bedarf hat ein Gegenstück.
 es: Sin cabos sueltos: cada demanda tiene contrapartida.
 
-de: Keine weiteren Reiter
+de: Keine weiteren Tabs
 es: No hay más pestañas
 
 de: Keinem Gleis zugeordnet (Strecke).
@@ -2243,7 +2243,7 @@ es: Nombre (opcional)
 de: Name des Moduls, zu dem „{0}“ gehört
 es: Nombre del módulo al que pertenece «{0}»
 
-de: Name des ersten Reiters
+de: Name des ersten Tabs
 es: Nombre de la primera pestaña
 
 de: Name des neuen Guts
@@ -2300,7 +2300,7 @@ es: Nueva empresa: {0}{1}
 de: Neuer Haltepunkt für {0} (Gleise wählen)
 es: Nuevo apeadero para {0} (elegir vías)
 
-de: Neuer Name – gilt für den Reiter und das Symbol
+de: Neuer Name – gilt für den Tab und das Symbol
 es: Nuevo nombre – vale para la pestaña y el símbolo
 
 de: Neuer Schattenbahnhof (Gleise wählen)
@@ -2510,8 +2510,8 @@ es: Obligatorio (usuario 09.11.2026): la vía que lleva de este módulo al sigui
 de: Plätze
 es: Plazas
 
-de: Port {0} antwortet, aber nicht wie iTrain-XTC
-es: El puerto {0} responde, pero no como iTrain-XTC
+de: Port {0} antwortet, aber nicht wie iTrain XML TrainControl
+es: El puerto {0} responde, pero no como iTrain XML TrainControl
 
 de: Port {0} gehört schon Browser Logistik – bitte einen anderen wählen.
 es: El puerto {0} ya pertenece al Web Logística – elija otro.
@@ -2564,11 +2564,11 @@ es: Fuente
 de: Quelle: Simulator{0}
 es: Fuente: simulador{0}
 
-de: Quelle: iTrain (XTC nicht verbunden)
-es: Fuente: iTrain (XTC no conectado)
+de: Quelle: iTrain (XML TrainControl nicht verbunden)
+es: Fuente: iTrain (XML TrainControl no conectado)
 
-de: Quelle: iTrain (XTC {0}, {1}/{2} Züge verbunden)
-es: Fuente: iTrain (XTC {0}, {1}/{2} trenes conectados)
+de: Quelle: iTrain (XML TrainControl {0}, {1}/{2} Züge verbunden)
+es: Fuente: iTrain (XML TrainControl {0}, {1}/{2} trenes conectados)
 
 de: Quellen der mitgelieferten Geräusche.txt
 es: Fuentes de los sonidos incluidos.txt
@@ -2627,13 +2627,13 @@ es: Viajeros esperando en {0}{1} (la mayoría en {2}) – {3}
 de: Reisende: wollen verreisen und gehen alle {0} Modellminuten gesammelt zum Bahnhof (grünes Lauflicht)
 es: Viajeros: quieren viajar y van juntos a la estación cada {0} minutos de modelo (luz corrida verde)
 
-de: Reiter
+de: Tabs
 es: Pestañas
 
-de: Reiter umbenennen
+de: Tab umbenennen
 es: Renombrar pestaña
 
-de: Reiter „{0}“
+de: Tab „{0}“
 es: Pestaña «{0}»
 
 de: Rezept
@@ -2687,8 +2687,8 @@ es: Rx/Tx simulador
 de: Rx/Tx gibt es erst, wenn unter Einstellungen „iTrain“ oder „Simulator“ gewählt ist.
 es: Rx/Tx solo existe si en Ajustes se ha elegido «iTrain» o «Simulador».
 
-de: Rx/Tx iTrain (XTC){0}
-es: Rx/Tx iTrain (XTC){0}
+de: Rx/Tx iTrain (XML TrainControl){0}
+es: Rx/Tx iTrain (XML TrainControl){0}
 
 de: Salonwagen
 es: Coche salón
@@ -2930,7 +2930,7 @@ es: Editar pestaña
 de: Tabellen öffnen oder im Hauptfenster andocken
 es: Abrir tablas o acoplarlas en la ventana principal
 
-de: Tabs und Module zusammen, ohne den ersten Reiter
+de: Tabs und Module zusammen, ohne den ersten Tab
 es: Pestañas y módulos juntos, sin la primera pestaña
 
 de: Tag {0}
@@ -3350,11 +3350,11 @@ es: Raíz
 de: Wählen Sie die Blöcke, die in iTrain zum Schattenbahnhof gehören, und je Block, ob dort {0}. Am besten ein Gleis je Fahrtrichtung.
 es: Elija los bloques que pertenecen a la estación oculta en iTrain y, por bloque, si allí {0}. Mejor una vía por sentido de marcha.
 
-de: XTC antwortet nicht
-es: XTC no responde
+de: XML TrainControl antwortet nicht
+es: XML TrainControl no responde
 
-de: XTC-Port (Vorgabe {0})
-es: Puerto XTC (predeterminado {0})
+de: XML-TrainControl-Port (Vorgabe {0})
+es: Puerto XML TrainControl (predeterminado {0})
 
 de: Zeit
 es: Hora
@@ -3545,23 +3545,23 @@ es: Volver a leer archivo iTrain...
 de: iTrain Verbindung
 es: Conexión iTrain
 
-de: iTrain gewählt: Zugereignisse online über XTC ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
-es: iTrain elegido: eventos de tren en línea vía XTC ({0}:{1}). Ctrl + clic en la fuente muestra Rx/Tx.
+de: iTrain gewählt: Zugereignisse online über XML TrainControl ({0}:{1}). Strg + Klick auf die Quelle zeigt Rx/Tx.
+es: iTrain elegido: eventos de tren en línea vía XML TrainControl ({0}:{1}). Ctrl + clic en la fuente muestra Rx/Tx.
 
 de: iTrain läuft auf diesem Computer
 es: iTrain funciona en este ordenador
 
-de: iTrain läuft auf diesem Rechner ({0}), XTC antwortet nicht auf Port {1}
-es: iTrain funciona en este ordenador ({0}), XTC no responde en el puerto {1}
+de: iTrain läuft auf diesem Rechner ({0}), XML TrainControl antwortet nicht auf Port {1}
+es: iTrain funciona en este ordenador ({0}), XML TrainControl no responde en el puerto {1}
 
 de: iTrain läuft auf einem anderen Computer
 es: iTrain funciona en otro ordenador
 
-de: iTrain läuft nicht auf diesem Rechner (XTC-Port {0} antwortet nicht)
-es: iTrain no funciona en este ordenador (el puerto XTC {0} no responde)
+de: iTrain läuft nicht auf diesem Rechner (XML-TrainControl-Port {0} antwortet nicht)
+es: iTrain no funciona en este ordenador (el puerto XML TrainControl {0} no responde)
 
-de: iTrain läuft, aber die XTC-Schnittstelle antwortet nicht. Ohne XTC kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XTC-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
-es: iTrain funciona, pero la interfaz XTC no responde. Sin XTC no llegan eventos de tren en línea.\n\nComprobar: Ajustes → Conexión con iTrain (dirección y puerto XTC, predeterminado 7128); si iTrain funciona en otro ordenador, su cortafuegos debe permitir el puerto entrante.
+de: iTrain läuft, aber die XML-TrainControl-Schnittstelle antwortet nicht. Ohne XML TrainControl kommen keine Zugereignisse online an.\n\nPrüfen: Einstellungen → Verbindung zu iTrain (Adresse und XML-TrainControl-Port, Vorgabe 7128); läuft iTrain auf einem anderen Rechner, muss dessen Firewall den Port eingehend erlauben.
+es: iTrain funciona, pero la interfaz XML TrainControl no responde. Sin XML TrainControl no llegan eventos de tren en línea.\n\nComprobar: Ajustes → Conexión con iTrain (dirección y puerto XML TrainControl, predeterminado 7128); si iTrain funciona en otro ordenador, su cortafuegos debe permitir el puerto entrante.
 
 de: iTrain nicht mehr gefunden.
 es: iTrain ya no se encuentra.
@@ -3569,14 +3569,14 @@ es: iTrain ya no se encuentra.
 de: iTrain noch nicht gestartet
 es: iTrain aún no iniciado
 
-de: iTrain unter {0} nicht erreichbar (XTC-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
-es: iTrain no accesible en {0} (el puerto XTC {1} no responde; ¿funciona iTrain? ¿dirección correcta? el cortafuegos de Windows del ordenador de iTrain debe permitir el puerto {2} entrante)
+de: iTrain unter {0} nicht erreichbar (XML-TrainControl-Port {1} antwortet nicht; läuft iTrain? Adresse richtig? Windows-Firewall auf dem iTrain-Rechner muss Port {2} eingehend erlauben)
+es: iTrain no accesible en {0} (el puerto XML TrainControl {1} no responde; ¿funciona iTrain? ¿dirección correcta? el cortafuegos de Windows del ordenador de iTrain debe permitir el puerto {2} entrante)
 
 de: iTrain wird gesucht …
 es: Buscando iTrain …
 
-de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XTC-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
-es: No se encontró iTrain, la logística está en pausa.\n\nSi iTrain ya funciona, compruebe la dirección y el puerto XTC en Ajustes → Conexión con iTrain (allí también «Comprobar conexión»).
+de: iTrain wurde nicht gefunden, Logistik ist auf Pause.\n\nLäuft iTrain bereits, bitte Adresse und XML-TrainControl-Port unter Einstellungen → Verbindung zu iTrain prüfen (dort auch „Verbindung prüfen“).
+es: No se encontró iTrain, la logística está en pausa.\n\nSi iTrain ya funciona, compruebe la dirección y el puerto XML TrainControl en Ajustes → Conexión con iTrain (allí también «Comprobar conexión»).
 
 de: iTrain → Voreinstellungen → Modus → Server
 es: iTrain → Preferencias → Modo → Servidor
@@ -3605,8 +3605,8 @@ es: Simulador iTrain-Logistik – {0}
 de: iTrain-Prüfung fehlgeschlagen: {0}
 es: Comprobación de iTrain fallida: {0}
 
-de: iTrain-Server erreichbar unter {0}:{1}, aber XTC antwortet nicht auf Port {2}
-es: Servidor iTrain accesible en {0}:{1}, pero XTC no responde en el puerto {2}
+de: iTrain-Server erreichbar unter {0}:{1}, aber XML TrainControl antwortet nicht auf Port {2}
+es: Servidor iTrain accesible en {0}:{1}, pero XML TrainControl no responde en el puerto {2}
 
 de: je Modellstunde
 es: por hora de modelo
@@ -3794,8 +3794,8 @@ es: {0} necesita mercancías. La estación de mercancías pertenece a {1}. ¿Qu�
 de: {0} durchfährt {1}, {2} (Laden/Entladen bei Durchfahrt)
 es: {0} pasa por {1}, {2} (carga/descarga al pasar)
 
-de: {0} erreichbar über XTC unter {1}:{2}
-es: {0} accesible vía XTC en {1}:{2}
+de: {0} erreichbar über XML TrainControl unter {1}:{2}
+es: {0} accesible vía XML TrainControl en {1}:{2}
 
 de: {0} fährt ab von {1}{2}
 es: {0} sale de {1}{2}
@@ -3890,14 +3890,14 @@ es: Refinería
 de: Über
 es: Acerca de
 
-de: Über XTC meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XTC-Port eingehend erlauben.
-es: Vía XTC, iTrain informa por tren de la entrada en un bloque, la espera con su duración y la salida, así como de la hora de modelo. Si iTrain funciona en otro ordenador, su cortafuegos debe permitir el puerto XTC entrante.
+de: Über XML TrainControl meldet iTrain je Zug Einfahrt in einen Block, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. Läuft iTrain auf einem anderen Rechner, muss dessen Firewall den XML-TrainControl-Port eingehend erlauben.
+es: Vía XML TrainControl, iTrain informa por tren de la entrada en un bloque, la espera con su duración y la salida, así como de la hora de modelo. Si iTrain funciona en otro ordenador, su cortafuegos debe permitir el puerto XML TrainControl entrante.
 
 de: Über den Rechnernamen (geht, wenn Router bzw. Gerät den Namen kennt):
 es: Por el nombre del ordenador (funciona si el router o el dispositivo conoce el nombre):
 
-de: Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
-es: Mediante la interfaz XTC, iTrain informa por tren de la entrada, la espera con su duración y la salida, así como de la hora de modelo. "localhost" = iTrain funciona en este ordenador. Si iTrain funciona en otro ordenador, su cortafuegos de Windows debe permitir el puerto XTC entrante. Los cambios valen tras cerrar las preferencias.
+de: Über die XML-TrainControl-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt sowie die Modellzeit. "localhost" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen Rechner, muss dessen Windows-Firewall den XML-TrainControl-Port eingehend erlauben. Änderungen gelten nach dem Schließen der Voreinstellungen.
+es: Mediante la interfaz XML TrainControl, iTrain informa por tren de la entrada, la espera con su duración y la salida, así como de la hora de modelo. "localhost" = iTrain funciona en este ordenador. Si iTrain funciona en otro ordenador, su cortafuegos de Windows debe permitir el puerto XML TrainControl entrante. Los cambios valen tras cerrar las preferencias.
 
 de: Übergabe
 es: Intercambio
@@ -3983,7 +3983,7 @@ es: «{0}» aún no tiene vía de carga y no hay bloque libre. Prepare más tard
 de: „{0}“ hält in „{1}“: Art „Anderes“, daher kein Ein- und Aussteigen. Im Stationsdialog die Art wählen (z. B. Bahnhof).
 es: «{0}» para en «{1}»: tipo «Otro», por eso no se sube ni se baja. Elija el tipo en el diálogo de la estación (p. ej. estación).
 
-de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.
+de: „{0}“ hängt dann am {1} statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Tab.
 es: «{0}» colgará entonces del {1} en vez de la infraestructura de la maqueta.\nEstación de mercancías, localidades, empresas y almacenes van con ella a su pestaña.
 
 de: „{0}“ in „{1}“: Wartezeit reicht nicht aus, um alle Reisenden einsteigen/aussteigen zu lassen.
@@ -4073,14 +4073,14 @@ es: ✔ en orden
 de: ✔ {0} auf {1}:{2}, {3} Züge
 es: ✔ {0} en {1}:{2}, {3} trenes
 
-de: ✔ {0} läuft auf {1} (XTC-Port {2}), {3} Züge: {4}
-es: ✔ {0} funciona en {1} (puerto XTC {2}), {3} trenes: {4}
+de: ✔ {0} läuft auf {1} (XML-TrainControl-Port {2}), {3} Züge: {4}
+es: ✔ {0} funciona en {1} (puerto XML TrainControl {2}), {3} trenes: {4}
 
 de: ✘ Keine Antwort von iTrain auf {0}:{1} ({2}).\nLäuft iTrain dort? Ist die Windows-Firewall auf dem iTrain-Computer für Port {3} eingehend offen? Stimmen Adresse und Port?
 es: ✘ Sin respuesta de iTrain en {0}:{1} ({2}).\n¿Funciona iTrain allí? ¿Está abierto el cortafuegos de Windows del ordenador de iTrain para el puerto {3} entrante? ¿Son correctos dirección y puerto?
 
-de: ✘ Keine Antwort von iTrain-XTC auf {0}:{1} ({2})
-es: ✘ Sin respuesta de iTrain-XTC en {0}:{1} ({2})
+de: ✘ Keine Antwort von iTrain XML TrainControl auf {0}:{1} ({2})
+es: ✘ Sin respuesta de iTrain XML TrainControl en {0}:{1} ({2})
 
 de: ❚❚ Austausch angehalten
 es: ❚❚ Intercambio en pausa
@@ -4139,8 +4139,8 @@ es: Viajeros 1.ª clase: {0} / {1},  2.ª clase: {2} / {3}
 de: Block: -
 es: Bloque: -
 
-de: XTC-Port:
-es: Puerto XTC:
+de: XML-TrainControl-Port:
+es: Puerto XML TrainControl:
 
 de: {0} Blöcke
 es: {0} bloques
@@ -4530,8 +4530,8 @@ es: Seguimiento de ruta: un tren con bloque anterior, actual y siguiente, posici
 de: Keine Datei geöffnet oder kein Zug vorhanden.
 es: No hay archivo abierto o no hay ningún tren.
 
-de: Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.
-es: Sin datos en línea: este tren no está conectado a iTrain por XTC.
+de: Keine Online-Daten: Dieser Zug ist nicht über XML TrainControl mit iTrain verbunden.
+es: Sin datos en línea: este tren no está conectado a iTrain por XML TrainControl.
 
 de: Der Zug steht in iTrain in keinem Block.
 es: En iTrain el tren no está en ningún bloque.
@@ -5000,3 +5000,162 @@ de: Keine Streckengleise – in „Anlage bearbeiten“ per Rechtsklick auf das 
 es: Sin vías de trayecto – defínalas en «Editar maqueta» con clic derecho en el módulo.
 de: Geräusche...
 es: Sonidos...
+
+de: Ordner der iTrain-Bilder
+es: Carpeta de imágenes de iTrain
+
+de: Ordner für Geräusche
+es: Carpeta de sonidos
+
+de: Ordner für KI Datei Sammlung
+es: Carpeta de recopilación de archivos IA
+
+de: Bilder, die in iTrain den Lokomotiven und Wagen zugeordnet sind, sucht die Logistik im Ordner der iTrain-Bilder (Vorgabe: Ordner „images“ im iTrain-Ordner).
+es: Las imágenes asignadas en iTrain a locomotoras y vagones se buscan en la carpeta de imágenes de iTrain (por defecto: carpeta «images» en la carpeta de iTrain).
+
+de: Bild nicht gefunden (Ordner der iTrain-Bilder in Voreinstellungen > Pfade prüfen).
+es: Imagen no encontrada (compruebe la carpeta de imágenes de iTrain en Preferencias > Rutas).
+
+de: (von Hand angelegt)
+es: (creada a mano)
+
+de: + Gleis hinzufügen…
+es: + Añadir vía…
+
+de: Betrieb / Ort
+es: Empresa / Lugar
+
+de: Weitere Hinweise
+es: Otras indicaciones
+
+de: Zurück zur Prüfung
+es: Volver a la comprobación
+
+de: „{0}“ bearbeiten
+es: Editar «{0}»
+
+de: Wagen ergänzen…
+es: Completar vagones…
+
+de: Rundfahrt in „{0}“
+es: Viaje circular en «{0}»
+
+de: Rundfahrt: an anderen Gleisen von „{0}“ aussteigen
+es: Viaje circular: bajar en otras vías de «{0}»
+
+de: andere Gleise
+es: otras vías
+
+de: Rundfahrt
+es: viaje circular
+
+de: Rundfahrt: Reisende dürfen an einem anderen Bahnsteig dieses Bahnhofs wieder aussteigen
+es: Viaje circular: los viajeros pueden bajar en otro andén de esta estación
+
+de: Hinweise nicht noch einmal anzeigen
+es: No volver a mostrar estas indicaciones
+
+de: Kapazitäten müssen ergänzt werden
+es: Hay que completar las capacidades
+
+de: Bisher keine iTrain-Route von den Gleisen von „{0}“ nach {1}
+es: Todavía no hay ruta iTrain desde las vías de «{0}» a {1}
+
+de: Uhr-Faktor ×{0}
+es: factor de reloj ×{0}
+
+de: Wird ohne Zug geliefert (von außerhalb bzw. Betrieb nicht auf der Anlage) – fertig.
+es: Se entrega sin tren (desde fuera o empresa fuera de la maqueta) – listo.
+
+de: – (kein Zug nötig)
+es: – (no hace falta tren)
+
+de: außerhalb
+es: exterior
+
+de: Es fehlt noch ein Zug
+es: Todavía falta un tren
+
+de: Von {0} müssen mit Zug „{1}“ in einer realen Stunde {2} angeliefert werden
+es: Desde {0}, el tren «{1}» debe entregar {2} en una hora real
+
+de: Nach {0} müssen mit Zug „{1}“ in einer realen Stunde {2} abgefahren werden
+es: El tren «{1}» debe llevar {2} a {0} en una hora real
+
+de: Nach {0} fahren mit Zug „{1}“ in einer realen Stunde {2}
+es: El tren «{1}» lleva {2} a {0} en una hora real
+
+de: Von {0} kommen mit Zug „{1}“ in einer realen Stunde {2}
+es: El tren «{1}» trae {2} desde {0} en una hora real
+
+de: etwa {0} Fahrten
+es: unos {0} viajes
+
+de: etwa 1 Fahrt
+es: aproximadamente 1 viaje
+
+de: Uhr-Faktor unbekannt
+es: factor de reloj desconocido
+
+de: ×1 gerechnet
+es: calculado con ×1
+
+de: Gegenstück {0}, mit Zug „{1}“ – fertig, Menge unbegrenzt.
+es: Contrapartida {0}, con el tren «{1}» – listo, cantidad ilimitada.
+
+de: kein Zug kann „{0}“ laden
+es: ningún tren puede cargar «{0}»
+
+de: Wagen ergänzen oder Lade-Joker
+es: completar vagones o comodín de carga
+
+de: mehr als {0} Fahrten je Modellstunde nötig
+es: se necesitan más de {0} viajes por hora de modelo
+
+de: Menge senken oder größere Züge
+es: reducir la cantidad o trenes más grandes
+
+de: Die Download-Seite
+es: La página de descarga
+
+de: Änderungen gelten nach dem Schließen der Voreinstellungen.
+es: Los cambios se aplican al cerrar las preferencias.
+
+de: Vorschlag Personen
+es: Propuesta pasajeros
+
+de: Vorschlag Güter
+es: Propuesta mercancías
+
+de: Die eingetragenen Gütermengen als eigenen Vorschlag speichern.
+es: Guardar las cantidades de mercancías introducidas como propuesta propia.
+
+de: Die eingetragenen Personenwerte als eigenen Vorschlag speichern.
+es: Guardar los valores de pasajeros introducidos como propuesta propia.
+
+de: Übernimmt nur die Personenwerte (Abreisende, Anteil 1. Klasse, Aussteigeanteil). ★ = eigener Vorschlag.
+es: Aplica solo los valores de pasajeros (salidas, porcentaje 1.ª clase, porcentaje que baja). ★ = propuesta propia.
+
+de: Übernimmt nur die Gütermengen (ersetzt die Tabelle). ★ = eigener Vorschlag.
+es: Aplica solo las cantidades de mercancías (sustituye la tabla). ★ = propuesta propia.
+
+de: {0} Abreisende M/h
+es: {0} salidas M/h
+
+de: {0} % 1. Klasse
+es: {0} % 1.ª clase
+
+de: Kleinvieh
+es: Ganado menor
+
+de: Großvieh
+es: Ganado mayor
+
+de: Muss gebracht werden
+es: Debe entregarse
+
+de: Bedarf wächst
+es: Demanda crece
+
+de: Erfüllung je Gut
+es: Cumplimiento por mercancía

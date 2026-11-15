@@ -247,7 +247,8 @@ public final class WindowState {
                 return ownerScreen;
             }
         }
-        return Screen.getPrimary();
+        // ohne Besitzer (Zuganzeiger, Uhr …): der Bildschirm, auf dem die Logistik läuft (Anwender 15.11.2026)
+        return DialogPlacement.hauptBildschirm();
     }
 
     private static Screen screenAt(double x, double y) {

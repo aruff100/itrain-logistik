@@ -109,7 +109,7 @@ public final class DialogPlacement {
      * aufgerufen.
      */
     public static void resetOffset() {
-        AppSettings.getInstance().setDialogOffset(null);
+        AppSettings.getInstance().setDialogOffset(String.valueOf(Long.parseLong(generation()) + 1));
     }
 
     /**
@@ -148,7 +148,7 @@ public final class DialogPlacement {
             return;
         }
 
-        double[] offset = readOffset();
+        double[] offset = readOffset(stage);
         double mainCenterX = mainStage.getX() + mainStage.getWidth() / 2;
         double mainCenterY = mainStage.getY() + mainStage.getHeight() / 2;
 
@@ -158,7 +158,11 @@ public final class DialogPlacement {
         // Auf den Bildschirm begrenzen, auf dem das Hauptfenster steht: Eine
         // große gemerkte Verschiebung dürfte den Dialog sonst wieder aus dem
         // Sichtbaren schieben - genau das, was hier verhindert werden soll.
-        Rectangle2D area = screenOfMain().getVisualBounds();
+        // Hat der Anwender den Dialog auf einen anderen Bildschirm gezogen, bleibt er dort (Anwender 15.11.2026),
+        // solange es den Bildschirm gibt; sonst auf den des Hauptfensters.
+        java.util.List<Screen> ziel = Screen.getScreensForRectangle(x + stage.getWidth() / 2,
+                y + stage.getHeight() / 2, 1, 1);
+        Rectangle2D area = (ziel.isEmpty() ? screenOfMain() : ziel.get(0)).getVisualBounds();
         x = clamp(x, area.getMinX(), area.getMaxX() - stage.getWidth());
         y = clamp(y, area.getMinY(), area.getMaxY() - stage.getHeight());
 
@@ -205,26 +209,51 @@ public final class DialogPlacement {
         double mainCenterY = mainStage.getY() + mainStage.getHeight() / 2;
         double offsetX = stage.getX() + stage.getWidth() / 2 - mainCenterX;
         double offsetY = stage.getY() + stage.getHeight() / 2 - mainCenterY;
-        AppSettings.getInstance().setDialogOffset(
-                String.format(Locale.ROOT, "%.0f;%.0f", offsetX, offsetY));
+        AppSettings.getInstance().setWindowState(offsetKey(stage),
+                String.format(Locale.ROOT, "%.0f;%.0f;%s", offsetX, offsetY, generation()));
     }
 
-    /** Gemerkte Verschiebung, oder {@code {0, 0}} für "mittig". */
-    private static double[] readOffset() {
-        String stored = AppSettings.getInstance().getDialogOffset();
+    /**
+     * Gemerkte Verschiebung dieses Dialogs (je Fenstertitel, Anwender 15.11.2026: nur der Dialog, den der Anwender
+     * verschoben hat, erscheint dort wieder – nicht alle Dialoge), oder {@code {0, 0}} für "mittig". „Alle Fenster
+     * zentrieren“ erhöht die Generation in {@code dialogOffset}; ältere Einträge gelten dann nicht mehr.
+     */
+    private static double[] readOffset(Stage stage) {
+        String stored = AppSettings.getInstance().getWindowState(offsetKey(stage));
         if (stored == null || stored.isBlank()) {
             return new double[]{0, 0};
         }
         String[] parts = stored.split(";");
-        if (parts.length < 2) {
+        if (parts.length < 3 || !parts[2].equals(generation())) {
             return new double[]{0, 0};
         }
         try {
             return new double[]{Double.parseDouble(parts[0]), Double.parseDouble(parts[1])};
         } catch (NumberFormatException ex) {
-            // Beschädigter Eintrag - dann eben wieder mittig.
             return new double[]{0, 0};
         }
+    }
+
+    private static String offsetKey(Stage stage) {
+        String t = stage.getTitle() == null ? "" : stage.getTitle();
+        return "dialogpos." + t;
+    }
+
+    private static String generation() {
+        String g = AppSettings.getInstance().getDialogOffset();
+        return g == null || g.isBlank() || g.contains(";") ? "0" : g.trim();
+    }
+
+    /** Nach einer Größenänderung erneut ausrichten (aus {@link Fenster}). */
+    static void neuPlatzieren(Stage stage) {
+        if (stage.getProperties().containsKey(BASELINE_KEY)) {
+            place(stage);
+        }
+    }
+
+    /** Bildschirm des Hauptfensters (für Fenster ohne Besitzer), sonst der Hauptbildschirm. */
+    static Screen hauptBildschirm() {
+        return mainStage != null && mainStage.isShowing() ? screenOfMain() : Screen.getPrimary();
     }
 
     private static Screen screenOfMain() {

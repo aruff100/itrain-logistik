@@ -27,6 +27,25 @@ public final class ImageResolver {
         if (relativePath == null || relativePath.isBlank()) {
             return null;
         }
+        String p = relativePath.replace('\\', '/');
+        File absolut = new File(relativePath);
+        if (absolut.isAbsolute()) {
+            return absolut.isFile() ? absolut : null;
+        }
+        // Bilder-Ordner aus den Voreinstellungen (Anwender 15.11.2026): „iTrain/images/…“ bzw. „images/…“ liegen darin
+        String rest = p.toLowerCase().startsWith("itrain/images/") ? p.substring("iTrain/images/".length())
+                : p.toLowerCase().startsWith("images/") ? p.substring("images/".length()) : null;
+        if (rest != null) {
+            File f = new File(AppSettings.getInstance().getItrainBilderOrdner(), rest.replace('/', File.separatorChar));
+            if (f.isFile()) {
+                return f;
+            }
+        }
+        // sonst relativ zum Benutzerordner (iTrain speichert z. B. „Desktop/…“)
+        File home = new File(System.getProperty("user.home"), p.replace('/', File.separatorChar));
+        if (home.isFile()) {
+            return home;
+        }
         File dataRoot = findDataRoot();
         if (dataRoot == null) {
             return null;

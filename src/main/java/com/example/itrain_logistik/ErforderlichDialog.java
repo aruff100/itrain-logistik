@@ -72,7 +72,9 @@ public final class ErforderlichDialog {
         /** Vom Schattenbahnhof auf einem seiner Ladegleise angeliefert (Anwender 11.11.2026, „imaginär auf Gleis 3“) */
         SBF_ANGEBOT,
         /** Keine iTrain-Zugroute für den Transport: neue Route empfehlen (Merkzettel), Anwender 11.11.2026 */
-        ROUTE
+        ROUTE,
+        /** Rundfahrt (Anwender 15.11.2026): Reisende fahren zu anderen Gleisen desselben Bahnhofs */
+        RUNDFAHRT
     }
 
     private record Option(Art art, BetriebVorlage vorlage, Ort ort, Station station, String wagen, String zug) {
@@ -107,6 +109,7 @@ public final class ErforderlichDialog {
                 case HALT_FUER -> "Neuer Haltepunkt für " + ort.getAnzeigeName() + " (Gleise wählen)";
                 case NEUES_DORF -> "Neues Dorf mit Haltepunkt (Gleise wählen)";
                 case UNBEGRENZT -> "Ankommende bei " + ort.getAnzeigeName() + " auf „Unbegrenzt“";
+                case RUNDFAHRT -> "Rundfahrt: an anderen Gleisen von „" + station.getAnzeigeName() + "“ aussteigen";
                 case ALS_BAHNHOF -> "„" + station.getAnzeigeName() + "“ zum Bahnhof machen (bisher „Anderes“"
                         + (station.gleiseDerArt(com.example.itrain_logistik.kern.GleisArt.LADEGLEIS).isEmpty() ? ")"
                         : "; Ladegleise kommen in einen Güterbahnhof)");
@@ -348,6 +351,10 @@ public final class ErforderlichDialog {
             l.add(new Option(Art.BAHNHOF_FUER, null, o));
             l.add(new Option(Art.HALT_FUER, null, o));
         } else {
+            // Gegenstück am selben Bahnhof, an anderen Gleisen (Anwender 15.11.2026: kleine Anlagen mit einem Bahnhof)
+            for (Station s : KreislaufPruefung.rundfahrtMoeglich(a, o)) {
+                l.add(new Option(Art.RUNDFAHRT, null, o, s));
+            }
             l.add(new Option(Art.SBH_NEU, null, null));
             for (Ort o2 : a.orte()) {
                 if (o2 != o && !KreislaufPruefung.hatBahnsteig(a, o2)) {
@@ -1188,6 +1195,7 @@ public final class ErforderlichDialog {
     private static final class Anwenden {
         final Anlage a;
         final Map<String, Betrieb> neueJeVorlage = new HashMap<>();
+        Station neuerSbf;
         int versatz;
         boolean geaendert;
         boolean wagenGeaendert;
@@ -1221,10 +1229,29 @@ public final class ErforderlichDialog {
                     geaendert = true;
                 }
                 case SBH_NEU -> {
-                    Station s = neueStation(ObjektArt.SCHATTENBAHNHOF, "Schattenbahnhof", k, b);
-                    int n = Math.max(1, s.getGleise().size());
-                    for (Gleis g : s.getGleise()) {
-                        g.setPassagiereProStunde(Math.max(1, Math.ceil(k.menge / n)));
+                    // Ein neuer Schattenbahnhof für alle Zeilen (Anwender 15.11.2026: „wird doppelt oder mehrfach
+                    // angelegt“): weitere Zeilen ergänzen nur ihre noch freien Gleise und die Menge.
+                    if (neuerSbf == null) {
+                        neuerSbf = neueStation(ObjektArt.SCHATTENBAHNHOF, "Schattenbahnhof", k, b);
+                        if (neuerSbf.getGleise().isEmpty()) {
+                            a.getObjekte().remove(neuerSbf); // keine Gleise gewählt bzw. alle schon vergeben
+                            neuerSbf = null;
+                            break;
+                        }
+                    } else {
+                        gleiseErgaenzen(neuerSbf, k);
+                    }
+                    int n = Math.max(1, neuerSbf.getGleise().size());
+                    for (Gleis g : neuerSbf.getGleise()) {
+                        g.setPassagiereProStunde(Math.max(g.getPassagiereProStunde(), Math.ceil(k.menge / n)));
+                    }
+                    geaendert = true;
+                }
+                case RUNDFAHRT -> {
+                    o.station().setRundverkehr(true);
+                    if (o.ort() != null && !o.ort().isAnkommendUnbegrenzt()
+                            && o.ort().getAnkommendProStunde() < o.ort().getPassagiereProStunde()) {
+                        o.ort().setAnkommendUnbegrenzt(true);
                     }
                     geaendert = true;
                 }
@@ -1402,6 +1429,12 @@ public final class ErforderlichDialog {
         /** Neue Station mit den gewählten Blöcken als Bahnsteige, neben {@code nahe}. */
         private Station neueStation(ObjektArt art, String name, Knoten k, AnlagenObjekt nahe) {
             Station s = new Station(null, art, a.freierName(name));
+            gleiseErgaenzen(s, k);
+            a.platziereNeu(s, nahe.getX() + 200, nahe.getY() + 140);
+            return s;
+        }
+
+        private void gleiseErgaenzen(Station s, Knoten k) {
             for (String block : k.gewaehlteGleise) {
                 if (!a.freieBloecke().contains(block)) {
                     continue; // schon von einer anderen Zeile vergeben
@@ -1411,8 +1444,6 @@ public final class ErforderlichDialog {
                 g.setName(block);
                 s.getGleise().add(g);
             }
-            a.platziereNeu(s, nahe.getX() + 200, nahe.getY() + 140);
-            return s;
         }
 
         private Uebergabe uebergabe(AnlagenObjekt nahe) {

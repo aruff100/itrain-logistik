@@ -127,6 +127,7 @@ final class Texte {
             f.setPrefWidth(breite);
             f.setMinWidth(0);
             f.setMaxWidth(Double.MAX_VALUE);
+            f.setLineSpacing(3); // Zeilen mit etwas Abstand (Anwender 15.11.2026)
             String[] zeilen = absatz.split("\\n");
             for (int i = 0; i < zeilen.length; i++) {
                 String z = zeilen[i];

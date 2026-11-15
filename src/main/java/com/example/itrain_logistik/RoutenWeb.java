@@ -297,7 +297,7 @@ public final class RoutenWeb {
 
     /** Texte, die das Skript zeigt (übersetzt über T('…')). */
     private static final List<String> JS_WOERTER = List.of("Ton an", "Ton aus", "keine Verbindung zum Logistik-Rechner",
-            "Lade…", "Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.",
+            "Lade…", "Keine Online-Daten: Dieser Zug ist nicht über XML TrainControl mit iTrain verbunden.",
             "Der Zug steht in iTrain in keinem Block.", "Richtungswechsel", "{0} mm > Position {1}", "Weichen",
             "Halt noch {0} s", "Route", "Ziel", "dahinter", "vorher", "aktuell", "danach", "Bremst", "Halt erwarten",
             "Langsamfahrt erwarten", "Zuglänge {0} mm");

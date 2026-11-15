@@ -28,6 +28,11 @@ public final class UpdatePruefung {
     static final String REPO = "aruff100/itrain-logistik";
     private static final String API = "https://api.github.com/repos/" + REPO + "/releases/latest";
     static final String RELEASES = "https://github.com/" + REPO + "/releases";
+    /**
+     * Download nur über die Webseite (Anwender 15.11.2026): die Seite verlinkt die Installer auf GitHub. Solange die
+     * Hauptseite keine Download-Links hat, ist das die Vorschauseite.
+     */
+    static final String DOWNLOAD = "https://itrainplus.de/logistik-vorschau.html";
     private static final Duration ZEIT = Duration.ofSeconds(8);
 
     private UpdatePruefung() {
@@ -65,7 +70,7 @@ public final class UpdatePruefung {
         Alert a;
         if (!e.ok()) {
             a = new Alert(Alert.AlertType.WARNING, "Die Prüfung war nicht möglich: " + e.fehler()
-                    + "\nDie Veröffentlichungen stehen unter " + RELEASES);
+                    + "\nDie Download-Seite: " + DOWNLOAD);
             a.setHeaderText("Auf Update prüfen");
         } else if (e.neuer()) {
             ButtonType seite = new ButtonType("Zur Download-Seite", ButtonBar.ButtonData.OK_DONE);
@@ -77,7 +82,7 @@ public final class UpdatePruefung {
             a.initOwner(owner);
             a.setTitle("Auf Update prüfen");
             if (a.showAndWait().orElse(spaeter) == seite) {
-                oeffne(e.seite());
+                oeffne(DOWNLOAD);
             }
             return;
         } else {

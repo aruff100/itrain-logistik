@@ -29,6 +29,8 @@ public final class ZugZustand {
     }
     private String linie;
     private String letzteStationId;
+    /** Station-Id|Block des letzten Bahnsteighalts (Rundfahrt, nur Laufzeit). */
+    private String letzterBahnsteig;
     private final List<Wagenladung> wagenladungen = new ArrayList<>();
     private double sitzplaetzeErste;
     private double sitzplaetzeZweite;
@@ -109,6 +111,14 @@ public final class ZugZustand {
 
     public String getLetzteStationId() {
         return letzteStationId;
+    }
+
+    String getLetzterBahnsteig() {
+        return letzterBahnsteig;
+    }
+
+    void setLetzterBahnsteig(String b) {
+        this.letzterBahnsteig = b;
     }
 
     void setLetzteStationId(String letzteStationId) {

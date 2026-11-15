@@ -1546,8 +1546,13 @@ public final class EchtzeitKern {
                 u[1] += unterwegs[1];
             }
             double anteil = aussteigeAnteil(s);
+            // Rundfahrt (Anwender 15.11.2026): an einem anderen Gleis desselben Bahnhofs wieder aussteigen
+            String vorher = z.getLetzterBahnsteig();
+            boolean anderesGleis = s.isRundverkehr() && vorher != null && !vorher.equals(s.getId() + "|" + g.getBlockName())
+                    && vorher.startsWith(s.getId() + "|");
+            z.setLetzterBahnsteig(s.getId() + "|" + g.getBlockName());
             for (Map.Entry<String, double[]> e : z.getPassagiere().entrySet()) {
-                if (e.getKey().equals(s.getId()) && !einzigerPersonenbahnhof(s)) {
+                if (e.getKey().equals(s.getId()) && !einzigerPersonenbahnhof(s) && !anderesGleis) {
                     continue; // Post-Prinzip: nicht dort aussteigen, wo eingestiegen
                 }
                 double[] p = e.getValue();

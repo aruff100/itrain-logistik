@@ -208,3 +208,5 @@ TEXT:
 Het geluid **{datei}** kon niet worden afgespeeld ({fehler}).
 
 Controleer of een geluidsuitgang (luidsprekers, koptelefoon) is ingeschakeld en of het bestand af te spelen is (formaten mp3, wav, m4a, aiff). De geluiden zijn uit te schakelen onder Logistieke gegevens → Geluiden.
+
+=

@@ -208,3 +208,5 @@ TEXT:
 Le son **{datei}** n'a pas pu être lu ({fehler}).
 
 Veuillez vérifier qu'une sortie audio (haut-parleurs, casque) est activée et que le fichier est lisible (formats mp3, wav, m4a, aiff). Les sons se désactivent sous Données logistiques → Sons.
+
+=

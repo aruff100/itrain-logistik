@@ -1052,7 +1052,7 @@ public final class AnlagenCanvas {
         if (ziele.isEmpty()) {
             javafx.scene.control.Alert a = new javafx.scene.control.Alert(javafx.scene.control.Alert.AlertType.INFORMATION,
                     "Es gibt noch kein " + (modul ? "Modul" : "Tab") + ". Bitte zuerst aus der Palette „"
-                            + (modul ? "Modul" : "Tab") + "“ im ersten Reiter anlegen; er hängt an der Anlagen-Infrastruktur.");
+                            + (modul ? "Modul" : "Tab") + "“ im ersten Tab anlegen; er hängt an der Anlagen-Infrastruktur.");
             a.initOwner(owner);
             a.setHeaderText(modul ? "Kein Modul" : "Kein Tab");
             a.showAndWait();
@@ -1069,7 +1069,7 @@ public final class AnlagenCanvas {
         d.initOwner(owner);
         d.setTitle(modul ? "Mit Modul verbinden" : "Mit Tab verbinden");
         d.setHeaderText("„" + st.getAnzeigeName() + "“ hängt dann am " + (modul ? "Modul" : "Tab")
-                + " statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Reiter.");
+                + " statt an der Anlagen-Infrastruktur.\nGüterbahnhof, Orte, Betriebe und Lager gehen mit in dessen Tab.");
         String w = d.showAndWait().orElse(null);
         if (w == null) {
             return;
@@ -1607,9 +1607,9 @@ public final class AnlagenCanvas {
             l.add(Symbole.badge(new Label(""), "Bahnhöfe: " + r.getStationen().size(), Symbole.Pfeil.KEINER,
                     "Bahnhöfe, die an diesem Tab hängen (mit ihren Güterbahnhöfen, Orten, Betrieben, Lagern)"));
             l.add(Symbole.badge(new Label(""), o instanceof ReiterAnker ? "↖ " + anlage.getHauptReiterName()
-                    : "Reiter „" + r.getAnzeigeName() + "“", Symbole.Pfeil.KEINER,
-                    o instanceof ReiterAnker ? "Dieses Symbol hängt im ersten Reiter an der Anlagen-Infrastruktur"
-                            : "Eigener Reiter mit den angehängten Bahnhöfen"));
+                    : "Tab „" + r.getAnzeigeName() + "“", Symbole.Pfeil.KEINER,
+                    o instanceof ReiterAnker ? "Dieses Symbol hängt im ersten Tab an der Anlagen-Infrastruktur"
+                            : "Eigener Tab mit den angehängten Bahnhöfen"));
         }
         if (echt(o) instanceof Modul m) {
             int st = 0;

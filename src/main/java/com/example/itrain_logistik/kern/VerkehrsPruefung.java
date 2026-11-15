@@ -29,6 +29,13 @@ public final class VerkehrsPruefung {
     }
 
     public static List<Zeile> pruefe(Anlage a, Collection<ZugZustand> zuege) {
+        return pruefe(a, zuege, Double.NaN);
+    }
+
+    /**
+     * @param uhrFaktor Beschleunigung der Modelluhr (Modellstunden je realer Stunde); NaN = unbekannt (dann 1)
+     */
+    public static List<Zeile> pruefe(Anlage a, Collection<ZugZustand> zuege, double uhrFaktor) {
         KreislaufPruefung.Ergebnis k = KreislaufPruefung.pruefe(a);
         List<Zeile> l = new ArrayList<>();
         for (KreislaufPruefung.Zeile z : k.zeilen()) {
@@ -48,14 +55,29 @@ public final class VerkehrsPruefung {
                         : "„" + name + "“ stellt je Modellstunde " + mengeGut(a, z) + " her" + schubText(z) + ".";
                 default -> was = name;
             }
-            String[] fz = fahrzeuge(a, z, zuege);
-            boolean ok = z.ok() && fz[1] == null;
+            Partner p = partner(a, z);
+            String[] fz = p.ohneZug() ? new String[]{"– (kein Zug nötig)", null} : fahrzeuge(a, z, zuege);
+            // Route (Anwender 15.11.2026): ohne iTrain-Zugroute zwischen den Bahnhöfen ist der Verkehr nicht fertig
+            String route = p.ohneZug() || p.stationen().isEmpty() || routeVorhanden(a, z.objekt(), p.stationen()) ? null
+                    : "Bisher keine iTrain-Route von den Gleisen von „" + z.objekt().getAnzeigeName() + "“ nach "
+                    + p.name();
+            boolean ok = z.ok() && fz[1] == null && route == null;
             String fehlt = z.fehlt() != null && z.gegenstueck() != null && z.gegenstueck().contains(z.fehlt())
                     ? null : z.fehlt();
-            String hinweis = fehlt != null ? fehlt : fz[1];
-            if (fehlt != null && fz[1] != null) {
-                hinweis = fehlt + "; " + fz[1];
+            List<String> teile = new ArrayList<>();
+            if (fehlt != null) {
+                teile.add(fehlt);
             }
+            if (fz[1] != null) {
+                teile.add(fz[1]);
+            }
+            if (route != null) {
+                teile.add(route);
+            }
+            if (teile.isEmpty() && z.fehlt() != null) {
+                teile.add(z.fehlt()); // steht schon im Gegenstück, trotzdem als Hinweis nennen
+            }
+            String hinweis = ok ? zusammenfassung(a, z, p, fz, uhrFaktor) : String.join("; ", teile);
             l.add(new Zeile(was, z.gegenstueck(), fz[0], ok, hinweis, z));
         }
         kofferZeilen(a, zuege, l);
@@ -127,11 +149,16 @@ public final class VerkehrsPruefung {
                 }
             }
         }
+        letzterZug = null;
+        letzteKapazitaet = 0;
         if (bester == null) {
-            return new String[]{"–", personen ? "kein Zug mit Plätzen" : "kein Zug kann „" + a.gutName(z.gutId())
+            return new String[]{"–", personen ? "Es fehlt noch ein Zug: kein Zug mit Plätzen"
+                    : "Es fehlt noch ein Zug: kein Zug kann „" + a.gutName(z.gutId())
                     + "“ laden (Wagen ergänzen oder Lade-Joker)"};
         }
         String einheit = personen ? "Plätze" : gut.getEinheit();
+        letzterZug = bester.getName();
+        letzteKapazitaet = max;
         String text = anzahl + (anzahl == 1 ? " Zug" : " Züge") + ", größter: " + bester.getName() + " ("
                 + KreislaufPruefung.zahl(max) + " " + einheit + (bester.hatJoker() && !personen ? ", Joker" : "") + ")";
         if (Double.isInfinite(z.menge()) || z.menge() <= 0) {
@@ -140,8 +167,155 @@ public final class VerkehrsPruefung {
         double fahrten = z.menge() / max;
         text += " – " + (fahrten <= 1 ? "1 Fahrt je Stunde reicht"
                 : KreislaufPruefung.zahl(Math.ceil(fahrten)) + " Fahrten je Stunde");
-        String problem = fahrten > FAHRTEN_GRENZE ? "mehr als " + KreislaufPruefung.zahl(FAHRTEN_GRENZE)
+        String problem = fahrten > FAHRTEN_GRENZE ? "Kapazitäten müssen ergänzt werden: mehr als "
+                + KreislaufPruefung.zahl(FAHRTEN_GRENZE)
                 + " Fahrten je Modellstunde nötig – Menge senken oder größere Züge" : null;
         return new String[]{text, problem};
+    }
+
+    /** Größter passender Zug der letzten {@link #fahrzeuge}-Abfrage (nur innerhalb von {@link #pruefe}, FX-Thread). */
+    private static String letzterZug;
+    private static double letzteKapazitaet;
+
+    /**
+     * Gegenstück einer Zeile: Name (für den Text), Stationen, an denen es hängt, und ob gar kein Zug nötig ist
+     * (wird von außerhalb geliefert, Betrieb nicht auf der Anlage ohne Station, Übergabe ohne Station).
+     */
+    private record Partner(String name, List<Station> stationen, boolean ohneZug) {
+    }
+
+    private static Partner partner(Anlage a, KreislaufPruefung.Zeile z) {
+        String g = z.gutId();
+        List<AnlagenObjekt> objekte = new ArrayList<>();
+        switch (z.abschnitt()) {
+            case EINGAENGE, ORTSBEDARF -> {
+                if (z.objekt() instanceof Betrieb b && (b.isVirtuell() || b.getImmerGeliefert().contains(g))) {
+                    return new Partner("außerhalb", List.of(), true);
+                }
+                objekte.addAll(Kreislauf.lieferanten(a, g, z.objekt()));
+                for (Uebergabe u : a.uebergaben()) {
+                    if (u.getAngebot().contains(g)) {
+                        objekte.add(u);
+                    }
+                }
+            }
+            case AUSGAENGE -> objekte.addAll(Kreislauf.abnehmer(a, g, z.objekt()));
+            case ABFAHRT, ANKUNFT -> {
+                for (Ort o : a.orte()) {
+                    if (o != z.objekt() && KreislaufPruefung.hatBahnsteig(a, o)) {
+                        objekte.add(o);
+                    }
+                }
+            }
+            default -> {
+            }
+        }
+        List<Station> st = new ArrayList<>();
+        List<String> namen = new ArrayList<>();
+        boolean ohneStation = false;
+        for (AnlagenObjekt o : objekte) {
+            List<Station> s = a.stationenFuer(o.getId());
+            if (s.isEmpty()) {
+                ohneStation = true;
+            }
+            for (Station x : s) {
+                if (!st.contains(x)) {
+                    st.add(x);
+                }
+            }
+            namen.add(o.getAnzeigeName());
+        }
+        // Außenwelt: Schattenbahnhöfe mit Angebot bzw. Abnahme des Guts oder mit Bahnsteig
+        for (Station x : a.stationen()) {
+            if (!a.istAussenwelt(x) || st.contains(x)) {
+                continue;
+            }
+            boolean passt = false;
+            for (Gleis gl : x.getGleise()) {
+                if (g == null ? gl.getArt() == GleisArt.BAHNSTEIG
+                        : gl.getArt() == GleisArt.LADEGLEIS && (z.abschnitt() == KreislaufPruefung.Abschnitt.AUSGAENGE
+                        ? gl.isEntladen() && gl.erlaubt(g) : gl.getAngebot().getOrDefault(g, 0.0) > 0)) {
+                    passt = true;
+                }
+            }
+            if (passt) {
+                st.add(x);
+                namen.add(x.getAnzeigeName());
+            }
+        }
+        if (z.objekt() instanceof Ort o && g == null) {
+            for (Station x : KreislaufPruefung.rundfahrt(a, o)) {
+                st.add(x);
+                namen.add(x.getAnzeigeName() + " (Rundfahrt)");
+            }
+        }
+        boolean ohneZug = st.isEmpty() && ohneStation;
+        return new Partner(namen.isEmpty() ? "–" : "„" + String.join("“ oder „", namen) + "“", st, ohneZug);
+    }
+
+    /** Gibt es eine iTrain-Zugroute, die einen Block des eigenen Bahnhofs und einen des Gegenstücks enthält? */
+    private static boolean routeVorhanden(Anlage a, AnlagenObjekt objekt, List<Station> ziele) {
+        List<Station> eigene = objekt instanceof Station s ? List.of(s) : a.stationenFuer(objekt.getId());
+        if (eigene.isEmpty()) {
+            return true; // ohne eigenen Bahnhof meldet das schon die Kreislaufprüfung
+        }
+        java.util.Set<String> b1 = new java.util.HashSet<>();
+        java.util.Set<String> ids1 = new java.util.HashSet<>();
+        for (Station s : eigene) {
+            for (String id : a.verbund(s)) {
+                ids1.add(id);
+                if (a.objekt(id) instanceof Station x) {
+                    x.getGleise().forEach(gl -> b1.add(gl.getBlockName()));
+                }
+            }
+        }
+        for (Station ziel : ziele) {
+            java.util.Set<String> b2 = new java.util.HashSet<>();
+            for (String id : a.verbund(ziel)) {
+                if (a.objekt(id) instanceof Station x) {
+                    x.getGleise().forEach(gl -> b2.add(gl.getBlockName()));
+                }
+            }
+            for (Linie l : a.getLinien()) {
+                if (l.getBlockNamen().stream().anyMatch(b1::contains) && l.getBlockNamen().stream().anyMatch(b2::contains)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Zusammenfassung für eine fertige Zeile (Anwender 15.11.2026), umgerechnet auf eine reale Stunde mit dem
+     * Uhr-Faktor: „Vom Sägewerk mit Zug XY müssen 24 Stück Bretter in einer realen Stunde angeliefert werden.“
+     */
+    private static String zusammenfassung(Anlage a, KreislaufPruefung.Zeile z, Partner p, String[] fz, double faktor) {
+        if (p.ohneZug()) {
+            return "Wird ohne Zug geliefert (von außerhalb bzw. Betrieb nicht auf der Anlage) – fertig.";
+        }
+        boolean faktorBekannt = !Double.isNaN(faktor) && faktor > 0;
+        double f = faktorBekannt ? faktor : 1;
+        String uhr = faktorBekannt ? "Uhr-Faktor ×" + KreislaufPruefung.zahl(f) : "Uhr-Faktor unbekannt (×1 gerechnet)";
+        String zug = letzterZug == null ? "?" : letzterZug;
+        if (Double.isInfinite(z.menge()) || z.menge() <= 0) {
+            return "Gegenstück " + p.name() + ", mit Zug „" + zug + "“ – fertig, Menge unbegrenzt.";
+        }
+        double real = Math.ceil(z.menge() * f);
+        double n = letzteKapazitaet >= 1 ? Math.max(1, Math.ceil(real / letzteKapazitaet)) : 0;
+        String fahrten = n == 0 ? "" : n == 1 ? " · etwa 1 Fahrt" : " · etwa " + KreislaufPruefung.zahl(n) + " Fahrten";
+        String gut = z.gutId() == null ? "Reisende" : (a.gut(z.gutId()) != null ? a.gut(z.gutId()).getEinheit() + " " : "")
+                + a.gutName(z.gutId());
+        String menge = KreislaufPruefung.zahl(real) + " " + gut;
+        // Teile mit „ · “ getrennt, damit die Übersetzung sie einzeln findet
+        String satz = switch (z.abschnitt()) {
+            case EINGAENGE, ORTSBEDARF -> "Von " + p.name() + " müssen mit Zug „" + zug + "“ in einer realen Stunde "
+                    + menge + " angeliefert werden";
+            case AUSGAENGE -> "Nach " + p.name() + " müssen mit Zug „" + zug + "“ in einer realen Stunde " + menge
+                    + " abgefahren werden";
+            case ABFAHRT -> "Nach " + p.name() + " fahren mit Zug „" + zug + "“ in einer realen Stunde " + menge;
+            case ANKUNFT -> "Von " + p.name() + " kommen mit Zug „" + zug + "“ in einer realen Stunde " + menge;
+            default -> "fertig";
+        };
+        return satz + fahrten + " · " + uhr;
     }
 }

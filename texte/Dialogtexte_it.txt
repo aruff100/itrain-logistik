@@ -208,3 +208,5 @@ TEXT:
 Il suono **{datei}** non è stato riprodotto ({fehler}).
 
 Verifica che un'uscita audio (altoparlanti, cuffie) sia accesa e che il file sia riproducibile (formati mp3, wav, m4a, aiff). I suoni si disattivano in Dati logistici → Suoni.
+
+=

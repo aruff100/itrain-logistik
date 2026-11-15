@@ -27,6 +27,7 @@ public final class Einheit {
             case SPERRGUT -> "Stück";
             case STUECKGUT -> "Gebinde";
             case FLUESSIGGUT -> "Liter";
+            case TIERTRANSPORT -> "Stück";
             default -> "Stück";
         };
     }
@@ -57,6 +58,9 @@ public final class Einheit {
         String std = standard(k);
         List<String> l = new java.util.ArrayList<>();
         l.add(std);
+        if (k == Ladeklasse.TIERTRANSPORT) {
+            return l; // Tiere zählen immer in Stück (Anwender 15.11.2026)
+        }
         for (String e : ALLE) {
             if (!e.equals(std) && basis(e).equals(basis(std))) {
                 l.add(e);
@@ -72,6 +76,9 @@ public final class Einheit {
 
     /** Ältere Dateien: freier Text "Einheit" oder unbekannt = Standard der Ladeklasse. */
     public static String gueltig(String einheit, Ladeklasse k) {
+        if (k == Ladeklasse.TIERTRANSPORT) {
+            return "Stück";
+        }
         return einheit != null && ALLE.contains(einheit) ? einheit : standard(k);
     }
 }

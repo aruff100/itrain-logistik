@@ -274,16 +274,16 @@ public final class AnlagenEditorWindow {
         if (art == ObjektArt.MODUL || art == ObjektArt.REITER) {
             int max = AppSettings.getInstance().getMaxReiter();
             if (anlage.bereiche().size() >= max) {
-                Alert a = new Alert(Alert.AlertType.INFORMATION, "Höchstens " + max + " Reiter (Tabs und Module). "
-                        + "Die Zahl lässt sich in den Voreinstellungen > Reiter ändern.");
+                Alert a = new Alert(Alert.AlertType.INFORMATION, "Höchstens " + max + " Tabs (Tabs und Module). "
+                        + "Die Zahl lässt sich in den Voreinstellungen > Tabs ändern.");
                 a.initOwner(stage);
-                a.setHeaderText("Keine weiteren Reiter");
+                a.setHeaderText("Keine weiteren Tabs");
                 a.showAndWait();
                 return false;
             }
             if (bereich != null) {
                 Alert a = new Alert(Alert.AlertType.INFORMATION, (art == ObjektArt.MODUL ? "Ein Modul" : "Ein Tab")
-                        + " hängt an der Anlagen-Infrastruktur und wird deshalb im ersten Reiter „"
+                        + " hängt an der Anlagen-Infrastruktur und wird deshalb im ersten Tab „"
                         + anlage.getHauptReiterName() + "“ angelegt.");
                 a.initOwner(stage);
                 a.setHeaderText(null);

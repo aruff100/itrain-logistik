@@ -489,7 +489,93 @@ public final class TabellenWindow {
         t.getColumns().add(symbole("Güter", 180, a, o -> new ArrayList<>(o.getBedarf().keySet())));
         t.getColumns().add(zahl("Versorgung heute", 120, o -> o.getStatistik().wert("Versorgung", kern.getTag())));
         t.getColumns().add(zahl("Nachfrage heute", 120, o -> o.getStatistik().wert("Nachfrage", kern.getTag())));
+        // Zufriedenheit wie im Symbol der Stadt (Anwender 15.11.2026)
+        t.getColumns().add(zufriedenheit(o -> com.example.itrain_logistik.kern.Bewertung.ort(a, o).prozent()));
+        t.getColumns().add(text("Muss gebracht werden", 200, o -> offenerBedarf(a, o)));
+        t.getColumns().add(text("Erfüllungsgrad", 360, o -> erfuellung(a, o)));
+        t.getColumns().add(text("Bedarf wächst", 110, o -> bedarfWaechst(o)));
         return t;
+    }
+
+    /** Spalte „Zufriedenheit“: Prozent farbig wie das Schild im Symbol (rot < 50, gelb ≤ 85, grün). */
+    private static <R> TableColumn<R, Number> zufriedenheit(Function<R, Number> f) {
+        return farbProzent("Zufriedenheit", f);
+    }
+
+    /** Prozentspalte, farbig wie das Bewertungsschild im Symbol; negativ = nichts zu bewerten („–“). */
+    private static <R> TableColumn<R, Number> farbProzent(String titel, Function<R, Number> f) {
+        TableColumn<R, Number> c = zahl(titel, 110, f);
+        c.setCellFactory(col -> new TableCell<>() {
+            @Override
+            protected void updateItem(Number item, boolean empty) {
+                super.updateItem(item, empty);
+                if (empty || item == null || item.doubleValue() < 0) {
+                    setText(empty ? null : "–");
+                    setStyle("");
+                    return;
+                }
+                double p = item.doubleValue();
+                setText(Math.round(p) + " %");
+                String hg = com.example.itrain_logistik.kern.Bewertung.farbe(p);
+                setStyle("-fx-alignment: CENTER; -fx-font-weight: bold; -fx-background-color: " + hg
+                        + "; -fx-text-fill: " + (p < 50 ? "white" : "#1a1a1a") + ";");
+            }
+        });
+        return c;
+    }
+
+    /** Offener Bedarf je Gut (ganze Einheiten), z. B. „Zement 3 · Ziegel 2“; leer = nichts offen. */
+    private static String offenerBedarf(Anlage a, Ort o) {
+        List<String> l = new ArrayList<>();
+        for (var e : o.getOffenerBedarf().entrySet()) {
+            double m = Math.floor(e.getValue());
+            if (m >= 1 && a.gut(e.getKey()) != null) {
+                l.add(a.gutName(e.getKey()) + " " + Symbole.zahl(m));
+            }
+        }
+        return l.isEmpty() ? "–" : String.join(" · ", l);
+    }
+
+    /** Erfüllungsgrad je Posten der Bewertung, z. B. „Zement 40 % · Reisende 90 %“. */
+    private static String erfuellung(Anlage a, Ort o) {
+        var e = com.example.itrain_logistik.kern.Bewertung.ort(a, o);
+        if (e.leer()) {
+            return "–";
+        }
+        List<String> l = new ArrayList<>();
+        for (var p : e.posten()) {
+            l.add((p.gutId() == null ? "Reisende" : a.gutName(p.gutId())) + " " + Math.round(p.prozent()) + " %");
+        }
+        return String.join(" · ", l);
+    }
+
+    /** Erfüllung je Gut eines Betriebs: Eingänge (Anlieferung) und Ausgänge (Abholung), z. B. „Bretter 80 % · Möbel abholen 100 %“. */
+    private static String erfuellung(Anlage a, Betrieb b) {
+        var e = com.example.itrain_logistik.kern.Bewertung.betrieb(a, b);
+        if (e.leer()) {
+            return "–";
+        }
+        List<String> l = new ArrayList<>();
+        for (var p : e.posten()) {
+            if (p.gutId() == null) {
+                continue;
+            }
+            boolean aus = b.ausgangsGueter().contains(p.gutId()) && !b.eingangsGueter().contains(p.gutId());
+            l.add(a.gutName(p.gutId()) + (aus ? " abholen " : " ") + Math.round(p.prozent()) + " %");
+        }
+        return l.isEmpty() ? "–" : String.join(" · ", l);
+    }
+
+    /** „Bedarf wächst“: „–“ = ausgeschaltet, sonst die höchste erreichte Stufe als Faktor (×1 … ×4). */
+    private static String bedarfWaechst(Ort o) {
+        if (!o.isBedarfWaechst()) {
+            return "–";
+        }
+        int max = 0;
+        for (String g : o.getBedarf().keySet()) {
+            max = Math.max(max, o.bedarfStufe(g));
+        }
+        return "×" + (1 + max);
     }
 
     // ================================================================ Industrien
@@ -507,6 +593,9 @@ public final class TabellenWindow {
         t.getColumns().add(zahl("Rate/h", 70, Betrieb::getRateProStunde));
         t.getColumns().add(text("Zustand", 200, Betrieb::getZustand));
         t.getColumns().add(zahl("Versand heute", 100, b -> b.getStatistik().wert("Versand", kern.getTag())));
+        // Erfüllungsgrad wie im Symbol des Betriebs (Anwender 15.11.2026)
+        t.getColumns().add(farbProzent("Erfüllungsgrad", b -> com.example.itrain_logistik.kern.Bewertung.betrieb(a, b).prozent()));
+        t.getColumns().add(text("Erfüllung je Gut", 380, b -> erfuellung(a, b)));
         Label hinweis = new Label("Auslastung = Füllstand der Ausgangslager. Rate/h = Ausführungen des Rezepts "
                 + "je Modellstunde.");
         return mitHinweis(t, hinweis);

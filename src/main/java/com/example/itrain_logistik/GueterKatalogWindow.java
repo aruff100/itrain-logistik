@@ -178,6 +178,12 @@ public final class GueterKatalogWindow {
         Runnable einheitRegel = () -> {
             Ladeklasse k = klasse.getValue() != null ? klasse.getValue() : g.getLadeklasse();
             String std = Einheit.standard(k);
+            // Tiertransport zählt immer in Stück (Anwender 15.11.2026)
+            boolean nurStueck = k == Ladeklasse.TIERTRANSPORT;
+            if (nurStueck && !std.equals(einheit.getValue())) {
+                einheit.setValue(std);
+            }
+            einheit.setDisable(nurStueck);
             boolean eigen = einheit.getValue() != null && !einheit.getValue().equals(std);
             jeEinheit.setDisable(!eigen);
             if (!eigen) {

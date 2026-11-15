@@ -98,8 +98,8 @@ public final class SettingsDialog {
         Tab pathsTab = new Tab(i18n.t("menu.settingsPaths"), buildPathsContent(owner, settings, i18n));
         Tab updatesTab = new Tab(i18n.t("menu.settingsUpdates"), buildUpdatesContent(settings, i18n));
         Tab templatesTab = new Tab(i18n.t("menu.settingsTemplates"), buildTemplatesContent(settings, i18n));
-        Tab itrainTab = new Tab("iTrain", buildItrainContent(settings));
-        Tab reiterTab = new Tab("Reiter", buildReiterContent(settings));
+        Tab itrainTab = new Tab("iTrain Verbindung", ItrainVerbindungDialog.inhalt(true).knoten());
+        Tab reiterTab = new Tab("Tabs", buildReiterContent(settings));
         // Geräusche: eigenes Fenster unter „Logistik Daten“ (Anwender 11.11.2026)
         tabPane.getTabs().addAll(viewTab, clockTab, pathsTab, updatesTab, templatesTab, itrainTab, reiterTab);
 
@@ -293,14 +293,14 @@ public final class SettingsDialog {
         grid.setHgap(10);
         grid.setVgap(8);
         grid.setPadding(new Insets(15));
-        grid.addRow(0, new Label("Höchstzahl der Reiter"), new HBox(8, max,
-                new Label("Tabs und Module zusammen, ohne den ersten Reiter")));
+        grid.addRow(0, new Label("Höchstzahl der Tabs"), new HBox(8, max,
+                new Label("Tabs und Module zusammen, ohne den ersten Tab")));
         com.example.itrain_logistik.kern.Anlage a = anlageQuelle.get();
         if (a == null) {
             grid.add(new Label("Keine Konfiguration geöffnet."), 0, 1, 2, 1);
             return grid;
         }
-        grid.add(new Label("Reiter"), 0, 1);
+        grid.add(new Label("Tab"), 0, 1);
         javafx.scene.layout.VBox liste = new javafx.scene.layout.VBox(6);
         TextField haupt = new TextField(a.getHauptReiterName());
         haupt.setPrefColumnCount(18);
@@ -310,7 +310,7 @@ public final class SettingsDialog {
                 reiterGeaendert.run();
             }
         });
-        liste.getChildren().add(new HBox(8, haupt, new Label("(erster Reiter, immer sichtbar)")));
+        liste.getChildren().add(new HBox(8, haupt, new Label("(erster Tab, immer sichtbar)")));
         java.util.Set<String> aus = settings.getReiterAusgeblendet();
         for (com.example.itrain_logistik.kern.Bereich b : a.bereiche()) {
             TextField name = new TextField(b.getAnzeigeName());
@@ -552,6 +552,26 @@ public final class SettingsDialog {
         return grid;
     }
 
+    /** Knopf „Durchsuchen...“ für einen Ordner: wählt, speichert und zeigt den neuen Pfad. */
+    private static Button ordnerKnopf(Stage owner, I18n i18n, String titel, Label anzeige,
+            java.util.function.Supplier<String> lesen, java.util.function.Consumer<String> schreiben) {
+        Button b = new Button(i18n.t("settings.browse"));
+        b.setOnAction(e -> {
+            DirectoryChooser chooser = new DirectoryChooser();
+            chooser.setTitle(titel);
+            File initial = new File(lesen.get());
+            if (initial.isDirectory()) {
+                chooser.setInitialDirectory(initial);
+            }
+            File chosen = chooser.showDialog(owner);
+            if (chosen != null) {
+                schreiben.accept(chosen.getAbsolutePath());
+                anzeige.setText(chosen.getAbsolutePath());
+            }
+        });
+        return b;
+    }
+
     private static javafx.scene.Node buildPathsContent(Stage owner, AppSettings settings, I18n i18n) {
         Label layoutPathLabel = new Label(settings.getLayoutFilesDirectory());
         Button layoutBrowseButton = new Button(i18n.t("settings.browse"));
@@ -604,6 +624,17 @@ public final class SettingsDialog {
         });
         HBox symbolRow = pathRow(symbolPathLabel, symbolBrowseButton);
 
+        // Weitere Ordner (Anwender 15.11.2026): iTrain-Bilder, Geräusche, KI-Datei-Sammlung
+        Label bilderLabel = new Label(settings.getItrainBilderOrdner());
+        HBox bilderRow = pathRow(bilderLabel, ordnerKnopf(owner, i18n, "Ordner der iTrain-Bilder", bilderLabel,
+                settings::getItrainBilderOrdner, settings::setItrainBilderOrdner));
+        Label geraeuscheLabel = new Label(settings.getGeraeuscheOrdner());
+        HBox geraeuscheRow = pathRow(geraeuscheLabel, ordnerKnopf(owner, i18n, "Ordner für Geräusche", geraeuscheLabel,
+                settings::getGeraeuscheOrdner, settings::setGeraeuscheOrdner));
+        Label kiLabel = new Label(settings.getKiOrdner());
+        HBox kiRow = pathRow(kiLabel, ordnerKnopf(owner, i18n, "Ordner für KI Datei Sammlung", kiLabel,
+                settings::getKiOrdner, settings::setKiOrdner));
+
         GridPane grid = new GridPane();
         grid.setHgap(10);
         grid.setVgap(12);
@@ -614,6 +645,13 @@ public final class SettingsDialog {
         grid.addRow(0, new Label(i18n.t("settings.layoutPath")), layoutRow);
         grid.addRow(1, new Label(i18n.t("settings.logistikPath")), logistikRow);
         grid.addRow(2, new Label(i18n.t("settings.symbolPath")), symbolRow);
+        grid.addRow(3, new Label("Ordner der iTrain-Bilder"), bilderRow);
+        grid.addRow(4, new Label("Ordner für Geräusche"), geraeuscheRow);
+        grid.addRow(5, new Label("Ordner für KI Datei Sammlung"), kiRow);
+        Label bilderHinweis = new Label("Bilder, die in iTrain den Lokomotiven und Wagen zugeordnet sind, sucht die Logistik im Ordner der iTrain-Bilder (Vorgabe: Ordner „images“ im iTrain-Ordner).");
+        bilderHinweis.setWrapText(true);
+        bilderHinweis.setStyle("-fx-font-size: 11px; -fx-opacity: 0.8;");
+        grid.add(bilderHinweis, 1, 6);
 
         ColumnConstraints labelColumn = new ColumnConstraints();
         labelColumn.setHgrow(Priority.NEVER);
@@ -632,61 +670,6 @@ public final class SettingsDialog {
      * periodische Neueinlesen ist noch nicht angebunden (Phase 2), diese
      * Einstellungen werden aber bereits gespeichert.
      */
-    /** Reiter "iTrain": wo iTrain läuft (dieser oder ein anderer Rechner) und Port des iTrain-Servers. */
-    /**
-     * Reiter „iTrain“ (Anwender 09.11.2026: alles auf XTC statt iTrain-Server): Rechner mit iTrain, XTC-Port,
-     * Online-Empfang, „Jetzt prüfen“ mit Begrüßung und Zugliste. Gleiche Werte wie Einstellungen > „Verbindung zu
-     * iTrain...“.
-     */
-    private static javafx.scene.Node buildItrainContent(AppSettings settings) {
-        javafx.scene.control.TextField rechner = new javafx.scene.control.TextField(settings.getItrainRechner());
-        rechner.setPrefColumnCount(22);
-        rechner.setPromptText("localhost oder z. B. 192.168.0.171");
-        rechner.textProperty().addListener((obs, a, b) -> settings.setItrainRechner(b == null || b.isBlank() ? "localhost" : b.trim()));
-        javafx.scene.control.Spinner<Integer> port = new javafx.scene.control.Spinner<>(1, 65535, settings.getXtcPort());
-        port.setEditable(true);
-        port.setPrefWidth(110);
-        port.valueProperty().addListener((obs, a, b) -> {
-            if (b != null) {
-                settings.setXtcPort(b);
-            }
-        });
-        Button pruefen = new Button("Jetzt prüfen");
-        MainController.pastell(pruefen, "#d5f5e3");
-        Label ergebnis = new Label();
-        ergebnis.setWrapText(true);
-        ergebnis.setMaxWidth(560);
-        pruefen.setOnAction(e -> {
-            pruefen.setDisable(true);
-            ergebnis.setText("Prüfe …");
-            String host = settings.getItrainRechner();
-            int p = settings.getXtcPort();
-            Thread.ofVirtual().start(() -> {
-                XtcVerbindung.Pruefung r = XtcVerbindung.pruefe(host, p, 2500);
-                javafx.application.Platform.runLater(() -> {
-                    pruefen.setDisable(false);
-                    ergebnis.setText(r.erreichbar() ? "✔ " + r.version() + " auf " + host + ":" + p + ", " + r.zuege().size()
-                            + " Züge" : "✘ Keine Antwort von iTrain-XTC auf " + host + ":" + p + " (" + r.fehler() + ")");
-                    ergebnis.setStyle("-fx-font-weight: bold; -fx-text-fill: " + (r.erreichbar() ? "#2e9e3e" : "#d03030") + ";");
-                });
-            });
-        });
-        GridPane grid = new GridPane();
-        grid.setHgap(10);
-        grid.setVgap(12);
-        grid.setPadding(new Insets(15));
-        grid.addRow(0, new Label("Rechner mit iTrain (Name oder IP-Adresse)"), rechner);
-        grid.addRow(1, new Label("XTC-Port (Vorgabe " + XtcVerbindung.PORT_VORGABE + ")"), port);
-        grid.addRow(3, pruefen, ergebnis);
-        Label hint = new Label("Über die XTC-Schnittstelle meldet iTrain je Zug Einfahrt, Warten mit Wartezeit und Abfahrt "
-                + "sowie die Modellzeit. \"localhost\" = iTrain läuft auf diesem Rechner. Läuft iTrain auf einem anderen "
-                + "Rechner, muss dessen Windows-Firewall den XTC-Port eingehend erlauben. Änderungen gelten nach dem "
-                + "Schließen der Voreinstellungen.");
-        hint.setWrapText(true);
-        hint.setMaxWidth(560);
-        grid.add(hint, 0, 4, 2, 1);
-        return grid;
-    }
 
     private static javafx.scene.Node buildUpdatesContent(AppSettings settings, I18n i18n) {
         GridPane grid = new GridPane();

@@ -309,7 +309,7 @@ public final class RoutenAnzeigerWindow {
         if (i == null || !i.isVerbunden()) {
             gleis(g, w, gleisY, 0, 4);
             zug(g, quelle.bild(zug), w * 0.55, gleisY, Math.min(w * 0.4, 260), zugH, 0);
-            hinweis(g, w, h, "Keine Online-Daten: Dieser Zug ist nicht über XTC mit iTrain verbunden.");
+            hinweis(g, w, h, "Keine Online-Daten: Dieser Zug ist nicht über XML TrainControl mit iTrain verbunden.");
             return;
         }
         String block = i.getBlock();

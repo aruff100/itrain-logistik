@@ -282,3 +282,39 @@ TEXT:
 Das Geräusch **{datei}** konnte nicht abgespielt werden ({fehler}).
 
 Bitte prüfen, ob ein Tonausgang (Lautsprecher, Kopfhörer) eingeschaltet ist und ob die Datei abspielbar ist (Formate mp3, wav, m4a, aiff). Abschalten lassen sich die Geräusche unter Logistik Daten → Geräusche.
+
+=== assistent_von_hand ===
+TITEL: Kein Vorschlag möglich
+TEXT:
+Für diese Zeile kann der Assistent nichts selbst ergänzen:
+
+{was}
+
+Grund: {hinweis}
+
+Bitte das betroffene Symbol bearbeiten (z. B. Mengen anpassen, Bahnsteige oder Ladegleise zuordnen) oder ein Gegenstück im Editor anlegen. Danach erscheint die Prüfung neu.
+
+=== assistent_rundfahrt ===
+TITEL: Reisende ohne Gegenstück
+TEXT:
+Für {was} gibt es kein Gegenstück.
+
+Auf kleinen Anlagen mit nur einem Bahnhof können die Reisende an einem **anderen Bahnsteig desselben Bahnhofs** wieder aussteigen (**Rundfahrt**). Eingestiegen wird an einem Gleis, ausgestiegen an einem anderen.
+
+Alternativ ein Schattenbahnhof als Verbindung zur Außenwelt.
+
+=== erster_start ===
+TITEL: Logistik startet zum ersten Mal
+TEXT:
+Willkommen bei iTrain-Logistik. Zum Ausprobieren ist der **Simulator** voreingestellt.
+Damit lässt sich alles ohne laufende Anlage testen.
+
+Damit die Logistik mit Ihrer Anlage arbeitet, braucht sie **zwei Verbindungen zu iTrain**:
+- die aktuelle **iTrain-Gleisplan-Datei** (.tcdz) und
+- eine **Online-Verbindung über XML TrainControl**.
+
+So gehen Sie vor:
+- **iTrain starten** und dort „XML TrainControl“ aktivieren: Optionen → Voreinstellungen → Fernbedienung.
+- Gleisplan-Datei wählen: **Datei → Neue Konfiguration**.
+      Die iTrain-Dateien liegen normalerweise in: **{pfad}**
+- Online-Verbindung einschalten: **Einstellungen → iTrain Verbindung**.
