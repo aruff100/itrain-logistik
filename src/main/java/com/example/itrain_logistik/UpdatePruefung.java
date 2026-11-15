@@ -118,7 +118,7 @@ public final class UpdatePruefung {
             }
             return new Ergebnis(true, vergleiche(tag, aktuell) > 0, aktuell, tag, seite != null ? seite : RELEASES,
                     feld(antwort.body(), "body"), null);
-        } catch (Exception ex) {
+        } catch (Exception | StackOverflowError ex) {
             return new Ergebnis(false, false, aktuell, null, RELEASES, null,
                     ex.getMessage() != null ? ex.getMessage() : ex.toString());
         }
@@ -138,14 +138,41 @@ public final class UpdatePruefung {
         return s.length() > 600 ? s.substring(0, 600) + " …" : s;
     }
 
-    /** Einfacher Wert eines Text-Felds aus flachem JSON (erstes Vorkommen). */
+    /**
+     * Einfacher Wert eines Text-Felds aus flachem JSON (erstes Vorkommen). Ohne regulären Ausdruck über den Wert: der
+     * frühere Ausdruck lief bei einer langen Release-Beschreibung (ab etwa 2000 Zeichen) in einen StackOverflowError,
+     * die Prüfung brach still ab und es erschien kein Hinweis (Anwender 15.11.2026).
+     */
     static String feld(String json, String name) {
-        Matcher m = Pattern.compile("\"" + Pattern.quote(name) + "\"\\s*:\\s*\"((?:[^\"\\\\]|\\\\.)*)\"")
-                .matcher(json);
+        Matcher m = Pattern.compile("\"" + Pattern.quote(name) + "\"\\s*:\\s*\"").matcher(json);
         if (!m.find()) {
             return null;
         }
-        return m.group(1).replace("\\r\\n", "\n").replace("\\n", "\n").replace("\\\"", "\"").replace("\\\\", "\\");
+        StringBuilder b = new StringBuilder();
+        for (int i = m.end(); i < json.length(); i++) {
+            char c = json.charAt(i);
+            if (c == '"') {
+                return b.toString();
+            }
+            if (c != '\\' || i + 1 >= json.length()) {
+                b.append(c);
+                continue;
+            }
+            char n = json.charAt(++i);
+            switch (n) {
+                case 'n' -> b.append('\n');
+                case 'r' -> { }
+                case 't' -> b.append('\t');
+                case 'u' -> {
+                    if (i + 4 < json.length()) {
+                        b.append((char) Integer.parseInt(json.substring(i + 1, i + 5), 16));
+                        i += 4;
+                    }
+                }
+                default -> b.append(n); // \" \\ \/
+            }
+        }
+        return null;
     }
 
     /** Vergleicht „v1.12“ mit „1.9“ nach Zahlenteilen. */
