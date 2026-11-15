@@ -69,15 +69,18 @@ public final class UpdatePruefung {
         }
         Alert a;
         if (!e.ok()) {
-            a = new Alert(Alert.AlertType.WARNING, "Die Prüfung war nicht möglich: " + e.fehler()
-                    + "\nDie Download-Seite: " + DOWNLOAD);
+            a = new Alert(Alert.AlertType.WARNING);
+            a.getDialogPane().setContent(textMitLinks("Die Prüfung war nicht möglich: " + e.fehler()
+                    + "\nDie Download-Seite: " + DOWNLOAD));
             a.setHeaderText("Auf Update prüfen");
         } else if (e.neuer()) {
             ButtonType seite = new ButtonType("Zur Download-Seite", ButtonBar.ButtonData.OK_DONE);
             ButtonType spaeter = new ButtonType("Später", ButtonBar.ButtonData.CANCEL_CLOSE);
-            a = new Alert(Alert.AlertType.INFORMATION, "Installiert: " + e.aktuell() + "\nNeu: " + e.neueste()
-                    + (e.notizen() == null || e.notizen().isBlank() ? "" : "\n\n" + kurz(e.notizen())),
-                    spaeter, seite);
+            a = new Alert(Alert.AlertType.INFORMATION, "", spaeter, seite);
+            // Adressen anklickbar, Text markier- und kopierbar (Anwender 15.11.2026)
+            a.getDialogPane().setContent(textMitLinks("Installiert: " + e.aktuell() + "\nNeu: "
+                    + e.neueste().replaceFirst("^[vV]", "")
+                    + (e.notizen() == null || e.notizen().isBlank() ? "" : "\n\n" + kurz(e.notizen()))));
             a.setHeaderText("Eine neue Version von iTrain-Logistik ist verfügbar");
             a.initOwner(owner);
             a.setTitle("Auf Update prüfen");
@@ -93,6 +96,49 @@ public final class UpdatePruefung {
         a.initOwner(owner);
         a.setTitle("Auf Update prüfen");
         a.showAndWait();
+    }
+
+    /**
+     * Text mit anklickbaren Adressen (http/https) in einer rollenden Fläche. Alert-Texte sind sonst weder anklickbar
+     * noch markierbar (Anwender 15.11.2026: Link in der Release-Beschreibung ließ sich nicht auswählen).
+     */
+    static javafx.scene.Node textMitLinks(String text) {
+        javafx.scene.text.TextFlow fluss = new javafx.scene.text.TextFlow();
+        fluss.getStyleClass().add(Uebersetzung.NICHT_UEBERSETZEN);
+        fluss.setLineSpacing(3);
+        Matcher m = Pattern.compile("https?://[^\\s)\\]>\"“”]+").matcher(text);
+        int pos = 0;
+        while (m.find()) {
+            if (m.start() > pos) {
+                fluss.getChildren().add(new javafx.scene.text.Text(text.substring(pos, m.start())));
+            }
+            String url = m.group().replaceAll("[.,;:]+$", "");
+            javafx.scene.control.Hyperlink link = new javafx.scene.control.Hyperlink(url);
+            link.setPadding(javafx.geometry.Insets.EMPTY);
+            link.setOnAction(ev -> oeffne(url));
+            javafx.scene.control.Tooltip.install(link, new javafx.scene.control.Tooltip("Im Browser öffnen"));
+            javafx.scene.control.ContextMenu menu = new javafx.scene.control.ContextMenu();
+            javafx.scene.control.MenuItem kopieren = new javafx.scene.control.MenuItem("Adresse kopieren");
+            kopieren.setOnAction(ev -> {
+                javafx.scene.input.ClipboardContent c = new javafx.scene.input.ClipboardContent();
+                c.putString(url);
+                javafx.scene.input.Clipboard.getSystemClipboard().setContent(c);
+            });
+            menu.getItems().add(kopieren);
+            link.setContextMenu(menu);
+            fluss.getChildren().add(link);
+            pos = m.start() + url.length();
+        }
+        if (pos < text.length()) {
+            fluss.getChildren().add(new javafx.scene.text.Text(text.substring(pos)));
+        }
+        javafx.scene.control.ScrollPane rolle = new javafx.scene.control.ScrollPane(fluss);
+        rolle.setFitToWidth(true);
+        rolle.setPrefViewportWidth(520);
+        rolle.setPrefViewportHeight(Math.min(360, 40 + 18 * text.split("\n").length + text.length() / 4.0));
+        rolle.setStyle("-fx-background-color: transparent; -fx-background: transparent;");
+        fluss.setPadding(new javafx.geometry.Insets(4, 8, 4, 0));
+        return rolle;
     }
 
     private static Ergebnis jetzt() {
@@ -135,7 +181,7 @@ public final class UpdatePruefung {
     }
 
     private static String kurz(String s) {
-        return s.length() > 600 ? s.substring(0, 600) + " …" : s;
+        return s.length() > 3000 ? s.substring(0, 3000) + " …" : s; // rollt, deshalb mehr als früher
     }
 
     /**
