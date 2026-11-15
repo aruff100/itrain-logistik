@@ -67,6 +67,7 @@ public final class ObjektDetailWindow {
         Stage stage = new Stage();
         stage.initOwner(owner);
         stage.setTitle(o.getAnzeigeName());
+        stage.getProperties().put(Hilfe.SCHLUESSEL, "detail"); // F1: Detailfenster (Titel = Name des Objekts)
         VBox inhalt = new VBox(8);
         inhalt.setPadding(new Insets(10));
         ScrollPane scroll = new ScrollPane(inhalt);

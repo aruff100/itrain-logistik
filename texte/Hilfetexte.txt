@@ -24,7 +24,7 @@ TITEL: Anzeiger auf anderem Gerät
 FENSTER: Logistik auf anderem Gerät | Zuganzeiger auf anderem Gerät | Routen-Anzeiger auf anderem Gerät | Modul-Anzeiger auf anderem Gerät | Uhr auf anderem Gerät
 ANKER: qr-codes-und-ihr-ausdruck
 TEXT:
-Adressen der Anzeigen im Browser für Handy, Tablet oder anderen Rechner im selben Netz. **QR** zeigt den Code einer Adresse, **Drucken...** einen A4-Aushang zum Aufhängen an der Anlage. Die Windows-Firewall muss die Ports eingehend erlauben (8090 bis 8092).
+Adressen der Anzeigen im Browser für Handy, Tablet oder anderen Rechner im selben Netz. **QR** zeigt den Code einer Adresse, **Drucken...** einen A4-Aushang zum Aufhängen an der Anlage. Das Gerät muss im selben Netz (WLAN) sein, und die Firewall des Betriebssystems muss die Ports 8090 bis 8092 eingehend erlauben. Jede Seite hat ihren eigenen QR-Code – ausgedruckt und an den Bahnhof bzw. das Modul geklebt, führt er direkt zur passenden Anzeige.
 
 === zusaetzlich ===
 TITEL: Zusätzlich erforderlich
@@ -112,7 +112,7 @@ TITEL: Übergabe bearbeiten
 FENSTER: Übergabe bearbeiten
 ANKER: lager-uebergaben-und-der-schattenbahnhof
 TEXT:
-Eine Übergabe ist eine Güterstelle zur Außenwelt ohne eigenes Gleis. Sie **benötigt keinen Lieferanten**: Das **Angebot** liefert sie unbegrenzt, die **Annahme** nimmt sie unbegrenzt ab.
+Eine Übergabe ist eine Güterstelle zur Außenwelt, z. B. ein Hafen oder der Übergang zu einer nicht gebauten Strecke. Das **Angebot** liefert sie unbegrenzt an die Ladegleise ihrer Station, die **Annahme** nimmt sie unbegrenzt ab (oder **Nimmt jedes Gut ab**). Verbinden Sie sie per Rechtsklick „Mit Station verbinden...“ mit einem Güterbahnhof. Abnehmer an derselben Station bekommen das Angebot ohne Zug – soll gefahren werden, hängen Sie die Übergabe an einen anderen Bahnhof.
 
 === modul ===
 TITEL: Modul und Tab
@@ -147,7 +147,11 @@ TITEL: Zuganzeiger
 FENSTER: Zuganzeiger
 ANKER: zuganzeiger
 TEXT:
-Abfahrtstafel der nötigen Fahrten: Gut oder Reisende, Menge, als Laufschrift Ziel, Abholort und geeignete Züge. Erledigte Fahrten werden kurz grün. Unten: **Geeignete Züge vorschlagen**, **Langsamer/Schneller**, **Zoom**. Ein größeres Fenster zeigt mehr Zeilen.
+Abfahrtstafel der nötigen Fahrten – je ein Anzeiger für **Personenverkehr** und **Güterverkehr**, dazu je Bahnhof. Je Zeile Gut bzw. Reisende, Menge, Ziel und Abholort; zu lange Texte laufen als Laufschrift. Erledigte Fahrten werden kurz grün, dann rückt der nächste Hinweis nach.
+
+- **Geeignete Züge vorschlagen**: nennt die passenden Züge; aus = nur die Information.
+- **Langsamer/Schneller** (Laufschrift), **Zoom** (Schrift); ein größeres Fenster zeigt mehr Zeilen.
+- Tipp: auf einen zweiten Monitor ziehen. Im Browser und per QR-Code auch auf Handy oder Tablet.
 
 === routen ===
 TITEL: Routen-Anzeiger
@@ -168,7 +172,7 @@ TITEL: Uhr
 FENSTER: Uhr
 ANKER: die-uhr
 TEXT:
-Die Modellzeit aus iTrain, **digital** oder **analog**. Die Anzeige wächst mit dem Fenster. Rechtsklick oder **⚙**: Digital/Analog, Sekunden, **Farben...**, Standardfarben. Im Browser: Anzeiger → Anzeiger im Browser → Uhr.
+Die Modellzeit aus iTrain, **digital** oder **analog**. Die Anzeige wächst mit dem Fenster. Rechtsklick oder **⚙**: Digital/Analog, Sekunden, **Farben...**, Standardfarben. Im Browser: Anzeiger → Anzeiger im Browser → Auf diesem Gerät → Uhr; auf Handy oder Tablet über **Uhr auf anderem Gerät...** mit QR-Code. Die Browser-Uhr gleicht sich alle 5 Sekunden mit der Logistik ab.
 
 === simulator ===
 TITEL: Simulator
@@ -212,15 +216,40 @@ ANKER: verwendung
 TEXT:
 Sprache, Farbschema, 3D-Schatten, Lauflicht, Pfeilfarben, Raster, abgeschaltete Dialoge; Uhr; Pfade (iTrain-Bilder, Geräusche, KI-Datei-Sammlung); iTrain Verbindung (XML TrainControl); Tabs; **Beim Start automatisch nach Updates suchen**.
 
+=== detail ===
+TITEL: Detailfenster
+FENSTER:
+ANKER: das-detailfenster-eines-symbols
+TEXT:
+Ein Klick auf ein Symbol der Übersicht öffnet sein Detailfenster: dieselben Angaben wie im Symbol, größer und ausführlicher, dazu der **Einzugsbereich** (wer an dieser Station hängt).
+
+- Stadt: Reisende, Güterbedarf (offen / je Modellstunde), **Zufriedenheit** mit Erfüllungsgrad je Gut, Statistik und Zufriedenheit je Modelltag, **Maßnahmen** (unter 50 %).
+- Betrieb: Rezept, blauer Balken = Fortschritt der laufenden Ausführung, Zustand, Bestände, **Erfüllung**, Güterfluss je Modelltag.
+- Bahnhof: je Bahnsteig (= iTrain-Block) die Wartenden mit Klassen und Kapazität; Güterbahnhof: je Ladegleis die Güter (▼ wartet auf Abholung, ▲ abgeladen).
+- Unten: **Bearbeiten...**, **Auf 0 setzen**, **Langsamer/Schneller** nur für dieses Symbol, **Pause**.
+
+=== ansichten ===
+TITEL: Ansichten
+FENSTER: Routen | Fahrzeuge | Stationen | Lager | Städte | Industrien | Gesamt | Kreislauf | Kapazitäten | Ereignisse
+ANKER: das-menue-ansichten
+TEXT:
+Tabellen zum Verkehr und zum Kreislauf, laufend aktualisiert. Züge, Blöcke, Bahnhöfe und Routen kommen aus iTrain.
+
+- Klick auf eine Spaltenüberschrift sortiert auf- bzw. absteigend; Rechtsklick blendet Spalten aus und ein.
+- Doppelklick auf eine Zeile öffnet das passende Fenster.
+- **Ansichten → Andocken oben/unten/links/rechts** hängt die Tabelle an die Übersicht; **Lösen** macht sie wieder zum Fenster.
+- **Städte** und **Industrien** zeigen Zufriedenheit bzw. Erfüllungsgrad je Gut, **Gesamt** was wo abgeholt werden muss.
+
 === hauptfenster ===
 TITEL: Hauptfenster
 FENSTER: iTrain-Logistik
 ANKER: symbole-und-umrandungen
 TEXT:
-Die **Übersicht** zeigt Ihre Anlage: Bahnhöfe mit Gleisen, Orte, Betriebe, Lager. Ein gelber Rahmen = Zug am Gleis, Lauflicht = Austausch, rote Schrift = Hinweis. Klick auf ein Symbol öffnet sein Detailfenster.
+Die **Übersicht** zeigt Ihre Anlage: Bahnhöfe mit Gleisen, Orte, Betriebe, Lager. Ein gelber Rahmen = Zug am Gleis, Lauflicht = Austausch (grün zur Station, rot von ihr weg), rote Schrift = Hinweis, ☺/⚙ = Zufriedenheit bzw. Erfüllung. Klick auf ein Symbol öffnet sein Detailfenster.
 
 - **Anlage bearbeiten**: Symbole anlegen und verbinden.
-- **Anzeiger**: Zuganzeiger, Routen-, Modul-Anzeiger und Uhr – im Fenster oder im Browser.
+- **Ansichten**: Tabellen zu Zügen, Stationen, Städten, Betrieben; als Fenster oder angedockt.
+- **Anzeiger**: Zuganzeiger, Routen-, Modul-Anzeiger und Uhr – im Fenster oder im Browser (mit QR-Code).
 - Statusleiste: **Langsamer/Schneller** (Mitte ×1), Austausch, Quelle der Zugereignisse.
 
 F1 zeigt in jedem Fenster die passende Hilfe, **Hilfe → Handbuch** das ganze Handbuch.

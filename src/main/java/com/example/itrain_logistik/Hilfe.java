@@ -45,8 +45,27 @@ public final class Hilfe {
 
     /** Handbuch auf der Webseite (bisher nur deutsch; Englisch folgt, Anwender 11.11.2026). */
     public static final String HANDBUCH_BASIS = "https://itrainplus.de/logistik-daten/Manual_Handbuch/";
-    public static final String HANDBUCH_HTML = HANDBUCH_BASIS + "iTrain-Logistik-Handbuch.html";
-    public static final String HANDBUCH_PDF = HANDBUCH_BASIS + "iTrain-Logistik-Handbuch.pdf";
+    public static final String HANDBUCH_HTML_DE = HANDBUCH_BASIS + "iTrain-Logistik-Handbuch.html";
+    public static final String HANDBUCH_PDF_DE = HANDBUCH_BASIS + "iTrain-Logistik-Handbuch.pdf";
+    /** Englisches Handbuch für alle übrigen Sprachen der Oberfläche (Anwender 15.11.2026). */
+    public static final String HANDBUCH_HTML_EN = HANDBUCH_BASIS + "iTrain-Logistics-Manual.html";
+    public static final String HANDBUCH_PDF_EN = HANDBUCH_BASIS + "iTrain-Logistics-Manual.pdf";
+
+    /** Deutsch: deutsches Handbuch; jede andere Sprache: englisches (die Anker in Hilfetexte_<code>.txt passen dazu). */
+    static boolean deutsch() {
+        return "de".equals(Uebersetzung.sprache());
+    }
+
+    static String handbuchHtml() {
+        return deutsch() ? HANDBUCH_HTML_DE : HANDBUCH_HTML_EN;
+    }
+
+    static String handbuchPdf() {
+        return deutsch() ? HANDBUCH_PDF_DE : HANDBUCH_PDF_EN;
+    }
+
+    /** Fenster-Eigenschaft mit dem Schlüssel des Hilfe-Abschnitts (vor dem Titel ausgewertet). */
+    public static final String SCHLUESSEL = "hilfe.abschnitt";
 
     record Abschnitt(String schluessel, String titel, List<String> fenster, String anker, String text) { }
 
@@ -116,16 +135,29 @@ public final class Hilfe {
         return l;
     }
 
+    /**
+     * Hilfetexte in der Sprache der Oberfläche: „Hilfetexte_<code>.txt“ (z. B. _en), sonst Englisch
+     * (andere Sprachen öffnen das englische Handbuch, die Anker müssen dazu passen), zuletzt Deutsch. Eine eigene Fassung
+     * gleichen Namens im Logistik-Ordner hat Vorrang.
+     */
     private static InputStream quelle() throws Exception {
-        try {
-            File eigen = new File(AppSettings.getInstance().getLogistikDirectory(), "Hilfetexte.txt");
-            if (eigen.isFile()) {
-                return new FileInputStream(eigen);
+        String code = Uebersetzung.sprache();
+        List<String> namen = deutsch() ? List.of("Hilfetexte.txt") : List.of("Hilfetexte_" + code + ".txt", "Hilfetexte_en.txt", "Hilfetexte.txt");
+        for (String name : namen) {
+            try {
+                File eigen = new File(AppSettings.getInstance().getLogistikDirectory(), name);
+                if (eigen.isFile()) {
+                    return new FileInputStream(eigen);
+                }
+            } catch (Exception ignore) {
+                // kein Logistik-Ordner: eingebaute Fassung
             }
-        } catch (Exception ignore) {
-            // kein Logistik-Ordner: eingebaute Fassung
+            InputStream in = Hilfe.class.getResourceAsStream(name);
+            if (in != null) {
+                return in;
+            }
         }
-        return Hilfe.class.getResourceAsStream("Hilfetexte.txt");
+        return null;
     }
 
     /** Abschnitt zum Fenstertitel; „hauptfenster“, wenn nichts passt. */
@@ -181,7 +213,9 @@ public final class Hilfe {
                 if (w == hilfeFenster) {
                     return;
                 }
-                zeige(fuerTitel(titel), w);
+                // Fenster ohne festen Titel (Detailfenster tragen den Namen des Objekts) nennen ihren Abschnitt selbst
+                Object eigen = w.getProperties().get(SCHLUESSEL);
+                zeige(eigen instanceof String k ? abschnitt(k) : fuerTitel(titel), w);
             }
         });
     }
@@ -195,11 +229,11 @@ public final class Hilfe {
 
     /** Hilfe > Handbuch: Handbuch auf der Webseite. */
     public static void handbuch() {
-        UpdatePruefung.oeffne(HANDBUCH_HTML);
+        UpdatePruefung.oeffne(handbuchHtml());
     }
 
     static String handbuchLink(Abschnitt a) {
-        return a == null || a.anker().isBlank() ? HANDBUCH_HTML : HANDBUCH_HTML + "#" + a.anker();
+        return a == null || a.anker().isBlank() ? handbuchHtml() : handbuchHtml() + "#" + a.anker();
     }
 
     private static void zeige(Abschnitt a, Window owner) {
@@ -251,7 +285,7 @@ public final class Hilfe {
         Button pdf = new Button(Uebersetzung.tr("Handbuch (PDF)"));
         Button zu = new Button(Uebersetzung.tr("Schließen"));
         imHandbuch.setOnAction(e -> UpdatePruefung.oeffne(handbuchLink(liste.getSelectionModel().getSelectedItem())));
-        pdf.setOnAction(e -> UpdatePruefung.oeffne(HANDBUCH_PDF));
+        pdf.setOnAction(e -> UpdatePruefung.oeffne(handbuchPdf()));
         zu.setOnAction(e -> hilfeFenster.hide());
         zu.setCancelButton(true);
         Region luecke = new Region();

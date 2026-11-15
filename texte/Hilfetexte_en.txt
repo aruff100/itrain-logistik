@@ -1,0 +1,255 @@
+# ===========================================================================
+#  Help texts of iTrain Logistics (F1), English - editable
+# ===========================================================================
+#
+#  F1 shows the matching section in every window; Help > Help shows all.
+#  Structure per section:
+#
+#     === key ===
+#     TITEL: <heading in the help window>
+#     FENSTER: <start of the German window title> | <further title> ...
+#     ANKER: <anchor in the English manual, see manual HTML>
+#     TEXT:
+#     <text; **bold**, "- " list, empty line = paragraph>
+#
+#  FENSTER: the program compares the start of the window title (German or
+#  translated), so the German titles stay here. The first matching section
+#  wins; "hauptfenster" is therefore at the end.
+#  ANKER: "Read in the manual" jumps to this place in the English manual.
+#  Please do not rename the keys.
+# ===========================================================================
+
+=== geraet ===
+TITEL: Displays on another device
+FENSTER: Logistik auf anderem Gerät | Zuganzeiger auf anderem Gerät | Routen-Anzeiger auf anderem Gerät | Modul-Anzeiger auf anderem Gerät | Uhr auf anderem Gerät
+ANKER: qr-codes-and-printing-them
+TEXT:
+Addresses of the browser displays for a phone, tablet or another computer in the same network. **QR** shows the code of an address, **Print...** an A4 notice to hang up at the layout. The device must be in the same network (Wi-Fi), and the operating system’s firewall must allow incoming connections on ports 8090 to 8092. Each page has its own QR code – printed and stuck to the station or module, it leads directly to the matching display.
+
+=== zusaetzlich ===
+TITEL: Additionally required
+FENSTER: Zusätzlich erforderlich
+ANKER: additionally-required-and-check-supply-chain
+TEXT:
+Shows what the layout is still missing: suppliers (▼), consumers (▲), stations for passengers, **wagons** that can load a good, and **iTrain train routes** connecting origin and destination.
+
+- For each row choose where a good comes from or what is to be created. The list opens wide for long texts.
+- **Leave open** changes nothing. **Next** applies everything else.
+- Routes and new wagons are created in iTrain; the logistics then shows a reminder.
+- **Show hints at startup** switches the window off or on when the file is loaded.
+
+=== kreislauf ===
+TITEL: Check supply chain
+FENSTER: Kreislauf prüfen
+ANKER: check-supply-chain
+TEXT:
+At the top the result, below it five tables: inputs of the industries, industries that supply, places with demand, departing and arriving passengers – each with quantity per model hour and counterpart.
+
+Green = OK, orange = hint (e.g. surplus), red = something is missing. The button is only active when “Additionally required” shows nothing any more.
+
+=== anlage_bearbeiten ===
+TITEL: Edit layout
+FENSTER: Anlage bearbeiten
+ANKER: arranging-in-edit-layout
+TEXT:
+Here you create places, stations, industries, warehouses, interchanges, tabs and modules and connect them.
+
+- **Palette** on the left: click or drag onto the area.
+- **Drag** moves (grid); with **Shift** a connection becomes straight.
+- **Double-click** edits, **right-click** connects (“Connect with station...”), colours or copies.
+- At the top: **Traffic assistant**, **Additionally required** (grey when nothing is missing), **Check supply chain**, **Storage sizes**.
+
+=== gleis ===
+TITEL: Edit track
+FENSTER: Gleis bearbeiten
+ANKER: bottlenecks-tracks-warehouses-and-industries
+TEXT:
+A track is exactly one iTrain block: **platform** (passengers), **loading track** (goods) or both at the fiddle yard.
+
+- **Capacity**: people per direction or units per good; more stock only via a warehouse.
+- **Transship per model minute**: how fast transfer happens during a stop.
+- **Directions of travel**: passengers only board in their direction of travel.
+- At the fiddle yard: **Goods ready here** (offer) and **Goods accepted here** (empty = everything), arriving passengers, mail and express parcels.
+
+=== lager ===
+TITEL: Edit warehouse
+FENSTER: Lager bearbeiten
+ANKER: warehouses-interchanges-and-the-fiddle-yard
+TEXT:
+A warehouse enlarges the stock of a station beyond the capacity of its tracks. It takes the chosen goods and passes them on to trains and industries. **Storage sizes** in “Edit layout” changes all warehouses by a factor.
+
+=== betrieb ===
+TITEL: Edit industry
+FENSTER: Betrieb bearbeiten | Neuer Betrieb
+ANKER: industry-2
+TEXT:
+An industry produces according to its **recipe**: inputs become outputs, **Runs M/h** times per model hour.
+
+- Several recipes are alternatives; a 3D line separates them.
+- **Supplied by** shows the origin of each input; red means a supplier or consumer is missing.
+- **Supplied from outside**: input without a train, unlimited.
+- **Dynamic**, **Production adapts**, **Supplies every x hours**, **Always supplies without being on the layout**.
+- The badge **⚙ Fulfilment** rates the delivery of the inputs and the collection of the production; table and **Measures** in the detail window.
+
+=== ort ===
+TITEL: Edit place
+FENSTER: Stadt bearbeiten | Dorf bearbeiten | Ländlich bearbeiten
+ANKER: place-town-village-rural
+TEXT:
+A place has **departing** and **arriving** passengers per model hour (1st and 2nd class) and a **demand** for goods. **Suggestion...** fills in typical values. The place supplies mail and express parcels itself. **Demand grows with supply** increases the demand for goods when deliveries are good.
+
+The badge **☺ Satisfaction** (red below 50 %, yellow up to 85 %, green above) rates deliveries and the collection of passengers; a click on the box shows the table and, below the statistics, the button **Measures**.
+
+=== station ===
+TITEL: Edit station
+FENSTER: Bahnhof bearbeiten | Güterbahnhof bearbeiten | Schattenbahnhof bearbeiten | Haltepunkt bearbeiten | Anschluss bearbeiten | Anderes bearbeiten
+ANKER: step-3-edit-layout-adding-the-stations
+TEXT:
+Name, type and **tracks** of the station. Double-clicking a track row opens the track. The **catchment area** holds the places, industries, warehouses and interchanges the station serves. Loading tracks of a station move into the docked freight yard. Only industries and interchanges can be connected to the fiddle yard.
+
+=== uebergabe ===
+TITEL: Edit interchange
+FENSTER: Übergabe bearbeiten
+ANKER: warehouses-interchanges-and-the-fiddle-yard
+TEXT:
+An interchange is a goods point to the outside world, e.g. a harbour or the transition to a line that is not built. It supplies its **offer** without limit to the loading tracks of its station and takes its **acceptance** without limit (or **Accepts every good**). Connect it to a freight yard via right-click “Connect with station...”. Consumers at the same station get the offer without a train – if trains are to run, attach the interchange to another station.
+
+=== modul ===
+TITEL: Module and tab
+FENSTER: Modul bearbeiten | Neues Modul | Tab bearbeiten
+ANKER: creating-modules
+TEXT:
+A **tab** gives a part of the layout its own page in the overview. So does a **module**, but it needs at least one **line track** (block from module to module) and can be shown in the browser. Attach stations via right-click “Connect with tab...” or “Connect with module...”.
+
+=== wagen ===
+TITEL: Wagons
+FENSTER: Wagen
+ANKER: wagons-wagon-type-capacity-wagon-loads
+TEXT:
+Only what a wagon can load is carried. For each wagon enter **wagon type** and **seats** or **cargo class**, **capacity** and **wagon loads**. **Container** makes the wagon a joker. **Epoch** with **Default**: ticked means the epoch of the layout applies; in epoch I/II there are 3rd and 4th class seats (they count as 2nd class). A **wagon list** carries passengers or (as a joker) goods. **Copy data** and **Paste** transfer the values to identical wagons.
+
+=== lok ===
+TITEL: Locomotives
+FENSTER: Lokomotiven
+ANKER: multiple-units-and-railcars
+TEXT:
+Data from iTrain plus own fields. **Multiple unit / railcar** for vehicles that carry passengers or goods themselves; below it the same fields as for a wagon.
+
+=== zuege ===
+TITEL: Trains
+FENSTER: Züge
+ANKER: step-2-complete-wagons-and-railcars
+TEXT:
+Composition of each train from iTrain with capacity and unit and the current load. If you change wagons in iTrain, **Synchronise** fetches the new state.
+
+=== zuganzeiger ===
+TITEL: Departure boards
+FENSTER: Zuganzeiger
+ANKER: departure-boards
+TEXT:
+Departure board of the trips needed – one board each for **passenger traffic** and **freight traffic**, plus one per station. Each row shows good or passengers, quantity, destination and pick-up point; texts that are too long scroll as a ticker. Completed trips turn green briefly, then the next hint moves up.
+
+- **Suggest suitable trains**: names the matching trains; off = only the information.
+- **Slower/Faster** (ticker), **Zoom** (font); a larger window shows more rows.
+- Tip: drag it onto a second monitor. Also available in the browser and via QR code on a phone or tablet.
+
+=== routen ===
+TITEL: Route display
+FENSTER: Routen-Anzeiger
+ANKER: route-display-as-a-window
+TEXT:
+A train seen from the side: previous, current and next block, turnouts, braking distance, stopping point, signal or buffer stop. The train is to scale with the block if iTrain reports the train length. At the bottom right **Braking** and **Expect stop**. **Sound on/off** for the sounds during a stop.
+
+=== modulanzeiger ===
+TITEL: Module display
+FENSTER: Modul-Anzeiger
+ANKER: the-module-display
+TEXT:
+Per block the train with load, passengers, destination and state. A module only shows its line tracks (set in “Edit layout” by right-clicking the module). Choose the module in the menu Boards → Module display → <module>; each field names its block. The same display is available in the browser, also for a single block – with a QR code to hang up at the block. At the top right the **sound on arrival**: bell, chime or horn; clicking the module in the overview plays it.
+
+=== uhr ===
+TITEL: Clock
+FENSTER: Uhr
+ANKER: the-clock
+TEXT:
+The model time from iTrain, **digital** or **analogue**. The display grows with the window. Right-click or **⚙**: digital/analogue, seconds, **Colours...**, default colours. In the browser: Boards → Displays in the browser → On this device → Clock; on a phone or tablet via **Clock on another device...** with QR code. The browser clock synchronises with the logistics every 5 seconds.
+
+=== simulator ===
+TITEL: Simulator
+FENSTER: iTrain-Logistik-Simulator | Vorgang starten
+ANKER: simulator
+TEXT:
+Replaces iTrain for planning and demonstrating: drag a train onto the left or right half of a block – the simulator reports arrival, wait, departure. **Record** and **Start sequence...** play back sequences.
+
+=== verbindung ===
+TITEL: Connection to iTrain
+FENSTER: Verbindung zu iTrain
+ANKER: step-7-connection-to-itrain-and-the-first-run
+TEXT:
+The logistics receives the train events via **XML TrainControl** (port 7128). Choose iTrain on this or another computer, **Check connection**, save and choose **Settings → iTrain connection**.
+
+=== assistent ===
+TITEL: Traffic assistant
+FENSTER: Verkehrs-Assistent
+ANKER: step-3-edit-layout-adding-the-stations
+TEXT:
+Builds up the traffic step by step: stations and tracks from iTrain, surroundings (town, village, industries), transport of a good from origin to consumer, and a check of the layout with trips per hour.
+
+=== hilfe_menue ===
+TITEL: Check with AI, Contact
+FENSTER: Mit der KI prüfen | Kontakt
+ANKER: the-help-menu
+TEXT:
+The files of your configuration are ready in a folder. Drag them with the mouse into the AI chat or into the e-mail (drag & drop), or open the folder.
+
+=== geraeusche ===
+TITEL: Sounds
+FENSTER: Geräusche
+ANKER: sounds
+TEXT:
+Logistics data → **Sounds...**: whether a sound plays when a symbol is clicked (off, once, as long as the window is open), volume, folder and the list of files with preview. The file name begins with the name of the symbol (“Möbelfabrik - Holz sägen.mp3”). The layout infrastructure has an ambient sound.
+
+=== voreinstellungen ===
+TITEL: Preferences
+FENSTER: Voreinstellungen | Einstellungen | Preferences
+ANKER: purpose-and-use
+TEXT:
+Language, colour scheme, 3D shadow, running light, arrow colours, grid, switched-off dialogs; clock; paths (iTrain images, sounds, AI file collection); iTrain connection (XML TrainControl); tabs; **Check for updates automatically at startup**.
+
+=== detail ===
+TITEL: Detail window
+FENSTER:
+ANKER: the-detail-window-of-a-symbol
+TEXT:
+Clicking a symbol in the overview opens its detail window: the same information as in the symbol, larger and more detailed, plus the **catchment area** (who hangs on this station).
+
+- Town: passengers, goods demand (open / per model hour), **satisfaction** with degree of fulfilment per good, statistics and satisfaction per model day, **Measures** (below 50 %).
+- Industry: recipe, blue bar = progress of the current run, state, stock, **fulfilment**, flow of goods per model day.
+- Station: per platform (= iTrain block) the waiting people with classes and capacity; freight yard: per loading track the goods (▼ waiting for collection, ▲ unloaded).
+- At the bottom: **Edit...**, **Set to 0**, **Slower/Faster** for this symbol only, **Pause**.
+
+=== ansichten ===
+TITEL: Views
+FENSTER: Routen | Fahrzeuge | Stationen | Lager | Städte | Industrien | Gesamt | Kreislauf | Kapazitäten | Ereignisse
+ANKER: the-views-menu
+TEXT:
+Tables on traffic and the supply chain, updated continuously. Trains, blocks, stations and routes come from iTrain.
+
+- Clicking a column header sorts ascending or descending; right-click hides and shows columns.
+- Double-clicking a row opens the matching window.
+- **Views → Dock top/bottom/left/right** attaches the table to the overview; **Detach** makes it a window again.
+- **Towns** and **Industries** show satisfaction or degree of fulfilment per good, **Total** what has to be collected where.
+
+=== hauptfenster ===
+TITEL: Main window
+FENSTER: iTrain-Logistik
+ANKER: symbols-and-frames
+TEXT:
+The **overview** shows your layout: stations with tracks, places, industries, warehouses. A yellow frame = train at the track, running light = exchange (green towards the station, red away from it), red text = hint, ☺/⚙ = satisfaction or fulfilment. Clicking a symbol opens its detail window.
+
+- **Edit layout**: create and connect symbols.
+- **Views**: tables on trains, stations, towns, industries; as a window or docked.
+- **Boards**: departure boards, route and module displays and clock – in a window or in the browser (with QR code).
+- Status bar: **Slower/Faster** (centre ×1), exchange, source of the train events.
+
+F1 shows the matching help in every window, **Help → Manual** the whole manual.
