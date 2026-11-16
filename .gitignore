@@ -39,3 +39,5 @@ hilfetexte/
 *.odt.bak
 *.tgz
 fehlt-*.txt
+# Handbücher liegen auf der Webseite (itrainplus.de/logistik-daten/Manual_Handbuch/)
+handbuch/
